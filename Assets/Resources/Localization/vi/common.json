@@ -1,0 +1,1688 @@
+{
+  "items": [
+    {
+      "key": "game_title",
+      "value": "Các Thế Hệ"
+    },
+    {
+      "key": "game_subtitle",
+      "value": "Một Tiểu Thuyết Trực Quan Về Cuộc Sống"
+    },
+    {
+      "key": "family_fund_label",
+      "value": "Ngân quỹ gia đình"
+    },
+    {
+      "key": "family_log_title",
+      "value": "Nhật ký gia đình"
+    },
+    {
+      "key": "year_label",
+      "value": "Năm"
+    },
+    {
+      "key": "family_tree_title",
+      "value": "Cây phả hệ"
+    },
+    {
+      "key": "default_family_name_placeholder",
+      "value": "Tên gia đình"
+    },
+    {
+      "key": "family_suffix",
+      "value": "Gia đình"
+    },
+    {
+      "key": "settings_button",
+      "value": "Cài đặt"
+    },
+    {
+      "key": "settings_modal_title",
+      "value": "Cài đặt trò chơi"
+    },
+    {
+      "key": "language_label",
+      "value": "Ngôn ngữ"
+    },
+    {
+      "key": "game_speed_label",
+      "value": "Tốc độ trò chơi"
+    },
+    {
+      "key": "play_again_button",
+      "value": "Chơi lại"
+    },
+    {
+      "key": "how_to_play_button",
+      "value": "Hướng dẫn"
+    },
+    {
+      "key": "quit_game_button",
+      "value": "Thoát"
+    },
+    {
+      "key": "resume_button",
+      "value": "Tiếp tục"
+    },
+    {
+      "key": "pause_button",
+      "value": "Tạm dừng"
+    },
+    {
+      "key": "speed_slow",
+      "value": "Chậm"
+    },
+    {
+      "key": "speed_normal",
+      "value": "Bình thường"
+    },
+    {
+      "key": "speed_fast",
+      "value": "Nhanh"
+    },
+    {
+      "key": "speed_very_fast",
+      "value": "Rất nhanh"
+    },
+    {
+      "key": "tab_log",
+      "value": "Nhật ký"
+    },
+    {
+      "key": "tab_assets",
+      "value": "Tài sản"
+    },
+    {
+      "key": "tab_businesses",
+      "value": "Kinh doanh"
+    },
+    {
+      "key": "tab_details",
+      "value": "Chi tiết"
+    },
+    {
+      "key": "tab_life_events",
+      "value": "Sự kiện cuộc đời"
+    },
+    {
+      "key": "scene_tree",
+      "value": "Gia phả"
+    },
+    {
+      "key": "scene_log",
+      "value": "Nhật ký"
+    },
+    {
+      "key": "scene_assets",
+      "value": "Tài sản"
+    },
+    {
+      "key": "scene_business",
+      "value": "Kinh doanh"
+    },
+    {
+      "key": "event_for",
+      "value": "Sự kiện cho"
+    },
+    {
+      "key": "for_char_label",
+      "value": "Cho"
+    },
+    {
+      "key": "cost_label",
+      "value": "Chi phí"
+    },
+    {
+      "key": "cancel_button",
+      "value": "Hủy"
+    },
+    {
+      "key": "back_button",
+      "value": "Quay lại"
+    },
+    {
+      "key": "stat_iq",
+      "value": "IQ"
+    },
+    {
+      "key": "stat_happiness",
+      "value": "Hạnh phúc"
+    },
+    {
+      "key": "stat_eq",
+      "value": "EQ"
+    },
+    {
+      "key": "stat_health",
+      "value": "Sức khỏe"
+    },
+    {
+      "key": "stat_skill",
+      "value": "Kỹ năng"
+    },
+    {
+      "key": "character_age",
+      "value": "{age} tuổi"
+    },
+    {
+      "key": "age_short",
+      "value": "tuổi"
+    },
+    {
+      "key": "deceased_at",
+      "value": "Mất lúc"
+    },
+    {
+      "key": "relationship_status_label",
+      "value": "Tình trạng: {status}"
+    },
+    {
+      "key": "relationship_label",
+      "value": "Tình trạng"
+    },
+    {
+      "key": "with_person",
+      "value": "với"
+    },
+    {
+      "key": "pet_label",
+      "value": "Thú cưng"
+    },
+    {
+      "key": "the_pet_type",
+      "value": ""
+    },
+    {
+      "key": "education_label",
+      "value": "Học vấn"
+    },
+    {
+      "key": "major_label",
+      "value": "Chuyên ngành"
+    },
+    {
+      "key": "career_label",
+      "value": "Sự nghiệp"
+    },
+    {
+      "key": "working_at_label",
+      "value": "Làm việc tại"
+    },
+    {
+      "key": "clubs_label",
+      "value": "Câu lạc bộ"
+    },
+    {
+      "key": "life_events_label",
+      "value": "Sự kiện cuộc đời"
+    },
+    {
+      "key": "education_none",
+      "value": "Chưa có"
+    },
+    {
+      "key": "education_high_school",
+      "value": "Bằng tốt nghiệp cấp 3"
+    },
+    {
+      "key": "education_vocational_diploma",
+      "value": "Chứng chỉ nghề"
+    },
+    {
+      "key": "education_university_display",
+      "value": "Đại học ({major_name})"
+    },
+    {
+      "key": "none",
+      "value": "Chưa có"
+    },
+    {
+      "key": "customize_button",
+      "value": "Tùy chỉnh"
+    },
+    {
+      "key": "no_events_for_character",
+      "value": "Chưa có sự kiện nào cho nhân vật này."
+    },
+    {
+      "key": "welcome_back_title",
+      "value": "Chào mừng trở lại!"
+    },
+    {
+      "key": "welcome_back_subtitle",
+      "value": "Lượt chơi trước của bạn đã được lưu."
+    },
+    {
+      "key": "continue_game_button",
+      "value": "Tiếp tục chơi"
+    },
+    {
+      "key": "start_new_game_button",
+      "value": "Bắt đầu mới"
+    },
+    {
+      "key": "start_game_button",
+      "value": "Bắt đầu"
+    },
+    {
+      "key": "story_button",
+      "value": "Cốt truyện"
+    },
+    {
+      "key": "choose_story_mode",
+      "value": "Chọn chế độ cốt truyện"
+    },
+    {
+      "key": "instructions_title",
+      "value": "Hướng dẫn chơi"
+    },
+    {
+      "key": "instructions_objective_title",
+      "value": "Mục tiêu"
+    },
+    {
+      "key": "instructions_objective_desc",
+      "value": "Mục tiêu của bạn là dẫn dắt một dòng họ và tồn tại cho đến khi thế hệ thứ 6 được sinh ra."
+    },
+    {
+      "key": "instructions_gameplay_title",
+      "value": "Cách chơi"
+    },
+    {
+      "key": "instructions_gameplay_desc",
+      "value": "Trò chơi tự động chạy theo từng ngày. Bạn có thể tạm dừng, tiếp tục và thay đổi tốc độ. Thời gian sẽ dừng lại khi có một sự kiện ngẫu nhiên hoặc một lựa chọn cuộc đời quan trọng (như chọn trường học) xảy ra, yêu cầu bạn đưa ra quyết định."
+    },
+    {
+      "key": "instructions_events_title",
+      "value": "Sự Kiện & Lựa Chọn"
+    },
+    {
+      "key": "instructions_events_desc",
+      "value": "Cuộc sống đầy rẫy những lựa chọn. Khi một sự kiện xảy ra, bạn phải quyết định cách nhân vật của mình phản ứng. Mỗi lựa chọn đều có hậu quả, có cái tức thì, có cái sâu rộng. Hãy lựa chọn một cách khôn ngoan."
+    },
+    {
+      "key": "instructions_stats_title",
+      "value": "Chỉ số & Hình đại diện"
+    },
+    {
+      "key": "instructions_stats_desc",
+      "value": "Nhấp vào hình đại diện của bất kỳ nhân vật nào để xem chi tiết các chỉ số của họ (IQ, Hạnh phúc, v.v.)."
+    },
+    {
+      "key": "instructions_phases_title",
+      "value": "Các giai đoạn cuộc đời"
+    },
+    {
+      "key": "instructions_phases_desc",
+      "value": "Các nhân vật sẽ trải qua các giai đoạn khác nhau của cuộc đời, từ Sơ sinh đến Nghỉ hưu. Mỗi giai đoạn sẽ mở ra các sự kiện và cơ hội mới."
+    },
+    {
+      "key": "instructions_finance_title",
+      "value": "Gia đình & Tài chính"
+    },
+    {
+      "key": "instructions_finance_desc",
+      "value": "Các nhân vật có thể kết hôn và sinh con. Vợ/chồng sẽ có việc làm và đóng góp vào Ngân quỹ chung của gia đình. Hãy sử dụng nó một cách khôn ngoan cho giáo dục, kinh doanh và các nhu cầu khác."
+    },
+    {
+      "key": "summary_victory_title",
+      "value": "Chúc mừng!"
+    },
+    {
+      "key": "summary_gameover_title",
+      "value": "Trò chơi kết thúc"
+    },
+    {
+      "key": "summary_victory_desc",
+      "value": "Bạn đã duy trì thành công dòng họ của mình đến thế hệ thứ 6."
+    },
+    {
+      "key": "summary_gameover_desc",
+      "value": "Dòng họ của bạn đã phá sản vì hết tiền. Bạn phải quản lý tài chính khôn ngoan hơn vào lần sau."
+    },
+    {
+      "key": "summary_gameover_desc_debt",
+      "value": "Dòng họ của bạn đã sụp đổ dưới gánh nặng nợ nần sau khi không thể trả được khoản vay."
+    },
+    {
+      "key": "summary_total_generations",
+      "value": "Tổng số thế hệ"
+    },
+    {
+      "key": "summary_total_members",
+      "value": "Tổng số thành viên"
+    },
+    {
+      "key": "summary_living_members",
+      "value": "Thành viên còn sống"
+    },
+    {
+      "key": "summary_deceased_members",
+      "value": "Thành viên đã mất"
+    },
+    {
+      "key": "summary_highest_education",
+      "value": "Học vấn cao nhất"
+    },
+    {
+      "key": "summary_highest_career",
+      "value": "Sự nghiệp cao nhất"
+    },
+    {
+      "key": "summary_final_funds",
+      "value": "Ngân quỹ cuối cùng"
+    },
+    {
+      "key": "summary_asset_value",
+      "value": "Giá trị tài sản"
+    },
+    {
+      "key": "summary_ending_year",
+      "value": "Năm kết thúc"
+    },
+    {
+      "key": "modal_school_title",
+      "value": "Chọn trường học"
+    },
+    {
+      "key": "modal_school_desc",
+      "value": "Đã đến lúc {name} phải đi học! Hãy chọn một con đường học vấn."
+    },
+    {
+      "key": "modal_university_title",
+      "value": "Học vấn cao hơn"
+    },
+    {
+      "key": "modal_university_desc",
+      "value": "{name} có nên học Đại học không? Việc này sẽ tốn kém nhưng có thể mở ra những cơ hội nghề nghiệp tốt hơn."
+    },
+    {
+      "key": "university_choice_yes",
+      "value": "Có, đầu tư cho tương lai"
+    },
+    {
+      "key": "university_choice_no",
+      "value": "Không, đi làm ngay bây giờ"
+    },
+    {
+      "key": "modal_major_title",
+      "value": "Chọn chuyên ngành"
+    },
+    {
+      "key": "modal_major_desc",
+      "value": "{name} sẽ học gì ở trường Đại học?"
+    },
+    {
+      "key": "modal_major_no_money",
+      "value": "Bạn không đủ tiền để học bất kỳ chuyên ngành nào trong số này."
+    },
+    {
+      "key": "modal_career_title",
+      "value": "Chọn một con đường sự nghiệp"
+    },
+    {
+      "key": "modal_career_desc",
+      "value": "{name} đã hoàn thành chương trình học. Họ nên theo đuổi con đường sự nghiệp nào?"
+    },
+    {
+      "key": "modal_loan_title",
+      "value": "Hỗ trợ tài chính"
+    },
+    {
+      "key": "modal_loan_desc",
+      "value": "Ngân quỹ gia đình của bạn đã bị âm! Để tránh phá sản ngay lập tức, bạn phải vay một khoản tín dụng. Vui lòng chọn số tiền và thời hạn trả nợ."
+    },
+    {
+      "key": "loan_amount_label",
+      "value": "Số tiền vay"
+    },
+    {
+      "key": "loan_term_label",
+      "value": "Thời hạn trả (Năm)"
+    },
+    {
+      "key": "accept_loan_button",
+      "value": "Chấp nhận khoản vay"
+    },
+    {
+      "key": "modal_promotion_title",
+      "value": "Cơ hội thăng tiến!"
+    },
+    {
+      "key": "modal_promotion_desc",
+      "value": "Sự chăm chỉ của {name} đã được ghi nhận! Họ đã được đề bạt lên vị trí {title}. Chúc mừng!"
+    },
+    {
+      "key": "accept_promotion_button",
+      "value": "Tuyệt vời!"
+    },
+    {
+      "key": "modal_underqualified_title",
+      "value": "Không đủ điều kiện cho vị trí"
+    },
+    {
+      "key": "modal_underqualified_desc",
+      "value": "{name} có chuyên ngành phù hợp với ngành {careerName}, nhưng không đáp ứng đủ các yêu cầu. Họ nên tiến hành như thế nào?"
+    },
+    {
+      "key": "underqualified_choice_trainee",
+      "value": "Trở thành Thực tập sinh"
+    },
+    {
+      "key": "underqualified_choice_trainee_desc",
+      "value": "Bắt đầu với mức lương rất thấp. Các chỉ số cần thiết của bạn sẽ tăng theo thời gian cho đến khi bạn đủ điều kiện cho vị trí chính thức."
+    },
+    {
+      "key": "underqualified_choice_penalized",
+      "value": "Chấp nhận vị trí bị phạt"
+    },
+    {
+      "key": "underqualified_choice_penalized_desc",
+      "value": "Bắt đầu ở mức lương thấp nhất. Tốc độ tăng kỹ năng và thăng chức của bạn sẽ bị phạt dựa trên mức độ thiếu hụt chỉ số."
+    },
+    {
+      "key": "underqualified_tooltip",
+      "value": "Thiếu yêu cầu:"
+    },
+    {
+      "key": "underqualified_tooltip_iq",
+      "value": "IQ ({shortfall} điểm)"
+    },
+    {
+      "key": "underqualified_tooltip_conf",
+      "value": "Tự tin ({shortfall} điểm)"
+    },
+    {
+      "key": "modal_club_choice_title",
+      "value": "Chọn một câu lạc bộ"
+    },
+    {
+      "key": "modal_club_choice_desc",
+      "value": "Đã đến lúc {name} tham gia một câu lạc bộ sau giờ học! Điều này có thể giúp định hình sự nghiệp tương lai của họ."
+    },
+    {
+      "key": "join_club",
+      "value": "Tham gia"
+    },
+    {
+      "key": "skip_clubs",
+      "value": "Bỏ qua bây giờ"
+    },
+    {
+      "key": "family_assets_title",
+      "value": "Tài sản gia đình"
+    },
+    {
+      "key": "total_value_label",
+      "value": "Tổng giá trị"
+    },
+    {
+      "key": "no_assets_message",
+      "value": "Chưa có tài sản nào. Bạn có thể mua tài sản bên dưới."
+    },
+    {
+      "key": "family_businesses_title",
+      "value": "Doanh nghiệp gia đình"
+    },
+    {
+      "key": "no_businesses_message",
+      "value": "Chưa sở hữu doanh nghiệp nào. Hãy mua một cái bên dưới!"
+    },
+    {
+      "key": "level_label",
+      "value": "Cấp"
+    },
+    {
+      "key": "upgrade_button",
+      "value": "Nâng cấp"
+    },
+    {
+      "key": "req_major_label",
+      "value": "Yêu cầu"
+    },
+    {
+      "key": "unskilled_major",
+      "value": "Không yêu cầu"
+    },
+    {
+      "key": "unassigned_option",
+      "value": "Chưa chỉ định"
+    },
+    {
+      "key": "hire_robot_option",
+      "value": "Thuê Robot"
+    },
+    {
+      "key": "family_members_label",
+      "value": "Thành viên gia đình"
+    },
+    {
+      "key": "purchase_business_title",
+      "value": "Mua doanh nghiệp mới"
+    },
+    {
+      "key": "base_revenue_label",
+      "value": "Doanh thu cơ bản"
+    },
+    {
+      "key": "buy_button",
+      "value": "Mua"
+    },
+    {
+      "key": "manage_button",
+      "value": "Quản lý"
+    },
+    {
+      "key": "manage_business_title",
+      "value": "Quản lý Doanh nghiệp"
+    },
+    {
+      "key": "select_business_to_manage",
+      "value": "Chọn doanh nghiệp bạn muốn quản lý"
+    },
+    {
+      "key": "business_map_intro",
+      "value": "Xem bản đồ thành phố để mua hoặc quản lý các doanh nghiệp của bạn."
+    },
+    {
+      "key": "salary_label",
+      "value": "Lương"
+    },
+    {
+      "key": "sell_button",
+      "value": "Bán"
+    },
+    {
+      "key": "phase_Newborn",
+      "value": "Sơ sinh"
+    },
+    {
+      "key": "phase_Elementary_School",
+      "value": "Tiểu học"
+    },
+    {
+      "key": "phase_Middle_School",
+      "value": "Trung học cơ sở"
+    },
+    {
+      "key": "phase_High_School",
+      "value": "Trung học phổ thông"
+    },
+    {
+      "key": "phase_University",
+      "value": "Đại học"
+    },
+    {
+      "key": "phase_Working_Life",
+      "value": "Đi làm"
+    },
+    {
+      "key": "phase_Retired",
+      "value": "Nghỉ hưu"
+    },
+    {
+      "key": "status_Idle",
+      "value": "Rảnh rỗi"
+    },
+    {
+      "key": "status_In_Education",
+      "value": "Đang đi học"
+    },
+    {
+      "key": "status_Working",
+      "value": "Đang đi làm"
+    },
+    {
+      "key": "status_Unemployed",
+      "value": "Thất nghiệp"
+    },
+    {
+      "key": "status_Internship",
+      "value": "Thực tập"
+    },
+    {
+      "key": "status_Vocational_Training",
+      "value": "Học nghề"
+    },
+    {
+      "key": "status_Retired",
+      "value": "Đã nghỉ hưu"
+    },
+    {
+      "key": "status_Trainee",
+      "value": "Thực tập sinh"
+    },
+    {
+      "key": "relationship_Single",
+      "value": "Độc thân"
+    },
+    {
+      "key": "relationship_Married",
+      "value": "Đã kết hôn"
+    },
+    {
+      "key": "scenario_classic_name",
+      "value": "Cổ điển"
+    },
+    {
+      "key": "scenario_classic_desc",
+      "value": "Bắt đầu ở tuổi 24 với 50.000 đô la và một nghề nghiệp ngẫu nhiên. Tùy bạn xây dựng một di sản từ đầu."
+    },
+    {
+      "key": "scenario_mila_name",
+      "value": "Gia đình Mila"
+    },
+    {
+      "key": "scenario_mila_desc",
+      "value": "Bước vào cuộc sống của một gia đình có sẵn, vượt qua thử thách và dẫn dắt họ đến sự thịnh vượng."
+    },
+    {
+      "key": "school_public",
+      "value": "Trường công"
+    },
+    {
+      "key": "school_private",
+      "value": "Trường tư"
+    },
+    {
+      "key": "school_royal",
+      "value": "Học viện Hoàng gia"
+    },
+    {
+      "key": "school_public_high",
+      "value": "Trường THPT công lập"
+    },
+    {
+      "key": "school_private_high",
+      "value": "Trường THPT tư thục"
+    },
+    {
+      "key": "school_royal_high",
+      "value": "Học viện Hoàng gia (cấp 3)"
+    },
+    {
+      "key": "major_business",
+      "value": "Kinh doanh"
+    },
+    {
+      "key": "major_business_desc",
+      "value": "Mở ra cơ hội nghề nghiệp trong quản lý và kinh doanh."
+    },
+    {
+      "key": "major_finance",
+      "value": "Tài chính"
+    },
+    {
+      "key": "major_finance_desc",
+      "value": "Mở ra cơ hội nghề nghiệp trong tài chính và kế toán."
+    },
+    {
+      "key": "major_marketing",
+      "value": "Marketing"
+    },
+    {
+      "key": "major_marketing_desc",
+      "value": "Mở ra cơ hội nghề nghiệp trong marketing và PR."
+    },
+    {
+      "key": "major_technology",
+      "value": "Công nghệ"
+    },
+    {
+      "key": "major_technology_desc",
+      "value": "Mở ra cơ hội nghề nghiệp trong lập trình và CNTT."
+    },
+    {
+      "key": "major_engineering",
+      "value": "Kỹ thuật"
+    },
+    {
+      "key": "major_engineering_desc",
+      "value": "Mở ra cơ hội nghề nghiệp trong các lĩnh vực kỹ thuật khác nhau."
+    },
+    {
+      "key": "major_arts",
+      "value": "Nghệ thuật"
+    },
+    {
+      "key": "major_arts_desc",
+      "value": "Mở ra các ngành nghề sáng tạo như thiết kế và viết lách."
+    },
+    {
+      "key": "major_medicine",
+      "value": "Y khoa"
+    },
+    {
+      "key": "major_medicine_desc",
+      "value": "Mở ra các ngành y tế có thu nhập cao."
+    },
+    {
+      "key": "major_culinary",
+      "value": "Nghệ thuật ẩm thực"
+    },
+    {
+      "key": "major_culinary_desc",
+      "value": "Mở ra cơ hội nghề nghiệp trong nấu ăn và quản lý nhà hàng."
+    },
+    {
+      "key": "major_kinesiology",
+      "value": "Khoa học vận động"
+    },
+    {
+      "key": "major_kinesiology_desc",
+      "value": "Mở ra cơ hội nghề nghiệp trong thể hình và huấn luyện."
+    },
+    {
+      "key": "major_agriculture",
+      "value": "Nông nghiệp"
+    },
+    {
+      "key": "major_agriculture_desc",
+      "value": "Mở ra cơ hội nghề nghiệp trong nông nghiệp và chăn nuôi."
+    },
+    {
+      "key": "major_logistics",
+      "value": "Logistics"
+    },
+    {
+      "key": "major_logistics_desc",
+      "value": "Mở ra cơ hội nghề nghiệp trong quản lý kho và chuỗi cung ứng."
+    },
+    {
+      "key": "career_unskilled_1",
+      "value": "Lao công"
+    },
+    {
+      "key": "career_unskilled_2",
+      "value": "Thu ngân"
+    },
+    {
+      "key": "career_unskilled_3",
+      "value": "Nhân viên bán hàng"
+    },
+    {
+      "key": "career_unskilled_4",
+      "value": "Giám sát cửa hàng"
+    },
+    {
+      "key": "career_trade_1",
+      "value": "Thợ điện tập sự"
+    },
+    {
+      "key": "career_trade_2",
+      "value": "Thợ điện lành nghề"
+    },
+    {
+      "key": "career_trade_3",
+      "value": "Thợ điện bậc thầy"
+    },
+    {
+      "key": "career_trade_4",
+      "value": "Quản đốc"
+    },
+    {
+      "key": "career_business_1",
+      "value": "Chuyên viên phân tích cấp dưới"
+    },
+    {
+      "key": "career_business_2",
+      "value": "Chuyên viên phân tích cấp cao"
+    },
+    {
+      "key": "career_business_3",
+      "value": "Quản lý"
+    },
+    {
+      "key": "career_business_4",
+      "value": "Giám đốc"
+    },
+    {
+      "key": "career_technology_1",
+      "value": "Lập trình viên cấp dưới"
+    },
+    {
+      "key": "career_technology_2",
+      "value": "Kỹ sư phần mềm"
+    },
+    {
+      "key": "career_technology_3",
+      "value": "Kỹ sư cấp cao"
+    },
+    {
+      "key": "career_technology_4",
+      "value": "Kỹ sư chính"
+    },
+    {
+      "key": "career_arts_1",
+      "value": "Trợ lý nghệ sĩ"
+    },
+    {
+      "key": "career_arts_2",
+      "value": "Nhà thiết kế đồ họa"
+    },
+    {
+      "key": "career_arts_3",
+      "value": "Giám đốc nghệ thuật"
+    },
+    {
+      "key": "career_arts_4",
+      "value": "Giám đốc sáng tạo"
+    },
+    {
+      "key": "career_medicine_1",
+      "value": "Bác sĩ nội trú"
+    },
+    {
+      "key": "career_medicine_2",
+      "value": "Bác sĩ đa khoa"
+    },
+    {
+      "key": "career_medicine_3",
+      "value": "Bác sĩ phẫu thuật"
+    },
+    {
+      "key": "career_medicine_4",
+      "value": "Trưởng khoa"
+    },
+    {
+      "key": "career_option_job",
+      "value": "Tìm việc"
+    },
+    {
+      "key": "career_option_job_desc",
+      "value": "Bắt đầu tìm kiếm một công việc cấp thấp ngay lập tức."
+    },
+    {
+      "key": "career_option_internship",
+      "value": "Thực tập"
+    },
+    {
+      "key": "career_option_internship_desc",
+      "value": "Một kỳ thực tập 1 năm. Lương thấp nhưng có cơ hội nhận được lời mời làm việc."
+    },
+    {
+      "key": "career_option_vocational",
+      "value": "Học nghề"
+    },
+    {
+      "key": "career_option_vocational_desc",
+      "value": "Một chương trình 3 năm để học một nghề."
+    },
+    {
+      "key": "major_match_tooltip",
+      "value": "Phù hợp với chuyên ngành của bạn"
+    },
+    {
+      "key": "pet_dog",
+      "value": "Chó"
+    },
+    {
+      "key": "pet_cat",
+      "value": "Mèo"
+    },
+    {
+      "key": "pet_parrot",
+      "value": "Vẹt"
+    },
+    {
+      "key": "pet_horse",
+      "value": "Ngựa"
+    },
+    {
+      "key": "pet_fish",
+      "value": "Cá/Rùa"
+    },
+    {
+      "key": "role_nurse",
+      "value": "Y tá"
+    },
+    {
+      "key": "role_doctor",
+      "value": "Bác sĩ"
+    },
+    {
+      "key": "role_head_nurse",
+      "value": "Y tá trưởng"
+    },
+    {
+      "key": "role_surgeon",
+      "value": "Bác sĩ phẫu thuật"
+    },
+    {
+      "key": "role_admin_staff",
+      "value": "Nhân viên hành chính"
+    },
+    {
+      "key": "role_chief_physician",
+      "value": "Trưởng khoa nội"
+    },
+    {
+      "key": "role_chief_surgeon",
+      "value": "Trưởng khoa ngoại"
+    },
+    {
+      "key": "role_researcher",
+      "value": "Nhà nghiên cứu"
+    },
+    {
+      "key": "role_manager",
+      "value": "Quản lý"
+    },
+    {
+      "key": "role_bank_teller",
+      "value": "Giao dịch viên"
+    },
+    {
+      "key": "role_loan_officer",
+      "value": "Chuyên viên tín dụng"
+    },
+    {
+      "key": "role_financial_analyst",
+      "value": "Chuyên viên phân tích tài chính"
+    },
+    {
+      "key": "role_investment_analyst",
+      "value": "Chuyên viên phân tích đầu tư"
+    },
+    {
+      "key": "role_it_support",
+      "value": "Hỗ trợ IT"
+    },
+    {
+      "key": "role_senior_manager",
+      "value": "Quản lý cấp cao"
+    },
+    {
+      "key": "role_chief_accountant",
+      "value": "Kế toán trưởng"
+    },
+    {
+      "key": "role_director",
+      "value": "Giám đốc"
+    },
+    {
+      "key": "role_lead_developer",
+      "value": "Trưởng nhóm lập trình"
+    },
+    {
+      "key": "role_copywriter",
+      "value": "Người viết quảng cáo"
+    },
+    {
+      "key": "role_designer",
+      "value": "Nhà thiết kế"
+    },
+    {
+      "key": "role_account_manager",
+      "value": "Quản lý khách hàng"
+    },
+    {
+      "key": "role_media_planner",
+      "value": "Chuyên viên hoạch định truyền thông"
+    },
+    {
+      "key": "role_art_director",
+      "value": "Giám đốc nghệ thuật"
+    },
+    {
+      "key": "role_marketing_lead",
+      "value": "Trưởng phòng Marketing"
+    },
+    {
+      "key": "role_pr_manager",
+      "value": "Trưởng phòng PR"
+    },
+    {
+      "key": "role_senior_editor",
+      "value": "Biên tập viên cấp cao"
+    },
+    {
+      "key": "role_qa_tester",
+      "value": "Nhân viên kiểm thử"
+    },
+    {
+      "key": "role_project_manager",
+      "value": "Quản lý dự án"
+    },
+    {
+      "key": "role_devops_engineer",
+      "value": "Kỹ sư DevOps"
+    },
+    {
+      "key": "role_machine_maintenance",
+      "value": "Bảo trì máy móc"
+    },
+    {
+      "key": "role_mechanical_engineer",
+      "value": "Kỹ sư cơ khí"
+    },
+    {
+      "key": "role_civil_engineer",
+      "value": "Kỹ sư xây dựng"
+    },
+    {
+      "key": "role_production_engineer",
+      "value": "Kỹ sư sản xuất"
+    },
+    {
+      "key": "role_quality_control",
+      "value": "Quản lý chất lượng"
+    },
+    {
+      "key": "role_receptionist",
+      "value": "Lễ tân"
+    },
+    {
+      "key": "role_curator",
+      "value": "Người phụ trách (bảo tàng)"
+    },
+    {
+      "key": "role_art_historian",
+      "value": "Nhà sử học nghệ thuật"
+    },
+    {
+      "key": "role_art_teacher",
+      "value": "Giáo viên mỹ thuật"
+    },
+    {
+      "key": "role_cashier",
+      "value": "Thu ngân"
+    },
+    {
+      "key": "role_service_staff",
+      "value": "Nhân viên phục vụ"
+    },
+    {
+      "key": "role_head_chef",
+      "value": "Bếp trưởng"
+    },
+    {
+      "key": "role_mixologist",
+      "value": "Chuyên gia pha chế"
+    },
+    {
+      "key": "role_head_trainer",
+      "value": "Huấn luyện viên trưởng"
+    },
+    {
+      "key": "role_lifeguard",
+      "value": "Nhân viên cứu hộ"
+    },
+    {
+      "key": "role_swimming_coach",
+      "value": "Huấn luyện viên bơi lội"
+    },
+    {
+      "key": "role_kinesiologist",
+      "value": "Nhà khoa học vận động"
+    },
+    {
+      "key": "role_general_laborer",
+      "value": "Lao động phổ thông"
+    },
+    {
+      "key": "role_farm_manager",
+      "value": "Quản lý nông trại"
+    },
+    {
+      "key": "role_agronomist",
+      "value": "Nhà nông học"
+    },
+    {
+      "key": "role_agricultural_engineer",
+      "value": "Kỹ sư nông nghiệp"
+    },
+    {
+      "key": "role_supply_chain_manager",
+      "value": "Quản lý chuỗi cung ứng"
+    },
+    {
+      "key": "role_stocker",
+      "value": "Nhân viên kho"
+    },
+    {
+      "key": "role_forklift_operator",
+      "value": "Người vận hành xe nâng"
+    },
+    {
+      "key": "role_warehouse_manager",
+      "value": "Quản lý kho"
+    },
+    {
+      "key": "role_logistics_coordinator",
+      "value": "Điều phối viên logistics"
+    },
+    {
+      "key": "business_medicine_t1_name",
+      "value": "Phòng khám địa phương"
+    },
+    {
+      "key": "business_medicine_t2_name",
+      "value": "Bệnh viện cộng đồng"
+    },
+    {
+      "key": "business_medicine_t3_name",
+      "value": "Trung tâm nghiên cứu y học"
+    },
+    {
+      "key": "business_finance_t1_name",
+      "value": "Quỹ tín dụng"
+    },
+    {
+      "key": "business_finance_t2_name",
+      "value": "Công ty đầu tư"
+    },
+    {
+      "key": "business_finance_t3_name",
+      "value": "Trụ sở ngân hàng lớn"
+    },
+    {
+      "key": "business_marketing_t1_name",
+      "value": "Công ty quảng cáo địa phương"
+    },
+    {
+      "key": "business_marketing_t2_name",
+      "value": "Công ty marketing kỹ thuật số"
+    },
+    {
+      "key": "business_marketing_t3_name",
+      "value": "Tập đoàn quảng cáo toàn cầu"
+    },
+    {
+      "key": "business_technology_t1_name",
+      "value": "Cửa hàng hỗ trợ CNTT"
+    },
+    {
+      "key": "business_technology_t2_name",
+      "value": "Studio phát triển phần mềm"
+    },
+    {
+      "key": "business_technology_t3_name",
+      "value": "Khuôn viên công nghệ lớn"
+    },
+    {
+      "key": "business_engineering_t1_name",
+      "value": "Xưởng sửa chữa"
+    },
+    {
+      "key": "business_engineering_t2_name",
+      "value": "Công ty xây dựng"
+    },
+    {
+      "key": "business_engineering_t3_name",
+      "value": "Nhà máy sản xuất tiên tiến"
+    },
+    {
+      "key": "business_arts_t1_name",
+      "value": "Phòng trưng bày nghệ thuật"
+    },
+    {
+      "key": "business_arts_t2_name",
+      "value": "Studio thiết kế"
+    },
+    {
+      "key": "business_arts_t3_name",
+      "value": "Nhà xuất bản lớn"
+    },
+    {
+      "key": "business_culinary_t1_name",
+      "value": "Quán ăn"
+    },
+    {
+      "key": "business_culinary_t2_name",
+      "value": "Nhà hàng sang trọng"
+    },
+    {
+      "key": "business_culinary_t3_name",
+      "value": "Khách sạn & Nhà hàng 5 sao"
+    },
+    {
+      "key": "business_kinesiology_t1_name",
+      "value": "Trung tâm Gym & Fitness"
+    },
+    {
+      "key": "business_kinesiology_t2_name",
+      "value": "Bể bơi công cộng"
+    },
+    {
+      "key": "business_kinesiology_t3_name",
+      "value": "Khu liên hợp thể thao chuyên nghiệp"
+    },
+    {
+      "key": "business_agriculture_t1_name",
+      "value": "Nông trại gia đình"
+    },
+    {
+      "key": "business_agriculture_t2_name",
+      "value": "Nông trại thương mại"
+    },
+    {
+      "key": "business_agriculture_t3_name",
+      "value": "Tập đoàn công nghệ nông nghiệp"
+    },
+    {
+      "key": "business_logistics_t1_name",
+      "value": "Kho nhỏ"
+    },
+    {
+      "key": "business_logistics_t2_name",
+      "value": "Trung tâm phân phối"
+    },
+    {
+      "key": "business_logistics_t3_name",
+      "value": "Cảng vận chuyển quốc tế"
+    },
+    {
+      "key": "event_birthday_title",
+      "value": "Sinh nhật"
+    },
+    {
+      "key": "event_new_phase_title",
+      "value": "Giai đoạn mới"
+    },
+    {
+      "key": "event_retirement_title",
+      "value": "Nghỉ hưu"
+    },
+    {
+      "key": "event_school_choice_title",
+      "value": "Chọn trường"
+    },
+    {
+      "key": "event_university_decision_title",
+      "value": "Quyết định Đại học"
+    },
+    {
+      "key": "event_major_choice_title",
+      "value": "Chọn chuyên ngành"
+    },
+    {
+      "key": "event_career_choice_title",
+      "value": "Chọn nghề"
+    },
+    {
+      "key": "event_underqualified_decision_title",
+      "value": "Quyết định nghề nghiệp"
+    },
+    {
+      "key": "event_loan_decision_title",
+      "value": "Quyết định vay tiền"
+    },
+    {
+      "key": "event_promotion_title",
+      "value": "Thăng chức"
+    },
+    {
+      "key": "event_business_assignment_title",
+      "value": "Phân công kinh doanh"
+    },
+    {
+      "key": "event_business_upgrade_title",
+      "value": "Nâng cấp kinh doanh"
+    },
+    {
+      "key": "event_business_purchase_title",
+      "value": "Mua kinh doanh"
+    },
+    {
+      "key": "event_asset_purchase_title",
+      "value": "Mua tài sản"
+    },
+    {
+      "key": "event_marriage_title",
+      "value": "Kết hôn"
+    },
+    {
+      "key": "event_birth_title",
+      "value": "Chào đời"
+    },
+    {
+      "key": "event_death_title",
+      "value": "Qua đời"
+    },
+    {
+      "key": "event_pet_adoption_log_title",
+      "value": "Nhận nuôi thú cưng"
+    },
+    {
+      "key": "event_club_join_title",
+      "value": "Đã tham gia câu lạc bộ"
+    },
+    {
+      "key": "log_first_generation",
+      "value": "{name} đã ra đời, bắt đầu thế hệ đầu tiên."
+    },
+    {
+      "key": "log_alone_start",
+      "value": "{name} đã tốt nghiệp và bắt đầu một cuộc sống mới với 50.000 đô la."
+    },
+    {
+      "key": "log_mila_start",
+      "value": "Bạn bắt đầu hành trình của mình với gia đình của Mila."
+    },
+    {
+      "key": "log_birthday",
+      "value": "{name} đã tròn {age} tuổi."
+    },
+    {
+      "key": "log_new_phase",
+      "value": "{name} bây giờ đang trong giai đoạn {phase}."
+    },
+    {
+      "key": "log_retired",
+      "value": "{name} đã nghỉ hưu."
+    },
+    {
+      "key": "log_promoted",
+      "value": "{name} đã được thăng chức lên {title}!"
+    },
+    {
+      "key": "log_internship_success",
+      "value": "Kỳ thực tập của {name} đã thành công! Họ được mời làm việc với vị trí {title}."
+    },
+    {
+      "key": "log_internship_fail",
+      "value": "Kỳ thực tập của {name} đã kết thúc mà không có lời mời làm việc."
+    },
+    {
+      "key": "log_status_end_unemployed",
+      "value": "{name} đã hoàn thành {status} và hiện đang thất nghiệp."
+    },
+    {
+      "key": "log_passed_away",
+      "value": "{name} đã qua đời ở tuổi {age}."
+    },
+    {
+      "key": "log_business_position_vacant",
+      "value": "Vị trí của {name} tại {businessName} đã bị bỏ trống."
+    },
+    {
+      "key": "log_enrolled_public_elementary",
+      "value": "{name} đã được ghi danh vào Trường tiểu học công lập."
+    },
+    {
+      "key": "log_enrolled_private_elementary",
+      "value": "{name} đã được ghi danh vào một Trường tiểu học tư thục danh tiếng."
+    },
+    {
+      "key": "log_enrolled_royal_elementary",
+      "value": "{name} đã được nhận vào Học viện Tiểu học Hoàng gia độc quyền."
+    },
+    {
+      "key": "log_enrolled_public_middle",
+      "value": "{name} hiện đang theo học Trường THCS công lập."
+    },
+    {
+      "key": "log_enrolled_private_middle",
+      "value": "{name} hiện đang theo học một Trường THCS tư thục tốt."
+    },
+    {
+      "key": "log_enrolled_royal_middle",
+      "value": "{name} tiếp tục học tại Học viện THCS Hoàng gia."
+    },
+    {
+      "key": "log_enrolled_public_high",
+      "value": "{name} đã bắt đầu học tại Trường THPT công lập địa phương."
+    },
+    {
+      "key": "log_enrolled_private_high",
+      "value": "{name} đã bắt đầu học tại một Trường THPT tư thục được đánh giá cao."
+    },
+    {
+      "key": "log_enrolled_royal_high",
+      "value": "{name} đã bước vào giai đoạn cuối của chương trình học tại Học viện Hoàng gia."
+    },
+    {
+      "key": "log_graduated_enter_workforce",
+      "value": "{name} đã tốt nghiệp và bây giờ sẵn sàng để đi làm."
+    },
+    {
+      "key": "log_vocational_enter_workforce",
+      "value": "{name} đã hoàn thành khóa học nghề và bây giờ sẵn sàng để đi làm."
+    },
+    {
+      "key": "log_enrolled_university",
+      "value": "{name} đã đăng ký vào Đại học để học ngành {major}."
+    },
+    {
+      "key": "log_abandon_university_for_work",
+      "value": "{name} không đủ tiền học bất kỳ chuyên ngành nào và phải đi làm."
+    },
+    {
+      "key": "log_found_job",
+      "value": "{name} đã tìm được việc làm là {title}."
+    },
+    {
+      "key": "log_became_trainee",
+      "value": "{name} đã trở thành Thực tập sinh tại {careerName} để tích lũy kinh nghiệm cần thiết."
+    },
+    {
+      "key": "log_accepted_penalized_job",
+      "value": "{name} đã chấp nhận một vị trí bị phạt với chức danh {title} do thiếu một số yêu cầu."
+    },
+    {
+      "key": "log_accepted_mismatched_job",
+      "value": "{name} đã chấp nhận công việc {title}. Do thiếu chuyên ngành phù hợp, tiến độ thăng tiến sự nghiệp của họ sẽ chậm hơn."
+    },
+    {
+      "key": "log_accepted_severely_underqualified_job",
+      "value": "{name} đã chấp nhận công việc {title}. Do thiếu cả chuyên ngành và chỉ số yêu cầu, tiến độ thăng tiến sự nghiệp của họ sẽ bị phạt rất nặng."
+    },
+    {
+      "key": "log_promoted_from_trainee",
+      "value": "Sau một thời gian đào tạo, {name} đã được thăng chức lên vị trí {title} chính thức!"
+    },
+    {
+      "key": "log_started_internship",
+      "value": "{name} đã bắt đầu một kỳ thực tập."
+    },
+    {
+      "key": "log_enrolled_vocational",
+      "value": "{name} đã đăng ký học nghề."
+    },
+    {
+      "key": "log_left_business_unemployed",
+      "value": "{name} đã rời khỏi vị trí của mình tại {businessName} và hiện đang thất nghiệp."
+    },
+    {
+      "key": "log_quit_job_for_business",
+      "value": "{name} đã nghỉ việc {oldJob} để làm việc tại {businessName}."
+    },
+    {
+      "key": "log_started_at_business",
+      "value": "{name} đã bắt đầu làm việc tại {businessName}."
+    },
+    {
+      "key": "log_business_upgraded",
+      "value": "{businessName} đã được nâng cấp!"
+    },
+    {
+      "key": "log_business_upgrade_fail",
+      "value": "Không đủ tiền để nâng cấp {businessName}."
+    },
+    {
+      "key": "log_business_purchase_fail",
+      "value": "Không đủ tiền để mua {businessName}."
+    },
+    {
+      "key": "log_business_purchased",
+      "value": "Gia đình đã mua {businessName}!"
+    },
+    {
+      "key": "log_married",
+      "value": "{name1} đã kết hôn với {name2}!"
+    },
+    {
+      "key": "log_spouse_joined_family",
+      "value": "{name} đã gia nhập gia đình, làm việc với vị trí {title}."
+    },
+    {
+      "key": "log_had_child",
+      "value": "{parent1} và {parent2} đã có một đứa con tên là {childName}."
+    },
+    {
+      "key": "log_had_twins",
+      "value": "{parent1} và {parent2} đã may mắn sinh đôi: {childName1} và {childName2}."
+    },
+    {
+      "key": "log_had_triplets",
+      "value": "{parent1} và {parent2} đã chào đón một cặp sinh ba: {childName1}, {childName2}, và {childName3}."
+    },
+    {
+      "key": "log_pet_already_owned",
+      "value": "{name} đã cân nhắc nuôi thêm thú cưng, nhưng quyết định một là đủ rồi."
+    },
+    {
+      "key": "log_pet_adopted",
+      "value": "{name} đã nhận nuôi một {petType} tên là {petName}!"
+    },
+    {
+      "key": "log_loan_taken",
+      "value": "Gia đình đã vay một khoản {amount}$ với thời hạn trả là {term} năm."
+    },
+    {
+      "key": "log_loan_repaid",
+      "value": "Gia đình đã trả thành công khoản vay {amount}$."
+    },
+    {
+      "key": "log_loan_repayment_due",
+      "value": "Một khoản vay {amount}$ sắp đến hạn trả trong năm nay."
+    },
+    {
+      "key": "log_joined_club",
+      "value": "{name} đã tham gia {clubName}."
+    },
+    {
+      "key": "club_sports",
+      "value": "Câu lạc bộ Thể thao"
+    },
+    {
+      "key": "club_sports_desc",
+      "value": "Tham gia câu lạc bộ thể thao để cải thiện sức khỏe và kỹ năng thể chất của bạn."
+    },
+    {
+      "key": "club_art",
+      "value": "Câu lạc bộ Nghệ thuật"
+    },
+    {
+      "key": "club_art_desc",
+      "value": "Giải phóng sự sáng tạo và trí tuệ cảm xúc của bạn trong câu lạc bộ nghệ thuật."
+    },
+    {
+      "key": "club_science",
+      "value": "Câu lạc bộ Khoa học"
+    },
+    {
+      "key": "club_science_desc",
+      "value": "Khám phá những điều kỳ diệu của khoa học và tăng cường IQ và kỹ năng giải quyết vấn đề của bạn."
+    },
+    {
+      "key": "log_business_locked",
+      "value": "Bạn cần có {requiredChildren} đứa trẻ để mở khóa tính năng kinh doanh."
+    },
+    {
+      "key": "event_business_locked_title",
+      "value": "Tính năng bị khóa"
+    },
+    {
+      "key": "avatar_customization_locked",
+      "value": "Bạn cần có {requiredChildren} đứa trẻ để mở khóa tùy chỉnh avatar."
+    },
+    {
+      "key": "unlocks_button_title",
+      "value": "Mục tiêu & Mở khóa"
+    },
+    {
+      "key": "unlocks_modal_title",
+      "value": "Mục tiêu & Mở khóa"
+    },
+    {
+      "key": "unlocked",
+      "value": "Đã mở khóa"
+    },
+    {
+      "key": "unlock_condition_children",
+      "value": "Con cái: {current} / {required}"
+    },
+    {
+      "key": "unlock_business_name",
+      "value": "Kinh doanh"
+    },
+    {
+      "key": "unlock_business_desc",
+      "value": "Thành lập doanh nghiệp của riêng bạn và xây dựng một đế chế thương mại."
+    },
+    {
+      "key": "unlock_custom_avatar_name",
+      "value": "Tùy chỉnh Avatar"
+    },
+    {
+      "key": "unlock_custom_avatar_desc",
+      "value": "Tự do tùy chỉnh ngoại hình của các thành viên trong gia đình."
+    },
+    {
+      "key": "unlock_twins_name",
+      "value": "Sinh đôi"
+    },
+    {
+      "key": "unlock_twins_desc",
+      "value": "Tăng cơ hội sinh được con sinh đôi."
+    },
+    {
+      "key": "unlock_triplets_name",
+      "value": "Sinh ba"
+    },
+    {
+      "key": "unlock_triplets_desc",
+      "value": "Mở ra một cơ hội nhỏ để có con sinh ba."
+    },
+    {
+      "key": "feature_mystery_box_name",
+      "value": "Hộp Bí ẩn"
+    },
+    {
+      "key": "feature_mystery_box_desc",
+      "value": "Một chiếc hộp bí ẩn chứa phần thưởng ngẫu nhiên. Đó có thể là bất cứ thứ gì, từ một khoản tiền mặt cho đến việc tăng chỉ số cho một thành viên trong gia đình!"
+    },
+    {
+      "key": "log_feature_unlocked",
+      "value": "Tính năng {featureName} đã được mở khóa!"
+    },
+    {
+      "key": "event_feature_unlocked_title",
+      "value": "Tính năng được mở khóa"
+    },
+    {
+      "key": "unlock_notification_title",
+      "value": "Chúc mừng!"
+    },
+    {
+      "key": "unlock_notification_body",
+      "value": "Bạn đã mở khóa tính năng {featureName}!"
+    },
+    {
+      "key": "unlock_notification_button",
+      "value": "Tuyệt vời!"
+    },
+    {
+      "key": "log_customize_avatar",
+      "value": "{name} đã chi {amount} để tùy chỉnh ngoại hình."
+    },
+    {
+      "key": "log_customize_avatar_ad",
+      "value": "{name} đã tùy chỉnh ngoại hình miễn phí bằng cách xem quảng cáo."
+    },
+    {
+      "key": "event_customize_avatar_title",
+      "value": "Ngoại hình đã được tùy chỉnh"
+    },
+    {
+      "key": "load_game_error_title",
+      "value": "Lỗi Tải Game"
+    },
+    {
+      "key": "load_game_error_message",
+      "value": "Không thể tải game đã lưu. Tệp có thể bị hỏng hoặc từ phiên bản cũ hơn. Dữ liệu đã lưu đã bị xóa."
+    }
+  ]
+}

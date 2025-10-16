@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using LifeSim.Core.Domain.Careers;
 using LifeSim.Core.Domain.Education;
+using LifeSim.Core.Data.Loaders;
 
 namespace LifeSim.Core.Data
 {
@@ -14,11 +15,11 @@ namespace LifeSim.Core.Data
 
         public static void LoadAll(string lang)
         {
-            SchoolOptions     = Loaders.JsonLoader.LoadSchoolOptions(lang);
-            UniversityMajors  = Loaders.JsonLoader.LoadUniversityMajors(lang);
-            CareerTracks      = Loaders.JsonLoader.LoadCareerTracks(lang);
-            UnlockableFeatures= Loaders.JsonLoader.LoadUnlockableFeatures(lang);
-            PathNodes         = Loaders.JsonLoader.LoadPathNodes();
+            SchoolOptions     = JsonLoader.LoadSchoolOptions(lang);
+            UniversityMajors  = JsonLoader.LoadUniversityMajors(lang);
+            CareerTracks      = JsonLoader.LoadCareerTracks(lang);
+            UnlockableFeatures= JsonLoader.LoadUnlockableFeatures(lang);
+            PathNodes         = JsonLoader.LoadPathNodes();
         }
     }
 }

@@ -1,0 +1,1284 @@
+{
+  "items": [
+    {
+      "key": "event_highschool_late_for_school_title",
+      "value": "Đi học muộn"
+    },
+    {
+      "key": "event_highschool_late_for_school_desc",
+      "value": "Bạn đi học muộn vì kẹt xe."
+    },
+    {
+      "key": "choice_highschool_late_for_school_1",
+      "value": "Xin lỗi giáo viên"
+    },
+    {
+      "key": "log_highschool_late_for_school_1",
+      "value": "Tôi đã xin lỗi và được vào lớp."
+    },
+    {
+      "key": "choice_highschool_late_for_school_2",
+      "value": "Đổ lỗi cho giao thông"
+    },
+    {
+      "key": "log_highschool_late_for_school_2",
+      "value": "Tôi giải thích là do kẹt xe, nhưng giáo viên vẫn tỏ ra nghi ngờ."
+    },
+    {
+      "key": "choice_highschool_late_for_school_3",
+      "value": "Lẻn vào lớp"
+    },
+    {
+      "key": "log_highschool_late_for_school_3",
+      "value": "Tôi đã cố gắng lẻn vào mà không bị chú ý."
+    },
+    {
+      "key": "event_highschool_forgot_presentation_book_title",
+      "value": "Quên sách thuyết trình"
+    },
+    {
+      "key": "event_highschool_forgot_presentation_book_desc",
+      "value": "Bạn quên mang theo sách cần thiết cho bài thuyết trình của mình."
+    },
+    {
+      "key": "choice_highschool_forgot_presentation_book_1",
+      "value": "Mượn bạn"
+    },
+    {
+      "key": "log_highschool_forgot_presentation_book_1",
+      "value": "Một người bạn đã cho tôi mượn sách, cứu nguy cho tôi."
+    },
+    {
+      "key": "choice_highschool_forgot_presentation_book_2",
+      "value": "Xin thầy cô cho qua"
+    },
+    {
+      "key": "log_highschool_forgot_presentation_book_2",
+      "value": "Tôi đã xin lỗi thầy cô, và họ đã thông cảm."
+    },
+    {
+      "key": "choice_highschool_forgot_presentation_book_3",
+      "value": "Giấu nhẹm"
+    },
+    {
+      "key": "log_highschool_forgot_presentation_book_3",
+      "value": "Tôi đã cố gắng thuyết trình mà không ai nhận ra."
+    },
+    {
+      "key": "event_highschool_football_practice_title",
+      "value": "Tập bóng bầu dục"
+    },
+    {
+      "key": "event_highschool_football_practice_desc",
+      "value": "Đã đến giờ tập bóng bầu dục."
+    },
+    {
+      "key": "choice_highschool_football_practice_1",
+      "value": "Tập trung luyện tập"
+    },
+    {
+      "key": "log_highschool_football_practice_1",
+      "value": "Tôi đã cống hiến hết mình trong buổi tập."
+    },
+    {
+      "key": "choice_highschool_football_practice_2",
+      "value": "Lười biếng"
+    },
+    {
+      "key": "log_highschool_football_practice_2",
+      "value": "Tôi đã lơ là trong các bài tập."
+    },
+    {
+      "key": "choice_highschool_football_practice_3",
+      "value": "Nói chuyện với bạn"
+    },
+    {
+      "key": "log_highschool_football_practice_3",
+      "value": "Tôi đã dành phần lớn thời gian tập luyện để nói chuyện với đồng đội."
+    },
+    {
+      "key": "event_highschool_college_prep_workshop_title",
+      "value": "Buổi hướng nghiệp đại học"
+    },
+    {
+      "key": "event_highschool_college_prep_workshop_desc",
+      "value": "Trường đang tổ chức một buổi hướng nghiệp để chuẩn bị cho việc nộp đơn vào đại học."
+    },
+    {
+      "key": "choice_highschool_college_prep_workshop_1",
+      "value": "Tham gia nghiêm túc"
+    },
+    {
+      "key": "log_highschool_college_prep_workshop_1",
+      "value": "Tôi đã tham gia nghiêm túc và học được rất nhiều."
+    },
+    {
+      "key": "choice_highschool_college_prep_workshop_2",
+      "value": "Ngồi chơi"
+    },
+    {
+      "key": "log_highschool_college_prep_workshop_2",
+      "value": "Tôi đã chán và chỉ nghịch điện thoại."
+    },
+    {
+      "key": "choice_highschool_college_prep_workshop_3",
+      "value": "Trốn ra ngoài"
+    },
+    {
+      "key": "log_highschool_college_prep_workshop_3",
+      "value": "Tôi đã lẻn ra ngoài khi không ai để ý."
+    },
+    {
+      "key": "event_highschool_sat_act_test_title",
+      "value": "Bài thi thử SAT/ACT"
+    },
+    {
+      "key": "event_highschool_sat_act_test_desc",
+      "value": "Bạn đang làm một bài thi thử cho kỳ thi tuyển sinh đại học."
+    },
+    {
+      "key": "choice_highschool_sat_act_test_1",
+      "value": "Làm nghiêm túc"
+    },
+    {
+      "key": "log_highschool_sat_act_test_1",
+      "value": "Tôi đã tập trung và cố gắng hết sức để chuẩn bị cho kỳ thi thật."
+    },
+    {
+      "key": "choice_highschool_sat_act_test_2",
+      "value": "Nói chuyện trong giờ"
+    },
+    {
+      "key": "log_highschool_sat_act_test_2",
+      "value": "Tôi bị bắt gặp đang thì thầm với một người bạn."
+    },
+    {
+      "key": "choice_highschool_sat_act_test_3",
+      "value": "Làm qua loa cho xong"
+    },
+    {
+      "key": "log_highschool_sat_act_test_3",
+      "value": "Tôi không coi trọng nó và chỉ muốn làm cho xong."
+    },
+    {
+      "key": "event_highschool_promposal_title",
+      "value": "Rủ crush đi prom"
+    },
+    {
+      "key": "event_highschool_promposal_desc",
+      "value": "Đã đến lúc rủ crush của bạn đi prom."
+    },
+    {
+      "key": "choice_highschool_promposal_1",
+      "value": "Chuẩn bị lãng mạn"
+    },
+    {
+      "key": "log_highschool_promposal_1",
+      "value": "Tôi đã lên kế hoạch cho một lời mời prom hoành tráng, lãng mạn."
+    },
+    {
+      "key": "choice_highschool_promposal_2",
+      "value": "Nói vội vàng"
+    },
+    {
+      "key": "log_highschool_promposal_2",
+      "value": "Tôi chỉ hỏi họ một cách nhanh chóng và vụng về."
+    },
+    {
+      "key": "choice_highschool_promposal_3",
+      "value": "Nhờ bạn bè phụ"
+    },
+    {
+      "key": "log_highschool_promposal_3",
+      "value": "Bạn bè đã giúp tôi nghĩ ra một ý tưởng hay."
+    },
+    {
+      "key": "event_highschool_prom_cafeteria_title",
+      "value": "Tìm bạn nhảy prom"
+    },
+    {
+      "key": "event_highschool_prom_cafeteria_desc",
+      "value": "Bạn đang ở trong căng tin, và crush của bạn đang ở gần. Đây là cơ hội tốt để nói về prom."
+    },
+    {
+      "key": "choice_highschool_prom_cafeteria_1",
+      "value": "Ngồi với bạn thân"
+    },
+    {
+      "key": "log_highschool_prom_cafeteria_1",
+      "value": "Tôi quyết định ngồi với bạn mình thay vào đó."
+    },
+    {
+      "key": "choice_highschool_prom_cafeteria_2",
+      "value": "Ngồi cạnh crush"
+    },
+    {
+      "key": "log_highschool_prom_cafeteria_2",
+      "value": "Tôi đã lấy hết can đảm và ngồi cạnh họ."
+    },
+    {
+      "key": "choice_highschool_prom_cafeteria_3",
+      "value": "Ngồi một mình"
+    },
+    {
+      "key": "log_highschool_prom_cafeteria_3",
+      "value": "Tôi quá lo lắng và cuối cùng ngồi một mình."
+    },
+    {
+      "key": "event_highschool_homecoming_game_title",
+      "value": "Diễu hành & Trận đấu Homecoming"
+    },
+    {
+      "key": "event_highschool_homecoming_game_desc",
+      "value": "Hôm nay là ngày của trận đấu và diễu hành homecoming lớn."
+    },
+    {
+      "key": "choice_highschool_homecoming_game_1",
+      "value": "Cổ vũ nhiệt tình"
+    },
+    {
+      "key": "log_highschool_homecoming_game_1",
+      "value": "Tôi đã thể hiện tinh thần trường học và cổ vũ hết mình."
+    },
+    {
+      "key": "choice_highschool_homecoming_game_2",
+      "value": "Bỏ trốn đi chơi"
+    },
+    {
+      "key": "log_highschool_homecoming_game_2",
+      "value": "Trận đấu chán quá, nên tôi đã đi chơi với vài người bạn."
+    },
+    {
+      "key": "choice_highschool_homecoming_game_3",
+      "value": "Ngồi một góc xem"
+    },
+    {
+      "key": "log_highschool_homecoming_game_3",
+      "value": "Tôi đã xem trận đấu một cách lặng lẽ từ khán đài."
+    },
+    {
+      "key": "event_highschool_class_test_title",
+      "value": "Kiểm tra trên lớp"
+    },
+    {
+      "key": "event_highschool_class_test_desc",
+      "value": "Bạn có một bài kiểm tra trên lớp."
+    },
+    {
+      "key": "choice_highschool_class_test_1",
+      "value": "Làm nghiêm túc"
+    },
+    {
+      "key": "log_highschool_class_test_1",
+      "value": "Tôi tập trung làm bài của mình."
+    },
+    {
+      "key": "choice_highschool_class_test_2",
+      "value": "Nhìn bài bạn"
+    },
+    {
+      "key": "log_highschool_class_test_2",
+      "value": "Tôi đã liếc bài của bạn cho một câu hỏi khó."
+    },
+    {
+      "key": "choice_highschool_class_test_3",
+      "value": "Viết đại vài dòng"
+    },
+    {
+      "key": "log_highschool_class_test_3",
+      "value": "Tôi không biết câu trả lời, nên chỉ viết bừa."
+    },
+    {
+      "key": "event_highschool_literature_discussion_title",
+      "value": "Thảo luận nhóm môn văn"
+    },
+    {
+      "key": "event_highschool_literature_discussion_desc",
+      "value": "Nhóm của bạn đang thảo luận về một cuốn sách trong giờ văn."
+    },
+    {
+      "key": "choice_highschool_literature_discussion_1",
+      "value": "Đưa ý kiến"
+    },
+    {
+      "key": "log_highschool_literature_discussion_1",
+      "value": "Tôi đã tích cực tham gia và chia sẻ phân tích của mình."
+    },
+    {
+      "key": "choice_highschool_literature_discussion_2",
+      "value": "Ngồi im lắng nghe"
+    },
+    {
+      "key": "log_highschool_literature_discussion_2",
+      "value": "Tôi thích nghe ý kiến của người khác hơn."
+    },
+    {
+      "key": "choice_highschool_literature_discussion_3",
+      "value": "Tranh luận gay gắt"
+    },
+    {
+      "key": "log_highschool_literature_discussion_3",
+      "value": "Tôi đã tranh luận nảy lửa về chủ đề của cuốn sách."
+    },
+    {
+      "key": "event_highschool_late_slip_title",
+      "value": "Bị ghi sổ đi muộn"
+    },
+    {
+      "key": "event_highschool_late_slip_desc",
+      "value": "Bạn đã bị ghi tên vì đi học muộn."
+    },
+    {
+      "key": "choice_highschool_late_slip_1",
+      "value": "Xin lỗi và hứa không tái phạm"
+    },
+    {
+      "key": "log_highschool_late_slip_1",
+      "value": "Tôi đã xin lỗi và hứa sẽ không tái phạm."
+    },
+    {
+      "key": "choice_highschool_late_slip_2",
+      "value": "Chấp nhận phạt"
+    },
+    {
+      "key": "log_highschool_late_slip_2",
+      "value": "Tôi đã chấp nhận bị phạt."
+    },
+    {
+      "key": "choice_highschool_late_slip_3",
+      "value": "Cãi lại vì lý do chính đáng"
+    },
+    {
+      "key": "log_highschool_late_slip_3",
+      "value": "Tôi đã cãi rằng kẹt xe là lý do chính đáng."
+    },
+    {
+      "key": "event_highschool_teacher_discovers_hiding_title",
+      "value": "Thầy cô phát hiện"
+    },
+    {
+      "key": "event_highschool_teacher_discovers_hiding_desc",
+      "value": "Giáo viên phát hiện bạn không có sách và đang cố giấu diếm."
+    },
+    {
+      "key": "choice_highschool_teacher_discovers_hiding_1",
+      "value": "Xin lỗi"
+    },
+    {
+      "key": "log_highschool_teacher_discovers_hiding_1",
+      "value": "Tôi đã xin lỗi vì đã quên và không thành thật."
+    },
+    {
+      "key": "choice_highschool_teacher_discovers_hiding_2",
+      "value": "Tìm cớ biện minh"
+    },
+    {
+      "key": "log_highschool_teacher_discovers_hiding_2",
+      "value": "Tôi đã cố gắng tìm một lý do."
+    },
+    {
+      "key": "choice_highschool_teacher_discovers_hiding_3",
+      "value": "Chấp nhận bị trừ điểm"
+    },
+    {
+      "key": "log_highschool_teacher_discovers_hiding_3",
+      "value": "Tôi chấp nhận điểm của mình sẽ bị hạ."
+    },
+    {
+      "key": "event_highschool_coach_punishment_title",
+      "value": "Bị huấn luyện viên phạt"
+    },
+    {
+      "key": "event_highschool_coach_punishment_desc",
+      "value": "Huấn luyện viên đã phạt bạn vì lười biếng trong lúc tập."
+    },
+    {
+      "key": "choice_highschool_coach_punishment_1",
+      "value": "Chạy thêm vòng"
+    },
+    {
+      "key": "log_highschool_coach_punishment_1",
+      "value": "Tôi đã phải chạy thêm vòng phạt."
+    },
+    {
+      "key": "choice_highschool_coach_punishment_2",
+      "value": "Ngồi nghỉ phạt"
+    },
+    {
+      "key": "log_highschool_coach_punishment_2",
+      "value": "Tôi phải ngồi ngoài trong phần còn lại của buổi tập."
+    },
+    {
+      "key": "choice_highschool_coach_punishment_3",
+      "value": "Cố gắng tập nghiêm túc"
+    },
+    {
+      "key": "log_highschool_coach_punishment_3",
+      "value": "Tôi bắt đầu tập luyện chăm chỉ hơn để bù đắp."
+    },
+    {
+      "key": "event_highschool_counselor_reprimand_title",
+      "value": "Bị cố vấn nhắc nhở"
+    },
+    {
+      "key": "event_highschool_counselor_reprimand_desc",
+      "value": "Cố vấn học tập đã nhắc nhở bạn vì không tham gia nghiêm túc."
+    },
+    {
+      "key": "choice_highschool_counselor_reprimand_1",
+      "value": "Quay lại tham gia"
+    },
+    {
+      "key": "log_highschool_counselor_reprimand_1",
+      "value": "Tôi đã tham gia lại buổi hướng nghiệp và chú ý."
+    },
+    {
+      "key": "choice_highschool_counselor_reprimand_2",
+      "value": "Giả vờ ghi chép"
+    },
+    {
+      "key": "log_highschool_counselor_reprimand_2",
+      "value": "Tôi giả vờ như đang tham gia."
+    },
+    {
+      "key": "choice_highschool_counselor_reprimand_3",
+      "value": "Lén tiếp tục lướt điện thoại"
+    },
+    {
+      "key": "log_highschool_counselor_reprimand_3",
+      "value": "Tôi cứ tiếp tục nhìn vào điện thoại của mình."
+    },
+    {
+      "key": "event_highschool_invigilator_warning_test_title",
+      "value": "Bị giám thị nhắc nhở"
+    },
+    {
+      "key": "event_highschool_invigilator_warning_test_desc",
+      "value": "Giám thị đã cảnh cáo bạn trong giờ thi."
+    },
+    {
+      "key": "choice_highschool_invigilator_warning_test_1",
+      "value": "Cúi đầu làm tiếp"
+    },
+    {
+      "key": "log_highschool_invigilator_warning_test_1",
+      "value": "Tôi tập trung vào bài thi của mình."
+    },
+    {
+      "key": "choice_highschool_invigilator_warning_test_2",
+      "value": "Cãi lại “em chỉ hỏi bạn”"
+    },
+    {
+      "key": "log_highschool_invigilator_warning_test_2",
+      "value": "Tôi đã cố gắng tự bào chữa."
+    },
+    {
+      "key": "choice_highschool_invigilator_warning_test_3",
+      "value": "Im lặng chịu trừ điểm"
+    },
+    {
+      "key": "log_highschool_invigilator_warning_test_3",
+      "value": "Tôi chấp nhận hậu quả."
+    },
+    {
+      "key": "event_highschool_crush_rejects_promposal_title",
+      "value": "Bị crush từ chối"
+    },
+    {
+      "key": "event_highschool_crush_rejects_promposal_desc",
+      "value": "Crush của bạn đã từ chối lời mời đi prom."
+    },
+    {
+      "key": "choice_highschool_crush_rejects_promposal_1",
+      "value": "Cười cho qua"
+    },
+    {
+      "key": "log_highschool_crush_rejects_promposal_1",
+      "value": "Tôi đã tỏ ra ngầu và cười cho qua."
+    },
+    {
+      "key": "choice_highschool_crush_rejects_promposal_2",
+      "value": "Ngại ngùng tránh mặt"
+    },
+    {
+      "key": "log_highschool_crush_rejects_promposal_2",
+      "value": "Quá xấu hổ để đối mặt với họ."
+    },
+    {
+      "key": "choice_highschool_crush_rejects_promposal_3",
+      "value": "Vẫn rủ đi chơi nhóm"
+    },
+    {
+      "key": "log_highschool_crush_rejects_promposal_3",
+      "value": "Tôi đề nghị chúng ta có thể đi cùng nhau như những người bạn."
+    },
+    {
+      "key": "event_highschool_teased_by_friends_crush_title",
+      "value": "Bị bạn bè trêu"
+    },
+    {
+      "key": "event_highschool_teased_by_friends_crush_desc",
+      "value": "Bạn bè đang trêu chọc bạn vì ngồi cạnh crush."
+    },
+    {
+      "key": "choice_highschool_teased_by_friends_crush_1",
+      "value": "Cười trừ"
+    },
+    {
+      "key": "log_highschool_teased_by_friends_crush_1",
+      "value": "Tôi chỉ cười cùng họ."
+    },
+    {
+      "key": "choice_highschool_teased_by_friends_crush_2",
+      "value": "Chuyển chỗ"
+    },
+    {
+      "key": "log_highschool_teased_by_friends_crush_2",
+      "value": "Tôi đã bối rối và chuyển đi."
+    },
+    {
+      "key": "choice_highschool_teased_by_friends_crush_3",
+      "value": "Đùa lại"
+    },
+    {
+      "key": "log_highschool_teased_by_friends_crush_3",
+      "value": "Tôi đã trêu lại họ."
+    },
+    {
+      "key": "event_highschool_caught_skipping_title",
+      "value": "Bị bắt gặp khi bỏ trốn"
+    },
+    {
+      "key": "event_highschool_caught_skipping_desc",
+      "value": "Một giám thị đã bắt gặp bạn trốn xem trận đấu."
+    },
+    {
+      "key": "choice_highschool_caught_skipping_1",
+      "value": "Biện minh “em đi vệ sinh”"
+    },
+    {
+      "key": "log_highschool_caught_skipping_1",
+      "value": "Tôi đã bịa ra một lý do."
+    },
+    {
+      "key": "choice_highschool_caught_skipping_2",
+      "value": "Chấp nhận bị ghi tên"
+    },
+    {
+      "key": "log_highschool_caught_skipping_2",
+      "value": "Tôi chấp nhận bị phạt."
+    },
+    {
+      "key": "choice_highschool_caught_skipping_3",
+      "value": "Lén quay lại lớp"
+    },
+    {
+      "key": "log_highschool_caught_skipping_3",
+      "value": "Tôi đã cố gắng lẻn về để tránh gặp thêm rắc rối."
+    },
+    {
+      "key": "event_highschool_teacher_reprimand_cheating_title",
+      "value": "Bị nhắc khi nhìn bài bạn"
+    },
+    {
+      "key": "event_highschool_teacher_reprimand_cheating_desc",
+      "value": "Giáo viên đã nhắc nhở bạn vì nhìn bài của bạn."
+    },
+    {
+      "key": "choice_highschool_teacher_reprimand_cheating_1",
+      "value": "Xin lỗi"
+    },
+    {
+      "key": "log_highschool_teacher_reprimand_cheating_1",
+      "value": "Tôi đã thừa nhận lỗi và xin lỗi."
+    },
+    {
+      "key": "choice_highschool_teacher_reprimand_cheating_2",
+      "value": "Giải thích “em chỉ nhìn quanh”"
+    },
+    {
+      "key": "log_highschool_teacher_reprimand_cheating_2",
+      "value": "Tôi đã cố gắng viện cớ."
+    },
+    {
+      "key": "choice_highschool_teacher_reprimand_cheating_3",
+      "value": "Chấp nhận bị trừ điểm"
+    },
+    {
+      "key": "log_highschool_teacher_reprimand_cheating_3",
+      "value": "Tôi chấp nhận bị phạt."
+    },
+    {
+      "key": "event_highschool_argument_with_friend_title",
+      "value": "Cãi nhau với bạn"
+    },
+    {
+      "key": "event_highschool_argument_with_friend_desc",
+      "value": "Bạn đã cãi nhau với bạn mình trong lúc thảo luận."
+    },
+    {
+      "key": "choice_highschool_argument_with_friend_1",
+      "value": "Xin lỗi"
+    },
+    {
+      "key": "log_highschool_argument_with_friend_1",
+      "value": "Tôi đã xin lỗi để mọi chuyện êm xuôi."
+    },
+    {
+      "key": "choice_highschool_argument_with_friend_2",
+      "value": "Tiếp tục tranh luận"
+    },
+    {
+      "key": "log_highschool_argument_with_friend_2",
+      "value": "Chúng tôi tiếp tục tranh luận về quan điểm của mình."
+    },
+    {
+      "key": "choice_highschool_argument_with_friend_3",
+      "value": "Rút lui im lặng"
+    },
+    {
+      "key": "log_highschool_argument_with_friend_3",
+      "value": "Tôi quyết định bỏ qua chủ đề này."
+    },
+    {
+      "key": "event_highschool_club_activity_title",
+      "value": "Hoạt động câu lạc bộ"
+    },
+    {
+      "key": "event_highschool_club_activity_desc",
+      "value": "Bạn đang ở một buổi họp câu lạc bộ."
+    },
+    {
+      "key": "choice_highschool_club_activity_1",
+      "value": "Tham gia sôi nổi"
+    },
+    {
+      "key": "log_highschool_club_activity_1",
+      "value": "Tôi đã rất tích cực trong các hoạt động của câu lạc bộ."
+    },
+    {
+      "key": "choice_highschool_club_activity_2",
+      "value": "Chỉ ngồi nghe"
+    },
+    {
+      "key": "log_highschool_club_activity_2",
+      "value": "Lần này tôi chỉ muốn ngồi nghe."
+    },
+    {
+      "key": "choice_highschool_club_activity_3",
+      "value": "Thử một buổi rồi nghỉ"
+    },
+    {
+      "key": "log_highschool_club_activity_3",
+      "value": "Câu lạc bộ này không dành cho tôi."
+    },
+    {
+      "key": "event_highschool_playing_sports_title",
+      "value": "Chơi thể thao ở sân trường"
+    },
+    {
+      "key": "event_highschool_playing_sports_desc",
+      "value": "Bạn đang chơi thể thao ở sân trường."
+    },
+    {
+      "key": "choice_highschool_playing_sports_1",
+      "value": "Tham gia đá bóng"
+    },
+    {
+      "key": "log_highschool_playing_sports_1",
+      "value": "Tôi đã tham gia một trận đá bóng."
+    },
+    {
+      "key": "choice_highschool_playing_sports_2",
+      "value": "Làm cổ động viên"
+    },
+    {
+      "key": "log_highschool_playing_sports_2",
+      "value": "Tôi đã cổ vũ cho bạn bè."
+    },
+    {
+      "key": "choice_highschool_playing_sports_3",
+      "value": "Ngồi ăn quà vặt"
+    },
+    {
+      "key": "log_highschool_playing_sports_3",
+      "value": "Tôi chỉ thư giãn và ăn vặt."
+    },
+    {
+      "key": "event_highschool_lunchtime_title",
+      "value": "Giờ ăn trưa"
+    },
+    {
+      "key": "event_highschool_lunchtime_desc",
+      "value": "Đã đến giờ ăn trưa."
+    },
+    {
+      "key": "choice_highschool_lunchtime_1",
+      "value": "Ăn với nhóm bạn thân"
+    },
+    {
+      "key": "log_highschool_lunchtime_1",
+      "value": "Tôi đã ăn trưa với những người bạn thân nhất."
+    },
+    {
+      "key": "choice_highschool_lunchtime_2",
+      "value": "Ngồi cùng lớp khác"
+    },
+    {
+      "key": "log_highschool_lunchtime_2",
+      "value": "Tôi ngồi với vài người bạn ở lớp khác."
+    },
+    {
+      "key": "choice_highschool_lunchtime_3",
+      "value": "Ăn nhanh rồi đi"
+    },
+    {
+      "key": "log_highschool_lunchtime_3",
+      "value": "Tôi có việc khác phải làm, nên đã ăn nhanh."
+    },
+    {
+      "key": "event_highschool_surprise_oral_exam_title",
+      "value": "Kiểm tra miệng bất ngờ"
+    },
+    {
+      "key": "event_highschool_surprise_oral_exam_desc",
+      "value": "Giáo viên bất ngờ kiểm tra miệng."
+    },
+    {
+      "key": "choice_highschool_surprise_oral_exam_1",
+      "value": "Trả lời được"
+    },
+    {
+      "key": "log_highschool_surprise_oral_exam_1",
+      "value": "Tôi đã có thể trả lời câu hỏi."
+    },
+    {
+      "key": "choice_highschool_surprise_oral_exam_2",
+      "value": "Ú ớ"
+    },
+    {
+      "key": "log_highschool_surprise_oral_exam_2",
+      "value": "Tôi bị bất ngờ và không trả lời tốt."
+    },
+    {
+      "key": "choice_highschool_surprise_oral_exam_3",
+      "value": "Cười xin thầy cô bỏ qua"
+    },
+    {
+      "key": "log_highschool_surprise_oral_exam_3",
+      "value": "Tôi đã cố gắng dùng sự quyến rũ để thoát khỏi nó."
+    },
+    {
+      "key": "event_highschool_library_study_group_title",
+      "value": "Buổi học nhóm ở thư viện"
+    },
+    {
+      "key": "event_highschool_library_study_group_desc",
+      "value": "Bạn đang trong một nhóm học ở thư viện."
+    },
+    {
+      "key": "choice_highschool_library_study_group_1",
+      "value": "Ôn tập chăm chỉ"
+    },
+    {
+      "key": "log_highschool_library_study_group_1",
+      "value": "Chúng tôi đã rất hiệu quả."
+    },
+    {
+      "key": "choice_highschool_library_study_group_2",
+      "value": "Vừa học vừa nói chuyện"
+    },
+    {
+      "key": "log_highschool_library_study_group_2",
+      "value": "Chúng tôi học một chút, nhưng chủ yếu là tán gẫu."
+    },
+    {
+      "key": "choice_highschool_library_study_group_3",
+      "value": "Ngồi nghe là chính"
+    },
+    {
+      "key": "log_highschool_library_study_group_3",
+      "value": "Tôi để người khác nói nhiều hơn."
+    },
+    {
+      "key": "event_highschool_teacher_praise_title",
+      "value": "Thầy cô khen trước lớp"
+    },
+    {
+      "key": "event_highschool_teacher_praise_desc",
+      "value": "Giáo viên đã khen bạn trước cả lớp."
+    },
+    {
+      "key": "choice_highschool_teacher_praise_1",
+      "value": "Ngại ngùng"
+    },
+    {
+      "key": "log_highschool_teacher_praise_1",
+      "value": "Tôi xấu hổ vì lời khen."
+    },
+    {
+      "key": "choice_highschool_teacher_praise_2",
+      "value": "Tự hào"
+    },
+    {
+      "key": "log_highschool_teacher_praise_2",
+      "value": "Thật tuyệt khi được công nhận."
+    },
+    {
+      "key": "choice_highschool_teacher_praise_3",
+      "value": "Giả vờ thờ ơ"
+    },
+    {
+      "key": "log_highschool_teacher_praise_3",
+      "value": "Tôi đã hành động như thể đó không phải là chuyện lớn."
+    },
+    {
+      "key": "event_highschool_teacher_criticism_title",
+      "value": "Thầy cô phê bình"
+    },
+    {
+      "key": "event_highschool_teacher_criticism_desc",
+      "value": "Giáo viên đã phê bình bạn."
+    },
+    {
+      "key": "choice_highschool_teacher_criticism_1",
+      "value": "Im lặng nghe"
+    },
+    {
+      "key": "log_highschool_teacher_criticism_1",
+      "value": "Tôi đã chấp nhận lời phê bình."
+    },
+    {
+      "key": "choice_highschool_teacher_criticism_2",
+      "value": "Cãi lại"
+    },
+    {
+      "key": "log_highschool_teacher_criticism_2",
+      "value": "Tôi đã cố gắng tự bào chữa."
+    },
+    {
+      "key": "choice_highschool_teacher_criticism_3",
+      "value": "Suy nghĩ buồn bã"
+    },
+    {
+      "key": "log_highschool_teacher_criticism_3",
+      "value": "Lời phê bình làm tôi buồn."
+    },
+    {
+      "key": "event_highschool_class_trip_title",
+      "value": "Dã ngoại cùng lớp"
+    },
+    {
+      "key": "event_highschool_class_trip_desc",
+      "value": "Bạn đang đi dã ngoại cùng lớp."
+    },
+    {
+      "key": "choice_highschool_class_trip_1",
+      "value": "Chụp ảnh kỷ niệm"
+    },
+    {
+      "key": "log_highschool_class_trip_1",
+      "value": "Tôi đã chụp rất nhiều ảnh để ghi nhớ chuyến đi."
+    },
+    {
+      "key": "choice_highschool_class_trip_2",
+      "value": "Tham gia trò chơi"
+    },
+    {
+      "key": "log_highschool_class_trip_2",
+      "value": "Tôi đã tham gia tất cả các hoạt động vui vẻ."
+    },
+    {
+      "key": "choice_highschool_class_trip_3",
+      "value": "Ngồi nói chuyện riêng"
+    },
+    {
+      "key": "log_highschool_class_trip_3",
+      "value": "Tôi đã dành thời gian trò chuyện với một người bạn thân."
+    },
+    {
+      "key": "event_highschool_class_debate_title",
+      "value": "Tranh luận trên lớp"
+    },
+    {
+      "key": "event_highschool_class_debate_desc",
+      "value": "Bạn đang trong một cuộc tranh luận trên lớp."
+    },
+    {
+      "key": "choice_highschool_class_debate_1",
+      "value": "Đưa ý kiến mạnh mẽ"
+    },
+    {
+      "key": "log_highschool_class_debate_1",
+      "value": "Tôi đã bảo vệ quan điểm của mình một cách mạnh mẽ."
+    },
+    {
+      "key": "choice_highschool_class_debate_2",
+      "value": "Lắng nghe bạn"
+    },
+    {
+      "key": "log_highschool_class_debate_2",
+      "value": "Tôi đã lắng nghe những gì người khác nói."
+    },
+    {
+      "key": "choice_highschool_class_debate_3",
+      "value": "Nói xen vài câu"
+    },
+    {
+      "key": "log_highschool_class_debate_3",
+      "value": "Tôi đã thêm một vài nhận xét vào cuộc thảo luận."
+    },
+    {
+      "key": "event_highschool_class_birthday_party_title",
+      "value": "Lớp tổ chức sinh nhật"
+    },
+    {
+      "key": "event_highschool_class_birthday_party_desc",
+      "value": "Lớp của bạn đang tổ chức sinh nhật."
+    },
+    {
+      "key": "choice_highschool_class_birthday_party_1",
+      "value": "Hát chúc mừng"
+    },
+    {
+      "key": "log_highschool_class_birthday_party_1",
+      "value": "Tôi đã hát cùng mọi người."
+    },
+    {
+      "key": "choice_highschool_class_birthday_party_2",
+      "value": "Ăn bánh"
+    },
+    {
+      "key": "log_highschool_class_birthday_party_2",
+      "value": "Bánh kem là phần tuyệt nhất."
+    },
+    {
+      "key": "choice_highschool_class_birthday_party_3",
+      "value": "Đùa giỡn"
+    },
+    {
+      "key": "log_highschool_class_birthday_party_3",
+      "value": "Tôi là người khuấy động bữa tiệc."
+    },
+    {
+      "key": "event_highschool_sports_day_title",
+      "value": "Ngày hội thể thao"
+    },
+    {
+      "key": "event_highschool_sports_day_desc",
+      "value": "Hôm nay là ngày hội thể thao của trường."
+    },
+    {
+      "key": "choice_highschool_sports_day_1",
+      "value": "Thi chạy"
+    },
+    {
+      "key": "log_highschool_sports_day_1",
+      "value": "Tôi đã tham gia một cuộc thi chạy."
+    },
+    {
+      "key": "choice_highschool_sports_day_2",
+      "value": "Nhảy xa"
+    },
+    {
+      "key": "log_highschool_sports_day_2",
+      "value": "Tôi đã cố gắng hết sức trong môn nhảy xa."
+    },
+    {
+      "key": "choice_highschool_sports_day_3",
+      "value": "Làm cổ động viên"
+    },
+    {
+      "key": "log_highschool_sports_day_3",
+      "value": "Tôi đã cổ vũ cho bạn bè."
+    },
+    {
+      "key": "event_highschool_chemistry_test_title",
+      "value": "Bài kiểm tra hóa học"
+    },
+    {
+      "key": "event_highschool_chemistry_test_desc",
+      "value": "Bạn có một bài kiểm tra hóa học."
+    },
+    {
+      "key": "choice_highschool_chemistry_test_1",
+      "value": "Làm đúng quy trình"
+    },
+    {
+      "key": "log_highschool_chemistry_test_1",
+      "value": "Tôi đã cẩn thận làm theo các bước."
+    },
+    {
+      "key": "choice_highschool_chemistry_test_2",
+      "value": "Thử sáng tạo"
+    },
+    {
+      "key": "log_highschool_chemistry_test_2",
+      "value": "Tôi đã thử nghiệm một chút."
+    },
+    {
+      "key": "choice_highschool_chemistry_test_3",
+      "value": "Hỏi bạn bên cạnh"
+    },
+    {
+      "key": "log_highschool_chemistry_test_3",
+      "value": "Tôi cần một chút giúp đỡ từ bạn cùng lớp."
+    },
+    {
+      "key": "event_highschool_meeting_teacher_outside_title",
+      "value": "Gặp thầy cô ngoài trường"
+    },
+    {
+      "key": "event_highschool_meeting_teacher_outside_desc",
+      "value": "Bạn gặp một giáo viên ở ngoài trường."
+    },
+    {
+      "key": "choice_highschool_meeting_teacher_outside_1",
+      "value": "Chào hỏi"
+    },
+    {
+      "key": "log_highschool_meeting_teacher_outside_1",
+      "value": "Tôi đã chào giáo viên của mình."
+    },
+    {
+      "key": "choice_highschool_meeting_teacher_outside_2",
+      "value": "Cười gượng"
+    },
+    {
+      "key": "log_highschool_meeting_teacher_outside_2",
+      "value": "Hơi khó xử một chút."
+    },
+    {
+      "key": "choice_highschool_meeting_teacher_outside_3",
+      "value": "Giả vờ không thấy"
+    },
+    {
+      "key": "log_highschool_meeting_teacher_outside_3",
+      "value": "Tôi đã tránh ánh mắt."
+    },
+    {
+      "key": "event_highschool_international_visitor_title",
+      "value": "Có khách quốc tế tới lớp"
+    },
+    {
+      "key": "event_highschool_international_visitor_desc",
+      "value": "Có một vị khách quốc tế trong lớp của bạn."
+    },
+    {
+      "key": "choice_highschool_international_visitor_1",
+      "value": "Nói chuyện tiếng Anh"
+    },
+    {
+      "key": "log_highschool_international_visitor_1",
+      "value": "Tôi đã thực hành tiếng Anh của mình với vị khách."
+    },
+    {
+      "key": "choice_highschool_international_visitor_2",
+      "value": "Cười chào"
+    },
+    {
+      "key": "log_highschool_international_visitor_2",
+      "value": "Tôi đã chào đón họ một cách thân thiện."
+    },
+    {
+      "key": "choice_highschool_international_visitor_3",
+      "value": "Ngồi im"
+    },
+    {
+      "key": "log_highschool_international_visitor_3",
+      "value": "Tôi quá nhút nhát để nói bất cứ điều gì."
+    },
+    {
+      "key": "event_highschool_parent_teacher_meeting_title",
+      "value": "Buổi họp phụ huynh"
+    },
+    {
+      "key": "event_highschool_parent_teacher_meeting_desc",
+      "value": "Hôm nay là ngày họp phụ huynh."
+    },
+    {
+      "key": "choice_highschool_parent_teacher_meeting_1",
+      "value": "Ngồi im lắng nghe"
+    },
+    {
+      "key": "log_highschool_parent_teacher_meeting_1",
+      "value": "Tôi đã lắng nghe những gì giáo viên nói."
+    },
+    {
+      "key": "choice_highschool_parent_teacher_meeting_2",
+      "value": "Hồi hộp"
+    },
+    {
+      "key": "log_highschool_parent_teacher_meeting_2",
+      "value": "Tôi lo lắng về những gì giáo viên sẽ nói."
+    },
+    {
+      "key": "choice_highschool_parent_teacher_meeting_3",
+      "value": "Thì thầm với bạn"
+    },
+    {
+      "key": "log_highschool_parent_teacher_meeting_3",
+      "value": "Bạn tôi và tôi đã thì thầm trong suốt cuộc họp."
+    },
+    {
+      "key": "event_highschool_museum_trip_title",
+      "value": "Dã ngoại bảo tàng"
+    },
+    {
+      "key": "event_highschool_museum_trip_desc",
+      "value": "Bạn đang đi dã ngoại ở một bảo tàng."
+    },
+    {
+      "key": "choice_highschool_museum_trip_1",
+      "value": "Chăm chú nghe"
+    },
+    {
+      "key": "log_highschool_museum_trip_1",
+      "value": "Tôi thấy các hiện vật rất thú vị."
+    },
+    {
+      "key": "choice_highschool_museum_trip_2",
+      "value": "Chỉ nhìn quanh"
+    },
+    {
+      "key": "log_highschool_museum_trip_2",
+      "value": "Tôi chủ yếu chỉ đi lang thang."
+    },
+    {
+      "key": "choice_highschool_museum_trip_3",
+      "value": "Đùa giỡn nhỏ"
+    },
+    {
+      "key": "log_highschool_museum_trip_3",
+      "value": "Tôi đã đùa giỡn với bạn bè."
+    },
+    {
+      "key": "event_highschool_prom_prep_title",
+      "value": "Chuẩn bị prom"
+    },
+    {
+      "key": "event_highschool_prom_prep_desc",
+      "value": "Prom sắp đến và bạn cần chuẩn bị."
+    },
+    {
+      "key": "choice_highschool_prom_prep_1",
+      "value": "Mua quần áo"
+    },
+    {
+      "key": "log_highschool_prom_prep_1",
+      "value": "Tôi đã đi mua sắm để tìm bộ trang phục hoàn hảo."
+    },
+    {
+      "key": "choice_highschool_prom_prep_2",
+      "value": "Rủ nhóm bạn cùng đi"
+    },
+    {
+      "key": "log_highschool_prom_prep_2",
+      "value": "Tôi quyết định đi prom cùng bạn bè."
+    },
+    {
+      "key": "choice_highschool_prom_prep_3",
+      "value": "Ngồi nhà xem phim"
+    },
+    {
+      "key": "log_highschool_prom_prep_3",
+      "value": "Prom không phải là sở thích của tôi."
+    },
+    {
+      "key": "event_highschool_talent_show_title",
+      "value": "Lớp có thi văn nghệ"
+    },
+    {
+      "key": "event_highschool_talent_show_desc",
+      "value": "Lớp của bạn có một buổi thi văn nghệ."
+    },
+    {
+      "key": "choice_highschool_talent_show_1",
+      "value": "Tham gia hát múa"
+    },
+    {
+      "key": "log_highschool_talent_show_1",
+      "value": "Tôi quyết định biểu diễn trong chương trình."
+    },
+    {
+      "key": "choice_highschool_talent_show_2",
+      "value": "Làm hậu cần"
+    },
+    {
+      "key": "log_highschool_talent_show_2",
+      "value": "Tôi đã giúp đỡ công tác hậu cần."
+    },
+    {
+      "key": "choice_highschool_talent_show_3",
+      "value": "Ngồi xem"
+    },
+    {
+      "key": "log_highschool_talent_show_3",
+      "value": "Tôi thích xem các bạn cùng lớp biểu diễn."
+    },
+    {
+      "key": "event_highschool_exam_results_title",
+      "value": "Nhận kết quả thi"
+    },
+    {
+      "key": "event_highschool_exam_results_desc",
+      "value": "Bạn đã nhận được kết quả thi của mình."
+    },
+    {
+      "key": "choice_highschool_exam_results_1",
+      "value": "Vui mừng khoe"
+    },
+    {
+      "key": "log_highschool_exam_results_1",
+      "value": "Tôi tự hào về kết quả của mình."
+    },
+    {
+      "key": "choice_highschool_exam_results_2",
+      "value": "Im lặng giữ"
+    },
+    {
+      "key": "log_highschool_exam_results_2",
+      "value": "Tôi giữ kết quả cho riêng mình."
+    },
+    {
+      "key": "choice_highschool_exam_results_3",
+      "value": "Buồn bã"
+    },
+    {
+      "key": "log_highschool_exam_results_3",
+      "value": "Tôi thất vọng với điểm số của mình."
+    },
+    {
+      "key": "event_highschool_sharing_food_title",
+      "value": "Chia sẻ đồ ăn"
+    },
+    {
+      "key": "event_highschool_sharing_food_desc",
+      "value": "Bạn đang chia sẻ đồ ăn với bạn bè."
+    },
+    {
+      "key": "choice_highschool_sharing_food_1",
+      "value": "Cho bạn một phần"
+    },
+    {
+      "key": "log_highschool_sharing_food_1",
+      "value": "Tôi đã chia sẻ đồ ăn nhẹ của mình với một người bạn."
+    },
+    {
+      "key": "choice_highschool_sharing_food_2",
+      "value": "Đổi món ăn"
+    },
+    {
+      "key": "log_highschool_sharing_food_2",
+      "value": "Chúng tôi đã trao đổi một số món trong bữa trưa."
+    },
+    {
+      "key": "choice_highschool_sharing_food_3",
+      "value": "Giữ phần mình"
+    },
+    {
+      "key": "log_highschool_sharing_food_3",
+      "value": "Hôm nay tôi đói quá không chia sẻ được."
+    }
+  ]
+}

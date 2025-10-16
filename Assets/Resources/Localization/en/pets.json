@@ -1,0 +1,252 @@
+{
+  "items": [
+    {
+      "key": "event_pet_adoption_title",
+      "value": "Pet Adoption Opportunity"
+    },
+    {
+      "key": "event_pet_adoption_desc",
+      "value": "A local animal shelter is holding an adoption event. Do you want to take a look?"
+    },
+    {
+      "key": "choice_pet_adoption_1",
+      "value": "Yes, let's find a new friend!"
+    },
+    {
+      "key": "log_pet_adoption_1",
+      "value": "I decided to adopt a new companion."
+    },
+    {
+      "key": "choice_pet_adoption_2",
+      "value": "No, now is not the time."
+    },
+    {
+      "key": "log_pet_adoption_2",
+      "value": "I've decided it's not the right time to get a pet."
+    },
+    {
+      "key": "event_pet_sick_title",
+      "value": "Pet is Sick"
+    },
+    {
+      "key": "event_pet_sick_desc",
+      "value": "Your pet seems unwell and lethargic."
+    },
+    {
+      "key": "choice_pet_sick_1",
+      "value": "Take it to the vet."
+    },
+    {
+      "key": "log_pet_sick_1",
+      "value": "The vet gave some medicine, and my pet is recovering."
+    },
+    {
+      "key": "choice_pet_sick_2",
+      "value": "Let it rest on its own."
+    },
+    {
+      "key": "log_pet_sick_2",
+      "value": "I hope my pet will recover on its own after some rest."
+    },
+    {
+      "key": "event_pet_damages_item_title",
+      "value": "Pet Damages Item"
+    },
+    {
+      "key": "event_pet_damages_item_desc",
+      "value": "You come home to find that your pet has damaged a valuable item."
+    },
+    {
+      "key": "choice_pet_damages_item_1",
+      "value": "Forgive and retrain it."
+    },
+    {
+      "key": "log_pet_damages_item_1",
+      "value": "It's just an animal, after all."
+    },
+    {
+      "key": "choice_pet_damages_item_2",
+      "value": "Scold it harshly."
+    },
+    {
+      "key": "log_pet_damages_item_2",
+      "value": "My pet seems scared after being scolded."
+    },
+    {
+      "key": "event_pet_lost_title",
+      "value": "Pet is Lost"
+    },
+    {
+      "key": "event_pet_lost_desc",
+      "value": "Your pet has gone missing!"
+    },
+    {
+      "key": "choice_pet_lost_1",
+      "value": "Search everywhere."
+    },
+    {
+      "key": "log_pet_lost_1",
+      "value": "I put up posters and searched everywhere."
+    },
+    {
+      "key": "choice_pet_lost_2",
+      "value": "Wait for it to return on its own."
+    },
+    {
+      "key": "log_pet_lost_2",
+      "value": "I hope it finds its way home."
+    },
+    {
+      "key": "event_pet_contest_title",
+      "value": "Pet Contest"
+    },
+    {
+      "key": "event_pet_contest_desc",
+      "value": "There's a pet contest in town."
+    },
+    {
+      "key": "choice_pet_contest_1",
+      "value": "Enter the contest."
+    },
+    {
+      "key": "log_pet_contest_1",
+      "value": "This is a chance for my pet to shine."
+    },
+    {
+      "key": "choice_pet_contest_2",
+      "value": "Do not participate."
+    },
+    {
+      "key": "log_pet_contest_2",
+      "value": "We're not interested in contests."
+    },
+    {
+      "key": "event_pet_gets_old_title",
+      "value": "Pet Gets Old"
+    },
+    {
+      "key": "event_pet_gets_old_desc",
+      "value": "Your pet has grown old and weak."
+    },
+    {
+      "key": "choice_pet_gets_old_1",
+      "value": "Take good care of it."
+    },
+    {
+      "key": "log_pet_gets_old_1",
+      "value": "I will be with it in its final days."
+    },
+    {
+      "key": "choice_pet_gets_old_2",
+      "value": "Euthanize it."
+    },
+    {
+      "key": "log_pet_gets_old_2",
+      "value": "It was a difficult decision, but I didn't want it to suffer."
+    },
+    {
+      "key": "event_pet_sickness_worsens_title",
+      "value": "Pet's Sickness Worsens"
+    },
+    {
+      "key": "event_pet_sickness_worsens_desc",
+      "value": "Your pet's condition is getting worse."
+    },
+    {
+      "key": "choice_pet_sickness_worsens_1",
+      "value": "Take it to the veterinary hospital."
+    },
+    {
+      "key": "log_pet_sickness_worsens_1",
+      "value": "My pet needs special care."
+    },
+    {
+      "key": "choice_pet_sickness_worsens_2",
+      "value": "Care for it at home."
+    },
+    {
+      "key": "log_pet_sickness_worsens_2",
+      "value": "I'll do everything I can for it at home."
+    },
+    {
+      "key": "event_pet_found_title",
+      "value": "Pet Found!"
+    },
+    {
+      "key": "event_pet_found_desc",
+      "value": "A neighbor found your pet!"
+    },
+    {
+      "key": "choice_pet_found_1",
+      "value": "What a relief!"
+    },
+    {
+      "key": "log_pet_found_1",
+      "value": "I am so happy to be reunited with my little friend."
+    },
+    {
+      "key": "event_pet_lost_forever_title",
+      "value": "Pet Lost Forever"
+    },
+    {
+      "key": "event_pet_lost_forever_desc",
+      "value": "Despite searching, you could not find your pet."
+    },
+    {
+      "key": "choice_pet_lost_forever_1",
+      "value": "Feel very sad."
+    },
+    {
+      "key": "log_pet_lost_forever_1",
+      "value": "I will never forget it."
+    },
+    {
+      "key": "event_pet_contest_win_title",
+      "value": "Won the Contest!"
+    },
+    {
+      "key": "event_pet_contest_win_desc",
+      "value": "Your pet won the contest!"
+    },
+    {
+      "key": "choice_pet_contest_win_1",
+      "value": "So proud!"
+    },
+    {
+      "key": "log_pet_contest_win_1",
+      "value": "My pet is the best!"
+    },
+    {
+      "key": "event_pet_contest_lose_title",
+      "value": "Lost the Contest"
+    },
+    {
+      "key": "event_pet_contest_lose_desc",
+      "value": "Your pet did not win the contest."
+    },
+    {
+      "key": "choice_pet_contest_lose_1",
+      "value": "It's okay."
+    },
+    {
+      "key": "log_pet_contest_lose_1",
+      "value": "The important thing is that we participated."
+    },
+    {
+      "key": "event_pet_dies_title",
+      "value": "Pet Passes Away"
+    },
+    {
+      "key": "event_pet_dies_desc",
+      "value": "Your beloved pet has passed away."
+    },
+    {
+      "key": "choice_pet_dies_1",
+      "value": "Hold a small funeral."
+    },
+    {
+      "key": "log_pet_dies_1",
+      "value": "Rest in peace, my dear friend."
+    }
+  ]
+}

@@ -1,0 +1,1340 @@
+{
+  "items": [
+    {
+      "key": "event_flu_title",
+      "value": "Bị cúm"
+    },
+    {
+      "key": "event_flu_desc",
+      "value": "Bạn bị cúm, người mệt mỏi và đau nhức."
+    },
+    {
+      "key": "choice_flu_1",
+      "value": "Đi khám bác sĩ và uống thuốc."
+    },
+    {
+      "key": "log_flu_1",
+      "value": "Thuốc giúp tôi hồi phục nhanh chóng."
+    },
+    {
+      "key": "choice_flu_2",
+      "value": "Nghỉ ngơi ở nhà và uống nhiều nước."
+    },
+    {
+      "key": "log_flu_2",
+      "value": "Tôi tự điều trị, hồi phục chậm hơn."
+    },
+    {
+      "key": "choice_flu_3",
+      "value": "Phớt lờ và vẫn đi học/đi làm."
+    },
+    {
+      "key": "log_flu_3",
+      "value": "Bệnh nặng thêm và bị người khác phàn nàn."
+    },
+    {
+      "key": "event_sickness_worsens_title",
+      "value": "Bệnh trở nặng"
+    },
+    {
+      "key": "event_sickness_worsens_desc",
+      "value": "Tình trạng sức khỏe của bạn xấu đi rõ rệt."
+    },
+    {
+      "key": "choice_sickness_worsens_1",
+      "value": "Đi bệnh viện ngay lập tức."
+    },
+    {
+      "key": "log_sickness_worsens_1",
+      "value": "Tôi được chữa trị và dần hồi phục."
+    },
+    {
+      "key": "choice_sickness_worsens_2",
+      "value": "Tiếp tục nằm nghỉ ở nhà."
+    },
+    {
+      "key": "log_sickness_worsens_2",
+      "value": "Bệnh kéo dài dai dẳng."
+    },
+    {
+      "key": "choice_sickness_worsens_3",
+      "value": "Nhờ gia đình chăm sóc."
+    },
+    {
+      "key": "log_sickness_worsens_3",
+      "value": "Tinh thần khá hơn, nhưng vẫn yếu."
+    },
+    {
+      "key": "event_chronic_illness_title",
+      "value": "Bệnh mãn tính"
+    },
+    {
+      "key": "event_chronic_illness_desc",
+      "value": "Bác sĩ chẩn đoán bạn mắc bệnh mãn tính."
+    },
+    {
+      "key": "choice_chronic_illness_1",
+      "value": "Tuân thủ điều trị nghiêm túc."
+    },
+    {
+      "key": "log_chronic_illness_1",
+      "value": "Tôi kiểm soát bệnh ổn định."
+    },
+    {
+      "key": "choice_chronic_illness_2",
+      "value": "Bỏ qua lời khuyên của bác sĩ."
+    },
+    {
+      "key": "log_chronic_illness_2",
+      "value": "Tình trạng trở nên tệ hơn."
+    },
+    {
+      "key": "choice_chronic_illness_3",
+      "value": "Tham gia nhóm hỗ trợ bệnh nhân."
+    },
+    {
+      "key": "log_chronic_illness_3",
+      "value": "Tôi tìm được sự động viên và an ủi."
+    },
+    {
+      "key": "event_traffic_accident_title",
+      "value": "Tai nạn giao thông"
+    },
+    {
+      "key": "event_traffic_accident_desc",
+      "value": "Bạn gặp một vụ va chạm nhỏ."
+    },
+    {
+      "key": "choice_traffic_accident_1",
+      "value": "Hòa giải và đền bù hợp lý."
+    },
+    {
+      "key": "log_traffic_accident_1",
+      "value": "Mọi việc kết thúc êm đẹp."
+    },
+    {
+      "key": "choice_traffic_accident_2",
+      "value": "Cãi nhau, đổ lỗi cho người khác."
+    },
+    {
+      "key": "log_traffic_accident_2",
+      "value": "Tranh cãi chỉ làm mất thời gian."
+    },
+    {
+      "key": "choice_traffic_accident_3",
+      "value": "Gọi công an giao thông."
+    },
+    {
+      "key": "log_traffic_accident_3",
+      "value": "Xử lý lâu hơn nhưng công bằng."
+    },
+    {
+      "key": "event_sued_title",
+      "value": "Bị kiện"
+    },
+    {
+      "key": "event_sued_desc",
+      "value": "Bạn nhận được giấy triệu tập ra tòa."
+    },
+    {
+      "key": "choice_sued_1",
+      "value": "Thuê luật sư bào chữa."
+    },
+    {
+      "key": "log_sued_1",
+      "value": "Vụ việc được giải quyết ổn thỏa."
+    },
+    {
+      "key": "choice_sued_2",
+      "value": "Tự biện hộ."
+    },
+    {
+      "key": "log_sued_2",
+      "value": "Tôi thua kiện và thiệt hại nặng."
+    },
+    {
+      "key": "choice_sued_3",
+      "value": "Thương lượng với bên kia."
+    },
+    {
+      "key": "log_sued_3",
+      "value": "Chúng tôi dàn xếp nhưng tôi mất uy tín."
+    },
+    {
+      "key": "event_lottery_win_title",
+      "value": "Trúng số độc đắc"
+    },
+    {
+      "key": "event_lottery_win_desc",
+      "value": "Bạn trúng một khoản tiền lớn."
+    },
+    {
+      "key": "choice_lottery_win_1",
+      "value": "Đầu tư dài hạn."
+    },
+    {
+      "key": "log_lottery_win_1",
+      "value": "Tiền sinh lợi, tương lai ổn định."
+    },
+    {
+      "key": "choice_lottery_win_2",
+      "value": "Tiêu xài thoải mái."
+    },
+    {
+      "key": "log_lottery_win_2",
+      "value": "Vui sướng ngắn ngủi, tiền vơi nhanh."
+    },
+    {
+      "key": "choice_lottery_win_3",
+      "value": "Gửi ngân hàng."
+    },
+    {
+      "key": "log_lottery_win_3",
+      "value": "Tiền an toàn nhưng lãi ít."
+    },
+    {
+      "key": "event_friends_exploit_title",
+      "value": "Bạn bè lợi dụng"
+    },
+    {
+      "key": "event_friends_exploit_desc",
+      "value": "Sau khi bạn trúng số, nhiều người đến vay tiền."
+    },
+    {
+      "key": "choice_friends_exploit_1",
+      "value": "Cho vay một ít."
+    },
+    {
+      "key": "log_friends_exploit_1",
+      "value": "Có người biết ơn, có người không trả."
+    },
+    {
+      "key": "choice_friends_exploit_2",
+      "value": "Từ chối khéo léo."
+    },
+    {
+      "key": "log_friends_exploit_2",
+      "value": "Tôi nhận ra ai mới thật sự là bạn."
+    },
+    {
+      "key": "choice_friends_exploit_3",
+      "value": "Cắt đứt liên lạc."
+    },
+    {
+      "key": "log_friends_exploit_3",
+      "value": "Tránh rắc rối nhưng thấy cô đơn."
+    },
+    {
+      "key": "event_lose_friend_title",
+      "value": "Mất bạn"
+    },
+    {
+      "key": "event_lose_friend_desc",
+      "value": "Một người bạn không còn nói chuyện với bạn."
+    },
+    {
+      "key": "choice_lose_friend_1",
+      "value": "Chủ động hỏi lý do."
+    },
+    {
+      "key": "log_lose_friend_1",
+      "value": "Chúng tôi nói chuyện lại, hơi gượng gạo."
+    },
+    {
+      "key": "choice_lose_friend_2",
+      "value": "Chấp nhận và buông bỏ."
+    },
+    {
+      "key": "log_lose_friend_2",
+      "value": "Tôi buồn nhưng tiếp tục sống."
+    },
+    {
+      "key": "choice_lose_friend_3",
+      "value": "Làm ngơ lại."
+    },
+    {
+      "key": "log_lose_friend_3",
+      "value": "Tình bạn lặng lẽ chấm dứt."
+    },
+    {
+      "key": "event_lost_wallet_title",
+      "value": "Mất ví"
+    },
+    {
+      "key": "event_lost_wallet_desc",
+      "value": "Bạn phát hiện mình bị mất ví."
+    },
+    {
+      "key": "choice_lost_wallet_1",
+      "value": "Báo công an và làm lại giấy tờ."
+    },
+    {
+      "key": "log_lost_wallet_1",
+      "value": "Mất công sức nhưng an toàn."
+    },
+    {
+      "key": "choice_lost_wallet_2",
+      "value": "Hy vọng có người trả lại."
+    },
+    {
+      "key": "log_lost_wallet_2",
+      "value": "Ví không bao giờ quay về."
+    },
+    {
+      "key": "choice_lost_wallet_3",
+      "value": "Mượn tiền bạn bè tạm thời."
+    },
+    {
+      "key": "log_lost_wallet_3",
+      "value": "Bạn bè giúp tôi vượt khó."
+    },
+    {
+      "key": "event_buy_house_title",
+      "value": "Mua nhà"
+    },
+    {
+      "key": "event_buy_house_desc",
+      "value": "Gia đình bạn tính mua nhà mới."
+    },
+    {
+      "key": "choice_buy_house_1",
+      "value": "Mua nhà lớn."
+    },
+    {
+      "key": "log_buy_house_1",
+      "value": "Sống rộng rãi nhưng nợ nần chồng chất."
+    },
+    {
+      "key": "choice_buy_house_2",
+      "value": "Mua nhà nhỏ vừa túi tiền."
+    },
+    {
+      "key": "log_buy_house_2",
+      "value": "Ấm cúng, dễ quản lý."
+    },
+    {
+      "key": "choice_buy_house_3",
+      "value": "Tiếp tục thuê."
+    },
+    {
+      "key": "log_buy_house_3",
+      "value": "Linh hoạt nhưng không ổn định."
+    },
+    {
+      "key": "event_buy_car_title",
+      "value": "Mua xe"
+    },
+    {
+      "key": "event_buy_car_desc",
+      "value": "Bạn đang cân nhắc mua xe hơi."
+    },
+    {
+      "key": "choice_buy_car_1",
+      "value": "Mua xe sang."
+    },
+    {
+      "key": "log_buy_car_1",
+      "value": "Xe đẹp nhưng hao tài."
+    },
+    {
+      "key": "choice_buy_car_2",
+      "value": "Mua xe phổ thông."
+    },
+    {
+      "key": "log_buy_car_2",
+      "value": "Phục vụ tốt nhu cầu hàng ngày."
+    },
+    {
+      "key": "choice_buy_car_3",
+      "value": "Đi phương tiện công cộng."
+    },
+    {
+      "key": "log_buy_car_3",
+      "value": "Tiết kiệm nhưng bất tiện."
+    },
+    {
+      "key": "event_burglary_title",
+      "value": "Trộm đột nhập"
+    },
+    {
+      "key": "event_burglary_desc",
+      "value": "Nhà bạn bị kẻ trộm lẻn vào."
+    },
+    {
+      "key": "choice_burglary_1",
+      "value": "Báo công an và lắp bảo mật."
+    },
+    {
+      "key": "log_burglary_1",
+      "value": "Chúng tôi lắp hệ thống chống trộm mới."
+    },
+    {
+      "key": "choice_burglary_2",
+      "value": "Đối mặt với tên trộm."
+    },
+    {
+      "key": "log_burglary_2",
+      "value": "Tôi bị thương, quyết định liều lĩnh."
+    },
+    {
+      "key": "choice_burglary_3",
+      "value": "Trốn và gọi hàng xóm."
+    },
+    {
+      "key": "log_burglary_3",
+      "value": "Được giúp kịp thời và an toàn."
+    },
+    {
+      "key": "event_online_scam_title",
+      "value": "Lừa đảo trực tuyến"
+    },
+    {
+      "key": "event_online_scam_desc",
+      "value": "Bạn nhận được email hứa hẹn lợi nhuận lớn."
+    },
+    {
+      "key": "choice_online_scam_1",
+      "value": "Tin và nhấp vào."
+    },
+    {
+      "key": "log_online_scam_1",
+      "value": "Tôi mất tiền vì quá cả tin."
+    },
+    {
+      "key": "choice_online_scam_2",
+      "value": "Phớt lờ."
+    },
+    {
+      "key": "log_online_scam_2",
+      "value": "Tôi an toàn, không dính bẫy."
+    },
+    {
+      "key": "choice_online_scam_3",
+      "value": "Báo cáo là lừa đảo."
+    },
+    {
+      "key": "log_online_scam_3",
+      "value": "Người khác cũng được cảnh báo."
+    },
+    {
+      "key": "event_charity_donation_title",
+      "value": "Quyên góp từ thiện"
+    },
+    {
+      "key": "event_charity_donation_desc",
+      "value": "Một tổ chức kêu gọi ủng hộ."
+    },
+    {
+      "key": "choice_charity_donation_1",
+      "value": "Quyên góp nhiều."
+    },
+    {
+      "key": "log_charity_donation_1",
+      "value": "Tôi hạnh phúc vì giúp được nhiều người."
+    },
+    {
+      "key": "choice_charity_donation_2",
+      "value": "Quyên góp ít."
+    },
+    {
+      "key": "log_charity_donation_2",
+      "value": "Ít nhưng ý nghĩa."
+    },
+    {
+      "key": "choice_charity_donation_3",
+      "value": "Không quyên góp."
+    },
+    {
+      "key": "log_charity_donation_3",
+      "value": "Tôi giữ tiền lo cho gia đình."
+    },
+    {
+      "key": "event_job_loss_social_crisis_title",
+      "value": "Mất việc vì khủng hoảng"
+    },
+    {
+      "key": "event_job_loss_social_crisis_desc",
+      "value": "Công ty cắt giảm, bạn bị cho nghỉ."
+    },
+    {
+      "key": "choice_job_loss_social_crisis_1",
+      "value": "Nhanh chóng tìm việc mới."
+    },
+    {
+      "key": "log_job_loss_social_crisis_1",
+      "value": "Tôi có cơ hội nhưng rất căng thẳng."
+    },
+    {
+      "key": "choice_job_loss_social_crisis_2",
+      "value": "Tạm nghỉ ngơi."
+    },
+    {
+      "key": "log_job_loss_social_crisis_2",
+      "value": "Tôi thoải mái nhưng mất thu nhập."
+    },
+    {
+      "key": "choice_job_loss_social_crisis_3",
+      "value": "Học nghề mới."
+    },
+    {
+      "key": "log_job_loss_social_crisis_3",
+      "value": "Khó khăn ban đầu nhưng mở lối khác."
+    },
+    {
+      "key": "event_natural_disaster_title",
+      "value": "Thiên tai"
+    },
+    {
+      "key": "event_natural_disaster_desc",
+      "value": "Một thảm họa thiên nhiên ập đến."
+    },
+    {
+      "key": "choice_natural_disaster_1",
+      "value": "Bảo vệ gia đình trước tiên."
+    },
+    {
+      "key": "log_natural_disaster_1",
+      "value": "Mọi người an toàn nhưng hoảng sợ."
+    },
+    {
+      "key": "choice_natural_disaster_2",
+      "value": "Cứu đồ đạc."
+    },
+    {
+      "key": "log_natural_disaster_2",
+      "value": "Giữ được tài sản nhưng rất nguy hiểm."
+    },
+    {
+      "key": "choice_natural_disaster_3",
+      "value": "Tham gia cứu trợ cộng đồng."
+    },
+    {
+      "key": "log_natural_disaster_3",
+      "value": "Khó khăn nhưng tôi tự hào đã giúp."
+    },
+    {
+      "key": "event_street_assault_title",
+      "value": "Bị tấn công trên phố"
+    },
+    {
+      "key": "event_street_assault_desc",
+      "value": "Bạn bị một kẻ lạ tấn công."
+    },
+    {
+      "key": "choice_street_assault_1",
+      "value": "Chống trả và bỏ chạy."
+    },
+    {
+      "key": "log_street_assault_1",
+      "value": "Tôi thoát được nhưng bị thương."
+    },
+    {
+      "key": "choice_street_assault_2",
+      "value": "Đưa đồ để bảo toàn tính mạng."
+    },
+    {
+      "key": "log_street_assault_2",
+      "value": "Tôi an toàn nhưng mất tài sản."
+    },
+    {
+      "key": "choice_street_assault_3",
+      "value": "La hét cầu cứu."
+    },
+    {
+      "key": "log_street_assault_3",
+      "value": "Người xung quanh đến giúp."
+    },
+    {
+      "key": "log_asset_lost_robbery",
+      "value": "{name} bị cướp mất: {assetName}."
+    },
+    {
+      "key": "event_getting_lost_title",
+      "value": "Lạc đường"
+    },
+    {
+      "key": "event_getting_lost_desc",
+      "value": "Bạn bị lạc ở nơi xa lạ."
+    },
+    {
+      "key": "choice_getting_lost_1",
+      "value": "Dùng bản đồ/GPS."
+    },
+    {
+      "key": "log_getting_lost_1",
+      "value": "Tôi tìm được đường về."
+    },
+    {
+      "key": "choice_getting_lost_2",
+      "value": "Hỏi người lạ."
+    },
+    {
+      "key": "log_getting_lost_2",
+      "value": "Lời khuyên hữu ích giúp tôi thoát."
+    },
+    {
+      "key": "choice_getting_lost_3",
+      "value": "Đi bừa đến khi quen đường."
+    },
+    {
+      "key": "log_getting_lost_3",
+      "value": "Tôi mất nhiều giờ mới về được."
+    },
+    {
+      "key": "event_unpaid_debt_title",
+      "value": "Nợ cũ chưa trả"
+    },
+    {
+      "key": "event_unpaid_debt_desc",
+      "value": "Một người bạn nhắc bạn về khoản nợ cũ."
+    },
+    {
+      "key": "choice_unpaid_debt_1",
+      "value": "Trả hết ngay."
+    },
+    {
+      "key": "log_unpaid_debt_1",
+      "value": "Tôi giữ được uy tín nhưng mất tiền."
+    },
+    {
+      "key": "choice_unpaid_debt_2",
+      "value": "Lẩn tránh."
+    },
+    {
+      "key": "log_unpaid_debt_2",
+      "value": "Khoản nợ ám ảnh tôi."
+    },
+    {
+      "key": "choice_unpaid_debt_3",
+      "value": "Thỏa thuận trả góp."
+    },
+    {
+      "key": "log_unpaid_debt_3",
+      "value": "Chúng tôi thống nhất trả dần."
+    },
+    {
+      "key": "event_tax_evasion_discovered_title",
+      "value": "Phát hiện trốn thuế"
+    },
+    {
+      "key": "event_tax_evasion_discovered_desc",
+      "value": "Cơ quan thuế phát hiện sai sót trong hồ sơ của bạn."
+    },
+    {
+      "key": "choice_tax_evasion_discovered_1",
+      "value": "Nộp phạt ngay."
+    },
+    {
+      "key": "log_tax_evasion_discovered_1",
+      "value": "Tôi mất tiền nhưng tránh được rắc rối lớn hơn."
+    },
+    {
+      "key": "choice_tax_evasion_discovered_2",
+      "value": "Chối bỏ trách nhiệm."
+    },
+    {
+      "key": "log_tax_evasion_discovered_2",
+      "value": "Mức phạt tăng lên sau khi điều tra."
+    },
+    {
+      "key": "choice_tax_evasion_discovered_3",
+      "value": "Thuê kế toán sửa chữa hồ sơ."
+    },
+    {
+      "key": "log_tax_evasion_discovered_3",
+      "value": "Sự giúp đỡ chuyên nghiệp giảm thiểu rủi ro."
+    },
+    {
+      "key": "event_investment_opportunity_title",
+      "value": "Cơ hội đầu tư"
+    },
+    {
+      "key": "event_investment_opportunity_desc",
+      "value": "Bạn thấy một cơ hội đầu tư hứa hẹn."
+    },
+    {
+      "key": "choice_investment_opportunity_1",
+      "value": "Đầu tư số tiền lớn."
+    },
+    {
+      "key": "log_investment_opportunity_1",
+      "value": "Tiềm năng cao nhưng rủi ro."
+    },
+    {
+      "key": "choice_investment_opportunity_2",
+      "value": "Đầu tư nhỏ để thử."
+    },
+    {
+      "key": "log_investment_opportunity_2",
+      "value": "Tôi thận trọng nhưng lợi nhuận ít."
+    },
+    {
+      "key": "choice_investment_opportunity_3",
+      "value": "Bỏ qua lời đề nghị."
+    },
+    {
+      "key": "log_investment_opportunity_3",
+      "value": "Tôi tránh được rủi ro nhưng mất cơ hội."
+    },
+    {
+      "key": "event_investment_failure_title",
+      "value": "Đầu tư thất bại"
+    },
+    {
+      "key": "event_investment_failure_desc",
+      "value": "Khoản đầu tư gần đây của bạn đã thất bại."
+    },
+    {
+      "key": "choice_investment_failure_1",
+      "value": "Chấp nhận thua lỗ và dừng lại."
+    },
+    {
+      "key": "log_investment_failure_1",
+      "value": "Tôi dừng lại trước khi mất thêm."
+    },
+    {
+      "key": "choice_investment_failure_2",
+      "value": "Phân tích sai lầm để học hỏi."
+    },
+    {
+      "key": "log_investment_failure_2",
+      "value": "Tốn kém nhưng có kinh nghiệm."
+    },
+    {
+      "key": "choice_investment_failure_3",
+      "value": "Đầu tư nơi khác để gỡ gạc."
+    },
+    {
+      "key": "log_investment_failure_3",
+      "value": "Tôi liều lĩnh hơn với hy vọng gỡ lại."
+    },
+    {
+      "key": "event_small_lottery_title",
+      "value": "Trúng số nhỏ"
+    },
+    {
+      "key": "event_small_lottery_desc",
+      "value": "Bạn trúng một giải thưởng nhỏ trong xổ số."
+    },
+    {
+      "key": "choice_small_lottery_1",
+      "value": "Tự thưởng một bữa ngon."
+    },
+    {
+      "key": "log_small_lottery_1",
+      "value": "Tôi dùng nó cho một bữa ăn ngon."
+    },
+    {
+      "key": "choice_small_lottery_2",
+      "value": "Mua thêm vé số."
+    },
+    {
+      "key": "log_small_lottery_2",
+      "value": "Tôi đánh cược và không được gì."
+    },
+    {
+      "key": "choice_small_lottery_3",
+      "value": "Tiết kiệm."
+    },
+    {
+      "key": "log_small_lottery_3",
+      "value": "Một khoản nhỏ cho tiền tiết kiệm của tôi."
+    },
+    {
+      "key": "event_get_a_pet_title",
+      "value": "Nuôi thú cưng"
+    },
+    {
+      "key": "event_get_a_pet_desc",
+      "value": "Bạn đang cân nhắc nhận nuôi một con thú cưng."
+    },
+    {
+      "key": "choice_get_a_pet_1",
+      "value": "Nhận nuôi và chăm sóc cẩn thận."
+    },
+    {
+      "key": "log_get_a_pet_1",
+      "value": "Thú cưng trở thành thành viên gia đình."
+    },
+    {
+      "key": "choice_get_a_pet_2",
+      "value": "Nhận nuôi nhưng bỏ bê trách nhiệm."
+    },
+    {
+      "key": "log_get_a_pet_2",
+      "value": "Thú cưng gây ra nhiều căng thẳng hơn là niềm vui."
+    },
+    {
+      "key": "choice_get_a_pet_3",
+      "value": "Nhận nuôi tạm thời trước."
+    },
+    {
+      "key": "log_get_a_pet_3",
+      "value": "Tôi thử nghiệm trước khi cam kết lâu dài."
+    },
+    {
+      "key": "event_loan_shark_title",
+      "value": "Vay nặng lãi"
+    },
+    {
+      "key": "event_loan_shark_desc",
+      "value": "Bạn nghĩ đến việc vay tiền từ một kẻ cho vay nặng lãi."
+    },
+    {
+      "key": "choice_loan_shark_1",
+      "value": "Từ chối, quá nguy hiểm."
+    },
+    {
+      "key": "log_loan_shark_1",
+      "value": "Tôi an toàn dù vẫn thiếu tiền."
+    },
+    {
+      "key": "choice_loan_shark_2",
+      "value": "Vay một khoản nhỏ."
+    },
+    {
+      "key": "log_loan_shark_2",
+      "value": "Giải quyết tạm thời nhưng rủi ro sau này."
+    },
+    {
+      "key": "choice_loan_shark_3",
+      "value": "Tìm khoản vay ngân hàng hoặc gia đình."
+    },
+    {
+      "key": "log_loan_shark_3",
+      "value": "Tôi tìm được một giải pháp an toàn hơn."
+    },
+    {
+      "key": "event_loan_shark_enforcers_title",
+      "value": "Kẻ đòi nợ"
+    },
+    {
+      "key": "event_loan_shark_enforcers_desc",
+      "value": "Những kẻ đòi nợ đến yêu cầu trả tiền."
+    },
+    {
+      "key": "choice_loan_shark_enforcers_1",
+      "value": "Trả hết cho họ."
+    },
+    {
+      "key": "log_loan_shark_enforcers_1",
+      "value": "Tôi trả nhiều hơn số tiền đã vay."
+    },
+    {
+      "key": "choice_loan_shark_enforcers_2",
+      "value": "Từ chối và đối mặt với bạo lực."
+    },
+    {
+      "key": "log_loan_shark_enforcers_2",
+      "value": "Tôi bị thương và sợ hãi."
+    },
+    {
+      "key": "choice_loan_shark_enforcers_3",
+      "value": "Gọi cảnh sát giúp đỡ."
+    },
+    {
+      "key": "log_loan_shark_enforcers_3",
+      "value": "Chính quyền bảo vệ tôi nhưng tôi vẫn nợ tiền."
+    },
+    {
+      "key": "event_relative_is_sick_title",
+      "value": "Người thân bị ốm"
+    },
+    {
+      "key": "event_relative_is_sick_desc",
+      "value": "Một người thân của bạn bị bệnh nặng."
+    },
+    {
+      "key": "choice_relative_is_sick_1",
+      "value": "Giúp chi phí y tế."
+    },
+    {
+      "key": "log_relative_is_sick_1",
+      "value": "Tốn kém nhưng gia đình là quan trọng."
+    },
+    {
+      "key": "choice_relative_is_sick_2",
+      "value": "Chỉ hỗ trợ tinh thần."
+    },
+    {
+      "key": "log_relative_is_sick_2",
+      "value": "Tôi ở bên cạnh họ, dù không có tiền."
+    },
+    {
+      "key": "choice_relative_is_sick_3",
+      "value": "Tổ chức quyên góp."
+    },
+    {
+      "key": "log_relative_is_sick_3",
+      "value": "Sự hỗ trợ của cộng đồng đã giảm bớt gánh nặng."
+    },
+    {
+      "key": "event_self_development_seminar_title",
+      "value": "Hội thảo phát triển bản thân"
+    },
+    {
+      "key": "event_self_development_seminar_desc",
+      "value": "Bạn được mời tham gia một hội thảo phát triển cá nhân."
+    },
+    {
+      "key": "choice_self_development_seminar_1",
+      "value": "Tham dự và ghi chép."
+    },
+    {
+      "key": "log_self_development_seminar_1",
+      "value": "Tôi học được những kỹ năng và ý tưởng mới."
+    },
+    {
+      "key": "choice_self_development_seminar_2",
+      "value": "Từ chối lịch sự."
+    },
+    {
+      "key": "log_self_development_seminar_2",
+      "value": "Tôi đã bỏ lỡ những lời khuyên hữu ích."
+    },
+    {
+      "key": "choice_self_development_seminar_3",
+      "value": "Học trực tuyến thay thế."
+    },
+    {
+      "key": "log_self_development_seminar_3",
+      "value": "Tôi có được kiến thức một cách rẻ hơn."
+    },
+    {
+      "key": "event_minor_accident_title",
+      "value": "Tai nạn nhỏ"
+    },
+    {
+      "key": "event_minor_accident_desc",
+      "value": "Bạn gặp một tai nạn nhỏ."
+    },
+    {
+      "key": "choice_minor_accident_1",
+      "value": "Đến bác sĩ điều trị."
+    },
+    {
+      "key": "log_minor_accident_1",
+      "value": "Tôi được điều trị nhanh chóng và khỏi bệnh."
+    },
+    {
+      "key": "choice_minor_accident_2",
+      "value": "Tự chữa ở nhà."
+    },
+    {
+      "key": "log_minor_accident_2",
+      "value": "Nó trở nên tồi tệ hơn trước khi lành."
+    },
+    {
+      "key": "choice_minor_accident_3",
+      "value": "Yêu cầu bồi thường bảo hiểm."
+    },
+    {
+      "key": "log_minor_accident_3",
+      "value": "Giấy tờ chậm nhưng hữu ích sau này."
+    },
+    {
+      "key": "event_pyramid_scheme_title",
+      "value": "Đa cấp lừa đảo"
+    },
+    {
+      "key": "event_pyramid_scheme_desc",
+      "value": "Một người bạn mời bạn tham gia một mô hình đa cấp."
+    },
+    {
+      "key": "choice_pyramid_scheme_1",
+      "value": "Tham gia và đầu tư."
+    },
+    {
+      "key": "log_pyramid_scheme_1",
+      "value": "Tôi mất tiền vì lừa đảo."
+    },
+    {
+      "key": "choice_pyramid_scheme_2",
+      "value": "Từ chối tham gia."
+    },
+    {
+      "key": "log_pyramid_scheme_2",
+      "value": "Tôi an toàn và giữ khoảng cách."
+    },
+    {
+      "key": "choice_pyramid_scheme_3",
+      "value": "Cảnh báo người khác."
+    },
+    {
+      "key": "log_pyramid_scheme_3",
+      "value": "Tôi đã bảo vệ một số người bạn khỏi mất tiền."
+    },
+    {
+      "key": "event_relative_death_title",
+      "value": "Người thân qua đời"
+    },
+    {
+      "key": "event_relative_death_desc",
+      "value": "Một người họ hàng xa đã qua đời."
+    },
+    {
+      "key": "choice_relative_death_1",
+      "value": "Giúp tổ chức tang lễ."
+    },
+    {
+      "key": "log_relative_death_1",
+      "value": "Đó là một nhiệm vụ nặng nề nhưng quan trọng."
+    },
+    {
+      "key": "choice_relative_death_2",
+      "value": "Đau buồn sâu sắc."
+    },
+    {
+      "key": "log_relative_death_2",
+      "value": "Tôi suy sụp trong nhiều tuần."
+    },
+    {
+      "key": "choice_relative_death_3",
+      "value": "Hỗ trợ tinh thần cho gia đình."
+    },
+    {
+      "key": "log_relative_death_3",
+      "value": "Cùng nhau chúng tôi vượt qua mất mát."
+    },
+    {
+      "key": "event_large_gift_title",
+      "value": "Quà lớn"
+    },
+    {
+      "key": "event_large_gift_desc",
+      "value": "Bạn nhận được một món quà lớn từ người thân."
+    },
+    {
+      "key": "choice_large_gift_1",
+      "value": "Nhận và biết ơn."
+    },
+    {
+      "key": "log_large_gift_1",
+      "value": "Tôi cảm thấy biết ơn và được trân trọng."
+    },
+    {
+      "key": "choice_large_gift_2",
+      "value": "Cảm thấy khó xử."
+    },
+    {
+      "key": "log_large_gift_2",
+      "value": "Tôi không chắc phải phản ứng thế nào."
+    },
+    {
+      "key": "choice_large_gift_3",
+      "value": "Tặng lại quà hoặc thư."
+    },
+    {
+      "key": "log_large_gift_3",
+      "value": "Tôi thể hiện sự trân trọng một cách tôn trọng."
+    },
+    {
+      "key": "event_stranger_asks_for_help_title",
+      "value": "Người lạ nhờ giúp đỡ"
+    },
+    {
+      "key": "event_stranger_asks_for_help_desc",
+      "value": "Một người lạ trên đường nhờ giúp đỡ."
+    },
+    {
+      "key": "choice_stranger_asks_for_help_1",
+      "value": "Giúp họ trực tiếp."
+    },
+    {
+      "key": "log_stranger_asks_for_help_1",
+      "value": "Làm việc tốt khiến tôi vui."
+    },
+    {
+      "key": "choice_stranger_asks_for_help_2",
+      "value": "Từ chối và đi tiếp."
+    },
+    {
+      "key": "log_stranger_asks_for_help_2",
+      "value": "Tôi tránh rủi ro nhưng cảm thấy tội lỗi."
+    },
+    {
+      "key": "choice_stranger_asks_for_help_3",
+      "value": "Hướng dẫn họ đến nơi hỗ trợ."
+    },
+    {
+      "key": "log_stranger_asks_for_help_3",
+      "value": "Họ nhận được sự giúp đỡ đúng cách."
+    },
+    {
+      "key": "event_social_movement_title",
+      "value": "Phong trào xã hội"
+    },
+    {
+      "key": "event_social_movement_desc",
+      "value": "Một cuộc biểu tình lớn đang diễn ra trong thành phố."
+    },
+    {
+      "key": "choice_social_movement_1",
+      "value": "Tham gia biểu tình."
+    },
+    {
+      "key": "log_social_movement_1",
+      "value": "Tôi cảm thấy mạnh mẽ khi đứng cùng người khác."
+    },
+    {
+      "key": "choice_social_movement_2",
+      "value": "Tránh xa nó."
+    },
+    {
+      "key": "log_social_movement_2",
+      "value": "Tôi tránh nguy hiểm nhưng cảm thấy bất lực."
+    },
+    {
+      "key": "choice_social_movement_3",
+      "value": "Hỗ trợ trực tuyến hoặc quyên góp."
+    },
+    {
+      "key": "log_social_movement_3",
+      "value": "Tôi đóng góp một cách an toàn từ nhà."
+    },
+    {
+      "key": "event_homeless_person_title",
+      "value": "Người vô gia cư"
+    },
+    {
+      "key": "event_homeless_person_desc",
+      "value": "Bạn gặp một người vô gia cư."
+    },
+    {
+      "key": "choice_homeless_person_1",
+      "value": "Cho tiền."
+    },
+    {
+      "key": "log_homeless_person_1",
+      "value": "Tôi hy vọng nó giúp được một chút."
+    },
+    {
+      "key": "choice_homeless_person_2",
+      "value": "Đi qua."
+    },
+    {
+      "key": "log_homeless_person_2",
+      "value": "Tôi cảm thấy tội lỗi vì đã lờ đi."
+    },
+    {
+      "key": "choice_homeless_person_3",
+      "value": "Mua thức ăn hoặc chỉ đến nơi trú ẩn."
+    },
+    {
+      "key": "log_homeless_person_3",
+      "value": "Tôi đã giúp đỡ một cách thiết thực."
+    },
+    {
+      "key": "event_lost_valuable_item_title",
+      "value": "Mất đồ quý giá"
+    },
+    {
+      "key": "event_lost_valuable_item_desc",
+      "value": "Bạn mất một món đồ quan trọng."
+    },
+    {
+      "key": "choice_lost_valuable_item_1",
+      "value": "Tìm kiếm kỹ lưỡng."
+    },
+    {
+      "key": "log_lost_valuable_item_1",
+      "value": "Tôi tìm thấy nó sau khi căng thẳng."
+    },
+    {
+      "key": "choice_lost_valuable_item_2",
+      "value": "Chấp nhận mất mát."
+    },
+    {
+      "key": "log_lost_valuable_item_2",
+      "value": "Tôi buồn nhưng đã vượt qua."
+    },
+    {
+      "key": "choice_lost_valuable_item_3",
+      "value": "Dán thông báo hoặc treo thưởng."
+    },
+    {
+      "key": "log_lost_valuable_item_3",
+      "value": "Tôi tăng cơ hội tìm lại được."
+    },
+    {
+      "key": "event_rescued_from_accident_title",
+      "value": "Được cứu khỏi tai nạn"
+    },
+    {
+      "key": "event_rescued_from_accident_desc",
+      "value": "Một người lạ đã cứu bạn khỏi một tai nạn."
+    },
+    {
+      "key": "choice_rescued_from_accident_1",
+      "value": "Cảm ơn họ chân thành."
+    },
+    {
+      "key": "log_rescued_from_accident_1",
+      "value": "Tôi thể hiện lòng biết ơn sâu sắc."
+    },
+    {
+      "key": "choice_rescued_from_accident_2",
+      "value": "Vẫn còn sốc."
+    },
+    {
+      "key": "log_rescued_from_accident_2",
+      "value": "Tôi không thể bình tĩnh lại trong nhiều giờ."
+    },
+    {
+      "key": "choice_rescued_from_accident_3",
+      "value": "Tặng quà hoặc liên lạc."
+    },
+    {
+      "key": "log_rescued_from_accident_3",
+      "value": "Tôi đã xây dựng mối quan hệ với người cứu mình."
+    },
+    {
+      "key": "event_falsely_accused_title",
+      "value": "Bị vu oan"
+    },
+    {
+      "key": "event_falsely_accused_desc",
+      "value": "Bạn bị buộc tội về điều bạn không làm."
+    },
+    {
+      "key": "choice_falsely_accused_1",
+      "value": "Cung cấp bằng chứng vô tội."
+    },
+    {
+      "key": "log_falsely_accused_1",
+      "value": "Sự thật đã minh oan cho tôi."
+    },
+    {
+      "key": "choice_falsely_accused_2",
+      "value": "Im lặng và chịu đựng."
+    },
+    {
+      "key": "log_falsely_accused_2",
+      "value": "Không ai tin tôi."
+    },
+    {
+      "key": "choice_falsely_accused_3",
+      "value": "Tìm kiếm sự giúp đỡ pháp lý."
+    },
+    {
+      "key": "log_falsely_accused_3",
+      "value": "Một luật sư đã giúp tôi bào chữa."
+    },
+    {
+      "key": "event_surprise_gift_title",
+      "value": "Quà bất ngờ"
+    },
+    {
+      "key": "event_surprise_gift_desc",
+      "value": "Bạn nhận được một món quà bất ngờ."
+    },
+    {
+      "key": "choice_surprise_gift_1",
+      "value": "Nhận với niềm vui."
+    },
+    {
+      "key": "log_surprise_gift_1",
+      "value": "Món quà làm tôi rất vui."
+    },
+    {
+      "key": "choice_surprise_gift_2",
+      "value": "Cảm thấy bối rối."
+    },
+    {
+      "key": "log_surprise_gift_2",
+      "value": "Tôi tự hỏi tại sao mình lại nhận được nó."
+    },
+    {
+      "key": "choice_surprise_gift_3",
+      "value": "Chia sẻ niềm vui với người khác."
+    },
+    {
+      "key": "log_surprise_gift_3",
+      "value": "Tôi lan tỏa hạnh phúc bằng cách khoe nó với bạn bè."
+    },
+    {
+      "key": "log_death_low_happiness",
+      "value": "{name} qua đời do không hạnh phúc kéo dài."
+    },
+    {
+      "key": "log_death_low_health",
+      "value": "{name} qua đời do sức khỏe kém kéo dài."
+    },
+    {
+      "key": "log_death_low_happiness_and_health",
+      "value": "{name} qua đời do không hạnh phúc và sức khỏe kém kéo dài."
+    },
+    {
+      "key": "log_happiness_no_promotion",
+      "value": "Hạnh phúc của {name} đang giảm dần do không được thăng chức ở vị trí {jobTitle}."
+    },
+    {
+      "key": "event_investment_success_large_title",
+      "value": "Đầu tư lớn thành công!"
+    },
+    {
+      "key": "event_investment_success_large_desc",
+      "value": "Khoản đầu tư lớn của bạn đã mang lại lợi nhuận khổng lồ!"
+    },
+    {
+      "key": "choice_investment_success_large_1",
+      "value": "Thật tuyệt vời!"
+    },
+    {
+      "key": "log_investment_success_large_1",
+      "value": "Rủi ro đã được đền đáp xứng đáng."
+    },
+    {
+      "key": "choice_investment_success_large_2",
+      "value": "Tái đầu tư ngay lập tức."
+    },
+    {
+      "key": "log_investment_success_large_2",
+      "value": "Tôi dùng số tiền này để tiếp tục đầu tư."
+    },
+    {
+      "key": "choice_investment_success_large_3",
+      "value": "Giữ tiền an toàn trong ngân hàng."
+    },
+    {
+      "key": "log_investment_success_large_3",
+      "value": "Tôi quyết định bảo toàn lợi nhuận vừa có."
+    },
+    {
+      "key": "event_investment_success_small_title",
+      "value": "Đầu tư nhỏ thành công"
+    },
+    {
+      "key": "event_investment_success_small_desc",
+      "value": "Khoản đầu tư nhỏ của bạn đã mang lại lợi nhuận khá."
+    },
+    {
+      "key": "choice_investment_success_small_1",
+      "value": "Một khởi đầu tốt."
+    },
+    {
+      "key": "log_investment_success_small_1",
+      "value": "Đây là dấu hiệu đáng mừng."
+    },
+    {
+      "key": "choice_investment_success_small_2",
+      "value": "Ăn mừng thành công này."
+    },
+    {
+      "key": "log_investment_success_small_2",
+      "value": "Tôi tự thưởng cho mình một chút."
+    },
+    {
+      "key": "choice_investment_success_small_3",
+      "value": "Tiếp tục đầu tư có kiểm soát."
+    },
+    {
+      "key": "log_investment_success_small_3",
+      "value": "Tôi dùng kinh nghiệm này để phát triển dần dần."
+    },
+    {
+      "key": "log_milestone_children_try_fail",
+      "value": "Đã thử nhưng không thành công. Có thể thử lại vào năm sau."
+    }
+  ]
+}

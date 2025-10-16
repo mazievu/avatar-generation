@@ -1,0 +1,1284 @@
+{
+  "items": [
+    {
+      "key": "event_university_first_day_title",
+      "value": "Ngày nhập học đầu tiên"
+    },
+    {
+      "key": "event_university_first_day_desc",
+      "value": "Hôm nay là ngày đầu tiên của bạn ở trường đại học, một khởi đầu mới."
+    },
+    {
+      "key": "choice_university_first_day_1",
+      "value": "Tham gia đầy đủ"
+    },
+    {
+      "key": "log_university_first_day_1",
+      "value": "Tôi đã tham gia tất cả các sự kiện định hướng và kết bạn mới."
+    },
+    {
+      "key": "choice_university_first_day_2",
+      "value": "Ngủ quên"
+    },
+    {
+      "key": "log_university_first_day_2",
+      "value": "Tôi đã ngủ quên và bỏ lỡ lễ chào mừng."
+    },
+    {
+      "key": "choice_university_first_day_3",
+      "value": "Đi trễ một chút"
+    },
+    {
+      "key": "log_university_first_day_3",
+      "value": "Tôi đến hơi muộn nhưng đã bắt kịp."
+    },
+    {
+      "key": "event_university_forgot_registration_title",
+      "value": "Quên đăng ký môn học"
+    },
+    {
+      "key": "event_university_forgot_registration_desc",
+      "value": "Bạn đã quên đăng ký môn học đúng hạn."
+    },
+    {
+      "key": "choice_university_forgot_registration_1",
+      "value": "Nhờ thầy/cố vấn giúp"
+    },
+    {
+      "key": "log_university_forgot_registration_1",
+      "value": "Cố vấn đã giúp tôi vào được các lớp tôi cần."
+    },
+    {
+      "key": "choice_university_forgot_registration_2",
+      "value": "Đăng ký trễ"
+    },
+    {
+      "key": "log_university_forgot_registration_2",
+      "value": "Tôi phải đăng ký muộn và một số lớp đã hết chỗ."
+    },
+    {
+      "key": "choice_university_forgot_registration_3",
+      "value": "Quyết định đăng ký muộn kỳ sau"
+    },
+    {
+      "key": "log_university_forgot_registration_3",
+      "value": "Tôi quyết định thư giãn học kỳ này và đăng ký nhiều môn hơn sau."
+    },
+    {
+      "key": "event_university_noisy_roommate_title",
+      "value": "Bạn cùng phòng ồn ào"
+    },
+    {
+      "key": "event_university_noisy_roommate_desc",
+      "value": "Bạn cùng phòng của bạn mở nhạc ầm ĩ suốt đêm."
+    },
+    {
+      "key": "choice_university_noisy_roommate_1",
+      "value": "Nói chuyện thẳng thắn"
+    },
+    {
+      "key": "log_university_noisy_roommate_1",
+      "value": "Chúng tôi đã nói chuyện và đồng ý về một số giờ yên tĩnh."
+    },
+    {
+      "key": "choice_university_noisy_roommate_2",
+      "value": "Phàn nàn với quản lý ký túc"
+    },
+    {
+      "key": "log_university_noisy_roommate_2",
+      "value": "Tôi đã báo cáo vấn đề với Quản lý Ký túc xá."
+    },
+    {
+      "key": "choice_university_noisy_roommate_3",
+      "value": "Đeo tai nghe để chịu đựng"
+    },
+    {
+      "key": "log_university_noisy_roommate_3",
+      "value": "Tôi quyết định chỉ cần chặn tiếng ồn bằng tai nghe của mình."
+    },
+    {
+      "key": "event_university_group_presentation_title",
+      "value": "Thuyết trình nhóm"
+    },
+    {
+      "key": "event_university_group_presentation_desc",
+      "value": "Bạn có một bài thuyết trình nhóm trước lớp."
+    },
+    {
+      "key": "choice_university_group_presentation_1",
+      "value": "Chuẩn bị kỹ"
+    },
+    {
+      "key": "log_university_group_presentation_1",
+      "value": "Nhóm chúng tôi đã làm việc chăm chỉ và có một bài thuyết trình tuyệt vời."
+    },
+    {
+      "key": "choice_university_group_presentation_2",
+      "value": "Đùn đẩy việc"
+    },
+    {
+      "key": "log_university_group_presentation_2",
+      "value": "Tôi đã không làm phần việc của mình."
+    },
+    {
+      "key": "choice_university_group_presentation_3",
+      "value": "Không chuẩn bị gì"
+    },
+    {
+      "key": "log_university_group_presentation_3",
+      "value": "Tôi hoàn toàn không chuẩn bị cho bài thuyết trình."
+    },
+    {
+      "key": "event_university_midterm_exam_title",
+      "value": "Thi giữa kỳ"
+    },
+    {
+      "key": "event_university_midterm_exam_desc",
+      "value": "Đã đến lúc thi giữa kỳ."
+    },
+    {
+      "key": "choice_university_midterm_exam_1",
+      "value": "Học đầy đủ"
+    },
+    {
+      "key": "log_university_midterm_exam_1",
+      "value": "Tôi đã học chăm chỉ và cảm thấy tự tin cho kỳ thi."
+    },
+    {
+      "key": "choice_university_midterm_exam_2",
+      "value": "Học tủ"
+    },
+    {
+      "key": "log_university_midterm_exam_2",
+      "value": "Tôi đã thức cả đêm để học tủ cho bài kiểm tra."
+    },
+    {
+      "key": "choice_university_midterm_exam_3",
+      "value": "Không đi thi"
+    },
+    {
+      "key": "log_university_midterm_exam_3",
+      "value": "Tôi quyết định bỏ thi."
+    },
+    {
+      "key": "event_university_football_game_title",
+      "value": "Trận bóng đá của trường"
+    },
+    {
+      "key": "event_university_football_game_desc",
+      "value": "Có một trận bóng đá lớn của đội tuyển trường."
+    },
+    {
+      "key": "choice_university_football_game_1",
+      "value": "Đi cổ vũ nhiệt tình"
+    },
+    {
+      "key": "log_university_football_game_1",
+      "value": "Tôi đã đến trận đấu và cổ vũ hết mình cho đội của chúng tôi."
+    },
+    {
+      "key": "choice_university_football_game_2",
+      "value": "Bỏ học đi xem"
+    },
+    {
+      "key": "log_university_football_game_2",
+      "value": "Trận đấu hôm nay quan trọng hơn lớp học."
+    },
+    {
+      "key": "choice_university_football_game_3",
+      "value": "Ở ký túc ngủ/đi làm thêm"
+    },
+    {
+      "key": "log_university_football_game_3",
+      "value": "Tôi quyết định ngủ bù thay vì đi xem trận đấu."
+    },
+    {
+      "key": "event_university_dorm_party_title",
+      "value": "Tiệc trong ký túc xá"
+    },
+    {
+      "key": "event_university_dorm_party_desc",
+      "value": "Có một bữa tiệc trong ký túc xá của bạn."
+    },
+    {
+      "key": "choice_university_dorm_party_1",
+      "value": "Tham gia vui vẻ"
+    },
+    {
+      "key": "log_university_dorm_party_1",
+      "value": "Tôi đã đến bữa tiệc và đã có một khoảng thời gian tuyệt vời."
+    },
+    {
+      "key": "choice_university_dorm_party_2",
+      "value": "Uống quá nhiều"
+    },
+    {
+      "key": "log_university_dorm_party_2",
+      "value": "Tôi đã uống hơi quá và mọi thứ trở nên mờ ảo."
+    },
+    {
+      "key": "choice_university_dorm_party_3",
+      "value": "Ngồi một góc chơi điện thoại"
+    },
+    {
+      "key": "log_university_dorm_party_3",
+      "value": "Tiệc tùng không thực sự là sở thích của tôi, nên tôi chỉ ngồi một mình."
+    },
+    {
+      "key": "event_university_internship_interview_title",
+      "value": "Phỏng vấn xin việc thực tập"
+    },
+    {
+      "key": "event_university_internship_interview_desc",
+      "value": "Bạn có một cuộc phỏng vấn xin thực tập."
+    },
+    {
+      "key": "choice_university_internship_interview_1",
+      "value": "Chuẩn bị kỹ lưỡng"
+    },
+    {
+      "key": "log_university_internship_interview_1",
+      "value": "Tôi đã nghiên cứu công ty và luyện tập các câu trả lời của mình."
+    },
+    {
+      "key": "choice_university_internship_interview_2",
+      "value": "Đến muộn"
+    },
+    {
+      "key": "log_university_internship_interview_2",
+      "value": "Tôi đã đánh giá sai tình hình giao thông và đến muộn."
+    },
+    {
+      "key": "choice_university_internship_interview_3",
+      "value": "Trả lời qua loa"
+    },
+    {
+      "key": "log_university_internship_interview_3",
+      "value": "Tôi không thực sự coi trọng cuộc phỏng vấn này."
+    },
+    {
+      "key": "event_university_night_class_title",
+      "value": "Đi học buổi tối"
+    },
+    {
+      "key": "event_university_night_class_desc",
+      "value": "Bạn có một lớp học buổi tối."
+    },
+    {
+      "key": "choice_university_night_class_1",
+      "value": "Chăm chú nghe giảng"
+    },
+    {
+      "key": "log_university_night_class_1",
+      "value": "Tôi đã chú ý và ghi chép cẩn thận."
+    },
+    {
+      "key": "choice_university_night_class_2",
+      "value": "Lén chơi điện thoại"
+    },
+    {
+      "key": "log_university_night_class_2",
+      "value": "Tôi đã chán và lướt điện thoại."
+    },
+    {
+      "key": "choice_university_night_class_3",
+      "value": "Học nhóm với bạn"
+    },
+    {
+      "key": "log_university_night_class_3",
+      "value": "Chúng tôi đã làm việc cùng nhau và giúp nhau hiểu bài."
+    },
+    {
+      "key": "event_university_submit_essay_title",
+      "value": "Nộp bài tiểu luận"
+    },
+    {
+      "key": "event_university_submit_essay_desc",
+      "value": "Bạn có một bài tiểu luận phải nộp."
+    },
+    {
+      "key": "choice_university_submit_essay_1",
+      "value": "Nộp đúng hạn"
+    },
+    {
+      "key": "log_university_submit_essay_1",
+      "value": "Tôi đã hoàn thành bài tiểu luận và nộp trước thời hạn."
+    },
+    {
+      "key": "choice_university_submit_essay_2",
+      "value": "Nộp trễ"
+    },
+    {
+      "key": "log_university_submit_essay_2",
+      "value": "Tôi không thể hoàn thành đúng hạn và phải nộp muộn."
+    },
+    {
+      "key": "choice_university_submit_essay_3",
+      "value": "Không nộp luôn"
+    },
+    {
+      "key": "log_university_submit_essay_3",
+      "value": "Tôi đã không làm bài tập."
+    },
+    {
+      "key": "event_university_missed_info_title",
+      "value": "Bỏ lỡ thông tin quan trọng"
+    },
+    {
+      "key": "event_university_missed_info_desc",
+      "value": "Bạn đã bỏ lỡ một số thông tin quan trọng vì ngủ quên."
+    },
+    {
+      "key": "choice_university_missed_info_1",
+      "value": "Hỏi lại bạn"
+    },
+    {
+      "key": "log_university_missed_info_1",
+      "value": "Bạn tôi đã kể cho tôi nghe những gì tôi đã bỏ lỡ."
+    },
+    {
+      "key": "choice_university_missed_info_2",
+      "value": "Đọc email trường gửi"
+    },
+    {
+      "key": "log_university_missed_info_2",
+      "value": "Tôi đã tìm thấy thông tin trong một email từ trường."
+    },
+    {
+      "key": "choice_university_missed_info_3",
+      "value": "Đoán mò"
+    },
+    {
+      "key": "log_university_missed_info_3",
+      "value": "Tôi chỉ cố gắng đoán những gì tôi đã bỏ lỡ."
+    },
+    {
+      "key": "event_university_class_full_title",
+      "value": "Hết chỗ môn cần học"
+    },
+    {
+      "key": "event_university_class_full_desc",
+      "value": "Lớp học bắt buộc bạn muốn tham gia đã hết chỗ."
+    },
+    {
+      "key": "choice_university_class_full_1",
+      "value": "Chọn môn khác"
+    },
+    {
+      "key": "log_university_class_full_1",
+      "value": "Tôi đã phải chọn một môn tự chọn khác."
+    },
+    {
+      "key": "choice_university_class_full_2",
+      "value": "Xin vào danh sách chờ"
+    },
+    {
+      "key": "log_university_class_full_2",
+      "value": "Tôi đã ghi tên mình vào danh sách chờ và hy vọng điều tốt nhất."
+    },
+    {
+      "key": "choice_university_class_full_3",
+      "value": "Nhờ giáo sư mở thêm lớp"
+    },
+    {
+      "key": "log_university_class_full_3",
+      "value": "Tôi đã gửi email cho giáo sư để xem liệu họ có thể thêm sinh viên không."
+    },
+    {
+      "key": "event_university_roommate_angry_title",
+      "value": "Bạn cùng phòng giận"
+    },
+    {
+      "key": "event_university_roommate_angry_desc",
+      "value": "Bạn cùng phòng của bạn tức giận vì bạn đã phàn nàn về họ."
+    },
+    {
+      "key": "choice_university_roommate_angry_1",
+      "value": "Xin lỗi"
+    },
+    {
+      "key": "log_university_roommate_angry_1",
+      "value": "Tôi đã xin lỗi để mọi chuyện êm xuôi."
+    },
+    {
+      "key": "choice_university_roommate_angry_2",
+      "value": "Giải thích"
+    },
+    {
+      "key": "log_university_roommate_angry_2",
+      "value": "Tôi đã cố gắng giải thích quan điểm của mình."
+    },
+    {
+      "key": "choice_university_roommate_angry_3",
+      "value": "Im lặng chiến tranh lạnh"
+    },
+    {
+      "key": "log_university_roommate_angry_3",
+      "value": "Chúng tôi chỉ lờ nhau đi."
+    },
+    {
+      "key": "event_university_group_dislikes_you_title",
+      "value": "Cả nhóm ghét"
+    },
+    {
+      "key": "event_university_group_dislikes_you_desc",
+      "value": "Nhóm của bạn không thích bạn vì đã đùn đẩy trách nhiệm."
+    },
+    {
+      "key": "choice_university_group_dislikes_you_1",
+      "value": "Cố gắng làm phần còn lại"
+    },
+    {
+      "key": "log_university_group_dislikes_you_1",
+      "value": "Tôi đã cố gắng bù đắp bằng cách làm phần còn lại của công việc."
+    },
+    {
+      "key": "choice_university_group_dislikes_you_2",
+      "value": "Xin lỗi"
+    },
+    {
+      "key": "log_university_group_dislikes_you_2",
+      "value": "Tôi đã xin lỗi các thành viên trong nhóm."
+    },
+    {
+      "key": "choice_university_group_dislikes_you_3",
+      "value": "Bị loại khỏi nhóm"
+    },
+    {
+      "key": "log_university_group_dislikes_you_3",
+      "value": "Họ đã đuổi tôi ra khỏi nhóm."
+    },
+    {
+      "key": "event_university_exam_off_topic_title",
+      "value": "Đề thi không đúng phần học tủ"
+    },
+    {
+      "key": "event_university_exam_off_topic_desc",
+      "value": "Các câu hỏi trong bài kiểm tra không thuộc các chủ đề bạn đã học tủ."
+    },
+    {
+      "key": "choice_university_exam_off_topic_1",
+      "value": "Lo lắng cố gắng làm"
+    },
+    {
+      "key": "log_university_exam_off_topic_1",
+      "value": "Tôi đã cố gắng hết sức để trả lời những gì có thể."
+    },
+    {
+      "key": "choice_university_exam_off_topic_2",
+      "value": "Bỏ qua câu khó"
+    },
+    {
+      "key": "log_university_exam_off_topic_2",
+      "value": "Tôi đã bỏ qua những câu hỏi tôi không biết."
+    },
+    {
+      "key": "choice_university_exam_off_topic_3",
+      "value": "Nộp bài sớm"
+    },
+    {
+      "key": "log_university_exam_off_topic_3",
+      "value": "Tôi đã từ bỏ và nộp bài sớm."
+    },
+    {
+      "key": "event_university_marked_absent_title",
+      "value": "Bị thầy ghi tên vắng"
+    },
+    {
+      "key": "event_university_marked_absent_desc",
+      "value": "Giáo viên đã ghi bạn vắng mặt vì bỏ học đi xem trận đấu."
+    },
+    {
+      "key": "choice_university_marked_absent_1",
+      "value": "Xin lỗi"
+    },
+    {
+      "key": "log_university_marked_absent_1",
+      "value": "Tôi đã xin lỗi giáo viên."
+    },
+    {
+      "key": "choice_university_marked_absent_2",
+      "value": "Đổ lỗi giao thông"
+    },
+    {
+      "key": "log_university_marked_absent_2",
+      "value": "Tôi đã bịa ra một lý do về giao thông."
+    },
+    {
+      "key": "choice_university_marked_absent_3",
+      "value": "Chấp nhận bị trừ điểm"
+    },
+    {
+      "key": "log_university_marked_absent_3",
+      "value": "Tôi đã chấp nhận hậu quả."
+    },
+    {
+      "key": "event_university_caught_by_ra_title",
+      "value": "Bị quản lý ký túc phát hiện"
+    },
+    {
+      "key": "event_university_caught_by_ra_desc",
+      "value": "Quản lý ký túc xá đã bắt gặp bạn uống quá nhiều."
+    },
+    {
+      "key": "choice_university_caught_by_ra_1",
+      "value": "Giải thích do bạn bè ép"
+    },
+    {
+      "key": "log_university_caught_by_ra_1",
+      "value": "Tôi đã cố giải thích rằng đó không phải là ý của tôi."
+    },
+    {
+      "key": "choice_university_caught_by_ra_2",
+      "value": "Im lặng chấp nhận"
+    },
+    {
+      "key": "log_university_caught_by_ra_2",
+      "value": "Tôi không tranh cãi và chấp nhận bị phạt."
+    },
+    {
+      "key": "choice_university_caught_by_ra_3",
+      "value": "Xin lỗi"
+    },
+    {
+      "key": "log_university_caught_by_ra_3",
+      "value": "Tôi đã xin lỗi vì hành vi của mình."
+    },
+    {
+      "key": "event_university_rejected_immediately_title",
+      "value": "Bị loại ngay"
+    },
+    {
+      "key": "event_university_rejected_immediately_desc",
+      "value": "Bạn đã bị loại ngay lập tức vì đến muộn phỏng vấn."
+    },
+    {
+      "key": "choice_university_rejected_immediately_1",
+      "value": "Xin cơ hội khác"
+    },
+    {
+      "key": "log_university_rejected_immediately_1",
+      "value": "Tôi đã hỏi liệu có thể sắp xếp lại lịch không."
+    },
+    {
+      "key": "choice_university_rejected_immediately_2",
+      "value": "Đổ lỗi giao thông"
+    },
+    {
+      "key": "log_university_rejected_immediately_2",
+      "value": "Tôi đã cố giải thích về tình hình giao thông."
+    },
+    {
+      "key": "choice_university_rejected_immediately_3",
+      "value": "Bỏ luôn không xin nữa"
+    },
+    {
+      "key": "log_university_rejected_immediately_3",
+      "value": "Tôi quyết định không theo đuổi cơ hội thực tập này nữa."
+    },
+    {
+      "key": "event_university_reprimanded_by_teacher_title",
+      "value": "Bị giáo viên nhắc nhở"
+    },
+    {
+      "key": "event_university_reprimanded_by_teacher_desc",
+      "value": "Giáo viên đã nhắc nhở bạn vì chơi trên điện thoại."
+    },
+    {
+      "key": "choice_university_reprimanded_by_teacher_1",
+      "value": "Cất điện thoại"
+    },
+    {
+      "key": "log_university_reprimanded_by_teacher_1",
+      "value": "Tôi đã cất điện thoại và chú ý."
+    },
+    {
+      "key": "choice_university_reprimanded_by_teacher_2",
+      "value": "Lén tiếp tục"
+    },
+    {
+      "key": "log_university_reprimanded_by_teacher_2",
+      "value": "Tôi đã cố gắng kín đáo hơn."
+    },
+    {
+      "key": "choice_university_reprimanded_by_teacher_3",
+      "value": "Giải thích đang tra cứu bài"
+    },
+    {
+      "key": "log_university_reprimanded_by_teacher_3",
+      "value": "Tôi khẳng định tôi đang dùng nó để nghiên cứu."
+    },
+    {
+      "key": "event_university_points_deducted_title",
+      "value": "Bị trừ điểm"
+    },
+    {
+      "key": "event_university_points_deducted_desc",
+      "value": "Điểm của bạn đã bị trừ vì nộp bài tiểu luận muộn."
+    },
+    {
+      "key": "choice_university_points_deducted_1",
+      "value": "Xin tha"
+    },
+    {
+      "key": "log_university_points_deducted_1",
+      "value": "Tôi đã hỏi giáo sư liệu họ có thể bỏ qua không."
+    },
+    {
+      "key": "choice_university_points_deducted_2",
+      "value": "Chấp nhận điểm thấp"
+    },
+    {
+      "key": "log_university_points_deducted_2",
+      "value": "Tôi đã chấp nhận bị phạt."
+    },
+    {
+      "key": "choice_university_points_deducted_3",
+      "value": "Đổ lỗi máy hỏng"
+    },
+    {
+      "key": "log_university_points_deducted_3",
+      "value": "Tôi nói rằng tôi gặp sự cố máy tính."
+    },
+    {
+      "key": "event_university_choose_elective_title",
+      "value": "Chọn môn tự chọn"
+    },
+    {
+      "key": "event_university_choose_elective_desc",
+      "value": "Bạn đang chọn một môn học tự chọn."
+    },
+    {
+      "key": "choice_university_choose_elective_1",
+      "value": "Chọn môn dễ"
+    },
+    {
+      "key": "log_university_choose_elective_1",
+      "value": "Tôi đã chọn một lớp dễ để tăng điểm trung bình."
+    },
+    {
+      "key": "choice_university_choose_elective_2",
+      "value": "Chọn môn theo sở thích"
+    },
+    {
+      "key": "log_university_choose_elective_2",
+      "value": "Tôi đã chọn một lớp mà tôi thực sự quan tâm."
+    },
+    {
+      "key": "choice_university_choose_elective_3",
+      "value": "Chọn theo bạn bè"
+    },
+    {
+      "key": "log_university_choose_elective_3",
+      "value": "Tôi đã đăng ký cùng lớp với bạn bè của mình."
+    },
+    {
+      "key": "event_university_library_visit_title",
+      "value": "Đi thư viện"
+    },
+    {
+      "key": "event_university_library_visit_desc",
+      "value": "Bạn đang ở thư viện."
+    },
+    {
+      "key": "choice_university_library_visit_1",
+      "value": "Học nghiêm túc"
+    },
+    {
+      "key": "log_university_library_visit_1",
+      "value": "Tôi đã có một buổi học hiệu quả."
+    },
+    {
+      "key": "choice_university_library_visit_2",
+      "value": "Ngủ gục"
+    },
+    {
+      "key": "log_university_library_visit_2",
+      "value": "Tôi vô tình ngủ gật khi đang học."
+    },
+    {
+      "key": "choice_university_library_visit_3",
+      "value": "Lướt mạng"
+    },
+    {
+      "key": "log_university_library_visit_3",
+      "value": "Tôi bị phân tâm và dành thời gian lướt web."
+    },
+    {
+      "key": "event_university_join_club_title",
+      "value": "Tham gia câu lạc bộ"
+    },
+    {
+      "key": "event_university_join_club_desc",
+      "value": "Bạn đang nghĩ đến việc tham gia một câu lạc bộ."
+    },
+    {
+      "key": "choice_university_join_club_1",
+      "value": "Nhiệt tình hoạt động"
+    },
+    {
+      "key": "log_university_join_club_1",
+      "value": "Tôi đã trở thành một thành viên tích cực của câu lạc bộ."
+    },
+    {
+      "key": "choice_university_join_club_2",
+      "value": "Tham gia cho vui"
+    },
+    {
+      "key": "log_university_join_club_2",
+      "value": "Tôi chỉ tham gia để đi chơi với bạn bè."
+    },
+    {
+      "key": "choice_university_join_club_3",
+      "value": "Bỏ ngang"
+    },
+    {
+      "key": "log_university_join_club_3",
+      "value": "Tôi mất hứng thú và rời câu lạc bộ."
+    },
+    {
+      "key": "event_university_professor_praise_title",
+      "value": "Được giáo sư khen"
+    },
+    {
+      "key": "event_university_professor_praise_desc",
+      "value": "Một giáo sư đã khen ngợi bạn."
+    },
+    {
+      "key": "choice_university_professor_praise_1",
+      "value": "Vui mừng"
+    },
+    {
+      "key": "log_university_professor_praise_1",
+      "value": "Thật tuyệt khi được công nhận."
+    },
+    {
+      "key": "choice_university_professor_praise_2",
+      "value": "Ngại ngùng"
+    },
+    {
+      "key": "log_university_professor_praise_2",
+      "value": "Tôi hơi xấu hổ vì lời khen."
+    },
+    {
+      "key": "choice_university_professor_praise_3",
+      "value": "Giả vờ bình thường"
+    },
+    {
+      "key": "log_university_professor_praise_3",
+      "value": "Tôi đã hành động như thể đó không phải là chuyện lớn."
+    },
+    {
+      "key": "event_university_professor_criticism_title",
+      "value": "Bị giáo sư phê bình"
+    },
+    {
+      "key": "event_university_professor_criticism_desc",
+      "value": "Một giáo sư đã phê bình bạn."
+    },
+    {
+      "key": "choice_university_professor_criticism_1",
+      "value": "Im lặng"
+    },
+    {
+      "key": "log_university_professor_criticism_1",
+      "value": "Tôi đã im lặng nhận lời phê bình."
+    },
+    {
+      "key": "choice_university_professor_criticism_2",
+      "value": "Cãi lại"
+    },
+    {
+      "key": "log_university_professor_criticism_2",
+      "value": "Tôi đã cố gắng bảo vệ công việc của mình."
+    },
+    {
+      "key": "choice_university_professor_criticism_3",
+      "value": "Xin lỗi"
+    },
+    {
+      "key": "log_university_professor_criticism_3",
+      "value": "Tôi đã xin lỗi vì sai lầm của mình."
+    },
+    {
+      "key": "event_university_part_time_job_title",
+      "value": "Đi làm thêm"
+    },
+    {
+      "key": "event_university_part_time_job_desc",
+      "value": "Bạn đang làm một công việc bán thời gian."
+    },
+    {
+      "key": "choice_university_part_time_job_1",
+      "value": "Làm chăm chỉ"
+    },
+    {
+      "key": "log_university_part_time_job_1",
+      "value": "Tôi đã làm việc chăm chỉ và kiếm được một ít tiền tiêu vặt."
+    },
+    {
+      "key": "choice_university_part_time_job_2",
+      "value": "Lười biếng"
+    },
+    {
+      "key": "log_university_part_time_job_2",
+      "value": "Tôi đã hơi lơ là trong công việc."
+    },
+    {
+      "key": "choice_university_part_time_job_3",
+      "value": "Học việc nhanh"
+    },
+    {
+      "key": "log_university_part_time_job_3",
+      "value": "Tôi đã nhanh chóng học được các kỹ năng cho công việc."
+    },
+    {
+      "key": "event_university_study_group_title",
+      "value": "Buổi học nhóm"
+    },
+    {
+      "key": "event_university_study_group_desc",
+      "value": "Bạn đang trong một buổi học nhóm."
+    },
+    {
+      "key": "choice_university_study_group_1",
+      "value": "Học nghiêm túc"
+    },
+    {
+      "key": "log_university_study_group_1",
+      "value": "Chúng tôi tập trung vào việc học."
+    },
+    {
+      "key": "choice_university_study_group_2",
+      "value": "Tám chuyện"
+    },
+    {
+      "key": "log_university_study_group_2",
+      "value": "Cuối cùng chúng tôi chỉ tán gẫu thay vì học."
+    },
+    {
+      "key": "choice_university_study_group_3",
+      "value": "Ngồi nghe"
+    },
+    {
+      "key": "log_university_study_group_3",
+      "value": "Tôi để bạn bè giải thích nhiều hơn."
+    },
+    {
+      "key": "event_university_class_trip_title",
+      "value": "Dã ngoại cùng lớp"
+    },
+    {
+      "key": "event_university_class_trip_desc",
+      "value": "Bạn đang đi dã ngoại cùng lớp."
+    },
+    {
+      "key": "choice_university_class_trip_1",
+      "value": "Tham gia trò chơi"
+    },
+    {
+      "key": "log_university_class_trip_1",
+      "value": "Các trò chơi rất vui."
+    },
+    {
+      "key": "choice_university_class_trip_2",
+      "value": "Ngồi ăn uống"
+    },
+    {
+      "key": "log_university_class_trip_2",
+      "value": "Tôi tập trung vào đồ ăn."
+    },
+    {
+      "key": "choice_university_class_trip_3",
+      "value": "Đi chụp ảnh"
+    },
+    {
+      "key": "log_university_class_trip_3",
+      "value": "Tôi đã chụp rất nhiều ảnh phong cảnh."
+    },
+    {
+      "key": "event_university_surprise_test_title",
+      "value": "Kiểm tra bất ngờ"
+    },
+    {
+      "key": "event_university_surprise_test_desc",
+      "value": "Có một bài kiểm tra bất ngờ trong lớp."
+    },
+    {
+      "key": "choice_university_surprise_test_1",
+      "value": "Làm nghiêm túc"
+    },
+    {
+      "key": "log_university_surprise_test_1",
+      "value": "Tôi đã làm hết sức mình trong bài kiểm tra bất ngờ."
+    },
+    {
+      "key": "choice_university_surprise_test_2",
+      "value": "Nhìn bài bạn"
+    },
+    {
+      "key": "log_university_surprise_test_2",
+      "value": "Tôi cần một chút giúp đỡ."
+    },
+    {
+      "key": "choice_university_surprise_test_3",
+      "value": "Đoán mò"
+    },
+    {
+      "key": "log_university_surprise_test_3",
+      "value": "Tôi đã phải đoán hầu hết các câu trả lời."
+    },
+    {
+      "key": "event_university_club_interview_title",
+      "value": "Phỏng vấn câu lạc bộ"
+    },
+    {
+      "key": "event_university_club_interview_desc",
+      "value": "Bạn có một cuộc phỏng vấn để tham gia một câu lạc bộ."
+    },
+    {
+      "key": "choice_university_club_interview_1",
+      "value": "Chuẩn bị kỹ"
+    },
+    {
+      "key": "log_university_club_interview_1",
+      "value": "Tôi đã chuẩn bị kỹ cho cuộc phỏng vấn."
+    },
+    {
+      "key": "choice_university_club_interview_2",
+      "value": "Trả lời tự tin"
+    },
+    {
+      "key": "log_university_club_interview_2",
+      "value": "Tôi đã trả lời tất cả các câu hỏi một cách tự tin."
+    },
+    {
+      "key": "choice_university_club_interview_3",
+      "value": "Nói ngập ngừng"
+    },
+    {
+      "key": "log_university_club_interview_3",
+      "value": "Tôi lo lắng và nói lắp bắp."
+    },
+    {
+      "key": "event_university_sports_day_title",
+      "value": "Ngày hội thể thao"
+    },
+    {
+      "key": "event_university_sports_day_desc",
+      "value": "Hôm nay là ngày hội thể thao của trường đại học."
+    },
+    {
+      "key": "choice_university_sports_day_1",
+      "value": "Chơi bóng"
+    },
+    {
+      "key": "log_university_sports_day_1",
+      "value": "Tôi đã chơi trong một trận bóng rổ."
+    },
+    {
+      "key": "choice_university_sports_day_2",
+      "value": "Chạy"
+    },
+    {
+      "key": "log_university_sports_day_2",
+      "value": "Tôi đã tham gia một cuộc thi chạy."
+    },
+    {
+      "key": "choice_university_sports_day_3",
+      "value": "Ngồi cổ vũ"
+    },
+    {
+      "key": "log_university_sports_day_3",
+      "value": "Tôi đã cổ vũ cho bạn bè."
+    },
+    {
+      "key": "event_university_friends_party_title",
+      "value": "Tiệc bạn bè"
+    },
+    {
+      "key": "event_university_friends_party_desc",
+      "value": "Bạn đang ở một bữa tiệc với bạn bè."
+    },
+    {
+      "key": "choice_university_friends_party_1",
+      "value": "Tham gia nhiệt tình"
+    },
+    {
+      "key": "log_university_friends_party_1",
+      "value": "Tôi đã có một khoảng thời gian tuyệt vời tại bữa tiệc."
+    },
+    {
+      "key": "choice_university_friends_party_2",
+      "value": "Ngồi một góc"
+    },
+    {
+      "key": "log_university_friends_party_2",
+      "value": "Tôi ngồi một mình."
+    },
+    {
+      "key": "choice_university_friends_party_3",
+      "value": "Ra về sớm"
+    },
+    {
+      "key": "log_university_friends_party_3",
+      "value": "Tôi không có tâm trạng tiệc tùng và đã về sớm."
+    },
+    {
+      "key": "event_university_museum_visit_title",
+      "value": "Tham quan bảo tàng"
+    },
+    {
+      "key": "event_university_museum_visit_desc",
+      "value": "Bạn đang tham quan một bảo tàng."
+    },
+    {
+      "key": "choice_university_museum_visit_1",
+      "value": "Nghe hướng dẫn"
+    },
+    {
+      "key": "log_university_museum_visit_1",
+      "value": "Tôi đã học được rất nhiều từ hướng dẫn viên."
+    },
+    {
+      "key": "choice_university_museum_visit_2",
+      "value": "Đi loanh quanh"
+    },
+    {
+      "key": "log_university_museum_visit_2",
+      "value": "Tôi chỉ tự mình khám phá bảo tàng."
+    },
+    {
+      "key": "choice_university_museum_visit_3",
+      "value": "Chụp ảnh"
+    },
+    {
+      "key": "log_university_museum_visit_3",
+      "value": "Tôi đã chụp rất nhiều ảnh."
+    },
+    {
+      "key": "event_university_major_group_project_title",
+      "value": "Bài tập lớn nhóm"
+    },
+    {
+      "key": "event_university_major_group_project_desc",
+      "value": "Bạn có một bài tập lớn nhóm."
+    },
+    {
+      "key": "choice_university_major_group_project_1",
+      "value": "Làm hết mình"
+    },
+    {
+      "key": "log_university_major_group_project_1",
+      "value": "Tôi đã đóng góp rất nhiều cho dự án."
+    },
+    {
+      "key": "choice_university_major_group_project_2",
+      "value": "Đùn đẩy"
+    },
+    {
+      "key": "log_university_major_group_project_2",
+      "value": "Tôi để các thành viên trong nhóm làm hầu hết công việc."
+    },
+    {
+      "key": "choice_university_major_group_project_3",
+      "value": "Làm một phần"
+    },
+    {
+      "key": "log_university_major_group_project_3",
+      "value": "Tôi chỉ làm phần việc được giao."
+    },
+    {
+      "key": "event_university_holiday_festival_title",
+      "value": "Lễ hội ở trường"
+    },
+    {
+      "key": "event_university_holiday_festival_desc",
+      "value": "Trường đại học đang tổ chức một lễ hội."
+    },
+    {
+      "key": "choice_university_holiday_festival_1",
+      "value": "Tham gia lễ hội"
+    },
+    {
+      "key": "log_university_holiday_festival_1",
+      "value": "Lễ hội rất vui."
+    },
+    {
+      "key": "choice_university_holiday_festival_2",
+      "value": "Ở ký túc"
+    },
+    {
+      "key": "log_university_holiday_festival_2",
+      "value": "Tôi thích ở lại và thư giãn hơn."
+    },
+    {
+      "key": "choice_university_holiday_festival_3",
+      "value": "Đi chơi riêng"
+    },
+    {
+      "key": "log_university_holiday_festival_3",
+      "value": "Tôi đã tự lên kế hoạch với bạn bè."
+    },
+    {
+      "key": "event_university_meet_professor_outside_title",
+      "value": "Gặp giáo sư ngoài trường"
+    },
+    {
+      "key": "event_university_meet_professor_outside_desc",
+      "value": "Bạn gặp một giáo sư ở ngoài trường đại học."
+    },
+    {
+      "key": "choice_university_meet_professor_outside_1",
+      "value": "Chào hỏi"
+    },
+    {
+      "key": "log_university_meet_professor_outside_1",
+      "value": "Tôi đã chào giáo sư của mình."
+    },
+    {
+      "key": "choice_university_meet_professor_outside_2",
+      "value": "Cười gượng"
+    },
+    {
+      "key": "log_university_meet_professor_outside_2",
+      "value": "Hơi khó xử một chút."
+    },
+    {
+      "key": "choice_university_meet_professor_outside_3",
+      "value": "Giả vờ không thấy"
+    },
+    {
+      "key": "log_university_meet_professor_outside_3",
+      "value": "Tôi đã tránh họ."
+    },
+    {
+      "key": "event_university_online_class_title",
+      "value": "Học online"
+    },
+    {
+      "key": "event_university_online_class_desc",
+      "value": "Bạn đang tham gia một lớp học trực tuyến."
+    },
+    {
+      "key": "choice_university_online_class_1",
+      "value": "Chăm chú"
+    },
+    {
+      "key": "log_university_online_class_1",
+      "value": "Tôi tập trung vào bài giảng trực tuyến."
+    },
+    {
+      "key": "choice_university_online_class_2",
+      "value": "Mở tab khác"
+    },
+    {
+      "key": "log_university_online_class_2",
+      "value": "Tôi bị phân tâm và lướt các trang web khác."
+    },
+    {
+      "key": "choice_university_online_class_3",
+      "value": "Vừa học vừa ăn"
+    },
+    {
+      "key": "log_university_online_class_3",
+      "value": "Tôi đã ăn nhẹ trong giờ học."
+    },
+    {
+      "key": "event_university_first_internship_day_title",
+      "value": "Buổi thực tập đầu tiên"
+    },
+    {
+      "key": "event_university_first_internship_day_desc",
+      "value": "Hôm nay là ngày đầu tiên bạn đi thực tập."
+    },
+    {
+      "key": "choice_university_first_internship_day_1",
+      "value": "Làm nghiêm túc"
+    },
+    {
+      "key": "log_university_first_internship_day_1",
+      "value": "Tôi đã cố gắng tạo ấn tượng tốt."
+    },
+    {
+      "key": "choice_university_first_internship_day_2",
+      "value": "Lúng túng"
+    },
+    {
+      "key": "log_university_first_internship_day_2",
+      "value": "Tôi hơi choáng ngợp và đã mắc một số lỗi."
+    },
+    {
+      "key": "choice_university_first_internship_day_3",
+      "value": "Hỏi han"
+    },
+    {
+      "key": "log_university_first_internship_day_3",
+      "value": "Tôi đã hỏi rất nhiều để học hỏi."
+    },
+    {
+      "key": "event_university_exam_results_title",
+      "value": "Nhận kết quả thi"
+    },
+    {
+      "key": "event_university_exam_results_desc",
+      "value": "Bạn đã nhận được kết quả thi của mình."
+    },
+    {
+      "key": "choice_university_exam_results_1",
+      "value": "Vui mừng"
+    },
+    {
+      "key": "log_university_exam_results_1",
+      "value": "Tôi hài lòng với điểm số của mình."
+    },
+    {
+      "key": "choice_university_exam_results_2",
+      "value": "Im lặng"
+    },
+    {
+      "key": "log_university_exam_results_2",
+      "value": "Tôi giữ kết quả cho riêng mình."
+    },
+    {
+      "key": "choice_university_exam_results_3",
+      "value": "Buồn bã"
+    },
+    {
+      "key": "log_university_exam_results_3",
+      "value": "Tôi thất vọng với kết quả của mình."
+    },
+    {
+      "key": "event_university_share_food_title",
+      "value": "Chia sẻ đồ ăn"
+    },
+    {
+      "key": "event_university_share_food_desc",
+      "value": "Bạn đang chia sẻ đồ ăn."
+    },
+    {
+      "key": "choice_university_share_food_1",
+      "value": "Cho bạn một phần"
+    },
+    {
+      "key": "log_university_share_food_1",
+      "value": "Tôi đã chia sẻ đồ ăn vặt của mình."
+    },
+    {
+      "key": "choice_university_share_food_2",
+      "value": "Đổi món ăn"
+    },
+    {
+      "key": "log_university_share_food_2",
+      "value": "Chúng tôi đã trao đổi một số món ăn của mình."
+    },
+    {
+      "key": "choice_university_share_food_3",
+      "value": "Giữ phần mình"
+    },
+    {
+      "key": "log_university_share_food_3",
+      "value": "Hôm nay tôi đói quá không chia sẻ được."
+    }
+  ]
+}

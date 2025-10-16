@@ -1,0 +1,1336 @@
+{
+  "items": [
+    {
+      "key": "event_workinglife_first_day_title",
+      "value": "First Day at Work"
+    },
+    {
+      "key": "event_workinglife_first_day_desc",
+      "value": "It's your first day at the new job. First impressions will echo."
+    },
+    {
+      "key": "choice_workinglife_first_day_1",
+      "value": "Arrive very early"
+    },
+    {
+      "key": "log_workinglife_first_day_1",
+      "value": "I impressed my boss, but waiting alone before others came felt awkward."
+    },
+    {
+      "key": "choice_workinglife_first_day_2",
+      "value": "Arrive exactly on time"
+    },
+    {
+      "key": "log_workinglife_first_day_2",
+      "value": "I blended in smoothly, though some said I lacked initiative."
+    },
+    {
+      "key": "choice_workinglife_first_day_3",
+      "value": "Arrive a few minutes late"
+    },
+    {
+      "key": "log_workinglife_first_day_3",
+      "value": "Only slightly late, but enough for colleagues to raise eyebrows."
+    },
+    {
+      "key": "event_workinglife_team_meeting_title",
+      "value": "Morning Team Meeting"
+    },
+    {
+      "key": "event_workinglife_team_meeting_desc",
+      "value": "The first morning meeting sets the tone for your role in the team."
+    },
+    {
+      "key": "choice_workinglife_team_meeting_1",
+      "value": "Share bold ideas early"
+    },
+    {
+      "key": "log_workinglife_team_meeting_1",
+      "value": "I stood out with enthusiasm, though some seniors seemed skeptical."
+    },
+    {
+      "key": "choice_workinglife_team_meeting_2",
+      "value": "Stay mostly quiet"
+    },
+    {
+      "key": "log_workinglife_team_meeting_2",
+      "value": "I avoided mistakes, but risked being forgotten."
+    },
+    {
+      "key": "choice_workinglife_team_meeting_3",
+      "value": "Comment only to agree"
+    },
+    {
+      "key": "log_workinglife_team_meeting_3",
+      "value": "I seemed supportive, though a colleague muttered “too agreeable.”"
+    },
+    {
+      "key": "event_workinglife_forgot_laptop_title",
+      "value": "Forgot Laptop at Home"
+    },
+    {
+      "key": "event_workinglife_forgot_laptop_desc",
+      "value": "Panic sets in as you realize your laptop is missing."
+    },
+    {
+      "key": "choice_workinglife_forgot_laptop_1",
+      "value": "Borrow a spare from colleague"
+    },
+    {
+      "key": "log_workinglife_forgot_laptop_1",
+      "value": "I managed the day, but now owe them a big favor."
+    },
+    {
+      "key": "choice_workinglife_forgot_laptop_2",
+      "value": "Rush home quickly"
+    },
+    {
+      "key": "log_workinglife_forgot_laptop_2",
+      "value": "I retrieved it, but missed part of a morning briefing."
+    },
+    {
+      "key": "choice_workinglife_forgot_laptop_3",
+      "value": "Work with shared desktop"
+    },
+    {
+      "key": "log_workinglife_forgot_laptop_3",
+      "value": "I survived the day, but had to adapt to tools I rarely use."
+    },
+    {
+      "key": "event_workinglife_urgent_deadline_title",
+      "value": "Urgent Deadline"
+    },
+    {
+      "key": "event_workinglife_urgent_deadline_desc",
+      "value": "A project lands on your desk with an impossible deadline."
+    },
+    {
+      "key": "choice_workinglife_urgent_deadline_1",
+      "value": "Stay late and push hard"
+    },
+    {
+      "key": "log_workinglife_urgent_deadline_1",
+      "value": "I delivered on time, but dark circles drew comments."
+    },
+    {
+      "key": "choice_workinglife_urgent_deadline_2",
+      "value": "Ask for an extension politely"
+    },
+    {
+      "key": "log_workinglife_urgent_deadline_2",
+      "value": "Extra time was granted, but my boss's sigh stung."
+    },
+    {
+      "key": "choice_workinglife_urgent_deadline_3",
+      "value": "Split tasks with others"
+    },
+    {
+      "key": "log_workinglife_urgent_deadline_3",
+      "value": "We finished faster, though whispers spread that I can't handle pressure alone."
+    },
+    {
+      "key": "event_workinglife_difficult_task_title",
+      "value": "Assigned a Difficult Task"
+    },
+    {
+      "key": "event_workinglife_difficult_task_desc",
+      "value": "Your boss hands you a task that feels far beyond your skills."
+    },
+    {
+      "key": "choice_workinglife_difficult_task_1",
+      "value": "Accept and try"
+    },
+    {
+      "key": "log_workinglife_difficult_task_1",
+      "value": "I struggled but grew, though errors nearly derailed the project."
+    },
+    {
+      "key": "choice_workinglife_difficult_task_2",
+      "value": "Negotiate for smaller scope"
+    },
+    {
+      "key": "log_workinglife_difficult_task_2",
+      "value": "I reduced the risk, but ambition didn't shine through."
+    },
+    {
+      "key": "choice_workinglife_difficult_task_3",
+      "value": "Seek advice from senior colleague"
+    },
+    {
+      "key": "log_workinglife_difficult_task_3",
+      "value": "Their guidance saved me, but dependence was quietly noted."
+    },
+    {
+      "key": "event_workinglife_late_after_lunch_title",
+      "value": "Late After Lunch"
+    },
+    {
+      "key": "event_workinglife_late_after_lunch_desc",
+      "value": "You came back late from your lunch break."
+    },
+    {
+      "key": "choice_workinglife_late_after_lunch_1",
+      "value": "Apologize sincerely"
+    },
+    {
+      "key": "log_workinglife_late_after_lunch_1",
+      "value": "My boss accepted it, but colleagues teased me lightly."
+    },
+    {
+      "key": "choice_workinglife_late_after_lunch_2",
+      "value": "Sneak back quietly"
+    },
+    {
+      "key": "log_workinglife_late_after_lunch_2",
+      "value": "I slipped in unnoticed, but guilt followed me through the afternoon."
+    },
+    {
+      "key": "choice_workinglife_late_after_lunch_3",
+      "value": "Say you were networking"
+    },
+    {
+      "key": "log_workinglife_late_after_lunch_3",
+      "value": "The excuse sounded smart, though not everyone believed me."
+    },
+    {
+      "key": "event_workinglife_company_presentation_title",
+      "value": "Company-wide Presentation"
+    },
+    {
+      "key": "event_workinglife_company_presentation_desc",
+      "value": "You must present in front of the whole company."
+    },
+    {
+      "key": "choice_workinglife_company_presentation_1",
+      "value": "Prepare thoroughly"
+    },
+    {
+      "key": "log_workinglife_company_presentation_1",
+      "value": "The slides ran smoothly, but the spotlight left me drained."
+    },
+    {
+      "key": "choice_workinglife_company_presentation_2",
+      "value": "Speak without much prep"
+    },
+    {
+      "key": "log_workinglife_company_presentation_2",
+      "value": "I spoke with energy, but small mistakes slipped through."
+    },
+    {
+      "key": "choice_workinglife_company_presentation_3",
+      "value": "Read directly from slides"
+    },
+    {
+      "key": "log_workinglife_company_presentation_3",
+      "value": "The information got across, but I seemed uninspiring."
+    },
+    {
+      "key": "event_workinglife_team_building_title",
+      "value": "Weekend Team Building"
+    },
+    {
+      "key": "event_workinglife_team_building_desc",
+      "value": "The company organizes a weekend team-building event."
+    },
+    {
+      "key": "choice_workinglife_team_building_1",
+      "value": "Join all activities"
+    },
+    {
+      "key": "log_workinglife_team_building_1",
+      "value": "I bonded with colleagues, but returned home utterly exhausted."
+    },
+    {
+      "key": "choice_workinglife_team_building_2",
+      "value": "Attend briefly then leave"
+    },
+    {
+      "key": "log_workinglife_team_building_2",
+      "value": "I showed up for presence, but missed deeper connections."
+    },
+    {
+      "key": "choice_workinglife_team_building_3",
+      "value": "Skip the event"
+    },
+    {
+      "key": "log_workinglife_team_building_3",
+      "value": "I enjoyed free time, though coworkers chatted without me Monday morning."
+    },
+    {
+      "key": "event_workinglife_delayed_salary_title",
+      "value": "Salary is Delayed"
+    },
+    {
+      "key": "event_workinglife_delayed_salary_desc",
+      "value": "Your salary didn't arrive on time this month."
+    },
+    {
+      "key": "choice_workinglife_delayed_salary_1",
+      "value": "Ask HR directly"
+    },
+    {
+      "key": "log_workinglife_delayed_salary_1",
+      "value": "I got answers, but risked being labeled impatient."
+    },
+    {
+      "key": "choice_workinglife_delayed_salary_2",
+      "value": "Wait quietly"
+    },
+    {
+      "key": "log_workinglife_delayed_salary_2",
+      "value": "The money came later, but stress piled up meanwhile."
+    },
+    {
+      "key": "choice_workinglife_delayed_salary_3",
+      "value": "Complain with colleagues"
+    },
+    {
+      "key": "log_workinglife_delayed_salary_3",
+      "value": "We vented together, but the negative mood lingered in the office."
+    },
+    {
+      "key": "event_workinglife_difficult_client_title",
+      "value": "Dealing with a Difficult Client"
+    },
+    {
+      "key": "event_workinglife_difficult_client_desc",
+      "value": "You face a client who's demanding and impatient."
+    },
+    {
+      "key": "choice_workinglife_difficult_client_1",
+      "value": "Set clear expectations"
+    },
+    {
+      "key": "log_workinglife_difficult_client_1",
+      "value": "They calmed down somewhat, though tension remained."
+    },
+    {
+      "key": "choice_workinglife_difficult_client_2",
+      "value": "Over-promise solutions"
+    },
+    {
+      "key": "log_workinglife_difficult_client_2",
+      "value": "They smiled for now, but future pressure doubled."
+    },
+    {
+      "key": "choice_workinglife_difficult_client_3",
+      "value": "Escalate to boss"
+    },
+    {
+      "key": "log_workinglife_difficult_client_3",
+      "value": "The boss stepped in, but I seemed less capable."
+    },
+    {
+      "key": "event_workinglife_boss_notices_title",
+      "value": "Boss Notices Your Tardiness"
+    },
+    {
+      "key": "event_workinglife_boss_notices_desc",
+      "value": "Your boss notices you arriving late and frowns slightly."
+    },
+    {
+      "key": "choice_workinglife_boss_notices_1",
+      "value": "Apologize sincerely"
+    },
+    {
+      "key": "log_workinglife_boss_notices_1",
+      "value": "My apology eased the tension, but the first impression still lingers."
+    },
+    {
+      "key": "choice_workinglife_boss_notices_2",
+      "value": "Give a quick excuse"
+    },
+    {
+      "key": "log_workinglife_boss_notices_2",
+      "value": "The excuse bought me time, but trust was dented."
+    },
+    {
+      "key": "choice_workinglife_boss_notices_3",
+      "value": "Stay quiet"
+    },
+    {
+      "key": "log_workinglife_boss_notices_3",
+      "value": "Silence avoided conflict, but also left me looking careless."
+    },
+    {
+      "key": "event_workinglife_boss_reprimand_title",
+      "value": "Reprimanded by Boss"
+    },
+    {
+      "key": "event_workinglife_boss_reprimand_desc",
+      "value": "Your boss calls you out in a meeting for low participation."
+    },
+    {
+      "key": "choice_workinglife_boss_reprimand_1",
+      "value": "Speak up actively after"
+    },
+    {
+      "key": "log_workinglife_boss_reprimand_1",
+      "value": "I redeemed myself, but colleagues teased me for being “forced.”"
+    },
+    {
+      "key": "choice_workinglife_boss_reprimand_2",
+      "value": "Explain calmly"
+    },
+    {
+      "key": "log_workinglife_boss_reprimand_2",
+      "value": "I explained my reasons, but the boss looked unconvinced."
+    },
+    {
+      "key": "choice_workinglife_boss_reprimand_3",
+      "value": "Accept silently"
+    },
+    {
+      "key": "log_workinglife_boss_reprimand_3",
+      "value": "I swallowed the criticism, but it stung for days."
+    },
+    {
+      "key": "event_workinglife_missed_deadline_title",
+      "value": "Missed Deadline"
+    },
+    {
+      "key": "event_workinglife_missed_deadline_desc",
+      "value": "An important deadline slipped through your fingers."
+    },
+    {
+      "key": "choice_workinglife_missed_deadline_1",
+      "value": "Submit late anyway"
+    },
+    {
+      "key": "log_workinglife_missed_deadline_1",
+      "value": "The work was done, but the stain on my record remained."
+    },
+    {
+      "key": "choice_workinglife_missed_deadline_2",
+      "value": "Ask for extra time"
+    },
+    {
+      "key": "log_workinglife_missed_deadline_2",
+      "value": "The extension saved me, though whispers spread about my reliability."
+    },
+    {
+      "key": "choice_workinglife_missed_deadline_3",
+      "value": "Ask a colleague's help"
+    },
+    {
+      "key": "log_workinglife_missed_deadline_3",
+      "value": "We finished together, but I owed them a heavy debt."
+    },
+    {
+      "key": "event_workinglife_client_complaint_title",
+      "value": "Client Complains"
+    },
+    {
+      "key": "event_workinglife_client_complaint_desc",
+      "value": "A client calls, angry about a delay."
+    },
+    {
+      "key": "choice_workinglife_client_complaint_1",
+      "value": "Apologize sincerely"
+    },
+    {
+      "key": "log_workinglife_client_complaint_1",
+      "value": "The anger cooled, but trust didn't fully return."
+    },
+    {
+      "key": "choice_workinglife_client_complaint_2",
+      "value": "Explain the reason"
+    },
+    {
+      "key": "log_workinglife_client_complaint_2",
+      "value": "They understood, but still pressed for results."
+    },
+    {
+      "key": "choice_workinglife_client_complaint_3",
+      "value": "Redirect to boss"
+    },
+    {
+      "key": "log_workinglife_client_complaint_3",
+      "value": "The client calmed, but my boss looked disappointed."
+    },
+    {
+      "key": "event_workinglife_boss_disappointed_title",
+      "value": "Boss is Disappointed"
+    },
+    {
+      "key": "event_workinglife_boss_disappointed_desc",
+      "value": "Your boss looks disappointed after you declined a tough task."
+    },
+    {
+      "key": "choice_workinglife_boss_disappointed_1",
+      "value": "Apologize and explain"
+    },
+    {
+      "key": "log_workinglife_boss_disappointed_1",
+      "value": "I softened the blow, but suspicion about my ambition grew."
+    },
+    {
+      "key": "choice_workinglife_boss_disappointed_2",
+      "value": "Offer to retry"
+    },
+    {
+      "key": "log_workinglife_boss_disappointed_2",
+      "value": "I regained some trust, though pressure doubled."
+    },
+    {
+      "key": "choice_workinglife_boss_disappointed_3",
+      "value": "Stay quiet"
+    },
+    {
+      "key": "log_workinglife_boss_disappointed_3",
+      "value": "I avoided conflict, but respect slipped silently away."
+    },
+    {
+      "key": "event_workinglife_colleagues_laugh_title",
+      "value": "Colleagues Laugh"
+    },
+    {
+      "key": "event_workinglife_colleagues_laugh_desc",
+      "value": "Colleagues chuckle as you sneak back late."
+    },
+    {
+      "key": "choice_workinglife_colleagues_laugh_1",
+      "value": "Laugh with them"
+    },
+    {
+      "key": "log_workinglife_colleagues_laugh_1",
+      "value": "The moment passed lightly, but respect felt thinner."
+    },
+    {
+      "key": "choice_workinglife_colleagues_laugh_2",
+      "value": "Explain quickly"
+    },
+    {
+      "key": "log_workinglife_colleagues_laugh_2",
+      "value": "They nodded, but the teasing nickname stuck."
+    },
+    {
+      "key": "choice_workinglife_colleagues_laugh_3",
+      "value": "Ignore silently"
+    },
+    {
+      "key": "log_workinglife_colleagues_laugh_3",
+      "value": "I stayed calm, though the laughter echoed in my head."
+    },
+    {
+      "key": "event_workinglife_lose_points_with_boss_title",
+      "value": "Lost Points with the Boss"
+    },
+    {
+      "key": "event_workinglife_lose_points_with_boss_desc",
+      "value": "Your presentation failed to impress your boss."
+    },
+    {
+      "key": "choice_workinglife_lose_points_with_boss_1",
+      "value": "Improvise quickly"
+    },
+    {
+      "key": "log_workinglife_lose_points_with_boss_1",
+      "value": "I salvaged some face, though the slip was remembered."
+    },
+    {
+      "key": "choice_workinglife_lose_points_with_boss_2",
+      "value": "Admit the mistake"
+    },
+    {
+      "key": "log_workinglife_lose_points_with_boss_2",
+      "value": "Honesty softened the blow, but the weakness stayed noted."
+    },
+    {
+      "key": "choice_workinglife_lose_points_with_boss_3",
+      "value": "Ask colleague to step in"
+    },
+    {
+      "key": "log_workinglife_lose_points_with_boss_3",
+      "value": "The presentation survived, but my dependency was visible."
+    },
+    {
+      "key": "event_workinglife_feel_isolated_title",
+      "value": "Feeling Isolated"
+    },
+    {
+      "key": "event_workinglife_feel_isolated_desc",
+      "value": "Skipping events made you feel cut off from colleagues."
+    },
+    {
+      "key": "choice_workinglife_feel_isolated_1",
+      "value": "Observe from distance"
+    },
+    {
+      "key": "log_workinglife_feel_isolated_1",
+      "value": "I saw their bonds grow stronger, while I lingered outside."
+    },
+    {
+      "key": "choice_workinglife_feel_isolated_2",
+      "value": "Try reconnecting later"
+    },
+    {
+      "key": "log_workinglife_feel_isolated_2",
+      "value": "Small steps worked, though I still felt behind."
+    },
+    {
+      "key": "choice_workinglife_feel_isolated_3",
+      "value": "Stay withdrawn"
+    },
+    {
+      "key": "log_workinglife_feel_isolated_3",
+      "value": "I avoided awkwardness, but loneliness deepened."
+    },
+    {
+      "key": "event_workinglife_financial_trouble_title",
+      "value": "Financial Trouble"
+    },
+    {
+      "key": "event_workinglife_financial_trouble_desc",
+      "value": "The delayed salary has caused financial strain."
+    },
+    {
+      "key": "choice_workinglife_financial_trouble_1",
+      "value": "Borrow from friend"
+    },
+    {
+      "key": "log_workinglife_financial_trouble_1",
+      "value": "Relief came, but pride took a dent."
+    },
+    {
+      "key": "choice_workinglife_financial_trouble_2",
+      "value": "Request salary advance"
+    },
+    {
+      "key": "log_workinglife_financial_trouble_2",
+      "value": "HR agreed, but I felt indebted to the company."
+    },
+    {
+      "key": "choice_workinglife_financial_trouble_3",
+      "value": "Cut back sharply"
+    },
+    {
+      "key": "log_workinglife_financial_trouble_3",
+      "value": "I endured frugality, but stress grew heavier."
+    },
+    {
+      "key": "event_workinglife_client_unhappy_title",
+      "value": "Client is Unhappy"
+    },
+    {
+      "key": "event_workinglife_client_unhappy_desc",
+      "value": "A client seems unsatisfied after your promises."
+    },
+    {
+      "key": "choice_workinglife_client_unhappy_1",
+      "value": "Apologize directly"
+    },
+    {
+      "key": "log_workinglife_client_unhappy_1",
+      "value": "The mood eased, but expectations still weighed heavy."
+    },
+    {
+      "key": "choice_workinglife_client_unhappy_2",
+      "value": "Ask boss to handle"
+    },
+    {
+      "key": "log_workinglife_client_unhappy_2",
+      "value": "The client calmed, but I lost ground in credibility."
+    },
+    {
+      "key": "choice_workinglife_client_unhappy_3",
+      "value": "Offer discount or favor"
+    },
+    {
+      "key": "log_workinglife_client_unhappy_3",
+      "value": "They smiled again, but future demands increased."
+    },
+    {
+      "key": "event_workinglife_overtime_title",
+      "value": "Working Overtime"
+    },
+    {
+      "key": "event_workinglife_overtime_desc",
+      "value": "The clock strikes late, but work remains unfinished."
+    },
+    {
+      "key": "choice_workinglife_overtime_1",
+      "value": "Stay and complete it"
+    },
+    {
+      "key": "log_workinglife_overtime_1",
+      "value": "The task was done, but exhaustion clung the next day."
+    },
+    {
+      "key": "choice_workinglife_overtime_2",
+      "value": "Complain while working"
+    },
+    {
+      "key": "log_workinglife_overtime_2",
+      "value": "I vented my frustration, but the sour mood spread."
+    },
+    {
+      "key": "choice_workinglife_overtime_3",
+      "value": "Leave it for tomorrow"
+    },
+    {
+      "key": "log_workinglife_overtime_3",
+      "value": "I left on time, but guilt shadowed my evening."
+    },
+    {
+      "key": "event_workinglife_new_project_title",
+      "value": "Join a New Project"
+    },
+    {
+      "key": "event_workinglife_new_project_desc",
+      "value": "Your boss invites you to join a new project."
+    },
+    {
+      "key": "choice_workinglife_new_project_1",
+      "value": "Accept eagerly"
+    },
+    {
+      "key": "log_workinglife_new_project_1",
+      "value": "I showed ambition, though more work piled on quickly."
+    },
+    {
+      "key": "choice_workinglife_new_project_2",
+      "value": "Accept with caution"
+    },
+    {
+      "key": "log_workinglife_new_project_2",
+      "value": "I joined but limited my role, safe but less visible."
+    },
+    {
+      "key": "choice_workinglife_new_project_3",
+      "value": "Decline politely"
+    },
+    {
+      "key": "log_workinglife_new_project_3",
+      "value": "I kept my workload stable, but ambition seemed lacking."
+    },
+    {
+      "key": "log_workinglife_project_bonus",
+      "value": "{name} received a bonus of ${amount} for excellent work on the new project!"
+    },
+    {
+      "key": "event_workinglife_boss_praise_title",
+      "value": "Praised by Boss"
+    },
+    {
+      "key": "event_workinglife_boss_praise_desc",
+      "value": "Your boss praises your performance."
+    },
+    {
+      "key": "choice_workinglife_boss_praise_1",
+      "value": "Thank them warmly"
+    },
+    {
+      "key": "log_workinglife_boss_praise_1",
+      "value": "Gratitude built rapport, though I felt eyes of envy nearby."
+    },
+    {
+      "key": "choice_workinglife_boss_praise_2",
+      "value": "Stay humble"
+    },
+    {
+      "key": "log_workinglife_boss_praise_2",
+      "value": "My modesty impressed some, though others said I lacked confidence."
+    },
+    {
+      "key": "choice_workinglife_boss_praise_3",
+      "value": "Take pride openly"
+    },
+    {
+      "key": "log_workinglife_boss_praise_3",
+      "value": "Confidence surged, but whispers of arrogance stirred."
+    },
+    {
+      "key": "event_workinglife_boss_criticism_title",
+      "value": "Criticized by Boss"
+    },
+    {
+      "key": "event_workinglife_boss_criticism_desc",
+      "value": "Your boss criticizes you in front of others."
+    },
+    {
+      "key": "choice_workinglife_boss_criticism_1",
+      "value": "Listen silently"
+    },
+    {
+      "key": "log_workinglife_boss_criticism_1",
+      "value": "I endured, but shame lingered in the room."
+    },
+    {
+      "key": "choice_workinglife_boss_criticism_2",
+      "value": "Explain calmly"
+    },
+    {
+      "key": "log_workinglife_boss_criticism_2",
+      "value": "My explanation softened some, though the boss remained stern."
+    },
+    {
+      "key": "choice_workinglife_boss_criticism_3",
+      "value": "Promise to improve"
+    },
+    {
+      "key": "log_workinglife_boss_criticism_3",
+      "value": "The promise rebuilt trust, but pressure doubled."
+    },
+    {
+      "key": "event_workinglife_training_session_title",
+      "value": "Attend a Training Session"
+    },
+    {
+      "key": "event_workinglife_training_session_desc",
+      "value": "You are at a mandatory training session."
+    },
+    {
+      "key": "choice_workinglife_training_session_1",
+      "value": "Focus fully"
+    },
+    {
+      "key": "log_workinglife_training_session_1",
+      "value": "I gained new skills, though my to-do list grew longer."
+    },
+    {
+      "key": "choice_workinglife_training_session_2",
+      "value": "Multitask quietly"
+    },
+    {
+      "key": "log_workinglife_training_session_2",
+      "value": "I got personal work done, but missed key lessons."
+    },
+    {
+      "key": "choice_workinglife_training_session_3",
+      "value": "Skip discreetly"
+    },
+    {
+      "key": "log_workinglife_training_session_3",
+      "value": "I reclaimed time, but my absence was noticed."
+    },
+    {
+      "key": "event_workinglife_new_colleague_title",
+      "value": "Meet a New Colleague"
+    },
+    {
+      "key": "event_workinglife_new_colleague_desc",
+      "value": "A new colleague joins the office."
+    },
+    {
+      "key": "choice_workinglife_new_colleague_1",
+      "value": "Welcome them warmly"
+    },
+    {
+      "key": "log_workinglife_new_colleague_1",
+      "value": "I gained a friend, though others teased me as “too friendly.”"
+    },
+    {
+      "key": "choice_workinglife_new_colleague_2",
+      "value": "Keep distance"
+    },
+    {
+      "key": "log_workinglife_new_colleague_2",
+      "value": "I stayed safe, but missed a chance for new bonds."
+    },
+    {
+      "key": "choice_workinglife_new_colleague_3",
+      "value": "Ask about their background"
+    },
+    {
+      "key": "log_workinglife_new_colleague_3",
+      "value": "Curiosity built connection, though it felt slightly nosy."
+    },
+    {
+      "key": "event_workinglife_office_lunch_title",
+      "value": "Office Lunch"
+    },
+    {
+      "key": "event_workinglife_office_lunch_desc",
+      "value": "It's lunchtime, and colleagues invite you to join."
+    },
+    {
+      "key": "choice_workinglife_office_lunch_1",
+      "value": "Eat with them"
+    },
+    {
+      "key": "log_workinglife_office_lunch_1",
+      "value": "Laughter flowed, though work talk slipped in too."
+    },
+    {
+      "key": "choice_workinglife_office_lunch_2",
+      "value": "Eat alone at desk"
+    },
+    {
+      "key": "log_workinglife_office_lunch_2",
+      "value": "I enjoyed peace, but missed out on chatter."
+    },
+    {
+      "key": "choice_workinglife_office_lunch_3",
+      "value": "Go eat outside"
+    },
+    {
+      "key": "log_workinglife_office_lunch_3",
+      "value": "The food was refreshing, though I seemed less social."
+    },
+    {
+      "key": "event_workinglife_client_meeting_title",
+      "value": "Meeting with a Client"
+    },
+    {
+      "key": "event_workinglife_client_meeting_desc",
+      "value": "You sit across from an important client."
+    },
+    {
+      "key": "choice_workinglife_client_meeting_1",
+      "value": "Prepare thoroughly"
+    },
+    {
+      "key": "log_workinglife_client_meeting_1",
+      "value": "Preparation paid off, though nerves still shook me slightly."
+    },
+    {
+      "key": "choice_workinglife_client_meeting_2",
+      "value": "Listen mostly"
+    },
+    {
+      "key": "log_workinglife_client_meeting_2",
+      "value": "I avoided mistakes, but risked appearing passive."
+    },
+    {
+      "key": "choice_workinglife_client_meeting_3",
+      "value": "Speak sparingly"
+    },
+    {
+      "key": "log_workinglife_client_meeting_3",
+      "value": "My words carried weight, but silence filled the gaps uncomfortably."
+    },
+    {
+      "key": "event_workinglife_group_work_title",
+      "value": "Group Work"
+    },
+    {
+      "key": "event_workinglife_group_work_desc",
+      "value": "You are working together with colleagues on a task."
+    },
+    {
+      "key": "choice_workinglife_group_work_1",
+      "value": "Contribute actively"
+    },
+    {
+      "key": "log_workinglife_group_work_1",
+      "value": "Ideas flowed, though some conflicts sparked."
+    },
+    {
+      "key": "choice_workinglife_group_work_2",
+      "value": "Stay quiet"
+    },
+    {
+      "key": "log_workinglife_group_work_2",
+      "value": "No mistakes made, but no credit gained either."
+    },
+    {
+      "key": "choice_workinglife_group_work_3",
+      "value": "Follow others' lead"
+    },
+    {
+      "key": "log_workinglife_group_work_3",
+      "value": "I avoided blame, but remained invisible."
+    },
+    {
+      "key": "event_workinglife_company_party_title",
+      "value": "Company Party"
+    },
+    {
+      "key": "event_workinglife_company_party_desc",
+      "value": "The company is hosting a party after work."
+    },
+    {
+      "key": "choice_workinglife_company_party_1",
+      "value": "Join and mingle"
+    },
+    {
+      "key": "log_workinglife_company_party_1",
+      "value": "I bonded with many, though the late night drained me."
+    },
+    {
+      "key": "choice_workinglife_company_party_2",
+      "value": "Stay quietly at a corner"
+    },
+    {
+      "key": "log_workinglife_company_party_2",
+      "value": "I avoided awkwardness, but felt left out of stories later."
+    },
+    {
+      "key": "choice_workinglife_company_party_3",
+      "value": "Leave early"
+    },
+    {
+      "key": "log_workinglife_company_party_3",
+      "value": "I kept my energy, but missed chances to connect."
+    },
+    {
+      "key": "event_workinglife_business_trip_title",
+      "value": "Business Trip"
+    },
+    {
+      "key": "event_workinglife_business_trip_desc",
+      "value": "You travel for work on a business trip."
+    },
+    {
+      "key": "choice_workinglife_business_trip_1",
+      "value": "Prepare thoroughly"
+    },
+    {
+      "key": "log_workinglife_business_trip_1",
+      "value": "The meetings went smoothly, though fatigue followed me home."
+    },
+    {
+      "key": "choice_workinglife_business_trip_2",
+      "value": "Forget some documents"
+    },
+    {
+      "key": "log_workinglife_business_trip_2",
+      "value": "I scrambled to recover, but stress spiked."
+    },
+    {
+      "key": "choice_workinglife_business_trip_3",
+      "value": "Rely on colleagues during trip"
+    },
+    {
+      "key": "log_workinglife_business_trip_3",
+      "value": "They covered for me, but whispers of unpreparedness spread."
+    },
+    {
+      "key": "event_workinglife_end_of_day_title",
+      "value": "End of the Workday"
+    },
+    {
+      "key": "event_workinglife_end_of_day_desc",
+      "value": "The clock strikes 5 PM. How do you end your day?"
+    },
+    {
+      "key": "choice_workinglife_end_of_day_1",
+      "value": "Leave immediately"
+    },
+    {
+      "key": "log_workinglife_end_of_day_1",
+      "value": "I preserved balance, though some muttered “not dedicated.”"
+    },
+    {
+      "key": "choice_workinglife_end_of_day_2",
+      "value": "Stay and finish more work"
+    },
+    {
+      "key": "log_workinglife_end_of_day_2",
+      "value": "I earned praise, but lost rest."
+    },
+    {
+      "key": "choice_workinglife_end_of_day_3",
+      "value": "Chat and relax a bit"
+    },
+    {
+      "key": "log_workinglife_end_of_day_3",
+      "value": "I enjoyed laughter, though tasks piled slightly higher."
+    },
+    {
+      "key": "event_workinglife_work_delayed_title",
+      "value": "Work is Delayed"
+    },
+    {
+      "key": "event_workinglife_work_delayed_desc",
+      "value": "Your work falls behind schedule."
+    },
+    {
+      "key": "choice_workinglife_work_delayed_1",
+      "value": "Push yourself harder"
+    },
+    {
+      "key": "log_workinglife_work_delayed_1",
+      "value": "I caught up, but exhaustion took its toll."
+    },
+    {
+      "key": "choice_workinglife_work_delayed_2",
+      "value": "Request more time"
+    },
+    {
+      "key": "log_workinglife_work_delayed_2",
+      "value": "Extra time helped, though doubts about reliability rose."
+    },
+    {
+      "key": "choice_workinglife_work_delayed_3",
+      "value": "Ask for colleague's help"
+    },
+    {
+      "key": "log_workinglife_work_delayed_3",
+      "value": "Together we finished, but my dependence showed."
+    },
+    {
+      "key": "event_workinglife_pay_raise_title",
+      "value": "Got a Pay Raise"
+    },
+    {
+      "key": "event_workinglife_pay_raise_desc",
+      "value": "Your salary has been raised."
+    },
+    {
+      "key": "choice_workinglife_pay_raise_1",
+      "value": "Celebrate openly"
+    },
+    {
+      "key": "log_workinglife_pay_raise_1",
+      "value": "Happiness shone, but envy stirred around."
+    },
+    {
+      "key": "choice_workinglife_pay_raise_2",
+      "value": "Thank the boss quietly"
+    },
+    {
+      "key": "log_workinglife_pay_raise_2",
+      "value": "Gratitude strengthened bonds, but felt less exciting."
+    },
+    {
+      "key": "choice_workinglife_pay_raise_3",
+      "value": "Keep it secret"
+    },
+    {
+      "key": "log_workinglife_pay_raise_3",
+      "value": "I avoided jealousy, but couldn't share my joy."
+    },
+    {
+      "key": "event_workinglife_bonus_cut_title",
+      "value": "Bonus Cut"
+    },
+    {
+      "key": "event_workinglife_bonus_cut_desc",
+      "value": "Your expected bonus was reduced."
+    },
+    {
+      "key": "choice_workinglife_bonus_cut_1",
+      "value": "Complain openly"
+    },
+    {
+      "key": "log_workinglife_bonus_cut_1",
+      "value": "I released frustration, but risked looking unprofessional."
+    },
+    {
+      "key": "choice_workinglife_bonus_cut_2",
+      "value": "Accept silently"
+    },
+    {
+      "key": "log_workinglife_bonus_cut_2",
+      "value": "I avoided conflict, but bitterness lingered."
+    },
+    {
+      "key": "choice_workinglife_bonus_cut_3",
+      "value": "Consider finding another job"
+    },
+    {
+      "key": "log_workinglife_bonus_cut_3",
+      "value": "I explored options, though risk shadowed every thought."
+    },
+    {
+      "key": "event_workinglife_policy_change_title",
+      "value": "Company Policy Change"
+    },
+    {
+      "key": "event_workinglife_policy_change_desc",
+      "value": "The company announces a major new policy."
+    },
+    {
+      "key": "choice_workinglife_policy_change_1",
+      "value": "Read thoroughly"
+    },
+    {
+      "key": "log_workinglife_policy_change_1",
+      "value": "I understood fully, though others thought I worried too much."
+    },
+    {
+      "key": "choice_workinglife_policy_change_2",
+      "value": "Ask questions"
+    },
+    {
+      "key": "log_workinglife_policy_change_2",
+      "value": "I gained clarity, but risked sounding doubtful."
+    },
+    {
+      "key": "choice_workinglife_policy_change_3",
+      "value": "Ignore for now"
+    },
+    {
+      "key": "log_workinglife_policy_change_3",
+      "value": "I saved time, but confusion hit me later."
+    },
+    {
+      "key": "event_workinglife_computer_broken_title",
+      "value": "Computer Broke Down"
+    },
+    {
+      "key": "event_workinglife_computer_broken_desc",
+      "value": "Your office computer suddenly crashes."
+    },
+    {
+      "key": "choice_workinglife_computer_broken_1",
+      "value": "Report to IT"
+    },
+    {
+      "key": "log_workinglife_computer_broken_1",
+      "value": "They fixed it, though I lost precious hours."
+    },
+    {
+      "key": "choice_workinglife_computer_broken_2",
+      "value": "Try fixing yourself"
+    },
+    {
+      "key": "log_workinglife_computer_broken_2",
+      "value": "I surprised myself, though risked breaking more."
+    },
+    {
+      "key": "choice_workinglife_computer_broken_3",
+      "value": "Borrow from colleague"
+    },
+    {
+      "key": "log_workinglife_computer_broken_3",
+      "value": "Work continued, but I disrupted their flow."
+    },
+    {
+      "key": "event_workinglife_lost_motivation_title",
+      "value": "Lost Motivation"
+    },
+    {
+      "key": "event_workinglife_lost_motivation_desc",
+      "value": "Lately you've lost your drive at work."
+    },
+    {
+      "key": "choice_workinglife_lost_motivation_1",
+      "value": "Take a short break"
+    },
+    {
+      "key": "log_workinglife_lost_motivation_1",
+      "value": "The pause refreshed me, though tasks piled up."
+    },
+    {
+      "key": "choice_workinglife_lost_motivation_2",
+      "value": "Share feelings with a friend"
+    },
+    {
+      "key": "log_workinglife_lost_motivation_2",
+      "value": "Talking helped, though it risked sounding like complaining."
+    },
+    {
+      "key": "choice_workinglife_lost_motivation_3",
+      "value": "Keep pushing"
+    },
+    {
+      "key": "log_workinglife_lost_motivation_3",
+      "value": "I soldiered on, but the emptiness deepened."
+    },
+    {
+      "key": "event_workinglife_performance_review_title",
+      "value": "Performance Review Results"
+    },
+    {
+      "key": "event_workinglife_performance_review_desc",
+      "value": "Your performance review has arrived."
+    },
+    {
+      "key": "choice_workinglife_performance_review_1",
+      "value": "Celebrate if good"
+    },
+    {
+      "key": "log_workinglife_performance_review_1",
+      "value": "Joy boosted me, though envy stirred in silence."
+    },
+    {
+      "key": "choice_workinglife_performance_review_2",
+      "value": "Stay neutral"
+    },
+    {
+      "key": "log_workinglife_performance_review_2",
+      "value": "I avoided drama, but excitement dimmed."
+    },
+    {
+      "key": "choice_workinglife_performance_review_3",
+      "value": "Reflect deeply if poor"
+    },
+    {
+      "key": "log_workinglife_performance_review_3",
+      "value": "The sting hurt, but reflection sparked growth."
+    },
+    {
+      "key": "event_workinglife_share_office_snacks_title",
+      "value": "Sharing Office Snacks"
+    },
+    {
+      "key": "event_workinglife_share_office_snacks_desc",
+      "value": "Colleagues notice you have snacks at your desk."
+    },
+    {
+      "key": "choice_workinglife_share_office_snacks_1",
+      "value": "Offer some around"
+    },
+    {
+      "key": "log_workinglife_share_office_snacks_1",
+      "value": "Smiles spread, though my portion shrank fast."
+    },
+    {
+      "key": "choice_workinglife_share_office_snacks_2",
+      "value": "Trade with others"
+    },
+    {
+      "key": "log_workinglife_share_office_snacks_2",
+      "value": "We laughed while swapping bites, though not everyone shared back."
+    },
+    {
+      "key": "choice_workinglife_share_office_snacks_3",
+      "value": "Keep it for yourself"
+    },
+    {
+      "key": "log_workinglife_share_office_snacks_3",
+      "value": "I stayed full, but a hint of stinginess followed me."
+    },
+    {
+      "key": "career_track_unskilled_name",
+      "value": "Unskilled Labor"
+    },
+    {
+      "key": "career_track_unskilled_desc",
+      "value": "General labor jobs that do not require specialized training."
+    },
+    {
+      "key": "career_track_trade_name",
+      "value": "Skilled Trade"
+    },
+    {
+      "key": "career_track_trade_desc",
+      "value": "A hands-on career like an electrician or plumber."
+    },
+    {
+      "key": "career_track_business_name",
+      "value": "Business"
+    },
+    {
+      "key": "career_track_business_desc",
+      "value": "A corporate career in analysis and management."
+    },
+    {
+      "key": "career_track_technology_name",
+      "value": "Technology"
+    },
+    {
+      "key": "career_track_technology_desc",
+      "value": "A career in software development and engineering."
+    },
+    {
+      "key": "career_track_arts_name",
+      "value": "Arts"
+    },
+    {
+      "key": "career_track_arts_desc",
+      "value": "A creative career in design and media."
+    },
+    {
+      "key": "career_track_medicine_name",
+      "value": "Medicine"
+    },
+    {
+      "key": "career_track_medicine_desc",
+      "value": "A prestigious and demanding career in the healthcare field."
+    }
+  ]
+}

@@ -1,0 +1,1284 @@
+{
+  "items": [
+    {
+      "key": "event_university_first_day_title",
+      "value": "First Day of University"
+    },
+    {
+      "key": "event_university_first_day_desc",
+      "value": "It's your first day of university, a fresh start."
+    },
+    {
+      "key": "choice_university_first_day_1",
+      "value": "Participate fully."
+    },
+    {
+      "key": "log_university_first_day_1",
+      "value": "I attended all orientation events and made some new friends."
+    },
+    {
+      "key": "choice_university_first_day_2",
+      "value": "Oversleep."
+    },
+    {
+      "key": "log_university_first_day_2",
+      "value": "I overslept and missed the welcome ceremony."
+    },
+    {
+      "key": "choice_university_first_day_3",
+      "value": "Arrive a little late."
+    },
+    {
+      "key": "log_university_first_day_3",
+      "value": "I was a bit late but managed to catch up."
+    },
+    {
+      "key": "event_university_forgot_registration_title",
+      "value": "Forgot to Register for Courses"
+    },
+    {
+      "key": "event_university_forgot_registration_desc",
+      "value": "You forgot to register for your courses on time."
+    },
+    {
+      "key": "choice_university_forgot_registration_1",
+      "value": "Ask a professor/advisor for help."
+    },
+    {
+      "key": "log_university_forgot_registration_1",
+      "value": "My advisor helped me get into the classes I needed."
+    },
+    {
+      "key": "choice_university_forgot_registration_2",
+      "value": "Register late."
+    },
+    {
+      "key": "log_university_forgot_registration_2",
+      "value": "I had to register late and some classes were already full."
+    },
+    {
+      "key": "choice_university_forgot_registration_3",
+      "value": "Decide to register late next semester."
+    },
+    {
+      "key": "log_university_forgot_registration_3",
+      "value": "I decided to take it easy this semester and register for more courses later."
+    },
+    {
+      "key": "event_university_noisy_roommate_title",
+      "value": "Noisy Roommate"
+    },
+    {
+      "key": "event_university_noisy_roommate_desc",
+      "value": "Your roommate plays loud music all night."
+    },
+    {
+      "key": "choice_university_noisy_roommate_1",
+      "value": "Talk to them directly."
+    },
+    {
+      "key": "log_university_noisy_roommate_1",
+      "value": "We had a chat and agreed on some quiet hours."
+    },
+    {
+      "key": "choice_university_noisy_roommate_2",
+      "value": "Complain to the RA."
+    },
+    {
+      "key": "log_university_noisy_roommate_2",
+      "value": "I reported the issue to the Resident Advisor."
+    },
+    {
+      "key": "choice_university_noisy_roommate_3",
+      "value": "Wear headphones to endure it."
+    },
+    {
+      "key": "log_university_noisy_roommate_3",
+      "value": "I decided to just block out the noise with my headphones."
+    },
+    {
+      "key": "event_university_group_presentation_title",
+      "value": "Group Presentation"
+    },
+    {
+      "key": "event_university_group_presentation_desc",
+      "value": "You have a group presentation in front of the class."
+    },
+    {
+      "key": "choice_university_group_presentation_1",
+      "value": "Prepare well."
+    },
+    {
+      "key": "log_university_group_presentation_1",
+      "value": "Our group worked hard and delivered a great presentation."
+    },
+    {
+      "key": "choice_university_group_presentation_2",
+      "value": "Shirk responsibility."
+    },
+    {
+      "key": "log_university_group_presentation_2",
+      "value": "I didn't do my part of the work."
+    },
+    {
+      "key": "choice_university_group_presentation_3",
+      "value": "Do nothing."
+    },
+    {
+      "key": "log_university_group_presentation_3",
+      "value": "I was completely unprepared for the presentation."
+    },
+    {
+      "key": "event_university_midterm_exam_title",
+      "value": "Midterm Exam"
+    },
+    {
+      "key": "event_university_midterm_exam_desc",
+      "value": "It's time for the midterm exams."
+    },
+    {
+      "key": "choice_university_midterm_exam_1",
+      "value": "Study thoroughly."
+    },
+    {
+      "key": "log_university_midterm_exam_1",
+      "value": "I studied hard and felt confident for the exams."
+    },
+    {
+      "key": "choice_university_midterm_exam_2",
+      "value": "Cram for the test."
+    },
+    {
+      "key": "log_university_midterm_exam_2",
+      "value": "I pulled an all-nighter to cram for the test."
+    },
+    {
+      "key": "choice_university_midterm_exam_3",
+      "value": "Skip the exam."
+    },
+    {
+      "key": "log_university_midterm_exam_3",
+      "value": "I decided to skip the exam altogether."
+    },
+    {
+      "key": "event_university_football_game_title",
+      "value": "University Football Game"
+    },
+    {
+      "key": "event_university_football_game_desc",
+      "value": "There's a big football game for the university team."
+    },
+    {
+      "key": "choice_university_football_game_1",
+      "value": "Go and cheer enthusiastically."
+    },
+    {
+      "key": "log_university_football_game_1",
+      "value": "I went to the game and cheered my heart out for our team."
+    },
+    {
+      "key": "choice_university_football_game_2",
+      "value": "Skip class to watch."
+    },
+    {
+      "key": "log_university_football_game_2",
+      "value": "The game was more important than class today."
+    },
+    {
+      "key": "choice_university_football_game_3",
+      "value": "Stay in the dorm to sleep/work."
+    },
+    {
+      "key": "log_university_football_game_3",
+      "value": "I decided to catch up on sleep instead of going to the game."
+    },
+    {
+      "key": "event_university_dorm_party_title",
+      "value": "Dorm Party"
+    },
+    {
+      "key": "event_university_dorm_party_desc",
+      "value": "There's a party in your dorm."
+    },
+    {
+      "key": "choice_university_dorm_party_1",
+      "value": "Join in and have fun."
+    },
+    {
+      "key": "log_university_dorm_party_1",
+      "value": "I went to the party and had a great time."
+    },
+    {
+      "key": "choice_university_dorm_party_2",
+      "value": "Drink too much."
+    },
+    {
+      "key": "log_university_dorm_party_2",
+      "value": "I had a bit too much to drink and things got hazy."
+    },
+    {
+      "key": "choice_university_dorm_party_3",
+      "value": "Sit in a corner and play on your phone."
+    },
+    {
+      "key": "log_university_dorm_party_3",
+      "value": "Parties aren't really my thing, so I just kept to myself."
+    },
+    {
+      "key": "event_university_internship_interview_title",
+      "value": "Internship Interview"
+    },
+    {
+      "key": "event_university_internship_interview_desc",
+      "value": "You have an interview for an internship."
+    },
+    {
+      "key": "choice_university_internship_interview_1",
+      "value": "Prepare thoroughly."
+    },
+    {
+      "key": "log_university_internship_interview_1",
+      "value": "I researched the company and practiced my answers."
+    },
+    {
+      "key": "choice_university_internship_interview_2",
+      "value": "Arrive late."
+    },
+    {
+      "key": "log_university_internship_interview_2",
+      "value": "I misjudged the traffic and arrived late."
+    },
+    {
+      "key": "choice_university_internship_interview_3",
+      "value": "Answer carelessly."
+    },
+    {
+      "key": "log_university_internship_interview_3",
+      "value": "I didn't take the interview very seriously."
+    },
+    {
+      "key": "event_university_night_class_title",
+      "value": "Night Class"
+    },
+    {
+      "key": "event_university_night_class_desc",
+      "value": "You have a night class."
+    },
+    {
+      "key": "choice_university_night_class_1",
+      "value": "Listen attentively to the lecture."
+    },
+    {
+      "key": "log_university_night_class_1",
+      "value": "I paid close attention and took good notes."
+    },
+    {
+      "key": "choice_university_night_class_2",
+      "value": "Secretly play on your phone."
+    },
+    {
+      "key": "log_university_night_class_2",
+      "value": "I was bored and scrolled through my phone."
+    },
+    {
+      "key": "choice_university_night_class_3",
+      "value": "Study in a group with friends."
+    },
+    {
+      "key": "log_university_night_class_3",
+      "value": "We worked together and helped each other understand the material."
+    },
+    {
+      "key": "event_university_submit_essay_title",
+      "value": "Submit Essay"
+    },
+    {
+      "key": "event_university_submit_essay_desc",
+      "value": "You have an essay to submit."
+    },
+    {
+      "key": "choice_university_submit_essay_1",
+      "value": "Submit on time."
+    },
+    {
+      "key": "log_university_submit_essay_1",
+      "value": "I finished my essay and submitted it before the deadline."
+    },
+    {
+      "key": "choice_university_submit_essay_2",
+      "value": "Submit late."
+    },
+    {
+      "key": "log_university_submit_essay_2",
+      "value": "I couldn't finish it on time and had to submit it late."
+    },
+    {
+      "key": "choice_university_submit_essay_3",
+      "value": "Don't submit at all."
+    },
+    {
+      "key": "log_university_submit_essay_3",
+      "value": "I just didn't do the assignment."
+    },
+    {
+      "key": "event_university_missed_info_title",
+      "value": "Missed Important Information"
+    },
+    {
+      "key": "event_university_missed_info_desc",
+      "value": "You missed some important information because you overslept."
+    },
+    {
+      "key": "choice_university_missed_info_1",
+      "value": "Ask a friend again."
+    },
+    {
+      "key": "log_university_missed_info_1",
+      "value": "My friend filled me in on what I missed."
+    },
+    {
+      "key": "choice_university_missed_info_2",
+      "value": "Read the school email."
+    },
+    {
+      "key": "log_university_missed_info_2",
+      "value": "I found the information in an email from the school."
+    },
+    {
+      "key": "choice_university_missed_info_3",
+      "value": "Guess."
+    },
+    {
+      "key": "log_university_missed_info_3",
+      "value": "I just tried to guess what I had missed."
+    },
+    {
+      "key": "event_university_class_full_title",
+      "value": "Required Class is Full"
+    },
+    {
+      "key": "event_university_class_full_desc",
+      "value": "The required class you wanted to take is already full."
+    },
+    {
+      "key": "choice_university_class_full_1",
+      "value": "Choose another class."
+    },
+    {
+      "key": "log_university_class_full_1",
+      "value": "I had to pick a different elective."
+    },
+    {
+      "key": "choice_university_class_full_2",
+      "value": "Get on the waiting list."
+    },
+    {
+      "key": "log_university_class_full_2",
+      "value": "I put my name on the waiting list and hoped for the best."
+    },
+    {
+      "key": "choice_university_class_full_3",
+      "value": "Ask the professor to open more slots."
+    },
+    {
+      "key": "log_university_class_full_3",
+      "value": "I emailed the professor to see if they could add more students."
+    },
+    {
+      "key": "event_university_roommate_angry_title",
+      "value": "Roommate is Angry"
+    },
+    {
+      "key": "event_university_roommate_angry_desc",
+      "value": "Your roommate is angry because you complained about them."
+    },
+    {
+      "key": "choice_university_roommate_angry_1",
+      "value": "Apologize."
+    },
+    {
+      "key": "log_university_roommate_angry_1",
+      "value": "I apologized to smooth things over."
+    },
+    {
+      "key": "choice_university_roommate_angry_2",
+      "value": "Explain."
+    },
+    {
+      "key": "log_university_roommate_angry_2",
+      "value": "I tried to explain my side of the story."
+    },
+    {
+      "key": "choice_university_roommate_angry_3",
+      "value": "Engage in a cold war."
+    },
+    {
+      "key": "log_university_roommate_angry_3",
+      "value": "We just ignored each other."
+    },
+    {
+      "key": "event_university_group_dislikes_you_title",
+      "value": "Group Dislikes You"
+    },
+    {
+      "key": "event_university_group_dislikes_you_desc",
+      "value": "Your group dislikes you for shirking your responsibilities."
+    },
+    {
+      "key": "choice_university_group_dislikes_you_1",
+      "value": "Try to do the remaining part."
+    },
+    {
+      "key": "log_university_group_dislikes_you_1",
+      "value": "I tried to make up for it by doing the rest of the work."
+    },
+    {
+      "key": "choice_university_group_dislikes_you_2",
+      "value": "Apologize."
+    },
+    {
+      "key": "log_university_group_dislikes_you_2",
+      "value": "I apologized to my group members."
+    },
+    {
+      "key": "choice_university_group_dislikes_you_3",
+      "value": "Get kicked out of the group."
+    },
+    {
+      "key": "log_university_group_dislikes_you_3",
+      "value": "They kicked me out of the group."
+    },
+    {
+      "key": "event_university_exam_off_topic_title",
+      "value": "Exam Not on Crammed Topics"
+    },
+    {
+      "key": "event_university_exam_off_topic_desc",
+      "value": "The exam questions were not on the topics you crammed for."
+    },
+    {
+      "key": "choice_university_exam_off_topic_1",
+      "value": "Anxiously try to do it."
+    },
+    {
+      "key": "log_university_exam_off_topic_1",
+      "value": "I tried my best to answer what I could."
+    },
+    {
+      "key": "choice_university_exam_off_topic_2",
+      "value": "Skip the difficult questions."
+    },
+    {
+      "key": "log_university_exam_off_topic_2",
+      "value": "I skipped the questions I didn't know."
+    },
+    {
+      "key": "choice_university_exam_off_topic_3",
+      "value": "Submit the paper early."
+    },
+    {
+      "key": "log_university_exam_off_topic_3",
+      "value": "I just gave up and turned in my paper early."
+    },
+    {
+      "key": "event_university_marked_absent_title",
+      "value": "Marked Absent by Teacher"
+    },
+    {
+      "key": "event_university_marked_absent_desc",
+      "value": "The teacher marked you absent for skipping class to watch the game."
+    },
+    {
+      "key": "choice_university_marked_absent_1",
+      "value": "Apologize."
+    },
+    {
+      "key": "log_university_marked_absent_1",
+      "value": "I apologized to the teacher."
+    },
+    {
+      "key": "choice_university_marked_absent_2",
+      "value": "Blame traffic."
+    },
+    {
+      "key": "log_university_marked_absent_2",
+      "value": "I made up an excuse about traffic."
+    },
+    {
+      "key": "choice_university_marked_absent_3",
+      "value": "Accept the point deduction."
+    },
+    {
+      "key": "log_university_marked_absent_3",
+      "value": "I accepted the consequence."
+    },
+    {
+      "key": "event_university_caught_by_ra_title",
+      "value": "Caught by the RA"
+    },
+    {
+      "key": "event_university_caught_by_ra_desc",
+      "value": "The RA caught you drinking too much."
+    },
+    {
+      "key": "choice_university_caught_by_ra_1",
+      "value": "Explain you were peer-pressured."
+    },
+    {
+      "key": "log_university_caught_by_ra_1",
+      "value": "I tried to explain it wasn't my idea."
+    },
+    {
+      "key": "choice_university_caught_by_ra_2",
+      "value": "Silently accept it."
+    },
+    {
+      "key": "log_university_caught_by_ra_2",
+      "value": "I didn't argue and accepted the write-up."
+    },
+    {
+      "key": "choice_university_caught_by_ra_3",
+      "value": "Apologize."
+    },
+    {
+      "key": "log_university_caught_by_ra_3",
+      "value": "I apologized for my behavior."
+    },
+    {
+      "key": "event_university_rejected_immediately_title",
+      "value": "Rejected Immediately"
+    },
+    {
+      "key": "event_university_rejected_immediately_desc",
+      "value": "You were rejected immediately for being late to the interview."
+    },
+    {
+      "key": "choice_university_rejected_immediately_1",
+      "value": "Ask for another chance."
+    },
+    {
+      "key": "log_university_rejected_immediately_1",
+      "value": "I asked if I could reschedule."
+    },
+    {
+      "key": "choice_university_rejected_immediately_2",
+      "value": "Blame traffic."
+    },
+    {
+      "key": "log_university_rejected_immediately_2",
+      "value": "I tried to explain about the traffic."
+    },
+    {
+      "key": "choice_university_rejected_immediately_3",
+      "value": "Give up and not apply anymore."
+    },
+    {
+      "key": "log_university_rejected_immediately_3",
+      "value": "I decided not to pursue the internship anymore."
+    },
+    {
+      "key": "event_university_reprimanded_by_teacher_title",
+      "value": "Reprimanded by Teacher"
+    },
+    {
+      "key": "event_university_reprimanded_by_teacher_desc",
+      "value": "The teacher reprimanded you for playing on your phone."
+    },
+    {
+      "key": "choice_university_reprimanded_by_teacher_1",
+      "value": "Put away the phone."
+    },
+    {
+      "key": "log_university_reprimanded_by_teacher_1",
+      "value": "I put my phone away and paid attention."
+    },
+    {
+      "key": "choice_university_reprimanded_by_teacher_2",
+      "value": "Continue secretly."
+    },
+    {
+      "key": "log_university_reprimanded_by_teacher_2",
+      "value": "I tried to be more subtle about it."
+    },
+    {
+      "key": "choice_university_reprimanded_by_teacher_3",
+      "value": "Explain you were looking up something for class."
+    },
+    {
+      "key": "log_university_reprimanded_by_teacher_3",
+      "value": "I claimed I was using it for research."
+    },
+    {
+      "key": "event_university_points_deducted_title",
+      "value": "Points Deducted"
+    },
+    {
+      "key": "event_university_points_deducted_desc",
+      "value": "Your points were deducted for submitting the essay late."
+    },
+    {
+      "key": "choice_university_points_deducted_1",
+      "value": "Ask for forgiveness."
+    },
+    {
+      "key": "log_university_points_deducted_1",
+      "value": "I asked the professor if they would make an exception."
+    },
+    {
+      "key": "choice_university_points_deducted_2",
+      "value": "Accept the lower grade."
+    },
+    {
+      "key": "log_university_points_deducted_2",
+      "value": "I accepted the penalty."
+    },
+    {
+      "key": "choice_university_points_deducted_3",
+      "value": "Blame computer problems."
+    },
+    {
+      "key": "log_university_points_deducted_3",
+      "value": "I said I had computer trouble."
+    },
+    {
+      "key": "event_university_choose_elective_title",
+      "value": "Choose an Elective"
+    },
+    {
+      "key": "event_university_choose_elective_desc",
+      "value": "You are choosing an elective course."
+    },
+    {
+      "key": "choice_university_choose_elective_1",
+      "value": "Choose an easy one."
+    },
+    {
+      "key": "log_university_choose_elective_1",
+      "value": "I picked an easy class to boost my GPA."
+    },
+    {
+      "key": "choice_university_choose_elective_2",
+      "value": "Choose based on interest."
+    },
+    {
+      "key": "log_university_choose_elective_2",
+      "value": "I chose a class that I was genuinely interested in."
+    },
+    {
+      "key": "choice_university_choose_elective_3",
+      "value": "Choose based on friends."
+    },
+    {
+      "key": "log_university_choose_elective_3",
+      "value": "I signed up for the same class as my friends."
+    },
+    {
+      "key": "event_university_library_visit_title",
+      "value": "Visit the Library"
+    },
+    {
+      "key": "event_university_library_visit_desc",
+      "value": "You are at the library."
+    },
+    {
+      "key": "choice_university_library_visit_1",
+      "value": "Study seriously."
+    },
+    {
+      "key": "log_university_library_visit_1",
+      "value": "I had a productive study session."
+    },
+    {
+      "key": "choice_university_library_visit_2",
+      "value": "Nod off."
+    },
+    {
+      "key": "log_university_library_visit_2",
+      "value": "I accidentally fell asleep while studying."
+    },
+    {
+      "key": "choice_university_library_visit_3",
+      "value": "Surf the web."
+    },
+    {
+      "key": "log_university_library_visit_3",
+      "value": "I got distracted and spent the time online."
+    },
+    {
+      "key": "event_university_join_club_title",
+      "value": "Join a Club"
+    },
+    {
+      "key": "event_university_join_club_desc",
+      "value": "You are thinking about joining a club."
+    },
+    {
+      "key": "choice_university_join_club_1",
+      "value": "Participate actively."
+    },
+    {
+      "key": "log_university_join_club_1",
+      "value": "I became an active member of the club."
+    },
+    {
+      "key": "choice_university_join_club_2",
+      "value": "Join for fun."
+    },
+    {
+      "key": "log_university_join_club_2",
+      "value": "I just joined to hang out with friends."
+    },
+    {
+      "key": "choice_university_join_club_3",
+      "value": "Quit midway."
+    },
+    {
+      "key": "log_university_join_club_3",
+      "value": "I lost interest and quit the club."
+    },
+    {
+      "key": "event_university_professor_praise_title",
+      "value": "Praised by Professor"
+    },
+    {
+      "key": "event_university_professor_praise_desc",
+      "value": "A professor praised you."
+    },
+    {
+      "key": "choice_university_professor_praise_1",
+      "value": "Feel happy."
+    },
+    {
+      "key": "log_university_professor_praise_1",
+      "value": "It felt good to be acknowledged."
+    },
+    {
+      "key": "choice_university_professor_praise_2",
+      "value": "Feel shy."
+    },
+    {
+      "key": "log_university_professor_praise_2",
+      "value": "I was a bit embarrassed by the praise."
+    },
+    {
+      "key": "choice_university_professor_praise_3",
+      "value": "Pretend to be normal."
+    },
+    {
+      "key": "log_university_professor_praise_3",
+      "value": "I acted like it wasn't a big deal."
+    },
+    {
+      "key": "event_university_professor_criticism_title",
+      "value": "Criticized by Professor"
+    },
+    {
+      "key": "event_university_professor_criticism_desc",
+      "value": "A professor criticized you."
+    },
+    {
+      "key": "choice_university_professor_criticism_1",
+      "value": "Remain silent."
+    },
+    {
+      "key": "log_university_professor_criticism_1",
+      "value": "I took the criticism quietly."
+    },
+    {
+      "key": "choice_university_professor_criticism_2",
+      "value": "Argue back."
+    },
+    {
+      "key": "log_university_professor_criticism_2",
+      "value": "I tried to defend my work."
+    },
+    {
+      "key": "choice_university_professor_criticism_3",
+      "value": "Apologize."
+    },
+    {
+      "key": "log_university_professor_criticism_3",
+      "value": "I apologized for my mistake."
+    },
+    {
+      "key": "event_university_part_time_job_title",
+      "value": "Get a Part-Time Job"
+    },
+    {
+      "key": "event_university_part_time_job_desc",
+      "value": "You are working a part-time job."
+    },
+    {
+      "key": "choice_university_part_time_job_1",
+      "value": "Work diligently."
+    },
+    {
+      "key": "log_university_part_time_job_1",
+      "value": "I worked hard and earned some extra money."
+    },
+    {
+      "key": "choice_university_part_time_job_2",
+      "value": "Be lazy."
+    },
+    {
+      "key": "log_university_part_time_job_2",
+      "value": "I slacked off a bit at my job."
+    },
+    {
+      "key": "choice_university_part_time_job_3",
+      "value": "Learn the job quickly."
+    },
+    {
+      "key": "log_university_part_time_job_3",
+      "value": "I picked up the skills for the job quickly."
+    },
+    {
+      "key": "event_university_study_group_title",
+      "value": "Study Group Session"
+    },
+    {
+      "key": "event_university_study_group_desc",
+      "value": "You are in a study group session."
+    },
+    {
+      "key": "choice_university_study_group_1",
+      "value": "Study seriously."
+    },
+    {
+      "key": "log_university_study_group_1",
+      "value": "We focused on our studies."
+    },
+    {
+      "key": "choice_university_study_group_2",
+      "value": "Chat."
+    },
+    {
+      "key": "log_university_study_group_2",
+      "value": "We ended up just chatting instead of studying."
+    },
+    {
+      "key": "choice_university_study_group_3",
+      "value": "Sit and listen."
+    },
+    {
+      "key": "log_university_study_group_3",
+      "value": "I let my friends do most of the explaining."
+    },
+    {
+      "key": "event_university_class_trip_title",
+      "value": "Class Trip"
+    },
+    {
+      "key": "event_university_class_trip_desc",
+      "value": "You are on a class trip."
+    },
+    {
+      "key": "choice_university_class_trip_1",
+      "value": "Participate in games."
+    },
+    {
+      "key": "log_university_class_trip_1",
+      "value": "The games were a lot of fun."
+    },
+    {
+      "key": "choice_university_class_trip_2",
+      "value": "Sit and eat."
+    },
+    {
+      "key": "log_university_class_trip_2",
+      "value": "I focused on the food."
+    },
+    {
+      "key": "choice_university_class_trip_3",
+      "value": "Go take pictures."
+    },
+    {
+      "key": "log_university_class_trip_3",
+      "value": "I took a lot of pictures of the scenery."
+    },
+    {
+      "key": "event_university_surprise_test_title",
+      "value": "Surprise Test"
+    },
+    {
+      "key": "event_university_surprise_test_desc",
+      "value": "There is a surprise test in class."
+    },
+    {
+      "key": "choice_university_surprise_test_1",
+      "value": "Do it seriously."
+    },
+    {
+      "key": "log_university_surprise_test_1",
+      "value": "I did my best on the surprise test."
+    },
+    {
+      "key": "choice_university_surprise_test_2",
+      "value": "Look at a friend's paper."
+    },
+    {
+      "key": "log_university_surprise_test_2",
+      "value": "I needed a little help."
+    },
+    {
+      "key": "choice_university_surprise_test_3",
+      "value": "Guess."
+    },
+    {
+      "key": "log_university_surprise_test_3",
+      "value": "I had to guess most of the answers."
+    },
+    {
+      "key": "event_university_club_interview_title",
+      "value": "Club Interview"
+    },
+    {
+      "key": "event_university_club_interview_desc",
+      "value": "You have an interview to join a club."
+    },
+    {
+      "key": "choice_university_club_interview_1",
+      "value": "Prepare well."
+    },
+    {
+      "key": "log_university_club_interview_1",
+      "value": "I was well-prepared for the interview."
+    },
+    {
+      "key": "choice_university_club_interview_2",
+      "value": "Answer confidently."
+    },
+    {
+      "key": "log_university_club_interview_2",
+      "value": "I answered all the questions with confidence."
+    },
+    {
+      "key": "choice_university_club_interview_3",
+      "value": "Speak hesitantly."
+    },
+    {
+      "key": "log_university_club_interview_3",
+      "value": "I was nervous and stumbled over my words."
+    },
+    {
+      "key": "event_university_sports_day_title",
+      "value": "Sports Day"
+    },
+    {
+      "key": "event_university_sports_day_desc",
+      "value": "It's the university sports day."
+    },
+    {
+      "key": "choice_university_sports_day_1",
+      "value": "Play ball."
+    },
+    {
+      "key": "log_university_sports_day_1",
+      "value": "I played in a basketball game."
+    },
+    {
+      "key": "choice_university_sports_day_2",
+      "value": "Run."
+    },
+    {
+      "key": "log_university_sports_day_2",
+      "value": "I participated in a running event."
+    },
+    {
+      "key": "choice_university_sports_day_3",
+      "value": "Sit and cheer."
+    },
+    {
+      "key": "log_university_sports_day_3",
+      "value": "I cheered for my friends."
+    },
+    {
+      "key": "event_university_friends_party_title",
+      "value": "Friends' Party"
+    },
+    {
+      "key": "event_university_friends_party_desc",
+      "value": "You are at a party with friends."
+    },
+    {
+      "key": "choice_university_friends_party_1",
+      "value": "Participate enthusiastically."
+    },
+    {
+      "key": "log_university_friends_party_1",
+      "value": "I had a great time at the party."
+    },
+    {
+      "key": "choice_university_friends_party_2",
+      "value": "Sit in a corner."
+    },
+    {
+      "key": "log_university_friends_party_2",
+      "value": "I kept to myself."
+    },
+    {
+      "key": "choice_university_friends_party_3",
+      "value": "Leave early."
+    },
+    {
+      "key": "log_university_friends_party_3",
+      "value": "I wasn't feeling the party and left early."
+    },
+    {
+      "key": "event_university_museum_visit_title",
+      "value": "Museum Visit"
+    },
+    {
+      "key": "event_university_museum_visit_desc",
+      "value": "You are visiting a museum."
+    },
+    {
+      "key": "choice_university_museum_visit_1",
+      "value": "Listen to the guide."
+    },
+    {
+      "key": "log_university_museum_visit_1",
+      "value": "I learned a lot from the tour guide."
+    },
+    {
+      "key": "choice_university_museum_visit_2",
+      "value": "Wander around."
+    },
+    {
+      "key": "log_university_museum_visit_2",
+      "value": "I just explored the museum on my own."
+    },
+    {
+      "key": "choice_university_museum_visit_3",
+      "value": "Take pictures."
+    },
+    {
+      "key": "log_university_museum_visit_3",
+      "value": "I took a lot of photos."
+    },
+    {
+      "key": "event_university_major_group_project_title",
+      "value": "Major Group Project"
+    },
+    {
+      "key": "event_university_major_group_project_desc",
+      "value": "You have a major group project."
+    },
+    {
+      "key": "choice_university_major_group_project_1",
+      "value": "Do your best."
+    },
+    {
+      "key": "log_university_major_group_project_1",
+      "value": "I contributed a lot to the project."
+    },
+    {
+      "key": "choice_university_major_group_project_2",
+      "value": "Shirk responsibility."
+    },
+    {
+      "key": "log_university_major_group_project_2",
+      "value": "I let my group members do most of the work."
+    },
+    {
+      "key": "choice_university_major_group_project_3",
+      "value": "Do a part."
+    },
+    {
+      "key": "log_university_major_group_project_3",
+      "value": "I just did my assigned part."
+    },
+    {
+      "key": "event_university_holiday_festival_title",
+      "value": "Holiday Festival at University"
+    },
+    {
+      "key": "event_university_holiday_festival_desc",
+      "value": "The university is holding a holiday festival."
+    },
+    {
+      "key": "choice_university_holiday_festival_1",
+      "value": "Join the festival."
+    },
+    {
+      "key": "log_university_holiday_festival_1",
+      "value": "The festival was a lot of fun."
+    },
+    {
+      "key": "choice_university_holiday_festival_2",
+      "value": "Stay in the dorm."
+    },
+    {
+      "key": "log_university_holiday_festival_2",
+      "value": "I preferred to stay in and relax."
+    },
+    {
+      "key": "choice_university_holiday_festival_3",
+      "value": "Go out separately."
+    },
+    {
+      "key": "log_university_holiday_festival_3",
+      "value": "I made my own plans with friends."
+    },
+    {
+      "key": "event_university_meet_professor_outside_title",
+      "value": "Meet a Professor Outside University"
+    },
+    {
+      "key": "event_university_meet_professor_outside_desc",
+      "value": "You meet a professor outside of the university."
+    },
+    {
+      "key": "choice_university_meet_professor_outside_1",
+      "value": "Greet them."
+    },
+    {
+      "key": "log_university_meet_professor_outside_1",
+      "value": "I said hello to my professor."
+    },
+    {
+      "key": "choice_university_meet_professor_outside_2",
+      "value": "Give a forced smile."
+    },
+    {
+      "key": "log_university_meet_professor_outside_2",
+      "value": "It was a bit awkward."
+    },
+    {
+      "key": "choice_university_meet_professor_outside_3",
+      "value": "Pretend not to see them."
+    },
+    {
+      "key": "log_university_meet_professor_outside_3",
+      "value": "I avoided them."
+    },
+    {
+      "key": "event_university_online_class_title",
+      "value": "Online Class"
+    },
+    {
+      "key": "event_university_online_class_desc",
+      "value": "You are taking an online class."
+    },
+    {
+      "key": "choice_university_online_class_1",
+      "value": "Pay attention."
+    },
+    {
+      "key": "log_university_online_class_1",
+      "value": "I focused on the online lecture."
+    },
+    {
+      "key": "choice_university_online_class_2",
+      "value": "Open another tab."
+    },
+    {
+      "key": "log_university_online_class_2",
+      "value": "I got distracted and browsed other websites."
+    },
+    {
+      "key": "choice_university_online_class_3",
+      "value": "Study while eating."
+    },
+    {
+      "key": "log_university_online_class_3",
+      "value": "I had a snack during class."
+    },
+    {
+      "key": "event_university_first_internship_day_title",
+      "value": "First Day of Internship"
+    },
+    {
+      "key": "event_university_first_internship_day_desc",
+      "value": "It's your first day at your internship."
+    },
+    {
+      "key": "choice_university_first_internship_day_1",
+      "value": "Work seriously."
+    },
+    {
+      "key": "log_university_first_internship_day_1",
+      "value": "I tried to make a good impression."
+    },
+    {
+      "key": "choice_university_first_internship_day_2",
+      "value": "Feel clumsy."
+    },
+    {
+      "key": "log_university_first_internship_day_2",
+      "value": "I was a bit overwhelmed and made some mistakes."
+    },
+    {
+      "key": "choice_university_first_internship_day_3",
+      "value": "Ask questions."
+    },
+    {
+      "key": "log_university_first_internship_day_3",
+      "value": "I asked a lot of questions to learn the ropes."
+    },
+    {
+      "key": "event_university_exam_results_title",
+      "value": "Receive Exam Results"
+    },
+    {
+      "key": "event_university_exam_results_desc",
+      "value": "You have received your exam results."
+    },
+    {
+      "key": "choice_university_exam_results_1",
+      "value": "Feel happy."
+    },
+    {
+      "key": "log_university_exam_results_1",
+      "value": "I was pleased with my grades."
+    },
+    {
+      "key": "choice_university_exam_results_2",
+      "value": "Keep silent."
+    },
+    {
+      "key": "log_university_exam_results_2",
+      "value": "I kept my results to myself."
+    },
+    {
+      "key": "choice_university_exam_results_3",
+      "value": "Feel sad."
+    },
+    {
+      "key": "log_university_exam_results_3",
+      "value": "I was disappointed with my results."
+    },
+    {
+      "key": "event_university_share_food_title",
+      "value": "Share Food"
+    },
+    {
+      "key": "event_university_share_food_desc",
+      "value": "You are sharing food."
+    },
+    {
+      "key": "choice_university_share_food_1",
+      "value": "Give a portion to a friend."
+    },
+    {
+      "key": "log_university_share_food_1",
+      "value": "I shared my snack."
+    },
+    {
+      "key": "choice_university_share_food_2",
+      "value": "Trade dishes."
+    },
+    {
+      "key": "log_university_share_food_2",
+      "value": "We traded some of our food."
+    },
+    {
+      "key": "choice_university_share_food_3",
+      "value": "Keep your portion."
+    },
+    {
+      "key": "log_university_share_food_3",
+      "value": "I was too hungry to share."
+    }
+  ]
+}

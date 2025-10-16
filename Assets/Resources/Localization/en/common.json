@@ -1,0 +1,1716 @@
+{
+  "items": [
+    {
+      "key": "game_title",
+      "value": "Generations"
+    },
+    {
+      "key": "game_subtitle",
+      "value": "A Life Simulation VN"
+    },
+    {
+      "key": "family_fund_label",
+      "value": "Family Fund"
+    },
+    {
+      "key": "family_log_title",
+      "value": "Family Log"
+    },
+    {
+      "key": "year_label",
+      "value": "Year"
+    },
+    {
+      "key": "family_tree_title",
+      "value": "Family Tree"
+    },
+    {
+      "key": "default_family_name_placeholder",
+      "value": "Family Name"
+    },
+    {
+      "key": "family_suffix",
+      "value": "'s Family"
+    },
+    {
+      "key": "settings_button",
+      "value": "Settings"
+    },
+    {
+      "key": "settings_modal_title",
+      "value": "Game Settings"
+    },
+    {
+      "key": "language_label",
+      "value": "Language"
+    },
+    {
+      "key": "game_speed_label",
+      "value": "Game Speed"
+    },
+    {
+      "key": "play_again_button",
+      "value": "Play Again"
+    },
+    {
+      "key": "how_to_play_button",
+      "value": "How to Play"
+    },
+    {
+      "key": "quit_game_button",
+      "value": "Quit"
+    },
+    {
+      "key": "resume_button",
+      "value": "Resume"
+    },
+    {
+      "key": "pause_button",
+      "value": "Pause"
+    },
+    {
+      "key": "speed_slow",
+      "value": "Slow"
+    },
+    {
+      "key": "speed_normal",
+      "value": "Normal"
+    },
+    {
+      "key": "speed_fast",
+      "value": "Fast"
+    },
+    {
+      "key": "speed_very_fast",
+      "value": "Very Fast"
+    },
+    {
+      "key": "tab_log",
+      "value": "Log"
+    },
+    {
+      "key": "tab_assets",
+      "value": "Assets"
+    },
+    {
+      "key": "tab_businesses",
+      "value": "Businesses"
+    },
+    {
+      "key": "tab_details",
+      "value": "Details"
+    },
+    {
+      "key": "tab_life_events",
+      "value": "Life Events"
+    },
+    {
+      "key": "scene_tree",
+      "value": "Tree"
+    },
+    {
+      "key": "scene_log",
+      "value": "Log"
+    },
+    {
+      "key": "scene_assets",
+      "value": "Assets"
+    },
+    {
+      "key": "scene_business",
+      "value": "Business"
+    },
+    {
+      "key": "event_for",
+      "value": "Event for"
+    },
+    {
+      "key": "for_char_label",
+      "value": "For"
+    },
+    {
+      "key": "cost_label",
+      "value": "Cost"
+    },
+    {
+      "key": "cancel_button",
+      "value": "Cancel"
+    },
+    {
+      "key": "back_button",
+      "value": "Back"
+    },
+    {
+      "key": "close_button",
+      "value": "Close"
+    },
+    {
+      "key": "claim_button_text",
+      "value": "Claim"
+    },
+    {
+      "key": "claimed_text",
+      "value": "Claimed"
+    },
+    {
+      "key": "path_of_life_info_title",
+      "value": "Path of Life Information"
+    },
+    {
+      "key": "path_of_life_info_desc",
+      "value": "Advance on the Path of Life by having more children! Each child born helps you unlock new features and milestones. Claim your rewards as you progress!"
+    },
+    {
+      "key": "feature_unlocked",
+      "value": "Feature Unlocked!"
+    },
+    {
+      "key": "you_have_unlocked",
+      "value": "You have unlocked"
+    },
+    {
+      "key": "stat_iq",
+      "value": "IQ"
+    },
+    {
+      "key": "stat_happiness",
+      "value": "Happiness"
+    },
+    {
+      "key": "stat_eq",
+      "value": "EQ"
+    },
+    {
+      "key": "stat_health",
+      "value": "Health"
+    },
+    {
+      "key": "stat_skill",
+      "value": "Skill"
+    },
+    {
+      "key": "character_age",
+      "value": "{age} years old"
+    },
+    {
+      "key": "age_short",
+      "value": "yo"
+    },
+    {
+      "key": "deceased_at",
+      "value": "Deceased at"
+    },
+    {
+      "key": "relationship_status_label",
+      "value": "Status: {status}"
+    },
+    {
+      "key": "relationship_label",
+      "value": "Status"
+    },
+    {
+      "key": "with_person",
+      "value": "with"
+    },
+    {
+      "key": "pet_label",
+      "value": "Pet"
+    },
+    {
+      "key": "the_pet_type",
+      "value": ""
+    },
+    {
+      "key": "education_label",
+      "value": "Education"
+    },
+    {
+      "key": "major_label",
+      "value": "Major"
+    },
+    {
+      "key": "career_label",
+      "value": "Career"
+    },
+    {
+      "key": "working_at_label",
+      "value": "Working at"
+    },
+    {
+      "key": "clubs_label",
+      "value": "Clubs"
+    },
+    {
+      "key": "life_events_label",
+      "value": "Life Events"
+    },
+    {
+      "key": "education_none",
+      "value": "None"
+    },
+    {
+      "key": "education_high_school",
+      "value": "High School Diploma"
+    },
+    {
+      "key": "education_vocational_diploma",
+      "value": "Vocational Diploma"
+    },
+    {
+      "key": "education_university_display",
+      "value": "University ({major_name})"
+    },
+    {
+      "key": "none",
+      "value": "None"
+    },
+    {
+      "key": "customize_button",
+      "value": "Customize"
+    },
+    {
+      "key": "no_events_for_character",
+      "value": "No events for this character."
+    },
+    {
+      "key": "welcome_back_title",
+      "value": "Welcome Back!"
+    },
+    {
+      "key": "welcome_back_subtitle",
+      "value": "Your previous session has been saved."
+    },
+    {
+      "key": "continue_game_button",
+      "value": "Continue Game"
+    },
+    {
+      "key": "start_new_game_button",
+      "value": "Start Game"
+    },
+    {
+      "key": "start_game_button",
+      "value": "Start"
+    },
+    {
+      "key": "story_button",
+      "value": "Story"
+    },
+    {
+      "key": "choose_story_mode",
+      "value": "Choose a Story Mode"
+    },
+    {
+      "key": "instructions_title",
+      "value": "How to Play"
+    },
+    {
+      "key": "instructions_objective_title",
+      "value": "Objective"
+    },
+    {
+      "key": "instructions_objective_desc",
+      "value": "Your goal is to lead a family dynasty and survive until the 6th generation is born."
+    },
+    {
+      "key": "instructions_gameplay_title",
+      "value": "Gameplay"
+    },
+    {
+      "key": "instructions_gameplay_desc",
+      "value": "The game progresses automatically day by day. You can pause, resume, and change the speed. Time will stop when a random event or a major life choice (like choosing a school) occurs, requiring you to make a decision."
+    },
+    {
+      "key": "instructions_events_title",
+      "value": "Events & Choices"
+    },
+    {
+      "key": "instructions_events_desc",
+      "value": "Life is full of choices. When an event occurs, you must decide how your character reacts. Each choice has consequences, some immediate, some far-reaching. Choose wisely."
+    },
+    {
+      "key": "instructions_stats_title",
+      "value": "Stats & Avatars"
+    },
+    {
+      "key": "instructions_stats_desc",
+      "value": "Click on any character's avatar to view their detailed stats (IQ, Happiness, etc.)."
+    },
+    {
+      "key": "instructions_phases_title",
+      "value": "Life Phases"
+    },
+    {
+      "key": "instructions_phases_desc",
+      "value": "Characters will go through different life phases, from Newborn to Retired. Each phase unlocks new events and opportunities."
+    },
+    {
+      "key": "instructions_finance_title",
+      "value": "Family & Finances"
+    },
+    {
+      "key": "instructions_finance_desc",
+      "value": "Characters can marry and have children. Spouses will have jobs and contribute to the shared Family Fund. Use it wisely for education, businesses, and other needs."
+    },
+    {
+      "key": "summary_victory_title",
+      "value": "Congratulations!"
+    },
+    {
+      "key": "summary_gameover_title",
+      "value": "Game Over"
+    },
+    {
+      "key": "summary_victory_desc",
+      "value": "You have successfully sustained your family line to the 6th generation."
+    },
+    {
+      "key": "summary_gameover_desc",
+      "value": "Your family has gone bankrupt due to running out of money. You must manage your finances more wisely next time."
+    },
+    {
+      "key": "summary_gameover_desc_debt",
+      "value": "Your family dynasty has crumbled under the weight of debt after failing to repay a loan."
+    },
+    {
+      "key": "summary_total_generations",
+      "value": "Total Generations"
+    },
+    {
+      "key": "summary_total_members",
+      "value": "Total Members"
+    },
+    {
+      "key": "summary_living_members",
+      "value": "Living Members"
+    },
+    {
+      "key": "summary_deceased_members",
+      "value": "Deceased Members"
+    },
+    {
+      "key": "summary_highest_education",
+      "value": "Highest Education"
+    },
+    {
+      "key": "summary_highest_career",
+      "value": "Highest Career"
+    },
+    {
+      "key": "summary_final_funds",
+      "value": "Final Funds"
+    },
+    {
+      "key": "summary_asset_value",
+      "value": "Asset Value"
+    },
+    {
+      "key": "summary_ending_year",
+      "value": "Ending Year"
+    },
+    {
+      "key": "modal_school_title",
+      "value": "Choose a School"
+    },
+    {
+      "key": "modal_school_desc",
+      "value": "It's time for {name} to go to school! Choose an educational path."
+    },
+    {
+      "key": "modal_university_title",
+      "value": "Higher Education"
+    },
+    {
+      "key": "modal_university_desc",
+      "value": "Should {name} go to University? It will be costly but may open up better career opportunities."
+    },
+    {
+      "key": "university_choice_yes",
+      "value": "Yes, invest in the future"
+    },
+    {
+      "key": "university_choice_no",
+      "value": "No, enter the workforce now"
+    },
+    {
+      "key": "modal_major_title",
+      "value": "Choose a Major"
+    },
+    {
+      "key": "modal_major_desc",
+      "value": "What will {name} study at University?"
+    },
+    {
+      "key": "modal_major_no_money",
+      "value": "You do not have enough funds to afford any of these majors."
+    },
+    {
+      "key": "modal_career_title",
+      "value": "Choose a Career Path"
+    },
+    {
+      "key": "modal_career_desc",
+      "value": "{name} has finished their education. What career path should they pursue?"
+    },
+    {
+      "key": "modal_loan_title",
+      "value": "Financial Assistance"
+    },
+    {
+      "key": "modal_loan_desc",
+      "value": "Your family's funds have fallen into the negative! To avoid immediate bankruptcy, you must take out a loan. Please select an amount and a repayment term."
+    },
+    {
+      "key": "loan_amount_label",
+      "value": "Loan Amount"
+    },
+    {
+      "key": "loan_term_label",
+      "value": "Repayment Term (Years)"
+    },
+    {
+      "key": "accept_loan_button",
+      "value": "Accept Loan"
+    },
+    {
+      "key": "modal_promotion_title",
+      "value": "Promotion Opportunity!"
+    },
+    {
+      "key": "modal_promotion_desc",
+      "value": "{name}'s hard work has been recognized! They have been offered a promotion to the position of {title}. Congratulations!"
+    },
+    {
+      "key": "accept_promotion_button",
+      "value": "Excellent!"
+    },
+    {
+      "key": "modal_underqualified_title",
+      "value": "Underqualified for Position"
+    },
+    {
+      "key": "modal_underqualified_desc",
+      "value": "{name} has the right major for the {careerName} track, but doesn't meet all the requirements. How should they proceed?"
+    },
+    {
+      "key": "underqualified_choice_trainee",
+      "value": "Become a Trainee"
+    },
+    {
+      "key": "underqualified_choice_trainee_desc",
+      "value": "Start at a very low salary. Your required stats will increase over time until you qualify for an entry-level position."
+    },
+    {
+      "key": "underqualified_choice_penalized",
+      "value": "Accept Penalized Position"
+    },
+    {
+      "key": "underqualified_choice_penalized_desc",
+      "value": "Start at the lowest salary. Your skill gain and promotion speed will be penalized based on how much your stats are lacking."
+    },
+    {
+      "key": "underqualified_tooltip",
+      "value": "Missing Requirements:"
+    },
+    {
+      "key": "underqualified_tooltip_iq",
+      "value": "IQ ({shortfall} points)"
+    },
+    {
+      "key": "underqualified_tooltip_conf",
+      "value": "EQ ({shortfall} points)"
+    },
+    {
+      "key": "modal_club_choice_title",
+      "value": "Choose a Club"
+    },
+    {
+      "key": "modal_club_choice_desc",
+      "value": "It's time for {name} to join an after-school club! This can help shape their future career."
+    },
+    {
+      "key": "join_club",
+      "value": "Join"
+    },
+    {
+      "key": "skip_clubs",
+      "value": "Skip for now"
+    },
+    {
+      "key": "family_assets_title",
+      "value": "Family Assets"
+    },
+    {
+      "key": "total_value_label",
+      "value": "Total Value"
+    },
+    {
+      "key": "no_assets_message",
+      "value": "No assets yet. You can purchase assets below."
+    },
+    {
+      "key": "family_businesses_title",
+      "value": "Family Businesses"
+    },
+    {
+      "key": "no_businesses_message",
+      "value": "No businesses owned yet. Purchase one below!"
+    },
+    {
+      "key": "level_label",
+      "value": "Lvl"
+    },
+    {
+      "key": "upgrade_button",
+      "value": "Upgrade"
+    },
+    {
+      "key": "req_major_label",
+      "value": "Req."
+    },
+    {
+      "key": "unskilled_major",
+      "value": "Unskilled"
+    },
+    {
+      "key": "unassigned_option",
+      "value": "Unassigned"
+    },
+    {
+      "key": "hire_robot_option",
+      "value": "Hire Robot"
+    },
+    {
+      "key": "family_members_label",
+      "value": "Family Members"
+    },
+    {
+      "key": "purchase_business_title",
+      "value": "Purchase New Business"
+    },
+    {
+      "key": "base_revenue_label",
+      "value": "Base Revenue"
+    },
+    {
+      "key": "buy_button",
+      "value": "Buy"
+    },
+    {
+      "key": "manage_button",
+      "value": "Manage"
+    },
+    {
+      "key": "manage_business_title",
+      "value": "Manage Business"
+    },
+    {
+      "key": "select_business_to_manage",
+      "value": "Select which business you'd like to manage"
+    },
+    {
+      "key": "business_map_intro",
+      "value": "View the city map to purchase or manage your businesses."
+    },
+    {
+      "key": "salary_label",
+      "value": "Salary"
+    },
+    {
+      "key": "sell_button",
+      "value": "Sell"
+    },
+    {
+      "key": "phase_Newborn",
+      "value": "Newborn"
+    },
+    {
+      "key": "phase_Elementary_School",
+      "value": "Elementary School"
+    },
+    {
+      "key": "phase_Middle_School",
+      "value": "Middle School"
+    },
+    {
+      "key": "phase_High_School",
+      "value": "High School"
+    },
+    {
+      "key": "phase_University",
+      "value": "University"
+    },
+    {
+      "key": "phase_Working_Life",
+      "value": "Working Life"
+    },
+    {
+      "key": "phase_Retired",
+      "value": "Retired"
+    },
+    {
+      "key": "status_Idle",
+      "value": "Idle"
+    },
+    {
+      "key": "status_In_Education",
+      "value": "In Education"
+    },
+    {
+      "key": "status_Working",
+      "value": "Working"
+    },
+    {
+      "key": "status_Unemployed",
+      "value": "Unemployed"
+    },
+    {
+      "key": "status_Internship",
+      "value": "Internship"
+    },
+    {
+      "key": "status_Vocational_Training",
+      "value": "Vocational Training"
+    },
+    {
+      "key": "status_Retired",
+      "value": "Retired"
+    },
+    {
+      "key": "status_Trainee",
+      "value": "Trainee"
+    },
+    {
+      "key": "relationship_Single",
+      "value": "Single"
+    },
+    {
+      "key": "relationship_Married",
+      "value": "Married"
+    },
+    {
+      "key": "scenario_classic_name",
+      "value": "Classic"
+    },
+    {
+      "key": "scenario_classic_desc",
+      "value": "Start at age 24 with $50,000 and a random profession. It's up to you to build a legacy from scratch."
+    },
+    {
+      "key": "scenario_mila_name",
+      "value": "Mila's Family"
+    },
+    {
+      "key": "scenario_mila_desc",
+      "value": "Step into the life of an established family, overcome challenges, and lead them to prosperity."
+    },
+    {
+      "key": "school_public",
+      "value": "Public School"
+    },
+    {
+      "key": "school_private",
+      "value": "Private School"
+    },
+    {
+      "key": "school_royal",
+      "value": "Royal Academy"
+    },
+    {
+      "key": "school_public_high",
+      "value": "Public High School"
+    },
+    {
+      "key": "school_private_high",
+      "value": "Private High School"
+    },
+    {
+      "key": "school_royal_high",
+      "value": "Royal Academy (High School)"
+    },
+    {
+      "key": "major_business",
+      "value": "Business"
+    },
+    {
+      "key": "major_business_desc",
+      "value": "Opens career paths in management and entrepreneurship."
+    },
+    {
+      "key": "major_finance",
+      "value": "Finance"
+    },
+    {
+      "key": "major_finance_desc",
+      "value": "Opens career paths in finance and accounting."
+    },
+    {
+      "key": "major_marketing",
+      "value": "Marketing"
+    },
+    {
+      "key": "major_marketing_desc",
+      "value": "Opens career paths in marketing and public relations."
+    },
+    {
+      "key": "major_technology",
+      "value": "Technology"
+    },
+    {
+      "key": "major_technology_desc",
+      "value": "Opens career paths in programming and IT."
+    },
+    {
+      "key": "major_engineering",
+      "value": "Engineering"
+    },
+    {
+      "key": "major_engineering_desc",
+      "value": "Opens career paths in various engineering fields."
+    },
+    {
+      "key": "major_arts",
+      "value": "Arts"
+    },
+    {
+      "key": "major_arts_desc",
+      "value": "Opens creative careers like design and writing."
+    },
+    {
+      "key": "major_medicine",
+      "value": "Medicine"
+    },
+    {
+      "key": "major_medicine_desc",
+      "value": "Opens high-paying medical careers."
+    },
+    {
+      "key": "major_culinary",
+      "value": "Culinary Arts"
+    },
+    {
+      "key": "major_culinary_desc",
+      "value": "Opens career paths in cooking and restaurant management."
+    },
+    {
+      "key": "major_kinesiology",
+      "value": "Kinesiology"
+    },
+    {
+      "key": "major_kinesiology_desc",
+      "value": "Opens career paths in fitness and coaching."
+    },
+    {
+      "key": "major_agriculture",
+      "value": "Agriculture"
+    },
+    {
+      "key": "major_agriculture_desc",
+      "value": "Opens career paths in farming and animal husbandry."
+    },
+    {
+      "key": "major_logistics",
+      "value": "Logistics"
+    },
+    {
+      "key": "major_logistics_desc",
+      "value": "Opens career paths in warehouse and supply chain management."
+    },
+    {
+      "key": "career_unskilled_1",
+      "value": "Janitor"
+    },
+    {
+      "key": "career_unskilled_2",
+      "value": "Cashier"
+    },
+    {
+      "key": "career_unskilled_3",
+      "value": "Sales Associate"
+    },
+    {
+      "key": "career_unskilled_4",
+      "value": "Store Supervisor"
+    },
+    {
+      "key": "career_trade_1",
+      "value": "Apprentice Electrician"
+    },
+    {
+      "key": "career_trade_2",
+      "value": "Journeyman Electrician"
+    },
+    {
+      "key": "career_trade_3",
+      "value": "Master Electrician"
+    },
+    {
+      "key": "career_trade_4",
+      "value": "Foreman"
+    },
+    {
+      "key": "career_business_1",
+      "value": "Junior Analyst"
+    },
+    {
+      "key": "career_business_2",
+      "value": "Senior Analyst"
+    },
+    {
+      "key": "career_business_3",
+      "value": "Manager"
+    },
+    {
+      "key": "career_business_4",
+      "value": "Director"
+    },
+    {
+      "key": "career_technology_1",
+      "value": "Junior Developer"
+    },
+    {
+      "key": "career_technology_2",
+      "value": "Software Engineer"
+    },
+    {
+      "key": "career_technology_3",
+      "value": "Senior Engineer"
+    },
+    {
+      "key": "career_technology_4",
+      "value": "Principal Engineer"
+    },
+    {
+      "key": "career_arts_1",
+      "value": "Artist Assistant"
+    },
+    {
+      "key": "career_arts_2",
+      "value": "Graphic Designer"
+    },
+    {
+      "key": "career_arts_3",
+      "value": "Art Director"
+    },
+    {
+      "key": "career_arts_4",
+      "value": "Creative Director"
+    },
+    {
+      "key": "career_medicine_1",
+      "value": "Resident Doctor"
+    },
+    {
+      "key": "career_medicine_2",
+      "value": "General Practitioner"
+    },
+    {
+      "key": "career_medicine_3",
+      "value": "Surgeon"
+    },
+    {
+      "key": "career_medicine_4",
+      "value": "Chief of Medicine"
+    },
+    {
+      "key": "career_option_job",
+      "value": "Find a Job"
+    },
+    {
+      "key": "career_option_job_desc",
+      "value": "Start looking for an entry-level job immediately."
+    },
+    {
+      "key": "career_option_internship",
+      "value": "Do an Internship"
+    },
+    {
+      "key": "career_option_internship_desc",
+      "value": "A 1-year internship. Low pay but a chance for a job offer."
+    },
+    {
+      "key": "career_option_vocational",
+      "value": "Vocational Training"
+    },
+    {
+      "key": "career_option_vocational_desc",
+      "value": "A 3-year program to learn a skilled trade."
+    },
+    {
+      "key": "major_match_tooltip",
+      "value": "Matches your major"
+    },
+    {
+      "key": "pet_dog",
+      "value": "Dog"
+    },
+    {
+      "key": "pet_cat",
+      "value": "Cat"
+    },
+    {
+      "key": "pet_parrot",
+      "value": "Parrot"
+    },
+    {
+      "key": "pet_horse",
+      "value": "Horse"
+    },
+    {
+      "key": "pet_fish",
+      "value": "Fish/Turtle"
+    },
+    {
+      "key": "role_nurse",
+      "value": "Nurse"
+    },
+    {
+      "key": "role_doctor",
+      "value": "Doctor"
+    },
+    {
+      "key": "role_head_nurse",
+      "value": "Head Nurse"
+    },
+    {
+      "key": "role_surgeon",
+      "value": "Surgeon"
+    },
+    {
+      "key": "role_admin_staff",
+      "value": "Admin Staff"
+    },
+    {
+      "key": "role_chief_physician",
+      "value": "Chief Physician"
+    },
+    {
+      "key": "role_chief_surgeon",
+      "value": "Chief Surgeon"
+    },
+    {
+      "key": "role_researcher",
+      "value": "Researcher"
+    },
+    {
+      "key": "role_manager",
+      "value": "Manager"
+    },
+    {
+      "key": "role_bank_teller",
+      "value": "Bank Teller"
+    },
+    {
+      "key": "role_loan_officer",
+      "value": "Loan Officer"
+    },
+    {
+      "key": "role_financial_analyst",
+      "value": "Financial Analyst"
+    },
+    {
+      "key": "role_investment_analyst",
+      "value": "Investment Analyst"
+    },
+    {
+      "key": "role_it_support",
+      "value": "IT Support"
+    },
+    {
+      "key": "role_senior_manager",
+      "value": "Senior Manager"
+    },
+    {
+      "key": "role_chief_accountant",
+      "value": "Chief Accountant"
+    },
+    {
+      "key": "role_director",
+      "value": "Director"
+    },
+    {
+      "key": "role_lead_developer",
+      "value": "Lead Developer"
+    },
+    {
+      "key": "role_copywriter",
+      "value": "Copywriter"
+    },
+    {
+      "key": "role_designer",
+      "value": "Designer"
+    },
+    {
+      "key": "role_account_manager",
+      "value": "Account Manager"
+    },
+    {
+      "key": "role_media_planner",
+      "value": "Media Planner"
+    },
+    {
+      "key": "role_art_director",
+      "value": "Art Director"
+    },
+    {
+      "key": "role_marketing_lead",
+      "value": "Marketing Lead"
+    },
+    {
+      "key": "role_pr_manager",
+      "value": "PR Manager"
+    },
+    {
+      "key": "role_senior_editor",
+      "value": "Senior Editor"
+    },
+    {
+      "key": "role_qa_tester",
+      "value": "QA Tester"
+    },
+    {
+      "key": "role_project_manager",
+      "value": "Project Manager"
+    },
+    {
+      "key": "role_devops_engineer",
+      "value": "DevOps Engineer"
+    },
+    {
+      "key": "role_machine_maintenance",
+      "value": "Machine Maintenance"
+    },
+    {
+      "key": "role_mechanical_engineer",
+      "value": "Mechanical Engineer"
+    },
+    {
+      "key": "role_civil_engineer",
+      "value": "Civil Engineer"
+    },
+    {
+      "key": "role_production_engineer",
+      "value": "Production Engineer"
+    },
+    {
+      "key": "role_quality_control",
+      "value": "Quality Control"
+    },
+    {
+      "key": "role_receptionist",
+      "value": "Receptionist"
+    },
+    {
+      "key": "role_curator",
+      "value": "Curator"
+    },
+    {
+      "key": "role_art_historian",
+      "value": "Art Historian"
+    },
+    {
+      "key": "role_art_teacher",
+      "value": "Art Teacher"
+    },
+    {
+      "key": "role_cashier",
+      "value": "Cashier"
+    },
+    {
+      "key": "role_service_staff",
+      "value": "Service Staff"
+    },
+    {
+      "key": "role_head_chef",
+      "value": "Head Chef"
+    },
+    {
+      "key": "role_mixologist",
+      "value": "Mixologist"
+    },
+    {
+      "key": "role_head_trainer",
+      "value": "Head Trainer"
+    },
+    {
+      "key": "role_lifeguard",
+      "value": "Lifeguard"
+    },
+    {
+      "key": "role_swimming_coach",
+      "value": "Swimming Coach"
+    },
+    {
+      "key": "role_kinesiologist",
+      "value": "Kinesiologist"
+    },
+    {
+      "key": "role_general_laborer",
+      "value": "General Laborer"
+    },
+    {
+      "key": "role_farm_manager",
+      "value": "Farm Manager"
+    },
+    {
+      "key": "role_agronomist",
+      "value": "Agronomist"
+    },
+    {
+      "key": "role_agricultural_engineer",
+      "value": "Agricultural Engineer"
+    },
+    {
+      "key": "role_supply_chain_manager",
+      "value": "Supply Chain Manager"
+    },
+    {
+      "key": "role_stocker",
+      "value": "Stocker"
+    },
+    {
+      "key": "role_forklift_operator",
+      "value": "Forklift Operator"
+    },
+    {
+      "key": "role_warehouse_manager",
+      "value": "Warehouse Manager"
+    },
+    {
+      "key": "role_logistics_coordinator",
+      "value": "Logistics Coordinator"
+    },
+    {
+      "key": "business_medicine_t1_name",
+      "value": "Local Clinic"
+    },
+    {
+      "key": "business_medicine_t2_name",
+      "value": "Community Hospital"
+    },
+    {
+      "key": "business_medicine_t3_name",
+      "value": "Medical Research Center"
+    },
+    {
+      "key": "business_finance_t1_name",
+      "value": "Credit Union"
+    },
+    {
+      "key": "business_finance_t2_name",
+      "value": "Investment Firm"
+    },
+    {
+      "key": "business_finance_t3_name",
+      "value": "Major Bank Headquarters"
+    },
+    {
+      "key": "business_marketing_t1_name",
+      "value": "Local Ad Agency"
+    },
+    {
+      "key": "business_marketing_t2_name",
+      "value": "Digital Marketing Firm"
+    },
+    {
+      "key": "business_marketing_t3_name",
+      "value": "Global Advertising Conglomerate"
+    },
+    {
+      "key": "business_technology_t1_name",
+      "value": "IT Support Shop"
+    },
+    {
+      "key": "business_technology_t2_name",
+      "value": "Software Development Studio"
+    },
+    {
+      "key": "business_technology_t3_name",
+      "value": "Big Tech Campus"
+    },
+    {
+      "key": "business_engineering_t1_name",
+      "value": "Repair Workshop"
+    },
+    {
+      "key": "business_engineering_t2_name",
+      "value": "Construction Company"
+    },
+    {
+      "key": "business_engineering_t3_name",
+      "value": "Advanced Manufacturing Plant"
+    },
+    {
+      "key": "business_arts_t1_name",
+      "value": "Art Gallery"
+    },
+    {
+      "key": "business_arts_t2_name",
+      "value": "Design Studio"
+    },
+    {
+      "key": "business_arts_t3_name",
+      "value": "Major Publishing House"
+    },
+    {
+      "key": "business_culinary_t1_name",
+      "value": "Diner"
+    },
+    {
+      "key": "business_culinary_t2_name",
+      "value": "Fine Dining Restaurant"
+    },
+    {
+      "key": "business_culinary_t3_name",
+      "value": "5-Star Hotel & Restaurant"
+    },
+    {
+      "key": "business_kinesiology_t1_name",
+      "value": "Gym & Fitness Center"
+    },
+    {
+      "key": "business_kinesiology_t2_name",
+      "value": "Public Swimming Pool"
+    },
+    {
+      "key": "business_kinesiology_t3_name",
+      "value": "Professional Sports Complex"
+    },
+    {
+      "key": "business_agriculture_t1_name",
+      "value": "Family Farm"
+    },
+    {
+      "key": "business_agriculture_t2_name",
+      "value": "Commercial Farm"
+    },
+    {
+      "key": "business_agriculture_t3_name",
+      "value": "AgriTech Corporation"
+    },
+    {
+      "key": "business_logistics_t1_name",
+      "value": "Small Warehouse"
+    },
+    {
+      "key": "business_logistics_t2_name",
+      "value": "Distribution Center"
+    },
+    {
+      "key": "business_logistics_t3_name",
+      "value": "International Shipping Port"
+    },
+    {
+      "key": "event_birthday_title",
+      "value": "Birthday"
+    },
+    {
+      "key": "event_new_phase_title",
+      "value": "New Life Phase"
+    },
+    {
+      "key": "event_retirement_title",
+      "value": "Retirement"
+    },
+    {
+      "key": "event_school_choice_title",
+      "value": "School Choice"
+    },
+    {
+      "key": "event_university_decision_title",
+      "value": "University Decision"
+    },
+    {
+      "key": "event_major_choice_title",
+      "value": "Major Choice"
+    },
+    {
+      "key": "event_career_choice_title",
+      "value": "Career Choice"
+    },
+    {
+      "key": "event_underqualified_decision_title",
+      "value": "Career Decision"
+    },
+    {
+      "key": "event_loan_decision_title",
+      "value": "Loan Decision"
+    },
+    {
+      "key": "event_promotion_title",
+      "value": "Promotion"
+    },
+    {
+      "key": "event_business_assignment_title",
+      "value": "Business Assignment"
+    },
+    {
+      "key": "event_business_upgrade_title",
+      "value": "Business Upgrade"
+    },
+    {
+      "key": "event_business_purchase_title",
+      "value": "Business Purchase"
+    },
+    {
+      "key": "event_asset_purchase_title",
+      "value": "Asset Purchase"
+    },
+    {
+      "key": "event_marriage_title",
+      "value": "Marriage"
+    },
+    {
+      "key": "event_birth_title",
+      "value": "Birth"
+    },
+    {
+      "key": "event_death_title",
+      "value": "Passed Away"
+    },
+    {
+      "key": "event_pet_adoption_log_title",
+      "value": "Pet Adoption"
+    },
+    {
+      "key": "event_club_join_title",
+      "value": "Joined a Club"
+    },
+    {
+      "key": "log_first_generation",
+      "value": "{name} was born, starting the first generation."
+    },
+    {
+      "key": "log_alone_start",
+      "value": "{name} has graduated and started a new life with $50,000."
+    },
+    {
+      "key": "log_mila_start",
+      "value": "You begin your journey with Mila's family."
+    },
+    {
+      "key": "log_birthday",
+      "value": "{name} has turned {age} years old."
+    },
+    {
+      "key": "log_new_phase",
+      "value": "{name} is now in the {phase} phase."
+    },
+    {
+      "key": "log_retired",
+      "value": "{name} has retired."
+    },
+    {
+      "key": "log_promoted",
+      "value": "{name} has been promoted to {title}!"
+    },
+    {
+      "key": "log_internship_success",
+      "value": "{name}'s internship was a success! They were offered a job as a {title}."
+    },
+    {
+      "key": "log_internship_fail",
+      "value": "{name}'s internship ended without a job offer."
+    },
+    {
+      "key": "log_status_end_unemployed",
+      "value": "{name} has finished their {status} and is now unemployed."
+    },
+    {
+      "key": "log_passed_away",
+      "value": "{name} passed away at the age of {age}."
+    },
+    {
+      "key": "log_business_position_vacant",
+      "value": "{name}'s position at {businessName} has been vacated."
+    },
+    {
+      "key": "log_enrolled_public_elementary",
+      "value": "{name} has been enrolled in Public Elementary School."
+    },
+    {
+      "key": "log_enrolled_private_elementary",
+      "value": "{name} has been enrolled in a prestigious Private Elementary School."
+    },
+    {
+      "key": "log_enrolled_royal_elementary",
+      "value": "{name} has been accepted into the exclusive Royal Elementary Academy."
+    },
+    {
+      "key": "log_enrolled_public_middle",
+      "value": "{name} is now attending Public Middle School."
+    },
+    {
+      "key": "log_enrolled_private_middle",
+      "value": "{name} is now attending a fine Private Middle School."
+    },
+    {
+      "key": "log_enrolled_royal_middle",
+      "value": "{name} continues their studies at the Royal Middle Academy."
+    },
+    {
+      "key": "log_enrolled_public_high",
+      "value": "{name} has started at the local Public High School."
+    },
+    {
+      "key": "log_enrolled_private_high",
+      "value": "{name} has started at a well-regarded Private High School."
+    },
+    {
+      "key": "log_enrolled_royal_high",
+      "value": "{name} has entered the final stage of their education at the Royal Academy."
+    },
+    {
+      "key": "log_graduated_enter_workforce",
+      "value": "{name} has graduated and is now ready to enter the workforce."
+    },
+    {
+      "key": "log_vocational_enter_workforce",
+      "value": "{name} has completed vocational training and is now ready to enter the workforce."
+    },
+    {
+      "key": "log_enrolled_university",
+      "value": "{name} has enrolled in University to major in {major}."
+    },
+    {
+      "key": "log_abandon_university_for_work",
+      "value": "{name} couldn't afford any majors and had to enter the workforce."
+    },
+    {
+      "key": "log_found_job",
+      "value": "{name} has found a job as a {title}."
+    },
+    {
+      "key": "log_became_trainee",
+      "value": "{name} has become a Trainee in the {careerName} track to gain the necessary experience."
+    },
+    {
+      "key": "log_accepted_penalized_job",
+      "value": "{name} has accepted a penalized position as a {title} due to missing some requirements."
+    },
+    {
+      "key": "log_accepted_mismatched_job",
+      "value": "{name} has accepted a job as a {title}. Lacking the required major, their career progression will be slower."
+    },
+    {
+      "key": "log_accepted_severely_underqualified_job",
+      "value": "{name} has accepted a job as a {title}. Lacking both the required major and stats, their career progression will be severely penalized."
+    },
+    {
+      "key": "log_promoted_from_trainee",
+      "value": "After a period of training, {name} has been promoted to a full-time {title}!"
+    },
+    {
+      "key": "log_started_internship",
+      "value": "{name} has started an internship."
+    },
+    {
+      "key": "log_enrolled_vocational",
+      "value": "{name} has enrolled in vocational training."
+    },
+    {
+      "key": "log_left_business_unemployed",
+      "value": "{name} left their position at {businessName} and is now unemployed."
+    },
+    {
+      "key": "log_quit_job_for_business",
+      "value": "{name} quit their job as a {oldJob} to work at {businessName}."
+    },
+    {
+      "key": "log_started_at_business",
+      "value": "{name} has started working at {businessName}."
+    },
+    {
+      "key": "log_business_upgraded",
+      "value": "{businessName} has been upgraded!"
+    },
+    {
+      "key": "log_business_upgrade_fail",
+      "value": "Not enough funds to upgrade {businessName}."
+    },
+    {
+      "key": "log_business_purchase_fail",
+      "value": "Not enough funds to purchase {businessName}."
+    },
+    {
+      "key": "log_business_purchased",
+      "value": "The family has purchased {businessName}!"
+    },
+    {
+      "key": "log_married",
+      "value": "{name1} has married {name2}!"
+    },
+    {
+      "key": "log_spouse_joined_family",
+      "value": "{name} has joined the family, working as a {title}."
+    },
+    {
+      "key": "log_had_child",
+      "value": "{parent1} and {parent2} had a child named {childName}."
+    },
+    {
+      "key": "log_had_twins",
+      "value": "{parent1} and {parent2} were blessed with twins: {childName1} and {childName2}."
+    },
+    {
+      "key": "log_had_triplets",
+      "value": "{parent1} and {parent2} welcomed triplets into the world: {childName1}, {childName2}, and {childName3}."
+    },
+    {
+      "key": "log_pet_already_owned",
+      "value": "{name} considered getting another pet, but decided one is enough."
+    },
+    {
+      "key": "log_pet_adopted",
+      "value": "{name} adopted a {petType} named {petName}!"
+    },
+    {
+      "key": "log_loan_taken",
+      "value": "The family took out a loan of ${amount} due in {term} years."
+    },
+    {
+      "key": "log_loan_repaid",
+      "value": "The family has successfully repaid a loan of ${amount}."
+    },
+    {
+      "key": "log_loan_repayment_due",
+      "value": "A loan of ${amount} is due for repayment this year."
+    },
+    {
+      "key": "log_joined_club",
+      "value": "{name} has joined the {clubName}."
+    },
+    {
+      "key": "club_sports",
+      "value": "Sports Club"
+    },
+    {
+      "key": "club_sports_desc",
+      "value": "Join the sports club to improve your health and physical skills."
+    },
+    {
+      "key": "club_art",
+      "value": "Art Club"
+    },
+    {
+      "key": "club_art_desc",
+      "value": "Unleash your creativity and emotional intelligence in the art club."
+    },
+    {
+      "key": "club_science",
+      "value": "Science Club"
+    },
+    {
+      "key": "club_science_desc",
+      "value": "Explore the wonders of science and boost your IQ and problem-solving skills."
+    },
+    {
+      "key": "log_business_locked",
+      "value": "You need to have {requiredChildren} children to unlock the business feature."
+    },
+    {
+      "key": "event_business_locked_title",
+      "value": "Feature Locked"
+    },
+    {
+      "key": "avatar_customization_locked",
+      "value": "You need to have {requiredChildren} children to unlock avatar customization."
+    },
+    {
+      "key": "unlocks_button_title",
+      "value": "Goals & Unlocks"
+    },
+    {
+      "key": "unlocks_modal_title",
+      "value": "Goals & Unlocks"
+    },
+    {
+      "key": "unlocked",
+      "value": "Unlocked"
+    },
+    {
+      "key": "unlock_condition_children",
+      "value": "Children: {current} / {required}"
+    },
+    {
+      "key": "unlock_business_name",
+      "value": "Business"
+    },
+    {
+      "key": "unlock_business_desc",
+      "value": "Start your own business and build a commercial empire."
+    },
+    {
+      "key": "unlock_custom_avatar_name",
+      "value": "Avatar Customization"
+    },
+    {
+      "key": "unlock_custom_avatar_desc",
+      "value": "Freely customize the appearance of your family members."
+    },
+    {
+      "key": "unlock_twins_name",
+      "value": "Twin Births"
+    },
+    {
+      "key": "unlock_twins_desc",
+      "value": "Increases the chance of having twins."
+    },
+    {
+      "key": "unlock_triplets_name",
+      "value": "Triplet Births"
+    },
+    {
+      "key": "unlock_triplets_desc",
+      "value": "A small chance of having triplets."
+    },
+    {
+      "key": "feature_mystery_box_name",
+      "value": "Mystery Box"
+    },
+    {
+      "key": "feature_mystery_box_desc",
+      "value": "A mysterious box containing a random reward. It could be anything from a cash injection to a stat boost for a family member!"
+    },
+    {
+      "key": "log_feature_unlocked",
+      "value": "{featureName} has been unlocked!"
+    },
+    {
+      "key": "event_feature_unlocked_title",
+      "value": "Feature Unlocked"
+    },
+    {
+      "key": "unlock_notification_title",
+      "value": "Congratulations!"
+    },
+    {
+      "key": "unlock_notification_body",
+      "value": "You have unlocked the {featureName} feature!"
+    },
+    {
+      "key": "unlock_notification_button",
+      "value": "Awesome!"
+    },
+    {
+      "key": "log_customize_avatar",
+      "value": "{name} spent {amount} to customize their avatar."
+    },
+    {
+      "key": "log_customize_avatar_ad",
+      "value": "{name} customized their avatar for free by watching an ad."
+    },
+    {
+      "key": "event_customize_avatar_title",
+      "value": "Avatar Customized"
+    },
+    {
+      "key": "load_game_error_title",
+      "value": "Load Game Error"
+    },
+    {
+      "key": "load_game_error_message",
+      "value": "Could not load saved game. The file may be corrupt or from an older version. The saved data has been deleted."
+    }
+  ]
+}

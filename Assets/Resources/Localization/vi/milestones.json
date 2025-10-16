@@ -1,0 +1,140 @@
+{
+  "items": [
+    {
+      "key": "milestone_marriage_title",
+      "value": "Lời cầu hôn"
+    },
+    {
+      "key": "milestone_marriage_desc",
+      "value": "Bạn đã gặp một người đặc biệt và đang cân nhắc việc kết hôn. Bạn sẽ làm gì?"
+    },
+    {
+      "key": "milestone_marriage_yes",
+      "value": "Cầu hôn họ."
+    },
+    {
+      "key": "log_milestone_marriage_yes",
+      "value": "Tôi đã cầu hôn, và họ đã đồng ý! Một chương mới bắt đầu."
+    },
+    {
+      "key": "milestone_marriage_no",
+      "value": "Tạm thời độc thân."
+    },
+    {
+      "key": "log_milestone_marriage_no",
+      "value": "Tôi quyết định đây chưa phải là thời điểm thích hợp để ổn định."
+    },
+    {
+      "key": "milestone_children_title",
+      "value": "Nghĩ về con cái"
+    },
+    {
+      "key": "milestone_children_desc",
+      "value": "Bạn và bạn đời đã thảo luận về khả năng có con."
+    },
+    {
+      "key": "milestone_children_yes",
+      "value": "Cố gắng có con."
+    },
+    {
+      "key": "log_milestone_children_decision",
+      "value": "Chúng tôi đã quyết định thử có con."
+    },
+    {
+      "key": "log_milestone_children_try_success",
+      "value": "Chúng tôi đã quyết định thử có con, và đã thành công!"
+    },
+    {
+      "key": "log_milestone_children_try_fail",
+      "value": "Chúng tôi đã quyết định thử có con, nhưng lần này không thành công."
+    },
+    {
+      "key": "milestone_children_no",
+      "value": "Chưa phải bây giờ."
+    },
+    {
+      "key": "log_milestone_children_no",
+      "value": "Chúng tôi quyết định chúng tôi chưa sẵn sàng để có con."
+    },
+    {
+      "key": "milestone_child_conceived_title",
+      "value": "Tin Vui!"
+    },
+    {
+      "key": "milestone_child_conceived_desc",
+      "value": "Bạn sắp có một đứa con! Em bé sẽ chào đời vào một thời điểm nào đó trong năm nay."
+    },
+    {
+      "key": "milestone_child_conceived_ok",
+      "value": "Tuyệt vời!"
+    },
+    {
+      "key": "log_milestone_child_conceived_ok",
+      "value": "Một em bé xinh xắn đã chào đời!"
+    },
+    {
+      "key": "milestone_death_old_age_title",
+      "value": "Một cuộc đời đã sống"
+    },
+    {
+      "key": "milestone_death_old_age_desc",
+      "value": "Bạn đã sống một cuộc đời dài và trọn vẹn. Đã đến lúc yên nghỉ."
+    },
+    {
+      "key": "milestone_death_old_age_ok",
+      "value": "Tạm biệt."
+    },
+    {
+      "key": "log_milestone_death_old_age_ok",
+      "value": "Tôi đã ra đi thanh thản, được bao bọc bởi những kỷ niệm."
+    },
+    {
+      "key": "milestone_mourning_title",
+      "value": "Tang lễ"
+    },
+    {
+      "key": "milestone_mourning_desc",
+      "value": "Hôm nay chúng ta ở đây để tưởng nhớ {deceasedName}, người đã qua đời vì {causeOfDeath}."
+    },
+    {
+      "key": "milestone_mourning_choice_1",
+      "value": "Một buổi lễ đơn giản (-$100)"
+    },
+    {
+      "key": "milestone_mourning_choice_2",
+      "value": "Một đám tang truyền thống (-$500)"
+    },
+    {
+      "key": "milestone_mourning_choice_3",
+      "value": "Một lễ kỷ niệm long trọng (-$2000)"
+    },
+    {
+      "key": "log_milestone_mourning_choice_1",
+      "value": "Chúng tôi đã tổ chức một buổi lễ đơn giản để tưởng nhớ {deceasedName}."
+    },
+    {
+      "key": "log_milestone_mourning_choice_2",
+      "value": "Chúng tôi đã tổ chức một đám tang truyền thống cho {deceasedName}."
+    },
+    {
+      "key": "log_milestone_mourning_choice_3",
+      "value": "Chúng tôi đã tổ chức một lễ kỷ niệm long trọng cho {deceasedName}."
+    },
+    {
+      "key": "death_cause_old_age",
+      "value": "tuổi già"
+    },
+    {
+      "key": "death_cause_low_happiness",
+      "value": "trầm cảm"
+    },
+    {
+      "key": "death_cause_low_health",
+      "value": "bệnh tật"
+    },
+    {
+      "key": "death_cause_low_happiness_and_health",
+      "value": "trầm cảm và bệnh tật"
+    }
+  ]
+}

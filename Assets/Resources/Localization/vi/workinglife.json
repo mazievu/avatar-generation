@@ -1,0 +1,1336 @@
+{
+  "items": [
+    {
+      "key": "event_workinglife_first_day_title",
+      "value": "Ngày đầu đi làm"
+    },
+    {
+      "key": "event_workinglife_first_day_desc",
+      "value": "Ngày đầu ở công việc mới. Ấn tượng đầu tiên sẽ theo bạn lâu dài."
+    },
+    {
+      "key": "choice_workinglife_first_day_1",
+      "value": "Đến thật sớm"
+    },
+    {
+      "key": "log_workinglife_first_day_1",
+      "value": "Tôi gây ấn tượng với sếp, nhưng ngồi chờ một mình thấy lạc lõng."
+    },
+    {
+      "key": "choice_workinglife_first_day_2",
+      "value": "Đến đúng giờ"
+    },
+    {
+      "key": "log_workinglife_first_day_2",
+      "value": "Tôi hòa nhập tự nhiên, nhưng vài người bảo tôi thiếu chủ động."
+    },
+    {
+      "key": "choice_workinglife_first_day_3",
+      "value": "Đến trễ vài phút"
+    },
+    {
+      "key": "log_workinglife_first_day_3",
+      "value": "Chỉ hơi trễ, nhưng đủ để đồng nghiệp nhíu mày."
+    },
+    {
+      "key": "event_workinglife_team_meeting_title",
+      "value": "Họp nhóm buổi sáng"
+    },
+    {
+      "key": "event_workinglife_team_meeting_desc",
+      "value": "Buổi họp sáng đầu tiên định hình vai trò của bạn trong nhóm."
+    },
+    {
+      "key": "choice_workinglife_team_meeting_1",
+      "value": "Chia sẻ ý tưởng táo bạo"
+    },
+    {
+      "key": "log_workinglife_team_meeting_1",
+      "value": "Tôi nổi bật nhiệt huyết, nhưng vài người đi trước tỏ vẻ nghi ngờ."
+    },
+    {
+      "key": "choice_workinglife_team_meeting_2",
+      "value": "Chủ yếu im lặng"
+    },
+    {
+      "key": "log_workinglife_team_meeting_2",
+      "value": "Tôi tránh sai sót, nhưng dễ bị lãng quên."
+    },
+    {
+      "key": "choice_workinglife_team_meeting_3",
+      "value": "Chỉ góp lời đồng tình"
+    },
+    {
+      "key": "log_workinglife_team_meeting_3",
+      "value": "Tôi tỏ ra ủng hộ, nhưng ai đó thì thầm “nói hùa”."
+    },
+    {
+      "key": "event_workinglife_forgot_laptop_title",
+      "value": "Quên laptop ở nhà"
+    },
+    {
+      "key": "event_workinglife_forgot_laptop_desc",
+      "value": "Hoảng hốt khi phát hiện laptop không có trong cặp."
+    },
+    {
+      "key": "choice_workinglife_forgot_laptop_1",
+      "value": "Mượn laptop dự phòng"
+    },
+    {
+      "key": "log_workinglife_forgot_laptop_1",
+      "value": "Tôi xoay sở được, nhưng giờ mang nợ ân tình với đồng nghiệp."
+    },
+    {
+      "key": "choice_workinglife_forgot_laptop_2",
+      "value": "Vội chạy về nhà lấy"
+    },
+    {
+      "key": "log_workinglife_forgot_laptop_2",
+      "value": "Tôi mang về, nhưng lỡ mất phần họp sáng."
+    },
+    {
+      "key": "choice_workinglife_forgot_laptop_3",
+      "value": "Dùng máy bàn chung"
+    },
+    {
+      "key": "log_workinglife_forgot_laptop_3",
+      "value": "Tôi làm việc tạm ổn, nhưng lúng túng vì công cụ lạ."
+    },
+    {
+      "key": "event_workinglife_urgent_deadline_title",
+      "value": "Hạn chót gấp rút"
+    },
+    {
+      "key": "event_workinglife_urgent_deadline_desc",
+      "value": "Một dự án được giao với hạn chót gần như bất khả thi."
+    },
+    {
+      "key": "choice_workinglife_urgent_deadline_1",
+      "value": "Ở lại muộn để làm"
+    },
+    {
+      "key": "log_workinglife_urgent_deadline_1",
+      "value": "Tôi kịp nộp, nhưng quầng thâm khiến ai cũng nhận ra."
+    },
+    {
+      "key": "choice_workinglife_urgent_deadline_2",
+      "value": "Xin gia hạn"
+    },
+    {
+      "key": "log_workinglife_urgent_deadline_2",
+      "value": "Được thêm thời gian, nhưng tiếng thở dài của sếp khiến tôi chột dạ."
+    },
+    {
+      "key": "choice_workinglife_urgent_deadline_3",
+      "value": "Chia việc với đồng nghiệp"
+    },
+    {
+      "key": "log_workinglife_urgent_deadline_3",
+      "value": "Xong nhanh hơn, nhưng tin đồn lan rằng tôi “không chịu áp lực nổi”."
+    },
+    {
+      "key": "event_workinglife_difficult_task_title",
+      "value": "Nhiệm vụ khó"
+    },
+    {
+      "key": "event_workinglife_difficult_task_desc",
+      "value": "Sếp giao một nhiệm vụ vượt ngoài khả năng hiện tại."
+    },
+    {
+      "key": "choice_workinglife_difficult_task_1",
+      "value": "Nhận và cố gắng"
+    },
+    {
+      "key": "log_workinglife_difficult_task_1",
+      "value": "Tôi học hỏi nhiều, nhưng sai sót suýt làm hỏng tiến độ."
+    },
+    {
+      "key": "choice_workinglife_difficult_task_2",
+      "value": "Xin giảm phạm vi"
+    },
+    {
+      "key": "log_workinglife_difficult_task_2",
+      "value": "Nguy cơ ít hơn, nhưng trông tôi kém tham vọng."
+    },
+    {
+      "key": "choice_workinglife_difficult_task_3",
+      "value": "Nhờ đồng nghiệp dày dạn"
+    },
+    {
+      "key": "log_workinglife_difficult_task_3",
+      "value": "Được hướng dẫn và xong việc, nhưng ai đó để ý tôi dựa dẫm."
+    },
+    {
+      "key": "event_workinglife_late_after_lunch_title",
+      "value": "Trễ giờ sau bữa trưa"
+    },
+    {
+      "key": "event_workinglife_late_after_lunch_desc",
+      "value": "Bạn trở lại văn phòng trễ sau giờ nghỉ trưa."
+    },
+    {
+      "key": "choice_workinglife_late_after_lunch_1",
+      "value": "Thành thật xin lỗi"
+    },
+    {
+      "key": "log_workinglife_late_after_lunch_1",
+      "value": "Sếp chấp nhận, nhưng đồng nghiệp chọc ghẹo vui."
+    },
+    {
+      "key": "choice_workinglife_late_after_lunch_2",
+      "value": "Lén lút quay lại"
+    },
+    {
+      "key": "log_workinglife_late_after_lunch_2",
+      "value": "Không ai để ý, nhưng cảm giác áy náy đeo bám."
+    },
+    {
+      "key": "choice_workinglife_late_after_lunch_3",
+      "value": "Nói đang đi gặp gỡ"
+    },
+    {
+      "key": "log_workinglife_late_after_lunch_3",
+      "value": "Lý do nghe hợp lý, nhưng không phải ai cũng tin."
+    },
+    {
+      "key": "event_workinglife_company_presentation_title",
+      "value": "Thuyết trình toàn công ty"
+    },
+    {
+      "key": "event_workinglife_company_presentation_desc",
+      "value": "Bạn phải trình bày trước toàn thể công ty."
+    },
+    {
+      "key": "choice_workinglife_company_presentation_1",
+      "value": "Chuẩn bị kỹ lưỡng"
+    },
+    {
+      "key": "log_workinglife_company_presentation_1",
+      "value": "Slide mượt mà, nhưng ánh đèn sân khấu khiến tôi kiệt sức."
+    },
+    {
+      "key": "choice_workinglife_company_presentation_2",
+      "value": "Nói ứng biến"
+    },
+    {
+      "key": "log_workinglife_company_presentation_2",
+      "value": "Tôi nói năng hứng khởi, nhưng lỗi nhỏ vẫn xuất hiện."
+    },
+    {
+      "key": "choice_workinglife_company_presentation_3",
+      "value": "Đọc trực tiếp từ slide"
+    },
+    {
+      "key": "log_workinglife_company_presentation_3",
+      "value": "Thông tin được truyền tải, nhưng tôi bị đánh giá nhạt nhòa."
+    },
+    {
+      "key": "event_workinglife_team_building_title",
+      "value": "Team building cuối tuần"
+    },
+    {
+      "key": "event_workinglife_team_building_desc",
+      "value": "Công ty tổ chức sự kiện team building cuối tuần."
+    },
+    {
+      "key": "choice_workinglife_team_building_1",
+      "value": "Tham gia tất cả trò chơi"
+    },
+    {
+      "key": "log_workinglife_team_building_1",
+      "value": "Tôi gắn kết hơn, nhưng về nhà rã rời."
+    },
+    {
+      "key": "choice_workinglife_team_building_2",
+      "value": "Tham gia chút rồi về"
+    },
+    {
+      "key": "log_workinglife_team_building_2",
+      "value": "Tôi có mặt cho đủ, nhưng bỏ lỡ cơ hội thân thiết hơn."
+    },
+    {
+      "key": "choice_workinglife_team_building_3",
+      "value": "Không tham dự"
+    },
+    {
+      "key": "log_workinglife_team_building_3",
+      "value": "Tôi tận hưởng thời gian riêng, nhưng sáng thứ Hai họ kể chuyện rôm rả mà thiếu tôi."
+    },
+    {
+      "key": "event_workinglife_delayed_salary_title",
+      "value": "Trễ lương"
+    },
+    {
+      "key": "event_workinglife_delayed_salary_desc",
+      "value": "Lương tháng này bị chậm chuyển."
+    },
+    {
+      "key": "choice_workinglife_delayed_salary_1",
+      "value": "Hỏi thẳng HR"
+    },
+    {
+      "key": "log_workinglife_delayed_salary_1",
+      "value": "Tôi được giải thích, nhưng dễ bị gắn mác nóng vội."
+    },
+    {
+      "key": "choice_workinglife_delayed_salary_2",
+      "value": "Lặng lẽ chờ"
+    },
+    {
+      "key": "log_workinglife_delayed_salary_2",
+      "value": "Lương về muộn, còn tôi thì thêm căng thẳng."
+    },
+    {
+      "key": "choice_workinglife_delayed_salary_3",
+      "value": "Cùng than với đồng nghiệp"
+    },
+    {
+      "key": "log_workinglife_delayed_salary_3",
+      "value": "Chúng tôi xả bực, nhưng không khí tiêu cực lan ra cả văn phòng."
+    },
+    {
+      "key": "event_workinglife_difficult_client_title",
+      "value": "Khách hàng khó tính"
+    },
+    {
+      "key": "event_workinglife_difficult_client_desc",
+      "value": "Bạn gặp một khách hàng vừa đòi hỏi vừa nóng nảy."
+    },
+    {
+      "key": "choice_workinglife_difficult_client_1",
+      "value": "Đặt kỳ vọng rõ ràng"
+    },
+    {
+      "key": "log_workinglife_difficult_client_1",
+      "value": "Họ bớt căng, nhưng không hết gay gắt."
+    },
+    {
+      "key": "choice_workinglife_difficult_client_2",
+      "value": "Hứa hẹn quá mức"
+    },
+    {
+      "key": "log_workinglife_difficult_client_2",
+      "value": "Tạm làm họ hài lòng, nhưng áp lực tương lai tăng gấp đôi."
+    },
+    {
+      "key": "choice_workinglife_difficult_client_3",
+      "value": "Chuyển cho sếp xử lý"
+    },
+    {
+      "key": "log_workinglife_difficult_client_3",
+      "value": "Sếp can thiệp, nhưng tôi trông kém năng lực hơn."
+    },
+    {
+      "key": "event_workinglife_boss_notices_title",
+      "value": "Sếp nhận ra bạn đi trễ"
+    },
+    {
+      "key": "event_workinglife_boss_notices_desc",
+      "value": "Sếp thấy bạn vào muộn và hơi nhíu mày."
+    },
+    {
+      "key": "choice_workinglife_boss_notices_1",
+      "value": "Thành thật xin lỗi"
+    },
+    {
+      "key": "log_workinglife_boss_notices_1",
+      "value": "Lời xin lỗi xoa dịu phần nào, nhưng ấn tượng ban đầu vẫn còn."
+    },
+    {
+      "key": "choice_workinglife_boss_notices_2",
+      "value": "Đưa ra cái cớ nhanh"
+    },
+    {
+      "key": "log_workinglife_boss_notices_2",
+      "value": "Cái cớ giúp tôi qua được lúc đó, nhưng niềm tin bị sứt mẻ."
+    },
+    {
+      "key": "choice_workinglife_boss_notices_3",
+      "value": "Giữ im lặng"
+    },
+    {
+      "key": "log_workinglife_boss_notices_3",
+      "value": "Im lặng tránh va chạm, nhưng trông tôi bất cẩn hơn."
+    },
+    {
+      "key": "event_workinglife_boss_reprimand_title",
+      "value": "Bị sếp phê bình"
+    },
+    {
+      "key": "event_workinglife_boss_reprimand_desc",
+      "value": "Trong cuộc họp, sếp nhắc bạn vì không tham gia tích cực."
+    },
+    {
+      "key": "choice_workinglife_boss_reprimand_1",
+      "value": "Phát biểu nhiều hơn"
+    },
+    {
+      "key": "log_workinglife_boss_reprimand_1",
+      "value": "Tôi gỡ gạc lại, nhưng đồng nghiệp trêu “nói gượng ép.”"
+    },
+    {
+      "key": "choice_workinglife_boss_reprimand_2",
+      "value": "Bình tĩnh giải thích"
+    },
+    {
+      "key": "log_workinglife_boss_reprimand_2",
+      "value": "Tôi nói lý do, nhưng sếp vẫn không mấy tin."
+    },
+    {
+      "key": "choice_workinglife_boss_reprimand_3",
+      "value": "Chấp nhận im lặng"
+    },
+    {
+      "key": "log_workinglife_boss_reprimand_3",
+      "value": "Tôi nuốt lời phê bình, nhưng nó ám ảnh nhiều ngày."
+    },
+    {
+      "key": "event_workinglife_missed_deadline_title",
+      "value": "Trễ hạn chót"
+    },
+    {
+      "key": "event_workinglife_missed_deadline_desc",
+      "value": "Một hạn chót quan trọng trượt khỏi tay bạn."
+    },
+    {
+      "key": "choice_workinglife_missed_deadline_1",
+      "value": "Nộp muộn vẫn nộp"
+    },
+    {
+      "key": "log_workinglife_missed_deadline_1",
+      "value": "Bài xong, nhưng vết nhơ trong hồ sơ vẫn còn."
+    },
+    {
+      "key": "choice_workinglife_missed_deadline_2",
+      "value": "Xin thêm thời gian"
+    },
+    {
+      "key": "log_workinglife_missed_deadline_2",
+      "value": "Được gia hạn, nhưng tin đồn về sự thiếu tin cậy lan ra."
+    },
+    {
+      "key": "choice_workinglife_missed_deadline_3",
+      "value": "Nhờ đồng nghiệp giúp"
+    },
+    {
+      "key": "log_workinglife_missed_deadline_3",
+      "value": "Công việc hoàn thành, nhưng tôi mang nợ lớn."
+    },
+    {
+      "key": "event_workinglife_client_complaint_title",
+      "value": "Khách hàng phàn nàn"
+    },
+    {
+      "key": "event_workinglife_client_complaint_desc",
+      "value": "Khách hàng gọi điện tức giận vì sự chậm trễ."
+    },
+    {
+      "key": "choice_workinglife_client_complaint_1",
+      "value": "Thành thật xin lỗi"
+    },
+    {
+      "key": "log_workinglife_client_complaint_1",
+      "value": "Cơn giận nguội dần, nhưng niềm tin chưa trở lại."
+    },
+    {
+      "key": "choice_workinglife_client_complaint_2",
+      "value": "Giải thích lý do"
+    },
+    {
+      "key": "log_workinglife_client_complaint_2",
+      "value": "Họ hiểu phần nào, nhưng vẫn ép tiến độ."
+    },
+    {
+      "key": "choice_workinglife_client_complaint_3",
+      "value": "Chuyển cho sếp xử lý"
+    },
+    {
+      "key": "log_workinglife_client_complaint_3",
+      "value": "Khách hàng dịu xuống, nhưng sếp trông thất vọng."
+    },
+    {
+      "key": "event_workinglife_boss_disappointed_title",
+      "value": "Sếp thất vọng"
+    },
+    {
+      "key": "event_workinglife_boss_disappointed_desc",
+      "value": "Sếp tỏ rõ sự thất vọng khi bạn từ chối nhiệm vụ khó."
+    },
+    {
+      "key": "choice_workinglife_boss_disappointed_1",
+      "value": "Xin lỗi và giải thích"
+    },
+    {
+      "key": "log_workinglife_boss_disappointed_1",
+      "value": "Tôi xoa dịu phần nào, nhưng bị nghi ngờ thiếu tham vọng."
+    },
+    {
+      "key": "choice_workinglife_boss_disappointed_2",
+      "value": "Đề nghị thử lại"
+    },
+    {
+      "key": "log_workinglife_boss_disappointed_2",
+      "value": "Tôi gỡ điểm lại, nhưng áp lực tăng gấp đôi."
+    },
+    {
+      "key": "choice_workinglife_boss_disappointed_3",
+      "value": "Giữ im lặng"
+    },
+    {
+      "key": "log_workinglife_boss_disappointed_3",
+      "value": "Tôi tránh đối đầu, nhưng sự tôn trọng trôi dần."
+    },
+    {
+      "key": "event_workinglife_colleagues_laugh_title",
+      "value": "Đồng nghiệp cười"
+    },
+    {
+      "key": "event_workinglife_colleagues_laugh_desc",
+      "value": "Đồng nghiệp bật cười khi bạn lén quay lại muộn."
+    },
+    {
+      "key": "choice_workinglife_colleagues_laugh_1",
+      "value": "Cười theo cùng họ"
+    },
+    {
+      "key": "log_workinglife_colleagues_laugh_1",
+      "value": "Không khí nhẹ đi, nhưng uy tín giảm sút."
+    },
+    {
+      "key": "choice_workinglife_colleagues_laugh_2",
+      "value": "Giải thích nhanh"
+    },
+    {
+      "key": "log_workinglife_colleagues_laugh_2",
+      "value": "Họ gật gù, nhưng biệt danh trêu chọc bám theo."
+    },
+    {
+      "key": "choice_workinglife_colleagues_laugh_3",
+      "value": "Lờ đi im lặng"
+    },
+    {
+      "key": "log_workinglife_colleagues_laugh_3",
+      "value": "Tôi giữ bình tĩnh, nhưng tiếng cười ám trong đầu."
+    },
+    {
+      "key": "event_workinglife_lose_points_with_boss_title",
+      "value": "Mất điểm với sếp"
+    },
+    {
+      "key": "event_workinglife_lose_points_with_boss_desc",
+      "value": "Bài thuyết trình của bạn không làm sếp hài lòng."
+    },
+    {
+      "key": "choice_workinglife_lose_points_with_boss_1",
+      "value": "Ứng biến nhanh"
+    },
+    {
+      "key": "log_workinglife_lose_points_with_boss_1",
+      "value": "Tôi cứu vãn được phần nào, nhưng vết trượt vẫn nhớ mãi."
+    },
+    {
+      "key": "choice_workinglife_lose_points_with_boss_2",
+      "value": "Thú nhận sai sót"
+    },
+    {
+      "key": "log_workinglife_lose_points_with_boss_2",
+      "value": "Thành thật làm dịu bớt, nhưng điểm yếu bị ghi lại."
+    },
+    {
+      "key": "choice_workinglife_lose_points_with_boss_3",
+      "value": "Nhờ đồng nghiệp hỗ trợ"
+    },
+    {
+      "key": "log_workinglife_lose_points_with_boss_3",
+      "value": "Bài thuyết trình sống sót, nhưng sự phụ thuộc lộ rõ."
+    },
+    {
+      "key": "event_workinglife_feel_isolated_title",
+      "value": "Cảm thấy cô lập"
+    },
+    {
+      "key": "event_workinglife_feel_isolated_desc",
+      "value": "Bỏ lỡ hoạt động khiến bạn cảm thấy tách biệt với đồng nghiệp."
+    },
+    {
+      "key": "choice_workinglife_feel_isolated_1",
+      "value": "Đứng ngoài quan sát"
+    },
+    {
+      "key": "log_workinglife_feel_isolated_1",
+      "value": "Tôi thấy họ gắn bó hơn, còn mình mãi ở rìa."
+    },
+    {
+      "key": "choice_workinglife_feel_isolated_2",
+      "value": "Chủ động kết nối lại"
+    },
+    {
+      "key": "log_workinglife_feel_isolated_2",
+      "value": "Dần dần tôi bắt nhịp lại, nhưng vẫn thấy chậm chân."
+    },
+    {
+      "key": "choice_workinglife_feel_isolated_3",
+      "value": "Tiếp tục rút lui"
+    },
+    {
+      "key": "log_workinglife_feel_isolated_3",
+      "value": "Tôi tránh khó xử, nhưng nỗi cô đơn dày thêm."
+    },
+    {
+      "key": "event_workinglife_financial_trouble_title",
+      "value": "Khó khăn tài chính"
+    },
+    {
+      "key": "event_workinglife_financial_trouble_desc",
+      "value": "Lương chậm khiến bạn chật vật tiền bạc."
+    },
+    {
+      "key": "choice_workinglife_financial_trouble_1",
+      "value": "Mượn bạn bè"
+    },
+    {
+      "key": "log_workinglife_financial_trouble_1",
+      "value": "Tôi thở phào, nhưng lòng tự trọng bị tổn thương."
+    },
+    {
+      "key": "choice_workinglife_financial_trouble_2",
+      "value": "Xin tạm ứng"
+    },
+    {
+      "key": "log_workinglife_financial_trouble_2",
+      "value": "HR đồng ý, nhưng tôi thấy mình mang ơn công ty."
+    },
+    {
+      "key": "choice_workinglife_financial_trouble_3",
+      "value": "Thắt lưng buộc bụng"
+    },
+    {
+      "key": "log_workinglife_financial_trouble_3",
+      "value": "Tôi chịu đựng kham khổ, nhưng căng thẳng tăng thêm."
+    },
+    {
+      "key": "event_workinglife_client_unhappy_title",
+      "value": "Khách hàng không hài lòng"
+    },
+    {
+      "key": "event_workinglife_client_unhappy_desc",
+      "value": "Khách hàng tỏ ra khó chịu sau những lời hứa của bạn."
+    },
+    {
+      "key": "choice_workinglife_client_unhappy_1",
+      "value": "Trực tiếp xin lỗi"
+    },
+    {
+      "key": "log_workinglife_client_unhappy_1",
+      "value": "Không khí dịu lại, nhưng kỳ vọng vẫn đè nặng."
+    },
+    {
+      "key": "choice_workinglife_client_unhappy_2",
+      "value": "Nhờ sếp xử lý"
+    },
+    {
+      "key": "log_workinglife_client_unhappy_2",
+      "value": "Khách hàng bình tĩnh, nhưng uy tín của tôi mất điểm."
+    },
+    {
+      "key": "choice_workinglife_client_unhappy_3",
+      "value": "Đề nghị giảm giá hoặc ưu đãi"
+    },
+    {
+      "key": "log_workinglife_client_unhappy_3",
+      "value": "Họ mỉm cười lại, nhưng yêu cầu sau này tăng nhiều hơn."
+    },
+    {
+      "key": "event_workinglife_overtime_title",
+      "value": "Làm thêm giờ"
+    },
+    {
+      "key": "event_workinglife_overtime_desc",
+      "value": "Đã khuya mà việc vẫn chưa xong."
+    },
+    {
+      "key": "choice_workinglife_overtime_1",
+      "value": "Ở lại làm cho xong"
+    },
+    {
+      "key": "log_workinglife_overtime_1",
+      "value": "Việc hoàn thành, nhưng hôm sau tôi mệt rã rời."
+    },
+    {
+      "key": "choice_workinglife_overtime_2",
+      "value": "Vừa làm vừa than"
+    },
+    {
+      "key": "log_workinglife_overtime_2",
+      "value": "Tôi xả bực tức, nhưng lan cả không khí chán nản."
+    },
+    {
+      "key": "choice_workinglife_overtime_3",
+      "value": "Để mai làm tiếp"
+    },
+    {
+      "key": "log_workinglife_overtime_3",
+      "value": "Tôi về đúng giờ, nhưng ám ảnh tội lỗi cả tối."
+    },
+    {
+      "key": "event_workinglife_new_project_title",
+      "value": "Dự án mới"
+    },
+    {
+      "key": "event_workinglife_new_project_desc",
+      "value": "Sếp mời bạn tham gia một dự án mới."
+    },
+    {
+      "key": "choice_workinglife_new_project_1",
+      "value": "Nhận lời hăng hái"
+    },
+    {
+      "key": "log_workinglife_new_project_1",
+      "value": "Tôi thể hiện tham vọng, nhưng việc chất chồng nhanh chóng."
+    },
+    {
+      "key": "choice_workinglife_new_project_2",
+      "value": "Nhận với dè chừng"
+    },
+    {
+      "key": "log_workinglife_new_project_2",
+      "value": "Tôi tham gia nhưng giữ vai trò nhỏ, an toàn nhưng ít nổi bật."
+    },
+    {
+      "key": "choice_workinglife_new_project_3",
+      "value": "Từ chối khéo léo"
+    },
+    {
+      "key": "log_workinglife_new_project_3",
+      "value": "Tôi giữ khối lượng ổn định, nhưng trông thiếu tham vọng."
+    },
+    {
+      "key": "log_workinglife_project_bonus",
+      "value": "{name} đã nhận được khoản thưởng {amount}$ cho công việc xuất sắc trong dự án mới!"
+    },
+    {
+      "key": "event_workinglife_boss_praise_title",
+      "value": "Được sếp khen"
+    },
+    {
+      "key": "event_workinglife_boss_praise_desc",
+      "value": "Sếp khen ngợi hiệu suất làm việc của bạn."
+    },
+    {
+      "key": "choice_workinglife_boss_praise_1",
+      "value": "Cảm ơn nồng nhiệt"
+    },
+    {
+      "key": "log_workinglife_boss_praise_1",
+      "value": "Sự biết ơn tạo thiện cảm, nhưng ánh mắt ghen tị thoáng qua."
+    },
+    {
+      "key": "choice_workinglife_boss_praise_2",
+      "value": "Khiêm tốn"
+    },
+    {
+      "key": "log_workinglife_boss_praise_2",
+      "value": "Khiêm nhường khiến vài người ấn tượng, nhưng người khác bảo tôi thiếu tự tin."
+    },
+    {
+      "key": "choice_workinglife_boss_praise_3",
+      "value": "Tỏ ra tự hào"
+    },
+    {
+      "key": "log_workinglife_boss_praise_3",
+      "value": "Tôi thấy tự tin hơn, nhưng có lời thì thầm kiêu ngạo."
+    },
+    {
+      "key": "event_workinglife_boss_criticism_title",
+      "value": "Bị sếp chê"
+    },
+    {
+      "key": "event_workinglife_boss_criticism_desc",
+      "value": "Sếp phê bình bạn trước mặt nhiều người."
+    },
+    {
+      "key": "choice_workinglife_boss_criticism_1",
+      "value": "Nghe im lặng"
+    },
+    {
+      "key": "log_workinglife_boss_criticism_1",
+      "value": "Tôi chịu đựng, nhưng xấu hổ lan khắp phòng."
+    },
+    {
+      "key": "choice_workinglife_boss_criticism_2",
+      "value": "Bình tĩnh giải thích"
+    },
+    {
+      "key": "log_workinglife_boss_criticism_2",
+      "value": "Tôi giải thích, vài người gật gù nhưng sếp vẫn nghiêm khắc."
+    },
+    {
+      "key": "choice_workinglife_boss_criticism_3",
+      "value": "Hứa sẽ cải thiện"
+    },
+    {
+      "key": "log_workinglife_boss_criticism_3",
+      "value": "Lời hứa giúp lấy lại niềm tin, nhưng áp lực tăng gấp đôi."
+    },
+    {
+      "key": "event_workinglife_training_session_title",
+      "value": "Buổi đào tạo"
+    },
+    {
+      "key": "event_workinglife_training_session_desc",
+      "value": "Bạn tham dự một buổi đào tạo bắt buộc."
+    },
+    {
+      "key": "choice_workinglife_training_session_1",
+      "value": "Tập trung hoàn toàn"
+    },
+    {
+      "key": "log_workinglife_training_session_1",
+      "value": "Tôi học thêm kỹ năng, nhưng danh sách việc cần làm dài thêm."
+    },
+    {
+      "key": "choice_workinglife_training_session_2",
+      "value": "Tranh thủ làm việc riêng"
+    },
+    {
+      "key": "log_workinglife_training_session_2",
+      "value": "Tôi giải quyết được việc cá nhân, nhưng bỏ lỡ kiến thức chính."
+    },
+    {
+      "key": "choice_workinglife_training_session_3",
+      "value": "Lén bỏ buổi"
+    },
+    {
+      "key": "log_workinglife_training_session_3",
+      "value": "Tôi tiết kiệm thời gian, nhưng sự vắng mặt bị ghi nhận."
+    },
+    {
+      "key": "event_workinglife_new_colleague_title",
+      "value": "Đồng nghiệp mới"
+    },
+    {
+      "key": "event_workinglife_new_colleague_desc",
+      "value": "Một đồng nghiệp mới gia nhập văn phòng."
+    },
+    {
+      "key": "choice_workinglife_new_colleague_1",
+      "value": "Chào đón nồng nhiệt"
+    },
+    {
+      "key": "log_workinglife_new_colleague_1",
+      "value": "Tôi có thêm bạn, nhưng bị trêu “quá thân thiện.”"
+    },
+    {
+      "key": "choice_workinglife_new_colleague_2",
+      "value": "Giữ khoảng cách"
+    },
+    {
+      "key": "log_workinglife_new_colleague_2",
+      "value": "Tôi an toàn, nhưng lỡ mất cơ hội gắn kết."
+    },
+    {
+      "key": "choice_workinglife_new_colleague_3",
+      "value": "Hỏi thăm về họ"
+    },
+    {
+      "key": "log_workinglife_new_colleague_3",
+      "value": "Sự tò mò tạo kết nối, nhưng hơi bị coi là tọc mạch."
+    },
+    {
+      "key": "event_workinglife_office_lunch_title",
+      "value": "Bữa trưa công ty"
+    },
+    {
+      "key": "event_workinglife_office_lunch_desc",
+      "value": "Đến giờ ăn trưa, đồng nghiệp rủ bạn tham gia."
+    },
+    {
+      "key": "choice_workinglife_office_lunch_1",
+      "value": "Ăn cùng họ"
+    },
+    {
+      "key": "log_workinglife_office_lunch_1",
+      "value": "Tiếng cười rộn rã, nhưng chuyện công việc xen vào."
+    },
+    {
+      "key": "choice_workinglife_office_lunch_2",
+      "value": "Ăn một mình tại bàn"
+    },
+    {
+      "key": "log_workinglife_office_lunch_2",
+      "value": "Tôi tận hưởng yên tĩnh, nhưng bỏ lỡ câu chuyện chung."
+    },
+    {
+      "key": "choice_workinglife_office_lunch_3",
+      "value": "Ra ngoài ăn riêng"
+    },
+    {
+      "key": "log_workinglife_office_lunch_3",
+      "value": "Món ăn ngon miệng, nhưng tôi trông ít hoà đồng hơn."
+    },
+    {
+      "key": "event_workinglife_client_meeting_title",
+      "value": "Gặp khách hàng"
+    },
+    {
+      "key": "event_workinglife_client_meeting_desc",
+      "value": "Bạn ngồi đối diện một khách hàng quan trọng."
+    },
+    {
+      "key": "choice_workinglife_client_meeting_1",
+      "value": "Chuẩn bị kỹ lưỡng"
+    },
+    {
+      "key": "log_workinglife_client_meeting_1",
+      "value": "Chuẩn bị kỹ giúp tôi tự tin, dù vẫn hơi run."
+    },
+    {
+      "key": "choice_workinglife_client_meeting_2",
+      "value": "Chủ yếu lắng nghe"
+    },
+    {
+      "key": "log_workinglife_client_meeting_2",
+      "value": "Tôi tránh sai sót, nhưng dễ bị xem là thụ động."
+    },
+    {
+      "key": "choice_workinglife_client_meeting_3",
+      "value": "Nói ít thôi"
+    },
+    {
+      "key": "log_workinglife_client_meeting_3",
+      "value": "Lời nói ít nhưng nặng ký, khoảng lặng thì gượng gạo."
+    },
+    {
+      "key": "event_workinglife_group_work_title",
+      "value": "Làm việc nhóm"
+    },
+    {
+      "key": "event_workinglife_group_work_desc",
+      "value": "Bạn cùng đồng nghiệp làm một nhiệm vụ."
+    },
+    {
+      "key": "choice_workinglife_group_work_1",
+      "value": "Đóng góp tích cực"
+    },
+    {
+      "key": "log_workinglife_group_work_1",
+      "value": "Ý tưởng trôi chảy, nhưng xung đột cũng nảy sinh."
+    },
+    {
+      "key": "choice_workinglife_group_work_2",
+      "value": "Giữ im lặng"
+    },
+    {
+      "key": "log_workinglife_group_work_2",
+      "value": "Không mắc lỗi, nhưng cũng không có công lao."
+    },
+    {
+      "key": "choice_workinglife_group_work_3",
+      "value": "Đi theo người khác"
+    },
+    {
+      "key": "log_workinglife_group_work_3",
+      "value": "Tôi tránh trách nhiệm, nhưng cũng trở nên mờ nhạt."
+    },
+    {
+      "key": "event_workinglife_company_party_title",
+      "value": "Tiệc công ty"
+    },
+    {
+      "key": "event_workinglife_company_party_desc",
+      "value": "Công ty tổ chức một bữa tiệc sau giờ làm."
+    },
+    {
+      "key": "choice_workinglife_company_party_1",
+      "value": "Hoà mình tham gia"
+    },
+    {
+      "key": "log_workinglife_company_party_1",
+      "value": "Tôi gắn kết thêm nhiều người, nhưng đêm khuya lấy hết sức lực."
+    },
+    {
+      "key": "choice_workinglife_company_party_2",
+      "value": "Ngồi yên một góc"
+    },
+    {
+      "key": "log_workinglife_company_party_2",
+      "value": "Tôi tránh khó xử, nhưng sau đó thiếu chuyện để góp vui."
+    },
+    {
+      "key": "choice_workinglife_company_party_3",
+      "value": "Về sớm"
+    },
+    {
+      "key": "log_workinglife_company_party_3",
+      "value": "Tôi giữ được sức, nhưng lỡ mất cơ hội kết nối."
+    },
+    {
+      "key": "event_workinglife_business_trip_title",
+      "value": "Chuyến công tác"
+    },
+    {
+      "key": "event_workinglife_business_trip_desc",
+      "value": "Bạn đi công tác xa cho công việc."
+    },
+    {
+      "key": "choice_workinglife_business_trip_1",
+      "value": "Chuẩn bị kỹ lưỡng"
+    },
+    {
+      "key": "log_workinglife_business_trip_1",
+      "value": "Cuộc họp diễn ra trôi chảy, nhưng tôi kiệt sức khi về."
+    },
+    {
+      "key": "choice_workinglife_business_trip_2",
+      "value": "Quên vài tài liệu"
+    },
+    {
+      "key": "log_workinglife_business_trip_2",
+      "value": "Tôi vất vả xoay xở, căng thẳng tăng cao."
+    },
+    {
+      "key": "choice_workinglife_business_trip_3",
+      "value": "Dựa vào đồng nghiệp"
+    },
+    {
+      "key": "log_workinglife_business_trip_3",
+      "value": "Họ che chở cho tôi, nhưng tin đồn bất cẩn lan ra."
+    },
+    {
+      "key": "event_workinglife_end_of_day_title",
+      "value": "Kết thúc ngày làm việc"
+    },
+    {
+      "key": "event_workinglife_end_of_day_desc",
+      "value": "Đồng hồ điểm 5 giờ. Bạn sẽ kết thúc ngày thế nào?"
+    },
+    {
+      "key": "choice_workinglife_end_of_day_1",
+      "value": "Rời đi ngay"
+    },
+    {
+      "key": "log_workinglife_end_of_day_1",
+      "value": "Tôi giữ cân bằng, nhưng có người thì thầm “thiếu cống hiến.”"
+    },
+    {
+      "key": "choice_workinglife_end_of_day_2",
+      "value": "Ở lại làm thêm"
+    },
+    {
+      "key": "log_workinglife_end_of_day_2",
+      "value": "Tôi được khen, nhưng mất thời gian nghỉ ngơi."
+    },
+    {
+      "key": "choice_workinglife_end_of_day_3",
+      "value": "Ngồi trò chuyện chút"
+    },
+    {
+      "key": "log_workinglife_end_of_day_3",
+      "value": "Tôi cười vui vẻ, nhưng công việc chất thêm."
+    },
+    {
+      "key": "event_workinglife_work_delayed_title",
+      "value": "Công việc bị chậm"
+    },
+    {
+      "key": "event_workinglife_work_delayed_desc",
+      "value": "Tiến độ công việc tụt lại sau kế hoạch."
+    },
+    {
+      "key": "choice_workinglife_work_delayed_1",
+      "value": "Cố gắng hết sức"
+    },
+    {
+      "key": "log_workinglife_work_delayed_1",
+      "value": "Tôi bắt kịp, nhưng kiệt sức rõ rệt."
+    },
+    {
+      "key": "choice_workinglife_work_delayed_2",
+      "value": "Xin thêm thời gian"
+    },
+    {
+      "key": "log_workinglife_work_delayed_2",
+      "value": "Thời gian cứu tôi, nhưng uy tín giảm."
+    },
+    {
+      "key": "choice_workinglife_work_delayed_3",
+      "value": "Nhờ đồng nghiệp giúp"
+    },
+    {
+      "key": "log_workinglife_work_delayed_3",
+      "value": "Cùng nhau hoàn thành, nhưng tôi lộ sự phụ thuộc."
+    },
+    {
+      "key": "event_workinglife_pay_raise_title",
+      "value": "Được tăng lương"
+    },
+    {
+      "key": "event_workinglife_pay_raise_desc",
+      "value": "Mức lương của bạn vừa được tăng."
+    },
+    {
+      "key": "choice_workinglife_pay_raise_1",
+      "value": "Ăn mừng công khai"
+    },
+    {
+      "key": "log_workinglife_pay_raise_1",
+      "value": "Niềm vui rõ rệt, nhưng ghen tị lan ra."
+    },
+    {
+      "key": "choice_workinglife_pay_raise_2",
+      "value": "Cảm ơn sếp nhỏ nhẹ"
+    },
+    {
+      "key": "log_workinglife_pay_raise_2",
+      "value": "Sự biết ơn tạo gắn kết, nhưng không quá hứng khởi."
+    },
+    {
+      "key": "choice_workinglife_pay_raise_3",
+      "value": "Giữ bí mật"
+    },
+    {
+      "key": "log_workinglife_pay_raise_3",
+      "value": "Tôi tránh được ganh ghét, nhưng chẳng ai chia sẻ niềm vui cùng."
+    },
+    {
+      "key": "event_workinglife_bonus_cut_title",
+      "value": "Bị cắt thưởng"
+    },
+    {
+      "key": "event_workinglife_bonus_cut_desc",
+      "value": "Khoản thưởng mong đợi của bạn bị giảm bớt."
+    },
+    {
+      "key": "choice_workinglife_bonus_cut_1",
+      "value": "Công khai than phiền"
+    },
+    {
+      "key": "log_workinglife_bonus_cut_1",
+      "value": "Tôi xả bực tức, nhưng dễ bị xem là thiếu chuyên nghiệp."
+    },
+    {
+      "key": "choice_workinglife_bonus_cut_2",
+      "value": "Im lặng chấp nhận"
+    },
+    {
+      "key": "log_workinglife_bonus_cut_2",
+      "value": "Tôi tránh xung đột, nhưng cay đắng kéo dài."
+    },
+    {
+      "key": "choice_workinglife_bonus_cut_3",
+      "value": "Cân nhắc tìm việc mới"
+    },
+    {
+      "key": "log_workinglife_bonus_cut_3",
+      "value": "Tôi bắt đầu tìm cơ hội khác, nhưng lo âu lẩn khuất."
+    },
+    {
+      "key": "event_workinglife_policy_change_title",
+      "value": "Thay đổi chính sách"
+    },
+    {
+      "key": "event_workinglife_policy_change_desc",
+      "value": "Công ty công bố một chính sách mới quan trọng."
+    },
+    {
+      "key": "choice_workinglife_policy_change_1",
+      "value": "Đọc kỹ toàn bộ"
+    },
+    {
+      "key": "log_workinglife_policy_change_1",
+      "value": "Tôi hiểu rõ, nhưng bị chọc là “lo xa.”"
+    },
+    {
+      "key": "choice_workinglife_policy_change_2",
+      "value": "Đặt câu hỏi"
+    },
+    {
+      "key": "log_workinglife_policy_change_2",
+      "value": "Tôi được giải thích, nhưng dễ bị coi là hoài nghi."
+    },
+    {
+      "key": "choice_workinglife_policy_change_3",
+      "value": "Tạm lờ đi"
+    },
+    {
+      "key": "log_workinglife_policy_change_3",
+      "value": "Tôi tiết kiệm thời gian, nhưng sau đó bối rối."
+    },
+    {
+      "key": "event_workinglife_computer_broken_title",
+      "value": "Máy tính hỏng"
+    },
+    {
+      "key": "event_workinglife_computer_broken_desc",
+      "value": "Máy tính văn phòng của bạn đột ngột sập nguồn."
+    },
+    {
+      "key": "choice_workinglife_computer_broken_1",
+      "value": "Báo IT"
+    },
+    {
+      "key": "log_workinglife_computer_broken_1",
+      "value": "IT sửa, nhưng tôi mất vài giờ quý giá."
+    },
+    {
+      "key": "choice_workinglife_computer_broken_2",
+      "value": "Tự sửa"
+    },
+    {
+      "key": "log_workinglife_computer_broken_2",
+      "value": "Tôi bất ngờ tự xoay được, nhưng rủi ro hỏng thêm."
+    },
+    {
+      "key": "choice_workinglife_computer_broken_3",
+      "value": "Mượn máy đồng nghiệp"
+    },
+    {
+      "key": "log_workinglife_computer_broken_3",
+      "value": "Việc vẫn chạy, nhưng tôi làm phiền họ."
+    },
+    {
+      "key": "event_workinglife_lost_motivation_title",
+      "value": "Mất động lực"
+    },
+    {
+      "key": "event_workinglife_lost_motivation_desc",
+      "value": "Gần đây bạn thấy chán nản với công việc."
+    },
+    {
+      "key": "choice_workinglife_lost_motivation_1",
+      "value": "Nghỉ ngắn"
+    },
+    {
+      "key": "log_workinglife_lost_motivation_1",
+      "value": "Tôi hồi phục, nhưng việc chất đống."
+    },
+    {
+      "key": "choice_workinglife_lost_motivation_2",
+      "value": "Chia sẻ với bạn bè"
+    },
+    {
+      "key": "log_workinglife_lost_motivation_2",
+      "value": "Nói ra giúp tôi nhẹ lòng, nhưng dễ bị coi là than vãn."
+    },
+    {
+      "key": "choice_workinglife_lost_motivation_3",
+      "value": "Tiếp tục cố gắng"
+    },
+    {
+      "key": "log_workinglife_lost_motivation_3",
+      "value": "Tôi kiên trì, nhưng khoảng trống trong lòng thêm lớn."
+    },
+    {
+      "key": "event_workinglife_performance_review_title",
+      "value": "Đánh giá hiệu suất"
+    },
+    {
+      "key": "event_workinglife_performance_review_desc",
+      "value": "Bạn vừa nhận kết quả đánh giá công việc."
+    },
+    {
+      "key": "choice_workinglife_performance_review_1",
+      "value": "Ăn mừng nếu tốt"
+    },
+    {
+      "key": "log_workinglife_performance_review_1",
+      "value": "Niềm vui nâng tôi lên, nhưng ghen tị len lỏi."
+    },
+    {
+      "key": "choice_workinglife_performance_review_2",
+      "value": "Giữ thái độ trung lập"
+    },
+    {
+      "key": "log_workinglife_performance_review_2",
+      "value": "Tôi tránh rắc rối, nhưng niềm vui cũng nhạt."
+    },
+    {
+      "key": "choice_workinglife_performance_review_3",
+      "value": "Suy ngẫm nếu kém"
+    },
+    {
+      "key": "log_workinglife_performance_review_3",
+      "value": "Cú sốc làm đau, nhưng giúp tôi trưởng thành."
+    },
+    {
+      "key": "event_workinglife_share_office_snacks_title",
+      "value": "Chia sẻ đồ ăn vặt"
+    },
+    {
+      "key": "event_workinglife_share_office_snacks_desc",
+      "value": "Đồng nghiệp để ý bạn có đồ ăn vặt trên bàn."
+    },
+    {
+      "key": "choice_workinglife_share_office_snacks_1",
+      "value": "Mời mọi người"
+    },
+    {
+      "key": "log_workinglife_share_office_snacks_1",
+      "value": "Nụ cười lan toả, nhưng phần ăn của tôi cạn nhanh."
+    },
+    {
+      "key": "choice_workinglife_share_office_snacks_2",
+      "value": "Đổi món với người khác"
+    },
+    {
+      "key": "log_workinglife_share_office_snacks_2",
+      "value": "Chúng tôi cười vui khi trao đổi, nhưng không phải ai cũng chia lại."
+    },
+    {
+      "key": "choice_workinglife_share_office_snacks_3",
+      "value": "Giữ cho riêng mình"
+    },
+    {
+      "key": "log_workinglife_share_office_snacks_3",
+      "value": "Tôi no đủ, nhưng tiếng xì xào keo kiệt vang sau lưng."
+    },
+    {
+      "key": "career_track_unskilled_name",
+      "value": "Unskilled Labor"
+    },
+    {
+      "key": "career_track_unskilled_desc",
+      "value": "General labor jobs that do not require specialized training."
+    },
+    {
+      "key": "career_track_trade_name",
+      "value": "Skilled Trade"
+    },
+    {
+      "key": "career_track_trade_desc",
+      "value": "A hands-on career like an electrician or plumber."
+    },
+    {
+      "key": "career_track_business_name",
+      "value": "Business"
+    },
+    {
+      "key": "career_track_business_desc",
+      "value": "A corporate career in analysis and management."
+    },
+    {
+      "key": "career_track_technology_name",
+      "value": "Technology"
+    },
+    {
+      "key": "career_track_technology_desc",
+      "value": "A career in software development and engineering."
+    },
+    {
+      "key": "career_track_arts_name",
+      "value": "Arts"
+    },
+    {
+      "key": "career_track_arts_desc",
+      "value": "A creative career in design and media."
+    },
+    {
+      "key": "career_track_medicine_name",
+      "value": "Medicine"
+    },
+    {
+      "key": "career_track_medicine_desc",
+      "value": "A prestigious and demanding career in the healthcare field."
+    }
+  ]
+}

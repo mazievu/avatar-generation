@@ -4,6 +4,13 @@ using System.Collections.Generic;
 namespace LifeSim.Core.Domain.Events
 {
     [Serializable]
+    public class EventChoice
+    {
+        public string id;
+        public string labelKey; // localization key
+    }
+
+    [Serializable]
     public class GameEvent
     {
         public string id;

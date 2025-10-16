@@ -1,0 +1,156 @@
+{
+  "items": [
+    {
+      "key": "milestone_marriage_title",
+      "value": "Marriage Proposal"
+    },
+    {
+      "key": "milestone_marriage_desc",
+      "value": "You have met someone special and are considering marriage. What will you do?"
+    },
+    {
+      "key": "milestone_marriage_yes",
+      "value": "Propose to them."
+    },
+    {
+      "key": "log_milestone_marriage_yes",
+      "value": "I proposed, and they said yes! A new chapter begins."
+    },
+    {
+      "key": "milestone_marriage_no",
+      "value": "Remain single for now."
+    },
+    {
+      "key": "log_milestone_marriage_no",
+      "value": "I decided it wasn't the right time to settle down."
+    },
+    {
+      "key": "milestone_children_title",
+      "value": "Thinking About Children"
+    },
+    {
+      "key": "milestone_children_desc",
+      "value": "You and your partner have discussed the possibility of having children."
+    },
+    {
+      "key": "milestone_children_yes",
+      "value": "Try for a baby."
+    },
+    {
+      "key": "log_milestone_children_decision",
+      "value": "We decided to try for a baby."
+    },
+    {
+      "key": "log_milestone_children_try_success",
+      "value": "We decided to try for a baby, and it was successful!"
+    },
+    {
+      "key": "log_milestone_children_try_fail",
+      "value": "We decided to try for a baby, but it wasn't successful this time."
+    },
+    {
+      "key": "milestone_children_no",
+      "value": "Not right now."
+    },
+    {
+      "key": "log_milestone_children_no",
+      "value": "We decided we weren't ready for children yet."
+    },
+    {
+      "key": "milestone_child_conceived_title",
+      "value": "Good News!"
+    },
+    {
+      "key": "milestone_child_conceived_desc",
+      "value": "You are expecting a child! The baby will be born sometime this year."
+    },
+    {
+      "key": "milestone_child_conceived_ok",
+      "value": "Wonderful!"
+    },
+    {
+      "key": "log_milestone_child_conceived_ok",
+      "value": "A beautiful baby was born!"
+    },
+    {
+      "key": "milestone_children_fail_title",
+      "value": "Trying for a Baby"
+    },
+    {
+      "key": "milestone_children_fail_desc",
+      "value": "Unfortunately, you were not successful in having a child this year. You can try again next year."
+    },
+    {
+      "key": "milestone_children_fail_ok",
+      "value": "Okay"
+    },
+    {
+      "key": "log_milestone_children_fail_ok",
+      "value": "We tried to have a child, but it wasn't successful this time."
+    },
+    {
+      "key": "milestone_death_old_age_title",
+      "value": "A Life Lived"
+    },
+    {
+      "key": "milestone_death_old_age_desc",
+      "value": "You have lived a long and full life. It is time to rest peacefully."
+    },
+    {
+      "key": "milestone_death_old_age_ok",
+      "value": "Goodbye."
+    },
+    {
+      "key": "log_milestone_death_old_age_ok",
+      "value": "I passed away peacefully, surrounded by memories."
+    },
+    {
+      "key": "milestone_mourning_title",
+      "value": "A Somber Occasion"
+    },
+    {
+      "key": "milestone_mourning_desc",
+      "value": "We are gathered today to remember {deceasedName}, who passed away from {causeOfDeath}."
+    },
+    {
+      "key": "milestone_mourning_choice_1",
+      "value": "A simple service (-$100)"
+    },
+    {
+      "key": "milestone_mourning_choice_2",
+      "value": "A traditional funeral (-$500)"
+    },
+    {
+      "key": "milestone_mourning_choice_3",
+      "value": "A grand celebration of life (-$2000)"
+    },
+    {
+      "key": "log_milestone_mourning_choice_1",
+      "value": "We held a simple service to remember {deceasedName}."
+    },
+    {
+      "key": "log_milestone_mourning_choice_2",
+      "value": "We held a traditional funeral for {deceasedName}."
+    },
+    {
+      "key": "log_milestone_mourning_choice_3",
+      "value": "We held a grand celebration of life for {deceasedName}."
+    },
+    {
+      "key": "death_cause_old_age",
+      "value": "old age"
+    },
+    {
+      "key": "death_cause_low_happiness",
+      "value": "depression"
+    },
+    {
+      "key": "death_cause_low_health",
+      "value": "illness"
+    },
+    {
+      "key": "death_cause_low_happiness_and_health",
+      "value": "depression and illness"
+    }
+  ]
+}

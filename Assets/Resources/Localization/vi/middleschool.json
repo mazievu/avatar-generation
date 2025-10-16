@@ -1,0 +1,1684 @@
+{
+  "items": [
+    {
+      "key": "event_middleschool_late_for_school_title",
+      "value": "Đi học muộn"
+    },
+    {
+      "key": "event_middleschool_late_for_school_desc",
+      "value": "Bạn đi học muộn vì kẹt xe bus."
+    },
+    {
+      "key": "choice_middleschool_late_for_school_1",
+      "value": "Xin lỗi giáo viên"
+    },
+    {
+      "key": "log_middleschool_late_for_school_1",
+      "value": "Tôi đã xin lỗi và được vào lớp."
+    },
+    {
+      "key": "choice_middleschool_late_for_school_2",
+      "value": "Lẻn vào lớp"
+    },
+    {
+      "key": "log_middleschool_late_for_school_2",
+      "value": "Tôi đã cố lẻn vào mà không để giáo viên thấy."
+    },
+    {
+      "key": "choice_middleschool_late_for_school_3",
+      "value": "Giải thích lý do với cô"
+    },
+    {
+      "key": "log_middleschool_late_for_school_3",
+      "value": "Cô giáo đã hiểu cho hoàn cảnh của tôi."
+    },
+    {
+      "key": "event_middleschool_locker_trouble_title",
+      "value": "Quên mở locker"
+    },
+    {
+      "key": "event_middleschool_locker_trouble_desc",
+      "value": "Bạn đã quên mở locker đúng giờ."
+    },
+    {
+      "key": "choice_middleschool_locker_trouble_1",
+      "value": "Nhờ bạn mở giúp"
+    },
+    {
+      "key": "log_middleschool_locker_trouble_1",
+      "value": "Bạn tôi đã giúp tôi lấy sách vở."
+    },
+    {
+      "key": "choice_middleschool_locker_trouble_2",
+      "value": "Đi hỏi giám thị"
+    },
+    {
+      "key": "log_middleschool_locker_trouble_2",
+      "value": "Tôi đã đi tìm giám thị để mở locker."
+    },
+    {
+      "key": "choice_middleschool_locker_trouble_3",
+      "value": "Chờ ra chơi mới mở"
+    },
+    {
+      "key": "log_middleschool_locker_trouble_3",
+      "value": "Tôi quyết định đợi đến giờ ra chơi, dù có thể bị lỡ bài."
+    },
+    {
+      "key": "event_middleschool_science_project_title",
+      "value": "Bài tập nhóm khoa học"
+    },
+    {
+      "key": "event_middleschool_science_project_desc",
+      "value": "Bạn đang làm một bài tập nhóm môn khoa học."
+    },
+    {
+      "key": "choice_middleschool_science_project_1",
+      "value": "Làm việc cùng nhau"
+    },
+    {
+      "key": "log_middleschool_science_project_1",
+      "value": "Chúng tôi đã hợp tác tốt và có tiến triển tốt."
+    },
+    {
+      "key": "choice_middleschool_science_project_2",
+      "value": "Làm ít việc cho có"
+    },
+    {
+      "key": "log_middleschool_science_project_2",
+      "value": "Tôi đã không đóng góp nhiều cho dự án."
+    },
+    {
+      "key": "choice_middleschool_science_project_3",
+      "value": "Tranh luận gay gắt với bạn"
+    },
+    {
+      "key": "log_middleschool_science_project_3",
+      "value": "Chúng tôi đã có một cuộc tranh cãi lớn về chi tiết dự án."
+    },
+    {
+      "key": "event_middleschool_pe_basketball_title",
+      "value": "Giờ thể dục bóng rổ"
+    },
+    {
+      "key": "event_middleschool_pe_basketball_desc",
+      "value": "Đã đến giờ học bóng rổ trong tiết thể dục."
+    },
+    {
+      "key": "choice_middleschool_pe_basketball_1",
+      "value": "Chơi hết mình"
+    },
+    {
+      "key": "log_middleschool_pe_basketball_1",
+      "value": "Tôi đã có một khoảng thời gian tuyệt vời và tập luyện tốt."
+    },
+    {
+      "key": "choice_middleschool_pe_basketball_2",
+      "value": "Nói mệt xin ngồi ngoài"
+    },
+    {
+      "key": "log_middleschool_pe_basketball_2",
+      "value": "Hôm nay tôi không có hứng thú."
+    },
+    {
+      "key": "choice_middleschool_pe_basketball_3",
+      "value": "Ngồi ngoài cổ vũ"
+    },
+    {
+      "key": "log_middleschool_pe_basketball_3",
+      "value": "Tôi đã ủng hộ bạn bè từ băng ghế dự bị."
+    },
+    {
+      "key": "event_middleschool_english_presentation_title",
+      "value": "Thuyết trình tiếng Anh"
+    },
+    {
+      "key": "event_middleschool_english_presentation_desc",
+      "value": "Bạn phải thuyết trình trong giờ học tiếng Anh."
+    },
+    {
+      "key": "choice_middleschool_english_presentation_1",
+      "value": "Chuẩn bị kỹ càng"
+    },
+    {
+      "key": "log_middleschool_english_presentation_1",
+      "value": "Tôi đã chuẩn bị kỹ và thuyết trình một cách tự tin."
+    },
+    {
+      "key": "choice_middleschool_english_presentation_2",
+      "value": "Đọc chép từ giấy"
+    },
+    {
+      "key": "log_middleschool_english_presentation_2",
+      "value": "Tôi chỉ đọc ghi chú mà không nhìn vào khán giả."
+    },
+    {
+      "key": "choice_middleschool_english_presentation_3",
+      "value": "Nói ngập ngừng thiếu tự tin"
+    },
+    {
+      "key": "log_middleschool_english_presentation_3",
+      "value": "Tôi quá lo lắng để nói rõ ràng."
+    },
+    {
+      "key": "event_middleschool_student_council_title",
+      "value": "Hội học sinh"
+    },
+    {
+      "key": "event_middleschool_student_council_desc",
+      "value": "Bạn đang cân nhắc ứng cử vào hội học sinh."
+    },
+    {
+      "key": "choice_middleschool_student_council_1",
+      "value": "Ứng cử nghiêm túc"
+    },
+    {
+      "key": "log_middleschool_student_council_1",
+      "value": "Tôi đã có một bài phát biểu nghiêm túc và vận động hết mình."
+    },
+    {
+      "key": "choice_middleschool_student_council_2",
+      "value": "Nói hứa hẹn hơi quá"
+    },
+    {
+      "key": "log_middleschool_student_council_2",
+      "value": "Có lẽ tôi đã hứa nhiều hơn những gì tôi có thể làm."
+    },
+    {
+      "key": "choice_middleschool_student_council_3",
+      "value": "Phát biểu ít, chủ yếu lắng nghe"
+    },
+    {
+      "key": "log_middleschool_student_council_3",
+      "value": "Tôi quyết định quan sát năm nay thay vì ứng cử."
+    },
+    {
+      "key": "event_middleschool_cafeteria_lunch_title",
+      "value": "Bữa trưa ở căn-tin"
+    },
+    {
+      "key": "event_middleschool_cafeteria_lunch_desc",
+      "value": "Đã đến giờ ăn trưa. Bạn ngồi với ai?"
+    },
+    {
+      "key": "choice_middleschool_cafeteria_lunch_1",
+      "value": "Ngồi với bạn thân"
+    },
+    {
+      "key": "log_middleschool_cafeteria_lunch_1",
+      "value": "Tôi đã có một cuộc trò chuyện vui vẻ với bạn thân trong bữa trưa."
+    },
+    {
+      "key": "choice_middleschool_cafeteria_lunch_2",
+      "value": "Ngồi với crush"
+    },
+    {
+      "key": "log_middleschool_cafeteria_lunch_2",
+      "value": "Tim tôi đập thình thịch suốt thời gian đó!"
+    },
+    {
+      "key": "choice_middleschool_cafeteria_lunch_3",
+      "value": "Ngồi một mình yên tĩnh"
+    },
+    {
+      "key": "log_middleschool_cafeteria_lunch_3",
+      "value": "Tôi đã tận hưởng một chút thời gian yên bình một mình."
+    },
+    {
+      "key": "event_middleschool_school_dance_title",
+      "value": "Vũ hội nhỏ ở trường"
+    },
+    {
+      "key": "event_middleschool_school_dance_desc",
+      "value": "Có một vũ hội nhỏ ở trường đang diễn ra."
+    },
+    {
+      "key": "choice_middleschool_school_dance_1",
+      "value": "Rủ bạn khiêu vũ"
+    },
+    {
+      "key": "log_middleschool_school_dance_1",
+      "value": "Chúng tôi đã có rất nhiều niềm vui khi khiêu vũ cùng nhau."
+    },
+    {
+      "key": "choice_middleschool_school_dance_2",
+      "value": "Ngại ngùng đứng ngoài"
+    },
+    {
+      "key": "log_middleschool_school_dance_2",
+      "value": "Tôi quá nhút nhát để mời ai đó khiêu vũ."
+    },
+    {
+      "key": "choice_middleschool_school_dance_3",
+      "value": "Đứng một góc quan sát"
+    },
+    {
+      "key": "log_middleschool_school_dance_3",
+      "value": "Tôi thích thú quan sát mọi người vui vẻ."
+    },
+    {
+      "key": "event_middleschool_science_experiment_title",
+      "value": "Thí nghiệm khoa học"
+    },
+    {
+      "key": "event_middleschool_science_experiment_desc",
+      "value": "Bạn đang tiến hành một thí nghiệm khoa học."
+    },
+    {
+      "key": "choice_middleschool_science_experiment_1",
+      "value": "Làm theo hướng dẫn"
+    },
+    {
+      "key": "log_middleschool_science_experiment_1",
+      "value": "Thí nghiệm đã diễn ra suôn sẻ."
+    },
+    {
+      "key": "choice_middleschool_science_experiment_2",
+      "value": "Làm thử cách riêng"
+    },
+    {
+      "key": "log_middleschool_science_experiment_2",
+      "value": "Tôi quyết định thử nghiệm một chút theo cách riêng của mình."
+    },
+    {
+      "key": "choice_middleschool_science_experiment_3",
+      "value": "Quan sát để học hỏi"
+    },
+    {
+      "key": "log_middleschool_science_experiment_3",
+      "value": "Tôi đã quan sát các bạn cùng lớp để xem họ làm thế nào."
+    },
+    {
+      "key": "event_middleschool_pop_quiz_title",
+      "value": "Kiểm tra bất ngờ"
+    },
+    {
+      "key": "event_middleschool_pop_quiz_desc",
+      "value": "Giáo viên thông báo một bài kiểm tra bất ngờ."
+    },
+    {
+      "key": "choice_middleschool_pop_quiz_1",
+      "value": "Làm theo sức mình"
+    },
+    {
+      "key": "log_middleschool_pop_quiz_1",
+      "value": "Tôi đã trả lời hết khả năng của mình."
+    },
+    {
+      "key": "choice_middleschool_pop_quiz_2",
+      "value": "Nhìn bài bạn"
+    },
+    {
+      "key": "log_middleschool_pop_quiz_2",
+      "value": "Tôi đã cố gắng nhận một chút trợ giúp từ bạn tôi."
+    },
+    {
+      "key": "choice_middleschool_pop_quiz_3",
+      "value": "Viết đại cho xong"
+    },
+    {
+      "key": "log_middleschool_pop_quiz_3",
+      "value": "Tôi chỉ muốn làm cho xong."
+    },
+    {
+      "key": "event_middleschool_late_slip_title",
+      "value": "Bị ghi sổ đi muộn"
+    },
+    {
+      "key": "event_middleschool_late_slip_desc",
+      "value": "Bạn bị bắt quả tang khi lẻn vào và bị ghi sổ đi muộn."
+    },
+    {
+      "key": "choice_middleschool_late_slip_1",
+      "value": "Xin cô cho cơ hội"
+    },
+    {
+      "key": "log_middleschool_late_slip_1",
+      "value": "Tôi đã năn nỉ cô giáo, nhưng vẫn bị ghi sổ."
+    },
+    {
+      "key": "choice_middleschool_late_slip_2",
+      "value": "Chấp nhận phạt"
+    },
+    {
+      "key": "log_middleschool_late_slip_2",
+      "value": "Tôi đã chấp nhận hậu quả của hành động của mình."
+    },
+    {
+      "key": "choice_middleschool_late_slip_3",
+      "value": "Giải thích do bus hỏng"
+    },
+    {
+      "key": "log_middleschool_late_slip_3",
+      "value": "Tôi đã cố gắng giải thích tình hình của mình."
+    },
+    {
+      "key": "event_middleschool_punished_for_tardiness_title",
+      "value": "Bị phạt vì trễ vào lớp"
+    },
+    {
+      "key": "event_middleschool_punished_for_tardiness_desc",
+      "value": "Bạn đã bị phạt vì trễ vào lớp do locker."
+    },
+    {
+      "key": "choice_middleschool_punished_for_tardiness_1",
+      "value": "Xin lỗi giáo viên"
+    },
+    {
+      "key": "log_middleschool_punished_for_tardiness_1",
+      "value": "Tôi đã xin lỗi vì đã đến muộn."
+    },
+    {
+      "key": "choice_middleschool_punished_for_tardiness_2",
+      "value": "Chấp nhận viết bản kiểm điểm"
+    },
+    {
+      "key": "log_middleschool_punished_for_tardiness_2",
+      "value": "Tôi đã phải viết bản kiểm điểm."
+    },
+    {
+      "key": "choice_middleschool_punished_for_tardiness_3",
+      "value": "Đề nghị đổi giờ mở locker"
+    },
+    {
+      "key": "log_middleschool_punished_for_tardiness_3",
+      "value": "Tôi đã đề nghị thay đổi quy định của trường."
+    },
+    {
+      "key": "event_middleschool_group_ostracized_title",
+      "value": "Bị nhóm tẩy chay"
+    },
+    {
+      "key": "event_middleschool_group_ostracized_desc",
+      "value": "Các thành viên trong nhóm đang lờ bạn đi vì không đóng góp."
+    },
+    {
+      "key": "choice_middleschool_group_ostracized_1",
+      "value": "Xin lỗi và làm bù"
+    },
+    {
+      "key": "log_middleschool_group_ostracized_1",
+      "value": "Tôi đã xin lỗi và hứa sẽ làm phần việc của mình."
+    },
+    {
+      "key": "choice_middleschool_group_ostracized_2",
+      "value": "Tìm nhóm khác"
+    },
+    {
+      "key": "log_middleschool_group_ostracized_2",
+      "value": "Tôi quyết định tìm một nhóm khác để làm việc."
+    },
+    {
+      "key": "choice_middleschool_group_ostracized_3",
+      "value": "Cố gắng chứng minh năng lực"
+    },
+    {
+      "key": "log_middleschool_group_ostracized_3",
+      "value": "Tôi đã cố gắng cho họ thấy tôi có thể là một thành viên có giá trị."
+    },
+    {
+      "key": "event_middleschool_teacher_reprimand_pe_title",
+      "value": "Bị giáo viên nhắc nhở"
+    },
+    {
+      "key": "event_middleschool_teacher_reprimand_pe_desc",
+      "value": "Giáo viên đã nhắc nhở bạn vì trốn học thể dục."
+    },
+    {
+      "key": "choice_middleschool_teacher_reprimand_pe_1",
+      "value": "Quay lại tham gia"
+    },
+    {
+      "key": "log_middleschool_teacher_reprimand_pe_1",
+      "value": "Tôi đã tham gia lại hoạt động của lớp."
+    },
+    {
+      "key": "choice_middleschool_teacher_reprimand_pe_2",
+      "value": "Giải thích mình thực sự mệt"
+    },
+    {
+      "key": "log_middleschool_teacher_reprimand_pe_2",
+      "value": "Tôi khẳng định rằng tôi không khỏe."
+    },
+    {
+      "key": "choice_middleschool_teacher_reprimand_pe_3",
+      "value": "Chấp nhận bị trừ điểm"
+    },
+    {
+      "key": "log_middleschool_teacher_reprimand_pe_3",
+      "value": "Tôi chấp nhận rằng điểm của mình sẽ bị hạ."
+    },
+    {
+      "key": "event_middleschool_teacher_reprimand_presentation_title",
+      "value": "Bị cô giáo nhắc nhở"
+    },
+    {
+      "key": "event_middleschool_teacher_reprimand_presentation_desc",
+      "value": "Cô giáo đã nhắc nhở bạn vì đọc trực tiếp từ giấy."
+    },
+    {
+      "key": "choice_middleschool_teacher_reprimand_presentation_1",
+      "value": "Cố gắng nói lại bằng lời mình"
+    },
+    {
+      "key": "log_middleschool_teacher_reprimand_presentation_1",
+      "value": "Tôi đã cố gắng ứng biến phần còn lại của bài thuyết trình."
+    },
+    {
+      "key": "choice_middleschool_teacher_reprimand_presentation_2",
+      "value": "Xin lỗi và tiếp tục"
+    },
+    {
+      "key": "log_middleschool_teacher_reprimand_presentation_2",
+      "value": "Tôi đã xin lỗi và tiếp tục đọc."
+    },
+    {
+      "key": "choice_middleschool_teacher_reprimand_presentation_3",
+      "value": "Ngồi xuống chờ lượt khác"
+    },
+    {
+      "key": "log_middleschool_teacher_reprimand_presentation_3",
+      "value": "Tôi quá xấu hổ để tiếp tục."
+    },
+    {
+      "key": "event_middleschool_teased_by_friends_council_title",
+      "value": "Bị bạn bè trêu chọc"
+    },
+    {
+      "key": "event_middleschool_teased_by_friends_council_desc",
+      "value": "Bạn bè đang trêu chọc bạn vì những lời hứa hẹn quá mức của bạn."
+    },
+    {
+      "key": "choice_middleschool_teased_by_friends_council_1",
+      "value": "Đùa lại cho nhẹ không khí"
+    },
+    {
+      "key": "log_middleschool_teased_by_friends_council_1",
+      "value": "Tôi đã cười cùng họ."
+    },
+    {
+      "key": "choice_middleschool_teased_by_friends_council_2",
+      "value": "Giải thích ý tốt của mình"
+    },
+    {
+      "key": "log_middleschool_teased_by_friends_council_2",
+      "value": "Tôi đã cố gắng giải thích ý của mình."
+    },
+    {
+      "key": "choice_middleschool_teased_by_friends_council_3",
+      "value": "Im lặng bỏ qua"
+    },
+    {
+      "key": "log_middleschool_teased_by_friends_council_3",
+      "value": "Tôi không để lời trêu chọc của họ làm phiền."
+    },
+    {
+      "key": "event_middleschool_teased_by_friends_crush_title",
+      "value": "Bị bạn bè trêu"
+    },
+    {
+      "key": "event_middleschool_teased_by_friends_crush_desc",
+      "value": "Bạn bè đang trêu chọc bạn vì ngồi với crush."
+    },
+    {
+      "key": "choice_middleschool_teased_by_friends_crush_1",
+      "value": "Giả vờ không nghe thấy"
+    },
+    {
+      "key": "log_middleschool_teased_by_friends_crush_1",
+      "value": "Tôi đã hành động như không nghe thấy họ."
+    },
+    {
+      "key": "choice_middleschool_teased_by_friends_crush_2",
+      "value": "Cười và tiếp tục ngồi"
+    },
+    {
+      "key": "log_middleschool_teased_by_friends_crush_2",
+      "value": "Tôi sẽ không để họ phá hỏng khoảnh khắc này."
+    },
+    {
+      "key": "choice_middleschool_teased_by_friends_crush_3",
+      "value": "Chuyển bàn khác"
+    },
+    {
+      "key": "log_middleschool_teased_by_friends_crush_3",
+      "value": "Tôi đã bối rối và chuyển đi."
+    },
+    {
+      "key": "event_middleschool_dragged_to_dance_title",
+      "value": "Bị bạn bè kéo ra nhảy"
+    },
+    {
+      "key": "event_middleschool_dragged_to_dance_desc",
+      "value": "Bạn bè đã kéo bạn ra sàn nhảy."
+    },
+    {
+      "key": "choice_middleschool_dragged_to_dance_1",
+      "value": "Tham gia nhảy cho vui"
+    },
+    {
+      "key": "log_middleschool_dragged_to_dance_1",
+      "value": "Tôi quyết định thả lỏng và đã có một khoảng thời gian tuyệt vời."
+    },
+    {
+      "key": "choice_middleschool_dragged_to_dance_2",
+      "value": "Cười trừ rồi đứng ngoài"
+    },
+    {
+      "key": "log_middleschool_dragged_to_dance_2",
+      "value": "Tôi vẫn cảm thấy quá nhút nhát để nhảy."
+    },
+    {
+      "key": "choice_middleschool_dragged_to_dance_3",
+      "value": "Thử nhảy một chút rồi nghỉ"
+    },
+    {
+      "key": "log_middleschool_dragged_to_dance_3",
+      "value": "Tôi đã nhảy một bài rồi quay lại bên lề."
+    },
+    {
+      "key": "event_middleschool_minor_incident_title",
+      "value": "Bị sự cố nhỏ"
+    },
+    {
+      "key": "event_middleschool_minor_incident_desc",
+      "value": "Đã có một sự cố nhỏ trong quá trình thí nghiệm của bạn."
+    },
+    {
+      "key": "choice_middleschool_minor_incident_1",
+      "value": "Báo cô giáo"
+    },
+    {
+      "key": "log_middleschool_minor_incident_1",
+      "value": "Tôi đã báo cho giáo viên biết ngay lập tức."
+    },
+    {
+      "key": "choice_middleschool_minor_incident_2",
+      "value": "Sửa lại cho đúng"
+    },
+    {
+      "key": "log_middleschool_minor_incident_2",
+      "value": "Tôi đã cố gắng sửa lỗi của mình."
+    },
+    {
+      "key": "choice_middleschool_minor_incident_3",
+      "value": "Cười cho qua và tiếp tục"
+    },
+    {
+      "key": "log_middleschool_minor_incident_3",
+      "value": "Đó không phải là chuyện lớn, nên tôi cứ tiếp tục."
+    },
+    {
+      "key": "event_middleschool_invigilator_warning_quiz_title",
+      "value": "Bị giám thị nhắc nhở"
+    },
+    {
+      "key": "event_middleschool_invigilator_warning_quiz_desc",
+      "value": "Giám thị đã cảnh cáo bạn vì gian lận."
+    },
+    {
+      "key": "choice_middleschool_invigilator_warning_quiz_1",
+      "value": "Xin lỗi"
+    },
+    {
+      "key": "log_middleschool_invigilator_warning_quiz_1",
+      "value": "Tôi đã xin lỗi và ngừng gian lận."
+    },
+    {
+      "key": "choice_middleschool_invigilator_warning_quiz_2",
+      "value": "Cãi lại"
+    },
+    {
+      "key": "log_middleschool_invigilator_warning_quiz_2",
+      "value": "Tôi khẳng định rằng tôi không gian lận."
+    },
+    {
+      "key": "choice_middleschool_invigilator_warning_quiz_3",
+      "value": "Chấp nhận điểm kém"
+    },
+    {
+      "key": "log_middleschool_invigilator_warning_quiz_3",
+      "value": "Tôi đã chấp nhận hậu quả và nhận điểm không."
+    },
+    {
+      "key": "event_middleschool_class_debate_title",
+      "value": "Tranh luận trong lớp"
+    },
+    {
+      "key": "event_middleschool_class_debate_desc",
+      "value": "Có một cuộc tranh luận trong lớp."
+    },
+    {
+      "key": "choice_middleschool_class_debate_1",
+      "value": "Đưa ý kiến rõ ràng"
+    },
+    {
+      "key": "log_middleschool_class_debate_1",
+      "value": "Tôi đã tham gia tích cực vào cuộc tranh luận."
+    },
+    {
+      "key": "choice_middleschool_class_debate_2",
+      "value": "Im lặng lắng nghe"
+    },
+    {
+      "key": "log_middleschool_class_debate_2",
+      "value": "Tôi thích lắng nghe ý kiến của người khác hơn."
+    },
+    {
+      "key": "choice_middleschool_class_debate_3",
+      "value": "Tham gia một chút rồi thôi"
+    },
+    {
+      "key": "log_middleschool_class_debate_3",
+      "value": "Tôi đã chia sẻ một ý kiến rồi lắng nghe."
+    },
+    {
+      "key": "event_middleschool_after_school_sports_title",
+      "value": "Chơi thể thao ngoài giờ"
+    },
+    {
+      "key": "event_middleschool_after_school_sports_desc",
+      "value": "Bạn đang chơi thể thao sau giờ học."
+    },
+    {
+      "key": "choice_middleschool_after_school_sports_1",
+      "value": "Tham gia đội bóng"
+    },
+    {
+      "key": "log_middleschool_after_school_sports_1",
+      "value": "Tôi quyết định tham gia đội tuyển của trường."
+    },
+    {
+      "key": "choice_middleschool_after_school_sports_2",
+      "value": "Chơi vui cùng bạn"
+    },
+    {
+      "key": "log_middleschool_after_school_sports_2",
+      "value": "Chúng tôi đã có một trận đấu vui vẻ với bạn bè."
+    },
+    {
+      "key": "choice_middleschool_after_school_sports_3",
+      "value": "Ngồi xem cổ vũ"
+    },
+    {
+      "key": "log_middleschool_after_school_sports_3",
+      "value": "Tôi đã xem bạn bè mình chơi."
+    },
+    {
+      "key": "event_middleschool_bookstore_trip_title",
+      "value": "Lớp đi nhà sách"
+    },
+    {
+      "key": "event_middleschool_bookstore_trip_desc",
+      "value": "Lớp của bạn có chuyến đi đến nhà sách."
+    },
+    {
+      "key": "choice_middleschool_bookstore_trip_1",
+      "value": "Mua sách giáo khoa"
+    },
+    {
+      "key": "log_middleschool_bookstore_trip_1",
+      "value": "Tôi đã mua những cuốn sách cần thiết cho việc học."
+    },
+    {
+      "key": "choice_middleschool_bookstore_trip_2",
+      "value": "Mua truyện tranh"
+    },
+    {
+      "key": "log_middleschool_bookstore_trip_2",
+      "value": "Tôi đã tìm thấy vài cuốn truyện tranh mới thú vị."
+    },
+    {
+      "key": "choice_middleschool_bookstore_trip_3",
+      "value": "Đi loanh quanh ngắm"
+    },
+    {
+      "key": "log_middleschool_bookstore_trip_3",
+      "value": "Tôi chỉ thích thú ngắm nhìn tất cả các cuốn sách."
+    },
+    {
+      "key": "event_middleschool_doing_homework_title",
+      "value": "Làm bài tập về nhà"
+    },
+    {
+      "key": "event_middleschool_doing_homework_desc",
+      "value": "Đã đến lúc làm bài tập về nhà."
+    },
+    {
+      "key": "choice_middleschool_doing_homework_1",
+      "value": "Hoàn thành đủ"
+    },
+    {
+      "key": "log_middleschool_doing_homework_1",
+      "value": "Tôi đã hoàn thành tất cả bài tập của mình."
+    },
+    {
+      "key": "choice_middleschool_doing_homework_2",
+      "value": "Làm một nửa"
+    },
+    {
+      "key": "log_middleschool_doing_homework_2",
+      "value": "Tôi chỉ làm những phần dễ."
+    },
+    {
+      "key": "choice_middleschool_doing_homework_3",
+      "value": "Hỏi bạn rồi chép"
+    },
+    {
+      "key": "log_middleschool_doing_homework_3",
+      "value": "Tôi đã chép bài của bạn tôi."
+    },
+    {
+      "key": "event_middleschool_teacher_praise_title",
+      "value": "Thầy cô khen"
+    },
+    {
+      "key": "event_middleschool_teacher_praise_desc",
+      "value": "Giáo viên đã khen bạn."
+    },
+    {
+      "key": "choice_middleschool_teacher_praise_1",
+      "value": "Cười tự hào"
+    },
+    {
+      "key": "log_middleschool_teacher_praise_1",
+      "value": "Thật tuyệt khi được khen."
+    },
+    {
+      "key": "choice_middleschool_teacher_praise_2",
+      "value": "Ngại đỏ mặt"
+    },
+    {
+      "key": "log_middleschool_teacher_praise_2",
+      "value": "Tôi hơi xấu hổ vì sự chú ý."
+    },
+    {
+      "key": "choice_middleschool_teacher_praise_3",
+      "value": "Giả vờ thờ ơ"
+    },
+    {
+      "key": "log_middleschool_teacher_praise_3",
+      "value": "Tôi đã hành động như thể đó không phải là chuyện lớn."
+    },
+    {
+      "key": "event_middleschool_teacher_criticism_title",
+      "value": "Thầy cô phê bình"
+    },
+    {
+      "key": "event_middleschool_teacher_criticism_desc",
+      "value": "Giáo viên đã phê bình bạn."
+    },
+    {
+      "key": "choice_middleschool_teacher_criticism_1",
+      "value": "Im lặng nghe"
+    },
+    {
+      "key": "log_middleschool_teacher_criticism_1",
+      "value": "Tôi đã im lặng nhận lời phê bình."
+    },
+    {
+      "key": "choice_middleschool_teacher_criticism_2",
+      "value": "Giải thích lý do"
+    },
+    {
+      "key": "log_middleschool_teacher_criticism_2",
+      "value": "Tôi đã cố gắng giải thích quan điểm của mình."
+    },
+    {
+      "key": "choice_middleschool_teacher_criticism_3",
+      "value": "Buồn bã suy nghĩ"
+    },
+    {
+      "key": "log_middleschool_teacher_criticism_3",
+      "value": "Lời phê bình khiến tôi cảm thấy buồn."
+    },
+    {
+      "key": "event_middleschool_extracurricular_activity_title",
+      "value": "Tham gia ngoại khóa"
+    },
+    {
+      "key": "event_middleschool_extracurricular_activity_desc",
+      "value": "Bạn đang tham gia một hoạt động ngoại khóa."
+    },
+    {
+      "key": "choice_middleschool_extracurricular_activity_1",
+      "value": "Nhiệt tình hoạt động"
+    },
+    {
+      "key": "log_middleschool_extracurricular_activity_1",
+      "value": "Tôi đã rất tích cực tham gia hoạt động."
+    },
+    {
+      "key": "choice_middleschool_extracurricular_activity_2",
+      "value": "Tham gia một phần"
+    },
+    {
+      "key": "log_middleschool_extracurricular_activity_2",
+      "value": "Tôi chỉ tham gia những phần tôi thích."
+    },
+    {
+      "key": "choice_middleschool_extracurricular_activity_3",
+      "value": "Ngồi nhìn bạn làm"
+    },
+    {
+      "key": "log_middleschool_extracurricular_activity_3",
+      "value": "Tôi thích quan sát hơn."
+    },
+    {
+      "key": "event_middleschool_class_picnic_title",
+      "value": "Lớp đi dã ngoại"
+    },
+    {
+      "key": "event_middleschool_class_picnic_desc",
+      "value": "Lớp đang có một buổi dã ngoại."
+    },
+    {
+      "key": "choice_middleschool_class_picnic_1",
+      "value": "Tham gia trò chơi tập thể"
+    },
+    {
+      "key": "log_middleschool_class_picnic_1",
+      "value": "Các trò chơi tập thể rất vui."
+    },
+    {
+      "key": "choice_middleschool_class_picnic_2",
+      "value": "Ngồi ăn riêng"
+    },
+    {
+      "key": "log_middleschool_class_picnic_2",
+      "value": "Tôi muốn có chút thời gian yên tĩnh."
+    },
+    {
+      "key": "choice_middleschool_class_picnic_3",
+      "value": "Đi tham quan chụp ảnh"
+    },
+    {
+      "key": "log_middleschool_class_picnic_3",
+      "value": "Tôi đã khám phá khu vực và chụp một số bức ảnh."
+    },
+    {
+      "key": "event_middleschool_helping_a_friend_title",
+      "value": "Giúp bạn học"
+    },
+    {
+      "key": "event_middleschool_helping_a_friend_desc",
+      "value": "Một người bạn cần giúp đỡ trong học tập."
+    },
+    {
+      "key": "choice_middleschool_helping_a_friend_1",
+      "value": "Giải thích cho bạn"
+    },
+    {
+      "key": "log_middleschool_helping_a_friend_1",
+      "value": "Tôi rất vui khi giúp bạn tôi hiểu bài."
+    },
+    {
+      "key": "choice_middleschool_helping_a_friend_2",
+      "value": "Cho mượn vở"
+    },
+    {
+      "key": "log_middleschool_helping_a_friend_2",
+      "value": "Tôi đã cho họ mượn vở ghi chép của mình."
+    },
+    {
+      "key": "choice_middleschool_helping_a_friend_3",
+      "value": "Học chung cùng nhau"
+    },
+    {
+      "key": "log_middleschool_helping_a_friend_3",
+      "value": "Chúng tôi đã học cùng nhau và cả hai đều học được rất nhiều."
+    },
+    {
+      "key": "event_middleschool_final_exam_day_title",
+      "value": "Ngày thi cuối kỳ"
+    },
+    {
+      "key": "event_middleschool_final_exam_day_desc",
+      "value": "Hôm nay là ngày thi cuối kỳ."
+    },
+    {
+      "key": "choice_middleschool_final_exam_day_1",
+      "value": "Ôn kỹ"
+    },
+    {
+      "key": "log_middleschool_final_exam_day_1",
+      "value": "Tôi cảm thấy đã chuẩn bị tốt cho kỳ thi."
+    },
+    {
+      "key": "choice_middleschool_final_exam_day_2",
+      "value": "Ôn sơ sài"
+    },
+    {
+      "key": "log_middleschool_final_exam_day_2",
+      "value": "Tôi đã xem lại bài nhanh trước kỳ thi."
+    },
+    {
+      "key": "choice_middleschool_final_exam_day_3",
+      "value": "Vừa làm vừa đoán"
+    },
+    {
+      "key": "log_middleschool_final_exam_day_3",
+      "value": "Tôi đã phải đoán nhiều câu hỏi."
+    },
+    {
+      "key": "event_middleschool_class_meeting_title",
+      "value": "Buổi sinh hoạt lớp"
+    },
+    {
+      "key": "event_middleschool_class_meeting_desc",
+      "value": "Có một buổi sinh hoạt lớp."
+    },
+    {
+      "key": "choice_middleschool_class_meeting_1",
+      "value": "Tham gia phát biểu"
+    },
+    {
+      "key": "log_middleschool_class_meeting_1",
+      "value": "Tôi đã chia sẻ suy nghĩ của mình với cả lớp."
+    },
+    {
+      "key": "choice_middleschool_class_meeting_2",
+      "value": "Ngồi nghe"
+    },
+    {
+      "key": "log_middleschool_class_meeting_2",
+      "value": "Tôi đã lắng nghe những gì người khác nói."
+    },
+    {
+      "key": "choice_middleschool_class_meeting_3",
+      "value": "Đùa với bạn"
+    },
+    {
+      "key": "log_middleschool_class_meeting_3",
+      "value": "Tôi đã bị phân tâm và không chú ý."
+    },
+    {
+      "key": "event_middleschool_meeting_teacher_outside_title",
+      "value": "Gặp thầy cô ngoài trường"
+    },
+    {
+      "key": "event_middleschool_meeting_teacher_outside_desc",
+      "value": "Bạn gặp một giáo viên ở ngoài trường."
+    },
+    {
+      "key": "choice_middleschool_meeting_teacher_outside_1",
+      "value": "Chào hỏi lễ phép"
+    },
+    {
+      "key": "log_middleschool_meeting_teacher_outside_1",
+      "value": "Tôi đã chào hỏi giáo viên một cách kính trọng."
+    },
+    {
+      "key": "choice_middleschool_meeting_teacher_outside_2",
+      "value": "Cười gượng"
+    },
+    {
+      "key": "log_middleschool_meeting_teacher_outside_2",
+      "value": "Hơi khó xử một chút."
+    },
+    {
+      "key": "choice_middleschool_meeting_teacher_outside_3",
+      "value": "Giả vờ không thấy"
+    },
+    {
+      "key": "log_middleschool_meeting_teacher_outside_3",
+      "value": "Tôi đã cố gắng tránh họ."
+    },
+    {
+      "key": "event_middleschool_new_student_title",
+      "value": "Bạn mới chuyển đến"
+    },
+    {
+      "key": "event_middleschool_new_student_desc",
+      "value": "Một học sinh mới đã chuyển đến lớp bạn."
+    },
+    {
+      "key": "choice_middleschool_new_student_1",
+      "value": "Chủ động làm quen"
+    },
+    {
+      "key": "log_middleschool_new_student_1",
+      "value": "Tôi đã tự giới thiệu và làm cho họ cảm thấy được chào đón."
+    },
+    {
+      "key": "choice_middleschool_new_student_2",
+      "value": "Ngồi cùng bàn"
+    },
+    {
+      "key": "log_middleschool_new_student_2",
+      "value": "Chúng tôi đã ngồi cùng nhau và có một cuộc trò chuyện vui vẻ."
+    },
+    {
+      "key": "choice_middleschool_new_student_3",
+      "value": "Đợi bạn tự bắt chuyện"
+    },
+    {
+      "key": "log_middleschool_new_student_3",
+      "value": "Tôi đã đợi họ nói chuyện với tôi trước."
+    },
+    {
+      "key": "event_middleschool_online_gaming_title",
+      "value": "Chơi game trực tuyến"
+    },
+    {
+      "key": "event_middleschool_online_gaming_desc",
+      "value": "Bạn đang chơi game trực tuyến."
+    },
+    {
+      "key": "choice_middleschool_online_gaming_1",
+      "value": "Chơi vui với bạn"
+    },
+    {
+      "key": "log_middleschool_online_gaming_1",
+      "value": "Chúng tôi đã có một khoảng thời gian tuyệt vời khi chơi cùng nhau trực tuyến."
+    },
+    {
+      "key": "choice_middleschool_online_gaming_2",
+      "value": "Chơi quá giờ"
+    },
+    {
+      "key": "log_middleschool_online_gaming_2",
+      "value": "Tôi đã chơi quá lâu và cảm thấy mệt mỏi vào ngày hôm sau."
+    },
+    {
+      "key": "choice_middleschool_online_gaming_3",
+      "value": "Không tham gia"
+    },
+    {
+      "key": "log_middleschool_online_gaming_3",
+      "value": "Tôi không hứng thú với game trực tuyến."
+    },
+    {
+      "key": "event_middleschool_sports_festival_title",
+      "value": "Ngày hội thể thao"
+    },
+    {
+      "key": "event_middleschool_sports_festival_desc",
+      "value": "Đó là ngày hội thể thao của trường."
+    },
+    {
+      "key": "choice_middleschool_sports_festival_1",
+      "value": "Thi chạy"
+    },
+    {
+      "key": "log_middleschool_sports_festival_1",
+      "value": "Tôi đã tham gia cuộc thi chạy."
+    },
+    {
+      "key": "choice_middleschool_sports_festival_2",
+      "value": "Thi nhảy xa"
+    },
+    {
+      "key": "log_middleschool_sports_festival_2",
+      "value": "Tôi đã tham gia môn nhảy xa."
+    },
+    {
+      "key": "choice_middleschool_sports_festival_3",
+      "value": "Làm cổ động viên"
+    },
+    {
+      "key": "log_middleschool_sports_festival_3",
+      "value": "Tôi đã cổ vũ cho các bạn cùng lớp."
+    },
+    {
+      "key": "event_middleschool_chemistry_experiment_title",
+      "value": "Thí nghiệm hóa học"
+    },
+    {
+      "key": "event_middleschool_chemistry_experiment_desc",
+      "value": "Bạn đang làm một thí nghiệm hóa học."
+    },
+    {
+      "key": "choice_middleschool_chemistry_experiment_1",
+      "value": "Làm theo hướng dẫn"
+    },
+    {
+      "key": "log_middleschool_chemistry_experiment_1",
+      "value": "Tôi đã cẩn thận làm theo các bước."
+    },
+    {
+      "key": "choice_middleschool_chemistry_experiment_2",
+      "value": "Sáng tạo thêm chi tiết"
+    },
+    {
+      "key": "log_middleschool_chemistry_experiment_2",
+      "value": "Tôi đã thêm một vài bước bổ sung để xem điều gì sẽ xảy ra."
+    },
+    {
+      "key": "choice_middleschool_chemistry_experiment_3",
+      "value": "Quan sát bạn làm"
+    },
+    {
+      "key": "log_middleschool_chemistry_experiment_3",
+      "value": "Tôi đã quan sát cách bạn bè tôi làm thí nghiệm."
+    },
+    {
+      "key": "event_middleschool_foreign_visitor_title",
+      "value": "Lớp có khách nước ngoài"
+    },
+    {
+      "key": "event_middleschool_foreign_visitor_desc",
+      "value": "Có một vị khách nước ngoài trong lớp của bạn."
+    },
+    {
+      "key": "choice_middleschool_foreign_visitor_1",
+      "value": "Chủ động bắt chuyện"
+    },
+    {
+      "key": "log_middleschool_foreign_visitor_1",
+      "value": "Tôi đã có một cuộc trò chuyện tuyệt vời với vị khách."
+    },
+    {
+      "key": "choice_middleschool_foreign_visitor_2",
+      "value": "Mỉm cười chào"
+    },
+    {
+      "key": "log_middleschool_foreign_visitor_2",
+      "value": "Tôi đã chào đón họ một cách thân thiện."
+    },
+    {
+      "key": "choice_middleschool_foreign_visitor_3",
+      "value": "Im lặng"
+    },
+    {
+      "key": "log_middleschool_foreign_visitor_3",
+      "value": "Tôi quá nhút nhát để nói chuyện với họ."
+    },
+    {
+      "key": "event_middleschool_art_class_title",
+      "value": "Giờ nghệ thuật"
+    },
+    {
+      "key": "event_middleschool_art_class_desc",
+      "value": "Đến giờ học nghệ thuật."
+    },
+    {
+      "key": "choice_middleschool_art_class_1",
+      "value": "Vẽ theo bài"
+    },
+    {
+      "key": "log_middleschool_art_class_1",
+      "value": "Tôi đã làm theo bài tập để vẽ."
+    },
+    {
+      "key": "choice_middleschool_art_class_2",
+      "value": "Vẽ sáng tạo"
+    },
+    {
+      "key": "log_middleschool_art_class_2",
+      "value": "Tôi đã vẽ một cái gì đó từ trí tưởng tượng của mình."
+    },
+    {
+      "key": "choice_middleschool_art_class_3",
+      "value": "Ngồi nhìn"
+    },
+    {
+      "key": "log_middleschool_art_class_3",
+      "value": "Hôm nay tôi không có tâm trạng để vẽ."
+    },
+    {
+      "key": "event_middleschool_exam_results_title",
+      "value": "Nhận kết quả thi"
+    },
+    {
+      "key": "event_middleschool_exam_results_desc",
+      "value": "Bạn đã nhận được kết quả thi của mình."
+    },
+    {
+      "key": "choice_middleschool_exam_results_1",
+      "value": "Vui mừng khoe bạn"
+    },
+    {
+      "key": "log_middleschool_exam_results_1",
+      "value": "Tôi rất vui với kết quả của mình và đã chia sẻ với bạn bè."
+    },
+    {
+      "key": "choice_middleschool_exam_results_2",
+      "value": "Giữ im lặng"
+    },
+    {
+      "key": "log_middleschool_exam_results_2",
+      "value": "Tôi đã giữ kết quả cho riêng mình."
+    },
+    {
+      "key": "choice_middleschool_exam_results_3",
+      "value": "Buồn bã"
+    },
+    {
+      "key": "log_middleschool_exam_results_3",
+      "value": "Tôi thất vọng với kết quả của mình."
+    },
+    {
+      "key": "event_middleschool_sharing_lunch_title",
+      "value": "Chia sẻ đồ ăn trưa"
+    },
+    {
+      "key": "event_middleschool_sharing_lunch_desc",
+      "value": "Bạn đang chia sẻ bữa trưa với bạn bè."
+    },
+    {
+      "key": "choice_middleschool_sharing_lunch_1",
+      "value": "Cho bạn một phần"
+    },
+    {
+      "key": "log_middleschool_sharing_lunch_1",
+      "value": "Tôi đã chia sẻ một phần thức ăn của mình với bạn."
+    },
+    {
+      "key": "choice_middleschool_sharing_lunch_2",
+      "value": "Đổi món ăn"
+    },
+    {
+      "key": "log_middleschool_sharing_lunch_2",
+      "value": "Chúng tôi đã trao đổi một số món ăn của mình."
+    },
+    {
+      "key": "choice_middleschool_sharing_lunch_3",
+      "value": "Giữ phần mình"
+    },
+    {
+      "key": "log_middleschool_sharing_lunch_3",
+      "value": "Hôm nay tôi thực sự rất đói."
+    },
+    {
+      "key": "club_science_name",
+      "value": "Câu lạc bộ Khoa học"
+    },
+    {
+      "key": "club_science_description",
+      "value": "Khám phá thế giới khoa học và thực hiện các thí nghiệm thú vị. Dành cho các nhà khoa học tương lai."
+    },
+    {
+      "key": "club_art_name",
+      "value": "Câu lạc bộ Nghệ thuật"
+    },
+    {
+      "key": "club_art_description",
+      "value": "Phát triển khả năng sáng tạo và thể hiện bản thân thông qua các loại hình nghệ thuật khác nhau. Dành cho các nghệ sĩ tương lai."
+    },
+    {
+      "key": "club_sports_name",
+      "value": "Câu lạc bộ Thể thao"
+    },
+    {
+      "key": "club_sports_description",
+      "value": "Rèn luyện thể chất và tinh thần đồng đội thông qua các hoạt động thể thao. Dành cho các vận động viên tương lai."
+    },
+    {
+      "key": "club_debate_name",
+      "value": "Câu lạc bộ Tranh biện"
+    },
+    {
+      "key": "club_debate_description",
+      "value": "Nâng cao kỹ năng tư duy phản biện và hùng biện. Dành cho các nhà lãnh đạo và luật sư tương lai."
+    },
+    {
+      "key": "club_robotics_name",
+      "value": "Câu lạc bộ Robotics"
+    },
+    {
+      "key": "club_robotics_description",
+      "value": "Thiết kế, xây dựng và lập trình robot. Dành cho các kỹ sư và nhà phát minh tương lai."
+    },
+    {
+      "key": "club_music_name",
+      "value": "Câu lạc bộ Âm nhạc"
+    },
+    {
+      "key": "club_music_description",
+      "value": "Khám phá thế giới âm nhạc, học chơi nhạc cụ và biểu diễn. Dành cho các nhạc sĩ tương lai."
+    },
+    {
+      "key": "club_cooking_name",
+      "value": "Câu lạc bộ Nấu ăn"
+    },
+    {
+      "key": "club_cooking_description",
+      "value": "Học các kỹ năng nấu nướng và khám phá ẩm thực. Dành cho các đầu bếp tương lai."
+    },
+    {
+      "key": "club_coding_name",
+      "value": "Câu lạc bộ Lập trình"
+    },
+    {
+      "key": "club_coding_description",
+      "value": "Học cách viết mã và phát triển phần mềm. Dành cho các lập trình viên tương lai."
+    },
+    {
+      "key": "club_photography_name",
+      "value": "Câu lạc bộ Nhiếp ảnh"
+    },
+    {
+      "key": "club_photography_description",
+      "value": "Nắm bắt khoảnh khắc và kể chuyện qua ống kính. Dành cho các nhiếp ảnh gia tương lai."
+    },
+    {
+      "key": "club_writing_name",
+      "value": "Câu lạc bộ Viết lách"
+    },
+    {
+      "key": "club_writing_description",
+      "value": "Phát triển kỹ năng viết và thể hiện ý tưởng qua văn bản. Dành cho các nhà văn và nhà báo tương lai."
+    },
+    {
+      "key": "club_entrepreneurship_name",
+      "value": "Câu lạc bộ Doanh nhân"
+    },
+    {
+      "key": "club_entrepreneurship_description",
+      "value": "Học những điều cơ bản về kinh doanh, tài chính và lãnh đạo. Dành cho các CEO tương lai."
+    },
+    {
+      "key": "club_model_un_name",
+      "value": "Câu lạc bộ Giả lập Liên Hợp Quốc (Model UN)"
+    },
+    {
+      "key": "club_model_un_description",
+      "value": "Tranh luận về các vấn đề toàn cầu và tìm hiểu về quan hệ quốc tế. Dành cho các nhà ngoại giao tương lai."
+    },
+    {
+      "key": "club_environmental_name",
+      "value": "Câu lạc bộ Môi trường"
+    },
+    {
+      "key": "club_environmental_description",
+      "value": "Hành động vì các vấn đề môi trường và thúc đẩy sự bền vững. Dành cho các nhà khoa học và nhà hoạt động tương lai."
+    },
+    {
+      "key": "club_volunteering_name",
+      "value": "Câu lạc bộ Tình nguyện"
+    },
+    {
+      "key": "club_volunteering_description",
+      "value": "Đóng góp cho cộng đồng và giúp đỡ những người gặp khó khăn. Dành cho những người làm công tác xã hội và nhân đạo tương lai."
+    },
+    {
+      "key": "club_chess_name",
+      "value": "Câu lạc bộ Cờ vua"
+    },
+    {
+      "key": "club_chess_description",
+      "value": "Rèn luyện trí tuệ và làm chủ nghệ thuật chiến lược. Dành cho các kiện tướng tương lai trong mọi lĩnh vực."
+    },
+    {
+      "key": "club_film_media_name",
+      "value": "Câu lạc bộ Phim & Truyền thông"
+    },
+    {
+      "key": "club_film_media_description",
+      "value": "Khám phá thế giới làm phim, từ viết kịch bản đến sản xuất. Dành cho những người kể chuyện tương lai."
+    },
+    {
+      "key": "club_medical_name",
+      "value": "Câu lạc bộ Y khoa Tương lai"
+    },
+    {
+      "key": "club_medical_description",
+      "value": "Có một khởi đầu thuận lợi cho sự nghiệp trong ngành y. Dành cho các bác sĩ và y tá tương lai."
+    },
+    {
+      "key": "club_astronomy_name",
+      "value": "Câu lạc bộ Thiên văn học"
+    },
+    {
+      "key": "club_astronomy_description",
+      "value": "Khám phá vũ trụ, từ các hành tinh đến các thiên hà xa xôi. Dành cho các nhà thiên văn học và kỹ sư tương lai."
+    },
+    {
+      "key": "club_literary_magazine_name",
+      "value": "Câu lạc bộ Tạp chí Văn học"
+    },
+    {
+      "key": "club_literary_magazine_description",
+      "value": "Tạo và xuất bản tạp chí văn học của trường. Dành cho các nhà văn và biên tập viên tương lai."
+    },
+    {
+      "key": "club_architecture_engineering_name",
+      "value": "Câu lạc bộ Kiến trúc & Kỹ thuật"
+    },
+    {
+      "key": "club_architecture_engineering_description",
+      "value": "Thiết kế và xây dựng các công trình tuyệt vời. Dành cho các kiến trúc sư và kỹ sư tương lai."
+    },
+    {
+      "key": "event_business_pitch_title",
+      "value": "Cuộc thi Trình bày Ý tưởng Kinh doanh"
+    },
+    {
+      "key": "event_business_pitch_description",
+      "value": "Câu lạc bộ Doanh nhân đang tổ chức một cuộc thi trình bày ý tưởng kinh doanh. Đây là cơ hội để bạn tỏa sáng!"
+    },
+    {
+      "key": "event_business_pitch_choice1",
+      "value": "Trình bày ý tưởng sáng tạo của bạn."
+    },
+    {
+      "key": "event_business_pitch_choice1_log",
+      "value": "Bài trình bày của tôi đã thành công rực rỡ! Tôi nghĩ mình có tương lai trong lĩnh vực kinh doanh."
+    },
+    {
+      "key": "event_business_pitch_choice2",
+      "value": "Giúp một người bạn với bài thuyết trình của họ."
+    },
+    {
+      "key": "event_business_pitch_choice2_log",
+      "value": "Tôi đã giúp bạn tôi và họ đã làm rất tốt. Làm việc nhóm tạo nên thành công!"
+    },
+    {
+      "key": "event_model_un_title",
+      "value": "Hội nghị Model UN"
+    },
+    {
+      "key": "event_model_un_description",
+      "value": "Câu lạc bộ Model UN đang tham dự một hội nghị khu vực. Đã đến lúc đại diện cho trường chúng ta."
+    },
+    {
+      "key": "event_model_un_choice1",
+      "value": "Dẫn đầu trong cuộc tranh luận."
+    },
+    {
+      "key": "event_model_un_choice1_log",
+      "value": "Tôi đã tranh luận sôi nổi về nghị quyết của chúng tôi và đã giành được một giải thưởng!"
+    },
+    {
+      "key": "event_model_un_choice2",
+      "value": "Tập trung vào việc kết nối với các đại biểu khác."
+    },
+    {
+      "key": "event_model_un_choice2_log",
+      "value": "Tôi đã tạo được một số mối quan hệ tuyệt vời với các sinh viên từ các trường khác."
+    },
+    {
+      "key": "event_community_cleanup_title",
+      "value": "Sáng kiến Dọn dẹp Cộng đồng"
+    },
+    {
+      "key": "event_community_cleanup_description",
+      "value": "Câu lạc bộ Môi trường đang tổ chức một ngày dọn dẹp cộng đồng."
+    },
+    {
+      "key": "event_community_cleanup_choice1",
+      "value": "Tuyển tình nguyện viên và dẫn dắt một đội."
+    },
+    {
+      "key": "event_community_cleanup_choice1_log",
+      "value": "Chúng tôi đã thu gom được rất nhiều rác! Thật tuyệt khi tạo ra sự khác biệt."
+    },
+    {
+      "key": "event_community_cleanup_choice2",
+      "value": "Lặng lẽ làm việc một mình."
+    },
+    {
+      "key": "event_community_cleanup_choice2_log",
+      "value": "Tôi tập trung vào việc dọn dẹp khu vực được giao và đã hoàn thành công việc một cách kỹ lưỡng."
+    },
+    {
+      "key": "event_charity_fundraiser_title",
+      "value": "Gala Gây quỹ Từ thiện"
+    },
+    {
+      "key": "event_charity_fundraiser_description",
+      "value": "Câu lạc bộ Tình nguyện đang tổ chức một buổi gây quỹ cho một tổ chức từ thiện địa phương."
+    },
+    {
+      "key": "event_charity_fundraiser_choice1",
+      "value": "Tổ chức hậu cần cho sự kiện."
+    },
+    {
+      "key": "event_charity_fundraiser_choice1_log",
+      "value": "Sự kiện đã diễn ra suôn sẻ! Chúng tôi đã quyên góp được rất nhiều tiền cho một mục đích tốt đẹp."
+    },
+    {
+      "key": "event_charity_fundraiser_choice2",
+      "value": "Quyên góp một phần lớn tiền tiêu vặt của bạn."
+    },
+    {
+      "key": "event_charity_fundraiser_choice2_log",
+      "value": "Đó là một sự hy sinh lớn, nhưng nó xứng đáng để giúp đỡ người khác."
+    },
+    {
+      "key": "event_chess_tournament_title",
+      "value": "Giải Cờ vua Quốc gia"
+    },
+    {
+      "key": "event_chess_tournament_description",
+      "value": "Câu lạc bộ Cờ vua đang thi đấu trong giải đấu quốc gia."
+    },
+    {
+      "key": "event_chess_tournament_choice1",
+      "value": "Thực hiện một chiến lược xuất sắc."
+    },
+    {
+      "key": "event_chess_tournament_choice1_log",
+      "value": "Chiếu tướng! Tôi đã thắng giải đấu bằng một nước thí hậu táo bạo."
+    },
+    {
+      "key": "event_chess_tournament_choice2",
+      "value": "Chơi an toàn và nhắm đến một trận hòa."
+    },
+    {
+      "key": "event_chess_tournament_choice2_log",
+      "value": "Tôi đã chơi một cách thận trọng và đã có được một trận hòa đáng nể trước một đối thủ khó chơi."
+    },
+    {
+      "key": "event_film_festival_title",
+      "value": "Liên hoan phim ngắn"
+    },
+    {
+      "key": "event_film_festival_description",
+      "value": "Câu lạc bộ Phim & Truyền thông đang tổ chức liên hoan phim ngắn đầu tiên."
+    },
+    {
+      "key": "event_film_festival_choice1",
+      "value": "Gửi bộ phim của riêng bạn."
+    },
+    {
+      "key": "event_film_festival_choice1_log",
+      "value": "Bộ phim của tôi đã giành được giải khán giả bình chọn! Tôi rất tự hào về tác phẩm của mình."
+    },
+    {
+      "key": "event_film_festival_choice2",
+      "value": "Giúp tổ chức sự kiện."
+    },
+    {
+      "key": "event_film_festival_choice2_log",
+      "value": "Tôi đã giúp chạy máy chiếu và mọi thứ diễn ra suôn sẻ. Thật vui khi được ở phía sau hậu trường."
+    },
+    {
+      "key": "event_first_aid_title",
+      "value": "Chương trình Chứng nhận Sơ cứu/CPR"
+    },
+    {
+      "key": "event_first_aid_description",
+      "value": "Câu lạc bộ Y khoa Tương lai đang cung cấp một khóa học chứng nhận sơ cứu."
+    },
+    {
+      "key": "event_first_aid_choice1",
+      "value": "Nắm vững các kỹ thuật và dạy cho người khác."
+    },
+    {
+      "key": "event_first_aid_choice1_log",
+      "value": "Bây giờ tôi đã được chứng nhận về CPR và sơ cứu! Tôi thậm chí còn giúp dạy một số bạn cùng lớp."
+    },
+    {
+      "key": "event_first_aid_choice2",
+      "value": "Chỉ cần lấy chứng nhận."
+    },
+    {
+      "key": "event_first_aid_choice2_log",
+      "value": "Tôi đã vượt qua khóa học và nhận được chứng chỉ của mình. Đó là một kỹ năng quý giá."
+    },
+    {
+      "key": "event_stargazing_title",
+      "value": "Đêm ngắm sao & Chế tạo Kính thiên văn"
+    },
+    {
+      "key": "event_stargazing_description",
+      "value": "Câu lạc bộ Thiên văn học đang tổ chức một đêm ngắm sao."
+    },
+    {
+      "key": "event_stargazing_choice1",
+      "value": "Chế tạo một chiếc kính thiên văn mạnh mẽ."
+    },
+    {
+      "key": "event_stargazing_choice1_log",
+      "value": "Tôi đã tự chế tạo kính thiên văn của mình và nhìn thấy vành đai của sao Thổ! Thật không thể tin được."
+    },
+    {
+      "key": "event_stargazing_choice2",
+      "value": "Chỉ cần tận hưởng khung cảnh."
+    },
+    {
+      "key": "event_stargazing_choice2_log",
+      "value": "Tôi ngả lưng và ngắm các vì sao. Đó là một đêm đẹp và yên bình."
+    },
+    {
+      "key": "event_literary_journal_title",
+      "value": "Ra mắt Tạp chí Văn học của Trường"
+    },
+    {
+      "key": "event_literary_journal_description",
+      "value": "Câu lạc bộ Tạp chí Văn học đang ra mắt số đầu tiên của tạp chí trường."
+    },
+    {
+      "key": "event_literary_journal_choice1",
+      "value": "Đọc to bài thơ của bạn tại bữa tiệc ra mắt."
+    },
+    {
+      "key": "event_literary_journal_choice1_log",
+      "value": "Tôi đã lo lắng, nhưng mọi người đều yêu thích bài thơ của tôi! Đó là một trải nghiệm tuyệt vời."
+    },
+    {
+      "key": "event_literary_journal_choice2",
+      "value": "Làm biên tập viên cho tạp chí."
+    },
+    {
+      "key": "event_literary_journal_choice2_log",
+      "value": "Tôi đã làm việc chăm chỉ để biên tập tất cả các bài gửi. Tạp chí cuối cùng trông thật tuyệt vời."
+    },
+    {
+      "key": "event_bridge_building_title",
+      "value": "Cuộc thi Xây cầu"
+    },
+    {
+      "key": "event_bridge_building_description",
+      "value": "Câu lạc bộ Kiến trúc & Kỹ thuật đang tổ chức một cuộc thi xây cầu."
+    },
+    {
+      "key": "event_bridge_building_choice1",
+      "value": "Thiết kế một cây cầu sáng tạo và chắc chắn."
+    },
+    {
+      "key": "event_bridge_building_choice1_log",
+      "value": "Cây cầu của tôi đã chịu được trọng lượng lớn nhất! Thiết kế của tôi đã thành công."
+    },
+    {
+      "key": "event_bridge_building_choice2",
+      "value": "Tập trung vào tính thẩm mỹ của cây cầu."
+    },
+    {
+      "key": "event_bridge_building_choice2_log",
+      "value": "Cây cầu của tôi có thể không phải là mạnh nhất, nhưng nó chắc chắn là cây cầu đẹp nhất."
+    }
+  ]
+}

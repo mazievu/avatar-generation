@@ -1,0 +1,1284 @@
+{
+  "items": [
+    {
+      "key": "event_elementary_first_day_title",
+      "value": "First Day of School"
+    },
+    {
+      "key": "event_elementary_first_day_desc",
+      "value": "The schoolyard is crowded, everyone is watching. What will you do during the opening ceremony?"
+    },
+    {
+      "key": "choice_elementary_first_day_1",
+      "value": "Sit nicely with the class."
+    },
+    {
+      "key": "log_elementary_first_day_1",
+      "value": "You stayed quiet and got praised, though it felt boring. Next time teachers may trust you more with seating."
+    },
+    {
+      "key": "choice_elementary_first_day_2",
+      "value": "Whisper with your friend."
+    },
+    {
+      "key": "log_elementary_first_day_2",
+      "value": "You were happy to talk again, but got reminded in front of the class. Next time teachers might separate you two."
+    },
+    {
+      "key": "choice_elementary_first_day_3",
+      "value": "Play a small game while waiting."
+    },
+    {
+      "key": "log_elementary_first_day_3",
+      "value": "You had fun but almost got caught. Next time classmates may see you as the one who stirs things up."
+    },
+    {
+      "key": "event_elementary_forgot_notebook_title",
+      "value": "Forgot Notebook"
+    },
+    {
+      "key": "event_elementary_forgot_notebook_desc",
+      "value": "You forgot your notebook in class, teachers and friends are noticing."
+    },
+    {
+      "key": "choice_elementary_forgot_notebook_1",
+      "value": "Borrow some paper from a friend."
+    },
+    {
+      "key": "log_elementary_forgot_notebook_1",
+      "value": "A friend helped you, but might hesitate if you forget again."
+    },
+    {
+      "key": "choice_elementary_forgot_notebook_2",
+      "value": "Ask the teacher for a sheet."
+    },
+    {
+      "key": "log_elementary_forgot_notebook_2",
+      "value": "The teacher gave you paper but noted it down. Next time you might be called out."
+    },
+    {
+      "key": "choice_elementary_forgot_notebook_3",
+      "value": "Doodle on scratch paper."
+    },
+    {
+      "key": "log_elementary_forgot_notebook_3",
+      "value": "You missed the lesson and got noticed. Next time your parent may be contacted."
+    },
+    {
+      "key": "event_elementary_math_test_title",
+      "value": "Math Test"
+    },
+    {
+      "key": "event_elementary_math_test_desc",
+      "value": "The class is silent, the test begins."
+    },
+    {
+      "key": "choice_elementary_math_test_1",
+      "value": "Do the test seriously."
+    },
+    {
+      "key": "log_elementary_math_test_1",
+      "value": "You tried your best, though it was stressful. Next time teachers will trust your effort."
+    },
+    {
+      "key": "choice_elementary_math_test_2",
+      "value": "Peek at a friend's answers."
+    },
+    {
+      "key": "log_elementary_math_test_2",
+      "value": "You copied some answers but raised suspicion. Next time you may lose friends’ trust."
+    },
+    {
+      "key": "choice_elementary_math_test_3",
+      "value": "Ask to leave mid-test."
+    },
+    {
+      "key": "log_elementary_math_test_3",
+      "value": "You used health as an excuse, escaped for a bit. But teachers noted it and may call your parents next time."
+    },
+    {
+      "key": "event_elementary_fire_alarm_title",
+      "value": "Fire Alarm"
+    },
+    {
+      "key": "event_elementary_fire_alarm_desc",
+      "value": "The alarm rings, the class is panicked."
+    },
+    {
+      "key": "choice_elementary_fire_alarm_1",
+      "value": "Line up with your class."
+    },
+    {
+      "key": "log_elementary_fire_alarm_1",
+      "value": "You stayed calm, teachers felt reassured. Next time you may lead the line."
+    },
+    {
+      "key": "choice_elementary_fire_alarm_2",
+      "value": "Run around wildly."
+    },
+    {
+      "key": "log_elementary_fire_alarm_2",
+      "value": "You made things chaotic and got warned. Next time you may be moved away from friends."
+    },
+    {
+      "key": "choice_elementary_fire_alarm_3",
+      "value": "Hold a friend's hand and run outside."
+    },
+    {
+      "key": "log_elementary_fire_alarm_3",
+      "value": "You stayed safe together but didn’t follow line rules. Next time teachers may watch you closely."
+    },
+    {
+      "key": "event_elementary_oral_exam_title",
+      "value": "Oral Exam"
+    },
+    {
+      "key": "event_elementary_oral_exam_desc",
+      "value": "The teacher is calling on students to answer."
+    },
+    {
+      "key": "choice_elementary_oral_exam_1",
+      "value": "Answer correctly."
+    },
+    {
+      "key": "log_elementary_oral_exam_1",
+      "value": "You were confident and got praised, but now classmates notice you more. Next time you may be called often."
+    },
+    {
+      "key": "choice_elementary_oral_exam_2",
+      "value": "Stutter and forget."
+    },
+    {
+      "key": "log_elementary_oral_exam_2",
+      "value": "You froze and couldn’t recall. Next time the teacher may write it down."
+    },
+    {
+      "key": "choice_elementary_oral_exam_3",
+      "value": "Pretend to cough."
+    },
+    {
+      "key": "log_elementary_oral_exam_3",
+      "value": "You avoided this time, but the teacher remembers. Next time you might be called suddenly."
+    },
+    {
+      "key": "event_elementary_pe_class_title",
+      "value": "P.E. Class"
+    },
+    {
+      "key": "event_elementary_pe_class_desc",
+      "value": "The whistle blows, time to move."
+    },
+    {
+      "key": "choice_elementary_pe_class_1",
+      "value": "Join the running."
+    },
+    {
+      "key": "log_elementary_pe_class_1",
+      "value": "You trained well, teacher noticed. Next time you may lead the group."
+    },
+    {
+      "key": "choice_elementary_pe_class_2",
+      "value": "Pretend stomachache."
+    },
+    {
+      "key": "log_elementary_pe_class_2",
+      "value": "You skipped running, but teachers suspected. Next time you may be watched closely."
+    },
+    {
+      "key": "choice_elementary_pe_class_3",
+      "value": "Play basketball instead."
+    },
+    {
+      "key": "log_elementary_pe_class_3",
+      "value": "You had fun but missed the main exercise. Next time teachers may limit the game."
+    },
+    {
+      "key": "event_elementary_recess_title",
+      "value": "Recess"
+    },
+    {
+      "key": "event_elementary_recess_desc",
+      "value": "The bell rings, everyone is excited."
+    },
+    {
+      "key": "choice_elementary_recess_1",
+      "value": "Play with friends."
+    },
+    {
+      "key": "log_elementary_recess_1",
+      "value": "You had fun and bonded. Next time friends will invite you more."
+    },
+    {
+      "key": "choice_elementary_recess_2",
+      "value": "Argue with a friend."
+    },
+    {
+      "key": "log_elementary_recess_2",
+      "value": "It got tense, teacher noted it. Next time you may be separated."
+    },
+    {
+      "key": "choice_elementary_recess_3",
+      "value": "Read a comic quietly."
+    },
+    {
+      "key": "log_elementary_recess_3",
+      "value": "You enjoyed peace but seemed distant. Next time friends may not invite you."
+    },
+    {
+      "key": "event_elementary_lunchtime_title",
+      "value": "Lunch in the Cafeteria"
+    },
+    {
+      "key": "event_elementary_lunchtime_desc",
+      "value": "The cafeteria is noisy, many are watching."
+    },
+    {
+      "key": "choice_elementary_lunchtime_1",
+      "value": "Eat your own food."
+    },
+    {
+      "key": "log_elementary_lunchtime_1",
+      "value": "You enjoyed the meal, teacher praised your manners. Next time you may sit with more friends."
+    },
+    {
+      "key": "choice_elementary_lunchtime_2",
+      "value": "Spill the tray."
+    },
+    {
+      "key": "log_elementary_lunchtime_2",
+      "value": "You spilled food and felt embarrassed. Next time classmates may tease you."
+    },
+    {
+      "key": "choice_elementary_lunchtime_3",
+      "value": "Trade food with a friend."
+    },
+    {
+      "key": "log_elementary_lunchtime_3",
+      "value": "You got your favorite dish but teacher warned you. Next time trading may be banned."
+    },
+    {
+      "key": "event_elementary_performance_prep_title",
+      "value": "Performance Practice"
+    },
+    {
+      "key": "event_elementary_performance_prep_desc",
+      "value": "The class is preparing for a show."
+    },
+    {
+      "key": "choice_elementary_performance_prep_1",
+      "value": "Practice seriously."
+    },
+    {
+      "key": "log_elementary_performance_prep_1",
+      "value": "You learned your lines, teacher pleased. Next time you may get a lead role."
+    },
+    {
+      "key": "choice_elementary_performance_prep_2",
+      "value": "Forget the lines."
+    },
+    {
+      "key": "log_elementary_performance_prep_2",
+      "value": "You froze, the group struggled. Next time you may get a smaller role."
+    },
+    {
+      "key": "choice_elementary_performance_prep_3",
+      "value": "Sing loudly off-key."
+    },
+    {
+      "key": "log_elementary_performance_prep_3",
+      "value": "Class laughed, you felt awkward. Next time friends may remember you as the funny one."
+    },
+    {
+      "key": "event_elementary_homework_title",
+      "value": "Homework"
+    },
+    {
+      "key": "event_elementary_homework_desc",
+      "value": "School is over, homework awaits."
+    },
+    {
+      "key": "choice_elementary_homework_1",
+      "value": "Finish it all."
+    },
+    {
+      "key": "log_elementary_homework_1",
+      "value": "You completed it, teacher praised you. Next time your reputation rises."
+    },
+    {
+      "key": "choice_elementary_homework_2",
+      "value": "Forget to do it."
+    },
+    {
+      "key": "log_elementary_homework_2",
+      "value": "You got a note in the log. Next time parents may be called."
+    },
+    {
+      "key": "choice_elementary_homework_3",
+      "value": "Rush through it."
+    },
+    {
+      "key": "log_elementary_homework_3",
+      "value": "You turned it in but with many mistakes. Next time teachers may check harder."
+    },
+    {
+      "key": "event_elementary_teacher_reprimand_opening_title",
+      "value": "Reprimanded at Opening Ceremony"
+    },
+    {
+      "key": "event_elementary_teacher_reprimand_opening_desc",
+      "value": "The teacher caught you talking during the opening ceremony and reprimanded you. How will you react?"
+    },
+    {
+      "key": "choice_elementary_teacher_reprimand_opening_1",
+      "value": "Sit quietly and focus."
+    },
+    {
+      "key": "log_elementary_teacher_reprimand_opening_1",
+      "value": "You showed respect and avoided further trouble. Next time the teacher may see you more positively."
+    },
+    {
+      "key": "choice_elementary_teacher_reprimand_opening_2",
+      "value": "Apologize sincerely and promise not to repeat."
+    },
+    {
+      "key": "log_elementary_teacher_reprimand_opening_2",
+      "value": "Your apology was accepted, but the incident was noted. Next time the teacher will watch you closely."
+    },
+    {
+      "key": "choice_elementary_teacher_reprimand_opening_3",
+      "value": "Keep whispering softly, hoping not to be noticed."
+    },
+    {
+      "key": "log_elementary_teacher_reprimand_opening_3",
+      "value": "You ignored the warning, risking harsher punishment. Next time you might lose conduct points or have your parents called."
+    },
+    {
+      "key": "event_elementary_teacher_punishment_notebook_title",
+      "value": "Punished for Forgetting Notebook"
+    },
+    {
+      "key": "event_elementary_teacher_punishment_notebook_desc",
+      "value": "The teacher punished you for not bringing your notebook."
+    },
+    {
+      "key": "choice_elementary_teacher_punishment_notebook_1",
+      "value": "Copy lines on another sheet."
+    },
+    {
+      "key": "log_elementary_teacher_punishment_notebook_1",
+      "value": "You had to write tiring lines. Next time the teacher will check your notebook more carefully."
+    },
+    {
+      "key": "choice_elementary_teacher_punishment_notebook_2",
+      "value": "Stay after class to submit."
+    },
+    {
+      "key": "log_elementary_teacher_punishment_notebook_2",
+      "value": "You lost recess finishing it. Next time you may get a note in the log."
+    },
+    {
+      "key": "choice_elementary_teacher_punishment_notebook_3",
+      "value": "Lose diligence points."
+    },
+    {
+      "key": "log_elementary_teacher_punishment_notebook_3",
+      "value": "Your grade dropped, affecting your record. Next time your parents may be informed."
+    },
+    {
+      "key": "event_elementary_invigilator_warning_title",
+      "value": "Warning During Test"
+    },
+    {
+      "key": "event_elementary_invigilator_warning_desc",
+      "value": "The invigilator stared at you and gave a warning during the test. What will you do?"
+    },
+    {
+      "key": "choice_elementary_invigilator_warning_1",
+      "value": "Pretend not to hear and continue."
+    },
+    {
+      "key": "log_elementary_invigilator_warning_1",
+      "value": "You took the risk of being caught. Next time punishment will be harsher."
+    },
+    {
+      "key": "choice_elementary_invigilator_warning_2",
+      "value": "Sit up straight and focus on your own work."
+    },
+    {
+      "key": "log_elementary_invigilator_warning_2",
+      "value": "You corrected yourself quickly and avoided more trouble, but the invigilator kept watching."
+    },
+    {
+      "key": "choice_elementary_invigilator_warning_3",
+      "value": "Panic and stop writing."
+    },
+    {
+      "key": "log_elementary_invigilator_warning_3",
+      "value": "Fear overwhelmed you, leaving the test unfinished. Next time your grade and reputation may suffer."
+    },
+    {
+      "key": "event_elementary_lost_from_class_title",
+      "value": "Lost During Fire Drill"
+    },
+    {
+      "key": "event_elementary_lost_from_class_desc",
+      "value": "You got separated from your class during the drill. What will you do?"
+    },
+    {
+      "key": "choice_elementary_lost_from_class_1",
+      "value": "Follow another group."
+    },
+    {
+      "key": "log_elementary_lost_from_class_1",
+      "value": "You joined another group, but the teacher noted it. Next time you may be kept close to the teacher."
+    },
+    {
+      "key": "choice_elementary_lost_from_class_2",
+      "value": "Wait in the yard."
+    },
+    {
+      "key": "log_elementary_lost_from_class_2",
+      "value": "You stayed calm until your class found you. Next time teachers will remind you to stay close."
+    },
+    {
+      "key": "choice_elementary_lost_from_class_3",
+      "value": "Run frantically to find the teacher."
+    },
+    {
+      "key": "log_elementary_lost_from_class_3",
+      "value": "You caused a scene, so next time the teacher may assign someone to guide you."
+    },
+    {
+      "key": "event_elementary_punishment_writing_title",
+      "value": "Copying Punishment"
+    },
+    {
+      "key": "event_elementary_punishment_writing_desc",
+      "value": "You were told to copy as punishment for not memorizing your lesson, and classmates are watching."
+    },
+    {
+      "key": "choice_elementary_punishment_writing_1",
+      "value": "Start copying right away."
+    },
+    {
+      "key": "log_elementary_punishment_writing_1",
+      "value": "You finished and avoided a parent call, but the teacher will check your preparation more."
+    },
+    {
+      "key": "choice_elementary_punishment_writing_2",
+      "value": "Ask a classmate to remind you in exchange for supplies."
+    },
+    {
+      "key": "log_elementary_punishment_writing_2",
+      "value": "You got help today, but the teacher noticed and may change your seat."
+    },
+    {
+      "key": "choice_elementary_punishment_writing_3",
+      "value": "Ask for mercy at the risk of a note."
+    },
+    {
+      "key": "log_elementary_punishment_writing_3",
+      "value": "You avoided copying, but the teacher wrote a note and warned that next time your parents will be called."
+    },
+    {
+      "key": "event_elementary_teased_by_friends_title",
+      "value": "Teased by Friends"
+    },
+    {
+      "key": "event_elementary_teased_by_friends_desc",
+      "value": "Your friends teased you for faking a stomachache."
+    },
+    {
+      "key": "choice_elementary_teased_by_friends_1",
+      "value": "Laugh it off."
+    },
+    {
+      "key": "log_elementary_teased_by_friends_1",
+      "value": "You laughed to keep the peace, but friends may bring it up again."
+    },
+    {
+      "key": "choice_elementary_teased_by_friends_2",
+      "value": "Insist you were honest."
+    },
+    {
+      "key": "log_elementary_teased_by_friends_2",
+      "value": "You tried convincing them, but trust decreased. Next time they may doubt you."
+    },
+    {
+      "key": "choice_elementary_teased_by_friends_3",
+      "value": "Run to play to prove it."
+    },
+    {
+      "key": "log_elementary_teased_by_friends_3",
+      "value": "You proved yourself but felt embarrassed. Next time friends may challenge you more."
+    },
+    {
+      "key": "event_elementary_called_to_office_title",
+      "value": "Called to the Office"
+    },
+    {
+      "key": "event_elementary_called_to_office_desc",
+      "value": "You were sent to the office after arguing."
+    },
+    {
+      "key": "choice_elementary_called_to_office_1",
+      "value": "Argue back to defend yourself."
+    },
+    {
+      "key": "log_elementary_called_to_office_1",
+      "value": "You defended your side but were seen as defiant. Next time you may get a discipline note."
+    },
+    {
+      "key": "choice_elementary_called_to_office_2",
+      "value": "Stay silent and take it."
+    },
+    {
+      "key": "log_elementary_called_to_office_2",
+      "value": "You avoided more trouble but seemed unresponsive. Teachers may think you lack accountability."
+    },
+    {
+      "key": "choice_elementary_called_to_office_3",
+      "value": "Apologize quickly to end it."
+    },
+    {
+      "key": "log_elementary_called_to_office_3",
+      "value": "You apologized, and the matter ended. Next time teachers may expect you to be proactive."
+    },
+    {
+      "key": "event_elementary_clean_up_mess_title",
+      "value": "Clean the Table"
+    },
+    {
+      "key": "event_elementary_clean_up_mess_desc",
+      "value": "You had to clean the whole table after spilling your tray."
+    },
+    {
+      "key": "choice_elementary_clean_up_mess_1",
+      "value": "Clean carefully."
+    },
+    {
+      "key": "log_elementary_clean_up_mess_1",
+      "value": "You cleaned well, showing responsibility. Next time teachers trust you more."
+    },
+    {
+      "key": "choice_elementary_clean_up_mess_2",
+      "value": "Do it carelessly."
+    },
+    {
+      "key": "log_elementary_clean_up_mess_2",
+      "value": "You wiped quickly and friends teased you. Next time you may get more chores."
+    },
+    {
+      "key": "choice_elementary_clean_up_mess_3",
+      "value": "Ask a friend to help."
+    },
+    {
+      "key": "log_elementary_clean_up_mess_3",
+      "value": "A friend helped, but you seemed dependent. Next time the teacher may watch you closely."
+    },
+    {
+      "key": "event_elementary_role_replaced_title",
+      "value": "Role Replaced"
+    },
+    {
+      "key": "event_elementary_role_replaced_desc",
+      "value": "You lost your role for not knowing your lines."
+    },
+    {
+      "key": "choice_elementary_role_replaced_1",
+      "value": "Ask for a smaller role."
+    },
+    {
+      "key": "log_elementary_role_replaced_1",
+      "value": "You still participated but less noticeably. Next time the teacher may value your persistence."
+    },
+    {
+      "key": "choice_elementary_role_replaced_2",
+      "value": "Watch from the audience."
+    },
+    {
+      "key": "log_elementary_role_replaced_2",
+      "value": "You sat out and felt sad. Next time friends may not rely on you."
+    },
+    {
+      "key": "choice_elementary_role_replaced_3",
+      "value": "Practice hard and ask for another chance."
+    },
+    {
+      "key": "log_elementary_role_replaced_3",
+      "value": "You worked hard, and the teacher noticed. Next time you may be given another try."
+    },
+    {
+      "key": "event_elementary_teacher_reprimand_homework_title",
+      "value": "Reprimanded for Homework"
+    },
+    {
+      "key": "event_elementary_teacher_reprimand_homework_desc",
+      "value": "The teacher scolded you for forgetting homework."
+    },
+    {
+      "key": "choice_elementary_teacher_reprimand_homework_1",
+      "value": "Apologize to the teacher."
+    },
+    {
+      "key": "log_elementary_teacher_reprimand_homework_1",
+      "value": "You admitted your mistake, but the teacher will keep watch."
+    },
+    {
+      "key": "choice_elementary_teacher_reprimand_homework_2",
+      "value": "Blame circumstances."
+    },
+    {
+      "key": "log_elementary_teacher_reprimand_homework_2",
+      "value": "You made excuses, but trust decreased. Next time parents may be called."
+    },
+    {
+      "key": "choice_elementary_teacher_reprimand_homework_3",
+      "value": "Promise to do it next time."
+    },
+    {
+      "key": "log_elementary_teacher_reprimand_homework_3",
+      "value": "You promised, but the teacher remembered. Next time you may face harsher consequences."
+    },
+    {
+      "key": "event_elementary_toy_dispute_title",
+      "value": "Fighting Over a Toy"
+    },
+    {
+      "key": "event_elementary_toy_dispute_desc",
+      "value": "You and a classmate are fighting over a toy."
+    },
+    {
+      "key": "choice_elementary_toy_dispute_1",
+      "value": "Talk and share."
+    },
+    {
+      "key": "log_elementary_toy_dispute_1",
+      "value": "You decided to take turns. Next time you may be praised for fairness."
+    },
+    {
+      "key": "choice_elementary_toy_dispute_2",
+      "value": "Cry and tell the teacher."
+    },
+    {
+      "key": "log_elementary_toy_dispute_2",
+      "value": "You told the teacher and it was solved, but classmates may tease you as weak."
+    },
+    {
+      "key": "choice_elementary_toy_dispute_3",
+      "value": "Find another toy."
+    },
+    {
+      "key": "log_elementary_toy_dispute_3",
+      "value": "You avoided conflict by playing with something else. Next time friends may see you as adaptable."
+    },
+    {
+      "key": "event_elementary_art_class_title",
+      "value": "Drawing in Art Class"
+    },
+    {
+      "key": "event_elementary_art_class_desc",
+      "value": "It is art class, and you are drawing."
+    },
+    {
+      "key": "choice_elementary_art_class_1",
+      "value": "Draw according to the theme."
+    },
+    {
+      "key": "log_elementary_art_class_1",
+      "value": "You followed directions, pleasing the teacher but lacking creativity."
+    },
+    {
+      "key": "choice_elementary_art_class_2",
+      "value": "Add creative details."
+    },
+    {
+      "key": "log_elementary_art_class_2",
+      "value": "You were praised as unique, though some friends teased you as odd."
+    },
+    {
+      "key": "choice_elementary_art_class_3",
+      "value": "Borrow colors from a friend."
+    },
+    {
+      "key": "log_elementary_art_class_3",
+      "value": "You spent time borrowing crayons, not drawing much. Next time you may be reminded to bring supplies."
+    },
+    {
+      "key": "event_elementary_rainy_recess_title",
+      "value": "Rainy Recess"
+    },
+    {
+      "key": "event_elementary_rainy_recess_desc",
+      "value": "It is raining during recess."
+    },
+    {
+      "key": "choice_elementary_rainy_recess_1",
+      "value": "Play inside the classroom."
+    },
+    {
+      "key": "log_elementary_rainy_recess_1",
+      "value": "You played board games indoors. Next time classmates may invite you for indoor fun."
+    },
+    {
+      "key": "choice_elementary_rainy_recess_2",
+      "value": "Run outside in the drizzle."
+    },
+    {
+      "key": "log_elementary_rainy_recess_2",
+      "value": "You had fun but got wet, risking a cold."
+    },
+    {
+      "key": "choice_elementary_rainy_recess_3",
+      "value": "Watch the rain from the hallway."
+    },
+    {
+      "key": "log_elementary_rainy_recess_3",
+      "value": "You enjoyed the peace. Next time friends may see you as quiet."
+    },
+    {
+      "key": "event_elementary_birthday_party_title",
+      "value": "Classmate's Birthday"
+    },
+    {
+      "key": "event_elementary_birthday_party_desc",
+      "value": "You are at a classmate's birthday party."
+    },
+    {
+      "key": "choice_elementary_birthday_party_1",
+      "value": "Give a small gift."
+    },
+    {
+      "key": "log_elementary_birthday_party_1",
+      "value": "Your gift made your friend happy."
+    },
+    {
+      "key": "choice_elementary_birthday_party_2",
+      "value": "Sing Happy Birthday."
+    },
+    {
+      "key": "log_elementary_birthday_party_2",
+      "value": "You sang loudly, and everyone joined. Next time friends may want you in celebrations."
+    },
+    {
+      "key": "choice_elementary_birthday_party_3",
+      "value": "Eat cake and candy."
+    },
+    {
+      "key": "log_elementary_birthday_party_3",
+      "value": "The cake was delicious, but teachers may notice if you eat too much."
+    },
+    {
+      "key": "event_elementary_first_speech_title",
+      "value": "First Time Speaking Up"
+    },
+    {
+      "key": "event_elementary_first_speech_desc",
+      "value": "You have a chance to speak for the first time."
+    },
+    {
+      "key": "choice_elementary_first_speech_1",
+      "value": "Speak clearly and confidently."
+    },
+    {
+      "key": "log_elementary_first_speech_1",
+      "value": "You were nervous but spoke up. Next time teachers may trust you more."
+    },
+    {
+      "key": "choice_elementary_first_speech_2",
+      "value": "Speak quietly while trembling."
+    },
+    {
+      "key": "log_elementary_first_speech_2",
+      "value": "You were too shy to be heard. Next time classmates may pay less attention."
+    },
+    {
+      "key": "choice_elementary_first_speech_3",
+      "value": "Forget what to say."
+    },
+    {
+      "key": "log_elementary_first_speech_3",
+      "value": "You froze, and the class stared. Next time teachers may remind you to prepare."
+    },
+    {
+      "key": "event_elementary_extracurricular_club_title",
+      "value": "Extracurricular Club"
+    },
+    {
+      "key": "event_elementary_extracurricular_club_desc",
+      "value": "You are thinking about joining a club."
+    },
+    {
+      "key": "choice_elementary_extracurricular_club_1",
+      "value": "Register seriously."
+    },
+    {
+      "key": "log_elementary_extracurricular_club_1",
+      "value": "You were excited, and the teacher encouraged you. Next time you may be given a role."
+    },
+    {
+      "key": "choice_elementary_extracurricular_club_2",
+      "value": "Try one session then quit."
+    },
+    {
+      "key": "log_elementary_extracurricular_club_2",
+      "value": "You found it boring and left. Next time teachers may hesitate to let you join."
+    },
+    {
+      "key": "choice_elementary_extracurricular_club_3",
+      "value": "Join to make friends."
+    },
+    {
+      "key": "log_elementary_extracurricular_club_3",
+      "value": "You made new friends, but sometimes ignored the activity."
+    },
+    {
+      "key": "event_elementary_playing_soccer_title",
+      "value": "Playing Soccer in the Yard"
+    },
+    {
+      "key": "event_elementary_playing_soccer_desc",
+      "value": "You are playing soccer with friends."
+    },
+    {
+      "key": "choice_elementary_playing_soccer_1",
+      "value": "Play enthusiastically."
+    },
+    {
+      "key": "log_elementary_playing_soccer_1",
+      "value": "You had fun and were cheered. Next time friends want you on their team."
+    },
+    {
+      "key": "choice_elementary_playing_soccer_2",
+      "value": "Be a cheerleader."
+    },
+    {
+      "key": "log_elementary_playing_soccer_2",
+      "value": "You supported loudly but missed playing. Next time you may not be picked for the team."
+    },
+    {
+      "key": "choice_elementary_playing_soccer_3",
+      "value": "Be the goalie."
+    },
+    {
+      "key": "log_elementary_playing_soccer_3",
+      "value": "You blocked some shots and felt proud. Next time you may keep that role."
+    },
+    {
+      "key": "event_elementary_sports_day_title",
+      "value": "Sports Day"
+    },
+    {
+      "key": "event_elementary_sports_day_desc",
+      "value": "It is the annual school sports day."
+    },
+    {
+      "key": "choice_elementary_sports_day_1",
+      "value": "Run in the sprint."
+    },
+    {
+      "key": "log_elementary_sports_day_1",
+      "value": "You ran as fast as you could. Next time you may be chosen again."
+    },
+    {
+      "key": "choice_elementary_sports_day_2",
+      "value": "Jump rope."
+    },
+    {
+      "key": "log_elementary_sports_day_2",
+      "value": "You had fun jumping. Next time friends may invite you to play."
+    },
+    {
+      "key": "choice_elementary_sports_day_3",
+      "value": "Cheer loudly."
+    },
+    {
+      "key": "log_elementary_sports_day_3",
+      "value": "You stood out as a supporter. Next time teachers may assign you as cheer captain."
+    },
+    {
+      "key": "event_elementary_classroom_game_title",
+      "value": "Classroom Game"
+    },
+    {
+      "key": "event_elementary_classroom_game_desc",
+      "value": "The teacher organizes a game."
+    },
+    {
+      "key": "choice_elementary_classroom_game_1",
+      "value": "Play by the rules."
+    },
+    {
+      "key": "log_elementary_classroom_game_1",
+      "value": "You played fair and had fun. Next time friends trust you more."
+    },
+    {
+      "key": "choice_elementary_classroom_game_2",
+      "value": "Cheat a little."
+    },
+    {
+      "key": "log_elementary_classroom_game_2",
+      "value": "You won but were caught. Next time your reputation drops."
+    },
+    {
+      "key": "choice_elementary_classroom_game_3",
+      "value": "Quit halfway."
+    },
+    {
+      "key": "log_elementary_classroom_game_3",
+      "value": "You got bored and stopped. Next time you may not be picked."
+    },
+    {
+      "key": "event_elementary_museum_trip_title",
+      "value": "First Museum Trip"
+    },
+    {
+      "key": "event_elementary_museum_trip_desc",
+      "value": "You are visiting the museum for the first time."
+    },
+    {
+      "key": "choice_elementary_museum_trip_1",
+      "value": "Listen to the guide."
+    },
+    {
+      "key": "log_elementary_museum_trip_1",
+      "value": "You learned many things. Next time the teacher praises your focus."
+    },
+    {
+      "key": "choice_elementary_museum_trip_2",
+      "value": "Look at objects only."
+    },
+    {
+      "key": "log_elementary_museum_trip_2",
+      "value": "The artifacts amazed you, but you missed the explanations."
+    },
+    {
+      "key": "choice_elementary_museum_trip_3",
+      "value": "Chat with friends."
+    },
+    {
+      "key": "log_elementary_museum_trip_3",
+      "value": "You missed the content while talking. Next time teachers may warn you."
+    },
+    {
+      "key": "event_elementary_spelling_test_title",
+      "value": "Spelling Test"
+    },
+    {
+      "key": "event_elementary_spelling_test_desc",
+      "value": "Today is the spelling test."
+    },
+    {
+      "key": "choice_elementary_spelling_test_1",
+      "value": "Write seriously."
+    },
+    {
+      "key": "log_elementary_spelling_test_1",
+      "value": "You spelled confidently and did well. Next time you are seen as diligent."
+    },
+    {
+      "key": "choice_elementary_spelling_test_2",
+      "value": "Look at a friend's paper."
+    },
+    {
+      "key": "log_elementary_spelling_test_2",
+      "value": "You peeked for help but got noticed."
+    },
+    {
+      "key": "choice_elementary_spelling_test_3",
+      "value": "Write a different sentence instead."
+    },
+    {
+      "key": "log_elementary_spelling_test_3",
+      "value": "You avoided hard words, losing points. Next time you need practice."
+    },
+    {
+      "key": "event_elementary_good_student_award_title",
+      "value": "Receive a Good Student Certificate"
+    },
+    {
+      "key": "event_elementary_good_student_award_desc",
+      "value": "You received a certificate for being a good student."
+    },
+    {
+      "key": "choice_elementary_good_student_award_1",
+      "value": "Show it proudly to parents."
+    },
+    {
+      "key": "log_elementary_good_student_award_1",
+      "value": "Your parents were proud. Next time they encourage you more."
+    },
+    {
+      "key": "choice_elementary_good_student_award_2",
+      "value": "Show it to friends."
+    },
+    {
+      "key": "log_elementary_good_student_award_2",
+      "value": "Your friends congratulated you. Next time they respect you more."
+    },
+    {
+      "key": "choice_elementary_good_student_award_3",
+      "value": "Put it quietly in your bag."
+    },
+    {
+      "key": "log_elementary_good_student_award_3",
+      "value": "You felt happy but humble. Next time you are seen as modest."
+    },
+    {
+      "key": "event_elementary_singing_class_title",
+      "value": "Singing in Class"
+    },
+    {
+      "key": "event_elementary_singing_class_desc",
+      "value": "You are singing during music class."
+    },
+    {
+      "key": "choice_elementary_singing_class_1",
+      "value": "Sing in tune."
+    },
+    {
+      "key": "log_elementary_singing_class_1",
+      "value": "You enjoyed singing and got praise. Next time you may be chosen to solo."
+    },
+    {
+      "key": "choice_elementary_singing_class_2",
+      "value": "Sing very quietly."
+    },
+    {
+      "key": "log_elementary_singing_class_2",
+      "value": "You were shy and quiet. Next time teachers may encourage you more."
+    },
+    {
+      "key": "choice_elementary_singing_class_3",
+      "value": "Giggle while singing."
+    },
+    {
+      "key": "log_elementary_singing_class_3",
+      "value": "You laughed and disrupted. Next time teachers may warn you."
+    },
+    {
+      "key": "event_elementary_praised_by_teacher_title",
+      "value": "Praised by Teacher"
+    },
+    {
+      "key": "event_elementary_praised_by_teacher_desc",
+      "value": "The teacher praised you in front of the class."
+    },
+    {
+      "key": "choice_elementary_praised_by_teacher_1",
+      "value": "Blush shyly."
+    },
+    {
+      "key": "log_elementary_praised_by_teacher_1",
+      "value": "You were not used to attention. Next time teachers may encourage you again."
+    },
+    {
+      "key": "choice_elementary_praised_by_teacher_2",
+      "value": "Smile proudly."
+    },
+    {
+      "key": "log_elementary_praised_by_teacher_2",
+      "value": "You felt happy being recognized. Next time friends admire you."
+    },
+    {
+      "key": "choice_elementary_praised_by_teacher_3",
+      "value": "Act casual."
+    },
+    {
+      "key": "log_elementary_praised_by_teacher_3",
+      "value": "You acted calm but felt proud inside."
+    },
+    {
+      "key": "event_elementary_talking_in_class_title",
+      "value": "Reprimanded for Talking"
+    },
+    {
+      "key": "event_elementary_talking_in_class_desc",
+      "value": "The teacher scolded you for talking in class."
+    },
+    {
+      "key": "choice_elementary_talking_in_class_1",
+      "value": "Sit quietly."
+    },
+    {
+      "key": "log_elementary_talking_in_class_1",
+      "value": "You stopped and avoided more trouble. Next time the teacher keeps an eye on you."
+    },
+    {
+      "key": "choice_elementary_talking_in_class_2",
+      "value": "Argue back."
+    },
+    {
+      "key": "log_elementary_talking_in_class_2",
+      "value": "You defended yourself but looked defiant. Next time parents may be called."
+    },
+    {
+      "key": "choice_elementary_talking_in_class_3",
+      "value": "Apologize."
+    },
+    {
+      "key": "log_elementary_talking_in_class_3",
+      "value": "You apologized, and it ended. Next time the teacher expects better behavior."
+    },
+    {
+      "key": "event_elementary_first_bad_grade_title",
+      "value": "First Bad Grade"
+    },
+    {
+      "key": "event_elementary_first_bad_grade_desc",
+      "value": "You got your first bad grade."
+    },
+    {
+      "key": "choice_elementary_first_bad_grade_1",
+      "value": "Cry sadly."
+    },
+    {
+      "key": "log_elementary_first_bad_grade_1",
+      "value": "You were disappointed. Next time you are more determined."
+    },
+    {
+      "key": "choice_elementary_first_bad_grade_2",
+      "value": "Hide it from parents."
+    },
+    {
+      "key": "log_elementary_first_bad_grade_2",
+      "value": "You kept it secret but risk being found out."
+    },
+    {
+      "key": "choice_elementary_first_bad_grade_3",
+      "value": "Decide to study harder."
+    },
+    {
+      "key": "log_elementary_first_bad_grade_3",
+      "value": "You promised yourself to improve. Next time teachers may encourage you."
+    },
+    {
+      "key": "event_elementary_group_work_title",
+      "value": "Group Work"
+    },
+    {
+      "key": "event_elementary_group_work_desc",
+      "value": "You are working on a group project."
+    },
+    {
+      "key": "choice_elementary_group_work_1",
+      "value": "Share ideas."
+    },
+    {
+      "key": "log_elementary_group_work_1",
+      "value": "You led the discussion. Next time friends rely on you more."
+    },
+    {
+      "key": "choice_elementary_group_work_2",
+      "value": "Let friends decide."
+    },
+    {
+      "key": "log_elementary_group_work_2",
+      "value": "You stayed quiet. Next time your role may be smaller."
+    },
+    {
+      "key": "choice_elementary_group_work_3",
+      "value": "Only do your part."
+    },
+    {
+      "key": "log_elementary_group_work_3",
+      "value": "You did your task. Next time you may be seen as supportive."
+    },
+    {
+      "key": "event_elementary_found_item_title",
+      "value": "Found a Lost Item"
+    },
+    {
+      "key": "event_elementary_found_item_desc",
+      "value": "You found a lost item."
+    },
+    {
+      "key": "choice_elementary_found_item_1",
+      "value": "Return it to the owner."
+    },
+    {
+      "key": "log_elementary_found_item_1",
+      "value": "Your friend was happy. Next time you are praised as honest."
+    },
+    {
+      "key": "choice_elementary_found_item_2",
+      "value": "Turn it in to the teacher."
+    },
+    {
+      "key": "log_elementary_found_item_2",
+      "value": "The teacher helped find the owner. Next time you are trusted."
+    },
+    {
+      "key": "choice_elementary_found_item_3",
+      "value": "Keep it for yourself."
+    },
+    {
+      "key": "log_elementary_found_item_3",
+      "value": "You kept it but risk being caught. Next time your reputation drops."
+    },
+    {
+      "key": "event_elementary_class_monitor_title",
+      "value": "Appointed Class Monitor"
+    },
+    {
+      "key": "event_elementary_class_monitor_desc",
+      "value": "You were appointed class monitor."
+    },
+    {
+      "key": "choice_elementary_class_monitor_1",
+      "value": "Accept happily."
+    },
+    {
+      "key": "log_elementary_class_monitor_1",
+      "value": "You promised responsibility. Next time the teacher trusts you more."
+    },
+    {
+      "key": "choice_elementary_class_monitor_2",
+      "value": "Decline."
+    },
+    {
+      "key": "log_elementary_class_monitor_2",
+      "value": "You avoided responsibility. Next time teachers pick someone else."
+    },
+    {
+      "key": "choice_elementary_class_monitor_3",
+      "value": "Suggest another friend."
+    },
+    {
+      "key": "log_elementary_class_monitor_3",
+      "value": "You thought your friend fit better. Next time teachers reconsider."
+    },
+    {
+      "key": "event_elementary_craft_class_title",
+      "value": "Craft Class"
+    },
+    {
+      "key": "event_elementary_craft_class_desc",
+      "value": "You are in craft class."
+    },
+    {
+      "key": "choice_elementary_craft_class_1",
+      "value": "Fold as instructed."
+    },
+    {
+      "key": "log_elementary_craft_class_1",
+      "value": "You followed carefully. Next time teachers praise your diligence."
+    },
+    {
+      "key": "choice_elementary_craft_class_2",
+      "value": "Fold creatively into another shape."
+    },
+    {
+      "key": "log_elementary_craft_class_2",
+      "value": "You made a paper airplane, fun but off-task."
+    },
+    {
+      "key": "choice_elementary_craft_class_3",
+      "value": "Work slowly and not finish."
+    },
+    {
+      "key": "log_elementary_craft_class_3",
+      "value": "You ran out of time. Next time teachers remind you to be faster."
+    }
+  ]
+}

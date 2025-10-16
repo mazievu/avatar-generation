@@ -1,0 +1,316 @@
+{
+  "items": [
+    {
+      "key": "assets_owned",
+      "value": "Tài sản sở hữu"
+    },
+    {
+      "key": "assets_purchase",
+      "value": "Mua tài sản"
+    },
+    {
+      "key": "asset_tier",
+      "value": "Cấp"
+    },
+    {
+      "key": "asset_effects",
+      "value": "Hiệu ứng vĩnh viễn"
+    },
+    {
+      "key": "asset_purchase_button",
+      "value": "Mua"
+    },
+    {
+      "key": "asset_owned_label",
+      "value": "Đã sở hữu"
+    },
+    {
+      "key": "asset_cost_label",
+      "value": "Chi phí:"
+    },
+    {
+      "key": "log_asset_purchased",
+      "value": "Gia đình đã mua một {name}!"
+    },
+    {
+      "key": "asset_type_Housing",
+      "value": "Nhà ở"
+    },
+    {
+      "key": "asset_type_Vehicle",
+      "value": "Phương tiện"
+    },
+    {
+      "key": "asset_type_Electronics",
+      "value": "Điện tử"
+    },
+    {
+      "key": "asset_type_Art",
+      "value": "Bộ sưu tập nghệ thuật"
+    },
+    {
+      "key": "asset_type_Jewelry",
+      "value": "Trang sức"
+    },
+    {
+      "key": "asset_type_Furniture",
+      "value": "Nội thất"
+    },
+    {
+      "key": "asset_type_Library",
+      "value": "Thư viện tại gia"
+    },
+    {
+      "key": "asset_type_Gym",
+      "value": "Phòng gym tại gia"
+    },
+    {
+      "key": "asset_type_Music",
+      "value": "Nhạc cụ"
+    },
+    {
+      "key": "asset_type_Vacation",
+      "value": "Bất động sản nghỉ dưỡng"
+    },
+    {
+      "key": "asset_housing_1_name",
+      "value": "Căn hộ nhỏ"
+    },
+    {
+      "key": "asset_housing_1_desc",
+      "value": "Một không gian sống cơ bản, ấm cúng cho gia đình."
+    },
+    {
+      "key": "asset_housing_2_name",
+      "value": "Nhà cỡ vừa"
+    },
+    {
+      "key": "asset_housing_2_desc",
+      "value": "Một ngôi nhà thoải mái với một khoảng sân nhỏ."
+    },
+    {
+      "key": "asset_housing_3_name",
+      "value": "Biệt thự sang trọng"
+    },
+    {
+      "key": "asset_housing_3_desc",
+      "value": "Một biệt thự rộng rãi và sang trọng với các tiện nghi hiện đại."
+    },
+    {
+      "key": "asset_vehicle_1_name",
+      "value": "Xe hơi tiêu chuẩn"
+    },
+    {
+      "key": "asset_vehicle_1_desc",
+      "value": "Một chiếc xe đáng tin cậy cho việc đi lại hàng ngày và các chuyến đi của gia đình."
+    },
+    {
+      "key": "asset_vehicle_2_name",
+      "value": "Xe hơi sang trọng"
+    },
+    {
+      "key": "asset_vehicle_2_desc",
+      "value": "Một chiếc xe cao cấp mang lại sự thoải mái và địa vị."
+    },
+    {
+      "key": "asset_vehicle_3_name",
+      "value": "Siêu xe"
+    },
+    {
+      "key": "asset_vehicle_3_desc",
+      "value": "Một chiếc siêu xe độc đáo thu hút mọi ánh nhìn."
+    },
+    {
+      "key": "asset_electronics_1_name",
+      "value": "Máy tính cơ bản"
+    },
+    {
+      "key": "asset_electronics_1_desc",
+      "value": "Một chiếc máy tính đơn giản cho các tác vụ cơ bản và học tập."
+    },
+    {
+      "key": "asset_electronics_2_name",
+      "value": "Dàn PC Gaming"
+    },
+    {
+      "key": "asset_electronics_2_desc",
+      "value": "Một PC mạnh mẽ để chơi game và các tác vụ đòi hỏi cao."
+    },
+    {
+      "key": "asset_electronics_3_name",
+      "value": "Hệ thống rạp hát tại gia"
+    },
+    {
+      "key": "asset_electronics_3_desc",
+      "value": "Một hệ thống giải trí sống động cho cả gia đình."
+    },
+    {
+      "key": "asset_art_1_name",
+      "value": "Tranh in nghệ thuật"
+    },
+    {
+      "key": "asset_art_1_desc",
+      "value": "Một bộ sưu tập các bản in nghệ thuật đẹp để trang trí nhà cửa."
+    },
+    {
+      "key": "asset_art_2_name",
+      "value": "Tranh gốc"
+    },
+    {
+      "key": "asset_art_2_desc",
+      "value": "Một bức tranh gốc từ một nghệ sĩ danh tiếng."
+    },
+    {
+      "key": "asset_art_3_name",
+      "value": "Bộ sưu tập điêu khắc"
+    },
+    {
+      "key": "asset_art_3_desc",
+      "value": "Một bộ sưu tập các tác phẩm điêu khắc tinh xảo, một dấu hiệu của người sành sỏi thực thụ."
+    },
+    {
+      "key": "asset_jewelry_1_name",
+      "value": "Vòng cổ bạc"
+    },
+    {
+      "key": "asset_jewelry_1_desc",
+      "value": "Một món trang sức bạc thanh lịch cho những dịp đặc biệt."
+    },
+    {
+      "key": "asset_jewelry_2_name",
+      "value": "Đồng hồ vàng"
+    },
+    {
+      "key": "asset_jewelry_2_desc",
+      "value": "Một chiếc đồng hồ vàng cổ điển, biểu tượng của sự thành công."
+    },
+    {
+      "key": "asset_jewelry_3_name",
+      "value": "Nhẫn kim cương"
+    },
+    {
+      "key": "asset_jewelry_3_desc",
+      "value": "Một chiếc nhẫn kim cương lấp lánh, một vật gia truyền thực sự."
+    },
+    {
+      "key": "asset_furniture_1_name",
+      "value": "Bộ nội thất cơ bản"
+    },
+    {
+      "key": "asset_furniture_1_desc",
+      "value": "Một bộ nội thất chức năng cho ngôi nhà."
+    },
+    {
+      "key": "asset_furniture_2_name",
+      "value": "Nội thất thiết kế"
+    },
+    {
+      "key": "asset_furniture_2_desc",
+      "value": "Nội thất thiết kế thời trang và chất lượng cao."
+    },
+    {
+      "key": "asset_furniture_3_name",
+      "value": "Nội thất cổ"
+    },
+    {
+      "key": "asset_furniture_3_desc",
+      "value": "Một bộ sưu tập đồ nội thất cổ quý hiếm và có giá trị."
+    },
+    {
+      "key": "asset_library_1_name",
+      "value": "Kệ sách nhỏ"
+    },
+    {
+      "key": "asset_library_1_desc",
+      "value": "Một bộ sưu tập nhỏ các cuốn sách kinh điển."
+    },
+    {
+      "key": "asset_library_2_name",
+      "value": "Thư viện tại gia"
+    },
+    {
+      "key": "asset_library_2_desc",
+      "value": "Một căn phòng dành riêng chứa đầy sách về các chủ đề khác nhau."
+    },
+    {
+      "key": "asset_library_3_name",
+      "value": "Bộ sưu tập sách hiếm"
+    },
+    {
+      "key": "asset_library_3_desc",
+      "value": "Một bộ sưu tập các cuốn sách hiếm và ấn bản đầu tiên."
+    },
+    {
+      "key": "asset_gym_1_name",
+      "value": "Tạ và thảm yoga"
+    },
+    {
+      "key": "asset_gym_1_desc",
+      "value": "Thiết bị cơ bản cho một buổi tập luyện đơn giản tại nhà."
+    },
+    {
+      "key": "asset_gym_2_name",
+      "value": "Máy tập tại nhà"
+    },
+    {
+      "key": "asset_gym_2_desc",
+      "value": "Một máy tập đa năng cho một buổi tập luyện toàn diện."
+    },
+    {
+      "key": "asset_gym_3_name",
+      "value": "Phòng gym đầy đủ"
+    },
+    {
+      "key": "asset_gym_3_desc",
+      "value": "Một phòng gym tại nhà được trang bị đầy đủ các máy móc chuyên nghiệp."
+    },
+    {
+      "key": "asset_music_1_name",
+      "value": "Đàn guitar acoustic"
+    },
+    {
+      "key": "asset_music_1_desc",
+      "value": "Một cây đàn guitar đơn giản để thể hiện âm nhạc và thưởng thức."
+    },
+    {
+      "key": "asset_music_2_name",
+      "value": "Đàn piano đứng"
+    },
+    {
+      "key": "asset_music_2_desc",
+      "value": "Một cây đàn piano đẹp lấp đầy ngôi nhà bằng âm nhạc."
+    },
+    {
+      "key": "asset_music_3_name",
+      "value": "Đại dương cầm"
+    },
+    {
+      "key": "asset_music_3_desc",
+      "value": "Một cây đại dương cầm tráng lệ, trung tâm của bất kỳ căn phòng nào."
+    },
+    {
+      "key": "asset_vacation_1_name",
+      "value": "Cabin trong rừng"
+    },
+    {
+      "key": "asset_vacation_1_desc",
+      "value": "Một cabin mộc mạc cho những kỳ nghỉ yên bình."
+    },
+    {
+      "key": "asset_vacation_2_name",
+      "value": "Nhà bên bờ biển"
+    },
+    {
+      "key": "asset_vacation_2_desc",
+      "value": "Một ngôi nhà xinh đẹp bên bờ biển cho những kỳ nghỉ hè."
+    },
+    {
+      "key": "asset_vacation_3_name",
+      "value": "Đảo riêng"
+    },
+    {
+      "key": "asset_vacation_3_desc",
+      "value": "Sự sang trọng tối thượng: một hòn đảo riêng cho những kỳ nghỉ độc quyền."
+    }
+  ]
+}

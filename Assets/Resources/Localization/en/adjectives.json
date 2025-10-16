@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "key": "adjective_intelligent",
+      "value": "Intelligent"
+    },
+    {
+      "key": "adjective_brilliant",
+      "value": "Brilliant"
+    },
+    {
+      "key": "adjective_happy",
+      "value": "Happy"
+    },
+    {
+      "key": "adjective_joyful",
+      "value": "Joyful"
+    },
+    {
+      "key": "adjective_confident",
+      "value": "Confident"
+    },
+    {
+      "key": "adjective_brave",
+      "value": "Brave"
+    },
+    {
+      "key": "adjective_healthy",
+      "value": "Healthy"
+    },
+    {
+      "key": "adjective_vigorous",
+      "value": "Vigorous"
+    },
+    {
+      "key": "adjective_grieving",
+      "value": "Grieving"
+    },
+    {
+      "key": "adjective_innocent",
+      "value": "Innocent"
+    },
+    {
+      "key": "adjective_normal",
+      "value": " "
+    }
+  ]
+}

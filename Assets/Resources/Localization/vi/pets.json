@@ -1,0 +1,252 @@
+{
+  "items": [
+    {
+      "key": "event_pet_adoption_title",
+      "value": "Cơ hội nhận nuôi thú cưng"
+    },
+    {
+      "key": "event_pet_adoption_desc",
+      "value": "Một trại cứu hộ động vật địa phương đang tổ chức một sự kiện nhận nuôi. Bạn có muốn xem qua không?"
+    },
+    {
+      "key": "choice_pet_adoption_1",
+      "value": "Có, hãy tìm một người bạn mới!"
+    },
+    {
+      "key": "log_pet_adoption_1",
+      "value": "Tôi quyết định nhận nuôi một người bạn đồng hành mới."
+    },
+    {
+      "key": "choice_pet_adoption_2",
+      "value": "Không, bây giờ không phải lúc."
+    },
+    {
+      "key": "log_pet_adoption_2",
+      "value": "Tôi quyết định bây giờ chưa phải lúc thích hợp để nuôi thú cưng."
+    },
+    {
+      "key": "event_pet_sick_title",
+      "value": "Thú cưng bị ốm"
+    },
+    {
+      "key": "event_pet_sick_desc",
+      "value": "Thú cưng của bạn có vẻ không khỏe và lờ đờ."
+    },
+    {
+      "key": "choice_pet_sick_1",
+      "value": "Đưa đến bác sĩ thú y."
+    },
+    {
+      "key": "log_pet_sick_1",
+      "value": "Bác sĩ thú y đã cho thuốc và thú cưng của tôi đang hồi phục."
+    },
+    {
+      "key": "choice_pet_sick_2",
+      "value": "Để nó tự nghỉ ngơi."
+    },
+    {
+      "key": "log_pet_sick_2",
+      "value": "Tôi hy vọng thú cưng của mình sẽ tự khỏi sau khi nghỉ ngơi."
+    },
+    {
+      "key": "event_pet_damages_item_title",
+      "value": "Thú cưng phá hoại"
+    },
+    {
+      "key": "event_pet_damages_item_desc",
+      "value": "Bạn về nhà và thấy thú cưng của mình đã làm hỏng một món đồ có giá trị."
+    },
+    {
+      "key": "choice_pet_damages_item_1",
+      "value": "Tha thứ và huấn luyện lại nó."
+    },
+    {
+      "key": "log_pet_damages_item_1",
+      "value": "Nó chỉ là một con vật thôi mà."
+    },
+    {
+      "key": "choice_pet_damages_item_2",
+      "value": "La mắng nó thậm tệ."
+    },
+    {
+      "key": "log_pet_damages_item_2",
+      "value": "Thú cưng của tôi có vẻ sợ hãi sau khi bị mắng."
+    },
+    {
+      "key": "event_pet_lost_title",
+      "value": "Thú cưng bị lạc"
+    },
+    {
+      "key": "event_pet_lost_desc",
+      "value": "Thú cưng của bạn đã biến mất!"
+    },
+    {
+      "key": "choice_pet_lost_1",
+      "value": "Tìm kiếm khắp nơi."
+    },
+    {
+      "key": "log_pet_lost_1",
+      "value": "Tôi đã dán áp phích và tìm kiếm khắp nơi."
+    },
+    {
+      "key": "choice_pet_lost_2",
+      "value": "Chờ nó tự quay về."
+    },
+    {
+      "key": "log_pet_lost_2",
+      "value": "Tôi hy vọng nó sẽ tìm được đường về nhà."
+    },
+    {
+      "key": "event_pet_contest_title",
+      "value": "Cuộc thi thú cưng"
+    },
+    {
+      "key": "event_pet_contest_desc",
+      "value": "Có một cuộc thi thú cưng trong thị trấn."
+    },
+    {
+      "key": "choice_pet_contest_1",
+      "value": "Tham gia cuộc thi."
+    },
+    {
+      "key": "log_pet_contest_1",
+      "value": "Đây là cơ hội để thú cưng của tôi tỏa sáng."
+    },
+    {
+      "key": "choice_pet_contest_2",
+      "value": "Không tham gia."
+    },
+    {
+      "key": "log_pet_contest_2",
+      "value": "Chúng tôi không quan tâm đến các cuộc thi."
+    },
+    {
+      "key": "event_pet_gets_old_title",
+      "value": "Thú cưng già đi"
+    },
+    {
+      "key": "event_pet_gets_old_desc",
+      "value": "Thú cưng của bạn đã già và yếu đi nhiều."
+    },
+    {
+      "key": "choice_pet_gets_old_1",
+      "value": "Chăm sóc nó chu đáo."
+    },
+    {
+      "key": "log_pet_gets_old_1",
+      "value": "Tôi sẽ ở bên nó trong những ngày cuối cùng."
+    },
+    {
+      "key": "choice_pet_gets_old_2",
+      "value": "An tử nó."
+    },
+    {
+      "key": "log_pet_gets_old_2",
+      "value": "Đó là một quyết định khó khăn, nhưng tôi không muốn nó phải chịu đau đớn."
+    },
+    {
+      "key": "event_pet_sickness_worsens_title",
+      "value": "Bệnh của thú cưng trở nặng"
+    },
+    {
+      "key": "event_pet_sickness_worsens_desc",
+      "value": "Tình trạng của thú cưng ngày càng tồi tệ."
+    },
+    {
+      "key": "choice_pet_sickness_worsens_1",
+      "value": "Đưa đến bệnh viện thú y."
+    },
+    {
+      "key": "log_pet_sickness_worsens_1",
+      "value": "Thú cưng của tôi cần được chăm sóc đặc biệt."
+    },
+    {
+      "key": "choice_pet_sickness_worsens_2",
+      "value": "Chăm sóc tại nhà."
+    },
+    {
+      "key": "log_pet_sickness_worsens_2",
+      "value": "Tôi sẽ làm mọi thứ có thể cho nó ở nhà."
+    },
+    {
+      "key": "event_pet_found_title",
+      "value": "Tìm thấy thú cưng!"
+    },
+    {
+      "key": "event_pet_found_desc",
+      "value": "Một người hàng xóm đã tìm thấy thú cưng của bạn!"
+    },
+    {
+      "key": "choice_pet_found_1",
+      "value": "Thật là một sự nhẹ nhõm!"
+    },
+    {
+      "key": "log_pet_found_1",
+      "value": "Tôi rất vui khi được đoàn tụ với người bạn nhỏ của mình."
+    },
+    {
+      "key": "event_pet_lost_forever_title",
+      "value": "Thú cưng mất tích mãi mãi"
+    },
+    {
+      "key": "event_pet_lost_forever_desc",
+      "value": "Dù đã tìm kiếm, bạn vẫn không thể tìm thấy thú cưng của mình."
+    },
+    {
+      "key": "choice_pet_lost_forever_1",
+      "value": "Cảm thấy rất buồn."
+    },
+    {
+      "key": "log_pet_lost_forever_1",
+      "value": "Tôi sẽ không bao giờ quên nó."
+    },
+    {
+      "key": "event_pet_contest_win_title",
+      "value": "Thắng cuộc thi!"
+    },
+    {
+      "key": "event_pet_contest_win_desc",
+      "value": "Thú cưng của bạn đã thắng cuộc thi!"
+    },
+    {
+      "key": "choice_pet_contest_win_1",
+      "value": "Thật tự hào!"
+    },
+    {
+      "key": "log_pet_contest_win_1",
+      "value": "Thú cưng của tôi là tuyệt nhất!"
+    },
+    {
+      "key": "event_pet_contest_lose_title",
+      "value": "Thua cuộc thi"
+    },
+    {
+      "key": "event_pet_contest_lose_desc",
+      "value": "Thú cưng của bạn đã không thắng cuộc thi."
+    },
+    {
+      "key": "choice_pet_contest_lose_1",
+      "value": "Không sao cả."
+    },
+    {
+      "key": "log_pet_contest_lose_1",
+      "value": "Quan trọng là đã tham gia."
+    },
+    {
+      "key": "event_pet_dies_title",
+      "value": "Thú cưng qua đời"
+    },
+    {
+      "key": "event_pet_dies_desc",
+      "value": "Thú cưng yêu quý của bạn đã qua đời."
+    },
+    {
+      "key": "choice_pet_dies_1",
+      "value": "Tổ chức một lễ tang nhỏ."
+    },
+    {
+      "key": "log_pet_dies_1",
+      "value": "Yên nghỉ nhé, bạn thân của tôi."
+    }
+  ]
+}

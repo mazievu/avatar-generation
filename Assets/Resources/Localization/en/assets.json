@@ -1,0 +1,316 @@
+{
+  "items": [
+    {
+      "key": "assets_owned",
+      "value": "Owned Assets"
+    },
+    {
+      "key": "assets_purchase",
+      "value": "Purchase Assets"
+    },
+    {
+      "key": "asset_tier",
+      "value": "Tier"
+    },
+    {
+      "key": "asset_effects",
+      "value": "Effects on Family"
+    },
+    {
+      "key": "asset_purchase_button",
+      "value": "Purchase"
+    },
+    {
+      "key": "asset_owned_label",
+      "value": "Owned"
+    },
+    {
+      "key": "asset_cost_label",
+      "value": "Cost:"
+    },
+    {
+      "key": "log_asset_purchased",
+      "value": "The family has purchased a {name}!"
+    },
+    {
+      "key": "asset_type_Housing",
+      "value": "Housing"
+    },
+    {
+      "key": "asset_type_Vehicle",
+      "value": "Vehicle"
+    },
+    {
+      "key": "asset_type_Electronics",
+      "value": "Electronics"
+    },
+    {
+      "key": "asset_type_Art",
+      "value": "Art Collection"
+    },
+    {
+      "key": "asset_type_Jewelry",
+      "value": "Jewelry"
+    },
+    {
+      "key": "asset_type_Furniture",
+      "value": "Furniture"
+    },
+    {
+      "key": "asset_type_Library",
+      "value": "Home Library"
+    },
+    {
+      "key": "asset_type_Gym",
+      "value": "Home Gym"
+    },
+    {
+      "key": "asset_type_Music",
+      "value": "Musical Instruments"
+    },
+    {
+      "key": "asset_type_Vacation",
+      "value": "Vacation Properties"
+    },
+    {
+      "key": "asset_housing_1_name",
+      "value": "Small Apartment"
+    },
+    {
+      "key": "asset_housing_1_desc",
+      "value": "A basic, cozy living space for the family."
+    },
+    {
+      "key": "asset_housing_2_name",
+      "value": "Medium House"
+    },
+    {
+      "key": "asset_housing_2_desc",
+      "value": "A comfortable house with a small yard."
+    },
+    {
+      "key": "asset_housing_3_name",
+      "value": "Luxury Villa"
+    },
+    {
+      "key": "asset_housing_3_desc",
+      "value": "A spacious and luxurious villa with modern amenities."
+    },
+    {
+      "key": "asset_vehicle_1_name",
+      "value": "Standard Car"
+    },
+    {
+      "key": "asset_vehicle_1_desc",
+      "value": "A reliable car for daily commutes and family trips."
+    },
+    {
+      "key": "asset_vehicle_2_name",
+      "value": "Luxury Car"
+    },
+    {
+      "key": "asset_vehicle_2_desc",
+      "value": "A high-end car that offers comfort and status."
+    },
+    {
+      "key": "asset_vehicle_3_name",
+      "value": "Supercar"
+    },
+    {
+      "key": "asset_vehicle_3_desc",
+      "value": "An exotic supercar that turns heads everywhere."
+    },
+    {
+      "key": "asset_electronics_1_name",
+      "value": "Basic Computer"
+    },
+    {
+      "key": "asset_electronics_1_desc",
+      "value": "A simple computer for basic tasks and learning."
+    },
+    {
+      "key": "asset_electronics_2_name",
+      "value": "Gaming PC Setup"
+    },
+    {
+      "key": "asset_electronics_2_desc",
+      "value": "A powerful PC for gaming and demanding tasks."
+    },
+    {
+      "key": "asset_electronics_3_name",
+      "value": "Home Theater System"
+    },
+    {
+      "key": "asset_electronics_3_desc",
+      "value": "An immersive entertainment system for the whole family."
+    },
+    {
+      "key": "asset_art_1_name",
+      "value": "Art Prints"
+    },
+    {
+      "key": "asset_art_1_desc",
+      "value": "A collection of beautiful art prints to decorate the home."
+    },
+    {
+      "key": "asset_art_2_name",
+      "value": "Original Painting"
+    },
+    {
+      "key": "asset_art_2_desc",
+      "value": "An original painting from a renowned artist."
+    },
+    {
+      "key": "asset_art_3_name",
+      "value": "Sculpture Collection"
+    },
+    {
+      "key": "asset_art_3_desc",
+      "value": "A collection of exquisite sculptures, a sign of true connoisseurship."
+    },
+    {
+      "key": "asset_jewelry_1_name",
+      "value": "Silver Necklace"
+    },
+    {
+      "key": "asset_jewelry_1_desc",
+      "value": "An elegant piece of silver jewelry for special occasions."
+    },
+    {
+      "key": "asset_jewelry_2_name",
+      "value": "Gold Watch"
+    },
+    {
+      "key": "asset_jewelry_2_desc",
+      "value": "A classic gold watch, symbolizing success."
+    },
+    {
+      "key": "asset_jewelry_3_name",
+      "value": "Diamond Ring"
+    },
+    {
+      "key": "asset_jewelry_3_desc",
+      "value": "A dazzling diamond ring, a true family heirloom."
+    },
+    {
+      "key": "asset_furniture_1_name",
+      "value": "Basic Furniture Set"
+    },
+    {
+      "key": "asset_furniture_1_desc",
+      "value": "A functional set of furniture for the home."
+    },
+    {
+      "key": "asset_furniture_2_name",
+      "value": "Designer Furniture"
+    },
+    {
+      "key": "asset_furniture_2_desc",
+      "value": "Stylish and high-quality designer furniture."
+    },
+    {
+      "key": "asset_furniture_3_name",
+      "value": "Antique Furniture"
+    },
+    {
+      "key": "asset_furniture_3_desc",
+      "value": "A collection of rare and valuable antique furniture."
+    },
+    {
+      "key": "asset_library_1_name",
+      "value": "Small Bookshelf"
+    },
+    {
+      "key": "asset_library_1_desc",
+      "value": "A small collection of classic books."
+    },
+    {
+      "key": "asset_library_2_name",
+      "value": "Home Library"
+    },
+    {
+      "key": "asset_library_2_desc",
+      "value": "A dedicated room filled with books on various subjects."
+    },
+    {
+      "key": "asset_library_3_name",
+      "value": "Rare Book Collection"
+    },
+    {
+      "key": "asset_library_3_desc",
+      "value": "A collection of rare and first-edition books."
+    },
+    {
+      "key": "asset_gym_1_name",
+      "value": "Dumbbells & Yoga Mat"
+    },
+    {
+      "key": "asset_gym_1_desc",
+      "value": "Basic equipment for a simple home workout."
+    },
+    {
+      "key": "asset_gym_2_name",
+      "value": "Home Gym Machine"
+    },
+    {
+      "key": "asset_gym_2_desc",
+      "value": "A multi-functional machine for a complete workout."
+    },
+    {
+      "key": "asset_gym_3_name",
+      "value": "Full Gym Setup"
+    },
+    {
+      "key": "asset_gym_3_desc",
+      "value": "A fully equipped home gym with professional-grade machines."
+    },
+    {
+      "key": "asset_music_1_name",
+      "value": "Acoustic Guitar"
+    },
+    {
+      "key": "asset_music_1_desc",
+      "value": "A simple guitar for musical expression and enjoyment."
+    },
+    {
+      "key": "asset_music_2_name",
+      "value": "Upright Piano"
+    },
+    {
+      "key": "asset_music_2_desc",
+      "value": "A beautiful piano that fills the home with music."
+    },
+    {
+      "key": "asset_music_3_name",
+      "value": "Grand Piano"
+    },
+    {
+      "key": "asset_music_3_desc",
+      "value": "A magnificent grand piano, the centerpiece of any room."
+    },
+    {
+      "key": "asset_vacation_1_name",
+      "value": "Cabin in the Woods"
+    },
+    {
+      "key": "asset_vacation_1_desc",
+      "value": "A rustic cabin for peaceful getaways."
+    },
+    {
+      "key": "asset_vacation_2_name",
+      "value": "Beach House"
+    },
+    {
+      "key": "asset_vacation_2_desc",
+      "value": "A beautiful house by the sea for summer vacations."
+    },
+    {
+      "key": "asset_vacation_3_name",
+      "value": "Private Island"
+    },
+    {
+      "key": "asset_vacation_3_desc",
+      "value": "The ultimate luxury: a private island for exclusive retreats."
+    }
+  ]
+}

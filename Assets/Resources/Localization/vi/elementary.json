@@ -1,0 +1,1284 @@
+{
+  "items": [
+    {
+      "key": "event_elementary_first_day_title",
+      "value": "Ngày đầu tiên đi học"
+    },
+    {
+      "key": "event_elementary_first_day_desc",
+      "value": "Sân trường đông vui, mọi người đều nhìn. Bạn sẽ làm gì trong buổi lễ khai giảng?"
+    },
+    {
+      "key": "choice_elementary_first_day_1",
+      "value": "Ngồi ngay ngắn cùng lớp dự lễ."
+    },
+    {
+      "key": "log_elementary_first_day_1",
+      "value": "Bạn giữ trật tự, thầy cô khen ngợi song bạn thấy hơi chán. Lần sau thầy cô tin tưởng hơn khi xếp chỗ."
+    },
+    {
+      "key": "choice_elementary_first_day_2",
+      "value": "Thì thầm với bạn thân."
+    },
+    {
+      "key": "log_elementary_first_day_2",
+      "value": "Bạn vui khi gặp lại bạn, nhưng bị nhắc nhở trước lớp. Lần sau thầy cô có thể tách chỗ ngồi hai bạn."
+    },
+    {
+      "key": "choice_elementary_first_day_3",
+      "value": "Chơi trò nhỏ để giết thời gian."
+    },
+    {
+      "key": "log_elementary_first_day_3",
+      "value": "Bạn thấy vui nhưng suýt bị thầy cô phát hiện. Lần sau bạn bè nhớ đến bạn như người hay bày trò."
+    },
+    {
+      "key": "event_elementary_forgot_notebook_title",
+      "value": "Quên vở học"
+    },
+    {
+      "key": "event_elementary_forgot_notebook_desc",
+      "value": "Bạn quên mang vở vào lớp, thầy cô và bạn bè đang để ý."
+    },
+    {
+      "key": "choice_elementary_forgot_notebook_1",
+      "value": "Mượn bạn một ít giấy."
+    },
+    {
+      "key": "log_elementary_forgot_notebook_1",
+      "value": "Bạn bè giúp đỡ, song lần tới có thể ngại nếu bạn lại quên."
+    },
+    {
+      "key": "choice_elementary_forgot_notebook_2",
+      "value": "Xin thầy cô tờ giấy tạm."
+    },
+    {
+      "key": "log_elementary_forgot_notebook_2",
+      "value": "Thầy cô phát cho bạn giấy, nhưng ghi chú lại sự việc. Lần sau có thể bị nhắc trước lớp."
+    },
+    {
+      "key": "choice_elementary_forgot_notebook_3",
+      "value": "Ngồi vẽ linh tinh trên giấy nháp."
+    },
+    {
+      "key": "log_elementary_forgot_notebook_3",
+      "value": "Bạn bỏ lỡ bài học, bị thầy cô lưu ý. Lần sau có nguy cơ bị gọi phụ huynh."
+    },
+    {
+      "key": "event_elementary_math_test_title",
+      "value": "Bài kiểm tra Toán"
+    },
+    {
+      "key": "event_elementary_math_test_desc",
+      "value": "Cả lớp im lặng, bài kiểm tra bắt đầu."
+    },
+    {
+      "key": "choice_elementary_math_test_1",
+      "value": "Làm bài nghiêm túc."
+    },
+    {
+      "key": "log_elementary_math_test_1",
+      "value": "Bạn tập trung hết sức, dù căng thẳng. Lần sau thầy cô sẽ tin vào nỗ lực của bạn."
+    },
+    {
+      "key": "choice_elementary_math_test_2",
+      "value": "Nhìn trộm bài bạn."
+    },
+    {
+      "key": "log_elementary_math_test_2",
+      "value": "Bạn chép được vài câu, nhưng bị nghi ngờ. Lần sau nguy cơ mất lòng tin bạn bè."
+    },
+    {
+      "key": "choice_elementary_math_test_3",
+      "value": "Xin ra ngoài giữa giờ."
+    },
+    {
+      "key": "log_elementary_math_test_3",
+      "value": "Bạn viện lý do sức khỏe, thoát được vài phút. Song thầy cô để ý và có thể liên lạc phụ huynh lần sau."
+    },
+    {
+      "key": "event_elementary_fire_alarm_title",
+      "value": "Chuông báo cháy"
+    },
+    {
+      "key": "event_elementary_fire_alarm_desc",
+      "value": "Chuông báo vang lên, cả lớp hoảng hốt."
+    },
+    {
+      "key": "choice_elementary_fire_alarm_1",
+      "value": "Xếp hàng theo lớp."
+    },
+    {
+      "key": "log_elementary_fire_alarm_1",
+      "value": "Bạn giữ bình tĩnh, thầy cô yên tâm. Lần sau có thể được chọn làm người dẫn hàng."
+    },
+    {
+      "key": "choice_elementary_fire_alarm_2",
+      "value": "Chạy loạn xạ."
+    },
+    {
+      "key": "log_elementary_fire_alarm_2",
+      "value": "Bạn làm cả lớp rối loạn, bị thầy cô nhắc nhở. Lần sau dễ bị chuyển chỗ xa bạn bè."
+    },
+    {
+      "key": "choice_elementary_fire_alarm_3",
+      "value": "Nắm tay bạn chạy ra sân."
+    },
+    {
+      "key": "log_elementary_fire_alarm_3",
+      "value": "Bạn và bạn cùng an toàn, nhưng không theo hàng. Lần sau thầy cô vừa lo vừa dặn kỹ hơn."
+    },
+    {
+      "key": "event_elementary_oral_exam_title",
+      "value": "Trả bài miệng"
+    },
+    {
+      "key": "event_elementary_oral_exam_desc",
+      "value": "Thầy cô đang gọi học sinh trả lời."
+    },
+    {
+      "key": "choice_elementary_oral_exam_1",
+      "value": "Trả lời đúng."
+    },
+    {
+      "key": "log_elementary_oral_exam_1",
+      "value": "Bạn tự tin được khen, song cả lớp để ý kỹ hơn. Lần sau thầy cô có thể gọi bạn nhiều hơn."
+    },
+    {
+      "key": "choice_elementary_oral_exam_2",
+      "value": "Ấp úng rồi quên."
+    },
+    {
+      "key": "log_elementary_oral_exam_2",
+      "value": "Bạn run, không nhớ câu trả lời. Lần sau thầy cô có thể ghi chú vào sổ."
+    },
+    {
+      "key": "choice_elementary_oral_exam_3",
+      "value": "Giả vờ ho để tránh."
+    },
+    {
+      "key": "log_elementary_oral_exam_3",
+      "value": "Bạn thoát một lần, nhưng thầy cô ghi nhớ. Lần sau dễ bị gọi bất ngờ hơn."
+    },
+    {
+      "key": "event_elementary_pe_class_title",
+      "value": "Giờ thể dục"
+    },
+    {
+      "key": "event_elementary_pe_class_desc",
+      "value": "Tiếng còi vang lên, cả lớp chuẩn bị vận động."
+    },
+    {
+      "key": "choice_elementary_pe_class_1",
+      "value": "Tham gia chạy bộ."
+    },
+    {
+      "key": "log_elementary_pe_class_1",
+      "value": "Bạn rèn luyện sức khỏe, thầy cô ghi nhận. Lần sau có thể được chọn làm nhóm trưởng."
+    },
+    {
+      "key": "choice_elementary_pe_class_2",
+      "value": "Giả vờ đau bụng."
+    },
+    {
+      "key": "log_elementary_pe_class_2",
+      "value": "Bạn tránh được chạy, nhưng bị thầy cô nghi ngờ. Lần sau có thể bị chú ý kỹ."
+    },
+    {
+      "key": "choice_elementary_pe_class_3",
+      "value": "Chơi bóng rổ với bạn."
+    },
+    {
+      "key": "log_elementary_pe_class_3",
+      "value": "Bạn vui vẻ, nhưng bỏ qua bài tập chính. Lần sau thầy cô có thể giới hạn trò chơi."
+    },
+    {
+      "key": "event_elementary_recess_title",
+      "value": "Giờ ra chơi"
+    },
+    {
+      "key": "event_elementary_recess_desc",
+      "value": "Chuông reo, ai cũng háo hức."
+    },
+    {
+      "key": "choice_elementary_recess_1",
+      "value": "Chơi cùng bạn."
+    },
+    {
+      "key": "log_elementary_recess_1",
+      "value": "Bạn có nhiều kỷ niệm vui. Lần sau bạn bè dễ rủ bạn hơn."
+    },
+    {
+      "key": "choice_elementary_recess_2",
+      "value": "Cãi nhau với bạn."
+    },
+    {
+      "key": "log_elementary_recess_2",
+      "value": "Không khí căng thẳng, thầy cô ghi chú lại. Lần sau có thể bị tách nhóm."
+    },
+    {
+      "key": "choice_elementary_recess_3",
+      "value": "Ngồi đọc truyện tranh."
+    },
+    {
+      "key": "log_elementary_recess_3",
+      "value": "Bạn tận hưởng yên tĩnh, nhưng hơi xa cách. Lần sau bạn bè ít rủ hơn."
+    },
+    {
+      "key": "event_elementary_lunchtime_title",
+      "value": "Giờ ăn trưa ở căn tin"
+    },
+    {
+      "key": "event_elementary_lunchtime_desc",
+      "value": "Bữa trưa náo nhiệt, nhiều ánh mắt nhìn."
+    },
+    {
+      "key": "choice_elementary_lunchtime_1",
+      "value": "Ăn phần của mình."
+    },
+    {
+      "key": "log_elementary_lunchtime_1",
+      "value": "Bạn ăn ngon miệng, thầy cô khen giữ trật tự. Lần sau dễ được ngồi cùng nhóm bạn."
+    },
+    {
+      "key": "choice_elementary_lunchtime_2",
+      "value": "Làm đổ khay thức ăn."
+    },
+    {
+      "key": "log_elementary_lunchtime_2",
+      "value": "Bạn lúng túng dọn, cả bàn cười. Lần sau có thể bị trêu chọc."
+    },
+    {
+      "key": "choice_elementary_lunchtime_3",
+      "value": "Đổi đồ ăn với bạn."
+    },
+    {
+      "key": "log_elementary_lunchtime_3",
+      "value": "Bạn vui vì có món mình thích, nhưng thầy cô nhắc nhở. Lần sau có thể bị cấm đổi."
+    },
+    {
+      "key": "event_elementary_performance_prep_title",
+      "value": "Chuẩn bị tiết mục"
+    },
+    {
+      "key": "event_elementary_performance_prep_desc",
+      "value": "Cả lớp tập luyện cho buổi biểu diễn."
+    },
+    {
+      "key": "choice_elementary_performance_prep_1",
+      "value": "Luyện tập nghiêm túc."
+    },
+    {
+      "key": "log_elementary_performance_prep_1",
+      "value": "Bạn ghi nhớ lời, thầy cô hài lòng. Lần sau có thể được giao vai chính."
+    },
+    {
+      "key": "choice_elementary_performance_prep_2",
+      "value": "Quên lời thoại."
+    },
+    {
+      "key": "log_elementary_performance_prep_2",
+      "value": "Bạn ngập ngừng, cả nhóm bối rối. Lần sau có thể bị phân vai nhỏ hơn."
+    },
+    {
+      "key": "choice_elementary_performance_prep_3",
+      "value": "Hát to nhưng lạc giọng."
+    },
+    {
+      "key": "log_elementary_performance_prep_3",
+      "value": "Cả lớp cười, bạn hơi xấu hổ. Lần sau bạn bè nhớ đến bạn như người gây cười."
+    },
+    {
+      "key": "event_elementary_homework_title",
+      "value": "Bài tập về nhà"
+    },
+    {
+      "key": "event_elementary_homework_desc",
+      "value": "Chuông tan học vang lên, tối nay bạn phải làm gì?"
+    },
+    {
+      "key": "choice_elementary_homework_1",
+      "value": "Hoàn thành đầy đủ."
+    },
+    {
+      "key": "log_elementary_homework_1",
+      "value": "Bạn làm xong, được thầy cô khen. Lần sau uy tín tăng lên."
+    },
+    {
+      "key": "choice_elementary_homework_2",
+      "value": "Quên không làm."
+    },
+    {
+      "key": "log_elementary_homework_2",
+      "value": "Bạn bị ghi chú trong sổ. Lần sau nguy cơ bị gọi điện về nhà."
+    },
+    {
+      "key": "choice_elementary_homework_3",
+      "value": "Làm qua loa cho xong."
+    },
+    {
+      "key": "log_elementary_homework_3",
+      "value": "Bạn nộp bài nhưng sai nhiều. Lần sau thầy cô có thể kiểm tra kỹ hơn."
+    },
+    {
+      "key": "event_elementary_teacher_reprimand_opening_title",
+      "value": "Bị nhắc nhở ở lễ khai giảng"
+    },
+    {
+      "key": "event_elementary_teacher_reprimand_opening_desc",
+      "value": "Thầy cô phát hiện bạn nói chuyện trong lễ khai giảng và nhắc nhở. Bạn sẽ phản ứng thế nào?"
+    },
+    {
+      "key": "choice_elementary_teacher_reprimand_opening_1",
+      "value": "Ngồi im lặng và tập trung."
+    },
+    {
+      "key": "log_elementary_teacher_reprimand_opening_1",
+      "value": "Bạn tỏ ra tôn trọng, tránh thêm rắc rối. Lần sau thầy cô nhìn bạn với thiện cảm hơn."
+    },
+    {
+      "key": "choice_elementary_teacher_reprimand_opening_2",
+      "value": "Xin lỗi chân thành và hứa không tái phạm."
+    },
+    {
+      "key": "log_elementary_teacher_reprimand_opening_2",
+      "value": "Lời xin lỗi được chấp nhận, nhưng sự việc vẫn được ghi nhớ. Lần sau thầy cô sẽ theo dõi bạn kỹ hơn."
+    },
+    {
+      "key": "choice_elementary_teacher_reprimand_opening_3",
+      "value": "Tiếp tục thì thầm nhỏ, mong không bị phát hiện."
+    },
+    {
+      "key": "log_elementary_teacher_reprimand_opening_3",
+      "value": "Bạn phớt lờ cảnh báo, nguy cơ bị phạt nặng hơn. Lần sau có thể bị ghi hạnh kiểm hoặc gọi phụ huynh."
+    },
+    {
+      "key": "event_elementary_teacher_punishment_notebook_title",
+      "value": "Bị phạt vì quên vở"
+    },
+    {
+      "key": "event_elementary_teacher_punishment_notebook_desc",
+      "value": "Thầy cô phạt bạn vì không mang vở."
+    },
+    {
+      "key": "choice_elementary_teacher_punishment_notebook_1",
+      "value": "Viết phạt trên giấy khác."
+    },
+    {
+      "key": "log_elementary_teacher_punishment_notebook_1",
+      "value": "Bạn phải chép phạt mệt mỏi. Lần sau thầy cô sẽ kiểm tra vở kỹ hơn."
+    },
+    {
+      "key": "choice_elementary_teacher_punishment_notebook_2",
+      "value": "Ở lại cuối giờ để nộp."
+    },
+    {
+      "key": "log_elementary_teacher_punishment_notebook_2",
+      "value": "Bạn mất giờ ra chơi để hoàn thành. Lần sau có thể bị ghi chú vào sổ."
+    },
+    {
+      "key": "choice_elementary_teacher_punishment_notebook_3",
+      "value": "Bị trừ điểm chuyên cần."
+    },
+    {
+      "key": "log_elementary_teacher_punishment_notebook_3",
+      "value": "Điểm chuyên cần giảm, ảnh hưởng đến thành tích. Lần sau phụ huynh có thể được báo."
+    },
+    {
+      "key": "event_elementary_invigilator_warning_title",
+      "value": "Cảnh cáo trong giờ kiểm tra"
+    },
+    {
+      "key": "event_elementary_invigilator_warning_desc",
+      "value": "Giám thị nhìn chằm chằm và cảnh cáo bạn trong giờ kiểm tra. Bạn sẽ làm gì?"
+    },
+    {
+      "key": "choice_elementary_invigilator_warning_1",
+      "value": "Giả vờ không nghe và tiếp tục."
+    },
+    {
+      "key": "log_elementary_invigilator_warning_1",
+      "value": "Bạn liều lĩnh, nguy cơ bị bắt quả tang cao hơn. Lần sau hình phạt sẽ nặng hơn."
+    },
+    {
+      "key": "choice_elementary_invigilator_warning_2",
+      "value": "Ngồi ngay ngắn và tập trung vào bài."
+    },
+    {
+      "key": "log_elementary_invigilator_warning_2",
+      "value": "Bạn sửa lỗi kịp thời, tránh thêm rắc rối. Nhưng ánh mắt giám thị vẫn theo dõi bạn."
+    },
+    {
+      "key": "choice_elementary_invigilator_warning_3",
+      "value": "Hoảng loạn và không làm nổi nữa."
+    },
+    {
+      "key": "log_elementary_invigilator_warning_3",
+      "value": "Bạn lo sợ đến mức bỏ dở bài. Kết quả kiểm tra sẽ thấp, ảnh hưởng uy tín học tập."
+    },
+    {
+      "key": "event_elementary_lost_from_class_title",
+      "value": "Lạc nhóm trong diễn tập cháy"
+    },
+    {
+      "key": "event_elementary_lost_from_class_desc",
+      "value": "Bạn bị lạc khỏi lớp trong lúc diễn tập. Bạn sẽ làm gì?"
+    },
+    {
+      "key": "choice_elementary_lost_from_class_1",
+      "value": "Đi theo nhóm bạn khác."
+    },
+    {
+      "key": "log_elementary_lost_from_class_1",
+      "value": "Bạn nhập nhóm khác tạm thời, nhưng thầy cô ghi nhận việc lạc lớp. Lần sau có thể bị xếp đi cạnh thầy cô."
+    },
+    {
+      "key": "choice_elementary_lost_from_class_2",
+      "value": "Đứng chờ ở sân."
+    },
+    {
+      "key": "log_elementary_lost_from_class_2",
+      "value": "Bạn kiên nhẫn chờ lớp tìm thấy. Lần sau thầy cô nhắc bạn bám sát nhóm."
+    },
+    {
+      "key": "choice_elementary_lost_from_class_3",
+      "value": "Hoảng hốt chạy tìm thầy cô."
+    },
+    {
+      "key": "log_elementary_lost_from_class_3",
+      "value": "Bạn chạy loạn, gây chú ý. Lần sau thầy cô sẽ giao bạn cho bạn dẫn dắt."
+    },
+    {
+      "key": "event_elementary_punishment_writing_title",
+      "value": "Bị phạt chép bài"
+    },
+    {
+      "key": "event_elementary_punishment_writing_desc",
+      "value": "Bạn bị yêu cầu chép phạt vì không thuộc bài, cả lớp đang nhìn."
+    },
+    {
+      "key": "choice_elementary_punishment_writing_1",
+      "value": "Chép ngay dù mệt."
+    },
+    {
+      "key": "log_elementary_punishment_writing_1",
+      "value": "Bạn hoàn thành và tránh bị gọi phụ huynh. Lần sau thầy cô để mắt đến sự chuẩn bị của bạn hơn."
+    },
+    {
+      "key": "choice_elementary_punishment_writing_2",
+      "value": "Nhờ bạn nhắc bài để đổi lấy dụng cụ."
+    },
+    {
+      "key": "log_elementary_punishment_writing_2",
+      "value": "Bạn thoát lần này nhờ bạn bè, nhưng thầy cô chú ý và có thể đổi chỗ ngồi."
+    },
+    {
+      "key": "choice_elementary_punishment_writing_3",
+      "value": "Xin tha với rủi ro bị ghi chú."
+    },
+    {
+      "key": "log_elementary_punishment_writing_3",
+      "value": "Bạn tránh chép, nhưng bị ghi vào sổ. Lần sau sẽ bị gọi phụ huynh trực tiếp."
+    },
+    {
+      "key": "event_elementary_teased_by_friends_title",
+      "value": "Bị bạn trêu chọc"
+    },
+    {
+      "key": "event_elementary_teased_by_friends_desc",
+      "value": "Bạn bị bạn bè trêu vì giả vờ đau bụng."
+    },
+    {
+      "key": "choice_elementary_teased_by_friends_1",
+      "value": "Cười gượng cho qua."
+    },
+    {
+      "key": "log_elementary_teased_by_friends_1",
+      "value": "Bạn cười cho xong, giữ hòa khí. Lần sau bạn bè vẫn có thể nhắc lại."
+    },
+    {
+      "key": "choice_elementary_teased_by_friends_2",
+      "value": "Khăng khăng nói thật."
+    },
+    {
+      "key": "log_elementary_teased_by_friends_2",
+      "value": "Bạn cố thuyết phục, nhưng bạn bè bán tín bán nghi. Lần sau uy tín của bạn giảm."
+    },
+    {
+      "key": "choice_elementary_teased_by_friends_3",
+      "value": "Chạy ra chơi để chứng minh."
+    },
+    {
+      "key": "log_elementary_teased_by_friends_3",
+      "value": "Bạn chứng minh khỏe mạnh, nhưng mất mặt. Lần sau bạn bè có thể thách bạn nhiều hơn."
+    },
+    {
+      "key": "event_elementary_called_to_office_title",
+      "value": "Bị gọi lên văn phòng"
+    },
+    {
+      "key": "event_elementary_called_to_office_desc",
+      "value": "Bạn bị gọi lên văn phòng sau khi cãi nhau."
+    },
+    {
+      "key": "choice_elementary_called_to_office_1",
+      "value": "Cãi lại để tự vệ."
+    },
+    {
+      "key": "log_elementary_called_to_office_1",
+      "value": "Bạn bảo vệ quan điểm, nhưng bị coi là chống đối. Lần sau dễ bị ghi sổ kỷ luật."
+    },
+    {
+      "key": "choice_elementary_called_to_office_2",
+      "value": "Im lặng chịu mắng."
+    },
+    {
+      "key": "log_elementary_called_to_office_2",
+      "value": "Bạn không nói gì, thoát thêm rắc rối. Nhưng thầy cô cho rằng bạn thiếu phản hồi."
+    },
+    {
+      "key": "choice_elementary_called_to_office_3",
+      "value": "Xin lỗi để kết thúc nhanh."
+    },
+    {
+      "key": "log_elementary_called_to_office_3",
+      "value": "Bạn xin lỗi, sự việc khép lại. Lần sau thầy cô mong bạn chủ động hơn."
+    },
+    {
+      "key": "event_elementary_clean_up_mess_title",
+      "value": "Phải lau cả bàn"
+    },
+    {
+      "key": "event_elementary_clean_up_mess_desc",
+      "value": "Bạn phải dọn cả bàn vì làm đổ khay thức ăn."
+    },
+    {
+      "key": "choice_elementary_clean_up_mess_1",
+      "value": "Lau thật kỹ."
+    },
+    {
+      "key": "log_elementary_clean_up_mess_1",
+      "value": "Bạn dọn sạch sẽ, được khen trách nhiệm. Lần sau thầy cô tin tưởng hơn."
+    },
+    {
+      "key": "choice_elementary_clean_up_mess_2",
+      "value": "Làm qua loa."
+    },
+    {
+      "key": "log_elementary_clean_up_mess_2",
+      "value": "Bạn lau sơ sài, bị bạn bè trêu. Lần sau dễ bị phân công thêm việc."
+    },
+    {
+      "key": "choice_elementary_clean_up_mess_3",
+      "value": "Nhờ bạn giúp."
+    },
+    {
+      "key": "log_elementary_clean_up_mess_3",
+      "value": "Bạn bè giúp đỡ, nhưng bị coi là ỷ lại. Lần sau thầy cô sẽ chú ý kỹ."
+    },
+    {
+      "key": "event_elementary_role_replaced_title",
+      "value": "Bị thay vai diễn"
+    },
+    {
+      "key": "event_elementary_role_replaced_desc",
+      "value": "Bạn bị thay vai vì không thuộc lời thoại."
+    },
+    {
+      "key": "choice_elementary_role_replaced_1",
+      "value": "Xin vai nhỏ khác."
+    },
+    {
+      "key": "log_elementary_role_replaced_1",
+      "value": "Bạn vẫn tham gia được, dù ít nổi bật. Lần sau thầy cô đánh giá bạn kiên trì."
+    },
+    {
+      "key": "choice_elementary_role_replaced_2",
+      "value": "Ngồi xem bạn diễn."
+    },
+    {
+      "key": "log_elementary_role_replaced_2",
+      "value": "Bạn chỉ làm khán giả, hơi buồn. Lần sau bạn bè ít tin tưởng giao vai."
+    },
+    {
+      "key": "choice_elementary_role_replaced_3",
+      "value": "Luyện tập lại và xin cơ hội."
+    },
+    {
+      "key": "log_elementary_role_replaced_3",
+      "value": "Bạn tập chăm chỉ, thầy cô ghi nhận. Lần sau có thể được thử lại."
+    },
+    {
+      "key": "event_elementary_teacher_reprimand_homework_title",
+      "value": "Bị nhắc vì quên bài tập"
+    },
+    {
+      "key": "event_elementary_teacher_reprimand_homework_desc",
+      "value": "Thầy cô nhắc nhở bạn vì không làm bài tập."
+    },
+    {
+      "key": "choice_elementary_teacher_reprimand_homework_1",
+      "value": "Xin lỗi thầy cô."
+    },
+    {
+      "key": "log_elementary_teacher_reprimand_homework_1",
+      "value": "Bạn nhận lỗi, thầy cô bớt giận. Lần sau vẫn bị để ý."
+    },
+    {
+      "key": "choice_elementary_teacher_reprimand_homework_2",
+      "value": "Đổ lỗi hoàn cảnh."
+    },
+    {
+      "key": "log_elementary_teacher_reprimand_homework_2",
+      "value": "Bạn viện cớ, thầy cô nghi ngờ. Lần sau nguy cơ bị gọi phụ huynh."
+    },
+    {
+      "key": "choice_elementary_teacher_reprimand_homework_3",
+      "value": "Hứa sẽ làm lần sau."
+    },
+    {
+      "key": "log_elementary_teacher_reprimand_homework_3",
+      "value": "Bạn hứa hẹn, thầy cô ghi nhớ. Lần sau quên nữa sẽ bị xử lý nặng hơn."
+    },
+    {
+      "key": "event_elementary_toy_dispute_title",
+      "value": "Tranh giành đồ chơi"
+    },
+    {
+      "key": "event_elementary_toy_dispute_desc",
+      "value": "Bạn và một bạn cùng lớp đang tranh giành một món đồ chơi."
+    },
+    {
+      "key": "choice_elementary_toy_dispute_1",
+      "value": "Nói chuyện và chia sẻ."
+    },
+    {
+      "key": "log_elementary_toy_dispute_1",
+      "value": "Hai bạn quyết định thay phiên chơi. Lần sau bạn được khen biết nhường nhịn."
+    },
+    {
+      "key": "choice_elementary_toy_dispute_2",
+      "value": "Khóc và mách thầy cô."
+    },
+    {
+      "key": "log_elementary_toy_dispute_2",
+      "value": "Bạn kể lại với thầy cô, được giải quyết nhưng bạn bè có thể chọc bạn yếu đuối."
+    },
+    {
+      "key": "choice_elementary_toy_dispute_3",
+      "value": "Tìm món đồ khác."
+    },
+    {
+      "key": "log_elementary_toy_dispute_3",
+      "value": "Bạn chuyển sang chơi đồ khác, tránh cãi vã. Lần sau bạn được coi là người dễ thích nghi."
+    },
+    {
+      "key": "event_elementary_art_class_title",
+      "value": "Giờ vẽ"
+    },
+    {
+      "key": "event_elementary_art_class_desc",
+      "value": "Trong giờ mỹ thuật, bạn đang vẽ tranh."
+    },
+    {
+      "key": "choice_elementary_art_class_1",
+      "value": "Vẽ đúng chủ đề."
+    },
+    {
+      "key": "log_elementary_art_class_1",
+      "value": "Bạn làm theo hướng dẫn, được thầy cô hài lòng nhưng hơi thiếu sáng tạo."
+    },
+    {
+      "key": "choice_elementary_art_class_2",
+      "value": "Thêm chi tiết sáng tạo."
+    },
+    {
+      "key": "log_elementary_art_class_2",
+      "value": "Bạn được khen độc đáo, nhưng vài bạn trêu là kỳ lạ."
+    },
+    {
+      "key": "choice_elementary_art_class_3",
+      "value": "Ngồi mượn màu của bạn."
+    },
+    {
+      "key": "log_elementary_art_class_3",
+      "value": "Bạn mải mượn màu, làm ít tranh. Lần sau có nguy cơ bị nhắc mang đủ đồ dùng."
+    },
+    {
+      "key": "event_elementary_rainy_recess_title",
+      "value": "Giờ ra chơi mưa"
+    },
+    {
+      "key": "event_elementary_rainy_recess_desc",
+      "value": "Trời mưa vào giờ ra chơi."
+    },
+    {
+      "key": "choice_elementary_rainy_recess_1",
+      "value": "Chơi trong lớp."
+    },
+    {
+      "key": "log_elementary_rainy_recess_1",
+      "value": "Bạn và bạn bè chơi trò chơi bàn. Lần sau mọi người nhớ đến bạn khi cần trò trong nhà."
+    },
+    {
+      "key": "choice_elementary_rainy_recess_2",
+      "value": "Chạy ra mưa nhỏ."
+    },
+    {
+      "key": "log_elementary_rainy_recess_2",
+      "value": "Bạn vui vẻ dưới mưa nhưng bị ướt, có nguy cơ bị cảm."
+    },
+    {
+      "key": "choice_elementary_rainy_recess_3",
+      "value": "Đứng nhìn mưa từ hành lang."
+    },
+    {
+      "key": "log_elementary_rainy_recess_3",
+      "value": "Bạn tận hưởng yên bình. Lần sau bạn bè coi bạn là người trầm lặng."
+    },
+    {
+      "key": "event_elementary_birthday_party_title",
+      "value": "Sinh nhật bạn"
+    },
+    {
+      "key": "event_elementary_birthday_party_desc",
+      "value": "Bạn được mời đến sinh nhật bạn cùng lớp."
+    },
+    {
+      "key": "choice_elementary_birthday_party_1",
+      "value": "Tặng quà nhỏ."
+    },
+    {
+      "key": "log_elementary_birthday_party_1",
+      "value": "Bạn tặng món quà đơn giản, được bạn vui vẻ cảm ơn."
+    },
+    {
+      "key": "choice_elementary_birthday_party_2",
+      "value": "Hát bài chúc mừng."
+    },
+    {
+      "key": "log_elementary_birthday_party_2",
+      "value": "Bạn hát to, được cả lớp hưởng ứng. Lần sau dễ được rủ tham gia trò vui."
+    },
+    {
+      "key": "choice_elementary_birthday_party_3",
+      "value": "Ăn bánh kẹo."
+    },
+    {
+      "key": "log_elementary_birthday_party_3",
+      "value": "Bạn ăn ngon lành, nhưng bị thầy cô để ý nếu ăn quá nhiều."
+    },
+    {
+      "key": "event_elementary_first_speech_title",
+      "value": "Lần đầu phát biểu"
+    },
+    {
+      "key": "event_elementary_first_speech_desc",
+      "value": "Bạn có cơ hội phát biểu lần đầu."
+    },
+    {
+      "key": "choice_elementary_first_speech_1",
+      "value": "Nói rõ ràng và tự tin."
+    },
+    {
+      "key": "log_elementary_first_speech_1",
+      "value": "Bạn run nhưng vẫn nói được. Lần sau thầy cô sẽ tin bạn hơn."
+    },
+    {
+      "key": "choice_elementary_first_speech_2",
+      "value": "Nói nhỏ và run."
+    },
+    {
+      "key": "log_elementary_first_speech_2",
+      "value": "Bạn quá ngại, khó nghe. Lần sau bạn bè ít chú ý lắng nghe."
+    },
+    {
+      "key": "choice_elementary_first_speech_3",
+      "value": "Quên mất mình định nói gì."
+    },
+    {
+      "key": "log_elementary_first_speech_3",
+      "value": "Bạn đứng lặng, cả lớp nhìn. Lần sau thầy cô nhắc bạn chuẩn bị kỹ."
+    },
+    {
+      "key": "event_elementary_extracurricular_club_title",
+      "value": "Câu lạc bộ ngoại khóa"
+    },
+    {
+      "key": "event_elementary_extracurricular_club_desc",
+      "value": "Bạn đang cân nhắc tham gia một CLB ngoại khóa."
+    },
+    {
+      "key": "choice_elementary_extracurricular_club_1",
+      "value": "Đăng ký nghiêm túc."
+    },
+    {
+      "key": "log_elementary_extracurricular_club_1",
+      "value": "Bạn háo hức, thầy cô khích lệ. Lần sau dễ được giao vai trò trong CLB."
+    },
+    {
+      "key": "choice_elementary_extracurricular_club_2",
+      "value": "Thử một buổi rồi nghỉ."
+    },
+    {
+      "key": "log_elementary_extracurricular_club_2",
+      "value": "Bạn thấy không hợp, bỏ dở. Lần sau thầy cô ngần ngại khi bạn đăng ký."
+    },
+    {
+      "key": "choice_elementary_extracurricular_club_3",
+      "value": "Tham gia để kết bạn."
+    },
+    {
+      "key": "log_elementary_extracurricular_club_3",
+      "value": "Bạn làm quen nhiều bạn mới, nhưng có thể lơ là hoạt động chính."
+    },
+    {
+      "key": "event_elementary_playing_soccer_title",
+      "value": "Chơi đá bóng ở sân"
+    },
+    {
+      "key": "event_elementary_playing_soccer_desc",
+      "value": "Bạn đang chơi bóng cùng bạn bè."
+    },
+    {
+      "key": "choice_elementary_playing_soccer_1",
+      "value": "Tham gia nhiệt tình."
+    },
+    {
+      "key": "log_elementary_playing_soccer_1",
+      "value": "Bạn vui hết mình, được bạn bè cổ vũ. Lần sau mọi người muốn bạn cùng đội."
+    },
+    {
+      "key": "choice_elementary_playing_soccer_2",
+      "value": "Ngồi ngoài làm cổ động viên."
+    },
+    {
+      "key": "log_elementary_playing_soccer_2",
+      "value": "Bạn cổ vũ hết sức, được ghi nhận. Nhưng lần sau ít được chọn vào đội."
+    },
+    {
+      "key": "choice_elementary_playing_soccer_3",
+      "value": "Làm thủ môn."
+    },
+    {
+      "key": "log_elementary_playing_soccer_3",
+      "value": "Bạn chặn được vài cú sút, thấy tự hào. Lần sau có thể tiếp tục được giao vị trí này."
+    },
+    {
+      "key": "event_elementary_sports_day_title",
+      "value": "Ngày hội thể thao"
+    },
+    {
+      "key": "event_elementary_sports_day_desc",
+      "value": "Đến ngày hội thể thao thường niên."
+    },
+    {
+      "key": "choice_elementary_sports_day_1",
+      "value": "Tham gia chạy ngắn."
+    },
+    {
+      "key": "log_elementary_sports_day_1",
+      "value": "Bạn chạy hết sức, mệt nhưng vui. Lần sau có thể được chọn thi tiếp."
+    },
+    {
+      "key": "choice_elementary_sports_day_2",
+      "value": "Chơi nhảy dây."
+    },
+    {
+      "key": "log_elementary_sports_day_2",
+      "value": "Bạn nhảy vui vẻ, được bạn bè cười nói. Lần sau dễ được rủ chơi cùng."
+    },
+    {
+      "key": "choice_elementary_sports_day_3",
+      "value": "Cổ vũ nhiệt tình."
+    },
+    {
+      "key": "log_elementary_sports_day_3",
+      "value": "Bạn la hét cổ động, rất nổi bật. Lần sau thầy cô có thể giao làm hoạt náo viên."
+    },
+    {
+      "key": "event_elementary_classroom_game_title",
+      "value": "Trò chơi trong lớp"
+    },
+    {
+      "key": "event_elementary_classroom_game_desc",
+      "value": "Thầy cô tổ chức trò chơi trong giờ học."
+    },
+    {
+      "key": "choice_elementary_classroom_game_1",
+      "value": "Chơi theo luật."
+    },
+    {
+      "key": "log_elementary_classroom_game_1",
+      "value": "Bạn chơi công bằng, được khen. Lần sau bạn bè thích chơi cùng bạn."
+    },
+    {
+      "key": "choice_elementary_classroom_game_2",
+      "value": "Gian lận một chút."
+    },
+    {
+      "key": "log_elementary_classroom_game_2",
+      "value": "Bạn thắng nhưng bị phát hiện. Lần sau uy tín giảm."
+    },
+    {
+      "key": "choice_elementary_classroom_game_3",
+      "value": "Bỏ ngang giữa chừng."
+    },
+    {
+      "key": "log_elementary_classroom_game_3",
+      "value": "Bạn chán và dừng lại. Lần sau ít được gọi chơi."
+    },
+    {
+      "key": "event_elementary_museum_trip_title",
+      "value": "Chuyến đi bảo tàng đầu tiên"
+    },
+    {
+      "key": "event_elementary_museum_trip_desc",
+      "value": "Bạn được đi tham quan bảo tàng lần đầu."
+    },
+    {
+      "key": "choice_elementary_museum_trip_1",
+      "value": "Nghe hướng dẫn viên."
+    },
+    {
+      "key": "log_elementary_museum_trip_1",
+      "value": "Bạn học được nhiều điều thú vị. Lần sau thầy cô khen bạn chăm chú."
+    },
+    {
+      "key": "choice_elementary_museum_trip_2",
+      "value": "Chỉ xem hiện vật."
+    },
+    {
+      "key": "log_elementary_museum_trip_2",
+      "value": "Bạn say mê đồ vật nhưng lỡ mất lời giải thích."
+    },
+    {
+      "key": "choice_elementary_museum_trip_3",
+      "value": "Nói chuyện với bạn bè."
+    },
+    {
+      "key": "log_elementary_museum_trip_3",
+      "value": "Bạn mải trò chuyện, bỏ lỡ nội dung. Lần sau thầy cô chú ý nhắc nhở."
+    },
+    {
+      "key": "event_elementary_spelling_test_title",
+      "value": "Kiểm tra chính tả"
+    },
+    {
+      "key": "event_elementary_spelling_test_desc",
+      "value": "Hôm nay cả lớp có bài kiểm tra chính tả."
+    },
+    {
+      "key": "choice_elementary_spelling_test_1",
+      "value": "Làm bài nghiêm túc."
+    },
+    {
+      "key": "log_elementary_spelling_test_1",
+      "value": "Bạn viết tự tin, kết quả tốt. Lần sau được khen là chăm học."
+    },
+    {
+      "key": "choice_elementary_spelling_test_2",
+      "value": "Nhìn bài bạn."
+    },
+    {
+      "key": "log_elementary_spelling_test_2",
+      "value": "Bạn nhờ chút giúp đỡ, nhưng bị thầy cô để ý."
+    },
+    {
+      "key": "choice_elementary_spelling_test_3",
+      "value": "Đổi sang câu khác để tránh."
+    },
+    {
+      "key": "log_elementary_spelling_test_3",
+      "value": "Bạn tránh từ khó, nhưng mất điểm. Lần sau cần luyện thêm."
+    },
+    {
+      "key": "event_elementary_good_student_award_title",
+      "value": "Nhận giấy khen học sinh giỏi"
+    },
+    {
+      "key": "event_elementary_good_student_award_desc",
+      "value": "Bạn được nhận giấy khen học sinh giỏi."
+    },
+    {
+      "key": "choice_elementary_good_student_award_1",
+      "value": "Vui mừng khoe bố mẹ."
+    },
+    {
+      "key": "log_elementary_good_student_award_1",
+      "value": "Bố mẹ rất tự hào. Lần sau khuyến khích bạn cố gắng hơn."
+    },
+    {
+      "key": "choice_elementary_good_student_award_2",
+      "value": "Khoe với bạn bè."
+    },
+    {
+      "key": "log_elementary_good_student_award_2",
+      "value": "Bạn được chúc mừng. Lần sau dễ được bạn bè nể trọng."
+    },
+    {
+      "key": "choice_elementary_good_student_award_3",
+      "value": "Lặng lẽ cất vào cặp."
+    },
+    {
+      "key": "log_elementary_good_student_award_3",
+      "value": "Bạn vui thầm, không muốn khoe. Lần sau bạn được coi là khiêm tốn."
+    },
+    {
+      "key": "event_elementary_singing_class_title",
+      "value": "Giờ hát"
+    },
+    {
+      "key": "event_elementary_singing_class_desc",
+      "value": "Trong giờ âm nhạc, cả lớp cùng hát."
+    },
+    {
+      "key": "choice_elementary_singing_class_1",
+      "value": "Hát đúng nhịp."
+    },
+    {
+      "key": "log_elementary_singing_class_1",
+      "value": "Bạn yêu thích ca hát, được khen. Lần sau có thể được chọn solo."
+    },
+    {
+      "key": "choice_elementary_singing_class_2",
+      "value": "Hát nhỏ nhẹ."
+    },
+    {
+      "key": "log_elementary_singing_class_2",
+      "value": "Bạn ngại, hát nhỏ. Lần sau thầy cô động viên nhiều hơn."
+    },
+    {
+      "key": "choice_elementary_singing_class_3",
+      "value": "Cười khúc khích khi hát."
+    },
+    {
+      "key": "log_elementary_singing_class_3",
+      "value": "Bạn không ngừng cười, gây rối. Lần sau thầy cô nhắc nhở."
+    },
+    {
+      "key": "event_elementary_praised_by_teacher_title",
+      "value": "Được thầy cô khen"
+    },
+    {
+      "key": "event_elementary_praised_by_teacher_desc",
+      "value": "Thầy cô khen bạn trước lớp."
+    },
+    {
+      "key": "choice_elementary_praised_by_teacher_1",
+      "value": "Đỏ mặt ngại ngùng."
+    },
+    {
+      "key": "log_elementary_praised_by_teacher_1",
+      "value": "Bạn chưa quen được chú ý. Lần sau thầy cô khuyến khích nhiều hơn."
+    },
+    {
+      "key": "choice_elementary_praised_by_teacher_2",
+      "value": "Cười tự hào."
+    },
+    {
+      "key": "log_elementary_praised_by_teacher_2",
+      "value": "Bạn thấy vui khi được ghi nhận. Lần sau bạn bè nhìn bạn với sự nể phục."
+    },
+    {
+      "key": "choice_elementary_praised_by_teacher_3",
+      "value": "Giả vờ thản nhiên."
+    },
+    {
+      "key": "log_elementary_praised_by_teacher_3",
+      "value": "Bạn tỏ ra bình thường, nhưng thầm tự hào."
+    },
+    {
+      "key": "event_elementary_talking_in_class_title",
+      "value": "Bị nhắc vì nói chuyện"
+    },
+    {
+      "key": "event_elementary_talking_in_class_desc",
+      "value": "Bạn bị thầy cô nhắc nhở vì nói chuyện trong giờ học."
+    },
+    {
+      "key": "choice_elementary_talking_in_class_1",
+      "value": "Ngồi im ngay."
+    },
+    {
+      "key": "log_elementary_talking_in_class_1",
+      "value": "Bạn dừng lại, tránh thêm rắc rối. Lần sau thầy cô để mắt bạn kỹ."
+    },
+    {
+      "key": "choice_elementary_talking_in_class_2",
+      "value": "Cãi lại."
+    },
+    {
+      "key": "log_elementary_talking_in_class_2",
+      "value": "Bạn phân bua, bị coi là cứng đầu. Lần sau dễ bị gọi phụ huynh."
+    },
+    {
+      "key": "choice_elementary_talking_in_class_3",
+      "value": "Xin lỗi."
+    },
+    {
+      "key": "log_elementary_talking_in_class_3",
+      "value": "Bạn xin lỗi, sự việc lắng xuống. Lần sau thầy cô mong bạn giữ trật tự."
+    },
+    {
+      "key": "event_elementary_first_bad_grade_title",
+      "value": "Điểm kém đầu tiên"
+    },
+    {
+      "key": "event_elementary_first_bad_grade_desc",
+      "value": "Bạn vừa nhận điểm kém đầu tiên."
+    },
+    {
+      "key": "choice_elementary_first_bad_grade_1",
+      "value": "Khóc buồn bã."
+    },
+    {
+      "key": "log_elementary_first_bad_grade_1",
+      "value": "Bạn thất vọng về bản thân. Lần sau quyết tâm hơn."
+    },
+    {
+      "key": "choice_elementary_first_bad_grade_2",
+      "value": "Giấu bố mẹ."
+    },
+    {
+      "key": "log_elementary_first_bad_grade_2",
+      "value": "Bạn lo sợ bị la, giấu đi. Lần sau nguy cơ bị phát hiện."
+    },
+    {
+      "key": "choice_elementary_first_bad_grade_3",
+      "value": "Quyết tâm học lại."
+    },
+    {
+      "key": "log_elementary_first_bad_grade_3",
+      "value": "Bạn quyết tâm sửa sai. Lần sau thầy cô khích lệ bạn."
+    },
+    {
+      "key": "event_elementary_group_work_title",
+      "value": "Làm việc nhóm"
+    },
+    {
+      "key": "event_elementary_group_work_desc",
+      "value": "Bạn đang làm dự án với nhóm."
+    },
+    {
+      "key": "choice_elementary_group_work_1",
+      "value": "Đề xuất ý tưởng."
+    },
+    {
+      "key": "log_elementary_group_work_1",
+      "value": "Bạn dẫn dắt thảo luận. Lần sau bạn bè tín nhiệm hơn."
+    },
+    {
+      "key": "choice_elementary_group_work_2",
+      "value": "Nghe bạn quyết định."
+    },
+    {
+      "key": "log_elementary_group_work_2",
+      "value": "Bạn để người khác quyết. Lần sau ít được coi trọng vai trò."
+    },
+    {
+      "key": "choice_elementary_group_work_3",
+      "value": "Chỉ làm phần được giao."
+    },
+    {
+      "key": "log_elementary_group_work_3",
+      "value": "Bạn làm xong nhiệm vụ. Lần sau nhóm xem bạn như người hỗ trợ."
+    },
+    {
+      "key": "event_elementary_found_item_title",
+      "value": "Nhặt được đồ rơi"
+    },
+    {
+      "key": "event_elementary_found_item_desc",
+      "value": "Bạn nhặt được một món đồ bị mất."
+    },
+    {
+      "key": "choice_elementary_found_item_1",
+      "value": "Trả lại cho bạn."
+    },
+    {
+      "key": "log_elementary_found_item_1",
+      "value": "Bạn của bạn rất vui mừng. Lần sau bạn được khen trung thực."
+    },
+    {
+      "key": "choice_elementary_found_item_2",
+      "value": "Nộp cho thầy cô."
+    },
+    {
+      "key": "log_elementary_found_item_2",
+      "value": "Thầy cô sẽ giúp tìm chủ nhân. Lần sau bạn được coi là đáng tin."
+    },
+    {
+      "key": "choice_elementary_found_item_3",
+      "value": "Giữ cho riêng mình."
+    },
+    {
+      "key": "log_elementary_found_item_3",
+      "value": "Bạn thấy thích nhưng có nguy cơ bị phát hiện. Lần sau uy tín giảm."
+    },
+    {
+      "key": "event_elementary_class_monitor_title",
+      "value": "Được làm lớp trưởng"
+    },
+    {
+      "key": "event_elementary_class_monitor_desc",
+      "value": "Bạn được chọn làm lớp trưởng."
+    },
+    {
+      "key": "choice_elementary_class_monitor_1",
+      "value": "Nhận vui vẻ."
+    },
+    {
+      "key": "log_elementary_class_monitor_1",
+      "value": "Bạn hứa sẽ trách nhiệm. Lần sau thầy cô tin tưởng giao việc."
+    },
+    {
+      "key": "choice_elementary_class_monitor_2",
+      "value": "Từ chối."
+    },
+    {
+      "key": "log_elementary_class_monitor_2",
+      "value": "Bạn không muốn gánh trách nhiệm. Lần sau thầy cô sẽ chọn người khác."
+    },
+    {
+      "key": "choice_elementary_class_monitor_3",
+      "value": "Nhường cho bạn khác."
+    },
+    {
+      "key": "log_elementary_class_monitor_3",
+      "value": "Bạn nghĩ bạn khác hợp hơn. Lần sau thầy cô cân nhắc lại lựa chọn."
+    },
+    {
+      "key": "event_elementary_craft_class_title",
+      "value": "Giờ thủ công"
+    },
+    {
+      "key": "event_elementary_craft_class_desc",
+      "value": "Bạn tham gia giờ thủ công."
+    },
+    {
+      "key": "choice_elementary_craft_class_1",
+      "value": "Gấp theo mẫu."
+    },
+    {
+      "key": "log_elementary_craft_class_1",
+      "value": "Bạn làm đúng hướng dẫn. Lần sau thầy cô khen chăm chỉ."
+    },
+    {
+      "key": "choice_elementary_craft_class_2",
+      "value": "Gấp sáng tạo thành hình khác."
+    },
+    {
+      "key": "log_elementary_craft_class_2",
+      "value": "Bạn làm thành máy bay giấy, thú vị nhưng không đúng yêu cầu."
+    },
+    {
+      "key": "choice_elementary_craft_class_3",
+      "value": "Làm chậm không kịp."
+    },
+    {
+      "key": "log_elementary_craft_class_3",
+      "value": "Bạn chưa hoàn thành. Lần sau thầy cô nhắc bạn nhanh hơn."
+    }
+  ]
+}

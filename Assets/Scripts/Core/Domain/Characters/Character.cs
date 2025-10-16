@@ -4,6 +4,16 @@ using System.Collections.Generic;
 namespace LifeSim.Core.Domain.Characters
 {
     [Serializable]
+    public partial class CharacterStats
+    {
+        public int happiness = 50;   // 0..100
+        public int health = 50;      // 0..100
+        public int iq = 100;         // 0..200
+        public int eq = 50;          // 0..100
+        public int skill = 50;       // 0..100
+    }
+
+    [Serializable]
     public class AvatarState
     {
         public string presetId = "default";

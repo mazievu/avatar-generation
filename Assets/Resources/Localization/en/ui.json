@@ -1,0 +1,18 @@
+{
+  "items": [
+    { "key":"common.ok","value":"OK" },
+    { "key":"school.public","value":"Public School" },
+    { "key":"school.private","value":"Private School" },
+    { "key":"major.cs","value":"Computer Science" },
+    { "key":"major.cs.desc","value":"A technology-focused field." },
+    { "key":"major.art","value":"Arts" },
+    { "key":"major.art.desc","value":"Creativity and expression." },
+    { "key":"career.engineering","value":"Engineering" },
+    { "key":"eng.junior","value":"Junior Engineer" },
+    { "key":"eng.mid","value":"Mid-level Engineer" },
+    { "key":"feat.box1","value":"Mystery Box" },
+    { "key":"feat.box1.desc","value":"Receive a random reward." },
+    { "key":"feat.iconpack","value":"Icon Pack" },
+    { "key":"feat.iconpack.desc","value":"Unlock a set of icons." }
+  ]
+}

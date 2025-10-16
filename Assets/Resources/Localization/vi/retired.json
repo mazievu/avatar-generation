@@ -1,0 +1,1284 @@
+{
+  "items": [
+    {
+      "key": "event_retired_official_retirement_day_title",
+      "value": "Ngày nghỉ hưu chính thức"
+    },
+    {
+      "key": "event_retired_official_retirement_day_desc",
+      "value": "Hôm nay là ngày làm việc cuối cùng của bạn. Bạn cảm thấy thế nào?"
+    },
+    {
+      "key": "choice_retired_official_retirement_day_1",
+      "value": "Tổ chức tiệc nhỏ với gia đình"
+    },
+    {
+      "key": "log_retired_official_retirement_day_1",
+      "value": "Tôi đã có một bữa tiệc ấm cúng bên những người thân yêu."
+    },
+    {
+      "key": "choice_retired_official_retirement_day_2",
+      "value": "Ăn mừng cùng đồng nghiệp"
+    },
+    {
+      "key": "log_retired_official_retirement_day_2",
+      "value": "Đó là một lời chia tay đầy ý nghĩa với những người đã cùng tôi làm việc."
+    },
+    {
+      "key": "choice_retired_official_retirement_day_3",
+      "value": "Ở nhà nghỉ ngơi vì thấy mệt"
+    },
+    {
+      "key": "log_retired_official_retirement_day_3",
+      "value": "Sau bao nhiêu năm, cuối cùng tôi cũng có thể nghỉ ngơi thực sự."
+    },
+    {
+      "key": "event_retired_first_pension_title",
+      "value": "Lần đầu nhận lương hưu"
+    },
+    {
+      "key": "event_retired_first_pension_desc",
+      "value": "Bạn vừa nhận được khoản lương hưu đầu tiên."
+    },
+    {
+      "key": "choice_retired_first_pension_1",
+      "value": "Gửi tiết kiệm"
+    },
+    {
+      "key": "log_retired_first_pension_1",
+      "value": "Tôi cần phải lên kế hoạch chi tiêu cho tương lai."
+    },
+    {
+      "key": "choice_retired_first_pension_2",
+      "value": "Dùng để đi du lịch"
+    },
+    {
+      "key": "log_retired_first_pension_2",
+      "value": "Đây là cơ hội để thực hiện những chuyến đi tôi hằng ao ước."
+    },
+    {
+      "key": "choice_retired_first_pension_3",
+      "value": "Cho con cháu một phần"
+    },
+    {
+      "key": "log_retired_first_pension_3",
+      "value": "Nhìn thấy con cháu vui vẻ là niềm hạnh phúc của tôi."
+    },
+    {
+      "key": "event_retired_health_checkup_title",
+      "value": "Đi kiểm tra sức khỏe tổng quát"
+    },
+    {
+      "key": "event_retired_health_checkup_desc",
+      "value": "Đã đến lúc cần đi kiểm tra sức khỏe định kỳ."
+    },
+    {
+      "key": "choice_retired_health_checkup_1",
+      "value": "Làm đầy đủ theo lời bác sĩ"
+    },
+    {
+      "key": "log_retired_health_checkup_1",
+      "value": "Sức khỏe là vốn quý nhất, tôi cần phải chăm sóc nó cẩn thận."
+    },
+    {
+      "key": "choice_retired_health_checkup_2",
+      "value": "Bỏ qua vài xét nghiệm"
+    },
+    {
+      "key": "log_retired_health_checkup_2",
+      "value": "Tôi cảm thấy vẫn khỏe, không cần làm quá nhiều xét nghiệm."
+    },
+    {
+      "key": "choice_retired_health_checkup_3",
+      "value": "Hoãn sang lần sau vì thấy mệt"
+    },
+    {
+      "key": "log_retired_health_checkup_3",
+      "value": "Tôi sẽ đi khám vào một ngày khác."
+    },
+    {
+      "key": "event_retired_volunteering_title",
+      "value": "Tham gia hoạt động tình nguyện"
+    },
+    {
+      "key": "event_retired_volunteering_desc",
+      "value": "Bạn đang cân nhắc tham gia một hoạt động tình nguyện tại địa phương."
+    },
+    {
+      "key": "choice_retired_volunteering_1",
+      "value": "Giúp tại thư viện"
+    },
+    {
+      "key": "log_retired_volunteering_1",
+      "value": "Công việc ở thư viện thật yên tĩnh và ý nghĩa."
+    },
+    {
+      "key": "choice_retired_volunteering_2",
+      "value": "Giúp nhà dưỡng lão"
+    },
+    {
+      "key": "log_retired_volunteering_2",
+      "value": "Trò chuyện với những người bạn già khác mang lại cho tôi niềm vui."
+    },
+    {
+      "key": "choice_retired_volunteering_3",
+      "value": "Giúp phát đồ ăn từ thiện"
+    },
+    {
+      "key": "log_retired_volunteering_3",
+      "value": "Giúp đỡ những người khó khăn khiến tôi cảm thấy cuộc sống có ý nghĩa hơn."
+    },
+    {
+      "key": "event_retired_long_trip_title",
+      "value": "Đi du lịch dài ngày"
+    },
+    {
+      "key": "event_retired_long_trip_desc",
+      "value": "Đây là chuyến du lịch dài ngày đầu tiên của bạn sau khi nghỉ hưu."
+    },
+    {
+      "key": "choice_retired_long_trip_1",
+      "value": "Đi road trip xuyên bang"
+    },
+    {
+      "key": "log_retired_long_trip_1",
+      "value": "Chuyến đi thật tuyệt vời với những cảnh đẹp ven đường."
+    },
+    {
+      "key": "choice_retired_long_trip_2",
+      "value": "Đi cruise (du thuyền)"
+    },
+    {
+      "key": "log_retired_long_trip_2",
+      "value": "Tận hưởng biển cả và dịch vụ sang trọng thật thư giãn."
+    },
+    {
+      "key": "choice_retired_long_trip_3",
+      "value": "Bay sang châu Âu"
+    },
+    {
+      "key": "log_retired_long_trip_3",
+      "value": "Khám phá những nền văn hóa mới là một trải nghiệm khó quên."
+    },
+    {
+      "key": "event_retired_amusement_park_title",
+      "value": "Con cháu rủ đi công viên giải trí"
+    },
+    {
+      "key": "event_retired_amusement_park_desc",
+      "value": "Đàn cháu rủ bạn đi công viên giải trí."
+    },
+    {
+      "key": "choice_retired_amusement_park_1",
+      "value": "Đi chơi hết trò mạo hiểm"
+    },
+    {
+      "key": "log_retired_amusement_park_1",
+      "value": "Tôi cảm thấy mình như trẻ lại 20 tuổi!"
+    },
+    {
+      "key": "choice_retired_amusement_park_2",
+      "value": "Chỉ đứng xem"
+    },
+    {
+      "key": "log_retired_amusement_park_2",
+      "value": "Nhìn thấy các cháu vui vẻ là tôi cũng vui rồi."
+    },
+    {
+      "key": "choice_retired_amusement_park_3",
+      "value": "Ngồi nghỉ vì không theo kịp con cháu"
+    },
+    {
+      "key": "log_retired_amusement_park_3",
+      "value": "Sức khỏe không cho phép tôi chạy nhảy nhiều nữa."
+    },
+    {
+      "key": "event_retired_seniors_club_title",
+      "value": "Gia nhập câu lạc bộ người cao tuổi"
+    },
+    {
+      "key": "event_retired_seniors_club_desc",
+      "value": "Bạn quyết định tham gia câu lạc bộ người cao tuổi ở địa phương."
+    },
+    {
+      "key": "choice_retired_seniors_club_1",
+      "value": "Tham gia khiêu vũ"
+    },
+    {
+      "key": "log_retired_seniors_club_1",
+      "value": "Khiêu vũ giúp tôi cảm thấy khỏe khoắn và yêu đời hơn."
+    },
+    {
+      "key": "choice_retired_seniors_club_2",
+      "value": "Chơi cờ cùng hội"
+    },
+    {
+      "key": "log_retired_seniors_club_2",
+      "value": "Những ván cờ cân não giúp trí óc tôi minh mẫn."
+    },
+    {
+      "key": "choice_retired_seniors_club_3",
+      "value": "Chỉ ngồi nghe chuyện vì mệt"
+    },
+    {
+      "key": "log_retired_seniors_club_3",
+      "value": "Tôi thích nghe mọi người trò chuyện hơn."
+    },
+    {
+      "key": "event_retired_supermarket_sale_title",
+      "value": "Đi siêu thị giảm giá"
+    },
+    {
+      "key": "event_retired_supermarket_sale_desc",
+      "value": "Bạn bè rủ bạn đi săn hàng giảm giá ở siêu thị."
+    },
+    {
+      "key": "choice_retired_supermarket_sale_1",
+      "value": "Mua sắm hăng hái"
+    },
+    {
+      "key": "log_retired_supermarket_sale_1",
+      "value": "Tôi đã mua được rất nhiều món hời."
+    },
+    {
+      "key": "choice_retired_supermarket_sale_2",
+      "value": "Đi dạo ngắm hàng"
+    },
+    {
+      "key": "log_retired_supermarket_sale_2",
+      "value": "Tôi chỉ đi xem cho vui thôi."
+    },
+    {
+      "key": "choice_retired_supermarket_sale_3",
+      "value": "Ngồi chờ bạn mua sắm vì mỏi chân"
+    },
+    {
+      "key": "log_retired_supermarket_sale_3",
+      "value": "Đi bộ nhiều khiến tôi mỏi chân."
+    },
+    {
+      "key": "event_retired_class_reunion_title",
+      "value": "Buổi họp mặt lớp cũ"
+    },
+    {
+      "key": "event_retired_class_reunion_desc",
+      "value": "Bạn tham dự buổi họp mặt lớp sau nhiều năm xa cách."
+    },
+    {
+      "key": "choice_retired_class_reunion_1",
+      "value": "Tham gia trò chuyện nhiệt tình"
+    },
+    {
+      "key": "log_retired_class_reunion_1",
+      "value": "Thật tuyệt khi được ôn lại kỷ niệm xưa với bạn bè."
+    },
+    {
+      "key": "choice_retired_class_reunion_2",
+      "value": "Hát cùng bạn cũ"
+    },
+    {
+      "key": "log_retired_class_reunion_2",
+      "value": "Chúng tôi đã cùng nhau hát lại những bài hát một thời."
+    },
+    {
+      "key": "choice_retired_class_reunion_3",
+      "value": "Ngồi lắng nghe vì không còn nhớ nhiều"
+    },
+    {
+      "key": "log_retired_class_reunion_3",
+      "value": "Trí nhớ của tôi không còn tốt như xưa."
+    },
+    {
+      "key": "event_retired_family_dinner_title",
+      "value": "Bữa cơm gia đình cuối tuần"
+    },
+    {
+      "key": "event_retired_family_dinner_desc",
+      "value": "Gia đình quây quần bên bữa cơm cuối tuần."
+    },
+    {
+      "key": "choice_retired_family_dinner_1",
+      "value": "Giúp nấu ăn"
+    },
+    {
+      "key": "log_retired_family_dinner_1",
+      "value": "Tôi vẫn muốn tự tay chuẩn bị bữa ăn cho cả nhà."
+    },
+    {
+      "key": "choice_retired_family_dinner_2",
+      "value": "Chơi với cháu"
+    },
+    {
+      "key": "log_retired_family_dinner_2",
+      "value": "Chơi với các cháu là niềm vui lớn nhất của tôi."
+    },
+    {
+      "key": "choice_retired_family_dinner_3",
+      "value": "Ngồi nghỉ để con cháu lo liệu"
+    },
+    {
+      "key": "log_retired_family_dinner_3",
+      "value": "Đã đến lúc để thế hệ trẻ gánh vác."
+    },
+    {
+      "key": "event_retired_feeling_empty_title",
+      "value": "Dễ thấy trống trải"
+    },
+    {
+      "key": "event_retired_feeling_empty_desc",
+      "value": "Sau khi nghỉ hưu, bạn cảm thấy trống trải và thiếu mục đích."
+    },
+    {
+      "key": "choice_retired_feeling_empty_1",
+      "value": "Đi dạo"
+    },
+    {
+      "key": "log_retired_feeling_empty_1",
+      "value": "Đi dạo giúp tôi khuây khỏa."
+    },
+    {
+      "key": "choice_retired_feeling_empty_2",
+      "value": "Gọi điện bạn bè"
+    },
+    {
+      "key": "log_retired_feeling_empty_2",
+      "value": "Trò chuyện với bạn bè giúp tôi cảm thấy tốt hơn."
+    },
+    {
+      "key": "choice_retired_feeling_empty_3",
+      "value": "Ngồi một mình suy nghĩ"
+    },
+    {
+      "key": "log_retired_feeling_empty_3",
+      "value": "Tôi cần thời gian để thích nghi với cuộc sống mới."
+    },
+    {
+      "key": "event_retired_insufficient_funds_title",
+      "value": "Thấy tiền không đủ chi tiêu"
+    },
+    {
+      "key": "event_retired_insufficient_funds_desc",
+      "value": "Bạn nhận ra rằng lương hưu có thể không đủ cho các chi tiêu lâu dài."
+    },
+    {
+      "key": "choice_retired_insufficient_funds_1",
+      "value": "Tìm việc làm thêm"
+    },
+    {
+      "key": "log_retired_insufficient_funds_1",
+      "value": "Tôi vẫn còn đủ sức khỏe để làm một công việc nhẹ nhàng."
+    },
+    {
+      "key": "choice_retired_insufficient_funds_2",
+      "value": "Xin tư vấn tài chính"
+    },
+    {
+      "key": "log_retired_insufficient_funds_2",
+      "value": "Một chuyên gia đã giúp tôi lên kế hoạch chi tiêu hợp lý."
+    },
+    {
+      "key": "choice_retired_insufficient_funds_3",
+      "value": "Tiết kiệm chi tiêu tối đa"
+    },
+    {
+      "key": "log_retired_insufficient_funds_3",
+      "value": "Tôi cần phải thắt chặt chi tiêu hơn nữa."
+    },
+    {
+      "key": "event_retired_illness_discovered_title",
+      "value": "Phát hiện bệnh cần điều trị"
+    },
+    {
+      "key": "event_retired_illness_discovered_desc",
+      "value": "Kết quả kiểm tra sức khỏe cho thấy bạn có một căn bệnh cần điều trị."
+    },
+    {
+      "key": "choice_retired_illness_discovered_1",
+      "value": "Nghe theo bác sĩ"
+    },
+    {
+      "key": "log_retired_illness_discovered_1",
+      "value": "Tôi tin tưởng vào y học hiện đại."
+    },
+    {
+      "key": "choice_retired_illness_discovered_2",
+      "value": "Thử thuốc nam"
+    },
+    {
+      "key": "log_retired_illness_discovered_2",
+      "value": "Tôi muốn thử các phương pháp chữa trị tự nhiên."
+    },
+    {
+      "key": "choice_retired_illness_discovered_3",
+      "value": "Chần chừ chưa chữa"
+    },
+    {
+      "key": "log_retired_illness_discovered_3",
+      "value": "Tôi cảm thấy sợ hãi và chưa muốn đối mặt với nó."
+    },
+    {
+      "key": "event_retired_cant_keep_up_volunteer_title",
+      "value": "Không theo được tình nguyện"
+    },
+    {
+      "key": "event_retired_cant_keep_up_volunteer_desc",
+      "value": "Bạn nhận ra công việc tình nguyện đòi hỏi nhiều sức lực hơn bạn nghĩ."
+    },
+    {
+      "key": "choice_retired_cant_keep_up_volunteer_1",
+      "value": "Xin nghỉ"
+    },
+    {
+      "key": "log_retired_cant_keep_up_volunteer_1",
+      "value": "Tôi đã xin nghỉ để giữ gìn sức khỏe."
+    },
+    {
+      "key": "choice_retired_cant_keep_up_volunteer_2",
+      "value": "Chỉ hỗ trợ nhẹ"
+    },
+    {
+      "key": "log_retired_cant_keep_up_volunteer_2",
+      "value": "Tôi đã chuyển sang những công việc nhẹ nhàng hơn."
+    },
+    {
+      "key": "choice_retired_cant_keep_up_volunteer_3",
+      "value": "Dừng hẳn"
+    },
+    {
+      "key": "log_retired_cant_keep_up_volunteer_3",
+      "value": "Tôi quyết định dừng hẳn việc tình nguyện."
+    },
+    {
+      "key": "event_retired_travel_fatigue_title",
+      "value": "Mệt mỏi vì lịch trình du lịch"
+    },
+    {
+      "key": "event_retired_travel_fatigue_desc",
+      "value": "Lịch trình dày đặc của chuyến đi khiến bạn cảm thấy kiệt sức."
+    },
+    {
+      "key": "choice_retired_travel_fatigue_1",
+      "value": "Nghỉ ngơi nhiều"
+    },
+    {
+      "key": "log_retired_travel_fatigue_1",
+      "value": "Tôi đã dành nhiều thời gian hơn để nghỉ ngơi."
+    },
+    {
+      "key": "choice_retired_travel_fatigue_2",
+      "value": "Giảm bớt chuyến đi"
+    },
+    {
+      "key": "log_retired_travel_fatigue_2",
+      "value": "Chúng tôi đã hủy một vài điểm đến để có một chuyến đi thư giãn hơn."
+    },
+    {
+      "key": "choice_retired_travel_fatigue_3",
+      "value": "Kết thúc chuyến sớm"
+    },
+    {
+      "key": "log_retired_travel_fatigue_3",
+      "value": "Sức khỏe là trên hết, chúng tôi quyết định về nhà sớm."
+    },
+    {
+      "key": "event_retired_heatstroke_title",
+      "value": "Bị say nắng"
+    },
+    {
+      "key": "event_retired_heatstroke_desc",
+      "value": "Do thời tiết nóng bức, bạn bị say nắng và cần nghỉ ngơi."
+    },
+    {
+      "key": "choice_retired_heatstroke_1",
+      "value": "Tìm chỗ mát"
+    },
+    {
+      "key": "log_retired_heatstroke_1",
+      "value": "Tôi đã tìm một nơi râm mát để nghỉ."
+    },
+    {
+      "key": "choice_retired_heatstroke_2",
+      "value": "Uống nước"
+    },
+    {
+      "key": "log_retired_heatstroke_2",
+      "value": "Uống nhiều nước giúp tôi cảm thấy tốt hơn."
+    },
+    {
+      "key": "choice_retired_heatstroke_3",
+      "value": "Về nhà nghỉ"
+    },
+    {
+      "key": "log_retired_heatstroke_3",
+      "value": "Tôi đã quyết định về nhà để nghỉ ngơi hoàn toàn."
+    },
+    {
+      "key": "event_retired_difficulty_integrating_title",
+      "value": "Khó hòa nhập ban đầu"
+    },
+    {
+      "key": "event_retired_difficulty_integrating_desc",
+      "value": "Bạn cảm thấy khó hòa nhập với các thành viên khác trong câu lạc bộ."
+    },
+    {
+      "key": "choice_retired_difficulty_integrating_1",
+      "value": "Kiên trì"
+    },
+    {
+      "key": "log_retired_difficulty_integrating_1",
+      "value": "Tôi đã kiên trì tham gia và dần dần kết bạn được."
+    },
+    {
+      "key": "choice_retired_difficulty_integrating_2",
+      "value": "Tìm nhóm nhỏ hơn"
+    },
+    {
+      "key": "log_retired_difficulty_integrating_2",
+      "value": "Tôi đã tìm được một nhóm nhỏ hợp với mình hơn."
+    },
+    {
+      "key": "choice_retired_difficulty_integrating_3",
+      "value": "Dừng không tham gia"
+    },
+    {
+      "key": "log_retired_difficulty_integrating_3",
+      "value": "Có lẽ nơi này không dành cho tôi."
+    },
+    {
+      "key": "event_retired_missed_promotions_title",
+      "value": "Bỏ lỡ nhiều khuyến mãi"
+    },
+    {
+      "key": "event_retired_missed_promotions_desc",
+      "value": "Vì mỏi chân, bạn đã bỏ lỡ nhiều món hàng giảm giá tốt."
+    },
+    {
+      "key": "choice_retired_missed_promotions_1",
+      "value": "Nhờ bạn mua hộ"
+    },
+    {
+      "key": "log_retired_missed_promotions_1",
+      "value": "Bạn tôi đã tốt bụng mua giúp tôi vài món."
+    },
+    {
+      "key": "choice_retired_missed_promotions_2",
+      "value": "Lên mạng mua"
+    },
+    {
+      "key": "log_retired_missed_promotions_2",
+      "value": "Mua sắm trực tuyến tiện lợi hơn nhiều."
+    },
+    {
+      "key": "choice_retired_missed_promotions_3",
+      "value": "Bỏ qua"
+    },
+    {
+      "key": "log_retired_missed_promotions_3",
+      "value": "Dù sao thì tôi cũng không thực sự cần chúng."
+    },
+    {
+      "key": "event_retired_loneliness_after_reunion_title",
+      "value": "Cảm giác cô đơn sau họp lớp"
+    },
+    {
+      "key": "event_retired_loneliness_after_reunion_desc",
+      "value": "Sau buổi họp lớp, bạn cảm thấy một nỗi cô đơn khó tả."
+    },
+    {
+      "key": "choice_retired_loneliness_after_reunion_1",
+      "value": "Gọi điện bạn"
+    },
+    {
+      "key": "log_retired_loneliness_after_reunion_1",
+      "value": "Trò chuyện với một người bạn thân đã giúp tôi cảm thấy tốt hơn."
+    },
+    {
+      "key": "choice_retired_loneliness_after_reunion_2",
+      "value": "Viết nhật ký"
+    },
+    {
+      "key": "log_retired_loneliness_after_reunion_2",
+      "value": "Viết ra những suy nghĩ của mình giúp tôi giải tỏa cảm xúc."
+    },
+    {
+      "key": "choice_retired_loneliness_after_reunion_3",
+      "value": "Ngồi buồn"
+    },
+    {
+      "key": "log_retired_loneliness_after_reunion_3",
+      "value": "Tôi chìm trong những ký ức xưa."
+    },
+    {
+      "key": "event_retired_lose_central_role_title",
+      "value": "Thấy mình không còn vai trò trung tâm"
+    },
+    {
+      "key": "event_retired_lose_central_role_desc",
+      "value": "Bạn nhận ra rằng mình không còn là trung tâm của gia đình nữa."
+    },
+    {
+      "key": "choice_retired_lose_central_role_1",
+      "value": "Chủ động hỗ trợ nhỏ"
+    },
+    {
+      "key": "log_retired_lose_central_role_1",
+      "value": "Tôi tìm thấy niềm vui trong việc giúp đỡ con cháu những việc nhỏ."
+    },
+    {
+      "key": "choice_retired_lose_central_role_2",
+      "value": "Nói chuyện với con cháu"
+    },
+    {
+      "key": "log_retired_lose_central_role_2",
+      "value": "Tôi đã chia sẻ cảm xúc của mình với các con."
+    },
+    {
+      "key": "choice_retired_lose_central_role_3",
+      "value": "Chấp nhận im lặng"
+    },
+    {
+      "key": "log_retired_lose_central_role_3",
+      "value": "Đây là quy luật tự nhiên của cuộc sống."
+    },
+    {
+      "key": "event_retired_morning_routine_title",
+      "value": "Buổi sáng thường nhật"
+    },
+    {
+      "key": "event_retired_morning_routine_desc",
+      "value": "Một buổi sáng bình thường của một người đã nghỉ hưu."
+    },
+    {
+      "key": "choice_retired_morning_routine_1",
+      "value": "Đi bộ thể dục"
+    },
+    {
+      "key": "log_retired_morning_routine_1",
+      "value": "Tập thể dục buổi sáng giúp tôi cảm thấy sảng khoái."
+    },
+    {
+      "key": "choice_retired_morning_routine_2",
+      "value": "Ngồi đọc báo"
+    },
+    {
+      "key": "log_retired_morning_routine_2",
+      "value": "Cập nhật tin tức là một thói quen tốt."
+    },
+    {
+      "key": "choice_retired_morning_routine_3",
+      "value": "Ở nhà nghỉ vì mệt"
+    },
+    {
+      "key": "log_retired_morning_routine_3",
+      "value": "Hôm nay tôi cảm thấy không được khỏe."
+    },
+    {
+      "key": "event_retired_watching_tv_title",
+      "value": "Xem TV"
+    },
+    {
+      "key": "event_retired_watching_tv_desc",
+      "value": "Bạn đang dành thời gian xem TV."
+    },
+    {
+      "key": "choice_retired_watching_tv_1",
+      "value": "Xem thời sự"
+    },
+    {
+      "key": "log_retired_watching_tv_1",
+      "value": "Tôi luôn muốn biết những gì đang xảy ra trên thế giới."
+    },
+    {
+      "key": "choice_retired_watching_tv_2",
+      "value": "Xem phim cũ"
+    },
+    {
+      "key": "log_retired_watching_tv_2",
+      "value": "Những bộ phim cũ gợi lại nhiều kỷ niệm đẹp."
+    },
+    {
+      "key": "choice_retired_watching_tv_3",
+      "value": "Ngủ gật khi xem"
+    },
+    {
+      "key": "log_retired_watching_tv_3",
+      "value": "Tôi đã ngủ thiếp đi lúc nào không hay."
+    },
+    {
+      "key": "event_retired_playing_with_grandkids_title",
+      "value": "Chơi với cháu"
+    },
+    {
+      "key": "event_retired_playing_with_grandkids_desc",
+      "value": "Bạn đang dành thời gian chơi với các cháu."
+    },
+    {
+      "key": "choice_retired_playing_with_grandkids_1",
+      "value": "Dẫn cháu đi chơi"
+    },
+    {
+      "key": "log_retired_playing_with_grandkids_1",
+      "value": "Chúng tôi đã có một ngày vui vẻ ở công viên."
+    },
+    {
+      "key": "choice_retired_playing_with_grandkids_2",
+      "value": "Kể chuyện cổ tích"
+    },
+    {
+      "key": "log_retired_playing_with_grandkids_2",
+      "value": "Các cháu rất thích nghe tôi kể chuyện."
+    },
+    {
+      "key": "choice_retired_playing_with_grandkids_3",
+      "value": "Ngồi nhìn cháu chơi vì mệt"
+    },
+    {
+      "key": "log_retired_playing_with_grandkids_3",
+      "value": "Nhìn chúng vui đùa là đủ rồi."
+    },
+    {
+      "key": "event_retired_meet_old_friend_title",
+      "value": "Gặp bạn cũ"
+    },
+    {
+      "key": "event_retired_meet_old_friend_desc",
+      "value": "Bạn tình cờ gặp lại một người bạn cũ."
+    },
+    {
+      "key": "choice_retired_meet_old_friend_1",
+      "value": "Trà chuyện trò"
+    },
+    {
+      "key": "log_retired_meet_old_friend_1",
+      "value": "Chúng tôi đã ngồi lại và ôn lại những câu chuyện xưa."
+    },
+    {
+      "key": "choice_retired_meet_old_friend_2",
+      "value": "Cùng đi dạo"
+    },
+    {
+      "key": "log_retired_meet_old_friend_2",
+      "value": "Một cuộc đi dạo ngắn cũng đủ để hâm nóng tình bạn."
+    },
+    {
+      "key": "choice_retired_meet_old_friend_3",
+      "value": "Ngồi nghe bạn kể"
+    },
+    {
+      "key": "log_retired_meet_old_friend_3",
+      "value": "Tôi thích lắng nghe câu chuyện của bạn mình hơn."
+    },
+    {
+      "key": "event_retired_grocery_shopping_title",
+      "value": "Đi chợ"
+    },
+    {
+      "key": "event_retired_grocery_shopping_desc",
+      "value": "Đã đến lúc đi mua thực phẩm cho tuần."
+    },
+    {
+      "key": "choice_retired_grocery_shopping_1",
+      "value": "Mua đồ đầy đủ"
+    },
+    {
+      "key": "log_retired_grocery_shopping_1",
+      "value": "Tôi đã mua đủ mọi thứ cần thiết."
+    },
+    {
+      "key": "choice_retired_grocery_shopping_2",
+      "value": "Mua ít cho nhẹ"
+    },
+    {
+      "key": "log_retired_grocery_shopping_2",
+      "value": "Tôi không muốn mang vác nặng."
+    },
+    {
+      "key": "choice_retired_grocery_shopping_3",
+      "value": "Ngồi quán nước chờ vì mỏi"
+    },
+    {
+      "key": "log_retired_grocery_shopping_3",
+      "value": "Tôi đã nhờ con cháu đi mua hộ."
+    },
+    {
+      "key": "event_retired_visiting_temple_title",
+      "value": "Đi nhà thờ/chùa"
+    },
+    {
+      "key": "event_retired_visiting_temple_desc",
+      "value": "Bạn đến một nơi thờ tự để tìm sự bình yên."
+    },
+    {
+      "key": "choice_retired_visiting_temple_1",
+      "value": "Tham gia lễ chính"
+    },
+    {
+      "key": "log_retired_visiting_temple_1",
+      "value": "Tôi cảm thấy tâm hồn thanh thản."
+    },
+    {
+      "key": "choice_retired_visiting_temple_2",
+      "value": "Nói chuyện bạn đạo"
+    },
+    {
+      "key": "log_retired_visiting_temple_2",
+      "value": "Trò chuyện với những người cùng tín ngưỡng thật thú vị."
+    },
+    {
+      "key": "choice_retired_visiting_temple_3",
+      "value": "Ngồi nghỉ ngoài sân"
+    },
+    {
+      "key": "log_retired_visiting_temple_3",
+      "value": "Không khí trong lành ở đây thật dễ chịu."
+    },
+    {
+      "key": "event_retired_grandchild_birthday_title",
+      "value": "Sinh nhật con cháu"
+    },
+    {
+      "key": "event_retired_grandchild_birthday_desc",
+      "value": "Hôm nay là sinh nhật của một đứa cháu."
+    },
+    {
+      "key": "choice_retired_grandchild_birthday_1",
+      "value": "Tặng quà"
+    },
+    {
+      "key": "log_retired_grandchild_birthday_1",
+      "value": "Món quà nhỏ của tôi đã làm nó rất vui."
+    },
+    {
+      "key": "choice_retired_grandchild_birthday_2",
+      "value": "Chụp ảnh kỷ niệm"
+    },
+    {
+      "key": "log_retired_grandchild_birthday_2",
+      "value": "Những bức ảnh sẽ lưu giữ lại khoảnh khắc này."
+    },
+    {
+      "key": "choice_retired_grandchild_birthday_3",
+      "value": "Ngồi xem các cháu vui"
+    },
+    {
+      "key": "log_retired_grandchild_birthday_3",
+      "value": "Niềm vui của chúng là niềm vui của tôi."
+    },
+    {
+      "key": "event_retired_visit_children_title",
+      "value": "Thăm con xa"
+    },
+    {
+      "key": "event_retired_visit_children_desc",
+      "value": "Bạn đang cân nhắc đi thăm đứa con đang sống ở xa."
+    },
+    {
+      "key": "choice_retired_visit_children_1",
+      "value": "Đi xe bus"
+    },
+    {
+      "key": "log_retired_visit_children_1",
+      "value": "Chuyến đi hơi mệt nhưng rất đáng giá."
+    },
+    {
+      "key": "choice_retired_visit_children_2",
+      "value": "Đi máy bay"
+    },
+    {
+      "key": "log_retired_visit_children_2",
+      "value": "Đi máy bay nhanh và tiện lợi hơn."
+    },
+    {
+      "key": "choice_retired_visit_children_3",
+      "value": "Quyết định không đi vì mệt"
+    },
+    {
+      "key": "log_retired_visit_children_3",
+      "value": "Tôi sẽ đợi chúng về thăm."
+    },
+    {
+      "key": "event_retired_hot_afternoon_title",
+      "value": "Buổi trưa nắng nóng"
+    },
+    {
+      "key": "event_retired_hot_afternoon_desc",
+      "value": "Thời tiết buổi trưa rất nóng nực và oi ả."
+    },
+    {
+      "key": "choice_retired_hot_afternoon_1",
+      "value": "Ngủ trưa"
+    },
+    {
+      "key": "log_retired_hot_afternoon_1",
+      "value": "Một giấc ngủ trưa giúp tôi lấy lại năng lượng."
+    },
+    {
+      "key": "choice_retired_hot_afternoon_2",
+      "value": "Uống nước mát"
+    },
+    {
+      "key": "log_retired_hot_afternoon_2",
+      "value": "Một ly nước mát thật sảng khoái."
+    },
+    {
+      "key": "choice_retired_hot_afternoon_3",
+      "value": "Nằm nghỉ cả chiều"
+    },
+    {
+      "key": "log_retired_hot_afternoon_3",
+      "value": "Tôi không muốn làm gì cả trong thời tiết này."
+    },
+    {
+      "key": "event_retired_park_visit_title",
+      "value": "Đi công viên"
+    },
+    {
+      "key": "event_retired_park_visit_desc",
+      "value": "Bạn đi dạo ở công viên gần nhà."
+    },
+    {
+      "key": "choice_retired_park_visit_1",
+      "value": "Tập dưỡng sinh"
+    },
+    {
+      "key": "log_retired_park_visit_1",
+      "value": "Tập dưỡng sinh giúp cơ thể tôi dẻo dai hơn."
+    },
+    {
+      "key": "choice_retired_park_visit_2",
+      "value": "Ngồi nói chuyện"
+    },
+    {
+      "key": "log_retired_park_visit_2",
+      "value": "Tôi đã có một cuộc trò chuyện vui vẻ với những người bạn già."
+    },
+    {
+      "key": "choice_retired_park_visit_3",
+      "value": "Ngồi yên ngắm cảnh"
+    },
+    {
+      "key": "log_retired_park_visit_3",
+      "value": "Ngắm nhìn thiên nhiên thật yên bình."
+    },
+    {
+      "key": "event_retired_village_festival_title",
+      "value": "Đi hội làng"
+    },
+    {
+      "key": "event_retired_village_festival_desc",
+      "value": "Ngôi làng đang tổ chức lễ hội truyền thống."
+    },
+    {
+      "key": "choice_retired_village_festival_1",
+      "value": "Xem văn nghệ"
+    },
+    {
+      "key": "log_retired_village_festival_1",
+      "value": "Các tiết mục văn nghệ thật đặc sắc."
+    },
+    {
+      "key": "choice_retired_village_festival_2",
+      "value": "Ăn quà vặt"
+    },
+    {
+      "key": "log_retired_village_festival_2",
+      "value": "Những món ăn vặt ở đây thật ngon."
+    },
+    {
+      "key": "choice_retired_village_festival_3",
+      "value": "Ngồi nghỉ dưới bóng cây"
+    },
+    {
+      "key": "log_retired_village_festival_3",
+      "value": "Không khí lễ hội thật náo nhiệt."
+    },
+    {
+      "key": "event_retired_new_class_title",
+      "value": "Tham gia lớp học mới"
+    },
+    {
+      "key": "event_retired_new_class_desc",
+      "value": "Bạn quyết định tham gia một lớp học mới như vẽ hoặc nhạc."
+    },
+    {
+      "key": "choice_retired_new_class_1",
+      "value": "Hăng hái học"
+    },
+    {
+      "key": "log_retired_new_class_1",
+      "value": "Học một kỹ năng mới khiến tôi cảm thấy trẻ ra."
+    },
+    {
+      "key": "choice_retired_new_class_2",
+      "value": "Thử vài buổi"
+    },
+    {
+      "key": "log_retired_new_class_2",
+      "value": "Tôi đã thử vài buổi để xem có hợp không."
+    },
+    {
+      "key": "choice_retired_new_class_3",
+      "value": "Nghỉ vì thấy khó"
+    },
+    {
+      "key": "log_retired_new_class_3",
+      "value": "Nó khó hơn tôi tưởng."
+    },
+    {
+      "key": "event_retired_periodic_checkup_title",
+      "value": "Khám bệnh định kỳ"
+    },
+    {
+      "key": "event_retired_periodic_checkup_desc",
+      "value": "Đã đến lúc đi khám bệnh định kỳ."
+    },
+    {
+      "key": "choice_retired_periodic_checkup_1",
+      "value": "Làm đủ xét nghiệm"
+    },
+    {
+      "key": "log_retired_periodic_checkup_1",
+      "value": "Tôi muốn chắc chắn về sức khỏe của mình."
+    },
+    {
+      "key": "choice_retired_periodic_checkup_2",
+      "value": "Làm một nửa"
+    },
+    {
+      "key": "log_retired_periodic_checkup_2",
+      "value": "Tôi chỉ làm những xét nghiệm cần thiết nhất."
+    },
+    {
+      "key": "choice_retired_periodic_checkup_3",
+      "value": "Hủy vì mệt"
+    },
+    {
+      "key": "log_retired_periodic_checkup_3",
+      "value": "Tôi cảm thấy không muốn đi khám hôm nay."
+    },
+    {
+      "key": "event_retired_rainy_day_title",
+      "value": "Ngày mưa"
+    },
+    {
+      "key": "event_retired_rainy_day_desc",
+      "value": "Một ngày mưa buồn và ảm đạm."
+    },
+    {
+      "key": "choice_retired_rainy_day_1",
+      "value": "Ngồi đọc sách"
+    },
+    {
+      "key": "log_retired_rainy_day_1",
+      "value": "Đọc sách bên cửa sổ mưa là một thú vui tao nhã."
+    },
+    {
+      "key": "choice_retired_rainy_day_2",
+      "value": "Ngủ trưa"
+    },
+    {
+      "key": "log_retired_rainy_day_2",
+      "value": "Tiếng mưa rơi là bài hát ru tuyệt vời nhất."
+    },
+    {
+      "key": "choice_retired_rainy_day_3",
+      "value": "Ngồi nhìn mưa"
+    },
+    {
+      "key": "log_retired_rainy_day_3",
+      "value": "Tôi chỉ ngồi yên và ngắm nhìn những hạt mưa."
+    },
+    {
+      "key": "event_retired_visit_relatives_title",
+      "value": "Đi thăm họ hàng"
+    },
+    {
+      "key": "event_retired_visit_relatives_desc",
+      "value": "Bạn đi thăm họ hàng ở xa."
+    },
+    {
+      "key": "choice_retired_visit_relatives_1",
+      "value": "Trò chuyện vui"
+    },
+    {
+      "key": "log_retired_visit_relatives_1",
+      "value": "Gặp gỡ họ hàng luôn là một dịp vui vẻ."
+    },
+    {
+      "key": "choice_retired_visit_relatives_2",
+      "value": "Ăn cùng họ"
+    },
+    {
+      "key": "log_retired_visit_relatives_2",
+      "value": "Bữa cơm gia đình thật ấm cúng."
+    },
+    {
+      "key": "choice_retired_visit_relatives_3",
+      "value": "Ngồi yên nghe chuyện"
+    },
+    {
+      "key": "log_retired_visit_relatives_3",
+      "value": "Tôi thích lắng nghe câu chuyện của mọi người."
+    },
+    {
+      "key": "event_retired_watching_sports_title",
+      "value": "Xem thể thao"
+    },
+    {
+      "key": "event_retired_watching_sports_desc",
+      "value": "Bạn đang xem một trận đấu thể thao trên TV."
+    },
+    {
+      "key": "choice_retired_watching_sports_1",
+      "value": "Cổ vũ đội yêu thích"
+    },
+    {
+      "key": "log_retired_watching_sports_1",
+      "value": "Trận đấu thật hấp dẫn!"
+    },
+    {
+      "key": "choice_retired_watching_sports_2",
+      "value": "Nói chuyện cùng bạn"
+    },
+    {
+      "key": "log_retired_watching_sports_2",
+      "value": "Xem cùng bạn bè vui hơn nhiều."
+    },
+    {
+      "key": "choice_retired_watching_sports_3",
+      "value": "Ngủ gật giữa chừng"
+    },
+    {
+      "key": "log_retired_watching_sports_3",
+      "value": "Tôi đã ngủ quên mất lúc nào không hay."
+    },
+    {
+      "key": "event_retired_insomnia_title",
+      "value": "Mất ngủ"
+    },
+    {
+      "key": "event_retired_insomnia_desc",
+      "value": "Bạn không thể ngủ được vào ban đêm."
+    },
+    {
+      "key": "choice_retired_insomnia_1",
+      "value": "Đếm cừu"
+    },
+    {
+      "key": "log_retired_insomnia_1",
+      "value": "Đếm đến con cừu thứ 1000 mà tôi vẫn tỉnh."
+    },
+    {
+      "key": "choice_retired_insomnia_2",
+      "value": "Uống sữa"
+    },
+    {
+      "key": "log_retired_insomnia_2",
+      "value": "Một ly sữa ấm giúp tôi dễ ngủ hơn."
+    },
+    {
+      "key": "choice_retired_insomnia_3",
+      "value": "Ngồi yên chờ sáng"
+    },
+    {
+      "key": "log_retired_insomnia_3",
+      "value": "Lại một đêm dài nữa."
+    },
+    {
+      "key": "event_retired_community_festival_title",
+      "value": "Lễ hội cộng đồng"
+    },
+    {
+      "key": "event_retired_community_festival_desc",
+      "value": "Cộng đồng nơi bạn ở đang tổ chức một lễ hội."
+    },
+    {
+      "key": "choice_retired_community_festival_1",
+      "value": "Tham gia nhiệt tình"
+    },
+    {
+      "key": "log_retired_community_festival_1",
+      "value": "Tôi đã có một khoảng thời gian tuyệt vời."
+    },
+    {
+      "key": "choice_retired_community_festival_2",
+      "value": "Đi dạo quanh"
+    },
+    {
+      "key": "log_retired_community_festival_2",
+      "value": "Tôi chỉ đi dạo một vòng để xem không khí."
+    },
+    {
+      "key": "choice_retired_community_festival_3",
+      "value": "Ngồi nghỉ sớm vì mệt"
+    },
+    {
+      "key": "log_retired_community_festival_3",
+      "value": "Tôi không còn đủ sức để tham gia lâu."
+    },
+    {
+      "key": "event_retired_surprise_gift_title",
+      "value": "Nhận quà bất ngờ"
+    },
+    {
+      "key": "event_retired_surprise_gift_desc",
+      "value": "Bạn nhận được một món quà bất ngờ từ một người bạn cũ."
+    },
+    {
+      "key": "choice_retired_surprise_gift_1",
+      "value": "Vui mừng"
+    },
+    {
+      "key": "log_retired_surprise_gift_1",
+      "value": "Món quà thật ý nghĩa!"
+    },
+    {
+      "key": "choice_retired_surprise_gift_2",
+      "value": "Cảm động"
+    },
+    {
+      "key": "log_retired_surprise_gift_2",
+      "value": "Tôi rất xúc động trước tấm lòng của bạn."
+    },
+    {
+      "key": "choice_retired_surprise_gift_3",
+      "value": "Ngại ngùng"
+    },
+    {
+      "key": "log_retired_surprise_gift_3",
+      "value": "Tôi không biết phải làm gì để đáp lại."
+    },
+    {
+      "key": "event_retired_sharing_with_grandkids_title",
+      "value": "Chia sẻ đồ ăn với cháu"
+    },
+    {
+      "key": "event_retired_sharing_with_grandkids_desc",
+      "value": "Bạn có một món ăn ngon và các cháu đang nhìn."
+    },
+    {
+      "key": "choice_retired_sharing_with_grandkids_1",
+      "value": "Cho cháu nhiều"
+    },
+    {
+      "key": "log_retired_sharing_with_grandkids_1",
+      "value": "Tôi dành phần ngon nhất cho các cháu."
+    },
+    {
+      "key": "choice_retired_sharing_with_grandkids_2",
+      "value": "Chia đều"
+    },
+    {
+      "key": "log_retired_sharing_with_grandkids_2",
+      "value": "Mỗi người một phần."
+    },
+    {
+      "key": "choice_retired_sharing_with_grandkids_3",
+      "value": "Giữ phần nhỏ cho mình"
+    },
+    {
+      "key": "log_retired_sharing_with_grandkids_3",
+      "value": "Tôi cũng muốn ăn một chút."
+    }
+  ]
+}

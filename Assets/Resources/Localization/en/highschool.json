@@ -1,0 +1,1284 @@
+{
+  "items": [
+    {
+      "key": "event_highschool_late_for_school_title",
+      "value": "Late for School"
+    },
+    {
+      "key": "event_highschool_late_for_school_desc",
+      "value": "You were late for school due to a traffic jam."
+    },
+    {
+      "key": "choice_highschool_late_for_school_1",
+      "value": "Apologize to the teacher."
+    },
+    {
+      "key": "log_highschool_late_for_school_1",
+      "value": "I apologized and was let into class."
+    },
+    {
+      "key": "choice_highschool_late_for_school_2",
+      "value": "Blame the traffic."
+    },
+    {
+      "key": "log_highschool_late_for_school_2",
+      "value": "I explained it was the traffic, but the teacher was still skeptical."
+    },
+    {
+      "key": "choice_highschool_late_for_school_3",
+      "value": "Sneak into class."
+    },
+    {
+      "key": "log_highschool_late_for_school_3",
+      "value": "I tried to slip in unnoticed."
+    },
+    {
+      "key": "event_highschool_forgot_presentation_book_title",
+      "value": "Forgot Presentation Book"
+    },
+    {
+      "key": "event_highschool_forgot_presentation_book_desc",
+      "value": "You forgot to bring a book needed for your presentation."
+    },
+    {
+      "key": "choice_highschool_forgot_presentation_book_1",
+      "value": "Borrow from a friend."
+    },
+    {
+      "key": "log_highschool_forgot_presentation_book_1",
+      "value": "A friend lent me their book, saving the day."
+    },
+    {
+      "key": "choice_highschool_forgot_presentation_book_2",
+      "value": "Ask the teacher for a pass."
+    },
+    {
+      "key": "log_highschool_forgot_presentation_book_2",
+      "value": "I asked the teacher for forgiveness, and they were understanding."
+    },
+    {
+      "key": "choice_highschool_forgot_presentation_book_3",
+      "value": "Hide it."
+    },
+    {
+      "key": "log_highschool_forgot_presentation_book_3",
+      "value": "I tried to get through the presentation without anyone noticing."
+    },
+    {
+      "key": "event_highschool_football_practice_title",
+      "value": "Football Practice"
+    },
+    {
+      "key": "event_highschool_football_practice_desc",
+      "value": "It's time for football practice."
+    },
+    {
+      "key": "choice_highschool_football_practice_1",
+      "value": "Focus on training."
+    },
+    {
+      "key": "log_highschool_football_practice_1",
+      "value": "I gave it my all during practice."
+    },
+    {
+      "key": "choice_highschool_football_practice_2",
+      "value": "Be lazy."
+    },
+    {
+      "key": "log_highschool_football_practice_2",
+      "value": "I slacked off during drills."
+    },
+    {
+      "key": "choice_highschool_football_practice_3",
+      "value": "Chat with friends."
+    },
+    {
+      "key": "log_highschool_football_practice_3",
+      "value": "I spent most of the practice talking with teammates."
+    },
+    {
+      "key": "event_highschool_college_prep_workshop_title",
+      "value": "College Prep Workshop"
+    },
+    {
+      "key": "event_highschool_college_prep_workshop_desc",
+      "value": "The school is holding a workshop to prepare for college applications."
+    },
+    {
+      "key": "choice_highschool_college_prep_workshop_1",
+      "value": "Participate seriously."
+    },
+    {
+      "key": "log_highschool_college_prep_workshop_1",
+      "value": "I took the workshop seriously and learned a lot."
+    },
+    {
+      "key": "choice_highschool_college_prep_workshop_2",
+      "value": "Sit and play."
+    },
+    {
+      "key": "log_highschool_college_prep_workshop_2",
+      "value": "I was bored and just messed around on my phone."
+    },
+    {
+      "key": "choice_highschool_college_prep_workshop_3",
+      "value": "Sneak out."
+    },
+    {
+      "key": "log_highschool_college_prep_workshop_3",
+      "value": "I slipped out when no one was looking."
+    },
+    {
+      "key": "event_highschool_sat_act_test_title",
+      "value": "Mock SAT/ACT Test"
+    },
+    {
+      "key": "event_highschool_sat_act_test_desc",
+      "value": "You are taking a practice test for college entrance exams."
+    },
+    {
+      "key": "choice_highschool_sat_act_test_1",
+      "value": "Take it seriously."
+    },
+    {
+      "key": "log_highschool_sat_act_test_1",
+      "value": "I focused and did my best to prepare for the real thing."
+    },
+    {
+      "key": "choice_highschool_sat_act_test_2",
+      "value": "Talk during the test."
+    },
+    {
+      "key": "log_highschool_sat_act_test_2",
+      "value": "I got caught whispering to a friend."
+    },
+    {
+      "key": "choice_highschool_sat_act_test_3",
+      "value": "Rush through it to finish."
+    },
+    {
+      "key": "log_highschool_sat_act_test_3",
+      "value": "I didn't take it seriously and just wanted to be done."
+    },
+    {
+      "key": "event_highschool_promposal_title",
+      "value": "Promposal"
+    },
+    {
+      "key": "event_highschool_promposal_desc",
+      "value": "It's time to ask your crush to the prom."
+    },
+    {
+      "key": "choice_highschool_promposal_1",
+      "value": "Prepare a romantic gesture."
+    },
+    {
+      "key": "log_highschool_promposal_1",
+      "value": "I planned a big, romantic promposal."
+    },
+    {
+      "key": "choice_highschool_promposal_2",
+      "value": "Ask hastily."
+    },
+    {
+      "key": "log_highschool_promposal_2",
+      "value": "I just quickly and awkwardly asked them."
+    },
+    {
+      "key": "choice_highschool_promposal_3",
+      "value": "Get help from friends."
+    },
+    {
+      "key": "log_highschool_promposal_3",
+      "value": "My friends helped me come up with a cool idea."
+    },
+    {
+      "key": "event_highschool_prom_cafeteria_title",
+      "value": "Finding a Prom Date"
+    },
+    {
+      "key": "event_highschool_prom_cafeteria_desc",
+      "value": "You're in the cafeteria, and your crush is nearby. It's a good chance to talk about prom."
+    },
+    {
+      "key": "choice_highschool_prom_cafeteria_1",
+      "value": "Sit with your best friend."
+    },
+    {
+      "key": "log_highschool_prom_cafeteria_1",
+      "value": "I decided to sit with my friend instead."
+    },
+    {
+      "key": "choice_highschool_prom_cafeteria_2",
+      "value": "Sit next to your crush."
+    },
+    {
+      "key": "log_highschool_prom_cafeteria_2",
+      "value": "I gathered my courage and sat next to them."
+    },
+    {
+      "key": "choice_highschool_prom_cafeteria_3",
+      "value": "Sit alone."
+    },
+    {
+      "key": "log_highschool_prom_cafeteria_3",
+      "value": "I was too nervous and ended up sitting by myself."
+    },
+    {
+      "key": "event_highschool_homecoming_game_title",
+      "value": "Homecoming Parade & Game"
+    },
+    {
+      "key": "event_highschool_homecoming_game_desc",
+      "value": "It's the day of the big homecoming game and parade."
+    },
+    {
+      "key": "choice_highschool_homecoming_game_1",
+      "value": "Cheer enthusiastically."
+    },
+    {
+      "key": "log_highschool_homecoming_game_1",
+      "value": "I showed my school spirit and cheered loudly."
+    },
+    {
+      "key": "choice_highschool_homecoming_game_2",
+      "value": "Sneak away to hang out."
+    },
+    {
+      "key": "log_highschool_homecoming_game_2",
+      "value": "The game was boring, so I left with some friends."
+    },
+    {
+      "key": "choice_highschool_homecoming_game_3",
+      "value": "Sit in a corner and watch."
+    },
+    {
+      "key": "log_highschool_homecoming_game_3",
+      "value": "I watched the game quietly from the stands."
+    },
+    {
+      "key": "event_highschool_class_test_title",
+      "value": "In-Class Test"
+    },
+    {
+      "key": "event_highschool_class_test_desc",
+      "value": "You have an in-class test."
+    },
+    {
+      "key": "choice_highschool_class_test_1",
+      "value": "Do it seriously."
+    },
+    {
+      "key": "log_highschool_class_test_1",
+      "value": "I focused on doing my own work."
+    },
+    {
+      "key": "choice_highschool_class_test_2",
+      "value": "Look at a friend's paper."
+    },
+    {
+      "key": "log_highschool_class_test_2",
+      "value": "I peeked at my friend's answers for a tough question."
+    },
+    {
+      "key": "choice_highschool_class_test_3",
+      "value": "Just write down a few lines."
+    },
+    {
+      "key": "log_highschool_class_test_3",
+      "value": "I didn't know the answers, so I just wrote something down."
+    },
+    {
+      "key": "event_highschool_literature_discussion_title",
+      "value": "Literature Group Discussion"
+    },
+    {
+      "key": "event_highschool_literature_discussion_desc",
+      "value": "Your group is discussing a book in literature class."
+    },
+    {
+      "key": "choice_highschool_literature_discussion_1",
+      "value": "Share your opinions."
+    },
+    {
+      "key": "log_highschool_literature_discussion_1",
+      "value": "I actively participated and shared my analysis."
+    },
+    {
+      "key": "choice_highschool_literature_discussion_2",
+      "value": "Sit quietly and listen."
+    },
+    {
+      "key": "log_highschool_literature_discussion_2",
+      "value": "I preferred to hear what others had to say."
+    },
+    {
+      "key": "choice_highschool_literature_discussion_3",
+      "value": "Argue heatedly."
+    },
+    {
+      "key": "log_highschool_literature_discussion_3",
+      "value": "I got into a heated debate over the book's theme."
+    },
+    {
+      "key": "event_highschool_late_slip_title",
+      "value": "Got a Late Slip"
+    },
+    {
+      "key": "event_highschool_late_slip_desc",
+      "value": "You were written up for being late."
+    },
+    {
+      "key": "choice_highschool_late_slip_1",
+      "value": "Apologize and promise not to repeat it."
+    },
+    {
+      "key": "log_highschool_late_slip_1",
+      "value": "I apologized and promised it wouldn't happen again."
+    },
+    {
+      "key": "choice_highschool_late_slip_2",
+      "value": "Accept the punishment."
+    },
+    {
+      "key": "log_highschool_late_slip_2",
+      "value": "I accepted the detention."
+    },
+    {
+      "key": "choice_highschool_late_slip_3",
+      "value": "Argue back with a valid reason."
+    },
+    {
+      "key": "log_highschool_late_slip_3",
+      "value": "I argued that the traffic was a valid excuse."
+    },
+    {
+      "key": "event_highschool_teacher_discovers_hiding_title",
+      "value": "Teacher Found Out"
+    },
+    {
+      "key": "event_highschool_teacher_discovers_hiding_desc",
+      "value": "The teacher discovered you didn't have your book and were trying to hide it."
+    },
+    {
+      "key": "choice_highschool_teacher_discovers_hiding_1",
+      "value": "Apologize."
+    },
+    {
+      "key": "log_highschool_teacher_discovers_hiding_1",
+      "value": "I apologized for forgetting and for not being honest."
+    },
+    {
+      "key": "choice_highschool_teacher_discovers_hiding_2",
+      "value": "Make an excuse."
+    },
+    {
+      "key": "log_highschool_teacher_discovers_hiding_2",
+      "value": "I tried to come up with a reason."
+    },
+    {
+      "key": "choice_highschool_teacher_discovers_hiding_3",
+      "value": "Accept a deduction in grade."
+    },
+    {
+      "key": "log_highschool_teacher_discovers_hiding_3",
+      "value": "I accepted that my grade would be lowered."
+    },
+    {
+      "key": "event_highschool_coach_punishment_title",
+      "value": "Punished by the Coach"
+    },
+    {
+      "key": "event_highschool_coach_punishment_desc",
+      "value": "The coach punished you for being lazy during practice."
+    },
+    {
+      "key": "choice_highschool_coach_punishment_1",
+      "value": "Run extra laps."
+    },
+    {
+      "key": "log_highschool_coach_punishment_1",
+      "value": "I had to run extra laps as punishment."
+    },
+    {
+      "key": "choice_highschool_coach_punishment_2",
+      "value": "Sit on the penalty bench."
+    },
+    {
+      "key": "log_highschool_coach_punishment_2",
+      "value": "I had to sit out for the rest of the practice."
+    },
+    {
+      "key": "choice_highschool_coach_punishment_3",
+      "value": "Try to practice seriously."
+    },
+    {
+      "key": "log_highschool_coach_punishment_3",
+      "value": "I started practicing harder to make up for it."
+    },
+    {
+      "key": "event_highschool_counselor_reprimand_title",
+      "value": "Reprimanded by Counselor"
+    },
+    {
+      "key": "event_highschool_counselor_reprimand_desc",
+      "value": "The school counselor reprimanded you for not taking the workshop seriously."
+    },
+    {
+      "key": "choice_highschool_counselor_reprimand_1",
+      "value": "Go back and participate."
+    },
+    {
+      "key": "log_highschool_counselor_reprimand_1",
+      "value": "I rejoined the workshop and paid attention."
+    },
+    {
+      "key": "choice_highschool_counselor_reprimand_2",
+      "value": "Pretend to take notes."
+    },
+    {
+      "key": "log_highschool_counselor_reprimand_2",
+      "value": "I pretended to be engaged."
+    },
+    {
+      "key": "choice_highschool_counselor_reprimand_3",
+      "value": "Secretly continue scrolling on the phone."
+    },
+    {
+      "key": "log_highschool_counselor_reprimand_3",
+      "value": "I just kept looking at my phone."
+    },
+    {
+      "key": "event_highschool_invigilator_warning_test_title",
+      "value": "Warning from Invigilator"
+    },
+    {
+      "key": "event_highschool_invigilator_warning_test_desc",
+      "value": "The invigilator warned you during the test."
+    },
+    {
+      "key": "choice_highschool_invigilator_warning_test_1",
+      "value": "Put your head down and continue."
+    },
+    {
+      "key": "log_highschool_invigilator_warning_test_1",
+      "value": "I focused on my test."
+    },
+    {
+      "key": "choice_highschool_invigilator_warning_test_2",
+      "value": "Argue back, \"I was just asking a friend\"."
+    },
+    {
+      "key": "log_highschool_invigilator_warning_test_2",
+      "value": "I tried to defend myself."
+    },
+    {
+      "key": "choice_highschool_invigilator_warning_test_3",
+      "value": "Silently accept the point deduction."
+    },
+    {
+      "key": "log_highschool_invigilator_warning_test_3",
+      "value": "I accepted the consequences."
+    },
+    {
+      "key": "event_highschool_crush_rejects_promposal_title",
+      "value": "Rejected by Crush"
+    },
+    {
+      "key": "event_highschool_crush_rejects_promposal_desc",
+      "value": "Your crush rejected your promposal."
+    },
+    {
+      "key": "choice_highschool_crush_rejects_promposal_1",
+      "value": "Laugh it off."
+    },
+    {
+      "key": "log_highschool_crush_rejects_promposal_1",
+      "value": "I played it cool and laughed it off."
+    },
+    {
+      "key": "choice_highschool_crush_rejects_promposal_2",
+      "value": "Avoid them awkwardly."
+    },
+    {
+      "key": "log_highschool_crush_rejects_promposal_2",
+      "value": "It was too embarrassing to face them."
+    },
+    {
+      "key": "choice_highschool_crush_rejects_promposal_3",
+      "value": "Still invite them to go with a group."
+    },
+    {
+      "key": "log_highschool_crush_rejects_promposal_3",
+      "value": "I suggested we could all go as friends."
+    },
+    {
+      "key": "event_highschool_teased_by_friends_crush_title",
+      "value": "Teased by Friends"
+    },
+    {
+      "key": "event_highschool_teased_by_friends_crush_desc",
+      "value": "Your friends are teasing you for sitting next to your crush."
+    },
+    {
+      "key": "choice_highschool_teased_by_friends_crush_1",
+      "value": "Laugh it off."
+    },
+    {
+      "key": "log_highschool_teased_by_friends_crush_1",
+      "value": "I just laughed along with them."
+    },
+    {
+      "key": "choice_highschool_teased_by_friends_crush_2",
+      "value": "Move to another seat."
+    },
+    {
+      "key": "log_highschool_teased_by_friends_crush_2",
+      "value": "I got flustered and moved away."
+    },
+    {
+      "key": "choice_highschool_teased_by_friends_crush_3",
+      "value": "Joke back."
+    },
+    {
+      "key": "log_highschool_teased_by_friends_crush_3",
+      "value": "I teased them right back."
+    },
+    {
+      "key": "event_highschool_caught_skipping_title",
+      "value": "Caught Skipping"
+    },
+    {
+      "key": "event_highschool_caught_skipping_desc",
+      "value": "A monitor caught you skipping the game."
+    },
+    {
+      "key": "choice_highschool_caught_skipping_1",
+      "value": "Claim \"I was going to the restroom\"."
+    },
+    {
+      "key": "log_highschool_caught_skipping_1",
+      "value": "I made up an excuse."
+    },
+    {
+      "key": "choice_highschool_caught_skipping_2",
+      "value": "Accept being written up."
+    },
+    {
+      "key": "log_highschool_caught_skipping_2",
+      "value": "I accepted the punishment."
+    },
+    {
+      "key": "choice_highschool_caught_skipping_3",
+      "value": "Sneak back to class."
+    },
+    {
+      "key": "log_highschool_caught_skipping_3",
+      "value": "I tried to sneak back to avoid getting in more trouble."
+    },
+    {
+      "key": "event_highschool_teacher_reprimand_cheating_title",
+      "value": "Reprimanded for Cheating"
+    },
+    {
+      "key": "event_highschool_teacher_reprimand_cheating_desc",
+      "value": "The teacher reprimanded you for looking at your friend's paper."
+    },
+    {
+      "key": "choice_highschool_teacher_reprimand_cheating_1",
+      "value": "Apologize."
+    },
+    {
+      "key": "log_highschool_teacher_reprimand_cheating_1",
+      "value": "I admitted my mistake and apologized."
+    },
+    {
+      "key": "choice_highschool_teacher_reprimand_cheating_2",
+      "value": "Explain \"I was just looking around\"."
+    },
+    {
+      "key": "log_highschool_teacher_reprimand_cheating_2",
+      "value": "I tried to make an excuse."
+    },
+    {
+      "key": "choice_highschool_teacher_reprimand_cheating_3",
+      "value": "Accept the point deduction."
+    },
+    {
+      "key": "log_highschool_teacher_reprimand_cheating_3",
+      "value": "I accepted the penalty."
+    },
+    {
+      "key": "event_highschool_argument_with_friend_title",
+      "value": "Argument with Friend"
+    },
+    {
+      "key": "event_highschool_argument_with_friend_desc",
+      "value": "You got into an argument with your friend during the discussion."
+    },
+    {
+      "key": "choice_highschool_argument_with_friend_1",
+      "value": "Apologize."
+    },
+    {
+      "key": "log_highschool_argument_with_friend_1",
+      "value": "I apologized to smooth things over."
+    },
+    {
+      "key": "choice_highschool_argument_with_friend_2",
+      "value": "Continue the debate."
+    },
+    {
+      "key": "log_highschool_argument_with_friend_2",
+      "value": "We continued to debate our points."
+    },
+    {
+      "key": "choice_highschool_argument_with_friend_3",
+      "value": "Withdraw silently."
+    },
+    {
+      "key": "log_highschool_argument_with_friend_3",
+      "value": "I decided to drop the subject."
+    },
+    {
+      "key": "event_highschool_club_activity_title",
+      "value": "Club Activity"
+    },
+    {
+      "key": "event_highschool_club_activity_desc",
+      "value": "You are at a club meeting."
+    },
+    {
+      "key": "choice_highschool_club_activity_1",
+      "value": "Participate actively."
+    },
+    {
+      "key": "log_highschool_club_activity_1",
+      "value": "I was very engaged in the club's activities."
+    },
+    {
+      "key": "choice_highschool_club_activity_2",
+      "value": "Just sit and listen."
+    },
+    {
+      "key": "log_highschool_club_activity_2",
+      "value": "I preferred to just listen this time."
+    },
+    {
+      "key": "choice_highschool_club_activity_3",
+      "value": "Try one session and then quit."
+    },
+    {
+      "key": "log_highschool_club_activity_3",
+      "value": "The club wasn't for me."
+    },
+    {
+      "key": "event_highschool_playing_sports_title",
+      "value": "Playing Sports at School"
+    },
+    {
+      "key": "event_highschool_playing_sports_desc",
+      "value": "You are playing sports in the schoolyard."
+    },
+    {
+      "key": "choice_highschool_playing_sports_1",
+      "value": "Join a soccer game."
+    },
+    {
+      "key": "log_highschool_playing_sports_1",
+      "value": "I joined a pickup soccer game."
+    },
+    {
+      "key": "choice_highschool_playing_sports_2",
+      "value": "Be a cheerleader."
+    },
+    {
+      "key": "log_highschool_playing_sports_2",
+      "value": "I cheered for my friends."
+    },
+    {
+      "key": "choice_highschool_playing_sports_3",
+      "value": "Sit and eat snacks."
+    },
+    {
+      "key": "log_highschool_playing_sports_3",
+      "value": "I just relaxed and had some snacks."
+    },
+    {
+      "key": "event_highschool_lunchtime_title",
+      "value": "Lunchtime"
+    },
+    {
+      "key": "event_highschool_lunchtime_desc",
+      "value": "It's lunchtime."
+    },
+    {
+      "key": "choice_highschool_lunchtime_1",
+      "value": "Eat with your close friends."
+    },
+    {
+      "key": "log_highschool_lunchtime_1",
+      "value": "I had lunch with my best friends."
+    },
+    {
+      "key": "choice_highschool_lunchtime_2",
+      "value": "Sit with another class."
+    },
+    {
+      "key": "log_highschool_lunchtime_2",
+      "value": "I sat with some people from another class."
+    },
+    {
+      "key": "choice_highschool_lunchtime_3",
+      "value": "Eat quickly and leave."
+    },
+    {
+      "key": "log_highschool_lunchtime_3",
+      "value": "I had other things to do, so I ate quickly."
+    },
+    {
+      "key": "event_highschool_surprise_oral_exam_title",
+      "value": "Surprise Oral Exam"
+    },
+    {
+      "key": "event_highschool_surprise_oral_exam_desc",
+      "value": "The teacher gives a surprise oral exam."
+    },
+    {
+      "key": "choice_highschool_surprise_oral_exam_1",
+      "value": "Answer correctly."
+    },
+    {
+      "key": "log_highschool_surprise_oral_exam_1",
+      "value": "I was able to answer the question."
+    },
+    {
+      "key": "choice_highschool_surprise_oral_exam_2",
+      "value": "Stutter."
+    },
+    {
+      "key": "log_highschool_surprise_oral_exam_2",
+      "value": "I was caught off guard and couldn't answer well."
+    },
+    {
+      "key": "choice_highschool_surprise_oral_exam_3",
+      "value": "Laugh and ask the teacher to skip."
+    },
+    {
+      "key": "log_highschool_surprise_oral_exam_3",
+      "value": "I tried to charm my way out of it."
+    },
+    {
+      "key": "event_highschool_library_study_group_title",
+      "value": "Library Study Group"
+    },
+    {
+      "key": "event_highschool_library_study_group_desc",
+      "value": "You are in a study group at the library."
+    },
+    {
+      "key": "choice_highschool_library_study_group_1",
+      "value": "Study diligently."
+    },
+    {
+      "key": "log_highschool_library_study_group_1",
+      "value": "We were very productive."
+    },
+    {
+      "key": "choice_highschool_library_study_group_2",
+      "value": "Study while talking."
+    },
+    {
+      "key": "log_highschool_library_study_group_2",
+      "value": "We studied a bit, but mostly just chatted."
+    },
+    {
+      "key": "choice_highschool_library_study_group_3",
+      "value": "Mostly listen."
+    },
+    {
+      "key": "log_highschool_library_study_group_3",
+      "value": "I let others do most of the talking."
+    },
+    {
+      "key": "event_highschool_teacher_praise_title",
+      "value": "Praised by Teacher"
+    },
+    {
+      "key": "event_highschool_teacher_praise_desc",
+      "value": "The teacher praised you in front of the class."
+    },
+    {
+      "key": "choice_highschool_teacher_praise_1",
+      "value": "Feel shy."
+    },
+    {
+      "key": "log_highschool_teacher_praise_1",
+      "value": "I was embarrassed by the praise."
+    },
+    {
+      "key": "choice_highschool_teacher_praise_2",
+      "value": "Feel proud."
+    },
+    {
+      "key": "log_highschool_teacher_praise_2",
+      "value": "It felt great to be recognized."
+    },
+    {
+      "key": "choice_highschool_teacher_praise_3",
+      "value": "Pretend to be indifferent."
+    },
+    {
+      "key": "log_highschool_teacher_praise_3",
+      "value": "I acted like it wasn't a big deal."
+    },
+    {
+      "key": "event_highschool_teacher_criticism_title",
+      "value": "Criticized by Teacher"
+    },
+    {
+      "key": "event_highschool_teacher_criticism_desc",
+      "value": "The teacher criticized you."
+    },
+    {
+      "key": "choice_highschool_teacher_criticism_1",
+      "value": "Listen silently."
+    },
+    {
+      "key": "log_highschool_teacher_criticism_1",
+      "value": "I accepted the criticism."
+    },
+    {
+      "key": "choice_highschool_teacher_criticism_2",
+      "value": "Argue back."
+    },
+    {
+      "key": "log_highschool_teacher_criticism_2",
+      "value": "I tried to defend myself."
+    },
+    {
+      "key": "choice_highschool_teacher_criticism_3",
+      "value": "Think sadly."
+    },
+    {
+      "key": "log_highschool_teacher_criticism_3",
+      "value": "The criticism made me feel bad."
+    },
+    {
+      "key": "event_highschool_class_trip_title",
+      "value": "Class Trip"
+    },
+    {
+      "key": "event_highschool_class_trip_desc",
+      "value": "You are on a class trip."
+    },
+    {
+      "key": "choice_highschool_class_trip_1",
+      "value": "Take souvenir photos."
+    },
+    {
+      "key": "log_highschool_class_trip_1",
+      "value": "I took a lot of pictures to remember the trip."
+    },
+    {
+      "key": "choice_highschool_class_trip_2",
+      "value": "Participate in games."
+    },
+    {
+      "key": "log_highschool_class_trip_2",
+      "value": "I joined in all the fun activities."
+    },
+    {
+      "key": "choice_highschool_class_trip_3",
+      "value": "Sit and have a private conversation."
+    },
+    {
+      "key": "log_highschool_class_trip_3",
+      "value": "I spent the time chatting with a close friend."
+    },
+    {
+      "key": "event_highschool_class_debate_title",
+      "value": "Class Debate"
+    },
+    {
+      "key": "event_highschool_class_debate_desc",
+      "value": "You are in a class debate."
+    },
+    {
+      "key": "choice_highschool_class_debate_1",
+      "value": "Voice your opinion strongly."
+    },
+    {
+      "key": "log_highschool_class_debate_1",
+      "value": "I made a strong case for my point of view."
+    },
+    {
+      "key": "choice_highschool_class_debate_2",
+      "value": "Listen to your friends."
+    },
+    {
+      "key": "log_highschool_class_debate_2",
+      "value": "I listened to what others had to say."
+    },
+    {
+      "key": "choice_highschool_class_debate_3",
+      "value": "Chime in with a few sentences."
+    },
+    {
+      "key": "log_highschool_class_debate_3",
+      "value": "I added a few comments to the discussion."
+    },
+    {
+      "key": "event_highschool_class_birthday_party_title",
+      "value": "Classmate's Birthday Party"
+    },
+    {
+      "key": "event_highschool_class_birthday_party_desc",
+      "value": "Your class is celebrating a birthday."
+    },
+    {
+      "key": "choice_highschool_class_birthday_party_1",
+      "value": "Sing \"Happy Birthday\"."
+    },
+    {
+      "key": "log_highschool_class_birthday_party_1",
+      "value": "I sang along with everyone."
+    },
+    {
+      "key": "choice_highschool_class_birthday_party_2",
+      "value": "Eat cake."
+    },
+    {
+      "key": "log_highschool_class_birthday_party_2",
+      "value": "The cake was the best part."
+    },
+    {
+      "key": "choice_highschool_class_birthday_party_3",
+      "value": "Joke around."
+    },
+    {
+      "key": "log_highschool_class_birthday_party_3",
+      "value": "I was the life of the party."
+    },
+    {
+      "key": "event_highschool_sports_day_title",
+      "value": "Sports Day"
+    },
+    {
+      "key": "event_highschool_sports_day_desc",
+      "value": "It's the school sports day."
+    },
+    {
+      "key": "choice_highschool_sports_day_1",
+      "value": "Compete in the race."
+    },
+    {
+      "key": "log_highschool_sports_day_1",
+      "value": "I competed in a running event."
+    },
+    {
+      "key": "choice_highschool_sports_day_2",
+      "value": "Do the long jump."
+    },
+    {
+      "key": "log_highschool_sports_day_2",
+      "value": "I tried my best in the long jump."
+    },
+    {
+      "key": "choice_highschool_sports_day_3",
+      "value": "Be a cheerleader."
+    },
+    {
+      "key": "log_highschool_sports_day_3",
+      "value": "I cheered for my friends."
+    },
+    {
+      "key": "event_highschool_chemistry_test_title",
+      "value": "Chemistry Test"
+    },
+    {
+      "key": "event_highschool_chemistry_test_desc",
+      "value": "You have a chemistry test."
+    },
+    {
+      "key": "choice_highschool_chemistry_test_1",
+      "value": "Follow the procedures correctly."
+    },
+    {
+      "key": "log_highschool_chemistry_test_1",
+      "value": "I was careful and followed all the steps."
+    },
+    {
+      "key": "choice_highschool_chemistry_test_2",
+      "value": "Try to be creative."
+    },
+    {
+      "key": "log_highschool_chemistry_test_2",
+      "value": "I experimented a bit."
+    },
+    {
+      "key": "choice_highschool_chemistry_test_3",
+      "value": "Ask the person next to you."
+    },
+    {
+      "key": "log_highschool_chemistry_test_3",
+      "value": "I needed some help from my classmate."
+    },
+    {
+      "key": "event_highschool_meeting_teacher_outside_title",
+      "value": "Meeting a Teacher Outside School"
+    },
+    {
+      "key": "event_highschool_meeting_teacher_outside_desc",
+      "value": "You run into a teacher outside of school."
+    },
+    {
+      "key": "choice_highschool_meeting_teacher_outside_1",
+      "value": "Greet them."
+    },
+    {
+      "key": "log_highschool_meeting_teacher_outside_1",
+      "value": "I said hello to my teacher."
+    },
+    {
+      "key": "choice_highschool_meeting_teacher_outside_2",
+      "value": "Give a forced smile."
+    },
+    {
+      "key": "log_highschool_meeting_teacher_outside_2",
+      "value": "It was a bit awkward."
+    },
+    {
+      "key": "choice_highschool_meeting_teacher_outside_3",
+      "value": "Pretend not to see them."
+    },
+    {
+      "key": "log_highschool_meeting_teacher_outside_3",
+      "value": "I avoided eye contact."
+    },
+    {
+      "key": "event_highschool_international_visitor_title",
+      "value": "International Visitor in Class"
+    },
+    {
+      "key": "event_highschool_international_visitor_desc",
+      "value": "There is an international visitor in your class."
+    },
+    {
+      "key": "choice_highschool_international_visitor_1",
+      "value": "Speak English with them."
+    },
+    {
+      "key": "log_highschool_international_visitor_1",
+      "value": "I practiced my English with the visitor."
+    },
+    {
+      "key": "choice_highschool_international_visitor_2",
+      "value": "Smile and say hello."
+    },
+    {
+      "key": "log_highschool_international_visitor_2",
+      "value": "I gave them a friendly greeting."
+    },
+    {
+      "key": "choice_highschool_international_visitor_3",
+      "value": "Sit quietly."
+    },
+    {
+      "key": "log_highschool_international_visitor_3",
+      "value": "I was too shy to say anything."
+    },
+    {
+      "key": "event_highschool_parent_teacher_meeting_title",
+      "value": "Parent-Teacher Meeting"
+    },
+    {
+      "key": "event_highschool_parent_teacher_meeting_desc",
+      "value": "It's the day of parent-teacher meetings."
+    },
+    {
+      "key": "choice_highschool_parent_teacher_meeting_1",
+      "value": "Sit quietly and listen."
+    },
+    {
+      "key": "log_highschool_parent_teacher_meeting_1",
+      "value": "I listened to what the teacher had to say."
+    },
+    {
+      "key": "choice_highschool_parent_teacher_meeting_2",
+      "value": "Feel nervous."
+    },
+    {
+      "key": "log_highschool_parent_teacher_meeting_2",
+      "value": "I was worried about what the teacher would say."
+    },
+    {
+      "key": "choice_highschool_parent_teacher_meeting_3",
+      "value": "Whisper to your friend."
+    },
+    {
+      "key": "log_highschool_parent_teacher_meeting_3",
+      "value": "My friend and I whispered during the meeting."
+    },
+    {
+      "key": "event_highschool_museum_trip_title",
+      "value": "Museum Field Trip"
+    },
+    {
+      "key": "event_highschool_museum_trip_desc",
+      "value": "You are on a field trip to a museum."
+    },
+    {
+      "key": "choice_highschool_museum_trip_1",
+      "value": "Listen attentively."
+    },
+    {
+      "key": "log_highschool_museum_trip_1",
+      "value": "I found the exhibits very interesting."
+    },
+    {
+      "key": "choice_highschool_museum_trip_2",
+      "value": "Just look around."
+    },
+    {
+      "key": "log_highschool_museum_trip_2",
+      "value": "I mostly just wandered around."
+    },
+    {
+      "key": "choice_highschool_museum_trip_3",
+      "value": "Make small jokes."
+    },
+    {
+      "key": "log_highschool_museum_trip_3",
+      "value": "I goofed off with my friends."
+    },
+    {
+      "key": "event_highschool_prom_prep_title",
+      "value": "Preparing for Prom"
+    },
+    {
+      "key": "event_highschool_prom_prep_desc",
+      "value": "Prom is coming up, and you need to prepare."
+    },
+    {
+      "key": "choice_highschool_prom_prep_1",
+      "value": "Buy clothes."
+    },
+    {
+      "key": "log_highschool_prom_prep_1",
+      "value": "I went shopping for the perfect outfit."
+    },
+    {
+      "key": "choice_highschool_prom_prep_2",
+      "value": "Go with a group of friends."
+    },
+    {
+      "key": "log_highschool_prom_prep_2",
+      "value": "I decided to go to prom with my friends."
+    },
+    {
+      "key": "choice_highschool_prom_prep_3",
+      "value": "Stay home and watch a movie."
+    },
+    {
+      "key": "log_highschool_prom_prep_3",
+      "value": "Prom isn't really my thing."
+    },
+    {
+      "key": "event_highschool_talent_show_title",
+      "value": "Class Talent Show"
+    },
+    {
+      "key": "event_highschool_talent_show_desc",
+      "value": "Your class is having a talent show."
+    },
+    {
+      "key": "choice_highschool_talent_show_1",
+      "value": "Participate in singing and dancing."
+    },
+    {
+      "key": "log_highschool_talent_show_1",
+      "value": "I decided to perform in the show."
+    },
+    {
+      "key": "choice_highschool_talent_show_2",
+      "value": "Work backstage."
+    },
+    {
+      "key": "log_highschool_talent_show_2",
+      "value": "I helped out with the logistics."
+    },
+    {
+      "key": "choice_highschool_talent_show_3",
+      "value": "Sit and watch."
+    },
+    {
+      "key": "log_highschool_talent_show_3",
+      "value": "I enjoyed watching my classmates perform."
+    },
+    {
+      "key": "event_highschool_exam_results_title",
+      "value": "Receive Exam Results"
+    },
+    {
+      "key": "event_highschool_exam_results_desc",
+      "value": "You have received your exam results."
+    },
+    {
+      "key": "choice_highschool_exam_results_1",
+      "value": "Joyfully show them off."
+    },
+    {
+      "key": "log_highschool_exam_results_1",
+      "value": "I was proud of my results."
+    },
+    {
+      "key": "choice_highschool_exam_results_2",
+      "value": "Keep them quiet."
+    },
+    {
+      "key": "log_highschool_exam_results_2",
+      "value": "I kept my results to myself."
+    },
+    {
+      "key": "choice_highschool_exam_results_3",
+      "value": "Feel sad."
+    },
+    {
+      "key": "log_highschool_exam_results_3",
+      "value": "I was disappointed with my scores."
+    },
+    {
+      "key": "event_highschool_sharing_food_title",
+      "value": "Sharing Food"
+    },
+    {
+      "key": "event_highschool_sharing_food_desc",
+      "value": "You are sharing food with friends."
+    },
+    {
+      "key": "choice_highschool_sharing_food_1",
+      "value": "Give a portion to a friend."
+    },
+    {
+      "key": "log_highschool_sharing_food_1",
+      "value": "I shared my snack with a friend."
+    },
+    {
+      "key": "choice_highschool_sharing_food_2",
+      "value": "Trade dishes."
+    },
+    {
+      "key": "log_highschool_sharing_food_2",
+      "value": "We traded some of our lunch items."
+    },
+    {
+      "key": "choice_highschool_sharing_food_3",
+      "value": "Keep your portion."
+    },
+    {
+      "key": "log_highschool_sharing_food_3",
+      "value": "I was too hungry to share."
+    }
+  ]
+}

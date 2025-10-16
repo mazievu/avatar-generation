@@ -1,0 +1,1336 @@
+{
+  "items": [
+    {
+      "key": "event_flu_title",
+      "value": "Caught the Flu"
+    },
+    {
+      "key": "event_flu_desc",
+      "value": "You have a bad flu, feeling weak and achy."
+    },
+    {
+      "key": "choice_flu_1",
+      "value": "See a doctor and take medicine."
+    },
+    {
+      "key": "log_flu_1",
+      "value": "The medicine helped me recover quickly."
+    },
+    {
+      "key": "choice_flu_2",
+      "value": "Rest at home and drink plenty of water."
+    },
+    {
+      "key": "log_flu_2",
+      "value": "I decided to treat it myself at home, and recovered slowly."
+    },
+    {
+      "key": "choice_flu_3",
+      "value": "Ignore it and go to school/work."
+    },
+    {
+      "key": "log_flu_3",
+      "value": "The sickness got worse and I was criticized by others."
+    },
+    {
+      "key": "event_sickness_worsens_title",
+      "value": "Sickness Worsens"
+    },
+    {
+      "key": "event_sickness_worsens_desc",
+      "value": "Your condition has worsened. You feel much weaker."
+    },
+    {
+      "key": "choice_sickness_worsens_1",
+      "value": "Go to the hospital immediately."
+    },
+    {
+      "key": "log_sickness_worsens_1",
+      "value": "I received proper treatment at the hospital and started to feel better."
+    },
+    {
+      "key": "choice_sickness_worsens_2",
+      "value": "Continue to rest at home, hoping it will pass."
+    },
+    {
+      "key": "log_sickness_worsens_2",
+      "value": "The sickness lingered on and on."
+    },
+    {
+      "key": "choice_sickness_worsens_3",
+      "value": "Ask family to take care of you."
+    },
+    {
+      "key": "log_sickness_worsens_3",
+      "value": "My spirits improved, but I still felt weak."
+    },
+    {
+      "key": "event_chronic_illness_title",
+      "value": "Chronic Illness"
+    },
+    {
+      "key": "event_chronic_illness_desc",
+      "value": "The doctor diagnosed you with a chronic illness."
+    },
+    {
+      "key": "choice_chronic_illness_1",
+      "value": "Follow the treatment and stay optimistic."
+    },
+    {
+      "key": "log_chronic_illness_1",
+      "value": "I managed the illness and kept it stable."
+    },
+    {
+      "key": "choice_chronic_illness_2",
+      "value": "Ignore the doctor's advice."
+    },
+    {
+      "key": "log_chronic_illness_2",
+      "value": "My condition became much worse."
+    },
+    {
+      "key": "choice_chronic_illness_3",
+      "value": "Join a patient support group."
+    },
+    {
+      "key": "log_chronic_illness_3",
+      "value": "I found encouragement and comfort."
+    },
+    {
+      "key": "event_traffic_accident_title",
+      "value": "Traffic Accident"
+    },
+    {
+      "key": "event_traffic_accident_desc",
+      "value": "You've been involved in a minor traffic accident."
+    },
+    {
+      "key": "choice_traffic_accident_1",
+      "value": "Settle it peacefully and pay reasonable compensation."
+    },
+    {
+      "key": "log_traffic_accident_1",
+      "value": "Everything was resolved smoothly."
+    },
+    {
+      "key": "choice_traffic_accident_2",
+      "value": "Argue and blame the other person."
+    },
+    {
+      "key": "log_traffic_accident_2",
+      "value": "The argument just wasted time."
+    },
+    {
+      "key": "choice_traffic_accident_3",
+      "value": "Call the traffic police."
+    },
+    {
+      "key": "log_traffic_accident_3",
+      "value": "It took longer to resolve, but it was fair."
+    },
+    {
+      "key": "event_sued_title",
+      "value": "Sued"
+    },
+    {
+      "key": "event_sued_desc",
+      "value": "You received a summons from the court."
+    },
+    {
+      "key": "choice_sued_1",
+      "value": "Hire a lawyer to defend you."
+    },
+    {
+      "key": "log_sued_1",
+      "value": "The lawsuit was settled amicably."
+    },
+    {
+      "key": "choice_sued_2",
+      "value": "Defend yourself."
+    },
+    {
+      "key": "log_sued_2",
+      "value": "I lost the case and suffered heavy damages."
+    },
+    {
+      "key": "choice_sued_3",
+      "value": "Negotiate with the other party."
+    },
+    {
+      "key": "log_sued_3",
+      "value": "We settled, but my reputation was damaged."
+    },
+    {
+      "key": "event_lottery_win_title",
+      "value": "Lottery Win!"
+    },
+    {
+      "key": "event_lottery_win_desc",
+      "value": "You've won a big lottery prize!"
+    },
+    {
+      "key": "choice_lottery_win_1",
+      "value": "Invest for the long term."
+    },
+    {
+      "key": "log_lottery_win_1",
+      "value": "The money generated profit, securing my future."
+    },
+    {
+      "key": "choice_lottery_win_2",
+      "value": "Spend it and enjoy."
+    },
+    {
+      "key": "log_lottery_win_2",
+      "value": "The joy was short-lived, the money quickly ran out."
+    },
+    {
+      "key": "choice_lottery_win_3",
+      "value": "Deposit it in the bank."
+    },
+    {
+      "key": "log_lottery_win_3",
+      "value": "The money is safe, but the interest is low."
+    },
+    {
+      "key": "event_friends_exploit_title",
+      "value": "Friends Take Advantage"
+    },
+    {
+      "key": "event_friends_exploit_desc",
+      "value": "After you won the lottery, many old friends suddenly appeared and asked to borrow money."
+    },
+    {
+      "key": "choice_friends_exploit_1",
+      "value": "Lend them some money."
+    },
+    {
+      "key": "log_friends_exploit_1",
+      "value": "Some were grateful, some never paid me back."
+    },
+    {
+      "key": "choice_friends_exploit_2",
+      "value": "Politely refuse."
+    },
+    {
+      "key": "log_friends_exploit_2",
+      "value": "I realized who my true friends are."
+    },
+    {
+      "key": "choice_friends_exploit_3",
+      "value": "Cut off contact."
+    },
+    {
+      "key": "log_friends_exploit_3",
+      "value": "I avoided trouble but felt lonely."
+    },
+    {
+      "key": "event_lose_friend_title",
+      "value": "Lost a Friend"
+    },
+    {
+      "key": "event_lose_friend_desc",
+      "value": "A friend is no longer talking to you."
+    },
+    {
+      "key": "choice_lose_friend_1",
+      "value": "Proactively ask for the reason."
+    },
+    {
+      "key": "log_lose_friend_1",
+      "value": "We started talking again, but it was a bit awkward."
+    },
+    {
+      "key": "choice_lose_friend_2",
+      "value": "Accept it and move on."
+    },
+    {
+      "key": "log_lose_friend_2",
+      "value": "I was sad, but I moved on with my life."
+    },
+    {
+      "key": "choice_lose_friend_3",
+      "value": "Ignore them back."
+    },
+    {
+      "key": "log_lose_friend_3",
+      "value": "The friendship quietly ended."
+    },
+    {
+      "key": "event_lost_wallet_title",
+      "value": "Lost Wallet"
+    },
+    {
+      "key": "event_lost_wallet_desc",
+      "value": "You realize you've lost your wallet."
+    },
+    {
+      "key": "choice_lost_wallet_1",
+      "value": "Report to the police and get new documents."
+    },
+    {
+      "key": "log_lost_wallet_1",
+      "value": "It was a hassle, but at least I was safe."
+    },
+    {
+      "key": "choice_lost_wallet_2",
+      "value": "Hope someone returns it."
+    },
+    {
+      "key": "log_lost_wallet_2",
+      "value": "My wallet was never found."
+    },
+    {
+      "key": "choice_lost_wallet_3",
+      "value": "Borrow money from friends temporarily."
+    },
+    {
+      "key": "log_lost_wallet_3",
+      "value": "My friends helped me through the tough time."
+    },
+    {
+      "key": "event_buy_house_title",
+      "value": "Buy a House"
+    },
+    {
+      "key": "event_buy_house_desc",
+      "value": "Your family is considering buying a new house."
+    },
+    {
+      "key": "choice_buy_house_1",
+      "value": "Buy a large house."
+    },
+    {
+      "key": "log_buy_house_1",
+      "value": "We lived in a spacious house but were deep in debt."
+    },
+    {
+      "key": "choice_buy_house_2",
+      "value": "Buy a small, affordable house."
+    },
+    {
+      "key": "log_buy_house_2",
+      "value": "It was cozy and easy to manage."
+    },
+    {
+      "key": "choice_buy_house_3",
+      "value": "Continue renting."
+    },
+    {
+      "key": "log_buy_house_3",
+      "value": "It was flexible, but not stable."
+    },
+    {
+      "key": "event_buy_car_title",
+      "value": "Buy a Car"
+    },
+    {
+      "key": "event_buy_car_desc",
+      "value": "You're thinking about buying a car."
+    },
+    {
+      "key": "choice_buy_car_1",
+      "value": "Buy a luxury car."
+    },
+    {
+      "key": "log_buy_car_1",
+      "value": "The car was beautiful but a financial drain."
+    },
+    {
+      "key": "choice_buy_car_2",
+      "value": "Buy a standard car."
+    },
+    {
+      "key": "log_buy_car_2",
+      "value": "It served our daily needs well."
+    },
+    {
+      "key": "choice_buy_car_3",
+      "value": "Use public transport."
+    },
+    {
+      "key": "log_buy_car_3",
+      "value": "It was economical, but inconvenient."
+    },
+    {
+      "key": "event_burglary_title",
+      "value": "Burglary"
+    },
+    {
+      "key": "event_burglary_desc",
+      "value": "Your house was broken into by a burglar."
+    },
+    {
+      "key": "choice_burglary_1",
+      "value": "Report to the police and enhance security."
+    },
+    {
+      "key": "log_burglary_1",
+      "value": "We installed a new alarm system."
+    },
+    {
+      "key": "choice_burglary_2",
+      "value": "Confront the burglar."
+    },
+    {
+      "key": "log_burglary_2",
+      "value": "It was a foolish act, I got injured."
+    },
+    {
+      "key": "choice_burglary_3",
+      "value": "Hide and call the neighbors."
+    },
+    {
+      "key": "log_burglary_3",
+      "value": "We got help in time and were safe."
+    },
+    {
+      "key": "event_online_scam_title",
+      "value": "Online Scam"
+    },
+    {
+      "key": "event_online_scam_desc",
+      "value": "You received a suspicious email promising a large profit."
+    },
+    {
+      "key": "choice_online_scam_1",
+      "value": "Fell for it and clicked."
+    },
+    {
+      "key": "log_online_scam_1",
+      "value": "I lost a large amount of money because I was too trusting."
+    },
+    {
+      "key": "choice_online_scam_2",
+      "value": "Ignored it."
+    },
+    {
+      "key": "log_online_scam_2",
+      "value": "I was safe and didn't fall into the trap."
+    },
+    {
+      "key": "choice_online_scam_3",
+      "value": "Report it as a scam."
+    },
+    {
+      "key": "log_online_scam_3",
+      "value": "Others were also warned."
+    },
+    {
+      "key": "event_charity_donation_title",
+      "value": "Charity Donation"
+    },
+    {
+      "key": "event_charity_donation_desc",
+      "value": "A charity is asking for donations."
+    },
+    {
+      "key": "choice_charity_donation_1",
+      "value": "Donate a large amount."
+    },
+    {
+      "key": "log_charity_donation_1",
+      "value": "I am happy to be able to help many people."
+    },
+    {
+      "key": "choice_charity_donation_2",
+      "value": "Donate a small amount."
+    },
+    {
+      "key": "log_charity_donation_2",
+      "value": "A small amount, but meaningful."
+    },
+    {
+      "key": "choice_charity_donation_3",
+      "value": "Do not donate."
+    },
+    {
+      "key": "log_charity_donation_3",
+      "value": "I kept the money to take care of my family."
+    },
+    {
+      "key": "event_job_loss_social_crisis_title",
+      "value": "Job Loss due to Crisis"
+    },
+    {
+      "key": "event_job_loss_social_crisis_desc",
+      "value": "Due to an economic crisis, your company had to downsize, and you were among those laid off."
+    },
+    {
+      "key": "choice_job_loss_social_crisis_1",
+      "value": "Quickly look for a new job."
+    },
+    {
+      "key": "log_job_loss_social_crisis_1",
+      "value": "I found a new opportunity, but it was very stressful."
+    },
+    {
+      "key": "choice_job_loss_social_crisis_2",
+      "value": "Take a temporary break."
+    },
+    {
+      "key": "log_job_loss_social_crisis_2",
+      "value": "I felt relaxed but lost my income."
+    },
+    {
+      "key": "choice_job_loss_social_crisis_3",
+      "value": "Learn a new skill."
+    },
+    {
+      "key": "log_job_loss_social_crisis_3",
+      "value": "It was difficult at first but opened up a new path."
+    },
+    {
+      "key": "event_natural_disaster_title",
+      "value": "Natural Disaster"
+    },
+    {
+      "key": "event_natural_disaster_desc",
+      "value": "A natural disaster has occurred in your area."
+    },
+    {
+      "key": "choice_natural_disaster_1",
+      "value": "Protect the family first."
+    },
+    {
+      "key": "log_natural_disaster_1",
+      "value": "Everyone was safe, but terrified."
+    },
+    {
+      "key": "choice_natural_disaster_2",
+      "value": "Save your belongings."
+    },
+    {
+      "key": "log_natural_disaster_2",
+      "value": "I saved my property, but it was very dangerous."
+    },
+    {
+      "key": "choice_natural_disaster_3",
+      "value": "Join the community relief efforts."
+    },
+    {
+      "key": "log_natural_disaster_3",
+      "value": "It was difficult, but I was proud to have helped."
+    },
+    {
+      "key": "event_street_assault_title",
+      "value": "Street Assault"
+    },
+    {
+      "key": "event_street_assault_desc",
+      "value": "You were attacked by a stranger on the street."
+    },
+    {
+      "key": "choice_street_assault_1",
+      "value": "Fight back and run."
+    },
+    {
+      "key": "log_street_assault_1",
+      "value": "I managed to escape, but was injured."
+    },
+    {
+      "key": "choice_street_assault_2",
+      "value": "Give them your belongings to stay safe."
+    },
+    {
+      "key": "log_street_assault_2",
+      "value": "I was safe, but lost my valuables."
+    },
+    {
+      "key": "choice_street_assault_3",
+      "value": "Scream for help."
+    },
+    {
+      "key": "log_street_assault_3",
+      "value": "People nearby came to help."
+    },
+    {
+      "key": "log_asset_lost_robbery",
+      "value": "{name} was robbed and lost a valuable item: {assetName}."
+    },
+    {
+      "key": "event_getting_lost_title",
+      "value": "Getting Lost"
+    },
+    {
+      "key": "event_getting_lost_desc",
+      "value": "You got lost in an unfamiliar place."
+    },
+    {
+      "key": "choice_getting_lost_1",
+      "value": "Use a map/GPS."
+    },
+    {
+      "key": "log_getting_lost_1",
+      "value": "I found my way back."
+    },
+    {
+      "key": "choice_getting_lost_2",
+      "value": "Ask a stranger for directions."
+    },
+    {
+      "key": "log_getting_lost_2",
+      "value": "Their helpful advice got me out of the situation."
+    },
+    {
+      "key": "choice_getting_lost_3",
+      "value": "Wander around until you find a familiar road."
+    },
+    {
+      "key": "log_getting_lost_3",
+      "value": "It took me hours to get back."
+    },
+    {
+      "key": "event_unpaid_debt_title",
+      "value": "Unpaid Debt"
+    },
+    {
+      "key": "event_unpaid_debt_desc",
+      "value": "An old friend is asking for a debt you forgot about."
+    },
+    {
+      "key": "choice_unpaid_debt_1",
+      "value": "Pay it all back immediately."
+    },
+    {
+      "key": "log_unpaid_debt_1",
+      "value": "I kept my reputation but lost money."
+    },
+    {
+      "key": "choice_unpaid_debt_2",
+      "value": "Avoid them."
+    },
+    {
+      "key": "log_unpaid_debt_2",
+      "value": "The debt haunted me."
+    },
+    {
+      "key": "choice_unpaid_debt_3",
+      "value": "Negotiate a payment plan."
+    },
+    {
+      "key": "log_unpaid_debt_3",
+      "value": "We agreed to pay it back in installments."
+    },
+    {
+      "key": "event_tax_evasion_discovered_title",
+      "value": "Tax Evasion Discovered"
+    },
+    {
+      "key": "event_tax_evasion_discovered_desc",
+      "value": "The tax office has discovered an error in your records."
+    },
+    {
+      "key": "choice_tax_evasion_discovered_1",
+      "value": "Pay the fine immediately."
+    },
+    {
+      "key": "log_tax_evasion_discovered_1",
+      "value": "I lost money but avoided bigger trouble."
+    },
+    {
+      "key": "choice_tax_evasion_discovered_2",
+      "value": "Deny responsibility."
+    },
+    {
+      "key": "log_tax_evasion_discovered_2",
+      "value": "The fine increased after an investigation."
+    },
+    {
+      "key": "choice_tax_evasion_discovered_3",
+      "value": "Hire an accountant to fix the records."
+    },
+    {
+      "key": "log_tax_evasion_discovered_3",
+      "value": "Professional help minimized the risk."
+    },
+    {
+      "key": "event_investment_opportunity_title",
+      "value": "Investment Opportunity"
+    },
+    {
+      "key": "event_investment_opportunity_desc",
+      "value": "You have a promising investment opportunity."
+    },
+    {
+      "key": "choice_investment_opportunity_1",
+      "value": "Invest a large amount."
+    },
+    {
+      "key": "log_investment_opportunity_1",
+      "value": "High potential, but risky."
+    },
+    {
+      "key": "choice_investment_opportunity_2",
+      "value": "Invest a small amount to test it."
+    },
+    {
+      "key": "log_investment_opportunity_2",
+      "value": "I was cautious, but the profit was small."
+    },
+    {
+      "key": "choice_investment_opportunity_3",
+      "value": "Ignore the offer."
+    },
+    {
+      "key": "log_investment_opportunity_3",
+      "value": "I avoided the risk but missed the opportunity."
+    },
+    {
+      "key": "event_investment_failure_title",
+      "value": "Investment Failure"
+    },
+    {
+      "key": "event_investment_failure_desc",
+      "value": "Your recent investment has failed."
+    },
+    {
+      "key": "choice_investment_failure_1",
+      "value": "Accept the loss and stop."
+    },
+    {
+      "key": "log_investment_failure_1",
+      "value": "I stopped before losing more."
+    },
+    {
+      "key": "choice_investment_failure_2",
+      "value": "Analyze the mistake to learn from it."
+    },
+    {
+      "key": "log_investment_failure_2",
+      "value": "It was costly, but I gained experience."
+    },
+    {
+      "key": "choice_investment_failure_3",
+      "value": "Invest elsewhere to recoup the loss."
+    },
+    {
+      "key": "log_investment_failure_3",
+      "value": "I took a bigger risk hoping to recover."
+    },
+    {
+      "key": "event_small_lottery_title",
+      "value": "Small Lottery Win"
+    },
+    {
+      "key": "event_small_lottery_desc",
+      "value": "You won a small lottery prize."
+    },
+    {
+      "key": "choice_small_lottery_1",
+      "value": "Treat yourself to a nice meal."
+    },
+    {
+      "key": "log_small_lottery_1",
+      "value": "I'll use this money to buy a nice meal."
+    },
+    {
+      "key": "choice_small_lottery_2",
+      "value": "Buy more lottery tickets."
+    },
+    {
+      "key": "log_small_lottery_2",
+      "value": "I gambled and got nothing."
+    },
+    {
+      "key": "choice_small_lottery_3",
+      "value": "Save it."
+    },
+    {
+      "key": "log_small_lottery_3",
+      "value": "A small addition to my savings."
+    },
+    {
+      "key": "event_get_a_pet_title",
+      "value": "Get a Pet"
+    },
+    {
+      "key": "event_get_a_pet_desc",
+      "value": "You're considering getting a pet."
+    },
+    {
+      "key": "choice_get_a_pet_1",
+      "value": "Adopt and take good care of it."
+    },
+    {
+      "key": "log_get_a_pet_1",
+      "value": "The pet has become an indispensable member of the family."
+    },
+    {
+      "key": "choice_get_a_pet_2",
+      "value": "Adopt but neglect your responsibility."
+    },
+    {
+      "key": "log_get_a_pet_2",
+      "value": "The pet caused more stress than joy."
+    },
+    {
+      "key": "choice_get_a_pet_3",
+      "value": "Foster temporarily first."
+    },
+    {
+      "key": "log_get_a_pet_3",
+      "value": "I tried it out before making a long-term commitment."
+    },
+    {
+      "key": "event_loan_shark_title",
+      "value": "Loan Shark"
+    },
+    {
+      "key": "event_loan_shark_desc",
+      "value": "Due to a shortage of money, you considered borrowing from a loan shark."
+    },
+    {
+      "key": "choice_loan_shark_1",
+      "value": "No, too dangerous."
+    },
+    {
+      "key": "log_loan_shark_1",
+      "value": "I was safe, even though I was still short on money."
+    },
+    {
+      "key": "choice_loan_shark_2",
+      "value": "Borrow a small amount."
+    },
+    {
+      "key": "log_loan_shark_2",
+      "value": "A temporary solution, but a risk later on."
+    },
+    {
+      "key": "choice_loan_shark_3",
+      "value": "Look for a bank or family loan."
+    },
+    {
+      "key": "log_loan_shark_3",
+      "value": "I found a safer solution."
+    },
+    {
+      "key": "event_loan_shark_enforcers_title",
+      "value": "Debt Collectors"
+    },
+    {
+      "key": "event_loan_shark_enforcers_desc",
+      "value": "The loan sharks came to collect the debt."
+    },
+    {
+      "key": "choice_loan_shark_enforcers_1",
+      "value": "Pay them all."
+    },
+    {
+      "key": "log_loan_shark_enforcers_1",
+      "value": "I had to pay a much larger amount than I borrowed."
+    },
+    {
+      "key": "choice_loan_shark_enforcers_2",
+      "value": "Refuse and face the violence."
+    },
+    {
+      "key": "log_loan_shark_enforcers_2",
+      "value": "I was injured and terrified."
+    },
+    {
+      "key": "choice_loan_shark_enforcers_3",
+      "value": "Call the police for help."
+    },
+    {
+      "key": "log_loan_shark_enforcers_3",
+      "value": "The authorities protected me, but I still owed money."
+    },
+    {
+      "key": "event_relative_is_sick_title",
+      "value": "Relative is Sick"
+    },
+    {
+      "key": "event_relative_is_sick_desc",
+      "value": "A relative of yours is seriously ill."
+    },
+    {
+      "key": "choice_relative_is_sick_1",
+      "value": "Help with medical expenses."
+    },
+    {
+      "key": "log_relative_is_sick_1",
+      "value": "It was expensive, but family is the most important thing."
+    },
+    {
+      "key": "choice_relative_is_sick_2",
+      "value": "Can only offer moral support."
+    },
+    {
+      "key": "log_relative_is_sick_2",
+      "value": "I was by their side, even without money."
+    },
+    {
+      "key": "choice_relative_is_sick_3",
+      "value": "Organize a fundraiser."
+    },
+    {
+      "key": "log_relative_is_sick_3",
+      "value": "Community support eased the burden."
+    },
+    {
+      "key": "event_self_development_seminar_title",
+      "value": "Self-Development Seminar"
+    },
+    {
+      "key": "event_self_development_seminar_desc",
+      "value": "You are invited to a self-development seminar."
+    },
+    {
+      "key": "choice_self_development_seminar_1",
+      "value": "Attend and take notes."
+    },
+    {
+      "key": "log_self_development_seminar_1",
+      "value": "I learned many new skills and ideas."
+    },
+    {
+      "key": "choice_self_development_seminar_2",
+      "value": "Politely decline."
+    },
+    {
+      "key": "log_self_development_seminar_2",
+      "value": "I missed out on some useful advice."
+    },
+    {
+      "key": "choice_self_development_seminar_3",
+      "value": "Learn online instead."
+    },
+    {
+      "key": "log_self_development_seminar_3",
+      "value": "I gained knowledge more cheaply."
+    },
+    {
+      "key": "event_minor_accident_title",
+      "value": "Minor Accident"
+    },
+    {
+      "key": "event_minor_accident_desc",
+      "value": "You had a minor accident in your daily life."
+    },
+    {
+      "key": "choice_minor_accident_1",
+      "value": "Go to the doctor and get treatment."
+    },
+    {
+      "key": "log_minor_accident_1",
+      "value": "I was treated quickly and recovered."
+    },
+    {
+      "key": "choice_minor_accident_2",
+      "value": "Treat it at home."
+    },
+    {
+      "key": "log_minor_accident_2",
+      "value": "It got worse before it got better."
+    },
+    {
+      "key": "choice_minor_accident_3",
+      "value": "File an insurance claim."
+    },
+    {
+      "key": "log_minor_accident_3",
+      "value": "The paperwork was slow but it helped later."
+    },
+    {
+      "key": "event_pyramid_scheme_title",
+      "value": "Pyramid Scheme"
+    },
+    {
+      "key": "event_pyramid_scheme_desc",
+      "value": "A friend introduces you to a pyramid scheme."
+    },
+    {
+      "key": "choice_pyramid_scheme_1",
+      "value": "Join and invest."
+    },
+    {
+      "key": "log_pyramid_scheme_1",
+      "value": "I lost all my money to the scam."
+    },
+    {
+      "key": "choice_pyramid_scheme_2",
+      "value": "Decline to join."
+    },
+    {
+      "key": "log_pyramid_scheme_2",
+      "value": "I was safe and kept my distance."
+    },
+    {
+      "key": "choice_pyramid_scheme_3",
+      "value": "Warn others about it."
+    },
+    {
+      "key": "log_pyramid_scheme_3",
+      "value": "I protected some friends from losing money."
+    },
+    {
+      "key": "event_relative_death_title",
+      "value": "Relative Passes Away"
+    },
+    {
+      "key": "event_relative_death_desc",
+      "value": "You receive sad news that a distant relative (not in the family tree) has passed away."
+    },
+    {
+      "key": "choice_relative_death_1",
+      "value": "Help organize the funeral."
+    },
+    {
+      "key": "log_relative_death_1",
+      "value": "It was a heavy but important task."
+    },
+    {
+      "key": "choice_relative_death_2",
+      "value": "Grieve deeply."
+    },
+    {
+      "key": "log_relative_death_2",
+      "value": "I was devastated for weeks."
+    },
+    {
+      "key": "choice_relative_death_3",
+      "value": "Provide emotional support to the family."
+    },
+    {
+      "key": "log_relative_death_3",
+      "value": "Together we got through the loss."
+    },
+    {
+      "key": "event_large_gift_title",
+      "value": "Large Gift"
+    },
+    {
+      "key": "event_large_gift_desc",
+      "value": "You received a large gift from a relative."
+    },
+    {
+      "key": "choice_large_gift_1",
+      "value": "Accept it gratefully."
+    },
+    {
+      "key": "log_large_gift_1",
+      "value": "I felt grateful and appreciated."
+    },
+    {
+      "key": "choice_large_gift_2",
+      "value": "Feel awkward."
+    },
+    {
+      "key": "log_large_gift_2",
+      "value": "I wasn't sure how to react."
+    },
+    {
+      "key": "choice_large_gift_3",
+      "value": "Give a gift or letter in return."
+    },
+    {
+      "key": "log_large_gift_3",
+      "value": "I showed my appreciation respectfully."
+    },
+    {
+      "key": "event_stranger_asks_for_help_title",
+      "value": "Stranger Asks for Help"
+    },
+    {
+      "key": "event_stranger_asks_for_help_desc",
+      "value": "A stranger asks for your help on the street."
+    },
+    {
+      "key": "choice_stranger_asks_for_help_1",
+      "value": "Help them directly."
+    },
+    {
+      "key": "log_stranger_asks_for_help_1",
+      "value": "Doing a good deed makes me feel happy."
+    },
+    {
+      "key": "choice_stranger_asks_for_help_2",
+      "value": "Decline and walk away."
+    },
+    {
+      "key": "log_stranger_asks_for_help_2",
+      "value": "I avoided risk but felt guilty."
+    },
+    {
+      "key": "choice_stranger_asks_for_help_3",
+      "value": "Direct them to a place that can help."
+    },
+    {
+      "key": "log_stranger_asks_for_help_3",
+      "value": "They received the proper help."
+    },
+    {
+      "key": "event_social_movement_title",
+      "value": "Social Movement"
+    },
+    {
+      "key": "event_social_movement_desc",
+      "value": "A large protest is happening in the city."
+    },
+    {
+      "key": "choice_social_movement_1",
+      "value": "Join the protest."
+    },
+    {
+      "key": "log_social_movement_1",
+      "value": "I felt empowered standing with others."
+    },
+    {
+      "key": "choice_social_movement_2",
+      "value": "Stay away from it."
+    },
+    {
+      "key": "log_social_movement_2",
+      "value": "I avoided danger but felt helpless."
+    },
+    {
+      "key": "choice_social_movement_3",
+      "value": "Support online or donate."
+    },
+    {
+      "key": "log_social_movement_3",
+      "value": "I contributed safely from home."
+    },
+    {
+      "key": "event_homeless_person_title",
+      "value": "Homeless Person"
+    },
+    {
+      "key": "event_homeless_person_desc",
+      "value": "You encounter a homeless person on the street."
+    },
+    {
+      "key": "choice_homeless_person_1",
+      "value": "Give them some money."
+    },
+    {
+      "key": "log_homeless_person_1",
+      "value": "I hope it helps them a little."
+    },
+    {
+      "key": "choice_homeless_person_2",
+      "value": "Walk by."
+    },
+    {
+      "key": "log_homeless_person_2",
+      "value": "I felt guilty for ignoring them."
+    },
+    {
+      "key": "choice_homeless_person_3",
+      "value": "Buy them food or direct them to a shelter."
+    },
+    {
+      "key": "log_homeless_person_3",
+      "value": "I helped in a practical way."
+    },
+    {
+      "key": "event_lost_valuable_item_title",
+      "value": "Lost a Valuable Item"
+    },
+    {
+      "key": "event_lost_valuable_item_desc",
+      "value": "You lost a valuable item."
+    },
+    {
+      "key": "choice_lost_valuable_item_1",
+      "value": "Search for it thoroughly."
+    },
+    {
+      "key": "log_lost_valuable_item_1",
+      "value": "I found it after a stressful search."
+    },
+    {
+      "key": "choice_lost_valuable_item_2",
+      "value": "Accept the loss."
+    },
+    {
+      "key": "log_lost_valuable_item_2",
+      "value": "I was sad but I moved on."
+    },
+    {
+      "key": "choice_lost_valuable_item_3",
+      "value": "Post a notice or offer a reward."
+    },
+    {
+      "key": "log_lost_valuable_item_3",
+      "value": "I increased my chances of getting it back."
+    },
+    {
+      "key": "event_rescued_from_accident_title",
+      "value": "Rescued from an Accident"
+    },
+    {
+      "key": "event_rescued_from_accident_desc",
+      "value": "You were about to have an accident but were saved by a stranger."
+    },
+    {
+      "key": "choice_rescued_from_accident_1",
+      "value": "Thank them sincerely."
+    },
+    {
+      "key": "log_rescued_from_accident_1",
+      "value": "I expressed my deep gratitude."
+    },
+    {
+      "key": "choice_rescued_from_accident_2",
+      "value": "Still in shock."
+    },
+    {
+      "key": "log_rescued_from_accident_2",
+      "value": "I couldn't calm down for hours."
+    },
+    {
+      "key": "choice_rescued_from_accident_3",
+      "value": "Give a gift or keep in touch."
+    },
+    {
+      "key": "log_rescued_from_accident_3",
+      "value": "I built a relationship with my rescuer."
+    },
+    {
+      "key": "event_falsely_accused_title",
+      "value": "Falsely Accused"
+    },
+    {
+      "key": "event_falsely_accused_desc",
+      "value": "You were falsely accused of something you did not do."
+    },
+    {
+      "key": "choice_falsely_accused_1",
+      "value": "Provide proof of your innocence."
+    },
+    {
+      "key": "log_falsely_accused_1",
+      "value": "The truth cleared my name."
+    },
+    {
+      "key": "choice_falsely_accused_2",
+      "value": "Stay silent and endure it."
+    },
+    {
+      "key": "log_falsely_accused_2",
+      "value": "No one believed me."
+    },
+    {
+      "key": "choice_falsely_accused_3",
+      "value": "Seek legal help."
+    },
+    {
+      "key": "log_falsely_accused_3",
+      "value": "A lawyer helped me defend myself."
+    },
+    {
+      "key": "event_surprise_gift_title",
+      "value": "Surprise Gift"
+    },
+    {
+      "key": "event_surprise_gift_desc",
+      "value": "You received a surprise gift."
+    },
+    {
+      "key": "choice_surprise_gift_1",
+      "value": "Accept it with joy."
+    },
+    {
+      "key": "log_surprise_gift_1",
+      "value": "The gift made me very happy!"
+    },
+    {
+      "key": "choice_surprise_gift_2",
+      "value": "Feel a bit confused."
+    },
+    {
+      "key": "log_surprise_gift_2",
+      "value": "I don't know why I received it."
+    },
+    {
+      "key": "choice_surprise_gift_3",
+      "value": "Share the joy with others."
+    },
+    {
+      "key": "log_surprise_gift_3",
+      "value": "I spread the happiness by showing it to my friends."
+    },
+    {
+      "key": "log_death_low_happiness",
+      "value": "{name} passed away due to prolonged unhappiness."
+    },
+    {
+      "key": "log_death_low_health",
+      "value": "{name} passed away due to prolonged poor health."
+    },
+    {
+      "key": "log_death_low_happiness_and_health",
+      "value": "{name} passed away due to prolonged unhappiness and poor health."
+    },
+    {
+      "key": "log_happiness_no_promotion",
+      "value": "{name}'s happiness is decreasing due to lack of promotion in {jobTitle}."
+    },
+    {
+      "key": "event_investment_success_large_title",
+      "value": "Investment Success!"
+    },
+    {
+      "key": "event_investment_success_large_desc",
+      "value": "Your large investment has yielded a huge profit!"
+    },
+    {
+      "key": "choice_investment_success_large_1",
+      "value": "Wonderful!"
+    },
+    {
+      "key": "log_investment_success_large_1",
+      "value": "The risk paid off handsomely."
+    },
+    {
+      "key": "choice_investment_success_large_2",
+      "value": "Reinvest immediately."
+    },
+    {
+      "key": "log_investment_success_large_2",
+      "value": "I'll use this money to continue investing."
+    },
+    {
+      "key": "choice_investment_success_large_3",
+      "value": "Keep the money safe in the bank."
+    },
+    {
+      "key": "log_investment_success_large_3",
+      "value": "I decided to secure the profit I just made."
+    },
+    {
+      "key": "event_investment_success_small_title",
+      "value": "Investment Success"
+    },
+    {
+      "key": "event_investment_success_small_desc",
+      "value": "Your small investment has yielded a decent profit."
+    },
+    {
+      "key": "choice_investment_success_small_1",
+      "value": "A good start."
+    },
+    {
+      "key": "log_investment_success_small_1",
+      "value": "This is a good sign."
+    },
+    {
+      "key": "choice_investment_success_small_2",
+      "value": "Celebrate this success."
+    },
+    {
+      "key": "log_investment_success_small_2",
+      "value": "I'll treat myself a little."
+    },
+    {
+      "key": "choice_investment_success_small_3",
+      "value": "Continue investing in a controlled manner."
+    },
+    {
+      "key": "log_investment_success_small_3",
+      "value": "I will use this experience to grow gradually."
+    }
+  ]
+}

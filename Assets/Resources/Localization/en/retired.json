@@ -1,0 +1,1284 @@
+{
+  "items": [
+    {
+      "key": "event_retired_official_retirement_day_title",
+      "value": "Official Retirement Day"
+    },
+    {
+      "key": "event_retired_official_retirement_day_desc",
+      "value": "Today is your last day of work. How do you feel?"
+    },
+    {
+      "key": "choice_retired_official_retirement_day_1",
+      "value": "Have a small party with family"
+    },
+    {
+      "key": "log_retired_official_retirement_day_1",
+      "value": "I had a cozy party with my loved ones."
+    },
+    {
+      "key": "choice_retired_official_retirement_day_2",
+      "value": "Celebrate with colleagues"
+    },
+    {
+      "key": "log_retired_official_retirement_day_2",
+      "value": "It was a meaningful farewell with those I worked with."
+    },
+    {
+      "key": "choice_retired_official_retirement_day_3",
+      "value": "Stay home and rest because you feel tired"
+    },
+    {
+      "key": "log_retired_official_retirement_day_3",
+      "value": "After all these years, I can finally truly rest."
+    },
+    {
+      "key": "event_retired_first_pension_title",
+      "value": "First Pension Received"
+    },
+    {
+      "key": "event_retired_first_pension_desc",
+      "value": "You just received your first pension payment."
+    },
+    {
+      "key": "choice_retired_first_pension_1",
+      "value": "Put it into savings"
+    },
+    {
+      "key": "log_retired_first_pension_1",
+      "value": "I need to plan my expenses for the future."
+    },
+    {
+      "key": "choice_retired_first_pension_2",
+      "value": "Use it to travel"
+    },
+    {
+      "key": "log_retired_first_pension_2",
+      "value": "This is a chance to take the trips I've always dreamed of."
+    },
+    {
+      "key": "choice_retired_first_pension_3",
+      "value": "Give a portion to children and grandchildren"
+    },
+    {
+      "key": "log_retired_first_pension_3",
+      "value": "Seeing my children and grandchildren happy is my happiness."
+    },
+    {
+      "key": "event_retired_health_checkup_title",
+      "value": "Go for a general health check-up"
+    },
+    {
+      "key": "event_retired_health_checkup_desc",
+      "value": "It's time for a routine health check-up."
+    },
+    {
+      "key": "choice_retired_health_checkup_1",
+      "value": "Do everything the doctor says"
+    },
+    {
+      "key": "log_retired_health_checkup_1",
+      "value": "Health is the most precious asset, I need to take care of it."
+    },
+    {
+      "key": "choice_retired_health_checkup_2",
+      "value": "Skip a few tests"
+    },
+    {
+      "key": "log_retired_health_checkup_2",
+      "value": "I feel fine, no need for too many tests."
+    },
+    {
+      "key": "choice_retired_health_checkup_3",
+      "value": "Postpone it for later because you feel tired"
+    },
+    {
+      "key": "log_retired_health_checkup_3",
+      "value": "I'll go for a check-up another day."
+    },
+    {
+      "key": "event_retired_volunteering_title",
+      "value": "Participate in volunteer activities"
+    },
+    {
+      "key": "event_retired_volunteering_desc",
+      "value": "You are considering participating in a local volunteer activity."
+    },
+    {
+      "key": "choice_retired_volunteering_1",
+      "value": "Help at the library"
+    },
+    {
+      "key": "log_retired_volunteering_1",
+      "value": "The work at the library is quiet and meaningful."
+    },
+    {
+      "key": "choice_retired_volunteering_2",
+      "value": "Help at a nursing home"
+    },
+    {
+      "key": "log_retired_volunteering_2",
+      "value": "Chatting with other elderly friends brings me joy."
+    },
+    {
+      "key": "choice_retired_volunteering_3",
+      "value": "Help distribute food for charity"
+    },
+    {
+      "key": "log_retired_volunteering_3",
+      "value": "Helping those in need makes my life feel more meaningful."
+    },
+    {
+      "key": "event_retired_long_trip_title",
+      "value": "First long trip after retirement"
+    },
+    {
+      "key": "event_retired_long_trip_desc",
+      "value": "This is your first long trip after retiring."
+    },
+    {
+      "key": "choice_retired_long_trip_1",
+      "value": "Go on a cross-state road trip"
+    },
+    {
+      "key": "log_retired_long_trip_1",
+      "value": "The trip was amazing with beautiful roadside scenery."
+    },
+    {
+      "key": "choice_retired_long_trip_2",
+      "value": "Go on a cruise"
+    },
+    {
+      "key": "log_retired_long_trip_2",
+      "value": "Enjoying the sea and luxury services is so relaxing."
+    },
+    {
+      "key": "choice_retired_long_trip_3",
+      "value": "Fly to Europe"
+    },
+    {
+      "key": "log_retired_long_trip_3",
+      "value": "Exploring new cultures is an unforgettable experience."
+    },
+    {
+      "key": "event_retired_amusement_park_title",
+      "value": "Invited to an amusement park by grandchildren"
+    },
+    {
+      "key": "event_retired_amusement_park_desc",
+      "value": "The grandchildren invite you to an amusement park."
+    },
+    {
+      "key": "choice_retired_amusement_park_1",
+      "value": "Go on all the thrill rides"
+    },
+    {
+      "key": "log_retired_amusement_park_1",
+      "value": "I feel like I'm 20 years younger!"
+    },
+    {
+      "key": "choice_retired_amusement_park_2",
+      "value": "Just stand and watch"
+    },
+    {
+      "key": "log_retired_amusement_park_2",
+      "value": "Seeing the grandchildren happy makes me happy too."
+    },
+    {
+      "key": "choice_retired_amusement_park_3",
+      "value": "Sit and rest because you can't keep up"
+    },
+    {
+      "key": "log_retired_amusement_park_3",
+      "value": "My health doesn't allow me to run around much anymore."
+    },
+    {
+      "key": "event_retired_seniors_club_title",
+      "value": "Join a local seniors' club"
+    },
+    {
+      "key": "event_retired_seniors_club_desc",
+      "value": "You decide to join the local seniors' club."
+    },
+    {
+      "key": "choice_retired_seniors_club_1",
+      "value": "Participate in dancing"
+    },
+    {
+      "key": "log_retired_seniors_club_1",
+      "value": "Dancing makes me feel healthy and vibrant."
+    },
+    {
+      "key": "choice_retired_seniors_club_2",
+      "value": "Play chess with the group"
+    },
+    {
+      "key": "log_retired_seniors_club_2",
+      "value": "The challenging chess games keep my mind sharp."
+    },
+    {
+      "key": "choice_retired_seniors_club_3",
+      "value": "Just sit and listen to stories because you're tired"
+    },
+    {
+      "key": "log_retired_seniors_club_3",
+      "value": "I prefer listening to people talk."
+    },
+    {
+      "key": "event_retired_supermarket_sale_title",
+      "value": "Go to a supermarket sale with friends"
+    },
+    {
+      "key": "event_retired_supermarket_sale_desc",
+      "value": "Friends invite you to go bargain hunting at the supermarket."
+    },
+    {
+      "key": "choice_retired_supermarket_sale_1",
+      "value": "Shop enthusiastically"
+    },
+    {
+      "key": "log_retired_supermarket_sale_1",
+      "value": "I got a lot of great deals."
+    },
+    {
+      "key": "choice_retired_supermarket_sale_2",
+      "value": "Just browse the aisles"
+    },
+    {
+      "key": "log_retired_supermarket_sale_2",
+      "value": "I just went to look around for fun."
+    },
+    {
+      "key": "choice_retired_supermarket_sale_3",
+      "value": "Sit and wait for friends to shop because your legs are tired"
+    },
+    {
+      "key": "log_retired_supermarket_sale_3",
+      "value": "Walking a lot makes my legs tired."
+    },
+    {
+      "key": "event_retired_class_reunion_title",
+      "value": "Old class reunion"
+    },
+    {
+      "key": "event_retired_class_reunion_desc",
+      "value": "You attend a class reunion after many years apart."
+    },
+    {
+      "key": "choice_retired_class_reunion_1",
+      "value": "Chat enthusiastically"
+    },
+    {
+      "key": "log_retired_class_reunion_1",
+      "value": "It was great to reminisce about old memories with friends."
+    },
+    {
+      "key": "choice_retired_class_reunion_2",
+      "value": "Sing with old friends"
+    },
+    {
+      "key": "log_retired_class_reunion_2",
+      "value": "We sang the songs of our time together."
+    },
+    {
+      "key": "choice_retired_class_reunion_3",
+      "value": "Sit and listen because you don't remember much"
+    },
+    {
+      "key": "log_retired_class_reunion_3",
+      "value": "My memory isn't as good as it used to be."
+    },
+    {
+      "key": "event_retired_family_dinner_title",
+      "value": "Weekend family dinner"
+    },
+    {
+      "key": "event_retired_family_dinner_desc",
+      "value": "The family gathers for a weekend dinner."
+    },
+    {
+      "key": "choice_retired_family_dinner_1",
+      "value": "Help with the cooking"
+    },
+    {
+      "key": "log_retired_family_dinner_1",
+      "value": "I still want to prepare meals for the whole family."
+    },
+    {
+      "key": "choice_retired_family_dinner_2",
+      "value": "Play with grandchildren"
+    },
+    {
+      "key": "log_retired_family_dinner_2",
+      "value": "Playing with my grandchildren is my greatest joy."
+    },
+    {
+      "key": "choice_retired_family_dinner_3",
+      "value": "Sit and rest, letting the children and grandchildren handle it"
+    },
+    {
+      "key": "log_retired_family_dinner_3",
+      "value": "It's time to let the younger generation take over."
+    },
+    {
+      "key": "event_retired_feeling_empty_title",
+      "value": "Feeling empty after the retirement party"
+    },
+    {
+      "key": "event_retired_feeling_empty_desc",
+      "value": "After retiring, you feel empty and lacking purpose."
+    },
+    {
+      "key": "choice_retired_feeling_empty_1",
+      "value": "Go for a walk"
+    },
+    {
+      "key": "log_retired_feeling_empty_1",
+      "value": "A walk helped clear my head."
+    },
+    {
+      "key": "choice_retired_feeling_empty_2",
+      "value": "Call friends"
+    },
+    {
+      "key": "log_retired_feeling_empty_2",
+      "value": "Talking with friends made me feel better."
+    },
+    {
+      "key": "choice_retired_feeling_empty_3",
+      "value": "Sit alone and think"
+    },
+    {
+      "key": "log_retired_feeling_empty_3",
+      "value": "I need time to adjust to my new life."
+    },
+    {
+      "key": "event_retired_insufficient_funds_title",
+      "value": "Realizing money is not enough for long-term expenses"
+    },
+    {
+      "key": "event_retired_insufficient_funds_desc",
+      "value": "You realize that your pension might not be enough for long-term expenses."
+    },
+    {
+      "key": "choice_retired_insufficient_funds_1",
+      "value": "Find a part-time job"
+    },
+    {
+      "key": "log_retired_insufficient_funds_1",
+      "value": "I'm still healthy enough to do some light work."
+    },
+    {
+      "key": "choice_retired_insufficient_funds_2",
+      "value": "Seek financial advice"
+    },
+    {
+      "key": "log_retired_insufficient_funds_2",
+      "value": "A professional helped me create a reasonable spending plan."
+    },
+    {
+      "key": "choice_retired_insufficient_funds_3",
+      "value": "Save as much as possible"
+    },
+    {
+      "key": "log_retired_insufficient_funds_3",
+      "value": "I need to tighten my belt even more."
+    },
+    {
+      "key": "event_retired_illness_discovered_title",
+      "value": "Discovering an illness that needs treatment"
+    },
+    {
+      "key": "event_retired_illness_discovered_desc",
+      "value": "The health check-up results show you have an illness that requires treatment."
+    },
+    {
+      "key": "choice_retired_illness_discovered_1",
+      "value": "Follow the doctor's advice"
+    },
+    {
+      "key": "log_retired_illness_discovered_1",
+      "value": "I trust modern medicine."
+    },
+    {
+      "key": "choice_retired_illness_discovered_2",
+      "value": "Try herbal medicine"
+    },
+    {
+      "key": "log_retired_illness_discovered_2",
+      "value": "I want to try natural remedies."
+    },
+    {
+      "key": "choice_retired_illness_discovered_3",
+      "value": "Hesitate to get treatment"
+    },
+    {
+      "key": "log_retired_illness_discovered_3",
+      "value": "I feel scared and don't want to face it yet."
+    },
+    {
+      "key": "event_retired_cant_keep_up_volunteer_title",
+      "value": "Unable to keep up with volunteering"
+    },
+    {
+      "key": "event_retired_cant_keep_up_volunteer_desc",
+      "value": "You realize that volunteering requires more energy than you thought."
+    },
+    {
+      "key": "choice_retired_cant_keep_up_volunteer_1",
+      "value": "Ask to leave"
+    },
+    {
+      "key": "log_retired_cant_keep_up_volunteer_1",
+      "value": "I asked to leave to preserve my health."
+    },
+    {
+      "key": "choice_retired_cant_keep_up_volunteer_2",
+      "value": "Only provide light support"
+    },
+    {
+      "key": "log_retired_cant_keep_up_volunteer_2",
+      "value": "I switched to lighter tasks."
+    },
+    {
+      "key": "choice_retired_cant_keep_up_volunteer_3",
+      "value": "Stop completely"
+    },
+    {
+      "key": "log_retired_cant_keep_up_volunteer_3",
+      "value": "I decided to stop volunteering altogether."
+    },
+    {
+      "key": "event_retired_travel_fatigue_title",
+      "value": "Fatigue from a busy travel schedule"
+    },
+    {
+      "key": "event_retired_travel_fatigue_desc",
+      "value": "The packed schedule of the trip makes you feel exhausted."
+    },
+    {
+      "key": "choice_retired_travel_fatigue_1",
+      "value": "Rest more"
+    },
+    {
+      "key": "log_retired_travel_fatigue_1",
+      "value": "I spent more time resting."
+    },
+    {
+      "key": "choice_retired_travel_fatigue_2",
+      "value": "Reduce the number of trips"
+    },
+    {
+      "key": "log_retired_travel_fatigue_2",
+      "value": "We canceled a few destinations to have a more relaxing trip."
+    },
+    {
+      "key": "choice_retired_travel_fatigue_3",
+      "value": "End the trip early"
+    },
+    {
+      "key": "log_retired_travel_fatigue_3",
+      "value": "Health comes first, we decided to go home early."
+    },
+    {
+      "key": "event_retired_heatstroke_title",
+      "value": "Getting heatstroke at the park"
+    },
+    {
+      "key": "event_retired_heatstroke_desc",
+      "value": "Due to the hot weather, you got heatstroke and need to rest."
+    },
+    {
+      "key": "choice_retired_heatstroke_1",
+      "value": "Find a cool place"
+    },
+    {
+      "key": "log_retired_heatstroke_1",
+      "value": "I found a shady spot to rest."
+    },
+    {
+      "key": "choice_retired_heatstroke_2",
+      "value": "Drink water"
+    },
+    {
+      "key": "log_retired_heatstroke_2",
+      "value": "Drinking plenty of water helped me feel better."
+    },
+    {
+      "key": "choice_retired_heatstroke_3",
+      "value": "Go home and rest"
+    },
+    {
+      "key": "log_retired_heatstroke_3",
+      "value": "I decided to go home to rest completely."
+    },
+    {
+      "key": "event_retired_difficulty_integrating_title",
+      "value": "Initial difficulty integrating"
+    },
+    {
+      "key": "event_retired_difficulty_integrating_desc",
+      "value": "You find it difficult to integrate with other members of the club."
+    },
+    {
+      "key": "choice_retired_difficulty_integrating_1",
+      "value": "Persevere"
+    },
+    {
+      "key": "log_retired_difficulty_integrating_1",
+      "value": "I persevered and gradually made friends."
+    },
+    {
+      "key": "choice_retired_difficulty_integrating_2",
+      "value": "Find a smaller group"
+    },
+    {
+      "key": "log_retired_difficulty_integrating_2",
+      "value": "I found a smaller group that suited me better."
+    },
+    {
+      "key": "choice_retired_difficulty_integrating_3",
+      "value": "Stop participating"
+    },
+    {
+      "key": "log_retired_difficulty_integrating_3",
+      "value": "Maybe this place is not for me."
+    },
+    {
+      "key": "event_retired_missed_promotions_title",
+      "value": "Missed many promotions"
+    },
+    {
+      "key": "event_retired_missed_promotions_desc",
+      "value": "Because your legs were tired, you missed out on many good sale items."
+    },
+    {
+      "key": "choice_retired_missed_promotions_1",
+      "value": "Ask a friend to buy for you"
+    },
+    {
+      "key": "log_retired_missed_promotions_1",
+      "value": "My friend was kind enough to buy a few items for me."
+    },
+    {
+      "key": "choice_retired_missed_promotions_2",
+      "value": "Buy online"
+    },
+    {
+      "key": "log_retired_missed_promotions_2",
+      "value": "Online shopping is much more convenient."
+    },
+    {
+      "key": "choice_retired_missed_promotions_3",
+      "value": "Skip it"
+    },
+    {
+      "key": "log_retired_missed_promotions_3",
+      "value": "Anyway, I don't really need them."
+    },
+    {
+      "key": "event_retired_loneliness_after_reunion_title",
+      "value": "Feeling lonely after the reunion"
+    },
+    {
+      "key": "event_retired_loneliness_after_reunion_desc",
+      "value": "After the class reunion, you feel an indescribable loneliness."
+    },
+    {
+      "key": "choice_retired_loneliness_after_reunion_1",
+      "value": "Call a friend"
+    },
+    {
+      "key": "log_retired_loneliness_after_reunion_1",
+      "value": "Talking with a close friend helped me feel better."
+    },
+    {
+      "key": "choice_retired_loneliness_after_reunion_2",
+      "value": "Write in a diary"
+    },
+    {
+      "key": "log_retired_loneliness_after_reunion_2",
+      "value": "Writing down my thoughts helped me release my emotions."
+    },
+    {
+      "key": "choice_retired_loneliness_after_reunion_3",
+      "value": "Sit sadly"
+    },
+    {
+      "key": "log_retired_loneliness_after_reunion_3",
+      "value": "I was lost in old memories."
+    },
+    {
+      "key": "event_retired_lose_central_role_title",
+      "value": "Feeling no longer the central figure"
+    },
+    {
+      "key": "event_retired_lose_central_role_desc",
+      "value": "You realize that you are no longer the center of the family."
+    },
+    {
+      "key": "choice_retired_lose_central_role_1",
+      "value": "Proactively offer small help"
+    },
+    {
+      "key": "log_retired_lose_central_role_1",
+      "value": "I find joy in helping my children and grandchildren with small things."
+    },
+    {
+      "key": "choice_retired_lose_central_role_2",
+      "value": "Talk to your children and grandchildren"
+    },
+    {
+      "key": "log_retired_lose_central_role_2",
+      "value": "I shared my feelings with my children."
+    },
+    {
+      "key": "choice_retired_lose_central_role_3",
+      "value": "Silently accept"
+    },
+    {
+      "key": "log_retired_lose_central_role_3",
+      "value": "This is the natural law of life."
+    },
+    {
+      "key": "event_retired_morning_routine_title",
+      "value": "Daily morning"
+    },
+    {
+      "key": "event_retired_morning_routine_desc",
+      "value": "A normal morning for a retiree."
+    },
+    {
+      "key": "choice_retired_morning_routine_1",
+      "value": "Go for a walk"
+    },
+    {
+      "key": "log_retired_morning_routine_1",
+      "value": "A morning walk makes me feel refreshed."
+    },
+    {
+      "key": "choice_retired_morning_routine_2",
+      "value": "Sit and read the newspaper"
+    },
+    {
+      "key": "log_retired_morning_routine_2",
+      "value": "Keeping up with the news is a good habit."
+    },
+    {
+      "key": "choice_retired_morning_routine_3",
+      "value": "Stay home and rest because you're tired"
+    },
+    {
+      "key": "log_retired_morning_routine_3",
+      "value": "I don't feel well today."
+    },
+    {
+      "key": "event_retired_watching_tv_title",
+      "value": "Watch TV"
+    },
+    {
+      "key": "event_retired_watching_tv_desc",
+      "value": "You are spending time watching TV."
+    },
+    {
+      "key": "choice_retired_watching_tv_1",
+      "value": "Watch the news"
+    },
+    {
+      "key": "log_retired_watching_tv_1",
+      "value": "I always want to know what's happening in the world."
+    },
+    {
+      "key": "choice_retired_watching_tv_2",
+      "value": "Watch old movies"
+    },
+    {
+      "key": "log_retired_watching_tv_2",
+      "value": "Old movies bring back many good memories."
+    },
+    {
+      "key": "choice_retired_watching_tv_3",
+      "value": "Nod off while watching"
+    },
+    {
+      "key": "log_retired_watching_tv_3",
+      "value": "I fell asleep without realizing it."
+    },
+    {
+      "key": "event_retired_playing_with_grandkids_title",
+      "value": "Play with grandchildren"
+    },
+    {
+      "key": "event_retired_playing_with_grandkids_desc",
+      "value": "You are spending time playing with your grandchildren."
+    },
+    {
+      "key": "choice_retired_playing_with_grandkids_1",
+      "value": "Take the grandchildren out to play"
+    },
+    {
+      "key": "log_retired_playing_with_grandkids_1",
+      "value": "We had a fun day at the park."
+    },
+    {
+      "key": "choice_retired_playing_with_grandkids_2",
+      "value": "Tell fairy tales"
+    },
+    {
+      "key": "log_retired_playing_with_grandkids_2",
+      "value": "The grandchildren love listening to my stories."
+    },
+    {
+      "key": "choice_retired_playing_with_grandkids_3",
+      "value": "Sit and watch the grandchildren play because you're tired"
+    },
+    {
+      "key": "log_retired_playing_with_grandkids_3",
+      "value": "Just watching them play is enough."
+    },
+    {
+      "key": "event_retired_meet_old_friend_title",
+      "value": "Meet an old friend"
+    },
+    {
+      "key": "event_retired_meet_old_friend_desc",
+      "value": "You accidentally meet an old friend."
+    },
+    {
+      "key": "choice_retired_meet_old_friend_1",
+      "value": "Chat over tea"
+    },
+    {
+      "key": "log_retired_meet_old_friend_1",
+      "value": "We sat down and reminisced about old stories."
+    },
+    {
+      "key": "choice_retired_meet_old_friend_2",
+      "value": "Go for a walk together"
+    },
+    {
+      "key": "log_retired_meet_old_friend_2",
+      "value": "A short walk was enough to rekindle our friendship."
+    },
+    {
+      "key": "choice_retired_meet_old_friend_3",
+      "value": "Sit and listen to your friend's stories"
+    },
+    {
+      "key": "log_retired_meet_old_friend_3",
+      "value": "I prefer listening to my friend's stories."
+    },
+    {
+      "key": "event_retired_grocery_shopping_title",
+      "value": "Go to the market"
+    },
+    {
+      "key": "event_retired_grocery_shopping_desc",
+      "value": "It's time to buy groceries for the week."
+    },
+    {
+      "key": "choice_retired_grocery_shopping_1",
+      "value": "Buy everything needed"
+    },
+    {
+      "key": "log_retired_grocery_shopping_1",
+      "value": "I bought everything I needed."
+    },
+    {
+      "key": "choice_retired_grocery_shopping_2",
+      "value": "Buy less to carry lightly"
+    },
+    {
+      "key": "log_retired_grocery_shopping_2",
+      "value": "I don't want to carry heavy things."
+    },
+    {
+      "key": "choice_retired_grocery_shopping_3",
+      "value": "Sit at a cafe and wait because you're tired"
+    },
+    {
+      "key": "log_retired_grocery_shopping_3",
+      "value": "I asked my children to go shopping for me."
+    },
+    {
+      "key": "event_retired_visiting_temple_title",
+      "value": "Go to church/temple"
+    },
+    {
+      "key": "event_retired_visiting_temple_desc",
+      "value": "You go to a place of worship to find peace."
+    },
+    {
+      "key": "choice_retired_visiting_temple_1",
+      "value": "Attend the main service"
+    },
+    {
+      "key": "log_retired_visiting_temple_1",
+      "value": "I feel at peace."
+    },
+    {
+      "key": "choice_retired_visiting_temple_2",
+      "value": "Talk to fellow believers"
+    },
+    {
+      "key": "log_retired_visiting_temple_2",
+      "value": "Chatting with people of the same faith is interesting."
+    },
+    {
+      "key": "choice_retired_visiting_temple_3",
+      "value": "Rest in the courtyard"
+    },
+    {
+      "key": "log_retired_visiting_temple_3",
+      "value": "The fresh air here is so pleasant."
+    },
+    {
+      "key": "event_retired_grandchild_birthday_title",
+      "value": "Grandchild's birthday"
+    },
+    {
+      "key": "event_retired_grandchild_birthday_desc",
+      "value": "Today is a grandchild's birthday."
+    },
+    {
+      "key": "choice_retired_grandchild_birthday_1",
+      "value": "Give a gift"
+    },
+    {
+      "key": "log_retired_grandchild_birthday_1",
+      "value": "My small gift made them very happy."
+    },
+    {
+      "key": "choice_retired_grandchild_birthday_2",
+      "value": "Take commemorative photos"
+    },
+    {
+      "key": "log_retired_grandchild_birthday_2",
+      "value": "The photos will preserve this moment."
+    },
+    {
+      "key": "choice_retired_grandchild_birthday_3",
+      "value": "Sit and watch the grandchildren have fun"
+    },
+    {
+      "key": "log_retired_grandchild_birthday_3",
+      "value": "Their joy is my joy."
+    },
+    {
+      "key": "event_retired_visit_children_title",
+      "value": "Visit children living far away"
+    },
+    {
+      "key": "event_retired_visit_children_desc",
+      "value": "You are considering visiting your child who lives far away."
+    },
+    {
+      "key": "choice_retired_visit_children_1",
+      "value": "Go by bus"
+    },
+    {
+      "key": "log_retired_visit_children_1",
+      "value": "The trip was a bit tiring but worth it."
+    },
+    {
+      "key": "choice_retired_visit_children_2",
+      "value": "Go by plane"
+    },
+    {
+      "key": "log_retired_visit_children_2",
+      "value": "Flying is faster and more convenient."
+    },
+    {
+      "key": "choice_retired_visit_children_3",
+      "value": "Decide not to go because you're tired"
+    },
+    {
+      "key": "log_retired_visit_children_3",
+      "value": "I'll wait for them to visit me."
+    },
+    {
+      "key": "event_retired_hot_afternoon_title",
+      "value": "Hot sunny afternoon"
+    },
+    {
+      "key": "event_retired_hot_afternoon_desc",
+      "value": "The afternoon weather is very hot and humid."
+    },
+    {
+      "key": "choice_retired_hot_afternoon_1",
+      "value": "Take a nap"
+    },
+    {
+      "key": "log_retired_hot_afternoon_1",
+      "value": "A nap helps me regain energy."
+    },
+    {
+      "key": "choice_retired_hot_afternoon_2",
+      "value": "Drink cool water"
+    },
+    {
+      "key": "log_retired_hot_afternoon_2",
+      "value": "A glass of cool water is so refreshing."
+    },
+    {
+      "key": "choice_retired_hot_afternoon_3",
+      "value": "Rest all afternoon"
+    },
+    {
+      "key": "log_retired_hot_afternoon_3",
+      "value": "I don't want to do anything in this weather."
+    },
+    {
+      "key": "event_retired_park_visit_title",
+      "value": "Go to the park"
+    },
+    {
+      "key": "event_retired_park_visit_desc",
+      "value": "You take a walk in the nearby park."
+    },
+    {
+      "key": "choice_retired_park_visit_1",
+      "value": "Practice tai chi"
+    },
+    {
+      "key": "log_retired_park_visit_1",
+      "value": "Tai chi helps my body become more flexible."
+    },
+    {
+      "key": "choice_retired_park_visit_2",
+      "value": "Sit and talk"
+    },
+    {
+      "key": "log_retired_park_visit_2",
+      "value": "I had a pleasant conversation with some old friends."
+    },
+    {
+      "key": "choice_retired_park_visit_3",
+      "value": "Sit quietly and enjoy the scenery"
+    },
+    {
+      "key": "log_retired_park_visit_3",
+      "value": "Watching nature is so peaceful."
+    },
+    {
+      "key": "event_retired_village_festival_title",
+      "value": "Go to the village festival"
+    },
+    {
+      "key": "event_retired_village_festival_desc",
+      "value": "The village is holding a traditional festival."
+    },
+    {
+      "key": "choice_retired_village_festival_1",
+      "value": "Watch cultural performances"
+    },
+    {
+      "key": "log_retired_village_festival_1",
+      "value": "The cultural performances were excellent."
+    },
+    {
+      "key": "choice_retired_village_festival_2",
+      "value": "Eat snacks"
+    },
+    {
+      "key": "log_retired_village_festival_2",
+      "value": "The snacks here are delicious."
+    },
+    {
+      "key": "choice_retired_village_festival_3",
+      "value": "Rest under a tree's shade"
+    },
+    {
+      "key": "log_retired_village_festival_3",
+      "value": "The festival atmosphere is so lively."
+    },
+    {
+      "key": "event_retired_new_class_title",
+      "value": "Join a new class (drawing/music)"
+    },
+    {
+      "key": "event_retired_new_class_desc",
+      "value": "You decide to join a new class like drawing or music."
+    },
+    {
+      "key": "choice_retired_new_class_1",
+      "value": "Learn enthusiastically"
+    },
+    {
+      "key": "log_retired_new_class_1",
+      "value": "Learning a new skill makes me feel young again."
+    },
+    {
+      "key": "choice_retired_new_class_2",
+      "value": "Try a few sessions"
+    },
+    {
+      "key": "log_retired_new_class_2",
+      "value": "I tried a few sessions to see if I liked it."
+    },
+    {
+      "key": "choice_retired_new_class_3",
+      "value": "Quit because it's difficult"
+    },
+    {
+      "key": "log_retired_new_class_3",
+      "value": "It's harder than I thought."
+    },
+    {
+      "key": "event_retired_periodic_checkup_title",
+      "value": "Periodic medical check-up"
+    },
+    {
+      "key": "event_retired_periodic_checkup_desc",
+      "value": "It's time for a periodic medical check-up."
+    },
+    {
+      "key": "choice_retired_periodic_checkup_1",
+      "value": "Do all the tests"
+    },
+    {
+      "key": "log_retired_periodic_checkup_1",
+      "value": "I want to be sure about my health."
+    },
+    {
+      "key": "choice_retired_periodic_checkup_2",
+      "value": "Do half of them"
+    },
+    {
+      "key": "log_retired_periodic_checkup_2",
+      "value": "I only did the most necessary tests."
+    },
+    {
+      "key": "choice_retired_periodic_checkup_3",
+      "value": "Cancel because you're tired"
+    },
+    {
+      "key": "log_retired_periodic_checkup_3",
+      "value": "I don't feel like going for a check-up today."
+    },
+    {
+      "key": "event_retired_rainy_day_title",
+      "value": "Rainy day"
+    },
+    {
+      "key": "event_retired_rainy_day_desc",
+      "value": "A sad and gloomy rainy day."
+    },
+    {
+      "key": "choice_retired_rainy_day_1",
+      "value": "Sit and read a book"
+    },
+    {
+      "key": "log_retired_rainy_day_1",
+      "value": "Reading by a rainy window is a refined pleasure."
+    },
+    {
+      "key": "choice_retired_rainy_day_2",
+      "value": "Take a nap"
+    },
+    {
+      "key": "log_retired_rainy_day_2",
+      "value": "The sound of rain is the best lullaby."
+    },
+    {
+      "key": "choice_retired_rainy_day_3",
+      "value": "Sit and watch the rain"
+    },
+    {
+      "key": "log_retired_rainy_day_3",
+      "value": "I just sat quietly and watched the raindrops."
+    },
+    {
+      "key": "event_retired_visit_relatives_title",
+      "value": "Visit relatives"
+    },
+    {
+      "key": "event_retired_visit_relatives_desc",
+      "value": "You visit relatives who live far away."
+    },
+    {
+      "key": "choice_retired_visit_relatives_1",
+      "value": "Have a pleasant chat"
+    },
+    {
+      "key": "log_retired_visit_relatives_1",
+      "value": "Meeting relatives is always a happy occasion."
+    },
+    {
+      "key": "choice_retired_visit_relatives_2",
+      "value": "Eat with them"
+    },
+    {
+      "key": "log_retired_visit_relatives_2",
+      "value": "The family meal was so cozy."
+    },
+    {
+      "key": "choice_retired_visit_relatives_3",
+      "value": "Sit quietly and listen to stories"
+    },
+    {
+      "key": "log_retired_visit_relatives_3",
+      "value": "I enjoy listening to everyone's stories."
+    },
+    {
+      "key": "event_retired_watching_sports_title",
+      "value": "Watch sports"
+    },
+    {
+      "key": "event_retired_watching_sports_desc",
+      "value": "You are watching a sports match on TV."
+    },
+    {
+      "key": "choice_retired_watching_sports_1",
+      "value": "Cheer for your favorite team"
+    },
+    {
+      "key": "log_retired_watching_sports_1",
+      "value": "The match was so exciting!"
+    },
+    {
+      "key": "choice_retired_watching_sports_2",
+      "value": "Talk with friends"
+    },
+    {
+      "key": "log_retired_watching_sports_2",
+      "value": "Watching with friends is much more fun."
+    },
+    {
+      "key": "choice_retired_watching_sports_3",
+      "value": "Nod off in the middle"
+    },
+    {
+      "key": "log_retired_watching_sports_3",
+      "value": "I fell asleep without realizing it."
+    },
+    {
+      "key": "event_retired_insomnia_title",
+      "value": "Insomnia"
+    },
+    {
+      "key": "event_retired_insomnia_desc",
+      "value": "You can't sleep at night."
+    },
+    {
+      "key": "choice_retired_insomnia_1",
+      "value": "Count sheep"
+    },
+    {
+      "key": "log_retired_insomnia_1",
+      "value": "I counted up to 1000 sheep and was still awake."
+    },
+    {
+      "key": "choice_retired_insomnia_2",
+      "value": "Drink milk"
+    },
+    {
+      "key": "log_retired_insomnia_2",
+      "value": "A warm glass of milk helps me sleep better."
+    },
+    {
+      "key": "choice_retired_insomnia_3",
+      "value": "Sit quietly and wait for morning"
+    },
+    {
+      "key": "log_retired_insomnia_3",
+      "value": "Another long night."
+    },
+    {
+      "key": "event_retired_community_festival_title",
+      "value": "Community festival"
+    },
+    {
+      "key": "event_retired_community_festival_desc",
+      "value": "The community where you live is holding a festival."
+    },
+    {
+      "key": "choice_retired_community_festival_1",
+      "value": "Participate enthusiastically"
+    },
+    {
+      "key": "log_retired_community_festival_1",
+      "value": "I had a great time."
+    },
+    {
+      "key": "choice_retired_community_festival_2",
+      "value": "Take a walk around"
+    },
+    {
+      "key": "log_retired_community_festival_2",
+      "value": "I just took a walk to see the atmosphere."
+    },
+    {
+      "key": "choice_retired_community_festival_3",
+      "value": "Rest early because you're tired"
+    },
+    {
+      "key": "log_retired_community_festival_3",
+      "value": "I don't have enough energy to participate for long."
+    },
+    {
+      "key": "event_retired_surprise_gift_title",
+      "value": "Receive a surprise gift"
+    },
+    {
+      "key": "event_retired_surprise_gift_desc",
+      "value": "You receive a surprise gift from an old friend."
+    },
+    {
+      "key": "choice_retired_surprise_gift_1",
+      "value": "Joyful"
+    },
+    {
+      "key": "log_retired_surprise_gift_1",
+      "value": "The gift is so meaningful!"
+    },
+    {
+      "key": "choice_retired_surprise_gift_2",
+      "value": "Moved"
+    },
+    {
+      "key": "log_retired_surprise_gift_2",
+      "value": "I was very touched by your kindness."
+    },
+    {
+      "key": "choice_retired_surprise_gift_3",
+      "value": "Shy"
+    },
+    {
+      "key": "log_retired_surprise_gift_3",
+      "value": "I don't know what to do in return."
+    },
+    {
+      "key": "event_retired_sharing_with_grandkids_title",
+      "value": "Share food with grandchildren"
+    },
+    {
+      "key": "event_retired_sharing_with_grandkids_desc",
+      "value": "You have a tasty snack and the grandchildren are watching."
+    },
+    {
+      "key": "choice_retired_sharing_with_grandkids_1",
+      "value": "Give the grandchildren a lot"
+    },
+    {
+      "key": "log_retired_sharing_with_grandkids_1",
+      "value": "I save the best part for the grandchildren."
+    },
+    {
+      "key": "choice_retired_sharing_with_grandkids_2",
+      "value": "Share equally"
+    },
+    {
+      "key": "log_retired_sharing_with_grandkids_2",
+      "value": "Everyone gets a piece."
+    },
+    {
+      "key": "choice_retired_sharing_with_grandkids_3",
+      "value": "Keep a small portion for yourself"
+    },
+    {
+      "key": "log_retired_sharing_with_grandkids_3",
+      "value": "I want to eat a little too."
+    }
+  ]
+}

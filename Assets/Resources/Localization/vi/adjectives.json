@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "key": "adjective_intelligent",
+      "value": "Thông Minh"
+    },
+    {
+      "key": "adjective_brilliant",
+      "value": "Uyên Bác"
+    },
+    {
+      "key": "adjective_happy",
+      "value": "Hạnh Phúc"
+    },
+    {
+      "key": "adjective_joyful",
+      "value": "Vui Vẻ"
+    },
+    {
+      "key": "adjective_confident",
+      "value": "Tự Tin"
+    },
+    {
+      "key": "adjective_brave",
+      "value": "Dũng Cảm"
+    },
+    {
+      "key": "adjective_healthy",
+      "value": "Khỏe Mạnh"
+    },
+    {
+      "key": "adjective_vigorous",
+      "value": "Tráng Kiện"
+    },
+    {
+      "key": "adjective_grieving",
+      "value": "Đau Buồn"
+    },
+    {
+      "key": "adjective_innocent",
+      "value": "Ngây Thơ"
+    },
+    {
+      "key": "adjective_normal",
+      "value": " "
+    }
+  ]
+}

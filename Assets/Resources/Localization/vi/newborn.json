@@ -1,0 +1,1284 @@
+{
+  "items": [
+    {
+      "key": "event_newborn_first_night_crying_title",
+      "value": "Đêm đầu tiên đầy thử thách"
+    },
+    {
+      "key": "event_newborn_first_night_crying_desc",
+      "value": "Tiếng khóc xé lòng của đứa bé sơ sinh vang vọng khắp căn nhà trong đêm đầu tiên. Bạn đã kiệt sức, nhưng bé vẫn không ngừng quấy khóc. Mỗi lựa chọn lúc này đều có thể ảnh hưởng đến tương lai của bé và sự bình yên của gia đình."
+    },
+    {
+      "key": "choice_newborn_first_night_crying_1",
+      "value": "Dành trọn đêm ôm ấp, vỗ về bé"
+    },
+    {
+      "key": "log_newborn_first_night_crying_1",
+      "value": "Sự kiên nhẫn và tình yêu thương của bạn đã xoa dịu bé, nhưng bạn và đối tác sẽ phải đối mặt với một ngày dài mệt mỏi."
+    },
+    {
+      "key": "choice_newborn_first_night_crying_2",
+      "value": "Thử cho bé bú thêm, hy vọng bé sẽ no và ngủ"
+    },
+    {
+      "key": "log_newborn_first_night_crying_2",
+      "value": "Bé có vẻ đã no và ngủ thiếp đi, nhưng việc cho ăn không đúng cữ có thể ảnh hưởng đến lịch sinh hoạt sau này."
+    },
+    {
+      "key": "choice_newborn_first_night_crying_3",
+      "value": "Đặt bé vào nôi, bật tiếng ồn trắng và cố gắng nghỉ ngơi"
+    },
+    {
+      "key": "log_newborn_first_night_crying_3",
+      "value": "Tiếng ồn trắng có vẻ hiệu quả, bé dần chìm vào giấc ngủ. Tuy nhiên, bạn cảm thấy hơi tội lỗi vì không thể ở bên bé lúc này."
+    },
+    {
+      "key": "event_newborn_first_bath_title",
+      "value": "Tắm lần đầu"
+    },
+    {
+      "key": "event_newborn_first_bath_desc",
+      "value": "Đã đến lúc cho bé tắm lần đầu tiên. Đây có thể là một trải nghiệm đáng sợ hoặc thú vị."
+    },
+    {
+      "key": "choice_newborn_first_bath_1",
+      "value": "Vừa tắm vừa hát/làm trò"
+    },
+    {
+      "key": "log_newborn_first_bath_1",
+      "value": "Bé tỏ ra thích thú và vui vẻ nghịch nước."
+    },
+    {
+      "key": "choice_newborn_first_bath_2",
+      "value": "Tắm thật nhanh cho bé đỡ sợ"
+    },
+    {
+      "key": "log_newborn_first_bath_2",
+      "value": "Việc tắm nhanh khiến bé hơi hoảng sợ và khóc."
+    },
+    {
+      "key": "choice_newborn_first_bath_3",
+      "value": "Cho bé nghịch đồ chơi trong chậu"
+    },
+    {
+      "key": "log_newborn_first_bath_3",
+      "value": "Đồ chơi đã thu hút sự chú ý của bé, giúp buổi tắm diễn ra suôn sẻ."
+    },
+    {
+      "key": "event_newborn_vaccination_title",
+      "value": "Tiêm chủng định kỳ"
+    },
+    {
+      "key": "event_newborn_vaccination_desc",
+      "value": "Đã đến lúc đưa bé đi tiêm phòng. Bé có vẻ hơi lo lắng khi thấy kim tiêm."
+    },
+    {
+      "key": "choice_newborn_vaccination_1",
+      "value": "Dỗ bé bằng kẹo mút/đồ chơi sau tiêm"
+    },
+    {
+      "key": "log_newborn_vaccination_1",
+      "value": "Bé nín khóc ngay khi thấy món đồ chơi yêu thích."
+    },
+    {
+      "key": "choice_newborn_vaccination_2",
+      "value": "Cho bé ngồi trong lòng bố mẹ"
+    },
+    {
+      "key": "log_newborn_vaccination_2",
+      "value": "Cảm giác an toàn trong vòng tay bố mẹ giúp bé dũng cảm hơn."
+    },
+    {
+      "key": "choice_newborn_vaccination_3",
+      "value": "Để bé xem bạn khác tiêm trước"
+    },
+    {
+      "key": "log_newborn_vaccination_3",
+      "value": "Xem bạn khác tiêm dường như khiến bé càng sợ hãi hơn."
+    },
+    {
+      "key": "event_newborn_learning_to_roll_over_title",
+      "value": "Tập lẫy"
+    },
+    {
+      "key": "event_newborn_learning_to_roll_over_desc",
+      "value": "Bé đang cố gắng lật người lần đầu tiên, một cột mốc quan trọng."
+    },
+    {
+      "key": "choice_newborn_learning_to_roll_over_1",
+      "value": "Cổ vũ và quay video lại"
+    },
+    {
+      "key": "log_newborn_learning_to_roll_over_1",
+      "value": "Sự cổ vũ của gia đình đã tiếp thêm động lực cho bé."
+    },
+    {
+      "key": "choice_newborn_learning_to_roll_over_2",
+      "value": "Đặt đồ chơi trước mặt làm động lực"
+    },
+    {
+      "key": "log_newborn_learning_to_roll_over_2",
+      "value": "Vì muốn với lấy đồ chơi, bé đã nỗ lực và lẫy thành công."
+    },
+    {
+      "key": "choice_newborn_learning_to_roll_over_3",
+      "value": "Giúp bé xoay người nhẹ nhàng"
+    },
+    {
+      "key": "log_newborn_learning_to_roll_over_3",
+      "value": "Sự trợ giúp nhỏ đã giúp bé hiểu cách xoay người."
+    },
+    {
+      "key": "event_newborn_learning_to_crawl_title",
+      "value": "Tập bò"
+    },
+    {
+      "key": "event_newborn_learning_to_crawl_desc",
+      "value": "Sau khi biết lẫy, bé bắt đầu có hứng thú với việc di chuyển và khám phá."
+    },
+    {
+      "key": "choice_newborn_learning_to_crawl_1",
+      "value": "Dọn đồ chơi rải đường cho bé bò theo"
+    },
+    {
+      "key": "log_newborn_learning_to_crawl_1",
+      "value": "Bé thích thú bò theo con đường đồ chơi đầy màu sắc."
+    },
+    {
+      "key": "choice_newborn_learning_to_crawl_2",
+      "value": "Cho bé bò tới bố mẹ dang tay đón"
+    },
+    {
+      "key": "log_newborn_learning_to_crawl_2",
+      "value": "Nhìn thấy bố mẹ, bé vui vẻ bò nhanh hết sức có thể."
+    },
+    {
+      "key": "choice_newborn_learning_to_crawl_3",
+      "value": "Để bé tự do khám phá quanh phòng"
+    },
+    {
+      "key": "log_newborn_learning_to_crawl_3",
+      "value": "Bé tò mò khám phá mọi ngóc ngách trong phòng."
+    },
+    {
+      "key": "event_newborn_first_steps_title",
+      "value": "Tập đi những bước đầu"
+    },
+    {
+      "key": "event_newborn_first_steps_desc",
+      "value": "Bé đang vịn vào đồ đạc để cố gắng đứng dậy và đi những bước chập chững đầu tiên."
+    },
+    {
+      "key": "choice_newborn_first_steps_1",
+      "value": "Đỡ bé bằng cả hai tay"
+    },
+    {
+      "key": "log_newborn_first_steps_1",
+      "value": "Bé cảm thấy an toàn và tự tin đi từng bước khi có bố mẹ đỡ."
+    },
+    {
+      "key": "choice_newborn_first_steps_2",
+      "value": "Để bé tự đứng lên rồi đi vài bước"
+    },
+    {
+      "key": "log_newborn_first_steps_2",
+      "value": "Bé rất kiên cường, ngã rồi lại tự đứng dậy."
+    },
+    {
+      "key": "choice_newborn_first_steps_3",
+      "value": "Cho bé vịn xe tập đi"
+    },
+    {
+      "key": "log_newborn_first_steps_3",
+      "value": "Chiếc xe tập đi là một công cụ hỗ trợ tuyệt vời cho bé."
+    },
+    {
+      "key": "event_newborn_first_day_daycare_title",
+      "value": "Ngày đầu gửi nhà trẻ"
+    },
+    {
+      "key": "event_newborn_first_day_daycare_desc",
+      "value": "Đây là lần đầu tiên bé phải xa bố mẹ và ở một môi trường mới."
+    },
+    {
+      "key": "choice_newborn_first_day_daycare_1",
+      "value": "Ôm bé thật lâu rồi mới đi"
+    },
+    {
+      "key": "log_newborn_first_day_daycare_1",
+      "value": "Cuộc chia tay bịn rịn khiến cả hai đều buồn."
+    },
+    {
+      "key": "choice_newborn_first_day_daycare_2",
+      "value": "Dặn dò ngắn gọn rồi rời nhanh"
+    },
+    {
+      "key": "log_newborn_first_day_daycare_2",
+      "value": "Việc rời đi nhanh chóng giúp bé dễ dàng hòa nhập hơn."
+    },
+    {
+      "key": "choice_newborn_first_day_daycare_3",
+      "value": "Nhờ cô giáo đưa bé đi tham quan lớp"
+    },
+    {
+      "key": "log_newborn_first_day_daycare_3",
+      "value": "Bé bị thu hút bởi những thứ mới lạ và nhanh chóng quên đi nỗi buồn."
+    },
+    {
+      "key": "event_newborn_first_self_feeding_title",
+      "value": "Bữa ăn đầu tự xúc"
+    },
+    {
+      "key": "event_newborn_first_self_feeding_desc",
+      "value": "Bé muốn tự mình xúc ăn, một kỹ năng quan trọng cần học."
+    },
+    {
+      "key": "choice_newborn_first_self_feeding_1",
+      "value": "Chuẩn bị bát chống đổ và thìa nhỏ"
+    },
+    {
+      "key": "log_newborn_first_self_feeding_1",
+      "value": "Những dụng cụ phù hợp giúp bé học cách tự ăn dễ dàng hơn."
+    },
+    {
+      "key": "choice_newborn_first_self_feeding_2",
+      "value": "Để bé thử thoải mái, không can thiệp nhiều"
+    },
+    {
+      "key": "log_newborn_first_self_feeding_2",
+      "value": "Mặc dù hơi bừa bộn, bé đã rất vui khi được tự do khám phá."
+    },
+    {
+      "key": "choice_newborn_first_self_feeding_3",
+      "value": "Ngồi ăn cùng để bé bắt chước"
+    },
+    {
+      "key": "log_newborn_first_self_feeding_3",
+      "value": "Bé học rất nhanh bằng cách quan sát và bắt chước người lớn."
+    },
+    {
+      "key": "event_newborn_snatching_toys_title",
+      "value": "Giờ chơi chung giật đồ chơi"
+    },
+    {
+      "key": "event_newborn_snatching_toys_desc",
+      "value": "Trong giờ chơi, bé và một bạn khác cùng muốn một món đồ chơi."
+    },
+    {
+      "key": "choice_newborn_snatching_toys_1",
+      "value": "Hướng dẫn bé đổi món khác với bạn"
+    },
+    {
+      "key": "log_newborn_snatching_toys_1",
+      "value": "Bé đã học được cách đàm phán và chia sẻ."
+    },
+    {
+      "key": "choice_newborn_snatching_toys_2",
+      "value": "Nhắc bé nói “cho con mượn”"
+    },
+    {
+      "key": "log_newborn_snatching_toys_2",
+      "value": "Lời nói lịch sự không hiệu quả, bé vẫn không có được món đồ chơi."
+    },
+    {
+      "key": "choice_newborn_snatching_toys_3",
+      "value": "Tách ra chơi riêng một lúc"
+    },
+    {
+      "key": "log_newborn_snatching_toys_3",
+      "value": "Cả hai bé đều không vui và bắt đầu ăn vạ."
+    },
+    {
+      "key": "event_newborn_lost_in_store_title",
+      "value": "Lạc mẹ ở siêu thị"
+    },
+    {
+      "key": "event_newborn_lost_in_store_desc",
+      "value": "Trong một khoảnh khắc lơ đãng, bé nhận ra mình không thấy mẹ đâu."
+    },
+    {
+      "key": "choice_newborn_lost_in_store_1",
+      "value": "Bé đứng yên tại chỗ chờ"
+    },
+    {
+      "key": "log_newborn_lost_in_store_1",
+      "value": "Nhờ đứng yên, mẹ đã nhanh chóng tìm thấy bé."
+    },
+    {
+      "key": "choice_newborn_lost_in_store_2",
+      "value": "Bé đi tìm mẹ theo hướng đã đi"
+    },
+    {
+      "key": "log_newborn_lost_in_store_2",
+      "value": "Bé càng đi càng lạc và bắt đầu hoảng sợ."
+    },
+    {
+      "key": "choice_newborn_lost_in_store_3",
+      "value": "Bé chạy đến gần chú bảo vệ"
+    },
+    {
+      "key": "log_newborn_lost_in_store_3",
+      "value": "Hành động thông minh của bé đã giúp giải quyết tình hình nhanh chóng."
+    },
+    {
+      "key": "event_newborn_parents_sleepless_title",
+      "value": "Bố mẹ mất ngủ"
+    },
+    {
+      "key": "event_newborn_parents_sleepless_desc",
+      "value": "Vì chăm sóc con đêm qua, cả hai vợ chồng đều thiếu ngủ và mệt mỏi."
+    },
+    {
+      "key": "choice_newborn_parents_sleepless_1",
+      "value": "Thay phiên nhau trực đêm"
+    },
+    {
+      "key": "log_newborn_parents_sleepless_1",
+      "value": "Chúng tôi quyết định thay phiên nhau để cả hai đều được nghỉ ngơi."
+    },
+    {
+      "key": "choice_newborn_parents_sleepless_2",
+      "value": "Dùng tiếng ồn trắng để ru"
+    },
+    {
+      "key": "log_newborn_parents_sleepless_2",
+      "value": "Tiếng ồn trắng đã giúp cả nhà có một giấc ngủ ngon hơn."
+    },
+    {
+      "key": "choice_newborn_parents_sleepless_3",
+      "value": "Nhờ ông bà hỗ trợ chăm bé"
+    },
+    {
+      "key": "log_newborn_parents_sleepless_3",
+      "value": "Sự giúp đỡ của ông bà thật vô giá."
+    },
+    {
+      "key": "event_newborn_fear_of_bathing_title",
+      "value": "Bé sợ tắm"
+    },
+    {
+      "key": "event_newborn_fear_of_bathing_desc",
+      "value": "Sau lần tắm đầu tiên, bé tỏ ra sợ hãi mỗi khi đến giờ tắm."
+    },
+    {
+      "key": "choice_newborn_fear_of_bathing_1",
+      "value": "Dùng ghế tắm kèm đồ chơi nổi"
+    },
+    {
+      "key": "log_newborn_fear_of_bathing_1",
+      "value": "Đồ chơi đã biến giờ tắm thành giờ chơi vui vẻ."
+    },
+    {
+      "key": "choice_newborn_fear_of_bathing_2",
+      "value": "Cho bé ngồi tắm chung với anh/chị"
+    },
+    {
+      "key": "log_newborn_fear_of_bathing_2",
+      "value": "Tắm cùng anh/chị giúp bé cảm thấy an toàn và bớt sợ hơn."
+    },
+    {
+      "key": "choice_newborn_fear_of_bathing_3",
+      "value": "Tắm nhanh và lau người bằng khăn ấm"
+    },
+    {
+      "key": "log_newborn_fear_of_bathing_3",
+      "value": "Dù nhanh, bé vẫn khóc trong suốt quá trình tắm."
+    },
+    {
+      "key": "event_newborn_fever_after_shot_title",
+      "value": "Sốt sau tiêm"
+    },
+    {
+      "key": "event_newborn_fever_after_shot_desc",
+      "value": "Bé bị sốt nhẹ sau khi tiêm chủng, một phản ứng phụ thường gặp."
+    },
+    {
+      "key": "choice_newborn_fever_after_shot_1",
+      "value": "Cho uống hạ sốt theo hướng dẫn"
+    },
+    {
+      "key": "log_newborn_fever_after_shot_1",
+      "value": "Thuốc hạ sốt đã phát huy tác dụng và bé cảm thấy dễ chịu hơn."
+    },
+    {
+      "key": "choice_newborn_fever_after_shot_2",
+      "value": "Chườm ấm và theo dõi thêm"
+    },
+    {
+      "key": "log_newborn_fever_after_shot_2",
+      "value": "Phương pháp chườm ấm tự nhiên đã giúp bé hạ sốt từ từ."
+    },
+    {
+      "key": "choice_newborn_fever_after_shot_3",
+      "value": "Gọi điện hỏi bác sĩ trước khi tái khám"
+    },
+    {
+      "key": "log_newborn_fever_after_shot_3",
+      "value": "Lời khuyên của bác sĩ giúp chúng tôi yên tâm hơn và chăm sóc bé đúng cách."
+    },
+    {
+      "key": "event_newborn_minor_scratch_title",
+      "value": "Trầy xước nhẹ"
+    },
+    {
+      "key": "event_newborn_minor_scratch_desc",
+      "value": "Trong lúc tập lẫy, bé vô tình bị trầy xước nhẹ."
+    },
+    {
+      "key": "choice_newborn_minor_scratch_1",
+      "value": "Rửa sạch bằng nước muối sinh lý"
+    },
+    {
+      "key": "log_newborn_minor_scratch_1",
+      "value": "Vết thương được làm sạch cẩn thận để tránh nhiễm trùng."
+    },
+    {
+      "key": "choice_newborn_minor_scratch_2",
+      "value": "Dán băng nhỏ và vỗ về bé"
+    },
+    {
+      "key": "log_newborn_minor_scratch_2",
+      "value": "Một chiếc băng cá nhân xinh xắn và lời dỗ dành đã làm bé nín khóc."
+    },
+    {
+      "key": "choice_newborn_minor_scratch_3",
+      "value": "Ngừng cho bé vận động mạnh hôm đó"
+    },
+    {
+      "key": "log_newborn_minor_scratch_3",
+      "value": "Bé cần nghỉ ngơi để vết thương mau lành."
+    },
+    {
+      "key": "event_newborn_parents_baby_proofing_title",
+      "value": "Bố mẹ che chắn ổ điện"
+    },
+    {
+      "key": "event_newborn_parents_baby_proofing_desc",
+      "value": "Khi bé bắt đầu bò, các ổ điện trở thành mối nguy hiểm tiềm tàng."
+    },
+    {
+      "key": "choice_newborn_parents_baby_proofing_1",
+      "value": "Dán nắp nhựa an toàn"
+    },
+    {
+      "key": "log_newborn_parents_baby_proofing_1",
+      "value": "Ngôi nhà đã trở nên an toàn hơn cho bé."
+    },
+    {
+      "key": "choice_newborn_parents_baby_proofing_2",
+      "value": "Kê đồ chắn phía trước"
+    },
+    {
+      "key": "log_newborn_parents_baby_proofing_2",
+      "value": "Đây là một giải pháp tạm thời nhưng hiệu quả."
+    },
+    {
+      "key": "choice_newborn_parents_baby_proofing_3",
+      "value": "Dạy bé “không chạm vào ổ điện”"
+    },
+    {
+      "key": "log_newborn_parents_baby_proofing_3",
+      "value": "Bé có vẻ hiểu, nhưng việc giám sát vẫn là cần thiết."
+    },
+    {
+      "key": "event_newborn_scraped_knee_title",
+      "value": "Trầy đầu gối khi tập đi"
+    },
+    {
+      "key": "event_newborn_scraped_knee_desc",
+      "value": "Bé bị ngã và trầy đầu gối trong những nỗ lực tập đi đầu tiên."
+    },
+    {
+      "key": "choice_newborn_scraped_knee_1",
+      "value": "Rửa sạch và băng vết thương nhỏ"
+    },
+    {
+      "key": "log_newborn_scraped_knee_1",
+      "value": "Vết thương nhỏ không thể ngăn cản bước chân của bé."
+    },
+    {
+      "key": "choice_newborn_scraped_knee_2",
+      "value": "Cho bé mang tất chống trượt"
+    },
+    {
+      "key": "log_newborn_scraped_knee_2",
+      "value": "Đôi tất mới giúp bé đứng vững hơn."
+    },
+    {
+      "key": "choice_newborn_scraped_knee_3",
+      "value": "Chỉ tập trên thảm mềm"
+    },
+    {
+      "key": "log_newborn_scraped_knee_3",
+      "value": "Tập đi trên thảm giúp giảm thiểu chấn thương khi ngã."
+    },
+    {
+      "key": "event_newborn_teacher_comforts_title",
+      "value": "Cần cô giáo trấn an"
+    },
+    {
+      "key": "event_newborn_teacher_comforts_desc",
+      "value": "Bé vẫn còn khóc và không chịu vào lớp."
+    },
+    {
+      "key": "choice_newborn_teacher_comforts_1",
+      "value": "Ôm bé dỗ dành"
+    },
+    {
+      "key": "log_newborn_teacher_comforts_1",
+      "value": "Sự dịu dàng của cô giáo đã giúp bé bình tĩnh lại."
+    },
+    {
+      "key": "choice_newborn_teacher_comforts_2",
+      "value": "Dẫn bé đi tham quan lớp"
+    },
+    {
+      "key": "log_newborn_teacher_comforts_2",
+      "value": "Bé bị thu hút bởi đồ chơi và quên mất nỗi buồn."
+    },
+    {
+      "key": "choice_newborn_teacher_comforts_3",
+      "value": "Cho bé mang gấu bông quen thuộc"
+    },
+    {
+      "key": "log_newborn_teacher_comforts_3",
+      "value": "Người bạn thân quen giúp bé cảm thấy an tâm hơn ở môi trường mới."
+    },
+    {
+      "key": "event_newborn_food_mess_title",
+      "value": "Lau dọn & thay đồ"
+    },
+    {
+      "key": "event_newborn_food_mess_desc",
+      "value": "Bữa ăn tự xúc đầu tiên kết thúc với một bãi chiến trường."
+    },
+    {
+      "key": "choice_newborn_food_mess_1",
+      "value": "Giúp bé xúc lại từ đầu"
+    },
+    {
+      "key": "log_newborn_food_mess_1",
+      "value": "Lần này, bé đã ăn gọn gàng hơn với sự giúp đỡ."
+    },
+    {
+      "key": "choice_newborn_food_mess_2",
+      "value": "Dùng bát chống đổ và thìa nhỏ"
+    },
+    {
+      "key": "log_newborn_food_mess_2",
+      "value": "Dụng cụ phù hợp đã tạo ra sự khác biệt lớn."
+    },
+    {
+      "key": "choice_newborn_food_mess_3",
+      "value": "Chuyển sang finger food dễ cầm"
+    },
+    {
+      "key": "log_newborn_food_mess_3",
+      "value": "Bé rất thích thú với việc tự cầm thức ăn."
+    },
+    {
+      "key": "event_newborn_parental_intervention_title",
+      "value": "Cô/ba mẹ can thiệp"
+    },
+    {
+      "key": "event_newborn_parental_intervention_desc",
+      "value": "Cuộc tranh giành đồ chơi trở nên căng thẳng và cần sự can thiệp của người lớn."
+    },
+    {
+      "key": "choice_newborn_parental_intervention_1",
+      "value": "Nhắc bé đợi lượt bằng lời nhẹ nhàng"
+    },
+    {
+      "key": "log_newborn_parental_intervention_1",
+      "value": "Lời khuyên nhẹ nhàng giúp bé hiểu ra vấn đề."
+    },
+    {
+      "key": "choice_newborn_parental_intervention_2",
+      "value": "Tách hai bé ra một lúc"
+    },
+    {
+      "key": "log_newborn_parental_intervention_2",
+      "value": "Một khoảng lặng ngắn giúp cả hai bình tĩnh lại."
+    },
+    {
+      "key": "choice_newborn_parental_intervention_3",
+      "value": "Khen khi bé chịu chờ"
+    },
+    {
+      "key": "log_newborn_parental_intervention_3",
+      "value": "Lời khen đã khuyến khích hành vi tốt của bé."
+    },
+    {
+      "key": "event_newborn_staff_assistance_title",
+      "value": "Nhân viên hỗ trợ loa gọi"
+    },
+    {
+      "key": "event_newborn_staff_assistance_desc",
+      "value": "Nhờ sự giúp đỡ của nhân viên siêu thị, mẹ đã được thông báo qua loa."
+    },
+    {
+      "key": "choice_newborn_staff_assistance_1",
+      "value": "Bé chạy đến ôm mẹ khi gặp lại"
+    },
+    {
+      "key": "log_newborn_staff_assistance_1",
+      "value": "Cuộc đoàn tụ thật xúc động."
+    },
+    {
+      "key": "choice_newborn_staff_assistance_2",
+      "value": "Nhân viên nhắc quy tắc đứng yên – gọi người lớn"
+    },
+    {
+      "key": "log_newborn_staff_assistance_2",
+      "value": "Bé đã học được một bài học an toàn quan trọng."
+    },
+    {
+      "key": "choice_newborn_staff_assistance_3",
+      "value": "Mẹ quyết định đeo vòng tên cho bé"
+    },
+    {
+      "key": "log_newborn_staff_assistance_3",
+      "value": "Một biện pháp phòng ngừa đơn giản nhưng hiệu quả."
+    },
+    {
+      "key": "event_newborn_off_nap_schedule_title",
+      "value": "Ngủ trưa lệch nhịp"
+    },
+    {
+      "key": "event_newborn_off_nap_schedule_desc",
+      "value": "Giấc ngủ trưa của bé bị xáo trộn, ảnh hưởng đến lịch sinh hoạt của cả nhà."
+    },
+    {
+      "key": "choice_newborn_off_nap_schedule_1",
+      "value": "Đưa về giờ ngủ cố định"
+    },
+    {
+      "key": "log_newborn_off_nap_schedule_1",
+      "value": "Sự kiên trì đã giúp bé quay lại nếp ngủ cũ."
+    },
+    {
+      "key": "choice_newborn_off_nap_schedule_2",
+      "value": "Cho ngủ trên xe đẩy khi ra ngoài"
+    },
+    {
+      "key": "log_newborn_off_nap_schedule_2",
+      "value": "Bé dễ dàng ngủ thiếp đi khi được đẩy đi dạo."
+    },
+    {
+      "key": "choice_newborn_off_nap_schedule_3",
+      "value": "Bỏ giấc trưa, đi ngủ sớm hơn"
+    },
+    {
+      "key": "log_newborn_off_nap_schedule_3",
+      "value": "Bé có vẻ cáu kỉnh vào cuối ngày vì thiếu ngủ."
+    },
+    {
+      "key": "event_newborn_first_tooth_title",
+      "value": "Mọc răng đầu tiên"
+    },
+    {
+      "key": "event_newborn_first_tooth_desc",
+      "value": "Chiếc răng sữa đầu tiên đang nhú lên, khiến bé khó chịu và quấy khóc."
+    },
+    {
+      "key": "choice_newborn_first_tooth_1",
+      "value": "Cho gặm vòng ngậm nướu"
+    },
+    {
+      "key": "log_newborn_first_tooth_1",
+      "value": "Vòng ngậm nướu mát lạnh giúp bé giảm đau hiệu quả."
+    },
+    {
+      "key": "choice_newborn_first_tooth_2",
+      "value": "Massage nướu bằng khăn sạch"
+    },
+    {
+      "key": "log_newborn_first_tooth_2",
+      "value": "Sự tiếp xúc nhẹ nhàng giúp bé cảm thấy dễ chịu hơn."
+    },
+    {
+      "key": "choice_newborn_first_tooth_3",
+      "value": "Dùng thức ăn mát (chuối nghiền lạnh)"
+    },
+    {
+      "key": "log_newborn_first_tooth_3",
+      "value": "Đồ ăn mát không chỉ ngon mà còn giúp làm dịu nướu."
+    },
+    {
+      "key": "event_newborn_stroller_in_park_title",
+      "value": "Lần đầu đi xe đẩy ra công viên"
+    },
+    {
+      "key": "event_newborn_stroller_in_park_desc",
+      "value": "Bé được bố mẹ đẩy xe đi dạo và khám phá thế giới bên ngoài."
+    },
+    {
+      "key": "choice_newborn_stroller_in_park_1",
+      "value": "Ngủ ngon lành trên xe"
+    },
+    {
+      "key": "log_newborn_stroller_in_park_1",
+      "value": "Không khí trong lành và sự rung lắc nhẹ nhàng khiến bé ngủ ngon."
+    },
+    {
+      "key": "choice_newborn_stroller_in_park_2",
+      "value": "Chỉ tay gọi “chó/chim”"
+    },
+    {
+      "key": "log_newborn_stroller_in_park_2",
+      "value": "Bé rất tò mò và hào hứng với mọi thứ xung quanh."
+    },
+    {
+      "key": "choice_newborn_stroller_in_park_3",
+      "value": "Đòi xuống tự đi"
+    },
+    {
+      "key": "log_newborn_stroller_in_park_3",
+      "value": "Bé muốn tự mình khám phá thế giới."
+    },
+    {
+      "key": "event_newborn_first_haircut_title",
+      "value": "Lần đầu cắt tóc"
+    },
+    {
+      "key": "event_newborn_first_haircut_desc",
+      "value": "Mái tóc đầu tiên của bé đã dài và cần được cắt tỉa."
+    },
+    {
+      "key": "choice_newborn_first_haircut_1",
+      "value": "Ngồi ghế chơi đồ chơi trong khi cắt"
+    },
+    {
+      "key": "log_newborn_first_haircut_1",
+      "value": "Bé mải mê chơi đến mức không nhận ra mình đang được cắt tóc."
+    },
+    {
+      "key": "choice_newborn_first_haircut_2",
+      "value": "Khóc sợ tiếng tông-đơ"
+    },
+    {
+      "key": "log_newborn_first_haircut_2",
+      "value": "Tiếng ồn của tông-đơ làm bé sợ hãi."
+    },
+    {
+      "key": "choice_newborn_first_haircut_3",
+      "value": "Ngồi trong lòng bố mẹ để cắt"
+    },
+    {
+      "key": "log_newborn_first_haircut_3",
+      "value": "Cảm giác an toàn khi ở trong lòng bố mẹ giúp bé yên tâm hơn."
+    },
+    {
+      "key": "event_newborn_learning_to_talk_title",
+      "value": "Học nói những từ đầu tiên"
+    },
+    {
+      "key": "event_newborn_learning_to_talk_desc",
+      "value": "Bé đang bập bẹ và cố gắng bắt chước âm thanh của người lớn."
+    },
+    {
+      "key": "choice_newborn_learning_to_talk_1",
+      "value": "Gọi “ba/mẹ”"
+    },
+    {
+      "key": "log_newborn_learning_to_talk_1",
+      "value": "Khoảnh khắc nghe bé gọi tiếng \"ba/mẹ\" đầu tiên thật thiêng liêng."
+    },
+    {
+      "key": "choice_newborn_learning_to_talk_2",
+      "value": "Chỉ đồ vật và bắt chước theo"
+    },
+    {
+      "key": "log_newborn_learning_to_talk_2",
+      "value": "Khả năng học hỏi của bé thật đáng kinh ngạc."
+    },
+    {
+      "key": "choice_newborn_learning_to_talk_3",
+      "value": "Nói lặp đi lặp lại từ chưa rõ nghĩa"
+    },
+    {
+      "key": "log_newborn_learning_to_talk_3",
+      "value": "Thật thú vị khi cố gắng đoán xem bé đang muốn nói gì."
+    },
+    {
+      "key": "event_newborn_bedtime_story_title",
+      "value": "Đọc truyện trước giờ ngủ"
+    },
+    {
+      "key": "event_newborn_bedtime_story_desc",
+      "value": "Đọc truyện là một thói quen tuyệt vời để giúp bé đi vào giấc ngủ."
+    },
+    {
+      "key": "choice_newborn_bedtime_story_1",
+      "value": "Nghe chăm chú và bình luận"
+    },
+    {
+      "key": "log_newborn_bedtime_story_1",
+      "value": "Bé bị cuốn hút vào câu chuyện và trí tưởng tượng bay xa."
+    },
+    {
+      "key": "choice_newborn_bedtime_story_2",
+      "value": "Giở trang liên tục vì tò mò"
+    },
+    {
+      "key": "log_newborn_bedtime_story_2",
+      "value": "Bé tò mò về những hình ảnh hơn là câu chuyện."
+    },
+    {
+      "key": "choice_newborn_bedtime_story_3",
+      "value": "Ngủ gục giữa chừng"
+    },
+    {
+      "key": "log_newborn_bedtime_story_3",
+      "value": "Giọng đọc ấm áp đã ru bé vào giấc ngủ êm đềm."
+    },
+    {
+      "key": "event_newborn_first_dentist_visit_title",
+      "value": "Lần đầu đi nha sĩ"
+    },
+    {
+      "key": "event_newborn_first_dentist_visit_desc",
+      "value": "Đã đến lúc kiểm tra sức khỏe răng miệng cho bé."
+    },
+    {
+      "key": "choice_newborn_first_dentist_visit_1",
+      "value": "Hợp tác mở miệng cho khám"
+    },
+    {
+      "key": "log_newborn_first_dentist_visit_1",
+      "value": "Bé rất dũng cảm và hợp tác với nha sĩ."
+    },
+    {
+      "key": "choice_newborn_first_dentist_visit_2",
+      "value": "Lo lắng nhưng ngồi yên"
+    },
+    {
+      "key": "log_newborn_first_dentist_visit_2",
+      "value": "Dù hơi sợ, bé vẫn cố gắng ngồi yên."
+    },
+    {
+      "key": "choice_newborn_first_dentist_visit_3",
+      "value": "Khóc rồi nín nhờ đồ chơi"
+    },
+    {
+      "key": "log_newborn_first_dentist_visit_3",
+      "value": "Một món đồ chơi nhỏ đã giúp bé vượt qua nỗi sợ hãi."
+    },
+    {
+      "key": "event_newborn_friend_birthday_title",
+      "value": "Đi chơi sinh nhật bạn"
+    },
+    {
+      "key": "event_newborn_friend_birthday_desc",
+      "value": "Bé được mời đến dự tiệc sinh nhật của một người bạn."
+    },
+    {
+      "key": "choice_newborn_friend_birthday_1",
+      "value": "Tham gia thổi bong bóng"
+    },
+    {
+      "key": "log_newborn_friend_birthday_1",
+      "value": "Bé đã có một khoảng thời gian tuyệt vời khi chơi cùng các bạn."
+    },
+    {
+      "key": "choice_newborn_friend_birthday_2",
+      "value": "Đứng nhìn vì ngại đám đông"
+    },
+    {
+      "key": "log_newborn_friend_birthday_2",
+      "value": "Bé cần thời gian để làm quen với môi trường đông người."
+    },
+    {
+      "key": "choice_newborn_friend_birthday_3",
+      "value": "Chơi cùng vài bạn mới quen"
+    },
+    {
+      "key": "log_newborn_friend_birthday_3",
+      "value": "Bữa tiệc là cơ hội tốt để bé kết bạn mới."
+    },
+    {
+      "key": "event_newborn_first_swim_title",
+      "value": "Lần đầu đi bơi"
+    },
+    {
+      "key": "event_newborn_first_swim_desc",
+      "value": "Gia đình đưa bé đến hồ bơi để làm quen với nước."
+    },
+    {
+      "key": "choice_newborn_first_swim_1",
+      "value": "Vẫy nước thích thú"
+    },
+    {
+      "key": "log_newborn_first_swim_1",
+      "value": "Bé không hề sợ nước và tỏ ra rất thích thú."
+    },
+    {
+      "key": "choice_newborn_first_swim_2",
+      "value": "Ôm chặt người lớn không buông"
+    },
+    {
+      "key": "log_newborn_first_swim_2",
+      "value": "Bé cảm thấy không an toàn và cần sự bảo vệ."
+    },
+    {
+      "key": "choice_newborn_first_swim_3",
+      "value": "Dùng phao tay để tập bơi"
+    },
+    {
+      "key": "log_newborn_first_swim_3",
+      "value": "Với sự hỗ trợ của phao, bé đã tự tin hơn trong nước."
+    },
+    {
+      "key": "event_newborn_mild_allergy_title",
+      "value": "Dị ứng nhẹ với món mới"
+    },
+    {
+      "key": "event_newborn_mild_allergy_desc",
+      "value": "Sau khi thử một món ăn mới, bé có dấu hiệu dị ứng nhẹ."
+    },
+    {
+      "key": "choice_newborn_mild_allergy_1",
+      "value": "Ngừng món đó và theo dõi"
+    },
+    {
+      "key": "log_newborn_mild_allergy_1",
+      "value": "Việc xác định và tránh xa tác nhân gây dị ứng là rất quan trọng."
+    },
+    {
+      "key": "choice_newborn_mild_allergy_2",
+      "value": "Cho uống nước mát"
+    },
+    {
+      "key": "log_newborn_mild_allergy_2",
+      "value": "Nước mát giúp bé cảm thấy dễ chịu hơn."
+    },
+    {
+      "key": "choice_newborn_mild_allergy_3",
+      "value": "Gọi điện hỏi ý kiến bác sĩ"
+    },
+    {
+      "key": "log_newborn_mild_allergy_3",
+      "value": "Luôn hỏi ý kiến chuyên gia khi không chắc chắn."
+    },
+    {
+      "key": "event_newborn_potty_training_title",
+      "value": "Tập bỏ bỉm (potty training)"
+    },
+    {
+      "key": "event_newborn_potty_training_desc",
+      "value": "Đã đến lúc dạy bé cách sử dụng bô."
+    },
+    {
+      "key": "choice_newborn_potty_training_1",
+      "value": "Báo trước khi cần đi vệ sinh"
+    },
+    {
+      "key": "log_newborn_potty_training_1",
+      "value": "Bé đã học được cách nhận biết và thông báo nhu cầu của mình."
+    },
+    {
+      "key": "choice_newborn_potty_training_2",
+      "value": "Thỉnh thoảng lỡ ra quần"
+    },
+    {
+      "key": "log_newborn_potty_training_2",
+      "value": "Tai nạn nhỏ là một phần không thể tránh khỏi của quá trình học hỏi."
+    },
+    {
+      "key": "choice_newborn_potty_training_3",
+      "value": "Chỉ chịu ngồi bô khi có bố/mẹ bên cạnh"
+    },
+    {
+      "key": "log_newborn_potty_training_3",
+      "value": "Sự có mặt của bố mẹ mang lại cho bé cảm giác an toàn."
+    },
+    {
+      "key": "event_newborn_rainy_day_inside_title",
+      "value": "Ngày mưa kẹt trong nhà"
+    },
+    {
+      "key": "event_newborn_rainy_day_inside_desc",
+      "value": "Trời mưa và cả nhà không thể ra ngoài chơi."
+    },
+    {
+      "key": "choice_newborn_rainy_day_inside_1",
+      "value": "Xếp hình/ghép khối"
+    },
+    {
+      "key": "log_newborn_rainy_day_inside_1",
+      "value": "Trò chơi trí tuệ giúp bé phát triển kỹ năng giải quyết vấn đề."
+    },
+    {
+      "key": "choice_newborn_rainy_day_inside_2",
+      "value": "Vẽ màu lên giấy"
+    },
+    {
+      "key": "log_newborn_rainy_day_inside_2",
+      "value": "Vẽ tranh là một cách tuyệt vời để bé thể hiện sự sáng tạo."
+    },
+    {
+      "key": "choice_newborn_rainy_day_inside_3",
+      "value": "Xem hoạt hình cùng bố mẹ"
+    },
+    {
+      "key": "log_newborn_rainy_day_inside_3",
+      "value": "Khoảng thời gian ấm cúng bên gia đình."
+    },
+    {
+      "key": "event_newborn_sharing_food_title",
+      "value": "Chia sẻ đồ ăn"
+    },
+    {
+      "key": "event_newborn_sharing_food_desc",
+      "value": "Trong bữa ăn nhẹ, bé có cơ hội chia sẻ đồ ăn với bạn."
+    },
+    {
+      "key": "choice_newborn_sharing_food_1",
+      "value": "Tự nguyện chia nửa cho bạn"
+    },
+    {
+      "key": "log_newborn_sharing_food_1",
+      "value": "Bé đang học cách trở nên hào phóng."
+    },
+    {
+      "key": "choice_newborn_sharing_food_2",
+      "value": "Đổi món ăn với bạn"
+    },
+    {
+      "key": "log_newborn_sharing_food_2",
+      "value": "Cả hai đều có cơ hội thử những món mới."
+    },
+    {
+      "key": "choice_newborn_sharing_food_3",
+      "value": "Giữ lại phần mình thích"
+    },
+    {
+      "key": "log_newborn_sharing_food_3",
+      "value": "Bé vẫn còn hơi ích kỷ một chút."
+    },
+    {
+      "key": "event_newborn_scared_of_thunder_title",
+      "value": "Sợ tiếng sấm"
+    },
+    {
+      "key": "event_newborn_scared_of_thunder_desc",
+      "value": "Một cơn giông lớn với sấm sét khiến bé sợ hãi."
+    },
+    {
+      "key": "choice_newborn_scared_of_thunder_1",
+      "value": "Chạy vào lòng bố/mẹ"
+    },
+    {
+      "key": "log_newborn_scared_of_thunder_1",
+      "value": "Vòng tay của bố mẹ là nơi an toàn nhất."
+    },
+    {
+      "key": "choice_newborn_scared_of_thunder_2",
+      "value": "Bịt tai và ngồi im"
+    },
+    {
+      "key": "log_newborn_scared_of_thunder_2",
+      "value": "Bé cố gắng tự trấn an bản thân."
+    },
+    {
+      "key": "choice_newborn_scared_of_thunder_3",
+      "value": "Đếm cùng bố mẹ để bình tĩnh"
+    },
+    {
+      "key": "log_newborn_scared_of_thunder_3",
+      "value": "Việc tập trung vào trò chơi đếm số giúp bé quên đi nỗi sợ."
+    },
+    {
+      "key": "event_newborn_breaks_cup_title",
+      "value": "Làm rơi vỡ cốc nhựa"
+    },
+    {
+      "key": "event_newborn_breaks_cup_desc",
+      "value": "Bé vô tình làm rơi chiếc cốc yêu thích của mình."
+    },
+    {
+      "key": "choice_newborn_breaks_cup_1",
+      "value": "Nhặt cùng người lớn"
+    },
+    {
+      "key": "log_newborn_breaks_cup_1",
+      "value": "Bé học cách chịu trách nhiệm với hành động của mình."
+    },
+    {
+      "key": "choice_newborn_breaks_cup_2",
+      "value": "Lo lắng xin lỗi"
+    },
+    {
+      "key": "log_newborn_breaks_cup_2",
+      "value": "Bé hiểu rằng mình đã làm sai."
+    },
+    {
+      "key": "choice_newborn_breaks_cup_3",
+      "value": "Đề nghị thử cất đồ cẩn thận hơn"
+    },
+    {
+      "key": "log_newborn_breaks_cup_3",
+      "value": "Bé đang học hỏi từ những sai lầm."
+    },
+    {
+      "key": "event_newborn_self_dressing_title",
+      "value": "Tập tự mặc quần áo"
+    },
+    {
+      "key": "event_newborn_self_dressing_desc",
+      "value": "Bé muốn tự mặc quần áo mà không cần sự giúp đỡ."
+    },
+    {
+      "key": "choice_newborn_self_dressing_1",
+      "value": "Mặc ngược áo"
+    },
+    {
+      "key": "log_newborn_self_dressing_1",
+      "value": "Dù mặc sai, nỗ lực của bé vẫn rất đáng khen."
+    },
+    {
+      "key": "choice_newborn_self_dressing_2",
+      "value": "Chọn quần áo sặc sỡ"
+    },
+    {
+      "key": "log_newborn_self_dressing_2",
+      "value": "Bé đang thể hiện cá tính riêng của mình."
+    },
+    {
+      "key": "choice_newborn_self_dressing_3",
+      "value": "Kéo khóa thành công"
+    },
+    {
+      "key": "log_newborn_self_dressing_3",
+      "value": "Một thành tựu nhỏ nhưng mang lại sự tự tin lớn lao."
+    },
+    {
+      "key": "event_newborn_unwilling_to_go_to_class_title",
+      "value": "Buổi sáng không muốn tới lớp"
+    },
+    {
+      "key": "event_newborn_unwilling_to_go_to_class_desc",
+      "value": "Hôm nay bé không muốn đi học và khóc lóc."
+    },
+    {
+      "key": "choice_newborn_unwilling_to_go_to_class_1",
+      "value": "Ôm tạm biệt nhanh gọn"
+    },
+    {
+      "key": "log_newborn_unwilling_to_go_to_class_1",
+      "value": "Việc kéo dài cuộc chia tay chỉ làm mọi thứ khó khăn hơn."
+    },
+    {
+      "key": "choice_newborn_unwilling_to_go_to_class_2",
+      "value": "Dỗ bằng sticker thưởng"
+    },
+    {
+      "key": "log_newborn_unwilling_to_go_to_class_2",
+      "value": "Một phần thưởng nhỏ có thể tạo ra động lực lớn."
+    },
+    {
+      "key": "choice_newborn_unwilling_to_go_to_class_3",
+      "value": "Ngồi chơi với bạn rồi dần quên khóc"
+    },
+    {
+      "key": "log_newborn_unwilling_to_go_to_class_3",
+      "value": "Niềm vui khi chơi cùng bạn bè giúp bé nhanh chóng hòa nhập."
+    },
+    {
+      "key": "event_newborn_playing_in_sand_title",
+      "value": "Chơi cát/đất ở sân"
+    },
+    {
+      "key": "event_newborn_playing_in_sand_desc",
+      "value": "Sân chơi cát là một nơi tuyệt vời để bé khám phá."
+    },
+    {
+      "key": "choice_newborn_playing_in_sand_1",
+      "value": "Xây “lâu đài” bằng xẻng"
+    },
+    {
+      "key": "log_newborn_playing_in_sand_1",
+      "value": "Bé thỏa sức sáng tạo với cát."
+    },
+    {
+      "key": "choice_newborn_playing_in_sand_2",
+      "value": "Lỡ làm cát văng vào mắt"
+    },
+    {
+      "key": "log_newborn_playing_in_sand_2",
+      "value": "Một tai nạn nhỏ nhưng khó chịu."
+    },
+    {
+      "key": "choice_newborn_playing_in_sand_3",
+      "value": "Mang đồ chơi dính cát vào nhà"
+    },
+    {
+      "key": "log_newborn_playing_in_sand_3",
+      "value": "Bé không nhận ra rằng việc này sẽ làm bẩn nhà."
+    },
+    {
+      "key": "event_newborn_drops_toy_title",
+      "value": "Làm rơi thú bông yêu thích"
+    },
+    {
+      "key": "event_newborn_drops_toy_desc",
+      "value": "Bé làm rơi mất con thú bông yêu thích khi đang đi chơi."
+    },
+    {
+      "key": "choice_newborn_drops_toy_1",
+      "value": "Tìm thấy dưới gầm giường"
+    },
+    {
+      "key": "log_newborn_drops_toy_1",
+      "value": "Hóa ra nó chỉ trốn ở một nơi quen thuộc."
+    },
+    {
+      "key": "choice_newborn_drops_toy_2",
+      "value": "Khóc đòi tìm bằng được"
+    },
+    {
+      "key": "log_newborn_drops_toy_2",
+      "value": "Con thú bông có ý nghĩa rất lớn đối với bé."
+    },
+    {
+      "key": "choice_newborn_drops_toy_3",
+      "value": "Chấp nhận ôm thú bông khác tạm"
+    },
+    {
+      "key": "log_newborn_drops_toy_3",
+      "value": "Bé học cách thích nghi với sự thay đổi."
+    },
+    {
+      "key": "event_newborn_school_festival_title",
+      "value": "Lễ hội/trung thu ở trường mầm non"
+    },
+    {
+      "key": "event_newborn_school_festival_desc",
+      "value": "Trường mầm non tổ chức một lễ hội đặc biệt."
+    },
+    {
+      "key": "choice_newborn_school_festival_1",
+      "value": "Rước đèn cùng bạn bè"
+    },
+    {
+      "key": "log_newborn_school_festival_1",
+      "value": "Ánh đèn lồng lung linh và tiếng cười rộn rã."
+    },
+    {
+      "key": "choice_newborn_school_festival_2",
+      "value": "Đeo mặt nạ và hơi sợ"
+    },
+    {
+      "key": "log_newborn_school_festival_2",
+      "value": "Chiếc mặt nạ hơi đáng sợ nhưng cũng rất thú vị."
+    },
+    {
+      "key": "choice_newborn_school_festival_3",
+      "value": "Ngồi xem tiết mục múa lân"
+    },
+    {
+      "key": "log_newborn_school_festival_3",
+      "value": "Tiếng trống múa lân thật náo nhiệt và hấp dẫn."
+    }
+  ]
+}

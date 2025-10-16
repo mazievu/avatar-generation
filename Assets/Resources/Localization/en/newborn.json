@@ -1,0 +1,1284 @@
+{
+  "items": [
+    {
+      "key": "event_newborn_first_night_crying_title",
+      "value": "First Night Crying"
+    },
+    {
+      "key": "event_newborn_first_night_crying_desc",
+      "value": "The newborn won't stop crying on their first night home, testing the parents' patience."
+    },
+    {
+      "key": "choice_newborn_first_night_crying_1",
+      "value": "Hug and rock the baby to sleep"
+    },
+    {
+      "key": "log_newborn_first_night_crying_1",
+      "value": "The warmth of a parent's embrace helped the baby feel secure and fall asleep."
+    },
+    {
+      "key": "choice_newborn_first_night_crying_2",
+      "value": "Feed the baby again, even if it's not time"
+    },
+    {
+      "key": "log_newborn_first_night_crying_2",
+      "value": "The baby had a little more milk and dozed off, but seemed a bit fussy."
+    },
+    {
+      "key": "choice_newborn_first_night_crying_3",
+      "value": "Put the baby down and try white noise/lullabies"
+    },
+    {
+      "key": "log_newborn_first_night_crying_3",
+      "value": "The gentle sound captured the baby's attention, helping them calm down."
+    },
+    {
+      "key": "event_newborn_first_bath_title",
+      "value": "First Bath"
+    },
+    {
+      "key": "event_newborn_first_bath_desc",
+      "value": "It's time for the baby's first bath. This can be a scary or fun experience."
+    },
+    {
+      "key": "choice_newborn_first_bath_1",
+      "value": "Sing and play while bathing"
+    },
+    {
+      "key": "log_newborn_first_bath_1",
+      "value": "The baby seemed amused and happily splashed in the water."
+    },
+    {
+      "key": "choice_newborn_first_bath_2",
+      "value": "Bathe quickly so the baby isn't scared"
+    },
+    {
+      "key": "log_newborn_first_bath_2",
+      "value": "The quick bath startled the baby and made them cry."
+    },
+    {
+      "key": "choice_newborn_first_bath_3",
+      "value": "Let the baby play with toys in the tub"
+    },
+    {
+      "key": "log_newborn_first_bath_3",
+      "value": "The toys distracted the baby, making bath time go smoothly."
+    },
+    {
+      "key": "event_newborn_vaccination_title",
+      "value": "Routine Vaccination"
+    },
+    {
+      "key": "event_newborn_vaccination_desc",
+      "value": "It's time to take the baby for their shots. They seem a bit anxious seeing the needle."
+    },
+    {
+      "key": "choice_newborn_vaccination_1",
+      "value": "Soothe with a lollipop/toy after the shot"
+    },
+    {
+      "key": "log_newborn_vaccination_1",
+      "value": "The baby stopped crying as soon as they saw their favorite toy."
+    },
+    {
+      "key": "choice_newborn_vaccination_2",
+      "value": "Let the baby sit on a parent's lap"
+    },
+    {
+      "key": "log_newborn_vaccination_2",
+      "value": "Feeling secure in a parent's arms helped the baby be brave."
+    },
+    {
+      "key": "choice_newborn_vaccination_3",
+      "value": "Let the baby watch another child get a shot first"
+    },
+    {
+      "key": "log_newborn_vaccination_3",
+      "value": "Watching another child get a shot seemed to make the baby even more scared."
+    },
+    {
+      "key": "event_newborn_learning_to_roll_over_title",
+      "value": "Learning to Roll Over"
+    },
+    {
+      "key": "event_newborn_learning_to_roll_over_desc",
+      "value": "The baby is trying to roll over for the first time, a major milestone."
+    },
+    {
+      "key": "choice_newborn_learning_to_roll_over_1",
+      "value": "Cheer and record a video"
+    },
+    {
+      "key": "log_newborn_learning_to_roll_over_1",
+      "value": "The family's encouragement motivated the baby."
+    },
+    {
+      "key": "choice_newborn_learning_to_roll_over_2",
+      "value": "Place a toy in front as motivation"
+    },
+    {
+      "key": "log_newborn_learning_to_roll_over_2",
+      "value": "Wanting to reach the toy, the baby made an effort and successfully rolled over."
+    },
+    {
+      "key": "choice_newborn_learning_to_roll_over_3",
+      "value": "Gently help the baby turn"
+    },
+    {
+      "key": "log_newborn_learning_to_roll_over_3",
+      "value": "A little help helped the baby understand how to turn."
+    },
+    {
+      "key": "event_newborn_learning_to_crawl_title",
+      "value": "Learning to Crawl"
+    },
+    {
+      "key": "event_newborn_learning_to_crawl_desc",
+      "value": "After learning to roll over, the baby is now interested in moving and exploring."
+    },
+    {
+      "key": "choice_newborn_learning_to_crawl_1",
+      "value": "Create a path of toys for the baby to follow"
+    },
+    {
+      "key": "log_newborn_learning_to_crawl_1",
+      "value": "The baby happily crawled along the colorful toy path."
+    },
+    {
+      "key": "choice_newborn_learning_to_crawl_2",
+      "value": "Let the baby crawl towards a parent with open arms"
+    },
+    {
+      "key": "log_newborn_learning_to_crawl_2",
+      "value": "Seeing their parents, the baby happily crawled as fast as they could."
+    },
+    {
+      "key": "choice_newborn_learning_to_crawl_3",
+      "value": "Let the baby freely explore the room"
+    },
+    {
+      "key": "log_newborn_learning_to_crawl_3",
+      "value": "The baby curiously explored every corner of the room."
+    },
+    {
+      "key": "event_newborn_first_steps_title",
+      "value": "Taking First Steps"
+    },
+    {
+      "key": "event_newborn_first_steps_desc",
+      "value": "The baby is holding onto furniture, trying to stand up and take their first wobbly steps."
+    },
+    {
+      "key": "choice_newborn_first_steps_1",
+      "value": "Hold the baby with both hands"
+    },
+    {
+      "key": "log_newborn_first_steps_1",
+      "value": "The baby felt safe and confidently took steps with parental support."
+    },
+    {
+      "key": "choice_newborn_first_steps_2",
+      "value": "Let the baby stand up and walk a few steps on their own"
+    },
+    {
+      "key": "log_newborn_first_steps_2",
+      "value": "The baby was very resilient, falling and getting back up again."
+    },
+    {
+      "key": "choice_newborn_first_steps_3",
+      "value": "Let the baby use a walker"
+    },
+    {
+      "key": "log_newborn_first_steps_3",
+      "value": "The walker was a great tool to help the baby."
+    },
+    {
+      "key": "event_newborn_first_day_daycare_title",
+      "value": "First Day of Daycare"
+    },
+    {
+      "key": "event_newborn_first_day_daycare_desc",
+      "value": "This is the first time the baby has to be away from their parents in a new environment."
+    },
+    {
+      "key": "choice_newborn_first_day_daycare_1",
+      "value": "Hug the baby for a long time before leaving"
+    },
+    {
+      "key": "log_newborn_first_day_daycare_1",
+      "value": "The lingering goodbye made both parent and child sad."
+    },
+    {
+      "key": "choice_newborn_first_day_daycare_2",
+      "value": "Give a brief instruction and leave quickly"
+    },
+    {
+      "key": "log_newborn_first_day_daycare_2",
+      "value": "Leaving quickly helped the baby adapt more easily."
+    },
+    {
+      "key": "choice_newborn_first_day_daycare_3",
+      "value": "Ask the teacher to give the baby a tour of the class"
+    },
+    {
+      "key": "log_newborn_first_day_daycare_3",
+      "value": "The baby was distracted by new things and quickly forgot their sadness."
+    },
+    {
+      "key": "event_newborn_first_self_feeding_title",
+      "value": "First Time Self-Feeding"
+    },
+    {
+      "key": "event_newborn_first_self_feeding_desc",
+      "value": "The baby wants to feed themselves, an important skill to learn."
+    },
+    {
+      "key": "choice_newborn_first_self_feeding_1",
+      "value": "Prepare a spill-proof bowl and a small spoon"
+    },
+    {
+      "key": "log_newborn_first_self_feeding_1",
+      "value": "The right tools helped the baby learn to eat on their own more easily."
+    },
+    {
+      "key": "choice_newborn_first_self_feeding_2",
+      "value": "Let the baby try freely without much intervention"
+    },
+    {
+      "key": "log_newborn_first_self_feeding_2",
+      "value": "Although it was a bit messy, the baby had a lot of fun exploring freely."
+    },
+    {
+      "key": "choice_newborn_first_self_feeding_3",
+      "value": "Eat together so the baby can imitate"
+    },
+    {
+      "key": "log_newborn_first_self_feeding_3",
+      "value": "The baby learned very quickly by observing and imitating adults."
+    },
+    {
+      "key": "event_newborn_snatching_toys_title",
+      "value": "Snatching Toys During Playtime"
+    },
+    {
+      "key": "event_newborn_snatching_toys_desc",
+      "value": "During playtime, the baby and another child want the same toy."
+    },
+    {
+      "key": "choice_newborn_snatching_toys_1",
+      "value": "Guide the baby to trade for another toy with the friend"
+    },
+    {
+      "key": "log_newborn_snatching_toys_1",
+      "value": "The baby learned how to negotiate and share."
+    },
+    {
+      "key": "choice_newborn_snatching_toys_2",
+      "value": "Remind the baby to say \"may I borrow it?\""
+    },
+    {
+      "key": "log_newborn_snatching_toys_2",
+      "value": "Polite words didn't work; the baby still didn't get the toy."
+    },
+    {
+      "key": "choice_newborn_snatching_toys_3",
+      "value": "Separate them to play alone for a while"
+    },
+    {
+      "key": "log_newborn_snatching_toys_3",
+      "value": "Neither child was happy and they started throwing tantrums."
+    },
+    {
+      "key": "event_newborn_lost_in_store_title",
+      "value": "Lost at the Supermarket"
+    },
+    {
+      "key": "event_newborn_lost_in_store_desc",
+      "value": "In a moment of distraction, the baby realizes their mother is nowhere in sight."
+    },
+    {
+      "key": "choice_newborn_lost_in_store_1",
+      "value": "The baby stays in one place and waits"
+    },
+    {
+      "key": "log_newborn_lost_in_store_1",
+      "value": "By staying put, the mother quickly found the baby."
+    },
+    {
+      "key": "choice_newborn_lost_in_store_2",
+      "value": "The baby tries to find their mother by retracing their steps"
+    },
+    {
+      "key": "log_newborn_lost_in_store_2",
+      "value": "The baby got more lost and started to panic."
+    },
+    {
+      "key": "choice_newborn_lost_in_store_3",
+      "value": "The baby runs to a nearby security guard"
+    },
+    {
+      "key": "log_newborn_lost_in_store_3",
+      "value": "The baby's smart action helped resolve the situation quickly."
+    },
+    {
+      "key": "event_newborn_parents_sleepless_title",
+      "value": "Sleepless Parents"
+    },
+    {
+      "key": "event_newborn_parents_sleepless_desc",
+      "value": "After taking care of the baby all night, both parents are sleep-deprived and exhausted."
+    },
+    {
+      "key": "choice_newborn_parents_sleepless_1",
+      "value": "Take turns on night duty"
+    },
+    {
+      "key": "log_newborn_parents_sleepless_1",
+      "value": "We decided to take turns so we could both get some rest."
+    },
+    {
+      "key": "choice_newborn_parents_sleepless_2",
+      "value": "Use white noise to soothe"
+    },
+    {
+      "key": "log_newborn_parents_sleepless_2",
+      "value": "White noise helped the whole family get a better night's sleep."
+    },
+    {
+      "key": "choice_newborn_parents_sleepless_3",
+      "value": "Ask grandparents for help"
+    },
+    {
+      "key": "log_newborn_parents_sleepless_3",
+      "value": "The grandparents' help was invaluable."
+    },
+    {
+      "key": "event_newborn_fear_of_bathing_title",
+      "value": "Fear of Bathing"
+    },
+    {
+      "key": "event_newborn_fear_of_bathing_desc",
+      "value": "After the first bath, the baby seems scared every time it's bath time."
+    },
+    {
+      "key": "choice_newborn_fear_of_bathing_1",
+      "value": "Use a bath seat with floating toys"
+    },
+    {
+      "key": "log_newborn_fear_of_bathing_1",
+      "value": "The toys turned bath time into fun playtime."
+    },
+    {
+      "key": "choice_newborn_fear_of_bathing_2",
+      "value": "Let the baby bathe with a sibling"
+    },
+    {
+      "key": "log_newborn_fear_of_bathing_2",
+      "value": "Bathing with a sibling helped the baby feel safer and less scared."
+    },
+    {
+      "key": "choice_newborn_fear_of_bathing_3",
+      "value": "Bathe quickly and dry with a warm towel"
+    },
+    {
+      "key": "log_newborn_fear_of_bathing_3",
+      "value": "Even though it was quick, the baby cried throughout the bath."
+    },
+    {
+      "key": "event_newborn_fever_after_shot_title",
+      "value": "Fever After Shot"
+    },
+    {
+      "key": "event_newborn_fever_after_shot_desc",
+      "value": "The baby has a slight fever after vaccination, a common side effect."
+    },
+    {
+      "key": "choice_newborn_fever_after_shot_1",
+      "value": "Give fever reducer as directed"
+    },
+    {
+      "key": "log_newborn_fever_after_shot_1",
+      "value": "The fever reducer worked, and the baby felt more comfortable."
+    },
+    {
+      "key": "choice_newborn_fever_after_shot_2",
+      "value": "Apply a warm compress and monitor"
+    },
+    {
+      "key": "log_newborn_fever_after_shot_2",
+      "value": "The natural warm compress method helped reduce the fever gradually."
+    },
+    {
+      "key": "choice_newborn_fever_after_shot_3",
+      "value": "Call the doctor before a follow-up visit"
+    },
+    {
+      "key": "log_newborn_fever_after_shot_3",
+      "value": "The doctor's advice reassured us and helped us care for the baby properly."
+    },
+    {
+      "key": "event_newborn_minor_scratch_title",
+      "value": "Minor Scratch"
+    },
+    {
+      "key": "event_newborn_minor_scratch_desc",
+      "value": "While learning to roll over, the baby got a small scratch."
+    },
+    {
+      "key": "choice_newborn_minor_scratch_1",
+      "value": "Clean with saline solution"
+    },
+    {
+      "key": "log_newborn_minor_scratch_1",
+      "value": "The wound was cleaned carefully to prevent infection."
+    },
+    {
+      "key": "choice_newborn_minor_scratch_2",
+      "value": "Apply a small bandage and comfort the baby"
+    },
+    {
+      "key": "log_newborn_minor_scratch_2",
+      "value": "A cute bandage and some comforting words made the baby stop crying."
+    },
+    {
+      "key": "choice_newborn_minor_scratch_3",
+      "value": "Stop the baby from strenuous activity for the day"
+    },
+    {
+      "key": "log_newborn_minor_scratch_3",
+      "value": "The baby needs to rest for the wound to heal."
+    },
+    {
+      "key": "event_newborn_parents_baby_proofing_title",
+      "value": "Parents Baby-Proofing"
+    },
+    {
+      "key": "event_newborn_parents_baby_proofing_desc",
+      "value": "As the baby starts to crawl, electrical outlets become a potential hazard."
+    },
+    {
+      "key": "choice_newborn_parents_baby_proofing_1",
+      "value": "Use safe plastic covers"
+    },
+    {
+      "key": "log_newborn_parents_baby_proofing_1",
+      "value": "The house has become a safer place for the baby."
+    },
+    {
+      "key": "choice_newborn_parents_baby_proofing_2",
+      "value": "Place furniture in front of them"
+    },
+    {
+      "key": "log_newborn_parents_baby_proofing_2",
+      "value": "This is a temporary but effective solution."
+    },
+    {
+      "key": "choice_newborn_parents_baby_proofing_3",
+      "value": "Teach the baby \"do not touch outlets\""
+    },
+    {
+      "key": "log_newborn_parents_baby_proofing_3",
+      "value": "The baby seems to understand, but supervision is still necessary."
+    },
+    {
+      "key": "event_newborn_scraped_knee_title",
+      "value": "Scraped Knee While Learning to Walk"
+    },
+    {
+      "key": "event_newborn_scraped_knee_desc",
+      "value": "The baby fell and scraped their knee during their first attempts to walk."
+    },
+    {
+      "key": "choice_newborn_scraped_knee_1",
+      "value": "Clean and bandage the small wound"
+    },
+    {
+      "key": "log_newborn_scraped_knee_1",
+      "value": "A small wound can't stop the baby's steps."
+    },
+    {
+      "key": "choice_newborn_scraped_knee_2",
+      "value": "Have the baby wear non-slip socks"
+    },
+    {
+      "key": "log_newborn_scraped_knee_2",
+      "value": "The new socks helped the baby stand more steadily."
+    },
+    {
+      "key": "choice_newborn_scraped_knee_3",
+      "value": "Only practice on a soft mat"
+    },
+    {
+      "key": "log_newborn_scraped_knee_3",
+      "value": "Practicing on a mat helps minimize injuries from falls."
+    },
+    {
+      "key": "event_newborn_teacher_comforts_title",
+      "value": "Needs Teacher's Reassurance"
+    },
+    {
+      "key": "event_newborn_teacher_comforts_desc",
+      "value": "The baby is still crying and refuses to go into the classroom."
+    },
+    {
+      "key": "choice_newborn_teacher_comforts_1",
+      "value": "Hug and comfort the baby"
+    },
+    {
+      "key": "log_newborn_teacher_comforts_1",
+      "value": "The teacher's gentleness helped the baby calm down."
+    },
+    {
+      "key": "choice_newborn_teacher_comforts_2",
+      "value": "Give the baby a tour of the class"
+    },
+    {
+      "key": "log_newborn_teacher_comforts_2",
+      "value": "The baby was distracted by the toys and forgot their sadness."
+    },
+    {
+      "key": "choice_newborn_teacher_comforts_3",
+      "value": "Let the baby bring a familiar teddy bear"
+    },
+    {
+      "key": "log_newborn_teacher_comforts_3",
+      "value": "The familiar friend helped the baby feel more secure in the new environment."
+    },
+    {
+      "key": "event_newborn_food_mess_title",
+      "value": "Clean Up & Change Clothes"
+    },
+    {
+      "key": "event_newborn_food_mess_desc",
+      "value": "The first self-feeding meal ended in a battlefield."
+    },
+    {
+      "key": "choice_newborn_food_mess_1",
+      "value": "Help the baby eat from the start again"
+    },
+    {
+      "key": "log_newborn_food_mess_1",
+      "value": "This time, the baby ate more neatly with help."
+    },
+    {
+      "key": "choice_newborn_food_mess_2",
+      "value": "Use a spill-proof bowl and a small spoon"
+    },
+    {
+      "key": "log_newborn_food_mess_2",
+      "value": "The right tools made a big difference."
+    },
+    {
+      "key": "choice_newborn_food_mess_3",
+      "value": "Switch to easy-to-hold finger foods"
+    },
+    {
+      "key": "log_newborn_food_mess_3",
+      "value": "The baby was very excited to hold their own food."
+    },
+    {
+      "key": "event_newborn_parental_intervention_title",
+      "value": "Parental Intervention"
+    },
+    {
+      "key": "event_newborn_parental_intervention_desc",
+      "value": "The toy snatching became intense and required adult intervention."
+    },
+    {
+      "key": "choice_newborn_parental_intervention_1",
+      "value": "Gently remind the baby to wait their turn"
+    },
+    {
+      "key": "log_newborn_parental_intervention_1",
+      "value": "Gentle advice helped the baby understand the issue."
+    },
+    {
+      "key": "choice_newborn_parental_intervention_2",
+      "value": "Separate the two children for a while"
+    },
+    {
+      "key": "log_newborn_parental_intervention_2",
+      "value": "A short break helped both of them calm down."
+    },
+    {
+      "key": "choice_newborn_parental_intervention_3",
+      "value": "Praise the baby when they agree to wait"
+    },
+    {
+      "key": "log_newborn_parental_intervention_3",
+      "value": "Praise encouraged the baby's good behavior."
+    },
+    {
+      "key": "event_newborn_staff_assistance_title",
+      "value": "Staff Assistance via Announcer"
+    },
+    {
+      "key": "event_newborn_staff_assistance_desc",
+      "value": "Thanks to the help of a store employee, the mother was paged over the loudspeaker."
+    },
+    {
+      "key": "choice_newborn_staff_assistance_1",
+      "value": "The baby runs and hugs their mom upon reunion"
+    },
+    {
+      "key": "log_newborn_staff_assistance_1",
+      "value": "The reunion was very emotional."
+    },
+    {
+      "key": "choice_newborn_staff_assistance_2",
+      "value": "The employee reminds of the rule: stay put and call an adult"
+    },
+    {
+      "key": "log_newborn_staff_assistance_2",
+      "value": "The baby learned an important safety lesson."
+    },
+    {
+      "key": "choice_newborn_staff_assistance_3",
+      "value": "The mom decides to put a name tag bracelet on the baby"
+    },
+    {
+      "key": "log_newborn_staff_assistance_3",
+      "value": "A simple but effective preventive measure."
+    },
+    {
+      "key": "event_newborn_off_nap_schedule_title",
+      "value": "Off-Schedule Napping"
+    },
+    {
+      "key": "event_newborn_off_nap_schedule_desc",
+      "value": "The baby's nap schedule is disrupted, affecting the whole family's routine."
+    },
+    {
+      "key": "choice_newborn_off_nap_schedule_1",
+      "value": "Get back to a fixed nap time"
+    },
+    {
+      "key": "log_newborn_off_nap_schedule_1",
+      "value": "Persistence helped the baby get back to their old sleep pattern."
+    },
+    {
+      "key": "choice_newborn_off_nap_schedule_2",
+      "value": "Let them sleep in the stroller when out"
+    },
+    {
+      "key": "log_newborn_off_nap_schedule_2",
+      "value": "The baby easily falls asleep when being pushed around."
+    },
+    {
+      "key": "choice_newborn_off_nap_schedule_3",
+      "value": "Skip the nap, go to bed earlier"
+    },
+    {
+      "key": "log_newborn_off_nap_schedule_3",
+      "value": "The baby seemed grumpy by the end of the day from lack of sleep."
+    },
+    {
+      "key": "event_newborn_first_tooth_title",
+      "value": "First Tooth"
+    },
+    {
+      "key": "event_newborn_first_tooth_desc",
+      "value": "The first baby tooth is coming in, making the baby fussy and irritable."
+    },
+    {
+      "key": "choice_newborn_first_tooth_1",
+      "value": "Give a teething ring to chew on"
+    },
+    {
+      "key": "log_newborn_first_tooth_1",
+      "value": "The cool teething ring effectively relieved the baby's pain."
+    },
+    {
+      "key": "choice_newborn_first_tooth_2",
+      "value": "Massage the gums with a clean cloth"
+    },
+    {
+      "key": "log_newborn_first_tooth_2",
+      "value": "The gentle touch helped the baby feel more comfortable."
+    },
+    {
+      "key": "choice_newborn_first_tooth_3",
+      "value": "Use cool foods (chilled mashed bananas)"
+    },
+    {
+      "key": "log_newborn_first_tooth_3",
+      "value": "Cool food was not only tasty but also helped soothe the gums."
+    },
+    {
+      "key": "event_newborn_stroller_in_park_title",
+      "value": "First Stroller Ride in the Park"
+    },
+    {
+      "key": "event_newborn_stroller_in_park_desc",
+      "value": "The baby is taken for a walk by their parents in a stroller to explore the outside world."
+    },
+    {
+      "key": "choice_newborn_stroller_in_park_1",
+      "value": "Sleeps soundly in the stroller"
+    },
+    {
+      "key": "log_newborn_stroller_in_park_1",
+      "value": "The fresh air and gentle rocking made the baby sleep well."
+    },
+    {
+      "key": "choice_newborn_stroller_in_park_2",
+      "value": "Points and calls out \"dog/bird\""
+    },
+    {
+      "key": "log_newborn_stroller_in_park_2",
+      "value": "The baby was very curious and excited about everything around them."
+    },
+    {
+      "key": "choice_newborn_stroller_in_park_3",
+      "value": "Wants to get out and walk"
+    },
+    {
+      "key": "log_newborn_stroller_in_park_3",
+      "value": "The baby wants to explore the world on their own."
+    },
+    {
+      "key": "event_newborn_first_haircut_title",
+      "value": "First Haircut"
+    },
+    {
+      "key": "event_newborn_first_haircut_desc",
+      "value": "The baby's first hair has grown long and needs a trim."
+    },
+    {
+      "key": "choice_newborn_first_haircut_1",
+      "value": "Sits in a chair playing with toys during the cut"
+    },
+    {
+      "key": "log_newborn_first_haircut_1",
+      "value": "The baby was so engrossed in playing they didn't realize they were getting a haircut."
+    },
+    {
+      "key": "choice_newborn_first_haircut_2",
+      "value": "Cries, scared of the clipper's noise"
+    },
+    {
+      "key": "log_newborn_first_haircut_2",
+      "value": "The noise of the clippers scared the baby."
+    },
+    {
+      "key": "choice_newborn_first_haircut_3",
+      "value": "Sits on a parent's lap for the cut"
+    },
+    {
+      "key": "log_newborn_first_haircut_3",
+      "value": "Feeling safe in a parent's lap helped the baby stay calm."
+    },
+    {
+      "key": "event_newborn_learning_to_talk_title",
+      "value": "Learning First Words"
+    },
+    {
+      "key": "event_newborn_learning_to_talk_desc",
+      "value": "The baby is babbling and trying to imitate adult sounds."
+    },
+    {
+      "key": "choice_newborn_learning_to_talk_1",
+      "value": "Calls out \"Mama/Dada\""
+    },
+    {
+      "key": "log_newborn_learning_to_talk_1",
+      "value": "The moment the baby first called out \"Mama/Dada\" was precious."
+    },
+    {
+      "key": "choice_newborn_learning_to_talk_2",
+      "value": "Points to objects and imitates"
+    },
+    {
+      "key": "log_newborn_learning_to_talk_2",
+      "value": "The baby's ability to learn is amazing."
+    },
+    {
+      "key": "choice_newborn_learning_to_talk_3",
+      "value": "Repeats an unclear word over and over"
+    },
+    {
+      "key": "log_newborn_learning_to_talk_3",
+      "value": "It's fun trying to guess what the baby is trying to say."
+    },
+    {
+      "key": "event_newborn_bedtime_story_title",
+      "value": "Bedtime Story"
+    },
+    {
+      "key": "event_newborn_bedtime_story_desc",
+      "value": "Reading a story is a great routine to help the baby fall asleep."
+    },
+    {
+      "key": "choice_newborn_bedtime_story_1",
+      "value": "Listens attentively and comments"
+    },
+    {
+      "key": "log_newborn_bedtime_story_1",
+      "value": "The baby was captivated by the story and their imagination soared."
+    },
+    {
+      "key": "choice_newborn_bedtime_story_2",
+      "value": "Keeps flipping pages out of curiosity"
+    },
+    {
+      "key": "log_newborn_bedtime_story_2",
+      "value": "The baby was more curious about the pictures than the story."
+    },
+    {
+      "key": "choice_newborn_bedtime_story_3",
+      "value": "Falls asleep halfway through"
+    },
+    {
+      "key": "log_newborn_bedtime_story_3",
+      "value": "The warm voice lulled the baby into a peaceful sleep."
+    },
+    {
+      "key": "event_newborn_first_dentist_visit_title",
+      "value": "First Dentist Visit"
+    },
+    {
+      "key": "event_newborn_first_dentist_visit_desc",
+      "value": "It's time for the baby's first dental check-up."
+    },
+    {
+      "key": "choice_newborn_first_dentist_visit_1",
+      "value": "Cooperates and opens their mouth for the check-up"
+    },
+    {
+      "key": "log_newborn_first_dentist_visit_1",
+      "value": "The baby was very brave and cooperated with the dentist."
+    },
+    {
+      "key": "choice_newborn_first_dentist_visit_2",
+      "value": "Anxious but sits still"
+    },
+    {
+      "key": "log_newborn_first_dentist_visit_2",
+      "value": "Even though a bit scared, the baby managed to sit still."
+    },
+    {
+      "key": "choice_newborn_first_dentist_visit_3",
+      "value": "Cries but is calmed by a toy"
+    },
+    {
+      "key": "log_newborn_first_dentist_visit_3",
+      "value": "A small toy helped the baby overcome their fear."
+    },
+    {
+      "key": "event_newborn_friend_birthday_title",
+      "value": "Attending a Friend's Birthday Party"
+    },
+    {
+      "key": "event_newborn_friend_birthday_desc",
+      "value": "The baby is invited to a friend's birthday party."
+    },
+    {
+      "key": "choice_newborn_friend_birthday_1",
+      "value": "Joins in blowing bubbles"
+    },
+    {
+      "key": "log_newborn_friend_birthday_1",
+      "value": "The baby had a great time playing with the other kids."
+    },
+    {
+      "key": "choice_newborn_friend_birthday_2",
+      "value": "Stands and watches, shy of the crowd"
+    },
+    {
+      "key": "log_newborn_friend_birthday_2",
+      "value": "The baby needs time to get used to crowded environments."
+    },
+    {
+      "key": "choice_newborn_friend_birthday_3",
+      "value": "Plays with a few new acquaintances"
+    },
+    {
+      "key": "log_newborn_friend_birthday_3",
+      "value": "The party was a good opportunity for the baby to make new friends."
+    },
+    {
+      "key": "event_newborn_first_swim_title",
+      "value": "First Time Swimming"
+    },
+    {
+      "key": "event_newborn_first_swim_desc",
+      "value": "The family takes the baby to the pool to get acquainted with water."
+    },
+    {
+      "key": "choice_newborn_first_swim_1",
+      "value": "Splashes water excitedly"
+    },
+    {
+      "key": "log_newborn_first_swim_1",
+      "value": "The baby wasn't afraid of the water at all and seemed to love it."
+    },
+    {
+      "key": "choice_newborn_first_swim_2",
+      "value": "Clings tightly to an adult"
+    },
+    {
+      "key": "log_newborn_first_swim_2",
+      "value": "The baby felt unsafe and needed protection."
+    },
+    {
+      "key": "choice_newborn_first_swim_3",
+      "value": "Uses arm floaties to practice swimming"
+    },
+    {
+      "key": "log_newborn_first_swim_3",
+      "value": "With the help of floaties, the baby became more confident in the water."
+    },
+    {
+      "key": "event_newborn_mild_allergy_title",
+      "value": "Mild Allergy to New Food"
+    },
+    {
+      "key": "event_newborn_mild_allergy_desc",
+      "value": "After trying a new food, the baby shows signs of a mild allergy."
+    },
+    {
+      "key": "choice_newborn_mild_allergy_1",
+      "value": "Stop that food and monitor"
+    },
+    {
+      "key": "log_newborn_mild_allergy_1",
+      "value": "Identifying and avoiding the allergen is very important."
+    },
+    {
+      "key": "choice_newborn_mild_allergy_2",
+      "value": "Give cool water to drink"
+    },
+    {
+      "key": "log_newborn_mild_allergy_2",
+      "value": "Cool water helped the baby feel more comfortable."
+    },
+    {
+      "key": "choice_newborn_mild_allergy_3",
+      "value": "Call a doctor for advice"
+    },
+    {
+      "key": "log_newborn_mild_allergy_3",
+      "value": "Always consult a professional when unsure."
+    },
+    {
+      "key": "event_newborn_potty_training_title",
+      "value": "Potty Training"
+    },
+    {
+      "key": "event_newborn_potty_training_desc",
+      "value": "It's time to teach the baby how to use the potty."
+    },
+    {
+      "key": "choice_newborn_potty_training_1",
+      "value": "Announces when they need to go"
+    },
+    {
+      "key": "log_newborn_potty_training_1",
+      "value": "The baby has learned to recognize and communicate their needs."
+    },
+    {
+      "key": "choice_newborn_potty_training_2",
+      "value": "Occasionally has accidents"
+    },
+    {
+      "key": "log_newborn_potty_training_2",
+      "value": "Small accidents are an unavoidable part of the learning process."
+    },
+    {
+      "key": "choice_newborn_potty_training_3",
+      "value": "Only agrees to sit on the potty with a parent nearby"
+    },
+    {
+      "key": "log_newborn_potty_training_3",
+      "value": "The presence of a parent gives the baby a sense of security."
+    },
+    {
+      "key": "event_newborn_rainy_day_inside_title",
+      "value": "Stuck Indoors on a Rainy Day"
+    },
+    {
+      "key": "event_newborn_rainy_day_inside_desc",
+      "value": "It's raining and the family can't go outside to play."
+    },
+    {
+      "key": "choice_newborn_rainy_day_inside_1",
+      "value": "Build with blocks/puzzles"
+    },
+    {
+      "key": "log_newborn_rainy_day_inside_1",
+      "value": "Puzzles help the baby develop problem-solving skills."
+    },
+    {
+      "key": "choice_newborn_rainy_day_inside_2",
+      "value": "Draw with colors on paper"
+    },
+    {
+      "key": "log_newborn_rainy_day_inside_2",
+      "value": "Drawing is a great way for the baby to express creativity."
+    },
+    {
+      "key": "choice_newborn_rainy_day_inside_3",
+      "value": "Watch cartoons with parents"
+    },
+    {
+      "key": "log_newborn_rainy_day_inside_3",
+      "value": "A cozy time with the family."
+    },
+    {
+      "key": "event_newborn_sharing_food_title",
+      "value": "Sharing Food"
+    },
+    {
+      "key": "event_newborn_sharing_food_desc",
+      "value": "During snack time, the baby has the opportunity to share food with a friend."
+    },
+    {
+      "key": "choice_newborn_sharing_food_1",
+      "value": "Willingly shares half with a friend"
+    },
+    {
+      "key": "log_newborn_sharing_food_1",
+      "value": "The baby is learning to be generous."
+    },
+    {
+      "key": "choice_newborn_sharing_food_2",
+      "value": "Trades snacks with a friend"
+    },
+    {
+      "key": "log_newborn_sharing_food_2",
+      "value": "Both get to try something new."
+    },
+    {
+      "key": "choice_newborn_sharing_food_3",
+      "value": "Keeps their favorite part"
+    },
+    {
+      "key": "log_newborn_sharing_food_3",
+      "value": "The baby is still a bit selfish."
+    },
+    {
+      "key": "event_newborn_scared_of_thunder_title",
+      "value": "Scared of Thunder"
+    },
+    {
+      "key": "event_newborn_scared_of_thunder_desc",
+      "value": "A big thunderstorm with lightning scares the baby."
+    },
+    {
+      "key": "choice_newborn_scared_of_thunder_1",
+      "value": "Runs into a parent's arms"
+    },
+    {
+      "key": "log_newborn_scared_of_thunder_1",
+      "value": "A parent's arms are the safest place."
+    },
+    {
+      "key": "choice_newborn_scared_of_thunder_2",
+      "value": "Covers their ears and sits still"
+    },
+    {
+      "key": "log_newborn_scared_of_thunder_2",
+      "value": "The baby tries to calm themselves down."
+    },
+    {
+      "key": "choice_newborn_scared_of_thunder_3",
+      "value": "Counts with a parent to stay calm"
+    },
+    {
+      "key": "log_newborn_scared_of_thunder_3",
+      "value": "Focusing on the counting game helps the baby forget their fear."
+    },
+    {
+      "key": "event_newborn_breaks_cup_title",
+      "value": "Breaks a Plastic Cup"
+    },
+    {
+      "key": "event_newborn_breaks_cup_desc",
+      "value": "The baby accidentally drops their favorite cup."
+    },
+    {
+      "key": "choice_newborn_breaks_cup_1",
+      "value": "Helps an adult pick it up"
+    },
+    {
+      "key": "log_newborn_breaks_cup_1",
+      "value": "The baby learns to take responsibility for their actions."
+    },
+    {
+      "key": "choice_newborn_breaks_cup_2",
+      "value": "Anxiously apologizes"
+    },
+    {
+      "key": "log_newborn_breaks_cup_2",
+      "value": "The baby understands they did something wrong."
+    },
+    {
+      "key": "choice_newborn_breaks_cup_3",
+      "value": "Suggests trying to be more careful"
+    },
+    {
+      "key": "log_newborn_breaks_cup_3",
+      "value": "The baby is learning from their mistakes."
+    },
+    {
+      "key": "event_newborn_self_dressing_title",
+      "value": "Learning to Dress Themselves"
+    },
+    {
+      "key": "event_newborn_self_dressing_desc",
+      "value": "The baby wants to dress themselves without help."
+    },
+    {
+      "key": "choice_newborn_self_dressing_1",
+      "value": "Puts shirt on backwards"
+    },
+    {
+      "key": "log_newborn_self_dressing_1",
+      "value": "Even though it's wrong, the baby's effort is commendable."
+    },
+    {
+      "key": "choice_newborn_self_dressing_2",
+      "value": "Picks out colorful clothes"
+    },
+    {
+      "key": "log_newborn_self_dressing_2",
+      "value": "The baby is expressing their own personality."
+    },
+    {
+      "key": "choice_newborn_self_dressing_3",
+      "value": "Successfully zips up"
+    },
+    {
+      "key": "log_newborn_self_dressing_3",
+      "value": "A small achievement that brings great confidence."
+    },
+    {
+      "key": "event_newborn_unwilling_to_go_to_class_title",
+      "value": "Unwilling to Go to Class in the Morning"
+    },
+    {
+      "key": "event_newborn_unwilling_to_go_to_class_desc",
+      "value": "Today the baby doesn't want to go to school and is crying."
+    },
+    {
+      "key": "choice_newborn_unwilling_to_go_to_class_1",
+      "value": "A quick goodbye hug"
+    },
+    {
+      "key": "log_newborn_unwilling_to_go_to_class_1",
+      "value": "Prolonging the goodbye only makes things harder."
+    },
+    {
+      "key": "choice_newborn_unwilling_to_go_to_class_2",
+      "value": "Coax with a sticker reward"
+    },
+    {
+      "key": "log_newborn_unwilling_to_go_to_class_2",
+      "value": "A small reward can provide great motivation."
+    },
+    {
+      "key": "choice_newborn_unwilling_to_go_to_class_3",
+      "value": "Plays with a friend and gradually forgets to cry"
+    },
+    {
+      "key": "log_newborn_unwilling_to_go_to_class_3",
+      "value": "The joy of playing with friends helps the baby adapt quickly."
+    },
+    {
+      "key": "event_newborn_playing_in_sand_title",
+      "value": "Playing in the Sand/Dirt"
+    },
+    {
+      "key": "event_newborn_playing_in_sand_desc",
+      "value": "The sandbox is a great place for the baby to explore."
+    },
+    {
+      "key": "choice_newborn_playing_in_sand_1",
+      "value": "Builds a \"castle\" with a shovel"
+    },
+    {
+      "key": "log_newborn_playing_in_sand_1",
+      "value": "The baby unleashes their creativity with sand."
+    },
+    {
+      "key": "choice_newborn_playing_in_sand_2",
+      "value": "Accidentally gets sand in their eye"
+    },
+    {
+      "key": "log_newborn_playing_in_sand_2",
+      "value": "A small but uncomfortable accident."
+    },
+    {
+      "key": "choice_newborn_playing_in_sand_3",
+      "value": "Brings sandy toys into the house"
+    },
+    {
+      "key": "log_newborn_playing_in_sand_3",
+      "value": "The baby doesn't realize this will make the house dirty."
+    },
+    {
+      "key": "event_newborn_drops_toy_title",
+      "value": "Drops Favorite Stuffed Animal"
+    },
+    {
+      "key": "event_newborn_drops_toy_desc",
+      "value": "The baby drops their favorite stuffed animal while out and about."
+    },
+    {
+      "key": "choice_newborn_drops_toy_1",
+      "value": "Finds it under the bed"
+    },
+    {
+      "key": "log_newborn_drops_toy_1",
+      "value": "Turns out it was just hiding in a familiar place."
+    },
+    {
+      "key": "choice_newborn_drops_toy_2",
+      "value": "Cries, demanding to find it at all costs"
+    },
+    {
+      "key": "log_newborn_drops_toy_2",
+      "value": "The stuffed animal means a lot to the baby."
+    },
+    {
+      "key": "choice_newborn_drops_toy_3",
+      "value": "Accepts hugging a different stuffed animal for now"
+    },
+    {
+      "key": "log_newborn_drops_toy_3",
+      "value": "The baby learns to adapt to change."
+    },
+    {
+      "key": "event_newborn_school_festival_title",
+      "value": "Preschool Festival/Mid-Autumn Festival"
+    },
+    {
+      "key": "event_newborn_school_festival_desc",
+      "value": "The preschool is holding a special festival."
+    },
+    {
+      "key": "choice_newborn_school_festival_1",
+      "value": "Joins the lantern parade with friends"
+    },
+    {
+      "key": "log_newborn_school_festival_1",
+      "value": "Shimmering lanterns and joyful laughter."
+    },
+    {
+      "key": "choice_newborn_school_festival_2",
+      "value": "Wears a mask and is a little scared"
+    },
+    {
+      "key": "log_newborn_school_festival_2",
+      "value": "The mask is a bit scary but also very interesting."
+    },
+    {
+      "key": "choice_newborn_school_festival_3",
+      "value": "Sits and watches the lion dance performance"
+    },
+    {
+      "key": "log_newborn_school_festival_3",
+      "value": "The sound of the lion dance drums is so lively and captivating."
+    }
+  ]
+}

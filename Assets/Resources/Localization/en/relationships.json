@@ -1,0 +1,1284 @@
+{
+  "items": [
+    {
+      "key": "event_relationship_first_date_title",
+      "value": "First Date"
+    },
+    {
+      "key": "event_relationship_first_date_desc",
+      "value": "You're going on a first date! Where to?"
+    },
+    {
+      "key": "event_relationship_prom_night_title",
+      "value": "Prom Night"
+    },
+    {
+      "key": "event_relationship_prom_night_desc",
+      "value": "It's the biggest night of the school year! What's the plan for prom?"
+    },
+    {
+      "key": "event_relationship_sending_text_title",
+      "value": "Sending a Text"
+    },
+    {
+      "key": "event_relationship_sending_text_desc",
+      "value": "You want to send a text to your crush. What do you say?"
+    },
+    {
+      "key": "event_relationship_anniversary_title",
+      "value": "Anniversary"
+    },
+    {
+      "key": "event_relationship_anniversary_desc",
+      "value": "It's your anniversary! How should you celebrate?"
+    },
+    {
+      "key": "event_relationship_meeting_friends_title",
+      "value": "Meeting the Friends"
+    },
+    {
+      "key": "event_relationship_meeting_friends_desc",
+      "value": "You're meeting your partner's friends for the first time. How do you act?"
+    },
+    {
+      "key": "event_relationship_amusement_park_title",
+      "value": "Amusement Park Date"
+    },
+    {
+      "key": "event_relationship_amusement_park_desc",
+      "value": "A fun day at the amusement park! What's first on the list?"
+    },
+    {
+      "key": "event_relationship_first_argument_title",
+      "value": "First Argument"
+    },
+    {
+      "key": "event_relationship_first_argument_desc",
+      "value": "You're having your first real argument. How do you handle it?"
+    },
+    {
+      "key": "event_relationship_fancy_dinner_title",
+      "value": "Fancy Dinner Date"
+    },
+    {
+      "key": "event_relationship_fancy_dinner_desc",
+      "value": "You're out for a fancy dinner. Time to impress!"
+    },
+    {
+      "key": "event_relationship_road_trip_title",
+      "value": "Road Trip"
+    },
+    {
+      "key": "event_relationship_road_trip_desc",
+      "value": "Time for a spontaneous road trip together!"
+    },
+    {
+      "key": "event_relationship_talk_future_title",
+      "value": "Talking about the Future"
+    },
+    {
+      "key": "event_relationship_talk_future_desc",
+      "value": "The conversation has turned serious, and you're talking about the future."
+    },
+    {
+      "key": "choice_relationship_first_date_1",
+      "value": "Go to a cozy coffee shop"
+    },
+    {
+      "key": "log_relationship_first_date_1",
+      "value": "We ended up talking until the barista kicked us out."
+    },
+    {
+      "key": "choice_relationship_first_date_2",
+      "value": "Go for a fancy dinner"
+    },
+    {
+      "key": "log_relationship_first_date_2",
+      "value": "The food sparkled, my wallet cried."
+    },
+    {
+      "key": "choice_relationship_first_date_3",
+      "value": "Go bowling"
+    },
+    {
+      "key": "log_relationship_first_date_3",
+      "value": "I rolled more gutter balls than strikes, but it was still fun."
+    },
+    {
+      "key": "choice_relationship_prom_night_1",
+      "value": "Go fancy with tux/dress"
+    },
+    {
+      "key": "log_relationship_prom_night_1",
+      "value": "Everyone turned their heads when we entered."
+    },
+    {
+      "key": "choice_relationship_prom_night_2",
+      "value": "Keep it casual"
+    },
+    {
+      "key": "log_relationship_prom_night_2",
+      "value": "We looked underdressed, but we owned it."
+    },
+    {
+      "key": "choice_relationship_prom_night_3",
+      "value": "Skip prom for a late-night diner"
+    },
+    {
+      "key": "log_relationship_prom_night_3",
+      "value": "Pancakes at midnight beat the crowded dance floor."
+    },
+    {
+      "key": "choice_relationship_sending_text_1",
+      "value": "Write a long heartfelt message"
+    },
+    {
+      "key": "log_relationship_sending_text_1",
+      "value": "The reply was short, but full of warmth."
+    },
+    {
+      "key": "choice_relationship_sending_text_2",
+      "value": "Send a funny GIF"
+    },
+    {
+      "key": "log_relationship_sending_text_2",
+      "value": "We both laughed and ended up planning a date."
+    },
+    {
+      "key": "choice_relationship_sending_text_3",
+      "value": "Just send “sup”"
+    },
+    {
+      "key": "log_relationship_sending_text_3",
+      "value": "My casual tone caused an unexpected storm."
+    },
+    {
+      "key": "choice_relationship_anniversary_1",
+      "value": "Surprise with flowers"
+    },
+    {
+      "key": "log_relationship_anniversary_1",
+      "value": "The smell of roses filled the room and the smile said it all."
+    },
+    {
+      "key": "choice_relationship_anniversary_2",
+      "value": "Go to a movie"
+    },
+    {
+      "key": "log_relationship_anniversary_2",
+      "value": "The popcorn was bigger than our heads."
+    },
+    {
+      "key": "choice_relationship_anniversary_3",
+      "value": "Forget the day"
+    },
+    {
+      "key": "log_relationship_anniversary_3",
+      "value": "The silence lasted longer than the film reels."
+    },
+    {
+      "key": "choice_relationship_meeting_friends_1",
+      "value": "Be talkative"
+    },
+    {
+      "key": "log_relationship_meeting_friends_1",
+      "value": "I was in three inside jokes before dessert."
+    },
+    {
+      "key": "choice_relationship_meeting_friends_2",
+      "value": "Stay quiet"
+    },
+    {
+      "key": "log_relationship_meeting_friends_2",
+      "value": "They called me mysterious; I called it survival."
+    },
+    {
+      "key": "choice_relationship_meeting_friends_3",
+      "value": "Tell a corny joke"
+    },
+    {
+      "key": "log_relationship_meeting_friends_3",
+      "value": "My joke became their group meme."
+    },
+    {
+      "key": "choice_relationship_amusement_park_1",
+      "value": "Ride the Ferris wheel"
+    },
+    {
+      "key": "log_relationship_amusement_park_1",
+      "value": "The view was amazing, the hand-holding even better."
+    },
+    {
+      "key": "choice_relationship_amusement_park_2",
+      "value": "Go on the roller coaster"
+    },
+    {
+      "key": "log_relationship_amusement_park_2",
+      "value": "I screamed louder than a five-year-old and earned a new nickname."
+    },
+    {
+      "key": "choice_relationship_amusement_park_3",
+      "value": "Eat cotton candy"
+    },
+    {
+      "key": "log_relationship_amusement_park_3",
+      "value": "Sugar rush + sticky fingers = fun chaos."
+    },
+    {
+      "key": "choice_relationship_first_argument_1",
+      "value": "Talk it out"
+    },
+    {
+      "key": "log_relationship_first_argument_1",
+      "value": "Words untangled the knot between us."
+    },
+    {
+      "key": "choice_relationship_first_argument_2",
+      "value": "Walk away"
+    },
+    {
+      "key": "log_relationship_first_argument_2",
+      "value": "The silence stretched longer than expected."
+    },
+    {
+      "key": "choice_relationship_first_argument_3",
+      "value": "Send a “k” text"
+    },
+    {
+      "key": "log_relationship_first_argument_3",
+      "value": "The shortest word started the longest fight."
+    },
+    {
+      "key": "choice_relationship_fancy_dinner_1",
+      "value": "Be super polite"
+    },
+    {
+      "key": "log_relationship_fancy_dinner_1",
+      "value": "The waiter gave us the “best couple” nod."
+    },
+    {
+      "key": "choice_relationship_fancy_dinner_2",
+      "value": "Spill the drink"
+    },
+    {
+      "key": "log_relationship_fancy_dinner_2",
+      "value": "My clumsy move became tonight’s entertainment."
+    },
+    {
+      "key": "choice_relationship_fancy_dinner_3",
+      "value": "Order the most expensive dish"
+    },
+    {
+      "key": "log_relationship_fancy_dinner_3",
+      "value": "Delicious bites, painful check."
+    },
+    {
+      "key": "choice_relationship_road_trip_1",
+      "value": "Plan everything"
+    },
+    {
+      "key": "log_relationship_road_trip_1",
+      "value": "The GPS and I were finally friends."
+    },
+    {
+      "key": "choice_relationship_road_trip_2",
+      "value": "Go spontaneous"
+    },
+    {
+      "key": "log_relationship_road_trip_2",
+      "value": "We found a taco truck instead of the Grand Canyon."
+    },
+    {
+      "key": "choice_relationship_road_trip_3",
+      "value": "Pack way too much"
+    },
+    {
+      "key": "log_relationship_road_trip_3",
+      "value": "The car looked like we were moving out."
+    },
+    {
+      "key": "choice_relationship_talk_future_1",
+      "value": "Discuss seriously"
+    },
+    {
+      "key": "log_relationship_talk_future_1",
+      "value": "Plans scribbled on napkins looked more real than ever."
+    },
+    {
+      "key": "choice_relationship_talk_future_2",
+      "value": "Joke it away"
+    },
+    {
+      "key": "log_relationship_talk_future_2",
+      "value": "We laughed, but the question remained."
+    },
+    {
+      "key": "choice_relationship_talk_future_3",
+      "value": "Give a vague answer"
+    },
+    {
+      "key": "log_relationship_talk_future_3",
+      "value": "My half-smile wasn’t enough to reassure."
+    },
+    {
+      "key": "event_relationship_forgot_socks_title",
+      "value": "Forgot Socks at Bowling"
+    },
+    {
+      "key": "event_relationship_forgot_socks_desc",
+      "value": "You forgot to wear socks for bowling. What now?"
+    },
+    {
+      "key": "choice_relationship_forgot_socks_1",
+      "value": "Borrow from the counter"
+    },
+    {
+      "key": "log_relationship_forgot_socks_1",
+      "value": "The clownish rental socks added to the fun."
+    },
+    {
+      "key": "choice_relationship_forgot_socks_2",
+      "value": "Play barefoot"
+    },
+    {
+      "key": "log_relationship_forgot_socks_2",
+      "value": "The stares were worth the strike I scored."
+    },
+    {
+      "key": "choice_relationship_forgot_socks_3",
+      "value": "Leave the game early"
+    },
+    {
+      "key": "log_relationship_forgot_socks_3",
+      "value": "We turned the evening into an ice cream run."
+    },
+    {
+      "key": "event_relationship_pancake_accident_title",
+      "value": "Pancake Accident"
+    },
+    {
+      "key": "event_relationship_pancake_accident_desc",
+      "value": "A pancake dripping with syrup just landed on your partner's lap!"
+    },
+    {
+      "key": "choice_relationship_pancake_accident_1",
+      "value": "Laugh it off"
+    },
+    {
+      "key": "log_relationship_pancake_accident_1",
+      "value": "Syrup everywhere, smiles everywhere."
+    },
+    {
+      "key": "choice_relationship_pancake_accident_2",
+      "value": "Try to clean quickly"
+    },
+    {
+      "key": "log_relationship_pancake_accident_2",
+      "value": "Napkins failed, but laughter succeeded."
+    },
+    {
+      "key": "choice_relationship_pancake_accident_3",
+      "value": "Blame the fork"
+    },
+    {
+      "key": "log_relationship_pancake_accident_3",
+      "value": "A ridiculous excuse that strangely worked."
+    },
+    {
+      "key": "event_relationship_misunderstood_silence_title",
+      "value": "Misunderstood Silence"
+    },
+    {
+      "key": "event_relationship_misunderstood_silence_desc",
+      "value": "Your \"sup\" text was met with silence, and now things are awkward."
+    },
+    {
+      "key": "choice_relationship_misunderstood_silence_1",
+      "value": "Call immediately"
+    },
+    {
+      "key": "log_relationship_misunderstood_silence_1",
+      "value": "The call lasted longer than any text ever could."
+    },
+    {
+      "key": "choice_relationship_misunderstood_silence_2",
+      "value": "Pretend nothing happened"
+    },
+    {
+      "key": "log_relationship_misunderstood_silence_2",
+      "value": "Awkwardness lingered, but soon faded."
+    },
+    {
+      "key": "choice_relationship_misunderstood_silence_3",
+      "value": "Send another random meme"
+    },
+    {
+      "key": "log_relationship_misunderstood_silence_3",
+      "value": "Confusion turned into shared laughter."
+    },
+    {
+      "key": "event_relationship_silent_treatment_title",
+      "value": "Silent Treatment"
+    },
+    {
+      "key": "event_relationship_silent_treatment_desc",
+      "value": "Forgetting the anniversary has resulted in the silent treatment."
+    },
+    {
+      "key": "choice_relationship_silent_treatment_1",
+      "value": "Apologize with dessert"
+    },
+    {
+      "key": "log_relationship_silent_treatment_1",
+      "value": "Chocolate cake saved the day."
+    },
+    {
+      "key": "choice_relationship_silent_treatment_2",
+      "value": "Write a cheesy note"
+    },
+    {
+      "key": "log_relationship_silent_treatment_2",
+      "value": "A napkin scribble melted the ice."
+    },
+    {
+      "key": "choice_relationship_silent_treatment_3",
+      "value": "Wait it out"
+    },
+    {
+      "key": "log_relationship_silent_treatment_3",
+      "value": "The cold stares were harder than winter."
+    },
+    {
+      "key": "event_relationship_endless_teasing_title",
+      "value": "Endless Teasing"
+    },
+    {
+      "key": "event_relationship_endless_teasing_desc",
+      "value": "Your corny joke has become an inside joke for your partner's friends. They won't let it go."
+    },
+    {
+      "key": "choice_relationship_endless_teasing_1",
+      "value": "Laugh with them"
+    },
+    {
+      "key": "log_relationship_endless_teasing_1",
+      "value": "My joke became legendary in their group chat."
+    },
+    {
+      "key": "choice_relationship_endless_teasing_2",
+      "value": "Change the topic"
+    },
+    {
+      "key": "log_relationship_endless_teasing_2",
+      "value": "I dodged, but they circled back anyway."
+    },
+    {
+      "key": "choice_relationship_endless_teasing_3",
+      "value": "Make another bad joke"
+    },
+    {
+      "key": "log_relationship_endless_teasing_3",
+      "value": "At least I was consistent."
+    },
+    {
+      "key": "event_relationship_unexpected_scream_title",
+      "value": "The Roller Coaster Scream"
+    },
+    {
+      "key": "event_relationship_unexpected_scream_desc",
+      "value": "Your scream on the roller coaster was... unexpectedly high-pitched."
+    },
+    {
+      "key": "choice_relationship_unexpected_scream_1",
+      "value": "Pretend it was intentional"
+    },
+    {
+      "key": "log_relationship_unexpected_scream_1",
+      "value": "No one believed me, but it became funny anyway."
+    },
+    {
+      "key": "choice_relationship_unexpected_scream_2",
+      "value": "Cover my face"
+    },
+    {
+      "key": "log_relationship_unexpected_scream_2",
+      "value": "The ride photo was priceless…ly embarrassing."
+    },
+    {
+      "key": "choice_relationship_unexpected_scream_3",
+      "value": "Own it proudly"
+    },
+    {
+      "key": "log_relationship_unexpected_scream_3",
+      "value": "“Loudest screamer” became my official title."
+    },
+    {
+      "key": "event_relationship_cold_war_title",
+      "value": "Cold War"
+    },
+    {
+      "key": "event_relationship_cold_war_desc",
+      "value": "Walking away from the argument has started a cold war."
+    },
+    {
+      "key": "choice_relationship_cold_war_1",
+      "value": "Send a peace offering pizza"
+    },
+    {
+      "key": "log_relationship_cold_war_1",
+      "value": "Pepperoni ended the war faster than words."
+    },
+    {
+      "key": "choice_relationship_cold_war_2",
+      "value": "Wait for them to break silence"
+    },
+    {
+      "key": "log_relationship_cold_war_2",
+      "value": "Stubbornness lasted until boredom won."
+    },
+    {
+      "key": "choice_relationship_cold_war_3",
+      "value": "Post a vague status"
+    },
+    {
+      "key": "log_relationship_cold_war_3",
+      "value": "One “like” started the truce."
+    },
+    {
+      "key": "event_relationship_everyone_staring_title",
+      "value": "Everyone is Staring"
+    },
+    {
+      "key": "event_relationship_everyone_staring_desc",
+      "value": "You spilled your drink and now everyone is staring."
+    },
+    {
+      "key": "choice_relationship_everyone_staring_1",
+      "value": "Clean with napkins"
+    },
+    {
+      "key": "log_relationship_everyone_staring_1",
+      "value": "I became the evening’s clumsy hero."
+    },
+    {
+      "key": "choice_relationship_everyone_staring_2",
+      "value": "Laugh loudly"
+    },
+    {
+      "key": "log_relationship_everyone_staring_2",
+      "value": "My confidence turned the accident into a joke."
+    },
+    {
+      "key": "choice_relationship_everyone_staring_3",
+      "value": "Pretend nothing happened"
+    },
+    {
+      "key": "log_relationship_everyone_staring_3",
+      "value": "Impossible—but I tried."
+    },
+    {
+      "key": "event_relationship_getting_lost_title",
+      "value": "Getting Lost"
+    },
+    {
+      "key": "event_relationship_getting_lost_desc",
+      "value": "Your spontaneous road trip has led you to a place that is definitely not on the map."
+    },
+    {
+      "key": "choice_relationship_getting_lost_1",
+      "value": "Ask locals"
+    },
+    {
+      "key": "log_relationship_getting_lost_1",
+      "value": "Directions came with free tacos."
+    },
+    {
+      "key": "choice_relationship_getting_lost_2",
+      "value": "Keep driving aimlessly"
+    },
+    {
+      "key": "log_relationship_getting_lost_2",
+      "value": "We found a lake nobody knew about."
+    },
+    {
+      "key": "choice_relationship_getting_lost_3",
+      "value": "Blame GPS"
+    },
+    {
+      "key": "log_relationship_getting_lost_3",
+      "value": "The GPS still said “recalculating.”"
+    },
+    {
+      "key": "event_relationship_doubt_arises_title",
+      "value": "Doubt Arises"
+    },
+    {
+      "key": "event_relationship_doubt_arises_desc",
+      "value": "Your vague answer about the future has created some doubt."
+    },
+    {
+      "key": "choice_relationship_doubt_arises_1",
+      "value": "Sit down for a real talk"
+    },
+    {
+      "key": "log_relationship_doubt_arises_1",
+      "value": "Honesty patched the shaky bridge."
+    },
+    {
+      "key": "choice_relationship_doubt_arises_2",
+      "value": "Distract with humor"
+    },
+    {
+      "key": "log_relationship_doubt_arises_2",
+      "value": "The tension cracked into giggles."
+    },
+    {
+      "key": "choice_relationship_doubt_arises_3",
+      "value": "Avoid it"
+    },
+    {
+      "key": "log_relationship_doubt_arises_3",
+      "value": "The question returned later, louder."
+    },
+    {
+      "key": "event_relationship_netflix_chill_title",
+      "value": "Netflix & Chill"
+    },
+    {
+      "key": "event_relationship_netflix_chill_desc",
+      "value": "A quiet night in with a movie."
+    },
+    {
+      "key": "choice_relationship_netflix_chill_1",
+      "value": "Actually watch the show"
+    },
+    {
+      "key": "log_relationship_netflix_chill_1",
+      "value": "We binged a whole season, forgot the time."
+    },
+    {
+      "key": "choice_relationship_netflix_chill_2",
+      "value": "Fall asleep halfway"
+    },
+    {
+      "key": "log_relationship_netflix_chill_2",
+      "value": "Snoring soundtrack joined the episode."
+    },
+    {
+      "key": "choice_relationship_netflix_chill_3",
+      "value": "Keep pausing to joke"
+    },
+    {
+      "key": "log_relationship_netflix_chill_3",
+      "value": "We laughed more than we watched."
+    },
+    {
+      "key": "event_relationship_house_party_title",
+      "value": "House Party"
+    },
+    {
+      "key": "event_relationship_house_party_desc",
+      "value": "You're at a friend's house party."
+    },
+    {
+      "key": "choice_relationship_house_party_1",
+      "value": "Dance wildly"
+    },
+    {
+      "key": "log_relationship_house_party_1",
+      "value": "My moves made people cheer and cringe."
+    },
+    {
+      "key": "choice_relationship_house_party_2",
+      "value": "Guard the snack table"
+    },
+    {
+      "key": "log_relationship_house_party_2",
+      "value": "Nachos disappeared under my watch."
+    },
+    {
+      "key": "choice_relationship_house_party_3",
+      "value": "Hide in the corner"
+    },
+    {
+      "key": "log_relationship_house_party_3",
+      "value": "Somehow, I still got dragged into karaoke."
+    },
+    {
+      "key": "event_relationship_bbq_cookout_title",
+      "value": "BBQ Cookout"
+    },
+    {
+      "key": "event_relationship_bbq_cookout_desc",
+      "value": "A sunny afternoon BBQ with friends."
+    },
+    {
+      "key": "choice_relationship_bbq_cookout_1",
+      "value": "Master the grill"
+    },
+    {
+      "key": "log_relationship_bbq_cookout_1",
+      "value": "Burgers turned out perfect, applause included."
+    },
+    {
+      "key": "choice_relationship_bbq_cookout_2",
+      "value": "Burn the hot dogs"
+    },
+    {
+      "key": "log_relationship_bbq_cookout_2",
+      "value": "Charcoal chic was the flavor of the day."
+    },
+    {
+      "key": "choice_relationship_bbq_cookout_3",
+      "value": "Only eat sides"
+    },
+    {
+      "key": "log_relationship_bbq_cookout_3",
+      "value": "Potato salad became my main dish."
+    },
+    {
+      "key": "event_relationship_drive_in_movie_title",
+      "value": "Drive-in Movie"
+    },
+    {
+      "key": "event_relationship_drive_in_movie_desc",
+      "value": "A classic drive-in movie date."
+    },
+    {
+      "key": "choice_relationship_drive_in_movie_1",
+      "value": "Bring cozy blankets"
+    },
+    {
+      "key": "log_relationship_drive_in_movie_1",
+      "value": "We cuddled more than we watched."
+    },
+    {
+      "key": "choice_relationship_drive_in_movie_2",
+      "value": "Forget the bug spray"
+    },
+    {
+      "key": "log_relationship_drive_in_movie_2",
+      "value": "Mosquitos loved me more than the movie."
+    },
+    {
+      "key": "choice_relationship_drive_in_movie_3",
+      "value": "Leave early for burgers"
+    },
+    {
+      "key": "log_relationship_drive_in_movie_3",
+      "value": "The diner neon lights were our credits."
+    },
+    {
+      "key": "event_relationship_super_bowl_title",
+      "value": "Super Bowl Sunday"
+    },
+    {
+      "key": "event_relationship_super_bowl_desc",
+      "value": "It's Super Bowl Sunday. What's the plan?"
+    },
+    {
+      "key": "choice_relationship_super_bowl_1",
+      "value": "Watch the game seriously"
+    },
+    {
+      "key": "log_relationship_super_bowl_1",
+      "value": "I shouted louder than the commentators."
+    },
+    {
+      "key": "choice_relationship_super_bowl_2",
+      "value": "Just eat snacks"
+    },
+    {
+      "key": "log_relationship_super_bowl_2",
+      "value": "Wings > football, any day."
+    },
+    {
+      "key": "choice_relationship_super_bowl_3",
+      "value": "Cheer for the wrong team"
+    },
+    {
+      "key": "log_relationship_super_bowl_3",
+      "value": "My partner almost disowned me."
+    },
+    {
+      "key": "event_relationship_thanksgiving_title",
+      "value": "Thanksgiving with Partner’s Family"
+    },
+    {
+      "key": "event_relationship_thanksgiving_desc",
+      "value": "You're spending Thanksgiving with your partner's family."
+    },
+    {
+      "key": "choice_relationship_thanksgiving_1",
+      "value": "Help with cooking"
+    },
+    {
+      "key": "log_relationship_thanksgiving_1",
+      "value": "My mashed potatoes were a hit."
+    },
+    {
+      "key": "choice_relationship_thanksgiving_2",
+      "value": "Watch football"
+    },
+    {
+      "key": "log_relationship_thanksgiving_2",
+      "value": "I bonded with their uncle over touchdowns."
+    },
+    {
+      "key": "choice_relationship_thanksgiving_3",
+      "value": "Nap on the couch"
+    },
+    {
+      "key": "log_relationship_thanksgiving_3",
+      "value": "The turkey coma was real."
+    },
+    {
+      "key": "event_relationship_valentines_title",
+      "value": "Valentine’s Day"
+    },
+    {
+      "key": "event_relationship_valentines_desc",
+      "value": "It's Valentine's Day, the day of love."
+    },
+    {
+      "key": "choice_relationship_valentines_1",
+      "value": "Fancy dinner"
+    },
+    {
+      "key": "log_relationship_valentines_1",
+      "value": "Candles, wine, the full cliché."
+    },
+    {
+      "key": "choice_relationship_valentines_2",
+      "value": "Netflix & pizza"
+    },
+    {
+      "key": "log_relationship_valentines_2",
+      "value": "Grease-stained boxes never looked so romantic."
+    },
+    {
+      "key": "choice_relationship_valentines_3",
+      "value": "Forget the day"
+    },
+    {
+      "key": "log_relationship_valentines_3",
+      "value": "I was reminded… dramatically."
+    },
+    {
+      "key": "event_relationship_beach_day_title",
+      "value": "Beach Day"
+    },
+    {
+      "key": "event_relationship_beach_day_desc",
+      "value": "A perfect day for the beach."
+    },
+    {
+      "key": "choice_relationship_beach_day_1",
+      "value": "Build a sandcastle"
+    },
+    {
+      "key": "log_relationship_beach_day_1",
+      "value": "Our fortress collapsed in style."
+    },
+    {
+      "key": "choice_relationship_beach_day_2",
+      "value": "Play volleyball"
+    },
+    {
+      "key": "log_relationship_beach_day_2",
+      "value": "I got hit in the face, but scored anyway."
+    },
+    {
+      "key": "choice_relationship_beach_day_3",
+      "value": "Just sunbathe"
+    },
+    {
+      "key": "log_relationship_beach_day_3",
+      "value": "Relaxation level: lobster red."
+    },
+    {
+      "key": "event_relationship_camping_trip_title",
+      "value": "Camping Trip"
+    },
+    {
+      "key": "event_relationship_camping_trip_desc",
+      "value": "A weekend camping trip in the great outdoors."
+    },
+    {
+      "key": "choice_relationship_camping_trip_1",
+      "value": "Set up the tent perfectly"
+    },
+    {
+      "key": "log_relationship_camping_trip_1",
+      "value": "Our tent was Instagram-ready."
+    },
+    {
+      "key": "choice_relationship_camping_trip_2",
+      "value": "Forget the matches"
+    },
+    {
+      "key": "log_relationship_camping_trip_2",
+      "value": "Cold hot dogs became our dinner."
+    },
+    {
+      "key": "choice_relationship_camping_trip_3",
+      "value": "Tell spooky stories"
+    },
+    {
+      "key": "log_relationship_camping_trip_3",
+      "value": "We scared ourselves more than needed."
+    },
+    {
+      "key": "event_relationship_roadside_diner_title",
+      "value": "Roadside Diner"
+    },
+    {
+      "key": "event_relationship_roadside_diner_desc",
+      "value": "A stop at a classic roadside diner."
+    },
+    {
+      "key": "choice_relationship_roadside_diner_1",
+      "value": "Order pancakes"
+    },
+    {
+      "key": "log_relationship_roadside_diner_1",
+      "value": "Syrup everywhere, joy everywhere."
+    },
+    {
+      "key": "choice_relationship_roadside_diner_2",
+      "value": "Try something new"
+    },
+    {
+      "key": "log_relationship_roadside_diner_2",
+      "value": "Mystery meat… better not ask questions."
+    },
+    {
+      "key": "choice_relationship_roadside_diner_3",
+      "value": "Just get coffee"
+    },
+    {
+      "key": "log_relationship_roadside_diner_3",
+      "value": "The refill never ended."
+    },
+    {
+      "key": "event_relationship_hiking_title",
+      "value": "Hiking"
+    },
+    {
+      "key": "event_relationship_hiking_desc",
+      "value": "A scenic hike on a beautiful trail."
+    },
+    {
+      "key": "choice_relationship_hiking_1",
+      "value": "Reach the top"
+    },
+    {
+      "key": "log_relationship_hiking_1",
+      "value": "The view was breathtaking, so was the climb."
+    },
+    {
+      "key": "choice_relationship_hiking_2",
+      "value": "Get lost briefly"
+    },
+    {
+      "key": "log_relationship_hiking_2",
+      "value": "We discovered a hidden waterfall."
+    },
+    {
+      "key": "choice_relationship_hiking_3",
+      "value": "Turn back early"
+    },
+    {
+      "key": "log_relationship_hiking_3",
+      "value": "Snacks in the car felt like a reward."
+    },
+    {
+      "key": "event_relationship_mini_golf_title",
+      "value": "Mini Golf Date"
+    },
+    {
+      "key": "event_relationship_mini_golf_desc",
+      "value": "A competitive game of mini golf."
+    },
+    {
+      "key": "choice_relationship_mini_golf_1",
+      "value": "Play seriously"
+    },
+    {
+      "key": "log_relationship_mini_golf_1",
+      "value": "A hole-in-one earned me bragging rights."
+    },
+    {
+      "key": "choice_relationship_mini_golf_2",
+      "value": "Cheat for fun"
+    },
+    {
+      "key": "log_relationship_mini_golf_2",
+      "value": "The laughter was worth the penalty strokes."
+    },
+    {
+      "key": "choice_relationship_mini_golf_3",
+      "value": "Give up and just take photos"
+    },
+    {
+      "key": "log_relationship_mini_golf_3",
+      "value": "Our selfies were the real winners."
+    },
+    {
+      "key": "event_relationship_ice_cream_run_title",
+      "value": "Ice Cream Run"
+    },
+    {
+      "key": "event_relationship_ice_cream_run_desc",
+      "value": "A quick run to the ice cream shop."
+    },
+    {
+      "key": "choice_relationship_ice_cream_run_1",
+      "value": "Share one cone"
+    },
+    {
+      "key": "log_relationship_ice_cream_run_1",
+      "value": "It melted faster than expected—messy fun."
+    },
+    {
+      "key": "choice_relationship_ice_cream_run_2",
+      "value": "Try the weirdest flavor"
+    },
+    {
+      "key": "log_relationship_ice_cream_run_2",
+      "value": "Pickle ice cream… unforgettable."
+    },
+    {
+      "key": "choice_relationship_ice_cream_run_3",
+      "value": "Get three scoops each"
+    },
+    {
+      "key": "log_relationship_ice_cream_run_3",
+      "value": "Sugar high, future regret."
+    },
+    {
+      "key": "event_relationship_arcade_night_title",
+      "value": "Arcade Night"
+    },
+    {
+      "key": "event_relationship_arcade_night_desc",
+      "value": "A night of retro games and ticket prizes."
+    },
+    {
+      "key": "choice_relationship_arcade_night_1",
+      "value": "Win a big plush toy"
+    },
+    {
+      "key": "log_relationship_arcade_night_1",
+      "value": "The claw machine finally obeyed!"
+    },
+    {
+      "key": "choice_relationship_arcade_night_2",
+      "value": "Lose every game"
+    },
+    {
+      "key": "log_relationship_arcade_night_2",
+      "value": "At least the tickets made a cool hat."
+    },
+    {
+      "key": "choice_relationship_arcade_night_3",
+      "value": "Play dance machine"
+    },
+    {
+      "key": "log_relationship_arcade_night_3",
+      "value": "My rhythm caused earthquakes."
+    },
+    {
+      "key": "event_relationship_picnic_title",
+      "value": "Picnic in the Park"
+    },
+    {
+      "key": "event_relationship_picnic_desc",
+      "value": "A relaxing picnic in the park."
+    },
+    {
+      "key": "choice_relationship_picnic_1",
+      "value": "Bring homemade sandwiches"
+    },
+    {
+      "key": "log_relationship_picnic_1",
+      "value": "Slightly squished, but tasty."
+    },
+    {
+      "key": "choice_relationship_picnic_2",
+      "value": "Forget utensils"
+    },
+    {
+      "key": "log_relationship_picnic_2",
+      "value": "Chips became spoons—innovation!"
+    },
+    {
+      "key": "choice_relationship_picnic_3",
+      "value": "Feed the ducks"
+    },
+    {
+      "key": "log_relationship_picnic_3",
+      "value": "They chased us for more bread."
+    },
+    {
+      "key": "event_relationship_concert_night_title",
+      "value": "Concert Night"
+    },
+    {
+      "key": "event_relationship_concert_night_desc",
+      "value": "Going to a live music concert."
+    },
+    {
+      "key": "choice_relationship_concert_night_1",
+      "value": "Sing along loudly"
+    },
+    {
+      "key": "log_relationship_concert_night_1",
+      "value": "My voice joined the band unintentionally."
+    },
+    {
+      "key": "choice_relationship_concert_night_2",
+      "value": "Record everything"
+    },
+    {
+      "key": "log_relationship_concert_night_2",
+      "value": "My storage ran out before the encore."
+    },
+    {
+      "key": "choice_relationship_concert_night_3",
+      "value": "Just vibe quietly"
+    },
+    {
+      "key": "log_relationship_concert_night_3",
+      "value": "The bass shook my chest in silence."
+    },
+    {
+      "key": "event_relationship_holiday_shopping_title",
+      "value": "Holiday Shopping"
+    },
+    {
+      "key": "event_relationship_holiday_shopping_desc",
+      "value": "Navigating the crowds for holiday shopping."
+    },
+    {
+      "key": "choice_relationship_holiday_shopping_1",
+      "value": "Buy thoughtful gifts"
+    },
+    {
+      "key": "log_relationship_holiday_shopping_1",
+      "value": "Wrapping paper wars followed."
+    },
+    {
+      "key": "choice_relationship_holiday_shopping_2",
+      "value": "Overspend"
+    },
+    {
+      "key": "log_relationship_holiday_shopping_2",
+      "value": "My wallet went on strike."
+    },
+    {
+      "key": "choice_relationship_holiday_shopping_3",
+      "value": "Forget the list"
+    },
+    {
+      "key": "log_relationship_holiday_shopping_3",
+      "value": "Came home with a rubber chicken."
+    },
+    {
+      "key": "event_relationship_coffee_run_title",
+      "value": "Coffee Run"
+    },
+    {
+      "key": "event_relationship_coffee_run_desc",
+      "value": "A simple coffee run."
+    },
+    {
+      "key": "choice_relationship_coffee_run_1",
+      "value": "Order their favorite drink"
+    },
+    {
+      "key": "log_relationship_coffee_run_1",
+      "value": "The smile was worth the line."
+    },
+    {
+      "key": "choice_relationship_coffee_run_2",
+      "value": "Mess up the order"
+    },
+    {
+      "key": "log_relationship_coffee_run_2",
+      "value": "Wrong latte, still right moment."
+    },
+    {
+      "key": "choice_relationship_coffee_run_3",
+      "value": "Forget your own wallet"
+    },
+    {
+      "key": "log_relationship_coffee_run_3",
+      "value": "Oops, they paid."
+    },
+    {
+      "key": "event_relationship_pet_adoption_title",
+      "value": "Pet Adoption Visit"
+    },
+    {
+      "key": "event_relationship_pet_adoption_desc",
+      "value": "Visiting an animal shelter \"just to look.\""
+    },
+    {
+      "key": "choice_relationship_pet_adoption_1",
+      "value": "Play with puppies"
+    },
+    {
+      "key": "log_relationship_pet_adoption_1",
+      "value": "We almost left with three."
+    },
+    {
+      "key": "choice_relationship_pet_adoption_2",
+      "value": "Look at cats"
+    },
+    {
+      "key": "log_relationship_pet_adoption_2",
+      "value": "One cat judged me, forever."
+    },
+    {
+      "key": "choice_relationship_pet_adoption_3",
+      "value": "Decide “just browsing”"
+    },
+    {
+      "key": "log_relationship_pet_adoption_3",
+      "value": "We browsed our way into new responsibilities."
+    },
+    {
+      "key": "event_relationship_fireworks_title",
+      "value": "Watching Fireworks"
+    },
+    {
+      "key": "event_relationship_fireworks_desc",
+      "value": "Watching a fireworks display."
+    },
+    {
+      "key": "choice_relationship_fireworks_1",
+      "value": "Big celebration at park"
+    },
+    {
+      "key": "log_relationship_fireworks_1",
+      "value": "Oohs and aahs everywhere."
+    },
+    {
+      "key": "choice_relationship_fireworks_2",
+      "value": "Backyard sparklers"
+    },
+    {
+      "key": "log_relationship_fireworks_2",
+      "value": "Burnt fingers, glowing smiles."
+    },
+    {
+      "key": "choice_relationship_fireworks_3",
+      "value": "Miss it by oversleeping"
+    },
+    {
+      "key": "log_relationship_fireworks_3",
+      "value": "Dreams had better fireworks."
+    }
+  ]
+}

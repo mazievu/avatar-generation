@@ -1,0 +1,1684 @@
+{
+  "items": [
+    {
+      "key": "event_middleschool_late_for_school_title",
+      "value": "Late for School"
+    },
+    {
+      "key": "event_middleschool_late_for_school_desc",
+      "value": "You were late for school due to a bus traffic jam."
+    },
+    {
+      "key": "choice_middleschool_late_for_school_1",
+      "value": "Apologize to the teacher."
+    },
+    {
+      "key": "log_middleschool_late_for_school_1",
+      "value": "I apologized and was allowed into class."
+    },
+    {
+      "key": "choice_middleschool_late_for_school_2",
+      "value": "Sneak into class."
+    },
+    {
+      "key": "log_middleschool_late_for_school_2",
+      "value": "I tried to sneak in without the teacher noticing."
+    },
+    {
+      "key": "choice_middleschool_late_for_school_3",
+      "value": "Explain the reason to her."
+    },
+    {
+      "key": "log_middleschool_late_for_school_3",
+      "value": "The teacher understood my situation."
+    },
+    {
+      "key": "event_middleschool_locker_trouble_title",
+      "value": "Locker Trouble"
+    },
+    {
+      "key": "event_middleschool_locker_trouble_desc",
+      "value": "You forgot to open your locker on time."
+    },
+    {
+      "key": "choice_middleschool_locker_trouble_1",
+      "value": "Ask a friend for help."
+    },
+    {
+      "key": "log_middleschool_locker_trouble_1",
+      "value": "My friend helped me get my books."
+    },
+    {
+      "key": "choice_middleschool_locker_trouble_2",
+      "value": "Go ask the monitor."
+    },
+    {
+      "key": "log_middleschool_locker_trouble_2",
+      "value": "I went to find the monitor to get my locker opened."
+    },
+    {
+      "key": "choice_middleschool_locker_trouble_3",
+      "value": "Wait until recess to open it."
+    },
+    {
+      "key": "log_middleschool_locker_trouble_3",
+      "value": "I decided to wait until recess, even if it meant missing some notes."
+    },
+    {
+      "key": "event_middleschool_science_project_title",
+      "value": "Science Group Project"
+    },
+    {
+      "key": "event_middleschool_science_project_desc",
+      "value": "You are working on a science project with your group."
+    },
+    {
+      "key": "choice_middleschool_science_project_1",
+      "value": "Work together."
+    },
+    {
+      "key": "log_middleschool_science_project_1",
+      "value": "We collaborated well and made good progress."
+    },
+    {
+      "key": "choice_middleschool_science_project_2",
+      "value": "Do minimal work."
+    },
+    {
+      "key": "log_middleschool_science_project_2",
+      "value": "I didn't contribute much to the project."
+    },
+    {
+      "key": "choice_middleschool_science_project_3",
+      "value": "Argue heatedly with a friend."
+    },
+    {
+      "key": "log_middleschool_science_project_3",
+      "value": "We had a big argument over the project details."
+    },
+    {
+      "key": "event_middleschool_pe_basketball_title",
+      "value": "P.E. Class: Basketball"
+    },
+    {
+      "key": "event_middleschool_pe_basketball_desc",
+      "value": "It's time for basketball in P.E. class."
+    },
+    {
+      "key": "choice_middleschool_pe_basketball_1",
+      "value": "Play your best."
+    },
+    {
+      "key": "log_middleschool_pe_basketball_1",
+      "value": "I had a great time playing and got some good exercise."
+    },
+    {
+      "key": "choice_middleschool_pe_basketball_2",
+      "value": "Say you're tired and sit out."
+    },
+    {
+      "key": "log_middleschool_pe_basketball_2",
+      "value": "I wasn't feeling up for it today."
+    },
+    {
+      "key": "choice_middleschool_pe_basketball_3",
+      "value": "Sit on the sidelines and cheer."
+    },
+    {
+      "key": "log_middleschool_pe_basketball_3",
+      "value": "I supported my friends from the bench."
+    },
+    {
+      "key": "event_middleschool_english_presentation_title",
+      "value": "English Presentation"
+    },
+    {
+      "key": "event_middleschool_english_presentation_desc",
+      "value": "You have to give a presentation in English class."
+    },
+    {
+      "key": "choice_middleschool_english_presentation_1",
+      "value": "Prepare thoroughly."
+    },
+    {
+      "key": "log_middleschool_english_presentation_1",
+      "value": "I was well-prepared and gave a confident presentation."
+    },
+    {
+      "key": "choice_middleschool_english_presentation_2",
+      "value": "Read from the paper."
+    },
+    {
+      "key": "log_middleschool_english_presentation_2",
+      "value": "I just read my notes without making eye contact."
+    },
+    {
+      "key": "choice_middleschool_english_presentation_3",
+      "value": "Speak hesitantly and without confidence."
+    },
+    {
+      "key": "log_middleschool_english_presentation_3",
+      "value": "I was too nervous to speak clearly."
+    },
+    {
+      "key": "event_middleschool_student_council_title",
+      "value": "Student Council"
+    },
+    {
+      "key": "event_middleschool_student_council_desc",
+      "value": "You are considering running for student council."
+    },
+    {
+      "key": "choice_middleschool_student_council_1",
+      "value": "Run for office seriously."
+    },
+    {
+      "key": "log_middleschool_student_council_1",
+      "value": "I gave a serious speech and campaigned hard."
+    },
+    {
+      "key": "choice_middleschool_student_council_2",
+      "value": "Make slightly exaggerated promises."
+    },
+    {
+      "key": "log_middleschool_student_council_2",
+      "value": "I might have promised more than I can deliver."
+    },
+    {
+      "key": "choice_middleschool_student_council_3",
+      "value": "Speak little, mostly listen."
+    },
+    {
+      "key": "log_middleschool_student_council_3",
+      "value": "I decided to observe this year instead of running."
+    },
+    {
+      "key": "event_middleschool_cafeteria_lunch_title",
+      "value": "Lunch in the Cafeteria"
+    },
+    {
+      "key": "event_middleschool_cafeteria_lunch_desc",
+      "value": "It's lunchtime. Who do you sit with?"
+    },
+    {
+      "key": "choice_middleschool_cafeteria_lunch_1",
+      "value": "Sit with your best friend."
+    },
+    {
+      "key": "log_middleschool_cafeteria_lunch_1",
+      "value": "I had a nice chat with my best friend over lunch."
+    },
+    {
+      "key": "choice_middleschool_cafeteria_lunch_2",
+      "value": "Sit with your crush."
+    },
+    {
+      "key": "log_middleschool_cafeteria_lunch_2",
+      "value": "My heart was pounding the whole time!"
+    },
+    {
+      "key": "choice_middleschool_cafeteria_lunch_3",
+      "value": "Sit alone quietly."
+    },
+    {
+      "key": "log_middleschool_cafeteria_lunch_3",
+      "value": "I enjoyed some peaceful time by myself."
+    },
+    {
+      "key": "event_middleschool_school_dance_title",
+      "value": "School Dance"
+    },
+    {
+      "key": "event_middleschool_school_dance_desc",
+      "value": "There's a small school dance happening."
+    },
+    {
+      "key": "choice_middleschool_school_dance_1",
+      "value": "Ask a friend to dance."
+    },
+    {
+      "key": "log_middleschool_school_dance_1",
+      "value": "We had a lot of fun dancing together."
+    },
+    {
+      "key": "choice_middleschool_school_dance_2",
+      "value": "Stand shyly on the sidelines."
+    },
+    {
+      "key": "log_middleschool_school_dance_2",
+      "value": "I was too shy to ask anyone to dance."
+    },
+    {
+      "key": "choice_middleschool_school_dance_3",
+      "value": "Stand in a corner and observe."
+    },
+    {
+      "key": "log_middleschool_school_dance_3",
+      "value": "I enjoyed watching everyone else have fun."
+    },
+    {
+      "key": "event_middleschool_science_experiment_title",
+      "value": "Science Experiment"
+    },
+    {
+      "key": "event_middleschool_science_experiment_desc",
+      "value": "You are conducting a science experiment."
+    },
+    {
+      "key": "choice_middleschool_science_experiment_1",
+      "value": "Follow the instructions."
+    },
+    {
+      "key": "log_middleschool_science_experiment_1",
+      "value": "The experiment went smoothly."
+    },
+    {
+      "key": "choice_middleschool_science_experiment_2",
+      "value": "Try your own way."
+    },
+    {
+      "key": "log_middleschool_science_experiment_2",
+      "value": "I decided to experiment a little on my own."
+    },
+    {
+      "key": "choice_middleschool_science_experiment_3",
+      "value": "Observe to learn."
+    },
+    {
+      "key": "log_middleschool_science_experiment_3",
+      "value": "I watched my classmates to see how they did it."
+    },
+    {
+      "key": "event_middleschool_pop_quiz_title",
+      "value": "Pop Quiz"
+    },
+    {
+      "key": "event_middleschool_pop_quiz_desc",
+      "value": "The teacher announces a surprise pop quiz."
+    },
+    {
+      "key": "choice_middleschool_pop_quiz_1",
+      "value": "Do your best."
+    },
+    {
+      "key": "log_middleschool_pop_quiz_1",
+      "value": "I answered to the best of my ability."
+    },
+    {
+      "key": "choice_middleschool_pop_quiz_2",
+      "value": "Look at a friend's paper."
+    },
+    {
+      "key": "log_middleschool_pop_quiz_2",
+      "value": "I tried to get a little help from my friend."
+    },
+    {
+      "key": "choice_middleschool_pop_quiz_3",
+      "value": "Just write down anything to finish."
+    },
+    {
+      "key": "log_middleschool_pop_quiz_3",
+      "value": "I just wanted to get it over with."
+    },
+    {
+      "key": "event_middleschool_late_slip_title",
+      "value": "Got a Late Slip"
+    },
+    {
+      "key": "event_middleschool_late_slip_desc",
+      "value": "You were caught sneaking in and got a late slip."
+    },
+    {
+      "key": "choice_middleschool_late_slip_1",
+      "value": "Ask the teacher for a chance."
+    },
+    {
+      "key": "log_middleschool_late_slip_1",
+      "value": "I pleaded with the teacher, but still got the slip."
+    },
+    {
+      "key": "choice_middleschool_late_slip_2",
+      "value": "Accept the punishment."
+    },
+    {
+      "key": "log_middleschool_late_slip_2",
+      "value": "I accepted the consequences of my actions."
+    },
+    {
+      "key": "choice_middleschool_late_slip_3",
+      "value": "Explain the bus broke down."
+    },
+    {
+      "key": "log_middleschool_late_slip_3",
+      "value": "I tried to explain my situation."
+    },
+    {
+      "key": "event_middleschool_punished_for_tardiness_title",
+      "value": "Punished for Tardiness"
+    },
+    {
+      "key": "event_middleschool_punished_for_tardiness_desc",
+      "value": "You were punished for being late to class because of your locker."
+    },
+    {
+      "key": "choice_middleschool_punished_for_tardiness_1",
+      "value": "Apologize to the teacher."
+    },
+    {
+      "key": "log_middleschool_punished_for_tardiness_1",
+      "value": "I apologized for being late."
+    },
+    {
+      "key": "choice_middleschool_punished_for_tardiness_2",
+      "value": "Accept writing a reflection."
+    },
+    {
+      "key": "log_middleschool_punished_for_tardiness_2",
+      "value": "I had to write a reflection paper."
+    },
+    {
+      "key": "choice_middleschool_punished_for_tardiness_3",
+      "value": "Suggest changing locker opening times."
+    },
+    {
+      "key": "log_middleschool_punished_for_tardiness_3",
+      "value": "I suggested a change to the school rules."
+    },
+    {
+      "key": "event_middleschool_group_ostracized_title",
+      "value": "Ostracized by the Group"
+    },
+    {
+      "key": "event_middleschool_group_ostracized_desc",
+      "value": "Your group members are ignoring you for not contributing."
+    },
+    {
+      "key": "choice_middleschool_group_ostracized_1",
+      "value": "Apologize and make up for it."
+    },
+    {
+      "key": "log_middleschool_group_ostracized_1",
+      "value": "I apologized and promised to do my share."
+    },
+    {
+      "key": "choice_middleschool_group_ostracized_2",
+      "value": "Find another group."
+    },
+    {
+      "key": "log_middleschool_group_ostracized_2",
+      "value": "I decided to find a new group to work with."
+    },
+    {
+      "key": "choice_middleschool_group_ostracized_3",
+      "value": "Try to prove your ability."
+    },
+    {
+      "key": "log_middleschool_group_ostracized_3",
+      "value": "I tried to show them I could be a valuable member."
+    },
+    {
+      "key": "event_middleschool_teacher_reprimand_pe_title",
+      "value": "Reprimanded by Teacher in P.E."
+    },
+    {
+      "key": "event_middleschool_teacher_reprimand_pe_desc",
+      "value": "The teacher reprimanded you for skipping P.E."
+    },
+    {
+      "key": "choice_middleschool_teacher_reprimand_pe_1",
+      "value": "Go back and participate."
+    },
+    {
+      "key": "log_middleschool_teacher_reprimand_pe_1",
+      "value": "I rejoined the class activity."
+    },
+    {
+      "key": "choice_middleschool_teacher_reprimand_pe_2",
+      "value": "Explain you were really tired."
+    },
+    {
+      "key": "log_middleschool_teacher_reprimand_pe_2",
+      "value": "I insisted that I wasn't feeling well."
+    },
+    {
+      "key": "choice_middleschool_teacher_reprimand_pe_3",
+      "value": "Accept a deduction in grade."
+    },
+    {
+      "key": "log_middleschool_teacher_reprimand_pe_3",
+      "value": "I accepted that my grade would be lowered."
+    },
+    {
+      "key": "event_middleschool_teacher_reprimand_presentation_title",
+      "value": "Reprimanded for Reading from Paper"
+    },
+    {
+      "key": "event_middleschool_teacher_reprimand_presentation_desc",
+      "value": "The teacher reprimanded you for reading directly from your paper."
+    },
+    {
+      "key": "choice_middleschool_teacher_reprimand_presentation_1",
+      "value": "Try to speak in your own words."
+    },
+    {
+      "key": "log_middleschool_teacher_reprimand_presentation_1",
+      "value": "I tried to ad-lib the rest of my presentation."
+    },
+    {
+      "key": "choice_middleschool_teacher_reprimand_presentation_2",
+      "value": "Apologize and continue."
+    },
+    {
+      "key": "log_middleschool_teacher_reprimand_presentation_2",
+      "value": "I apologized and continued reading."
+    },
+    {
+      "key": "choice_middleschool_teacher_reprimand_presentation_3",
+      "value": "Sit down and wait for another turn."
+    },
+    {
+      "key": "log_middleschool_teacher_reprimand_presentation_3",
+      "value": "I was too embarrassed to continue."
+    },
+    {
+      "key": "event_middleschool_teased_by_friends_council_title",
+      "value": "Teased by Friends"
+    },
+    {
+      "key": "event_middleschool_teased_by_friends_council_desc",
+      "value": "Your friends are teasing you for your exaggerated promises."
+    },
+    {
+      "key": "choice_middleschool_teased_by_friends_council_1",
+      "value": "Joke back to lighten the mood."
+    },
+    {
+      "key": "log_middleschool_teased_by_friends_council_1",
+      "value": "I laughed along with them."
+    },
+    {
+      "key": "choice_middleschool_teased_by_friends_council_2",
+      "value": "Explain your good intentions."
+    },
+    {
+      "key": "log_middleschool_teased_by_friends_council_2",
+      "value": "I tried to explain what I meant."
+    },
+    {
+      "key": "choice_middleschool_teased_by_friends_council_3",
+      "value": "Silently ignore it."
+    },
+    {
+      "key": "log_middleschool_teased_by_friends_council_3",
+      "value": "I didn't let their teasing bother me."
+    },
+    {
+      "key": "event_middleschool_teased_by_friends_crush_title",
+      "value": "Teased for Sitting with Crush"
+    },
+    {
+      "key": "event_middleschool_teased_by_friends_crush_desc",
+      "value": "Your friends are teasing you for sitting with your crush."
+    },
+    {
+      "key": "choice_middleschool_teased_by_friends_crush_1",
+      "value": "Pretend not to hear."
+    },
+    {
+      "key": "log_middleschool_teased_by_friends_crush_1",
+      "value": "I acted like I didn't hear them."
+    },
+    {
+      "key": "choice_middleschool_teased_by_friends_crush_2",
+      "value": "Smile and continue sitting."
+    },
+    {
+      "key": "log_middleschool_teased_by_friends_crush_2",
+      "value": "I wasn't going to let them ruin the moment."
+    },
+    {
+      "key": "choice_middleschool_teased_by_friends_crush_3",
+      "value": "Move to another table."
+    },
+    {
+      "key": "log_middleschool_teased_by_friends_crush_3",
+      "value": "I got flustered and moved away."
+    },
+    {
+      "key": "event_middleschool_dragged_to_dance_title",
+      "value": "Dragged Out to Dance"
+    },
+    {
+      "key": "event_middleschool_dragged_to_dance_desc",
+      "value": "Your friends dragged you onto the dance floor."
+    },
+    {
+      "key": "choice_middleschool_dragged_to_dance_1",
+      "value": "Join in and dance for fun."
+    },
+    {
+      "key": "log_middleschool_dragged_to_dance_1",
+      "value": "I decided to let loose and had a great time."
+    },
+    {
+      "key": "choice_middleschool_dragged_to_dance_2",
+      "value": "Smile awkwardly and stand aside."
+    },
+    {
+      "key": "log_middleschool_dragged_to_dance_2",
+      "value": "I still felt too shy to dance."
+    },
+    {
+      "key": "choice_middleschool_dragged_to_dance_3",
+      "value": "Try dancing for a bit then rest."
+    },
+    {
+      "key": "log_middleschool_dragged_to_dance_3",
+      "value": "I danced for one song and then went back to the sidelines."
+    },
+    {
+      "key": "event_middleschool_minor_incident_title",
+      "value": "Minor Incident"
+    },
+    {
+      "key": "event_middleschool_minor_incident_desc",
+      "value": "There was a small incident during your experiment."
+    },
+    {
+      "key": "choice_middleschool_minor_incident_1",
+      "value": "Report to the teacher."
+    },
+    {
+      "key": "log_middleschool_minor_incident_1",
+      "value": "I told the teacher what happened right away."
+    },
+    {
+      "key": "choice_middleschool_minor_incident_2",
+      "value": "Fix it correctly."
+    },
+    {
+      "key": "log_middleschool_minor_incident_2",
+      "value": "I managed to fix my mistake."
+    },
+    {
+      "key": "choice_middleschool_minor_incident_3",
+      "value": "Laugh it off and continue."
+    },
+    {
+      "key": "log_middleschool_minor_incident_3",
+      "value": "It wasn't a big deal, so I just moved on."
+    },
+    {
+      "key": "event_middleschool_invigilator_warning_quiz_title",
+      "value": "Warning from Invigilator"
+    },
+    {
+      "key": "event_middleschool_invigilator_warning_quiz_desc",
+      "value": "The invigilator warned you for cheating."
+    },
+    {
+      "key": "choice_middleschool_invigilator_warning_quiz_1",
+      "value": "Apologize."
+    },
+    {
+      "key": "log_middleschool_invigilator_warning_quiz_1",
+      "value": "I apologized and stopped cheating."
+    },
+    {
+      "key": "choice_middleschool_invigilator_warning_quiz_2",
+      "value": "Argue back."
+    },
+    {
+      "key": "log_middleschool_invigilator_warning_quiz_2",
+      "value": "I insisted that I wasn't cheating."
+    },
+    {
+      "key": "choice_middleschool_invigilator_warning_quiz_3",
+      "value": "Accept a poor grade."
+    },
+    {
+      "key": "log_middleschool_invigilator_warning_quiz_3",
+      "value": "I accepted the consequences and got a zero."
+    },
+    {
+      "key": "event_middleschool_class_debate_title",
+      "value": "Class Debate"
+    },
+    {
+      "key": "event_middleschool_class_debate_desc",
+      "value": "There is a debate in class."
+    },
+    {
+      "key": "choice_middleschool_class_debate_1",
+      "value": "State your opinion clearly."
+    },
+    {
+      "key": "log_middleschool_class_debate_1",
+      "value": "I participated actively in the debate."
+    },
+    {
+      "key": "choice_middleschool_class_debate_2",
+      "value": "Remain silent and listen."
+    },
+    {
+      "key": "log_middleschool_class_debate_2",
+      "value": "I preferred to listen to others' opinions."
+    },
+    {
+      "key": "choice_middleschool_class_debate_3",
+      "value": "Participate a little then stop."
+    },
+    {
+      "key": "log_middleschool_class_debate_3",
+      "value": "I shared one thought and then listened."
+    },
+    {
+      "key": "event_middleschool_after_school_sports_title",
+      "value": "After-School Sports"
+    },
+    {
+      "key": "event_middleschool_after_school_sports_desc",
+      "value": "You are playing sports after school."
+    },
+    {
+      "key": "choice_middleschool_after_school_sports_1",
+      "value": "Join the team."
+    },
+    {
+      "key": "log_middleschool_after_school_sports_1",
+      "value": "I decided to join the school team."
+    },
+    {
+      "key": "choice_middleschool_after_school_sports_2",
+      "value": "Play for fun with friends."
+    },
+    {
+      "key": "log_middleschool_after_school_sports_2",
+      "value": "We had a casual game with friends."
+    },
+    {
+      "key": "choice_middleschool_after_school_sports_3",
+      "value": "Sit and cheer."
+    },
+    {
+      "key": "log_middleschool_after_school_sports_3",
+      "value": "I watched my friends play."
+    },
+    {
+      "key": "event_middleschool_bookstore_trip_title",
+      "value": "Class Trip to the Bookstore"
+    },
+    {
+      "key": "event_middleschool_bookstore_trip_desc",
+      "value": "Your class is on a trip to the bookstore."
+    },
+    {
+      "key": "choice_middleschool_bookstore_trip_1",
+      "value": "Buy textbooks."
+    },
+    {
+      "key": "log_middleschool_bookstore_trip_1",
+      "value": "I bought the books I needed for class."
+    },
+    {
+      "key": "choice_middleschool_bookstore_trip_2",
+      "value": "Buy comic books."
+    },
+    {
+      "key": "log_middleschool_bookstore_trip_2",
+      "value": "I found some cool new comics."
+    },
+    {
+      "key": "choice_middleschool_bookstore_trip_3",
+      "value": "Wander around and browse."
+    },
+    {
+      "key": "log_middleschool_bookstore_trip_3",
+      "value": "I just enjoyed looking at all the books."
+    },
+    {
+      "key": "event_middleschool_doing_homework_title",
+      "value": "Doing Homework"
+    },
+    {
+      "key": "event_middleschool_doing_homework_desc",
+      "value": "It's time to do your homework."
+    },
+    {
+      "key": "choice_middleschool_doing_homework_1",
+      "value": "Complete it fully."
+    },
+    {
+      "key": "log_middleschool_doing_homework_1",
+      "value": "I finished all of my homework."
+    },
+    {
+      "key": "choice_middleschool_doing_homework_2",
+      "value": "Do half of it."
+    },
+    {
+      "key": "log_middleschool_doing_homework_2",
+      "value": "I only did the easy parts."
+    },
+    {
+      "key": "choice_middleschool_doing_homework_3",
+      "value": "Ask a friend and copy."
+    },
+    {
+      "key": "log_middleschool_doing_homework_3",
+      "value": "I copied the answers from my friend."
+    },
+    {
+      "key": "event_middleschool_teacher_praise_title",
+      "value": "Praised by Teacher"
+    },
+    {
+      "key": "event_middleschool_teacher_praise_desc",
+      "value": "The teacher praised you."
+    },
+    {
+      "key": "choice_middleschool_teacher_praise_1",
+      "value": "Smile proudly."
+    },
+    {
+      "key": "log_middleschool_teacher_praise_1",
+      "value": "It felt good to be praised."
+    },
+    {
+      "key": "choice_middleschool_teacher_praise_2",
+      "value": "Blush shyly."
+    },
+    {
+      "key": "log_middleschool_teacher_praise_2",
+      "value": "I was a bit embarrassed by the attention."
+    },
+    {
+      "key": "choice_middleschool_teacher_praise_3",
+      "value": "Pretend to be indifferent."
+    },
+    {
+      "key": "log_middleschool_teacher_praise_3",
+      "value": "I acted like it was no big deal."
+    },
+    {
+      "key": "event_middleschool_teacher_criticism_title",
+      "value": "Criticized by Teacher"
+    },
+    {
+      "key": "event_middleschool_teacher_criticism_desc",
+      "value": "The teacher criticized you."
+    },
+    {
+      "key": "choice_middleschool_teacher_criticism_1",
+      "value": "Listen silently."
+    },
+    {
+      "key": "log_middleschool_teacher_criticism_1",
+      "value": "I took the criticism quietly."
+    },
+    {
+      "key": "choice_middleschool_teacher_criticism_2",
+      "value": "Explain the reason."
+    },
+    {
+      "key": "log_middleschool_teacher_criticism_2",
+      "value": "I tried to explain my side of the story."
+    },
+    {
+      "key": "choice_middleschool_teacher_criticism_3",
+      "value": "Feel sad and reflect."
+    },
+    {
+      "key": "log_middleschool_teacher_criticism_3",
+      "value": "The criticism made me feel down."
+    },
+    {
+      "key": "event_middleschool_extracurricular_activity_title",
+      "value": "Extracurricular Activity"
+    },
+    {
+      "key": "event_middleschool_extracurricular_activity_desc",
+      "value": "You are participating in an extracurricular activity."
+    },
+    {
+      "key": "choice_middleschool_extracurricular_activity_1",
+      "value": "Participate enthusiastically."
+    },
+    {
+      "key": "log_middleschool_extracurricular_activity_1",
+      "value": "I was very involved in the activity."
+    },
+    {
+      "key": "choice_middleschool_extracurricular_activity_2",
+      "value": "Participate partially."
+    },
+    {
+      "key": "log_middleschool_extracurricular_activity_2",
+      "value": "I only did the parts I was interested in."
+    },
+    {
+      "key": "choice_middleschool_extracurricular_activity_3",
+      "value": "Sit and watch your friends."
+    },
+    {
+      "key": "log_middleschool_extracurricular_activity_3",
+      "value": "I preferred to watch."
+    },
+    {
+      "key": "event_middleschool_class_picnic_title",
+      "value": "Class Picnic"
+    },
+    {
+      "key": "event_middleschool_class_picnic_desc",
+      "value": "The class is having a picnic."
+    },
+    {
+      "key": "choice_middleschool_class_picnic_1",
+      "value": "Participate in group games."
+    },
+    {
+      "key": "log_middleschool_class_picnic_1",
+      "value": "The group games were a lot of fun."
+    },
+    {
+      "key": "choice_middleschool_class_picnic_2",
+      "value": "Eat alone."
+    },
+    {
+      "key": "log_middleschool_class_picnic_2",
+      "value": "I wanted some quiet time."
+    },
+    {
+      "key": "choice_middleschool_class_picnic_3",
+      "value": "Go sightseeing and take pictures."
+    },
+    {
+      "key": "log_middleschool_class_picnic_3",
+      "value": "I explored the area and took some photos."
+    },
+    {
+      "key": "event_middleschool_helping_a_friend_title",
+      "value": "Helping a Friend with Studies"
+    },
+    {
+      "key": "event_middleschool_helping_a_friend_desc",
+      "value": "A friend needs help with their studies."
+    },
+    {
+      "key": "choice_middleschool_helping_a_friend_1",
+      "value": "Explain it to your friend."
+    },
+    {
+      "key": "log_middleschool_helping_a_friend_1",
+      "value": "I was happy to help my friend understand."
+    },
+    {
+      "key": "choice_middleschool_helping_a_friend_2",
+      "value": "Lend them your notebook."
+    },
+    {
+      "key": "log_middleschool_helping_a_friend_2",
+      "value": "I let them borrow my notes."
+    },
+    {
+      "key": "choice_middleschool_helping_a_friend_3",
+      "value": "Study together."
+    },
+    {
+      "key": "log_middleschool_helping_a_friend_3",
+      "value": "We studied together and both learned a lot."
+    },
+    {
+      "key": "event_middleschool_final_exam_day_title",
+      "value": "Final Exam Day"
+    },
+    {
+      "key": "event_middleschool_final_exam_day_desc",
+      "value": "It is the day of the final exam."
+    },
+    {
+      "key": "choice_middleschool_final_exam_day_1",
+      "value": "Review thoroughly."
+    },
+    {
+      "key": "log_middleschool_final_exam_day_1",
+      "value": "I felt well-prepared for the exam."
+    },
+    {
+      "key": "choice_middleschool_final_exam_day_2",
+      "value": "Review superficially."
+    },
+    {
+      "key": "log_middleschool_final_exam_day_2",
+      "value": "I did a quick review before the exam."
+    },
+    {
+      "key": "choice_middleschool_final_exam_day_3",
+      "value": "Guess while doing it."
+    },
+    {
+      "key": "log_middleschool_final_exam_day_3",
+      "value": "I had to guess on many questions."
+    },
+    {
+      "key": "event_middleschool_class_meeting_title",
+      "value": "Class Meeting"
+    },
+    {
+      "key": "event_middleschool_class_meeting_desc",
+      "value": "There is a class meeting."
+    },
+    {
+      "key": "choice_middleschool_class_meeting_1",
+      "value": "Participate in speaking."
+    },
+    {
+      "key": "log_middleschool_class_meeting_1",
+      "value": "I shared my thoughts with the class."
+    },
+    {
+      "key": "choice_middleschool_class_meeting_2",
+      "value": "Sit and listen."
+    },
+    {
+      "key": "log_middleschool_class_meeting_2",
+      "value": "I listened to what others had to say."
+    },
+    {
+      "key": "choice_middleschool_class_meeting_3",
+      "value": "Joke with a friend."
+    },
+    {
+      "key": "log_middleschool_class_meeting_3",
+      "value": "I was distracted and didn't pay attention."
+    },
+    {
+      "key": "event_middleschool_meeting_teacher_outside_title",
+      "value": "Meeting a Teacher Outside School"
+    },
+    {
+      "key": "event_middleschool_meeting_teacher_outside_desc",
+      "value": "You meet a teacher outside of school."
+    },
+    {
+      "key": "choice_middleschool_meeting_teacher_outside_1",
+      "value": "Greet them politely."
+    },
+    {
+      "key": "log_middleschool_meeting_teacher_outside_1",
+      "value": "I greeted my teacher respectfully."
+    },
+    {
+      "key": "choice_middleschool_meeting_teacher_outside_2",
+      "value": "Give a forced smile."
+    },
+    {
+      "key": "log_middleschool_meeting_teacher_outside_2",
+      "value": "It was a bit awkward."
+    },
+    {
+      "key": "choice_middleschool_meeting_teacher_outside_3",
+      "value": "Pretend not to see them."
+    },
+    {
+      "key": "log_middleschool_meeting_teacher_outside_3",
+      "value": "I tried to avoid them."
+    },
+    {
+      "key": "event_middleschool_new_student_title",
+      "value": "New Student Arrives"
+    },
+    {
+      "key": "event_middleschool_new_student_desc",
+      "value": "A new student has transferred to your class."
+    },
+    {
+      "key": "choice_middleschool_new_student_1",
+      "value": "Actively get to know them."
+    },
+    {
+      "key": "log_middleschool_new_student_1",
+      "value": "I introduced myself and made them feel welcome."
+    },
+    {
+      "key": "choice_middleschool_new_student_2",
+      "value": "Sit at the same table."
+    },
+    {
+      "key": "log_middleschool_new_student_2",
+      "value": "We sat together and had a nice conversation."
+    },
+    {
+      "key": "choice_middleschool_new_student_3",
+      "value": "Wait for them to initiate conversation."
+    },
+    {
+      "key": "log_middleschool_new_student_3",
+      "value": "I waited for them to talk to me first."
+    },
+    {
+      "key": "event_middleschool_online_gaming_title",
+      "value": "Playing Online Games"
+    },
+    {
+      "key": "event_middleschool_online_gaming_desc",
+      "value": "You are playing online games."
+    },
+    {
+      "key": "choice_middleschool_online_gaming_1",
+      "value": "Play for fun with friends."
+    },
+    {
+      "key": "log_middleschool_online_gaming_1",
+      "value": "We had a great time playing together online."
+    },
+    {
+      "key": "choice_middleschool_online_gaming_2",
+      "value": "Play for too long."
+    },
+    {
+      "key": "log_middleschool_online_gaming_2",
+      "value": "I played for too long and felt tired the next day."
+    },
+    {
+      "key": "choice_middleschool_online_gaming_3",
+      "value": "Do not participate."
+    },
+    {
+      "key": "log_middleschool_online_gaming_3",
+      "value": "I'm not interested in online games."
+    },
+    {
+      "key": "event_middleschool_sports_festival_title",
+      "value": "Sports Festival"
+    },
+    {
+      "key": "event_middleschool_sports_festival_desc",
+      "value": "It's the school's sports festival."
+    },
+    {
+      "key": "choice_middleschool_sports_festival_1",
+      "value": "Compete in the race."
+    },
+    {
+      "key": "log_middleschool_sports_festival_1",
+      "value": "I ran in the race."
+    },
+    {
+      "key": "choice_middleschool_sports_festival_2",
+      "value": "Compete in the long jump."
+    },
+    {
+      "key": "log_middleschool_sports_festival_2",
+      "value": "I participated in the long jump event."
+    },
+    {
+      "key": "choice_middleschool_sports_festival_3",
+      "value": "Be a cheerleader."
+    },
+    {
+      "key": "log_middleschool_sports_festival_3",
+      "value": "I cheered for my classmates."
+    },
+    {
+      "key": "event_middleschool_chemistry_experiment_title",
+      "value": "Chemistry Experiment"
+    },
+    {
+      "key": "event_middleschool_chemistry_experiment_desc",
+      "value": "You are doing a chemistry experiment."
+    },
+    {
+      "key": "choice_middleschool_chemistry_experiment_1",
+      "value": "Follow the instructions."
+    },
+    {
+      "key": "log_middleschool_chemistry_experiment_1",
+      "value": "I carefully followed the steps."
+    },
+    {
+      "key": "choice_middleschool_chemistry_experiment_2",
+      "value": "Creatively add details."
+    },
+    {
+      "key": "log_middleschool_chemistry_experiment_2",
+      "value": "I added a few extra steps to see what would happen."
+    },
+    {
+      "key": "choice_middleschool_chemistry_experiment_3",
+      "value": "Observe your friends do it."
+    },
+    {
+      "key": "log_middleschool_chemistry_experiment_3",
+      "value": "I watched how my friends did the experiment."
+    },
+    {
+      "key": "event_middleschool_foreign_visitor_title",
+      "value": "Foreign Visitor in Class"
+    },
+    {
+      "key": "event_middleschool_foreign_visitor_desc",
+      "value": "A foreign visitor is in your class."
+    },
+    {
+      "key": "choice_middleschool_foreign_visitor_1",
+      "value": "Actively start a conversation."
+    },
+    {
+      "key": "log_middleschool_foreign_visitor_1",
+      "value": "I had a great conversation with the visitor."
+    },
+    {
+      "key": "choice_middleschool_foreign_visitor_2",
+      "value": "Smile and say hello."
+    },
+    {
+      "key": "log_middleschool_foreign_visitor_2",
+      "value": "I gave them a friendly welcome."
+    },
+    {
+      "key": "choice_middleschool_foreign_visitor_3",
+      "value": "Remain silent."
+    },
+    {
+      "key": "log_middleschool_foreign_visitor_3",
+      "value": "I was too shy to talk to them."
+    },
+    {
+      "key": "event_middleschool_art_class_title",
+      "value": "Art Class"
+    },
+    {
+      "key": "event_middleschool_art_class_desc",
+      "value": "It's art class."
+    },
+    {
+      "key": "choice_middleschool_art_class_1",
+      "value": "Draw according to the assignment."
+    },
+    {
+      "key": "log_middleschool_art_class_1",
+      "value": "I followed the assignment for my drawing."
+    },
+    {
+      "key": "choice_middleschool_art_class_2",
+      "value": "Draw creatively."
+    },
+    {
+      "key": "log_middleschool_art_class_2",
+      "value": "I drew something from my imagination."
+    },
+    {
+      "key": "choice_middleschool_art_class_3",
+      "value": "Sit and watch."
+    },
+    {
+      "key": "log_middleschool_art_class_3",
+      "value": "I wasn't in the mood to draw today."
+    },
+    {
+      "key": "event_middleschool_exam_results_title",
+      "value": "Receive Exam Results"
+    },
+    {
+      "key": "event_middleschool_exam_results_desc",
+      "value": "You have received your exam results."
+    },
+    {
+      "key": "choice_middleschool_exam_results_1",
+      "value": "Joyfully show them to your friends."
+    },
+    {
+      "key": "log_middleschool_exam_results_1",
+      "value": "I was happy with my results and shared them with my friends."
+    },
+    {
+      "key": "choice_middleschool_exam_results_2",
+      "value": "Keep them quiet."
+    },
+    {
+      "key": "log_middleschool_exam_results_2",
+      "value": "I kept my results to myself."
+    },
+    {
+      "key": "choice_middleschool_exam_results_3",
+      "value": "Feel sad."
+    },
+    {
+      "key": "log_middleschool_exam_results_3",
+      "value": "I was disappointed with my results."
+    },
+    {
+      "key": "event_middleschool_sharing_lunch_title",
+      "value": "Sharing Lunch"
+    },
+    {
+      "key": "event_middleschool_sharing_lunch_desc",
+      "value": "You are sharing lunch with friends."
+    },
+    {
+      "key": "choice_middleschool_sharing_lunch_1",
+      "value": "Give a portion to a friend."
+    },
+    {
+      "key": "log_middleschool_sharing_lunch_1",
+      "value": "I shared some of my food with my friend."
+    },
+    {
+      "key": "choice_middleschool_sharing_lunch_2",
+      "value": "Trade dishes."
+    },
+    {
+      "key": "log_middleschool_sharing_lunch_2",
+      "value": "We traded some of our food."
+    },
+    {
+      "key": "choice_middleschool_sharing_lunch_3",
+      "value": "Keep your portion."
+    },
+    {
+      "key": "log_middleschool_sharing_lunch_3",
+      "value": "I was really hungry today."
+    },
+    {
+      "key": "club_science_name",
+      "value": "Science Club"
+    },
+    {
+      "key": "club_science_description",
+      "value": "Explore the world of science and conduct fun experiments. For future scientists."
+    },
+    {
+      "key": "club_art_name",
+      "value": "Art Club"
+    },
+    {
+      "key": "club_art_description",
+      "value": "Develop your creativity and express yourself through various art forms. For future artists."
+    },
+    {
+      "key": "club_sports_name",
+      "value": "Sports Club"
+    },
+    {
+      "key": "club_sports_description",
+      "value": "Improve physical fitness and teamwork through sports. For future athletes."
+    },
+    {
+      "key": "club_debate_name",
+      "value": "Debate Club"
+    },
+    {
+      "key": "club_debate_description",
+      "value": "Enhance critical thinking and public speaking skills. For future leaders and lawyers."
+    },
+    {
+      "key": "club_robotics_name",
+      "value": "Robotics Club"
+    },
+    {
+      "key": "club_robotics_description",
+      "value": "Design, build, and program robots. For future engineers and innovators."
+    },
+    {
+      "key": "club_music_name",
+      "value": "Music Club"
+    },
+    {
+      "key": "club_music_description",
+      "value": "Explore the world of music, learn an instrument, and perform. For future musicians."
+    },
+    {
+      "key": "club_cooking_name",
+      "value": "Cooking Club"
+    },
+    {
+      "key": "club_cooking_description",
+      "value": "Learn culinary skills and explore the world of food. For future chefs."
+    },
+    {
+      "key": "club_coding_name",
+      "value": "Coding Club"
+    },
+    {
+      "key": "club_coding_description",
+      "value": "Learn how to code and develop software. For future programmers."
+    },
+    {
+      "key": "club_photography_name",
+      "value": "Photography Club"
+    },
+    {
+      "key": "club_photography_description",
+      "value": "Capture moments and tell stories through the lens. For future photographers."
+    },
+    {
+      "key": "club_writing_name",
+      "value": "Writing Club"
+    },
+    {
+      "key": "club_writing_description",
+      "value": "Develop your writing skills and express your ideas through text. For future writers and journalists."
+    },
+    {
+      "key": "club_entrepreneurship_name",
+      "value": "Entrepreneurship Club"
+    },
+    {
+      "key": "club_entrepreneurship_description",
+      "value": "Learn the basics of business, finance, and leadership. For future CEOs."
+    },
+    {
+      "key": "club_model_un_name",
+      "value": "Model UN Club"
+    },
+    {
+      "key": "club_model_un_description",
+      "value": "Debate global issues and learn about international relations. For future diplomats."
+    },
+    {
+      "key": "club_environmental_name",
+      "value": "Environmental Club"
+    },
+    {
+      "key": "club_environmental_description",
+      "value": "Take action on environmental issues and promote sustainability. For future scientists and activists."
+    },
+    {
+      "key": "club_volunteering_name",
+      "value": "Volunteering Club"
+    },
+    {
+      "key": "club_volunteering_description",
+      "value": "Give back to the community and help those in need. For future social workers and humanitarians."
+    },
+    {
+      "key": "club_chess_name",
+      "value": "Chess Club"
+    },
+    {
+      "key": "club_chess_description",
+      "value": "Sharpen your mind and master the art of strategy. For future grandmasters of all fields."
+    },
+    {
+      "key": "club_film_media_name",
+      "value": "Film & Media Club"
+    },
+    {
+      "key": "club_film_media_description",
+      "value": "Explore the world of filmmaking, from screenwriting to production. For future storytellers."
+    },
+    {
+      "key": "club_medical_name",
+      "value": "Future Medical Professionals Club"
+    },
+    {
+      "key": "club_medical_description",
+      "value": "Get a head start on a career in medicine. For future doctors and nurses."
+    },
+    {
+      "key": "club_astronomy_name",
+      "value": "Astronomy Club"
+    },
+    {
+      "key": "club_astronomy_description",
+      "value": "Explore the cosmos, from planets to distant galaxies. For future astronomers and engineers."
+    },
+    {
+      "key": "club_literary_magazine_name",
+      "value": "Literary Magazine Club"
+    },
+    {
+      "key": "club_literary_magazine_description",
+      "value": "Create and publish the school's literary journal. For future writers and editors."
+    },
+    {
+      "key": "club_architecture_engineering_name",
+      "value": "Architecture & Engineering Club"
+    },
+    {
+      "key": "club_architecture_engineering_description",
+      "value": "Design and build amazing structures. For future architects and engineers."
+    },
+    {
+      "key": "event_business_pitch_title",
+      "value": "Business Pitch Competition"
+    },
+    {
+      "key": "event_business_pitch_description",
+      "value": "The Entrepreneurship Club is hosting a business pitch competition. This is your chance to shine!"
+    },
+    {
+      "key": "event_business_pitch_choice1",
+      "value": "Present your innovative idea."
+    },
+    {
+      "key": "event_business_pitch_choice1_log",
+      "value": "My pitch was a huge success! I think I have a future in business."
+    },
+    {
+      "key": "event_business_pitch_choice2",
+      "value": "Help a friend with their presentation."
+    },
+    {
+      "key": "event_business_pitch_choice2_log",
+      "value": "I helped my friend, and they did great. Teamwork makes the dream work!"
+    },
+    {
+      "key": "event_model_un_title",
+      "value": "Model UN Conference"
+    },
+    {
+      "key": "event_model_un_description",
+      "value": "The Model UN Club is attending a regional conference. It's time to represent our school."
+    },
+    {
+      "key": "event_model_un_choice1",
+      "value": "Take the lead in debate."
+    },
+    {
+      "key": "event_model_un_choice1_log",
+      "value": "I passionately debated our resolution and won an award!"
+    },
+    {
+      "key": "event_model_un_choice2",
+      "value": "Focus on networking with other delegates."
+    },
+    {
+      "key": "event_model_un_choice2_log",
+      "value": "I made some great connections with students from other schools."
+    },
+    {
+      "key": "event_community_cleanup_title",
+      "value": "Community Cleanup Initiative"
+    },
+    {
+      "key": "event_community_cleanup_description",
+      "value": "The Environmental Club is organizing a community cleanup day."
+    },
+    {
+      "key": "event_community_cleanup_choice1",
+      "value": "Recruit volunteers and lead a team."
+    },
+    {
+      "key": "event_community_cleanup_choice1_log",
+      "value": "We collected so much trash! It feels good to make a difference."
+    },
+    {
+      "key": "event_community_cleanup_choice2",
+      "value": "Work quietly on your own."
+    },
+    {
+      "key": "event_community_cleanup_choice2_log",
+      "value": "I focused on cleaning up my assigned area and did a thorough job."
+    },
+    {
+      "key": "event_charity_fundraiser_title",
+      "value": "Charity Fundraiser Gala"
+    },
+    {
+      "key": "event_charity_fundraiser_description",
+      "value": "The Volunteering Club is hosting a fundraiser for a local charity."
+    },
+    {
+      "key": "event_charity_fundraiser_choice1",
+      "value": "Organize the event logistics."
+    },
+    {
+      "key": "event_charity_fundraiser_choice1_log",
+      "value": "The event went off without a hitch! We raised a lot of money for a good cause."
+    },
+    {
+      "key": "event_charity_fundraiser_choice2",
+      "value": "Donate a large portion of your allowance."
+    },
+    {
+      "key": "event_charity_fundraiser_choice2_log",
+      "value": "It was a big sacrifice, but it was worth it to help others."
+    },
+    {
+      "key": "event_chess_tournament_title",
+      "value": "National Chess Tournament"
+    },
+    {
+      "key": "event_chess_tournament_description",
+      "value": "The Chess Club is competing in the national tournament."
+    },
+    {
+      "key": "event_chess_tournament_choice1",
+      "value": "Execute a brilliant strategy."
+    },
+    {
+      "key": "event_chess_tournament_choice1_log",
+      "value": "Checkmate! I won the tournament with a daring queen sacrifice."
+    },
+    {
+      "key": "event_chess_tournament_choice2",
+      "value": "Play it safe and aim for a draw."
+    },
+    {
+      "key": "event_chess_tournament_choice2_log",
+      "value": "I played conservatively and managed to secure a respectable draw against a tough opponent."
+    },
+    {
+      "key": "event_film_festival_title",
+      "value": "Short Film Festival"
+    },
+    {
+      "key": "event_film_festival_description",
+      "value": "The Film & Media Club is hosting its first-ever short film festival."
+    },
+    {
+      "key": "event_film_festival_choice1",
+      "value": "Submit your own film."
+    },
+    {
+      "key": "event_film_festival_choice1_log",
+      "value": "My film won the audience award! I'm so proud of my work."
+    },
+    {
+      "key": "event_film_festival_choice2",
+      "value": "Help with the event organization."
+    },
+    {
+      "key": "event_film_festival_choice2_log",
+      "value": "I helped run the projector and everything went smoothly. It was fun to be behind the scenes."
+    },
+    {
+      "key": "event_first_aid_title",
+      "value": "First Aid/CPR Certification Drive"
+    },
+    {
+      "key": "event_first_aid_description",
+      "value": "The Future Medical Professionals Club is offering a first aid certification course."
+    },
+    {
+      "key": "event_first_aid_choice1",
+      "value": "Master the techniques and teach others."
+    },
+    {
+      "key": "event_first_aid_choice1_log",
+      "value": "I'm now certified in CPR and first aid! I even helped teach some of my classmates."
+    },
+    {
+      "key": "event_first_aid_choice2",
+      "value": "Just get the certification."
+    },
+    {
+      "key": "event_first_aid_choice2_log",
+      "value": "I passed the course and got my certification. It's a valuable skill to have."
+    },
+    {
+      "key": "event_stargazing_title",
+      "value": "Stargazing Night & Telescope Building"
+    },
+    {
+      "key": "event_stargazing_description",
+      "value": "The Astronomy Club is hosting a stargazing night."
+    },
+    {
+      "key": "event_stargazing_choice1",
+      "value": "Build a powerful telescope."
+    },
+    {
+      "key": "event_stargazing_choice1_log",
+      "value": "I built my own telescope and saw the rings of Saturn! It was incredible."
+    },
+    {
+      "key": "event_stargazing_choice2",
+      "value": "Just enjoy the view."
+    },
+    {
+      "key": "event_stargazing_choice2_log",
+      "value": "I lay back and watched the stars. It was a beautiful and peaceful night."
+    },
+    {
+      "key": "event_literary_journal_title",
+      "value": "Launch of the School's Literary Journal"
+    },
+    {
+      "key": "event_literary_journal_description",
+      "value": "The Literary Magazine Club is launching the first issue of the school journal."
+    },
+    {
+      "key": "event_literary_journal_choice1",
+      "value": "Read your poem aloud at the launch party."
+    },
+    {
+      "key": "event_literary_journal_choice1_log",
+      "value": "I was nervous, but everyone loved my poem! It was a great experience."
+    },
+    {
+      "key": "event_literary_journal_choice2",
+      "value": "Work as the editor for the journal."
+    },
+    {
+      "key": "event_literary_journal_choice2_log",
+      "value": "I worked hard to edit all the submissions. The final journal looks amazing."
+    },
+    {
+      "key": "event_bridge_building_title",
+      "value": "Bridge Building Competition"
+    },
+    {
+      "key": "event_bridge_building_description",
+      "value": "The Architecture & Engineering Club is hosting a bridge building competition."
+    },
+    {
+      "key": "event_bridge_building_choice1",
+      "value": "Design an innovative and strong bridge."
+    },
+    {
+      "key": "event_bridge_building_choice1_log",
+      "value": "My bridge held the most weight! My design was a success."
+    },
+    {
+      "key": "event_bridge_building_choice2",
+      "value": "Focus on the aesthetics of the bridge."
+    },
+    {
+      "key": "event_bridge_building_choice2_log",
+      "value": "My bridge might not have been the strongest, but it was definitely the best-looking one."
+    }
+  ]
+}

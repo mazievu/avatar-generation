@@ -1,0 +1,1284 @@
+{
+  "items": [
+    {
+      "key": "event_relationship_first_date_title",
+      "value": "Hẹn Hò Đầu Tiên"
+    },
+    {
+      "key": "event_relationship_first_date_desc",
+      "value": "Bạn sắp có buổi hẹn hò đầu tiên! Đi đâu bây giờ?"
+    },
+    {
+      "key": "event_relationship_prom_night_title",
+      "value": "Đêm Prom"
+    },
+    {
+      "key": "event_relationship_prom_night_desc",
+      "value": "Đây là đêm hội lớn nhất của năm học! Kế hoạch cho prom là gì?"
+    },
+    {
+      "key": "event_relationship_sending_text_title",
+      "value": "Gửi Tin Nhắn"
+    },
+    {
+      "key": "event_relationship_sending_text_desc",
+      "value": "Bạn muốn gửi một tin nhắn cho crush. Bạn sẽ nói gì?"
+    },
+    {
+      "key": "event_relationship_anniversary_title",
+      "value": "Ngày Kỷ Niệm"
+    },
+    {
+      "key": "event_relationship_anniversary_desc",
+      "value": "Hôm nay là ngày kỷ niệm của hai bạn! Nên ăn mừng thế nào đây?"
+    },
+    {
+      "key": "event_relationship_meeting_friends_title",
+      "value": "Gặp Gỡ Bạn Bè"
+    },
+    {
+      "key": "event_relationship_meeting_friends_desc",
+      "value": "Bạn sắp gặp bạn bè của đối phương lần đầu tiên. Bạn sẽ hành động thế nào?"
+    },
+    {
+      "key": "event_relationship_amusement_park_title",
+      "value": "Hẹn Hò ở Công Viên Giải Trí"
+    },
+    {
+      "key": "event_relationship_amusement_park_desc",
+      "value": "Một ngày vui vẻ ở công viên giải trí! Chơi gì đầu tiên?"
+    },
+    {
+      "key": "event_relationship_first_argument_title",
+      "value": "Trận Cãi Vã Đầu Tiên"
+    },
+    {
+      "key": "event_relationship_first_argument_desc",
+      "value": "Hai bạn đang có trận cãi vã thực sự đầu tiên. Bạn xử lý thế nào?"
+    },
+    {
+      "key": "event_relationship_fancy_dinner_title",
+      "value": "Bữa Tối Sang Trọng"
+    },
+    {
+      "key": "event_relationship_fancy_dinner_desc",
+      "value": "Hai bạn đang đi ăn tối ở một nhà hàng sang trọng. Đã đến lúc gây ấn tượng!"
+    },
+    {
+      "key": "event_relationship_road_trip_title",
+      "value": "Chuyến Đi Phượt"
+    },
+    {
+      "key": "event_relationship_road_trip_desc",
+      "value": "Đã đến lúc cho một chuyến đi phượt ngẫu hứng cùng nhau!"
+    },
+    {
+      "key": "event_relationship_talk_future_title",
+      "value": "Nói Về Tương Lai"
+    },
+    {
+      "key": "event_relationship_talk_future_desc",
+      "value": "Cuộc trò chuyện đã trở nên nghiêm túc, và hai bạn đang nói về tương lai."
+    },
+    {
+      "key": "choice_relationship_first_date_1",
+      "value": "Đến một quán cà phê ấm cúng"
+    },
+    {
+      "key": "log_relationship_first_date_1",
+      "value": "Chúng tôi đã nói chuyện cho đến khi nhân viên pha chế phải mời chúng tôi về."
+    },
+    {
+      "key": "choice_relationship_first_date_2",
+      "value": "Đi ăn tối sang trọng"
+    },
+    {
+      "key": "log_relationship_first_date_2",
+      "value": "Thức ăn lấp lánh, ví tiền của tôi thì khóc thét."
+    },
+    {
+      "key": "choice_relationship_first_date_3",
+      "value": "Đi chơi bowling"
+    },
+    {
+      "key": "log_relationship_first_date_3",
+      "value": "Tôi ném bóng vào rãnh nhiều hơn là trúng đích, nhưng vẫn rất vui."
+    },
+    {
+      "key": "choice_relationship_prom_night_1",
+      "value": "Lộng lẫy với tuxedo/váy dạ hội"
+    },
+    {
+      "key": "log_relationship_prom_night_1",
+      "value": "Mọi người đều ngoái nhìn khi chúng tôi bước vào."
+    },
+    {
+      "key": "choice_relationship_prom_night_2",
+      "value": "Giữ phong cách đơn giản"
+    },
+    {
+      "key": "log_relationship_prom_night_2",
+      "value": "Chúng tôi trông có vẻ lạc quẻ, nhưng chúng tôi mặc kệ."
+    },
+    {
+      "key": "choice_relationship_prom_night_3",
+      "value": "Bỏ prom để đến quán ăn đêm"
+    },
+    {
+      "key": "log_relationship_prom_night_3",
+      "value": "Bánh kếp lúc nửa đêm tuyệt hơn sàn nhảy đông đúc."
+    },
+    {
+      "key": "choice_relationship_sending_text_1",
+      "value": "Viết một tin nhắn dài đầy tâm huyết"
+    },
+    {
+      "key": "log_relationship_sending_text_1",
+      "value": "Câu trả lời tuy ngắn gọn nhưng đầy ấm áp."
+    },
+    {
+      "key": "choice_relationship_sending_text_2",
+      "value": "Gửi một ảnh GIF hài hước"
+    },
+    {
+      "key": "log_relationship_sending_text_2",
+      "value": "Cả hai chúng tôi đều bật cười và cuối cùng đã lên kế hoạch hẹn hò."
+    },
+    {
+      "key": "choice_relationship_sending_text_3",
+      "value": "Chỉ gửi “chào”"
+    },
+    {
+      "key": "log_relationship_sending_text_3",
+      "value": "Thái độ suồng sã của tôi đã gây ra một cơn bão bất ngờ."
+    },
+    {
+      "key": "choice_relationship_anniversary_1",
+      "value": "Gây bất ngờ bằng hoa"
+    },
+    {
+      "key": "log_relationship_anniversary_1",
+      "value": "Mùi hương hoa hồng tràn ngập căn phòng và nụ cười đã nói lên tất cả."
+    },
+    {
+      "key": "choice_relationship_anniversary_2",
+      "value": "Đi xem phim"
+    },
+    {
+      "key": "log_relationship_anniversary_2",
+      "value": "Hộp bắp rang bơ còn to hơn cả đầu chúng tôi."
+    },
+    {
+      "key": "choice_relationship_anniversary_3",
+      "value": "Quên mất ngày kỷ niệm"
+    },
+    {
+      "key": "log_relationship_anniversary_3",
+      "value": "Sự im lặng kéo dài còn hơn cả cuộn phim."
+    },
+    {
+      "key": "choice_relationship_meeting_friends_1",
+      "value": "Nói nhiều"
+    },
+    {
+      "key": "log_relationship_meeting_friends_1",
+      "value": "Tôi đã tham gia vào ba câu chuyện đùa nội bộ trước khi đến món tráng miệng."
+    },
+    {
+      "key": "choice_relationship_meeting_friends_2",
+      "value": "Giữ im lặng"
+    },
+    {
+      "key": "log_relationship_meeting_friends_2",
+      "value": "Họ gọi tôi là bí ẩn; tôi gọi đó là sự sống còn."
+    },
+    {
+      "key": "choice_relationship_meeting_friends_3",
+      "value": "Kể một câu chuyện cười nhạt nhẽo"
+    },
+    {
+      "key": "log_relationship_meeting_friends_3",
+      "value": "Câu chuyện cười của tôi đã trở thành meme của nhóm họ."
+    },
+    {
+      "key": "choice_relationship_amusement_park_1",
+      "value": "Đi vòng quay Ferris"
+    },
+    {
+      "key": "log_relationship_amusement_park_1",
+      "value": "Khung cảnh thật tuyệt vời, việc nắm tay còn tuyệt hơn."
+    },
+    {
+      "key": "choice_relationship_amusement_park_2",
+      "value": "Đi tàu lượn siêu tốc"
+    },
+    {
+      "key": "log_relationship_amusement_park_2",
+      "value": "Tôi hét to hơn cả một đứa trẻ năm tuổi và có một biệt danh mới."
+    },
+    {
+      "key": "choice_relationship_amusement_park_3",
+      "value": "Ăn kẹo bông gòn"
+    },
+    {
+      "key": "log_relationship_amusement_park_3",
+      "value": "Say đường + ngón tay dính nhớp = một mớ hỗn loạn vui vẻ."
+    },
+    {
+      "key": "choice_relationship_first_argument_1",
+      "value": "Nói chuyện thẳng thắn"
+    },
+    {
+      "key": "log_relationship_first_argument_1",
+      "value": "Lời nói đã gỡ được nút thắt giữa chúng tôi."
+    },
+    {
+      "key": "choice_relationship_first_argument_2",
+      "value": "Bỏ đi"
+    },
+    {
+      "key": "log_relationship_first_argument_2",
+      "value": "Sự im lặng kéo dài hơn dự kiến."
+    },
+    {
+      "key": "choice_relationship_first_argument_3",
+      "value": "Gửi tin nhắn “k”"
+    },
+    {
+      "key": "log_relationship_first_argument_3",
+      "value": "Từ ngắn nhất đã bắt đầu cuộc chiến dài nhất."
+    },
+    {
+      "key": "choice_relationship_fancy_dinner_1",
+      "value": "Cực kỳ lịch sự"
+    },
+    {
+      "key": "log_relationship_fancy_dinner_1",
+      "value": "Người phục vụ đã gật đầu công nhận chúng tôi là “cặp đôi đẹp nhất”."
+    },
+    {
+      "key": "choice_relationship_fancy_dinner_2",
+      "value": "Làm đổ đồ uống"
+    },
+    {
+      "key": "log_relationship_fancy_dinner_2",
+      "value": "Hành động vụng về của tôi đã trở thành trò giải trí của đêm nay."
+    },
+    {
+      "key": "choice_relationship_fancy_dinner_3",
+      "value": "Gọi món đắt nhất"
+    },
+    {
+      "key": "log_relationship_fancy_dinner_3",
+      "value": "Miếng ngon, hóa đơn đau đớn."
+    },
+    {
+      "key": "choice_relationship_road_trip_1",
+      "value": "Lên kế hoạch mọi thứ"
+    },
+    {
+      "key": "log_relationship_road_trip_1",
+      "value": "Cuối cùng thì GPS và tôi cũng đã trở thành bạn bè."
+    },
+    {
+      "key": "choice_relationship_road_trip_2",
+      "value": "Đi ngẫu hứng"
+    },
+    {
+      "key": "log_relationship_road_trip_2",
+      "value": "Chúng tôi tìm thấy một xe bán taco thay vì Grand Canyon."
+    },
+    {
+      "key": "choice_relationship_road_trip_3",
+      "value": "Đóng gói quá nhiều đồ"
+    },
+    {
+      "key": "log_relationship_road_trip_3",
+      "value": "Chiếc xe trông như thể chúng tôi đang dọn nhà."
+    },
+    {
+      "key": "choice_relationship_talk_future_1",
+      "value": "Thảo luận nghiêm túc"
+    },
+    {
+      "key": "log_relationship_talk_future_1",
+      "value": "Những kế hoạch được viết nguệch ngoạc trên giấy ăn trông thật hơn bao giờ hết."
+    },
+    {
+      "key": "choice_relationship_talk_future_2",
+      "value": "Đùa cho qua chuyện"
+    },
+    {
+      "key": "log_relationship_talk_future_2",
+      "value": "Chúng tôi đã cười, nhưng câu hỏi vẫn còn đó."
+    },
+    {
+      "key": "choice_relationship_talk_future_3",
+      "value": "Đưa ra câu trả lời mơ hồ"
+    },
+    {
+      "key": "log_relationship_talk_future_3",
+      "value": "Nụ cười nửa miệng của tôi không đủ để trấn an."
+    },
+    {
+      "key": "event_relationship_forgot_socks_title",
+      "value": "Quên Vớ ở Sân Bowling"
+    },
+    {
+      "key": "event_relationship_forgot_socks_desc",
+      "value": "Bạn quên mang vớ để chơi bowling. Giờ sao?"
+    },
+    {
+      "key": "choice_relationship_forgot_socks_1",
+      "value": "Mượn ở quầy"
+    },
+    {
+      "key": "log_relationship_forgot_socks_1",
+      "value": "Đôi vớ cho thuê trông như của chú hề đã thêm phần vui nhộn."
+    },
+    {
+      "key": "choice_relationship_forgot_socks_2",
+      "value": "Chơi chân trần"
+    },
+    {
+      "key": "log_relationship_forgot_socks_2",
+      "value": "Những ánh nhìn chằm chằm thật đáng giá cho cú strike tôi ghi được."
+    },
+    {
+      "key": "choice_relationship_forgot_socks_3",
+      "value": "Nghỉ chơi sớm"
+    },
+    {
+      "key": "log_relationship_forgot_socks_3",
+      "value": "Chúng tôi đã biến buổi tối thành một buổi đi ăn kem."
+    },
+    {
+      "key": "event_relationship_pancake_accident_title",
+      "value": "Tai Nạn Bánh Kếp"
+    },
+    {
+      "key": "event_relationship_pancake_accident_desc",
+      "value": "Một chiếc bánh kếp đẫm si-rô vừa rơi vào lòng đối phương!"
+    },
+    {
+      "key": "choice_relationship_pancake_accident_1",
+      "value": "Cười cho qua"
+    },
+    {
+      "key": "log_relationship_pancake_accident_1",
+      "value": "Si-rô ở khắp nơi, nụ cười cũng ở khắp nơi."
+    },
+    {
+      "key": "choice_relationship_pancake_accident_2",
+      "value": "Cố gắng lau nhanh"
+    },
+    {
+      "key": "log_relationship_pancake_accident_2",
+      "value": "Giấy ăn thất bại, nhưng tiếng cười đã thành công."
+    },
+    {
+      "key": "choice_relationship_pancake_accident_3",
+      "value": "Đổ lỗi cho cái nĩa"
+    },
+    {
+      "key": "log_relationship_pancake_accident_3",
+      "value": "Một lý do lố bịch nhưng lại hiệu quả một cách kỳ lạ."
+    },
+    {
+      "key": "event_relationship_misunderstood_silence_title",
+      "value": "Sự Im Lặng Gây Hiểu Lầm"
+    },
+    {
+      "key": "event_relationship_misunderstood_silence_desc",
+      "value": "Tin nhắn \"chào\" của bạn đã bị đáp lại bằng sự im lặng, và giờ mọi thứ thật khó xử."
+    },
+    {
+      "key": "choice_relationship_misunderstood_silence_1",
+      "value": "Gọi ngay lập tức"
+    },
+    {
+      "key": "log_relationship_misunderstood_silence_1",
+      "value": "Cuộc gọi kéo dài hơn bất kỳ tin nhắn nào."
+    },
+    {
+      "key": "choice_relationship_misunderstood_silence_2",
+      "value": "Giả vờ không có gì xảy ra"
+    },
+    {
+      "key": "log_relationship_misunderstood_silence_2",
+      "value": "Sự khó xử kéo dài, nhưng sớm phai nhạt."
+    },
+    {
+      "key": "choice_relationship_misunderstood_silence_3",
+      "value": "Gửi một meme ngẫu nhiên khác"
+    },
+    {
+      "key": "log_relationship_misunderstood_silence_3",
+      "value": "Sự bối rối biến thành tiếng cười chung."
+    },
+    {
+      "key": "event_relationship_silent_treatment_title",
+      "value": "Chiến Tranh Lạnh"
+    },
+    {
+      "key": "event_relationship_silent_treatment_desc",
+      "value": "Việc quên ngày kỷ niệm đã dẫn đến chiến tranh lạnh."
+    },
+    {
+      "key": "choice_relationship_silent_treatment_1",
+      "value": "Xin lỗi bằng món tráng miệng"
+    },
+    {
+      "key": "log_relationship_silent_treatment_1",
+      "value": "Bánh sô cô la đã cứu vãn tình thế."
+    },
+    {
+      "key": "choice_relationship_silent_treatment_2",
+      "value": "Viết một ghi chú sến súa"
+    },
+    {
+      "key": "log_relationship_silent_treatment_2",
+      "value": "Một dòng chữ nguệch ngoạc trên giấy ăn đã làm tan băng."
+    },
+    {
+      "key": "choice_relationship_silent_treatment_3",
+      "value": "Chờ đợi"
+    },
+    {
+      "key": "log_relationship_silent_treatment_3",
+      "value": "Những ánh nhìn lạnh lùng còn khắc nghiệt hơn mùa đông."
+    },
+    {
+      "key": "event_relationship_endless_teasing_title",
+      "value": "Bị Trêu Chọc Không Ngừng"
+    },
+    {
+      "key": "event_relationship_endless_teasing_desc",
+      "value": "Câu chuyện cười nhạt nhẽo của bạn đã trở thành trò đùa nội bộ của bạn bè đối phương. Họ không chịu buông tha."
+    },
+    {
+      "key": "choice_relationship_endless_teasing_1",
+      "value": "Cười cùng họ"
+    },
+    {
+      "key": "log_relationship_endless_teasing_1",
+      "value": "Câu chuyện cười của tôi đã trở thành huyền thoại trong nhóm chat của họ."
+    },
+    {
+      "key": "choice_relationship_endless_teasing_2",
+      "value": "Đổi chủ đề"
+    },
+    {
+      "key": "log_relationship_endless_teasing_2",
+      "value": "Tôi đã né, nhưng họ vẫn quay lại chủ đề đó."
+    },
+    {
+      "key": "choice_relationship_endless_teasing_3",
+      "value": "Kể một câu chuyện cười dở tệ khác"
+    },
+    {
+      "key": "log_relationship_endless_teasing_3",
+      "value": "Ít nhất thì tôi cũng nhất quán."
+    },
+    {
+      "key": "event_relationship_unexpected_scream_title",
+      "value": "Tiếng Hét Tàu Lượn"
+    },
+    {
+      "key": "event_relationship_unexpected_scream_desc",
+      "value": "Tiếng hét của bạn trên tàu lượn... cao một cách bất ngờ."
+    },
+    {
+      "key": "choice_relationship_unexpected_scream_1",
+      "value": "Giả vờ đó là cố ý"
+    },
+    {
+      "key": "log_relationship_unexpected_scream_1",
+      "value": "Không ai tin tôi, nhưng nó lại trở nên hài hước."
+    },
+    {
+      "key": "choice_relationship_unexpected_scream_2",
+      "value": "Che mặt lại"
+    },
+    {
+      "key": "log_relationship_unexpected_scream_2",
+      "value": "Bức ảnh chụp trên tàu thật vô giá... một cách xấu hổ."
+    },
+    {
+      "key": "choice_relationship_unexpected_scream_3",
+      "value": "Tự hào thừa nhận"
+    },
+    {
+      "key": "log_relationship_unexpected_scream_3",
+      "value": "“Người hét to nhất” đã trở thành danh hiệu chính thức của tôi."
+    },
+    {
+      "key": "event_relationship_cold_war_title",
+      "value": "Chiến Tranh Lạnh"
+    },
+    {
+      "key": "event_relationship_cold_war_desc",
+      "value": "Việc bỏ đi khỏi cuộc cãi vã đã bắt đầu một cuộc chiến tranh lạnh."
+    },
+    {
+      "key": "choice_relationship_cold_war_1",
+      "value": "Gửi một chiếc pizza hòa giải"
+    },
+    {
+      "key": "log_relationship_cold_war_1",
+      "value": "Pepperoni đã kết thúc cuộc chiến nhanh hơn lời nói."
+    },
+    {
+      "key": "choice_relationship_cold_war_2",
+      "value": "Chờ họ phá vỡ sự im lặng"
+    },
+    {
+      "key": "log_relationship_cold_war_2",
+      "value": "Sự bướng bỉnh kéo dài cho đến khi sự nhàm chán chiến thắng."
+    },
+    {
+      "key": "choice_relationship_cold_war_3",
+      "value": "Đăng một trạng thái mơ hồ"
+    },
+    {
+      "key": "log_relationship_cold_war_3",
+      "value": "Một cú “like” đã bắt đầu cuộc đình chiến."
+    },
+    {
+      "key": "event_relationship_everyone_staring_title",
+      "value": "Mọi Người Đang Nhìn Chằm Chằm"
+    },
+    {
+      "key": "event_relationship_everyone_staring_desc",
+      "value": "Bạn làm đổ đồ uống và giờ mọi người đang nhìn chằm chằm."
+    },
+    {
+      "key": "choice_relationship_everyone_staring_1",
+      "value": "Lau bằng giấy ăn"
+    },
+    {
+      "key": "log_relationship_everyone_staring_1",
+      "value": "Tôi đã trở thành người hùng vụng về của buổi tối."
+    },
+    {
+      "key": "choice_relationship_everyone_staring_2",
+      "value": "Cười lớn"
+    },
+    {
+      "key": "log_relationship_everyone_staring_2",
+      "value": "Sự tự tin của tôi đã biến tai nạn thành một trò đùa."
+    },
+    {
+      "key": "choice_relationship_everyone_staring_3",
+      "value": "Giả vờ không có gì xảy ra"
+    },
+    {
+      "key": "log_relationship_everyone_staring_3",
+      "value": "Không thể — nhưng tôi đã thử."
+    },
+    {
+      "key": "event_relationship_getting_lost_title",
+      "value": "Bị Lạc Đường"
+    },
+    {
+      "key": "event_relationship_getting_lost_desc",
+      "value": "Chuyến đi ngẫu hứng của bạn đã đưa bạn đến một nơi chắc chắn không có trên bản đồ."
+    },
+    {
+      "key": "choice_relationship_getting_lost_1",
+      "value": "Hỏi người dân địa phương"
+    },
+    {
+      "key": "log_relationship_getting_lost_1",
+      "value": "Hỏi đường còn được tặng kèm taco miễn phí."
+    },
+    {
+      "key": "choice_relationship_getting_lost_2",
+      "value": "Tiếp tục lái xe vô định"
+    },
+    {
+      "key": "log_relationship_getting_lost_2",
+      "value": "Chúng tôi tìm thấy một cái hồ mà không ai biết đến."
+    },
+    {
+      "key": "choice_relationship_getting_lost_3",
+      "value": "Đổ lỗi cho GPS"
+    },
+    {
+      "key": "log_relationship_getting_lost_3",
+      "value": "GPS vẫn báo “đang tính toán lại”."
+    },
+    {
+      "key": "event_relationship_doubt_arises_title",
+      "value": "Nghi Ngờ Nảy Sinh"
+    },
+    {
+      "key": "event_relationship_doubt_arises_desc",
+      "value": "Câu trả lời mơ hồ của bạn về tương lai đã tạo ra một số nghi ngờ."
+    },
+    {
+      "key": "choice_relationship_doubt_arises_1",
+      "value": "Ngồi xuống nói chuyện thẳng thắn"
+    },
+    {
+      "key": "log_relationship_doubt_arises_1",
+      "value": "Sự trung thực đã vá lại cây cầu đang lung lay."
+    },
+    {
+      "key": "choice_relationship_doubt_arises_2",
+      "value": "Đánh lạc hướng bằng sự hài hước"
+    },
+    {
+      "key": "log_relationship_doubt_arises_2",
+      "value": "Sự căng thẳng vỡ tan thành những tiếng cười khúc khích."
+    },
+    {
+      "key": "choice_relationship_doubt_arises_3",
+      "value": "Tránh né nó"
+    },
+    {
+      "key": "log_relationship_doubt_arises_3",
+      "value": "Câu hỏi đã quay trở lại sau đó, lớn hơn."
+    },
+    {
+      "key": "event_relationship_netflix_chill_title",
+      "value": "Netflix & Chill"
+    },
+    {
+      "key": "event_relationship_netflix_chill_desc",
+      "value": "Một đêm yên tĩnh ở nhà xem phim."
+    },
+    {
+      "key": "choice_relationship_netflix_chill_1",
+      "value": "Thực sự xem chương trình"
+    },
+    {
+      "key": "log_relationship_netflix_chill_1",
+      "value": "Chúng tôi đã cày hết một mùa, quên cả thời gian."
+    },
+    {
+      "key": "choice_relationship_netflix_chill_2",
+      "value": "Ngủ gật giữa chừng"
+    },
+    {
+      "key": "log_relationship_netflix_chill_2",
+      "value": "Nhạc nền tiếng ngáy đã tham gia vào tập phim."
+    },
+    {
+      "key": "choice_relationship_netflix_chill_3",
+      "value": "Tiếp tục tạm dừng để đùa giỡn"
+    },
+    {
+      "key": "log_relationship_netflix_chill_3",
+      "value": "Chúng tôi cười nhiều hơn là xem."
+    },
+    {
+      "key": "event_relationship_house_party_title",
+      "value": "Tiệc tại gia"
+    },
+    {
+      "key": "event_relationship_house_party_desc",
+      "value": "Bạn đang ở một bữa tiệc tại nhà của một người bạn."
+    },
+    {
+      "key": "choice_relationship_house_party_1",
+      "value": "Nhảy điên cuồng"
+    },
+    {
+      "key": "log_relationship_house_party_1",
+      "value": "Những bước nhảy của tôi khiến mọi người vừa cổ vũ vừa khó đỡ."
+    },
+    {
+      "key": "choice_relationship_house_party_2",
+      "value": "Canh giữ bàn đồ ăn vặt"
+    },
+    {
+      "key": "log_relationship_house_party_2",
+      "value": "Nachos đã biến mất dưới sự canh gác của tôi."
+    },
+    {
+      "key": "choice_relationship_house_party_3",
+      "value": "Trốn trong góc"
+    },
+    {
+      "key": "log_relationship_house_party_3",
+      "value": "Bằng cách nào đó, tôi vẫn bị lôi vào hát karaoke."
+    },
+    {
+      "key": "event_relationship_bbq_cookout_title",
+      "value": "Tiệc nướng BBQ"
+    },
+    {
+      "key": "event_relationship_bbq_cookout_desc",
+      "value": "Một buổi chiều nắng đẹp nướng BBQ cùng bạn bè."
+    },
+    {
+      "key": "choice_relationship_bbq_cookout_1",
+      "value": "Làm chủ vỉ nướng"
+    },
+    {
+      "key": "log_relationship_bbq_cookout_1",
+      "value": "Bánh mì kẹp thịt hoàn hảo, có cả tiếng vỗ tay."
+    },
+    {
+      "key": "choice_relationship_bbq_cookout_2",
+      "value": "Làm cháy xúc xích"
+    },
+    {
+      "key": "log_relationship_bbq_cookout_2",
+      "value": "Hương vị của ngày hôm nay là phong cách than củi."
+    },
+    {
+      "key": "choice_relationship_bbq_cookout_3",
+      "value": "Chỉ ăn đồ ăn kèm"
+    },
+    {
+      "key": "log_relationship_bbq_cookout_3",
+      "value": "Salad khoai tây đã trở thành món chính của tôi."
+    },
+    {
+      "key": "event_relationship_drive_in_movie_title",
+      "value": "Rạp chiếu phim ngoài trời"
+    },
+    {
+      "key": "event_relationship_drive_in_movie_desc",
+      "value": "Một buổi hẹn hò xem phim ngoài trời cổ điển."
+    },
+    {
+      "key": "choice_relationship_drive_in_movie_1",
+      "value": "Mang theo chăn ấm cúng"
+    },
+    {
+      "key": "log_relationship_drive_in_movie_1",
+      "value": "Chúng tôi ôm nhau nhiều hơn là xem phim."
+    },
+    {
+      "key": "choice_relationship_drive_in_movie_2",
+      "value": "Quên thuốc xịt côn trùng"
+    },
+    {
+      "key": "log_relationship_drive_in_movie_2",
+      "value": "Muỗi yêu tôi hơn cả bộ phim."
+    },
+    {
+      "key": "choice_relationship_drive_in_movie_3",
+      "value": "Về sớm để ăn bánh mì kẹp thịt"
+    },
+    {
+      "key": "log_relationship_drive_in_movie_3",
+      "value": "Ánh đèn neon của quán ăn là phần kết của chúng tôi."
+    },
+    {
+      "key": "event_relationship_super_bowl_title",
+      "value": "Chủ Nhật Super Bowl"
+    },
+    {
+      "key": "event_relationship_super_bowl_desc",
+      "value": "Hôm nay là Chủ Nhật Super Bowl. Kế hoạch là gì?"
+    },
+    {
+      "key": "choice_relationship_super_bowl_1",
+      "value": "Xem trận đấu một cách nghiêm túc"
+    },
+    {
+      "key": "log_relationship_super_bowl_1",
+      "value": "Tôi hét to hơn cả bình luận viên."
+    },
+    {
+      "key": "choice_relationship_super_bowl_2",
+      "value": "Chỉ ăn đồ ăn vặt"
+    },
+    {
+      "key": "log_relationship_super_bowl_2",
+      "value": "Cánh gà > bóng đá, bất kể ngày nào."
+    },
+    {
+      "key": "choice_relationship_super_bowl_3",
+      "value": "Cổ vũ cho đội sai"
+    },
+    {
+      "key": "log_relationship_super_bowl_3",
+      "value": "Đối tác của tôi gần như đã từ mặt tôi."
+    },
+    {
+      "key": "event_relationship_thanksgiving_title",
+      "value": "Lễ Tạ Ơn với Gia Đình Đối Tác"
+    },
+    {
+      "key": "event_relationship_thanksgiving_desc",
+      "value": "Bạn đang ăn Lễ Tạ Ơn với gia đình của đối tác."
+    },
+    {
+      "key": "choice_relationship_thanksgiving_1",
+      "value": "Giúp nấu ăn"
+    },
+    {
+      "key": "log_relationship_thanksgiving_1",
+      "value": "Món khoai tây nghiền của tôi đã thành công rực rỡ."
+    },
+    {
+      "key": "choice_relationship_thanksgiving_2",
+      "value": "Xem bóng bầu dục"
+    },
+    {
+      "key": "log_relationship_thanksgiving_2",
+      "value": "Tôi đã thân thiết với chú của họ qua những pha touchdown."
+    },
+    {
+      "key": "choice_relationship_thanksgiving_3",
+      "value": "Ngủ trên ghế sofa"
+    },
+    {
+      "key": "log_relationship_thanksgiving_3",
+      "value": "Cơn buồn ngủ sau khi ăn gà tây là có thật."
+    },
+    {
+      "key": "event_relationship_valentines_title",
+      "value": "Ngày Lễ Tình Nhân"
+    },
+    {
+      "key": "event_relationship_valentines_desc",
+      "value": "Hôm nay là Lễ Tình Nhân, ngày của tình yêu."
+    },
+    {
+      "key": "choice_relationship_valentines_1",
+      "value": "Bữa tối sang trọng"
+    },
+    {
+      "key": "log_relationship_valentines_1",
+      "value": "Nến, rượu vang, đầy đủ những thứ sáo rỗng."
+    },
+    {
+      "key": "choice_relationship_valentines_2",
+      "value": "Netflix & pizza"
+    },
+    {
+      "key": "log_relationship_valentines_2",
+      "value": "Những chiếc hộp dính dầu mỡ chưa bao giờ trông lãng mạn đến thế."
+    },
+    {
+      "key": "choice_relationship_valentines_3",
+      "value": "Quên mất ngày"
+    },
+    {
+      "key": "log_relationship_valentines_3",
+      "value": "Tôi đã được nhắc nhở… một cách kịch tính."
+    },
+    {
+      "key": "event_relationship_beach_day_title",
+      "value": "Ngày Đi Biển"
+    },
+    {
+      "key": "event_relationship_beach_day_desc",
+      "value": "Một ngày hoàn hảo để đi biển."
+    },
+    {
+      "key": "choice_relationship_beach_day_1",
+      "value": "Xây lâu đài cát"
+    },
+    {
+      "key": "log_relationship_beach_day_1",
+      "value": "Pháo đài của chúng tôi đã sụp đổ một cách đầy phong cách."
+    },
+    {
+      "key": "choice_relationship_beach_day_2",
+      "value": "Chơi bóng chuyền"
+    },
+    {
+      "key": "log_relationship_beach_day_2",
+      "value": "Tôi bị bóng đập vào mặt, nhưng vẫn ghi điểm."
+    },
+    {
+      "key": "choice_relationship_beach_day_3",
+      "value": "Chỉ tắm nắng"
+    },
+    {
+      "key": "log_relationship_beach_day_3",
+      "value": "Mức độ thư giãn: đỏ như tôm hùm."
+    },
+    {
+      "key": "event_relationship_camping_trip_title",
+      "value": "Chuyến Đi Cắm Trại"
+    },
+    {
+      "key": "event_relationship_camping_trip_desc",
+      "value": "Một chuyến đi cắm trại cuối tuần giữa thiên nhiên hoang dã."
+    },
+    {
+      "key": "choice_relationship_camping_trip_1",
+      "value": "Dựng lều một cách hoàn hảo"
+    },
+    {
+      "key": "log_relationship_camping_trip_1",
+      "value": "Lều của chúng tôi đã sẵn sàng để lên Instagram."
+    },
+    {
+      "key": "choice_relationship_camping_trip_2",
+      "value": "Quên diêm"
+    },
+    {
+      "key": "log_relationship_camping_trip_2",
+      "value": "Xúc xích nguội đã trở thành bữa tối của chúng tôi."
+    },
+    {
+      "key": "choice_relationship_camping_trip_3",
+      "value": "Kể chuyện ma"
+    },
+    {
+      "key": "log_relationship_camping_trip_3",
+      "value": "Chúng tôi đã tự dọa mình nhiều hơn cần thiết."
+    },
+    {
+      "key": "event_relationship_roadside_diner_title",
+      "value": "Quán Ăn Ven Đường"
+    },
+    {
+      "key": "event_relationship_roadside_diner_desc",
+      "value": "Dừng chân tại một quán ăn ven đường cổ điển."
+    },
+    {
+      "key": "choice_relationship_roadside_diner_1",
+      "value": "Gọi bánh kếp"
+    },
+    {
+      "key": "log_relationship_roadside_diner_1",
+      "value": "Si-rô ở khắp nơi, niềm vui ở khắp nơi."
+    },
+    {
+      "key": "choice_relationship_roadside_diner_2",
+      "value": "Thử một món mới"
+    },
+    {
+      "key": "log_relationship_roadside_diner_2",
+      "value": "Thịt bí ẩn… tốt hơn là không nên hỏi."
+    },
+    {
+      "key": "choice_relationship_roadside_diner_3",
+      "value": "Chỉ uống cà phê"
+    },
+    {
+      "key": "log_relationship_roadside_diner_3",
+      "value": "Cà phê được châm thêm không bao giờ kết thúc."
+    },
+    {
+      "key": "event_relationship_hiking_title",
+      "value": "Đi Bộ Đường Dài"
+    },
+    {
+      "key": "event_relationship_hiking_desc",
+      "value": "Một chuyến đi bộ đường dài ngắm cảnh trên một con đường mòn tuyệt đẹp."
+    },
+    {
+      "key": "choice_relationship_hiking_1",
+      "value": "Lên đến đỉnh"
+    },
+    {
+      "key": "log_relationship_hiking_1",
+      "value": "Khung cảnh thật ngoạn mục, cũng như việc leo núi."
+    },
+    {
+      "key": "choice_relationship_hiking_2",
+      "value": "Bị lạc một lúc"
+    },
+    {
+      "key": "log_relationship_hiking_2",
+      "value": "Chúng tôi đã khám phá ra một thác nước ẩn."
+    },
+    {
+      "key": "choice_relationship_hiking_3",
+      "value": "Quay lại sớm"
+    },
+    {
+      "key": "log_relationship_hiking_3",
+      "value": "Đồ ăn vặt trong xe cảm giác như một phần thưởng."
+    },
+    {
+      "key": "event_relationship_mini_golf_title",
+      "value": "Hẹn Hò Chơi Golf Mini"
+    },
+    {
+      "key": "event_relationship_mini_golf_desc",
+      "value": "Một trận golf mini đầy cạnh tranh."
+    },
+    {
+      "key": "choice_relationship_mini_golf_1",
+      "value": "Chơi nghiêm túc"
+    },
+    {
+      "key": "log_relationship_mini_golf_1",
+      "value": "Một cú hole-in-one đã cho tôi quyền khoe khoang."
+    },
+    {
+      "key": "choice_relationship_mini_golf_2",
+      "value": "Gian lận cho vui"
+    },
+    {
+      "key": "log_relationship_mini_golf_2",
+      "value": "Tiếng cười đáng giá hơn những cú đánh phạt."
+    },
+    {
+      "key": "choice_relationship_mini_golf_3",
+      "value": "Bỏ cuộc và chỉ chụp ảnh"
+    },
+    {
+      "key": "log_relationship_mini_golf_3",
+      "value": "Những bức ảnh tự sướng của chúng tôi mới là người chiến thắng thực sự."
+    },
+    {
+      "key": "event_relationship_ice_cream_run_title",
+      "value": "Đi Ăn Kem"
+    },
+    {
+      "key": "event_relationship_ice_cream_run_desc",
+      "value": "Một chuyến đi nhanh đến quán kem."
+    },
+    {
+      "key": "choice_relationship_ice_cream_run_1",
+      "value": "Chia sẻ một cây kem ốc quế"
+    },
+    {
+      "key": "log_relationship_ice_cream_run_1",
+      "value": "Nó tan chảy nhanh hơn dự kiến—một niềm vui bừa bộn."
+    },
+    {
+      "key": "choice_relationship_ice_cream_run_2",
+      "value": "Thử hương vị kỳ lạ nhất"
+    },
+    {
+      "key": "log_relationship_ice_cream_run_2",
+      "value": "Kem dưa chua… không thể nào quên."
+    },
+    {
+      "key": "choice_relationship_ice_cream_run_3",
+      "value": "Mỗi người ba muỗng"
+    },
+    {
+      "key": "log_relationship_ice_cream_run_3",
+      "value": "Say đường, hối hận trong tương lai."
+    },
+    {
+      "key": "event_relationship_arcade_night_title",
+      "value": "Đêm Chơi Game Arcade"
+    },
+    {
+      "key": "event_relationship_arcade_night_desc",
+      "value": "Một đêm của những trò chơi cổ điển và những giải thưởng bằng vé."
+    },
+    {
+      "key": "choice_relationship_arcade_night_1",
+      "value": "Thắng một con thú nhồi bông lớn"
+    },
+    {
+      "key": "log_relationship_arcade_night_1",
+      "value": "Cuối cùng máy gắp thú cũng đã nghe lời!"
+    },
+    {
+      "key": "choice_relationship_arcade_night_2",
+      "value": "Thua mọi trò chơi"
+    },
+    {
+      "key": "log_relationship_arcade_night_2",
+      "value": "Ít nhất thì những tấm vé cũng làm được một cái mũ ngầu."
+    },
+    {
+      "key": "choice_relationship_arcade_night_3",
+      "value": "Chơi máy nhảy"
+    },
+    {
+      "key": "log_relationship_arcade_night_3",
+      "value": "Nhịp điệu của tôi đã gây ra động đất."
+    },
+    {
+      "key": "event_relationship_picnic_title",
+      "value": "Dã Ngoại trong Công Viên"
+    },
+    {
+      "key": "event_relationship_picnic_desc",
+      "value": "Một buổi dã ngoại thư giãn trong công viên."
+    },
+    {
+      "key": "choice_relationship_picnic_1",
+      "value": "Mang theo bánh mì kẹp tự làm"
+    },
+    {
+      "key": "log_relationship_picnic_1",
+      "value": "Hơi bị bẹp, nhưng ngon."
+    },
+    {
+      "key": "choice_relationship_picnic_2",
+      "value": "Quên dụng cụ ăn uống"
+    },
+    {
+      "key": "log_relationship_picnic_2",
+      "value": "Khoai tây chiên đã trở thành muỗng—sự đổi mới!"
+    },
+    {
+      "key": "choice_relationship_picnic_3",
+      "value": "Cho vịt ăn"
+    },
+    {
+      "key": "log_relationship_picnic_3",
+      "value": "Chúng đã đuổi theo chúng tôi để xin thêm bánh mì."
+    },
+    {
+      "key": "event_relationship_concert_night_title",
+      "value": "Đêm Hòa Nhạc"
+    },
+    {
+      "key": "event_relationship_concert_night_desc",
+      "value": "Đi xem một buổi hòa nhạc trực tiếp."
+    },
+    {
+      "key": "choice_relationship_concert_night_1",
+      "value": "Hát theo thật to"
+    },
+    {
+      "key": "log_relationship_concert_night_1",
+      "value": "Giọng hát của tôi đã vô tình tham gia vào ban nhạc."
+    },
+    {
+      "key": "choice_relationship_concert_night_2",
+      "value": "Quay phim mọi thứ"
+    },
+    {
+      "key": "log_relationship_concert_night_2",
+      "value": "Bộ nhớ của tôi đã hết trước khi đến phần encore."
+    },
+    {
+      "key": "choice_relationship_concert_night_3",
+      "value": "Chỉ lặng lẽ cảm nhận"
+    },
+    {
+      "key": "log_relationship_concert_night_3",
+      "value": "Tiếng bass rung chuyển lồng ngực tôi trong im lặng."
+    },
+    {
+      "key": "event_relationship_holiday_shopping_title",
+      "value": "Mua Sắm Ngày Lễ"
+    },
+    {
+      "key": "event_relationship_holiday_shopping_desc",
+      "value": "Len lỏi qua đám đông để mua sắm cho ngày lễ."
+    },
+    {
+      "key": "choice_relationship_holiday_shopping_1",
+      "value": "Mua những món quà ý nghĩa"
+    },
+    {
+      "key": "log_relationship_holiday_shopping_1",
+      "value": "Những cuộc chiến giấy gói quà đã diễn ra sau đó."
+    },
+    {
+      "key": "choice_relationship_holiday_shopping_2",
+      "value": "Chi tiêu quá tay"
+    },
+    {
+      "key": "log_relationship_holiday_shopping_2",
+      "value": "Ví tiền của tôi đã đình công."
+    },
+    {
+      "key": "choice_relationship_holiday_shopping_3",
+      "value": "Quên danh sách"
+    },
+    {
+      "key": "log_relationship_holiday_shopping_3",
+      "value": "Về nhà với một con gà cao su."
+    },
+    {
+      "key": "event_relationship_coffee_run_title",
+      "value": "Đi Mua Cà Phê"
+    },
+    {
+      "key": "event_relationship_coffee_run_desc",
+      "value": "Một chuyến đi mua cà phê đơn giản."
+    },
+    {
+      "key": "choice_relationship_coffee_run_1",
+      "value": "Gọi đồ uống yêu thích của họ"
+    },
+    {
+      "key": "log_relationship_coffee_run_1",
+      "value": "Nụ cười đó thật đáng để xếp hàng."
+    },
+    {
+      "key": "choice_relationship_coffee_run_2",
+      "value": "Gọi sai món"
+    },
+    {
+      "key": "log_relationship_coffee_run_2",
+      "value": "Sai latte, nhưng vẫn đúng khoảnh khắc."
+    },
+    {
+      "key": "choice_relationship_coffee_run_3",
+      "value": "Quên ví của mình"
+    },
+    {
+      "key": "log_relationship_coffee_run_3",
+      "value": "Ôi, họ đã trả tiền."
+    },
+    {
+      "key": "event_relationship_pet_adoption_title",
+      "value": "Thăm Nơi Nhận Nuôi Thú Cưng"
+    },
+    {
+      "key": "event_relationship_pet_adoption_desc",
+      "value": "Đến thăm một trạm cứu hộ động vật \"chỉ để xem thôi.\""
+    },
+    {
+      "key": "choice_relationship_pet_adoption_1",
+      "value": "Chơi với những chú cún con"
+    },
+    {
+      "key": "log_relationship_pet_adoption_1",
+      "value": "Chúng tôi suýt nữa đã về nhà với ba đứa."
+    },
+    {
+      "key": "choice_relationship_pet_adoption_2",
+      "value": "Nhìn những chú mèo"
+    },
+    {
+      "key": "log_relationship_pet_adoption_2",
+      "value": "Một con mèo đã phán xét tôi, mãi mãi."
+    },
+    {
+      "key": "choice_relationship_pet_adoption_3",
+      "value": "Quyết định “chỉ xem thôi”"
+    },
+    {
+      "key": "log_relationship_pet_adoption_3",
+      "value": "Chúng tôi đã xem theo cách của mình vào những trách nhiệm mới."
+    },
+    {
+      "key": "event_relationship_fireworks_title",
+      "value": "Xem Pháo Hoa"
+    },
+    {
+      "key": "event_relationship_fireworks_desc",
+      "value": "Xem một màn trình diễn pháo hoa."
+    },
+    {
+      "key": "choice_relationship_fireworks_1",
+      "value": "Lễ kỷ niệm lớn ở công viên"
+    },
+    {
+      "key": "log_relationship_fireworks_1",
+      "value": "Những tiếng \"Ồ\" và \"À\" ở khắp nơi."
+    },
+    {
+      "key": "choice_relationship_fireworks_2",
+      "value": "Pháo bông ở sân sau"
+    },
+    {
+      "key": "log_relationship_fireworks_2",
+      "value": "Những ngón tay bị bỏng, những nụ cười rạng rỡ."
+    },
+    {
+      "key": "choice_relationship_fireworks_3",
+      "value": "Bỏ lỡ vì ngủ quên"
+    },
+    {
+      "key": "log_relationship_fireworks_3",
+      "value": "Những giấc mơ có pháo hoa đẹp hơn."
+    }
+  ]
+}
