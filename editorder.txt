@@ -1,0 +1,1412 @@
+Bạn là code assistant. Hãy tạo đủ thư mục & file dưới đây trong dự án Unity hiện tại (repo đã có thư mục Assets). 
+Nếu file đã tồn tại, bỏ qua. Nếu thư mục chưa tồn tại, hãy tạo.
+
+1) Tạo thư mục code core:
+Assets/Scripts/Core/
+Assets/Scripts/Core/Data/
+Assets/Scripts/Core/Data/DTO/
+Assets/Scripts/Core/Data/Loaders/
+Assets/Scripts/Core/Data/SO/
+Assets/Scripts/Core/Domain/Characters/
+Assets/Scripts/Core/Domain/Events/
+Assets/Scripts/Core/Domain/Game/
+Assets/Scripts/Core/Domain/Gameplay/
+Assets/Scripts/Core/Domain/Businesses/
+Assets/Scripts/Core/Domain/Careers/
+Assets/Scripts/Core/Domain/Economy/
+Assets/Scripts/Core/Domain/Education/
+Assets/Scripts/Core/Engine/
+Assets/Scripts/Core/Infra/
+Assets/Scripts/Core/Services/
+Assets/Scripts/Core/Services/Impl/
+
+2) Tạo thư mục Resources (để chứa dữ liệu JSON & localization):
+Assets/Resources/
+Assets/Resources/Databases/
+Assets/Resources/Databases/Education/
+Assets/Resources/Databases/Careers/
+Assets/Resources/Databases/Features/
+Assets/Resources/Databases/PathOfLife/
+Assets/Resources/Databases/Events/
+Assets/Resources/Localization/
+Assets/Resources/Localization/vi/
+Assets/Resources/Localization/en/
+
+3) Tạo các file C# sau với nội dung từ chỉ dẫn dưới đây:
+- Assets/Scripts/Core/Data/Constants.cs
+- Assets/Scripts/Core/Data/PathNodes.cs
+- Assets/Scripts/Core/Data/UnlockableFeature.cs
+- Assets/Scripts/Core/Domain/Businesses/Business.cs
+- Assets/Scripts/Core/Domain/Businesses/BusinessService.cs
+- Assets/Scripts/Core/Domain/Careers/CareerTrack.cs
+- Assets/Scripts/Core/Domain/Careers/CareerService.cs
+- Assets/Scripts/Core/Domain/Characters/Character.cs
+- Assets/Scripts/Core/Domain/Characters/CharacterStats.cs
+- Assets/Scripts/Core/Domain/Economy/EconomyService.cs
+- Assets/Scripts/Core/Domain/Education/SchoolOption.cs
+- Assets/Scripts/Core/Domain/Education/UniversityMajor.cs
+- Assets/Scripts/Core/Domain/Education/EducationService.cs
+- Assets/Scripts/Core/Domain/Events/EventChoice.cs
+- Assets/Scripts/Core/Domain/Events/GameEvent.cs
+- Assets/Scripts/Core/Domain/Events/EventSystem.cs
+- Assets/Scripts/Core/Domain/Game/GameState.cs
+- Assets/Scripts/Core/Domain/Game/PausePolicy.cs
+- Assets/Scripts/Core/Engine/GameEngine.cs
+- Assets/Scripts/Core/Infra/DefaultRandom.cs
+- Assets/Scripts/Core/Infra/FixedClock.cs
+- Assets/Scripts/Core/Services/IClock.cs
+- Assets/Scripts/Core/Services/ILocalization.cs
+- Assets/Scripts/Core/Services/IRandom.cs
+- Assets/Scripts/Core/Services/ISaveStore.cs
+- Assets/Scripts/Core/Services/Impl/JsonFileStore.cs
+- Assets/Scripts/Core/Services/Impl/LocalizationManager.cs  // hoặc ResourcesLocalization.cs (xem phần 5)
+- Assets/Scripts/Core/Data/DTO/{tạo các DTO *.cs}
+- Assets/Scripts/Core/Data/Loaders/JsonLoader.cs
+- Assets/Scripts/Core/Data/SO/{các ScriptableObject *.cs}
+- Assets/Scripts/Presentation/Boot/Bootstrap.cs   // file mới để khởi động
+
+4) Chèn nội dung file:
+- Dùng nội dung y hệt từ 2 “bản thảo” đã có:
+  * “Unity Core Step 1 — Game Engine Skeleton (C#)” 
+  * “Unity Core Step 2 — Data & Localization (Loaders + Schemas)”
+  (Nếu không thể truy cập bản thảo, tôi sẽ paste nội dung ngay sau phần này.)
+
+5) Tạo JSON mẫu trong Resources:
+
+5.1 Education:
+- Assets/Resources/Databases/Education/school_options_vi.json
+{
+  "version": "1",
+  "items": [
+    { "key": "public",  "nameKey": "school.public",  "cost": 0,    "effects": { "iq": 1, "eq": 1 } },
+    { "key": "private", "nameKey": "school.private", "cost": 5000, "effects": { "iq": 2, "eq": 1 } }
+  ]
+}
+- Assets/Resources/Databases/Education/school_options_en.json
+{
+  "version": "1",
+  "items": [
+    { "key": "public",  "nameKey": "school.public",  "cost": 0,    "effects": { "iq": 1, "eq": 1 } },
+    { "key": "private", "nameKey": "school.private", "cost": 5000, "effects": { "iq": 2, "eq": 1 } }
+  ]
+}
+- Assets/Resources/Databases/Education/university_majors_vi.json
+{
+  "version": "1",
+  "items": [
+    { "key": "cs",  "nameKey": "major.cs",  "descriptionKey": "major.cs.desc",  "cost": 10000, "iqBonus": 5, "skillBonus": 3 },
+    { "key": "art", "nameKey": "major.art", "descriptionKey": "major.art.desc", "cost": 6000,  "iqBonus": 1, "skillBonus": 5 }
+  ]
+}
+- Assets/Resources/Databases/Education/university_majors_en.json
+{ "version": "1", "items": [
+  { "key": "cs", "nameKey": "major.cs", "descriptionKey": "major.cs.desc", "cost": 10000, "iqBonus": 5, "skillBonus": 3 },
+  { "key": "art","nameKey":"major.art","descriptionKey":"major.art.desc","cost": 6000, "iqBonus": 1, "skillBonus": 5 }
+]}
+
+5.2 Careers:
+- Assets/Resources/Databases/Careers/career_tracks_vi.json
+{
+  "version": "1",
+  "items": [
+    { "key": "engineering", "nameKey": "career.engineering",
+      "ladder": [
+        { "titleKey": "eng.junior", "requiredIQ": 100, "requiredEQ": 40, "baseSalary": 2000 },
+        { "titleKey": "eng.mid",    "requiredIQ": 120, "requiredEQ": 50, "baseSalary": 3500 }
+      ]
+    }
+  ]
+}
+- Assets/Resources/Databases/Careers/career_tracks_en.json
+{ "version": "1", "items": [
+  { "key": "engineering", "nameKey": "career.engineering",
+    "ladder": [
+      { "titleKey": "eng.junior", "requiredIQ": 100, "requiredEQ": 40, "baseSalary": 2000 },
+      { "titleKey": "eng.mid",    "requiredIQ": 120, "requiredEQ": 50, "baseSalary": 3500 }
+    ]
+  }
+]}
+
+5.3 Features & Path of Life:
+- Assets/Resources/Databases/Features/unlockable_features_vi.json
+{
+  "version": "1",
+  "items": [
+    { "id": "feat_mystery_box_1", "type": "MysteryBox", "nameKey": "feat.box1", "descriptionKey": "feat.box1.desc", "iconKey": "icons/box" },
+    { "id": "feat_icon_pack",     "type": "SpecificFeature", "nameKey": "feat.iconpack", "descriptionKey":"feat.iconpack.desc", "iconKey":"icons/pack" }
+  ]
+}
+- Assets/Resources/Databases/Features/unlockable_features_en.json
+{ "version":"1","items":[
+  { "id":"feat_mystery_box_1","type":"MysteryBox","nameKey":"feat.box1","descriptionKey":"feat.box1.desc","iconKey":"icons/box" },
+  { "id":"feat_icon_pack","type":"SpecificFeature","nameKey":"feat.iconpack","descriptionKey":"feat.iconpack.desc","iconKey":"icons/pack" }
+]}
+- Assets/Resources/Databases/PathOfLife/path_nodes.json
+{
+  "version": "1",
+  "items": [
+    { "level": 0, "featureId": "feat_mystery_box_1", "alignment": "left" },
+    { "level": 3, "featureId": "feat_icon_pack", "alignment": "right" }
+  ]
+}
+
+5.4 Localization (dịch):
+- Assets/Resources/Localization/vi/ui.json
+{ "items": [
+  { "key":"common.ok", "value":"Đồng ý" },
+  { "key":"school.public","value":"Trường công" },
+  { "key":"school.private","value":"Trường tư" },
+  { "key":"major.cs","value":"Khoa học máy tính" },
+  { "key":"major.cs.desc","value":"Ngành công nghệ, tính toán." },
+  { "key":"major.art","value":"Mỹ thuật" },
+  { "key":"major.art.desc","value":"Sáng tạo và biểu đạt." },
+  { "key":"career.engineering","value":"Kỹ sư" },
+  { "key":"eng.junior","value":"Kỹ sư tập sự" },
+  { "key":"eng.mid","value":"Kỹ sư trung cấp" },
+  { "key":"feat.box1","value":"Hộp bí ẩn" },
+  { "key":"feat.box1.desc","value":"Nhận quà ngẫu nhiên." },
+  { "key":"feat.iconpack","value":"Gói biểu tượng" },
+  { "key":"feat.iconpack.desc","value":"Mở một số biểu tượng mới." }
+]}
+- Assets/Resources/Localization/en/ui.json
+{ "items": [
+  { "key":"common.ok","value":"OK" },
+  { "key":"school.public","value":"Public School" },
+  { "key":"school.private","value":"Private School" },
+  { "key":"major.cs","value":"Computer Science" },
+  { "key":"major.cs.desc","value":"A technology-focused field." },
+  { "key":"major.art","value":"Arts" },
+  { "key":"major.art.desc","value":"Creativity and expression." },
+  { "key":"career.engineering","value":"Engineering" },
+  { "key":"eng.junior","value":"Junior Engineer" },
+  { "key":"eng.mid","value":"Mid-level Engineer" },
+  { "key":"feat.box1","value":"Mystery Box" },
+  { "key":"feat.box1.desc","value":"Receive a random reward." },
+  { "key":"feat.iconpack","value":"Icon Pack" },
+  { "key":"feat.iconpack.desc","value":"Unlock a set of icons." }
+]}
+
+6) Tạo Bootstrap.cs để khởi động engine và nạp dữ liệu:
+- File: Assets/Scripts/Presentation/Boot/Bootstrap.cs
+using UnityEngine;
+using LifeSim.Core.Services;
+using LifeSim.Core.Data;
+using LifeSim.Core.Engine;
+using LifeSim.Core.Domain.Game;
+using LifeSim.Core.Infra;
+
+public class Bootstrap : MonoBehaviour
+{
+    private GameEngine _engine;
+    private ResourcesLocalization _loc;
+
+    private void Start()
+    {
+        _loc = new ResourcesLocalization();
+        _loc.SetLanguage("vi");
+
+        Database.LoadAll("vi");            // nạp dữ liệu JSON
+
+        var save = new JsonFileStore();
+        var rng  = new DefaultRandom();
+        var clk  = new FixedClock(1);
+
+        _engine  = new GameEngine(new GameState(), save, _loc, rng, clk);
+        _engine.Boot("vi");
+        _engine.OnStateChanged += s =>
+        {
+            Debug.Log($"[STATE] Year {s.currentDate.year}, Fund {s.familyFund}");
+        };
+        // gợi ý: chạy Tick() bằng coroutine ở Presentation sau
+    }
+}
+
+7) Sau khi tạo xong, xác nhận:
+- Tất cả đường dẫn Resources có file .json như đã liệt kê.
+- Build không lỗi biên dịch.
+
+BƯỚC 1 — CORE / ENGINE
+Assets/Scripts/Core/Domain/Characters/Character.cs
+using System;
+using System.Collections.Generic;
+
+namespace LifeSim.Core.Domain.Characters
+{
+    [Serializable]
+    public class CharacterStats
+    {
+        public int happiness = 50;   // 0..100
+        public int health = 50;      // 0..100
+        public int iq = 100;         // 0..200
+        public int eq = 50;          // 0..100
+        public int skill = 50;       // 0..100
+    }
+
+    [Serializable]
+    public class AvatarState
+    {
+        public string presetId = "default";
+        public Dictionary<string, string> layers = new Dictionary<string, string>();
+    }
+
+    [Serializable]
+    public class Character
+    {
+        public string id;
+        public string name;
+        public bool isAlive = true;
+        public int ageDays = 0;
+        public int generation = 0;
+        public string lifeStage = "newborn"; // newborn → elementary → ...
+
+        public CharacterStats stats = new CharacterStats();
+        public AvatarState avatar = new AvatarState();
+    }
+}
+
+Assets/Scripts/Core/Domain/Events/GameEvent.cs
+using System;
+using System.Collections.Generic;
+
+namespace LifeSim.Core.Domain.Events
+{
+    [Serializable]
+    public class EventChoice
+    {
+        public string id;
+        public string labelKey; // localization key
+    }
+
+    [Serializable]
+    public class GameEvent
+    {
+        public string id;
+        public string characterId;    // the subject of this event
+        public string titleKey;
+        public string bodyKey;
+        public List<EventChoice> choices = new List<EventChoice>();
+    }
+}
+
+Assets/Scripts/Core/Domain/Game/GameState.cs
+using System;
+using System.Collections.Generic;
+using LifeSim.Core.Domain.Characters;
+
+namespace LifeSim.Core.Domain.Game
+{
+    [Serializable]
+    public class GameDate
+    {
+        public int day = 0;   // absolute day from start
+        public int year = 2000;
+    }
+
+    [Serializable]
+    public class PendingSchoolChoice
+    {
+        public string characterId;
+        public string newPhase; // e.g., "elementary", "highschool"
+    }
+
+    [Serializable]
+    public class PendingUniversityChoice
+    {
+        public string characterId;
+    }
+
+    [Serializable]
+    public class PendingMajorChoice
+    {
+        public string characterId;
+        public List<string> options = new List<string>(); // major keys
+    }
+
+    [Serializable]
+    public class PendingCareerChoice
+    {
+        public string characterId;
+        public List<string> options = new List<string>(); // career track keys
+    }
+
+    [Serializable]
+    public class PendingUnderqualifiedChoice
+    {
+        public string characterId;
+        public string careerTrackKey;
+    }
+
+    [Serializable]
+    public class PendingPromotion
+    {
+        public string characterId;
+        public string newTitleKey;
+    }
+
+    [Serializable]
+    public class PendingClubChoice
+    {
+        public string characterId;
+        public List<string> options = new List<string>(); // club ids
+    }
+
+    [Serializable]
+    public class GameState
+    {
+        public Dictionary<string, Character> familyMembers = new Dictionary<string, Character>();
+        public int totalMembers = 0;
+        public int totalChildrenBorn = 0;
+
+        public int familyFund = 0;
+        public Dictionary<string, int> purchasedAssets = new Dictionary<string, int>(); // id -> qty
+
+        public List<string> claimedFeatures = new List<string>();
+        public string newlyUnlockedFeature = null;
+
+        public string highestEducation = "none";
+        public string highestCareer = "none";
+
+        public List<PendingSchoolChoice> pendingSchoolChoice = new List<PendingSchoolChoice>();
+        public List<PendingUniversityChoice> pendingUniversityChoice = new List<PendingUniversityChoice>();
+        public PendingMajorChoice pendingMajorChoice = null;
+        public PendingCareerChoice pendingCareerChoice = null;
+        public PendingUnderqualifiedChoice pendingUnderqualifiedChoice = null;
+        public PendingClubChoice pendingClubChoice = null;
+        public (int amount, int termYears)? pendingLoanChoice = null;
+        public PendingPromotion pendingPromotion = null;
+
+        public LifeSim.Core.Domain.Events.GameEvent activeEvent = null;
+
+        public string gameOverReason = null; // null means playing
+        public GameDate currentDate = new GameDate();
+
+        public string lang = "en";
+    }
+}
+
+Assets/Scripts/Core/Services/ISaveStore.cs
+using System.Threading.Tasks;
+
+namespace LifeSim.Core.Services
+{
+    public interface ISaveStore
+    {
+        Task SaveAsync<T>(string key, T data);
+        Task<T> LoadAsync<T>(string key, T fallback = default);
+    }
+}
+
+Assets/Scripts/Core/Services/ILocalization.cs
+namespace LifeSim.Core.Services
+{
+    public interface ILocalization
+    {
+        void SetLanguage(string lang);
+        string T(string key);
+    }
+}
+
+Assets/Scripts/Core/Services/IRandom.cs
+namespace LifeSim.Core.Services
+{
+    public interface IRandom
+    {
+        int NextInt(int minInclusive, int maxInclusive);
+        float NextFloat();
+    }
+}
+
+Assets/Scripts/Core/Services/IClock.cs
+namespace LifeSim.Core.Services
+{
+    public interface IClock
+    {
+        int DaysPerTick { get; }
+    }
+}
+
+Assets/Scripts/Core/Services/Impl/JsonFileStore.cs
+using System.IO;
+using System.Text;
+using System.Threading.Tasks;
+using UnityEngine;
+
+namespace LifeSim.Core.Services
+{
+    public class JsonFileStore : ISaveStore
+    {
+        private string Root => Application.persistentDataPath;
+
+        public async Task SaveAsync<T>(string key, T data)
+        {
+            var path = Path.Combine(Root, key + ".json");
+            var json = JsonUtility.ToJson(data, false);
+            using (var writer = new StreamWriter(path, false, Encoding.UTF8))
+                await writer.WriteAsync(json);
+        }
+
+        public async Task<T> LoadAsync<T>(string key, T fallback = default)
+        {
+            var path = Path.Combine(Root, key + ".json");
+            if (!File.Exists(path)) return fallback;
+            using (var reader = new StreamReader(path, Encoding.UTF8))
+            {
+                var json = await reader.ReadToEndAsync();
+                return JsonUtility.FromJson<T>(json);
+            }
+        }
+    }
+
+    public static class TaskExt
+    {
+        public static async void Forget(this Task t) { await t; }
+    }
+}
+
+Assets/Scripts/Core/Services/Impl/LocalizationManager.cs
+using System.Collections.Generic;
+
+namespace LifeSim.Core.Services
+{
+    public class LocalizationManager : ILocalization
+    {
+        private Dictionary<string, string> _table = new Dictionary<string, string>();
+        private string _lang = "en";
+
+        public void SetLanguage(string lang)
+        {
+            _lang = lang;
+            // TODO: optional, use ResourcesLocalization instead if you want JSON-based merge
+        }
+
+        public string T(string key) => _table.TryGetValue(key, out var v) ? v : key;
+    }
+}
+
+Assets/Scripts/Core/Domain/Gameplay/PausePolicy.cs
+using LifeSim.Core.Domain.Game;
+
+namespace LifeSim.Core.Domain.Gameplay
+{
+    public static class PausePolicy
+    {
+        public static bool IsPaused(GameState s)
+        {
+            return s.activeEvent != null
+                || (s.pendingSchoolChoice != null && s.pendingSchoolChoice.Count > 0)
+                || (s.pendingUniversityChoice != null && s.pendingUniversityChoice.Count > 0)
+                || s.pendingMajorChoice != null
+                || s.pendingCareerChoice != null
+                || s.pendingUnderqualifiedChoice != null
+                || s.pendingClubChoice != null
+                || s.pendingLoanChoice.HasValue
+                || s.pendingPromotion != null;
+        }
+    }
+}
+
+Assets/Scripts/Core/Engine/GameEngine.cs
+using System;
+using System.Collections.Generic;
+using LifeSim.Core.Domain.Characters;
+using LifeSim.Core.Domain.Events;
+using LifeSim.Core.Domain.Game;
+using LifeSim.Core.Services;
+
+namespace LifeSim.Core.Engine
+{
+    public class GameEngine
+    {
+        public GameState State { get; private set; }
+
+        private readonly ISaveStore _save;
+        private readonly ILocalization _loc;
+        private readonly IRandom _rng;
+        private readonly IClock _clock;
+
+        public event Action<GameState> OnStateChanged;
+
+        public GameEngine(GameState initialState, ISaveStore save, ILocalization loc, IRandom rng, IClock clock)
+        {
+            State = initialState ?? new GameState();
+            _save = save; _loc = loc; _rng = rng; _clock = clock;
+        }
+
+        public void Boot(string language)
+        {
+            _loc.SetLanguage(language);
+            State.lang = language;
+
+            if (State.familyMembers.Count == 0)
+            {
+                var me = new Character { id = "me", name = "You", generation = 1 };
+                State.familyMembers[me.id] = me;
+                State.totalMembers = 1;
+            }
+
+            Emit();
+        }
+
+        public void Tick()
+        {
+            if (Domain.Gameplay.PausePolicy.IsPaused(State) || State.gameOverReason != null)
+                return;
+
+            State.currentDate.day += _clock.DaysPerTick;
+            if (State.currentDate.day >= 365)
+            {
+                State.currentDate.year += State.currentDate.day / 365;
+                State.currentDate.day = State.currentDate.day % 365;
+            }
+
+            foreach (var kv in State.familyMembers)
+            {
+                var c = kv.Value;
+                if (!c.isAlive) continue;
+                c.ageDays += _clock.DaysPerTick;
+            }
+
+            MaybeTriggerAmbientEvent();
+
+            if (State.familyFund < -100000)
+            {
+                State.gameOverReason = "debt";
+            }
+
+            Emit();
+        }
+
+        private void MaybeTriggerAmbientEvent()
+        {
+            if (_rng.NextInt(0, 99) == 0 && State.activeEvent == null)
+            {
+                var id = "evt_" + Guid.NewGuid().ToString("N").Substring(0, 6);
+                State.activeEvent = new GameEvent
+                {
+                    id = id,
+                    characterId = "me",
+                    titleKey = "event.sample.title",
+                    bodyKey = "event.sample.body",
+                    choices = new List<EventChoice>
+                    {
+                        new EventChoice{ id = "ok", labelKey = "common.ok" }
+                    }
+                };
+            }
+        }
+
+        public void HandleEventChoice(string choiceId)
+        {
+            if (State.activeEvent == null) return;
+
+            if (choiceId == "ok")
+            {
+                State.familyFund += _rng.NextInt(0, 1) == 0 ? 100 : -100;
+            }
+
+            State.activeEvent = null;
+            Emit();
+        }
+
+        public void CloseEventModal()
+        {
+            State.activeEvent = null;
+            Emit();
+        }
+
+        public void ClaimFeature(string featureId)
+        {
+            if (!State.claimedFeatures.Contains(featureId))
+                State.claimedFeatures.Add(featureId);
+            Emit();
+        }
+
+        public void Save() => _save.SaveAsync("save", State).Forget();
+
+        private void Emit() => OnStateChanged?.Invoke(State);
+    }
+}
+
+Assets/Scripts/Core/Infra/DefaultRandom.cs
+using System;
+using LifeSim.Core.Services;
+
+namespace LifeSim.Core.Infra
+{
+    public class DefaultRandom : IRandom
+    {
+        private readonly Random _r;
+        public DefaultRandom(int? seed = null) { _r = seed.HasValue ? new Random(seed.Value) : new Random(); }
+        public int NextInt(int minInclusive, int maxInclusive) => _r.Next(minInclusive, maxInclusive + 1);
+        public float NextFloat() => (float)_r.NextDouble();
+    }
+}
+
+Assets/Scripts/Core/Infra/FixedClock.cs
+using LifeSim.Core.Services;
+
+namespace LifeSim.Core.Infra
+{
+    public class FixedClock : IClock
+    {
+        public int DaysPerTick { get; private set; }
+        public FixedClock(int daysPerTick = 1) { DaysPerTick = daysPerTick; }
+    }
+}
+
+BƯỚC 2 — DATA & LOCALIZATION
+Assets/Scripts/Core/Data/Constants.cs
+namespace LifeSim.Core.Data
+{
+    public static class Constants
+    {
+        public const int DaysPerYear = 365;
+        public const int StartYear   = 2000;
+
+        public const int MinStat = 0;
+        public const int MaxStat = 100;
+        public const int MaxIQ   = 200;
+
+        public const int DebtGameOverThreshold = -100_000;
+
+        public const string OkKey = "common.ok";
+    }
+}
+
+Assets/Scripts/Core/Data/PathNodes.cs
+using System;
+using System.Collections.Generic;
+
+namespace LifeSim.Core.Data
+{
+    [Serializable]
+    public class PathNode
+    {
+        public int level;
+        public string featureId;
+        public string alignment; // "left" | "right"
+    }
+
+    public static class PathNodes
+    {
+        public static readonly List<PathNode> Nodes = new List<PathNode>
+        {
+            new PathNode{ level=0,  featureId="feat_mystery_box_1", alignment="left" },
+            new PathNode{ level=3,  featureId="feat_icon_pack",     alignment="right"},
+            new PathNode{ level=5,  featureId="feat_boost_small",   alignment="left" },
+            new PathNode{ level=10, featureId="feat_big_reward",    alignment="right"},
+        };
+    }
+}
+
+Assets/Scripts/Core/Data/UnlockableFeature.cs
+using System;
+
+namespace LifeSim.Core.Data
+{
+    public enum FeatureType
+    {
+        MysteryBox,
+        SpecificFeature,
+        QoL,
+    }
+
+    [Serializable]
+    public class UnlockableFeature
+    {
+        public string id;
+        public FeatureType type;
+        public string nameKey;
+        public string descriptionKey;
+        public string iconKey;
+    }
+}
+
+Assets/Scripts/Core/Domain/Businesses/Business.cs
+using System;
+using System.Collections.Generic;
+
+namespace LifeSim.Core.Domain.Businesses
+{
+    [Serializable]
+    public class Business
+    {
+        public string id;
+        public string nameKey;
+        public int level = 1;
+        public int baseIncome = 0;
+        public int upkeep = 0;
+        public List<string> employeeSlots = new List<string>();
+    }
+}
+
+Assets/Scripts/Core/Domain/Businesses/BusinessService.cs
+using System.Collections.Generic;
+using LifeSim.Core.Domain.Game;
+using LifeSim.Core.Domain.Characters;
+
+namespace LifeSim.Core.Domain.Businesses
+{
+    public static class BusinessService
+    {
+        public static int ComputeNetIncome(GameState s, IReadOnlyDictionary<string, Business> owned)
+        {
+            int total = 0;
+            foreach (var b in owned.Values)
+            {
+                int productivityBonus = 0;
+                foreach (var empId in b.employeeSlots)
+                {
+                    if (empId != null && s.familyMembers.TryGetValue(empId, out var c) && c.isAlive)
+                    {
+                        productivityBonus += (b.baseIncome * c.stats.skill) / 10000;
+                    }
+                }
+                total += (b.baseIncome + productivityBonus) - b.upkeep;
+            }
+            return total;
+        }
+
+        public static void Upgrade(Business b)
+        {
+            b.level++;
+            b.baseIncome = (int)(b.baseIncome * 1.25f);
+            b.upkeep     = (int)(b.upkeep     * 1.10f);
+            if (b.level % 3 == 0) b.employeeSlots.Add(null);
+        }
+    }
+}
+
+Assets/Scripts/Core/Domain/Careers/CareerTrack.cs
+using System;
+using System.Collections.Generic;
+
+namespace LifeSim.Core.Domain.Careers
+{
+    [Serializable]
+    public class CareerStep
+    {
+        public string titleKey;
+        public int requiredIQ;
+        public int requiredEQ;
+        public int baseSalary;
+    }
+
+    [Serializable]
+    public class CareerTrack
+    {
+        public string key;
+        public string nameKey;
+        public List<CareerStep> ladder = new List<CareerStep>();
+    }
+}
+
+Assets/Scripts/Core/Domain/Careers/CareerService.cs
+using LifeSim.Core.Domain.Characters;
+
+namespace LifeSim.Core.Domain.Careers
+{
+    public static class CareerService
+    {
+        public static bool IsQualifiedForTrack(Character c, CareerTrack track)
+        {
+            if (track.ladder.Count == 0) return true;
+            var first = track.ladder[0];
+            return c.stats.iq >= first.requiredIQ && c.stats.eq >= first.requiredEQ;
+        }
+
+        public static int ComputeStepIndex(Character c, CareerTrack track)
+        {
+            int idx = 0;
+            for (int i = 0; i < track.ladder.Count; i++)
+            {
+                var step = track.ladder[i];
+                if (c.stats.iq >= step.requiredIQ && c.stats.eq >= step.requiredEQ) idx = i;
+                else break;
+            }
+            return idx;
+        }
+
+        public static int CurrentSalary(Character c, CareerTrack track)
+        {
+            if (track.ladder.Count == 0) return 0;
+            var step = track.ladder[ComputeStepIndex(c, track)];
+            return step.baseSalary;
+        }
+    }
+}
+
+Assets/Scripts/Core/Domain/Economy/EconomyService.cs
+using LifeSim.Core.Domain.Game;
+using LifeSim.Core.Data;
+
+namespace LifeSim.Core.Domain.Economy
+{
+    public static class EconomyService
+    {
+        public static void ApplyNetIncome(GameState s, int netIncome)
+        {
+            s.familyFund += netIncome;
+            if (s.familyFund < Constants.DebtGameOverThreshold)
+                s.gameOverReason = "debt";
+        }
+
+        public static int ApplyTax(int income) => (int)(income * 0.9f);
+    }
+}
+
+Assets/Scripts/Core/Domain/Education/SchoolOption.cs
+using System;
+using System.Collections.Generic;
+
+namespace LifeSim.Core.Domain.Education
+{
+    [Serializable]
+    public class SchoolOption
+    {
+        public string key;
+        public string nameKey;
+        public int cost;
+        public Dictionary<string, int> effects = new Dictionary<string, int>();
+    }
+}
+
+Assets/Scripts/Core/Domain/Education/UniversityMajor.cs
+using System;
+
+namespace LifeSim.Core.Domain.Education
+{
+    [Serializable]
+    public class UniversityMajor
+    {
+        public string key;
+        public string nameKey;
+        public string descriptionKey;
+        public int cost;
+        public int iqBonus;
+        public int skillBonus;
+    }
+}
+
+Assets/Scripts/Core/Domain/Education/EducationService.cs
+using LifeSim.Core.Domain.Characters;
+
+namespace LifeSim.Core.Domain.Education
+{
+    public static class EducationService
+    {
+        public static void ApplySchoolEffects(Character c, SchoolOption opt)
+        {
+            foreach (var kv in opt.effects)
+            {
+                switch (kv.Key)
+                {
+                    case "happiness": c.stats.happiness += kv.Value; break;
+                    case "health":    c.stats.health    += kv.Value; break;
+                    case "iq":        c.stats.iq        += kv.Value; break;
+                    case "eq":        c.stats.eq        += kv.Value; break;
+                    case "skill":     c.stats.skill     += kv.Value; break;
+                }
+            }
+            c.stats.Clamp();
+        }
+
+        public static void ApplyMajor(Character c, UniversityMajor major)
+        {
+            c.stats.iq    += major.iqBonus;
+            c.stats.skill += major.skillBonus;
+            c.stats.Clamp();
+        }
+    }
+}
+
+(Bổ sung) Assets/Scripts/Core/Domain/Characters/CharacterStats.partial.cs
+namespace LifeSim.Core.Domain.Characters
+{
+    public partial class CharacterStats
+    {
+        public void Clamp(int maxIQ = 200)
+        {
+            happiness = Clamp01(happiness);
+            health    = Clamp01(health);
+            eq        = Clamp01(eq);
+            skill     = Clamp01(skill);
+            if (iq < 0) iq = 0;
+            if (iq > maxIQ) iq = maxIQ;
+        }
+
+        private int Clamp01(int v)
+        {
+            if (v < 0) return 0;
+            if (v > 100) return 100;
+            return v;
+        }
+    }
+}
+
+Assets/Scripts/Core/Domain/Events/EventSystem.cs
+using System.Collections.Generic;
+using LifeSim.Core.Domain.Game;
+using LifeSim.Core.Domain.Characters;
+
+namespace LifeSim.Core.Domain.Events
+{
+    public static class EventSystem
+    {
+        public static void ApplyChoice(GameState s, GameEvent ev, string choiceId)
+        {
+            if (ev == null) return;
+            if (!s.familyMembers.TryGetValue(ev.characterId, out Character c)) return;
+
+            switch (choiceId)
+            {
+                case "ok":
+                    break;
+                case "boost_happiness":
+                    c.stats.happiness += 5;
+                    c.stats.Clamp();
+                    break;
+                case "fine_money":
+                    s.familyFund -= 200;
+                    break;
+            }
+        }
+
+        public static GameEvent PickRandomAmbientEvent(string characterId)
+        {
+            return new GameEvent
+            {
+                id = "evt_sample",
+                characterId = characterId,
+                titleKey = "event.sample.title",
+                bodyKey = "event.sample.body",
+                choices = new List<EventChoice>
+                {
+                    new EventChoice{ id="ok", labelKey="common.ok" }
+                }
+            };
+        }
+    }
+}
+
+DTOs — Assets/Scripts/Core/Data/DTO/*.cs
+using System;
+using System.Collections.Generic;
+
+namespace LifeSim.Core.Data.DTO
+{
+    [Serializable] public class SchoolOptionDTO { public string key; public string nameKey; public int cost; public Dictionary<string,int> effects; }
+    [Serializable] public class SchoolOptionsFile { public string version="1"; public List<SchoolOptionDTO> items = new(); }
+
+    [Serializable] public class UniversityMajorDTO { public string key; public string nameKey; public string descriptionKey; public int cost; public int iqBonus; public int skillBonus; }
+    [Serializable] public class UniversityMajorsFile { public string version="1"; public List<UniversityMajorDTO> items = new(); }
+
+    [Serializable] public class CareerStepDTO { public string titleKey; public int requiredIQ; public int requiredEQ; public int baseSalary; }
+    [Serializable] public class CareerTrackDTO { public string key; public string nameKey; public List<CareerStepDTO> ladder; }
+    [Serializable] public class CareerTracksFile { public string version="1"; public List<CareerTrackDTO> items = new(); }
+
+    [Serializable] public class ClubDTO { public string id; public string nameKey; public string descriptionKey; public int fee; public Dictionary<string,int> effects; }
+    [Serializable] public class ClubsFile { public string version="1"; public List<ClubDTO> items = new(); }
+
+    [Serializable] public class UnlockableFeatureDTO { public string id; public string type; public string nameKey; public string descriptionKey; public string iconKey; }
+    [Serializable] public class UnlockableFeaturesFile { public string version="1"; public List<UnlockableFeatureDTO> items = new(); }
+
+    [Serializable] public class PathNodeDTO { public int level; public string featureId; public string alignment; }
+    [Serializable] public class PathNodesFile { public string version="1"; public List<PathNodeDTO> items = new(); }
+
+    [Serializable] public class EventChoiceDTO { public string id; public string labelKey; }
+    [Serializable] public class GameEventDTO
+    {
+        public string id;
+        public string characterStage;
+        public string titleKey;
+        public string bodyKey;
+        public List<EventChoiceDTO> choices;
+        public Dictionary<string,string> conditions;
+        public Dictionary<string,int> rewards;
+    }
+    [Serializable] public class EventsFile { public string version="1"; public List<GameEventDTO> items = new(); }
+}
+
+Loaders — Assets/Scripts/Core/Data/Loaders/JsonLoader.cs
+using UnityEngine;
+using LifeSim.Core.Data.DTO;
+using LifeSim.Core.Domain.Careers;
+using LifeSim.Core.Domain.Education;
+using System.Collections.Generic;
+
+namespace LifeSim.Core.Data.Loaders
+{
+    public static class JsonLoader
+    {
+        private static T LoadJson<T>(string resourcesPath)
+        {
+            var textAsset = Resources.Load<TextAsset>(resourcesPath);
+            if (textAsset == null)
+            {
+                Debug.LogError($"[JsonLoader] Missing Resources/{resourcesPath}.json");
+                return default;
+            }
+            return JsonUtility.FromJson<T>(textAsset.text);
+        }
+
+        public static List<SchoolOption> LoadSchoolOptions(string lang)
+        {
+            var file = LoadJson<SchoolOptionsFile>($"Databases/Education/school_options_{lang}");
+            var list = new List<SchoolOption>();
+            if (file?.items == null) return list;
+            foreach (var dto in file.items)
+            {
+                list.Add(new SchoolOption
+                {
+                    key = dto.key,
+                    nameKey = dto.nameKey,
+                    cost = dto.cost,
+                    effects = dto.effects ?? new Dictionary<string, int>()
+                });
+            }
+            return list;
+        }
+
+        public static List<UniversityMajor> LoadUniversityMajors(string lang)
+        {
+            var file = LoadJson<UniversityMajorsFile>($"Databases/Education/university_majors_{lang}");
+            var list = new List<UniversityMajor>();
+            if (file?.items == null) return list;
+            foreach (var dto in file.items)
+            {
+                list.Add(new UniversityMajor
+                {
+                    key = dto.key,
+                    nameKey = dto.nameKey,
+                    descriptionKey = dto.descriptionKey,
+                    cost = dto.cost,
+                    iqBonus = dto.iqBonus,
+                    skillBonus = dto.skillBonus
+                });
+            }
+            return list;
+        }
+
+        public static List<CareerTrack> LoadCareerTracks(string lang)
+        {
+            var file = LoadJson<CareerTracksFile>($"Databases/Careers/career_tracks_{lang}");
+            var list = new List<CareerTrack>();
+            if (file?.items == null) return list;
+            foreach (var dto in file.items)
+            {
+                var track = new CareerTrack { key = dto.key, nameKey = dto.nameKey, ladder = new List<CareerStep>() };
+                if (dto.ladder != null)
+                {
+                    foreach (var step in dto.ladder)
+                    {
+                        track.ladder.Add(new CareerStep
+                        {
+                            titleKey = step.titleKey,
+                            requiredIQ = step.requiredIQ,
+                            requiredEQ = step.requiredEQ,
+                            baseSalary = step.baseSalary
+                        });
+                    }
+                }
+                list.Add(track);
+            }
+            return list;
+        }
+
+        public static List<LifeSim.Core.Data.UnlockableFeature> LoadUnlockableFeatures(string lang)
+        {
+            var file = LoadJson<UnlockableFeaturesFile>($"Databases/Features/unlockable_features_{lang}");
+            var list = new List<LifeSim.Core.Data.UnlockableFeature>();
+            if (file?.items == null) return list;
+            foreach (var dto in file.items)
+            {
+                var type = LifeSim.Core.Data.FeatureType.QoL;
+                if (dto.type == "MysteryBox") type = LifeSim.Core.Data.FeatureType.MysteryBox;
+                else if (dto.type == "SpecificFeature") type = LifeSim.Core.Data.FeatureType.SpecificFeature;
+
+                list.Add(new LifeSim.Core.Data.UnlockableFeature
+                {
+                    id = dto.id,
+                    type = type,
+                    nameKey = dto.nameKey,
+                    descriptionKey = dto.descriptionKey,
+                    iconKey = dto.iconKey
+                });
+            }
+            return list;
+        }
+
+        public static List<LifeSim.Core.Data.PathNode> LoadPathNodes()
+        {
+            var file = LoadJson<PathNodesFile>($"Databases/PathOfLife/path_nodes");
+            var list = new List<LifeSim.Core.Data.PathNode>();
+            if (file?.items == null) return list;
+            foreach (var dto in file.items)
+            {
+                list.Add(new LifeSim.Core.Data.PathNode
+                {
+                    level = dto.level,
+                    featureId = dto.featureId,
+                    alignment = dto.alignment
+                });
+            }
+            return list;
+        }
+    }
+}
+
+Database facade — Assets/Scripts/Core/Data/Database.cs
+using System.Collections.Generic;
+using LifeSim.Core.Domain.Careers;
+using LifeSim.Core.Domain.Education;
+
+namespace LifeSim.Core.Data
+{
+    public static class Database
+    {
+        public static List<SchoolOption> SchoolOptions { get; private set; }
+        public static List<UniversityMajor> UniversityMajors { get; private set; }
+        public static List<LifeSim.Core.Data.UnlockableFeature> UnlockableFeatures { get; private set; }
+        public static List<LifeSim.Core.Data.PathNode> PathNodes { get; private set; }
+        public static List<CareerTrack> CareerTracks { get; private set; }
+
+        public static void LoadAll(string lang)
+        {
+            SchoolOptions     = Loaders.JsonLoader.LoadSchoolOptions(lang);
+            UniversityMajors  = Loaders.JsonLoader.LoadUniversityMajors(lang);
+            CareerTracks      = Loaders.JsonLoader.LoadCareerTracks(lang);
+            UnlockableFeatures= Loaders.JsonLoader.LoadUnlockableFeatures(lang);
+            PathNodes         = Loaders.JsonLoader.LoadPathNodes();
+        }
+    }
+}
+
+Resources-based Localization — Assets/Scripts/Core/Services/ResourcesLocalization.cs
+using UnityEngine;
+using System.Collections.Generic;
+
+namespace LifeSim.Core.Services
+{
+    public class ResourcesLocalization : ILocalization
+    {
+        private Dictionary<string, string> _table = new Dictionary<string, string>();
+        private string _lang = "en";
+
+        [System.Serializable] private class KV { public string key; public string value; }
+        [System.Serializable] private class KVFile { public List<KV> items; }
+
+        public void SetLanguage(string lang)
+        {
+            _lang = lang;
+            _table.Clear();
+
+            var folders = new []{ "ui", "events", "education", "career", "business", "clubs", "summary", "common" };
+            foreach (var name in folders)
+            {
+                var path = $"Localization/{_lang}/{name}";
+                var ta = Resources.Load<TextAsset>(path);
+                if (ta == null) continue;
+                var kv = JsonUtility.FromJson<KVFile>(ta.text);
+                if (kv?.items == null) continue;
+                foreach (var p in kv.items) _table[p.key] = p.value;
+            }
+        }
+
+        public string T(string key) => _table.TryGetValue(key, out var v) ? v : key;
+    }
+}
+
+Bootstrap — Assets/Scripts/Presentation/Boot/Bootstrap.cs
+using UnityEngine;
+using LifeSim.Core.Services;
+using LifeSim.Core.Data;
+using LifeSim.Core.Engine;
+using LifeSim.Core.Domain.Game;
+using LifeSim.Core.Infra;
+
+public class Bootstrap : MonoBehaviour
+{
+    private GameEngine _engine;
+    private ResourcesLocalization _loc;
+
+    private void Start()
+    {
+        _loc = new ResourcesLocalization();
+        _loc.SetLanguage("vi");
+
+        Database.LoadAll("vi");
+
+        var save = new JsonFileStore();
+        var rng  = new DefaultRandom();
+        var clk  = new FixedClock(1);
+
+        _engine  = new GameEngine(new GameState(), save, _loc, rng, clk);
+        _engine.Boot("vi");
+        _engine.OnStateChanged += s =>
+        {
+            Debug.Log($"[STATE] Year {s.currentDate.year}, Fund {s.familyFund}");
+        };
+
+        // TODO: chạy Tick() bằng coroutine/time loop ở Presentation layer
+    }
+}
+
+FILE JSON (đặt trong Assets/Resources/...)
+
+Assets/Resources/Databases/Education/school_options_vi.json
+
+{
+  "version": "1",
+  "items": [
+    { "key": "public",  "nameKey": "school.public",  "cost": 0,    "effects": { "iq": 1, "eq": 1 } },
+    { "key": "private", "nameKey": "school.private", "cost": 5000, "effects": { "iq": 2, "eq": 1 } }
+  ]
+}
+
+
+Assets/Resources/Databases/Education/school_options_en.json
+
+{
+  "version": "1",
+  "items": [
+    { "key": "public",  "nameKey": "school.public",  "cost": 0,    "effects": { "iq": 1, "eq": 1 } },
+    { "key": "private", "nameKey": "school.private", "cost": 5000, "effects": { "iq": 2, "eq": 1 } }
+  ]
+}
+
+
+Assets/Resources/Databases/Education/university_majors_vi.json
+
+{
+  "version": "1",
+  "items": [
+    { "key": "cs",  "nameKey": "major.cs",  "descriptionKey": "major.cs.desc",  "cost": 10000, "iqBonus": 5, "skillBonus": 3 },
+    { "key": "art", "nameKey": "major.art", "descriptionKey": "major.art.desc", "cost": 6000,  "iqBonus": 1, "skillBonus": 5 }
+  ]
+}
+
+
+Assets/Resources/Databases/Education/university_majors_en.json
+
+{
+  "version": "1",
+  "items": [
+    { "key": "cs", "nameKey": "major.cs", "descriptionKey": "major.cs.desc", "cost": 10000, "iqBonus": 5, "skillBonus": 3 },
+    { "key": "art","nameKey":"major.art","descriptionKey":"major.art.desc","cost": 6000, "iqBonus": 1, "skillBonus": 5 }
+  ]
+}
+
+
+Assets/Resources/Databases/Careers/career_tracks_vi.json
+
+{
+  "version": "1",
+  "items": [
+    {
+      "key": "engineering",
+      "nameKey": "career.engineering",
+      "ladder": [
+        { "titleKey": "eng.junior", "requiredIQ": 100, "requiredEQ": 40, "baseSalary": 2000 },
+        { "titleKey": "eng.mid",    "requiredIQ": 120, "requiredEQ": 50, "baseSalary": 3500 }
+      ]
+    }
+  ]
+}
+
+
+Assets/Resources/Databases/Careers/career_tracks_en.json
+
+{
+  "version": "1",
+  "items": [
+    {
+      "key": "engineering",
+      "nameKey": "career.engineering",
+      "ladder": [
+        { "titleKey": "eng.junior", "requiredIQ": 100, "requiredEQ": 40, "baseSalary": 2000 },
+        { "titleKey": "eng.mid",    "requiredIQ": 120, "requiredEQ": 50, "baseSalary": 3500 }
+      ]
+    }
+  ]
+}
+
+
+Assets/Resources/Databases/Features/unlockable_features_vi.json
+
+{
+  "version": "1",
+  "items": [
+    { "id": "feat_mystery_box_1", "type": "MysteryBox", "nameKey": "feat.box1", "descriptionKey": "feat.box1.desc", "iconKey": "icons/box" },
+    { "id": "feat_icon_pack",     "type": "SpecificFeature", "nameKey": "feat.iconpack", "descriptionKey":"feat.iconpack.desc", "iconKey":"icons/pack" }
+  ]
+}
+
+
+Assets/Resources/Databases/Features/unlockable_features_en.json
+
+{
+  "version":"1",
+  "items":[
+    { "id":"feat_mystery_box_1","type":"MysteryBox","nameKey":"feat.box1","descriptionKey":"feat.box1.desc","iconKey":"icons/box" },
+    { "id":"feat_icon_pack","type":"SpecificFeature","nameKey":"feat.iconpack","descriptionKey":"feat.iconpack.desc","iconKey":"icons/pack" }
+  ]
+}
+
+
+Assets/Resources/Databases/PathOfLife/path_nodes.json
+
+{
+  "version": "1",
+  "items": [
+    { "level": 0, "featureId": "feat_mystery_box_1", "alignment": "left" },
+    { "level": 3, "featureId": "feat_icon_pack", "alignment": "right" }
+  ]
+}
+
+
+Assets/Resources/Localization/vi/ui.json
+
+{
+  "items": [
+    { "key":"common.ok", "value":"Đồng ý" },
+    { "key":"school.public","value":"Trường công" },
+    { "key":"school.private","value":"Trường tư" },
+    { "key":"major.cs","value":"Khoa học máy tính" },
+    { "key":"major.cs.desc","value":"Ngành công nghệ, tính toán." },
+    { "key":"major.art","value":"Mỹ thuật" },
+    { "key":"major.art.desc","value":"Sáng tạo và biểu đạt." },
+    { "key":"career.engineering","value":"Kỹ sư" },
+    { "key":"eng.junior","value":"Kỹ sư tập sự" },
+    { "key":"eng.mid","value":"Kỹ sư trung cấp" },
+    { "key":"feat.box1","value":"Hộp bí ẩn" },
+    { "key":"feat.box1.desc","value":"Nhận quà ngẫu nhiên." },
+    { "key":"feat.iconpack","value":"Gói biểu tượng" },
+    { "key":"feat.iconpack.desc","value":"Mở một số biểu tượng mới." }
+  ]
+}
+
+
+Assets/Resources/Localization/en/ui.json
+
+{
+  "items": [
+    { "key":"common.ok","value":"OK" },
+    { "key":"school.public","value":"Public School" },
+    { "key":"school.private","value":"Private School" },
+    { "key":"major.cs","value":"Computer Science" },
+    { "key":"major.cs.desc","value":"A technology-focused field." },
+    { "key":"major.art","value":"Arts" },
+    { "key":"major.art.desc","value":"Creativity and expression." },
+    { "key":"career.engineering","value":"Engineering" },
+    { "key":"eng.junior","value":"Junior Engineer" },
+    { "key":"eng.mid","value":"Mid-level Engineer" },
+    { "key":"feat.box1","value":"Mystery Box" },
+    { "key":"feat.box1.desc","value":"Receive a random reward." },
+    { "key":"feat.iconpack","value":"Icon Pack" },
+    { "key":"feat.iconpack.desc","value":"Unlock a set of icons." }
+  ]
+}
+Tạo file đúng theo đường dẫn và dán nội dung mỗi khối code/JSON bên trên.”
+
+“Không đổi tên thư mục.

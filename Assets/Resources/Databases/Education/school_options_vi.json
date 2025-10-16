@@ -1,0 +1,7 @@
+{
+  "version": "1",
+  "items": [
+    { "key": "public",  "nameKey": "school.public",  "cost": 0,    "effects": { "iq": 1, "eq": 1 } },
+    { "key": "private", "nameKey": "school.private", "cost": 5000, "effects": { "iq": 2, "eq": 1 } }
+  ]
+}

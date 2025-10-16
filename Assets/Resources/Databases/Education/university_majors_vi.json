@@ -1,0 +1,7 @@
+{
+  "version": "1",
+  "items": [
+    { "key": "cs",  "nameKey": "major.cs",  "descriptionKey": "major.cs.desc",  "cost": 10000, "iqBonus": 5, "skillBonus": 3 },
+    { "key": "art", "nameKey": "major.art", "descriptionKey": "major.art.desc", "cost": 6000,  "iqBonus": 1, "skillBonus": 5 }
+  ]
+}

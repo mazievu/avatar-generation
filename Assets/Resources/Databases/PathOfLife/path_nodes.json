@@ -1,0 +1,7 @@
+{
+  "version": "1",
+  "items": [
+    { "level": 0, "featureId": "feat_mystery_box_1", "alignment": "left" },
+    { "level": 3, "featureId": "feat_icon_pack", "alignment": "right" }
+  ]
+}

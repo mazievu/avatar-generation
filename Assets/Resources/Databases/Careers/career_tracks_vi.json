@@ -1,0 +1,11 @@
+{
+  "version": "1",
+  "items": [
+    { "key": "engineering", "nameKey": "career.engineering",
+      "ladder": [
+        { "titleKey": "eng.junior", "requiredIQ": 100, "requiredEQ": 40, "baseSalary": 2000 },
+        { "titleKey": "eng.mid",    "requiredIQ": 120, "requiredEQ": 50, "baseSalary": 3500 }
+      ]
+    }
+  ]
+}

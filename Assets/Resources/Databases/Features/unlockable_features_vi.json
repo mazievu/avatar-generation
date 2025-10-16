@@ -1,0 +1,7 @@
+{
+  "version": "1",
+  "items": [
+    { "id": "feat_mystery_box_1", "type": "MysteryBox", "nameKey": "feat.box1", "descriptionKey": "feat.box1.desc", "iconKey": "icons/box" },
+    { "id": "feat_icon_pack",     "type": "SpecificFeature", "nameKey": "feat.iconpack", "descriptionKey":"feat.iconpack.desc", "iconKey":"icons/pack" }
+  ]
+}
