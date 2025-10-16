@@ -17,6 +17,7 @@ namespace LifeSim.Core.Engine
         private readonly IClock _clock;
 
         public event Action<GameState> OnStateChanged;
+        public event Action<string> OnLog;
 
         public GameEngine(GameState initialState, ISaveStore save, ILocalization loc, IRandom rng, IClock clock)
         {
@@ -113,8 +114,18 @@ namespace LifeSim.Core.Engine
             Emit();
         }
 
-        public void Save() => _save.SaveAsync("save", State).Forget();
+         public void Save()
+        {
+            _save.SaveAsync("save", State).Forget();
+            Emit();
+        }
+
 
         private void Emit() => OnStateChanged?.Invoke(State);
+
+        public void Log(string message)
+        {
+            OnLog?.Invoke(message);
+        }
     }
 }

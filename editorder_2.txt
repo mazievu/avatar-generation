@@ -1,0 +1,642 @@
+Tới Bước 4 – UI khung ✅
+Mục tiêu: tạo MainUI (Header + BottomNav + 5 panel chính) và Modal layer (Event + Settings), bind với GameEngine + Localization bạn đã có.
+
+Mình đưa cả code + hướng dẫn dựng prefab trong Unity. Làm xong là chạy được ngay.
+
+1) Code cần thêm (drop-in)
+1.1 Assets/Scripts/Presentation/UI/GameUIController.cs
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using LifeSim.Core.Engine;
+using LifeSim.Core.Domain.Game;
+using LifeSim.Core.Services;
+
+namespace LifeSim.Presentation.UI
+{
+    public class GameUIController : MonoBehaviour
+    {
+        [Header("Bind by Bootstrap")]
+        public GameEngine engine;
+        public ILocalization loc;
+
+        [Header("Header")]
+        [SerializeField] TMP_Text txtYear;
+        [SerializeField] TMP_Text txtFund;
+        [SerializeField] Button btnSettings;
+
+        [Header("Bottom Nav")]
+        [SerializeField] Button btnTree;
+        [SerializeField] Button btnLog;
+        [SerializeField] Button btnAssets;
+        [SerializeField] Button btnBusiness;
+        [SerializeField] Button btnPath;
+
+        [Header("Panels")]
+        [SerializeField] GameObject panelTree;
+        [SerializeField] GameObject panelLog;
+        [SerializeField] GameObject panelAssets;
+        [SerializeField] GameObject panelBusiness;
+        [SerializeField] GameObject panelPath;
+
+        [Header("Modal Manager")]
+        [SerializeField] ModalManager modalManager;
+
+        string _active = "tree";
+
+        public void Bind(GameEngine e, ILocalization l)
+        {
+            engine = e; loc = l;
+            if (engine != null) engine.OnStateChanged += OnStateChanged;
+            LocalizeStaticLabels();
+        }
+
+        void OnDestroy(){ if (engine != null) engine.OnStateChanged -= OnStateChanged; }
+
+        void Awake()
+        {
+            if (btnTree)     btnTree.onClick.AddListener(()=> Show("tree"));
+            if (btnLog)      btnLog.onClick.AddListener(()=> Show("log"));
+            if (btnAssets)   btnAssets.onClick.AddListener(()=> Show("assets"));
+            if (btnBusiness) btnBusiness.onClick.AddListener(()=> Show("business"));
+            if (btnPath)     btnPath.onClick.AddListener(()=> Show("path"));
+            if (btnSettings) btnSettings.onClick.AddListener(()=> { if (modalManager) modalManager.OpenSettings(engine, loc); });
+        }
+
+        void Start(){ Show(_active); }
+
+        void OnStateChanged(GameState s)
+        {
+            if (txtYear) txtYear.text = $"{loc?.T("ui.year") ?? "Year"} {s.currentDate.year}";
+            if (txtFund) txtFund.text = $"{s.familyFund:n0}";
+            if (modalManager) modalManager.SyncWithState(engine, s, loc);
+        }
+
+        void Show(string key)
+        {
+            _active = key;
+            if (panelTree)     panelTree.SetActive(key=="tree");
+            if (panelLog)      panelLog.SetActive(key=="log");
+            if (panelAssets)   panelAssets.SetActive(key=="assets");
+            if (panelBusiness) panelBusiness.SetActive(key=="business");
+            if (panelPath)     panelPath.SetActive(key=="path");
+        }
+
+        void LocalizeStaticLabels()
+        {
+            // nếu có text cố định trên nav/header, set ở đây (ví dụ tooltip, label)
+            // ví dụ: btnTree.GetComponentInChildren<TMP_Text>().text = loc.T("nav.tree");
+        }
+    }
+}
+
+1.2 Assets/Scripts/Presentation/UI/Modal/ModalBase.cs
+using UnityEngine;
+namespace LifeSim.Presentation.UI
+{
+    public abstract class ModalBase : MonoBehaviour
+    {
+        public abstract void Open();
+        public abstract void Close();
+    }
+}
+
+1.3 Assets/Scripts/Presentation/UI/Modal/ComicPanel.cs
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using System.Collections;
+
+namespace LifeSim.Presentation.UI
+{
+    [RequireComponent(typeof(CanvasGroup))]
+    public class ComicPanel : ModalBase
+    {
+        [SerializeField] Image overlay;
+        [SerializeField] RectTransform content;
+        [SerializeField] Button btnClose;
+        [SerializeField] TMP_Text txtTitle;
+        [SerializeField] TMP_Text txtBody;
+
+        CanvasGroup _cg;
+
+        void Awake(){ _cg = GetComponent<CanvasGroup>(); if (btnClose) btnClose.onClick.AddListener(Close); }
+        public void SetText(string title, string body){ if (txtTitle) txtTitle.text=title; if (txtBody) txtBody.text=body; }
+        public override void Open(){ gameObject.SetActive(true); StopAllCoroutines(); StartCoroutine(Fade(0f,1f,true)); }
+        public override void Close(){ StopAllCoroutines(); StartCoroutine(Fade(_cg.alpha,0f,false)); }
+
+        IEnumerator Fade(float a, float b, bool open)
+        {
+            _cg.blocksRaycasts = open;
+            float t=0f, dur=0.2f;
+            while(t<dur){ t+=Time.unscaledDeltaTime; _cg.alpha=Mathf.Lerp(a,b,t/dur);
+                if (content) content.localRotation = Quaternion.Euler(0,0,Mathf.Lerp(open?5f:0f,0f,t/dur));
+                yield return null;
+            }
+            _cg.alpha=b; if(!open) gameObject.SetActive(false);
+        }
+    }
+}
+
+1.4 Assets/Scripts/Presentation/UI/Modal/ModalManager.cs
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using LifeSim.Core.Engine;
+using LifeSim.Core.Domain.Game;
+using LifeSim.Core.Services;
+
+namespace LifeSim.Presentation.UI
+{
+    public class ModalManager : MonoBehaviour
+    {
+        [Header("Event Modal")]
+        [SerializeField] ComicPanel eventPanel;
+        [SerializeField] Transform eventChoicesRoot;
+        [SerializeField] Button eventChoiceButtonPrefab;
+
+        [Header("Settings Modal")]
+        [SerializeField] ComicPanel settingsPanel;
+
+        public void SyncWithState(GameEngine engine, GameState s, ILocalization loc)
+        {
+            // Event modal
+            if (s.activeEvent != null)
+            {
+                if (eventPanel && !eventPanel.gameObject.activeSelf)
+                {
+                    eventPanel.SetText(loc.T(s.activeEvent.titleKey), loc.T(s.activeEvent.bodyKey));
+                    BuildEventChoices(engine, s, loc);
+                    eventPanel.Open();
+                }
+            }
+            else
+            {
+                if (eventPanel && eventPanel.gameObject.activeSelf)
+                {
+                    Clear(eventChoicesRoot);
+                    eventPanel.Close();
+                }
+            }
+
+            // TODO: Bước kế tiếp sẽ xử lý các pending modal khác (School/University/...).
+        }
+
+        public void OpenSettings(GameEngine engine, ILocalization loc)
+        {
+            if (settingsPanel)
+            {
+                settingsPanel.SetText(loc.T("settings.title"), loc.T("settings.body"));
+                settingsPanel.Open();
+            }
+        }
+
+        void BuildEventChoices(GameEngine engine, GameState s, ILocalization loc)
+        {
+            Clear(eventChoicesRoot);
+            if (!eventChoicesRoot || !eventChoiceButtonPrefab || s.activeEvent == null) return;
+
+            foreach (var ch in s.activeEvent.choices)
+            {
+                var btn = Instantiate(eventChoiceButtonPrefab, eventChoicesRoot);
+                var label = btn.GetComponentInChildren<TMP_Text>();
+                if (label) label.text = loc.T(ch.labelKey);
+                var id = ch.id;
+                btn.onClick.AddListener(()=> engine.HandleEventChoice(id));
+            }
+        }
+
+        void Clear(Transform root)
+        {
+            if (!root) return;
+            for (int i = root.childCount-1; i>=0; i--) Destroy(root.GetChild(i).gameObject);
+        }
+    }
+}
+
+1.5 Cập nhật Assets/Scripts/Presentation/Boot/Bootstrap.cs
+
+(Chỉ bổ sung bind UI nếu bạn chưa làm)
+
+using UnityEngine;
+using LifeSim.Core.Services;
+using LifeSim.Core.Data;
+using LifeSim.Core.Engine;
+using LifeSim.Core.Domain.Game;
+using LifeSim.Core.Infra;
+using LifeSim.Presentation.UI;
+
+public class Bootstrap : MonoBehaviour
+{
+    [Header("Scene References")]
+    [SerializeField] GameUIController ui;
+
+    GameEngine _engine;
+    ResourcesLocalization _loc;
+
+    void Start()
+    {
+        _loc = new ResourcesLocalization();
+        _loc.SetLanguage("en");         // hoặc "vi" khi bạn có JSON vi
+        Database.LoadAll("en");         // nếu data phụ thuộc ngôn ngữ
+
+        var save = new JsonFileStore();
+        var rng  = new DefaultRandom();
+        var clk  = new FixedClock(1);
+
+        _engine  = new GameEngine(new GameState(), save, _loc, rng, clk);
+        _engine.Boot("en");
+
+        if (ui) ui.Bind(_engine, _loc);
+
+        StartCoroutine(GameTick());
+    }
+
+    System.Collections.IEnumerator GameTick()
+    {
+        var wait = new WaitForSecondsRealtime(0.5f);
+        while (true){ _engine.Tick(); yield return wait; }
+    }
+}
+
+2) Dựng MainUI trong Unity (Prefab/Scene)
+
+Canvas
+
+Create → UI → Canvas (Screen Space – Overlay).
+
+Add Canvas Scaler: Scale With Screen Size, Reference 1080×1920, Match ~0.5.
+
+Tạo GameObject MainUI (là root UI), add GameUIController.
+
+Header
+
+Header (anchor top stretch, height ~120).
+
+Thêm TMP Text txtYear (trái), TMP Text txtFund (phải).
+
+Button btnSettings (góc phải trên).
+
+Bottom Nav
+
+BottomNav (anchor bottom stretch, height ~140).
+
+5 Button: btnTree, btnLog, btnAssets, btnBusiness, btnPath
+(mỗi button có TMP Text tạm như “Tree”, “Log”… — sau này bạn có thể localize).
+
+5 Panels chính
+
+Tạo 5 GameObject full screen (area còn lại giữa Header và BottomNav):
+
+panelTree, panelLog, panelAssets, panelBusiness, panelPath
+
+Trong mỗi panel, đặt 1 TMP Text tạm: “Tree Panel”, “Log Panel”, …
+
+Modal Layer
+
+ModalLayer (full screen, highest order).
+
+EventPanel:
+
+Add CanvasGroup + ComicPanel.
+
+Image overlay (đen 40–60% alpha) → gán vào field overlay.
+
+Content (Panel bo góc) → gán vào content.
+
+TMP Text txtTitle, TMP Text txtBody.
+
+Button btnClose (gán vào ComicPanel).
+
+EventChoicesRoot (Vertical Layout) để chứa các nút.
+
+Prefab eventChoiceButtonPrefab: Button + TMP Text (để clone).
+
+SettingsPanel: duplicate EventPanel, text tạm, SetActive(false).
+
+Gán tham chiếu
+
+GameUIController:
+
+Year/Fund/Settings → drag vào.
+
+5 Buttons → drag vào.
+
+5 Panels → drag vào.
+
+ModalManager → drag component (bước dưới).
+
+Add ModalManager lên ModalLayer:
+
+eventPanel → drag EventPanel
+
+eventChoicesRoot → drag EventChoicesRoot
+
+eventChoiceButtonPrefab → drag prefab button
+
+settingsPanel → drag SettingsPanel
+
+Bootstrap:
+
+GameObject Systems → add Bootstrap → set ui = MainUI.
+
+Play Test
+
+Bấm Play → Header hiển thị Year/Fund.
+
+Bấm các nút Bottom Nav → panel tương ứng bật/ẩn.
+
+Khi engine sinh event ngẫu nhiên → EventPanel mở, nhấn nút sẽ đóng.
+
+3) Localization UI (gắn text từ JSON)
+
+Để dùng text JSON bạn đã import:
+
+Thêm các key vào en/common.json (hoặc ui.json) như:
+
+{ "items": [
+  { "key":"ui.year", "value":"Year" },
+  { "key":"nav.tree", "value":"Tree" },
+  { "key":"nav.log", "value":"Log" },
+  { "key":"nav.assets", "value":"Assets" },
+  { "key":"nav.business", "value":"Business" },
+  { "key":"nav.path", "value":"Path" },
+  { "key":"settings.title", "value":"Settings" },
+  { "key":"settings.body", "value":"Configure your game." }
+] }
+
+
+Trong GameUIController.LocalizeStaticLabels() (đã để sẵn), bạn có thể set text cho nav bằng loc.T("nav.tree"), v.v.
+
+4) Tiêu chí hoàn thành Bước 4
+
+Không lỗi compile.
+
+Chuyển tab được, header hiển thị đúng, modal event bật/tắt.
+
+Text UI lấy từ loc.T(key) (thử đổi SetLanguage("vi") nếu bạn có JSON vi).
+Bước 5 – Các modal quan trọng. Mình làm trước SchoolChoice, sau đó bạn có khung giống hệt để nhân bản cho University / Major / Career / Underqualified / Loan / Promotion.
+
+A) SchoolChoiceModal – chọn trường
+1) Code
+Assets/Scripts/Presentation/UI/Modal/SchoolChoiceModal.cs
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using System.Collections.Generic;
+using LifeSim.Core.Engine;
+using LifeSim.Core.Services;
+using LifeSim.Core.Data;
+using LifeSim.Core.Domain.Education;
+using LifeSim.Core.Domain.Game;
+
+namespace LifeSim.Presentation.UI
+{
+    public class SchoolChoiceModal : ModalBase
+    {
+        [Header("View")]
+        [SerializeField] ComicPanel panel;                 // sử dụng ComicPanel để mở/đóng
+        [SerializeField] Transform listRoot;               // VerticalLayout
+        [SerializeField] Button optionButtonPrefab;        // prefab 1 dòng (Label + Cost)
+        [SerializeField] TMP_Text footerNote;              // text giải thích
+
+        private GameEngine _engine;
+        private ILocalization _loc;
+
+        public void Bind(GameEngine engine, ILocalization loc)
+        {
+            _engine = engine; _loc = loc;
+        }
+
+        public void Refresh(GameState s)
+        {
+            if (listRoot == null || optionButtonPrefab == null) return;
+            ClearChildren(listRoot);
+
+            // lấy danh sách school options từ Database
+            List<SchoolOption> options = Database.SchoolOptions ?? new List<SchoolOption>();
+            foreach (var opt in options)
+            {
+                var btn = Instantiate(optionButtonPrefab, listRoot);
+                var label = btn.GetComponentInChildren<TMP_Text>();
+                if (label) label.text = $"{_loc.T(opt.nameKey)}  •  {_loc.T("ui.cost")}: {opt.cost:n0}";
+
+                var captured = opt;
+                btn.onClick.AddListener(() => OnChooseSchool(captured));
+            }
+
+            if (footerNote) footerNote.text = _loc.T("school.footerNote");
+        }
+
+        private void OnChooseSchool(SchoolOption opt)
+        {
+            // Tối thiểu: trừ tiền + đẩy effect vào nhân vật chính (demo)
+            var s = _engine.State;
+
+            // giả sử character "me" là chủ thể đang đi học
+            if (s.familyMembers.TryGetValue("me", out var me))
+            {
+                s.familyFund -= opt.cost;
+                // áp effect đơn giản (iq/eq/...)
+                foreach (var kv in opt.effects)
+                {
+                    switch (kv.Key)
+                    {
+                        case "happiness": me.stats.happiness += kv.Value; break;
+                        case "health":    me.stats.health    += kv.Value; break;
+                        case "iq":        me.stats.iq        += kv.Value; break;
+                        case "eq":        me.stats.eq        += kv.Value; break;
+                        case "skill":     me.stats.skill     += kv.Value; break;
+                    }
+                }
+                me.stats.Clamp();
+            }
+
+            // clear pending school choice nếu bạn dùng pending state (ở GameState)
+            s.pendingSchoolChoice?.Clear();
+
+            // đóng modal + phát event state change
+            Close();
+            _engine.Save();
+        }
+
+        private void ClearChildren(Transform root)
+        {
+            for (int i = root.childCount - 1; i >= 0; i--)
+                GameObject.Destroy(root.GetChild(i).gameObject);
+        }
+
+        public override void Open()  { if (panel) panel.Open(); }
+        public override void Close() { if (panel) panel.Close(); }
+    }
+}
+
+2) Gắn vào ModalManager
+Assets/Scripts/Presentation/UI/Modal/ModalManager.cs (bổ sung)
+
+Tìm class ModalManager và thêm field + logic:
+
+// Fields
+[Header("School Modal")]
+[SerializeField] SchoolChoiceModal schoolModal;
+
+
+Trong SyncWithState(...), thêm logic mở modal theo pending:
+
+// School choice (nếu state có pending)
+if (s.pendingSchoolChoice != null && s.pendingSchoolChoice.Count > 0)
+{
+    if (schoolModal && !schoolModal.gameObject.activeSelf)
+    {
+        schoolModal.Bind(engine, loc);
+        schoolModal.Refresh(s);
+        schoolModal.Open();
+    }
+}
+else
+{
+    if (schoolModal && schoolModal.gameObject.activeSelf)
+        schoolModal.Close();
+}
+
+
+Nếu bạn chưa dùng pendingSchoolChoice, vẫn có thể mở modal thủ công từ nút UI (ví dụ trong GameUIController bấm “School”).
+
+3) Dựng Prefab trong Unity
+
+Trong ModalLayer (nơi có EventPanel/SettingsPanel), tạo SchoolPanel:
+
+Add CanvasGroup + ComicPanel (gán overlay, content, btnClose, txtTitle, txtBody).
+
+Add SchoolChoiceModal component.
+
+Tạo ScrollView hoặc VerticalLayoutGroup làm listRoot.
+
+Tạo Button prefab đơn giản (TMP_Text con) → drag vào optionButtonPrefab.
+
+Tạo TMP_Text nhỏ ở dưới làm footerNote.
+
+Set SchoolPanel inactive mặc định.
+
+Gán tham chiếu trong ModalManager:
+
+schoolModal → drag SchoolPanel (game object có SchoolChoiceModal).
+
+Đảm bảo SchoolChoiceModal.panel trỏ tới ComicPanel cùng object.
+
+Localization keys gợi ý (thêm vào JSON en/common.json hoặc en/education.json):
+
+{
+  "items": [
+    { "key": "ui.cost", "value": "Cost" },
+    { "key": "school.footerNote", "value": "Choose a school. Effects will apply to your stats." }
+  ]
+}
+
+
+Các tên trường dùng key đã nằm trong Database (school.public, school.private, …) → loader đã map.
+
+Test nhanh
+
+(Cách A) Thêm 1 pending để bật modal:
+
+// tạm thời, trong Bootstrap sau khi Boot:
+_engine.State.pendingSchoolChoice.Add(new PendingSchoolChoice { characterId = "me", newPhase = "elementary" });
+
+
+Play → SchoolPanel mở → chọn trường → đóng modal, trừ tiền và áp effect.
+
+B) Nhân bản modal cho University / Major / Career
+
+Bạn có thể copy SchoolChoiceModal.cs thành các file sau, thay đổi phần nguồn dữ liệu + xử lý khi chọn:
+
+UniversityChoiceModal.cs
+
+Nguồn: Database.UniversityMajors
+
+Hiển thị: nameKey + cost + mô tả (descriptionKey)
+
+Khi chọn:
+
+Trừ cost
+
+EducationService.ApplyMajor(me, selectedMajor)
+
+Set s.pendingUniversityChoice.Clear()
+
+CareerChoiceModal.cs
+
+Nguồn: Database.CareerTracks
+
+Hiển thị: nameKey + bậc đầu tiên (ladder[0].titleKey) + yêu cầu (IQ, EQ)
+
+Khi chọn:
+
+Nếu không đạt yêu cầu → mở UnderqualifiedModal (xem mục C)
+
+Nếu đạt: ghi vào state (ví dụ highestCareer = track.key) và đóng
+
+MajorChoiceModal.cs
+
+Gần giống University (nếu bạn tách chọn trường và chọn ngành 2 bước).
+
+Nguồn: Database.UniversityMajors
+
+LoanModal.cs / PromotionModal.cs
+
+Tạo 2 input (số tiền/ kỳ hạn) hoặc danh sách nấc thăng tiến → xác nhận và cập nhật State.
+
+C) UnderqualifiedChoiceModal (khi không đủ điều kiện nghề)
+
+Khung tối giản:
+
+Assets/Scripts/Presentation/UI/Modal/UnderqualifiedChoiceModal.cs
+using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
+using LifeSim.Core.Engine;
+using LifeSim.Core.Services;
+using LifeSim.Core.Domain.Game;
+
+namespace LifeSim.Presentation.UI
+{
+    public class UnderqualifiedChoiceModal : ModalBase
+    {
+        [SerializeField] ComicPanel panel;
+        [SerializeField] TMP_Text txtMessage;
+        [SerializeField] Button btnOk;
+
+        GameEngine _engine; ILocalization _loc;
+
+        public void Bind(GameEngine e, ILocalization l){ _engine=e; _loc=l; }
+        public void SetMessage(string key){ if (txtMessage) txtMessage.text = _loc.T(key); }
+
+        void Awake(){ if (btnOk) btnOk.onClick.AddListener(()=> { Close(); /* có thể đặt pending học bổ sung ở đây */ }); }
+
+        public override void Open(){ if (panel) panel.Open(); }
+        public override void Close(){ if (panel) panel.Close(); }
+    }
+}
+
+
+ModalManager thêm field:
+
+[Header("Underqualified Modal")]
+[SerializeField] UnderqualifiedChoiceModal underqualifiedModal;
+
+
+Khi người chơi chọn career nhưng không đủ điều kiện, gọi:
+
+underqualifiedModal.Bind(engine, loc);
+underqualifiedModal.SetMessage("career.underqualified"); // thêm key trong JSON
+underqualifiedModal.Open();
+
+D) Checklist hoàn thành Bước 5
+
+ SchoolChoiceModal hiển thị danh sách từ Database.SchoolOptions và áp dụng lựa chọn.
+
+ Modal mở/đóng đồng bộ theo GameState (pending) hoặc nút UI.
+
+ Text trong modal dùng loc.T(key) (không hardcode).
+
+ Có thể nhân bản thành University/Major/Career nhanh chóng.

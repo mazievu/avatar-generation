@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-
+using UnityEngine; // Cần cho Sprite
 namespace LifeSim.Core.Domain.Characters
 {
     [Serializable]
@@ -16,8 +16,10 @@ namespace LifeSim.Core.Domain.Characters
     [Serializable]
     public class AvatarState
     {
-        public string presetId = "default";
-        public Dictionary<string, string> layers = new Dictionary<string, string>();
+         public Sprite hairSprite;
+        public Sprite eyeSprite;
+        public Sprite bodySprite;
+        public Sprite outfitSprite;
     }
 
     [Serializable]
@@ -25,6 +27,7 @@ namespace LifeSim.Core.Domain.Characters
     {
         public string id;
         public string name;
+        public string relation;
         public bool isAlive = true;
         public int ageDays = 0;
         public int generation = 0;
@@ -32,5 +35,7 @@ namespace LifeSim.Core.Domain.Characters
 
         public CharacterStats stats = new CharacterStats();
         public AvatarState avatar = new AvatarState();
+        public CharacterCareer career = new CharacterCareer();
+        public CharacterEducation education = new CharacterEducation();
     }
 }

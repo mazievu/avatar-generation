@@ -10,7 +10,13 @@ namespace LifeSim.Core.Domain.Game
         public int day = 0;   // absolute day from start
         public int year = 2000;
     }
-
+[Serializable]
+    public class BusinessInstance
+    {
+        public string id;
+        public string name;
+        public int income;
+    }
     [Serializable]
     public class PendingSchoolChoice
     {
@@ -68,7 +74,7 @@ namespace LifeSim.Core.Domain.Game
 
         public int familyFund = 0;
         public Dictionary<string, int> purchasedAssets = new Dictionary<string, int>(); // id -> qty
-
+        public List<BusinessInstance> businesses = new List<BusinessInstance>();
         public List<string> claimedFeatures = new List<string>();
         public string newlyUnlockedFeature = null;
 

@@ -13,6 +13,14 @@
     { "key":"feat.box1","value":"Mystery Box" },
     { "key":"feat.box1.desc","value":"Receive a random reward." },
     { "key":"feat.iconpack","value":"Icon Pack" },
-    { "key":"feat.iconpack.desc","value":"Unlock a set of icons." }
+    { "key":"feat.iconpack.desc","value":"Unlock a set of icons." },
+    { "key":"ui.year", "value":"Year" },
+    { "key":"nav.tree", "value":"Tree" },
+    { "key":"nav.log", "value":"Log" },
+    { "key":"nav.assets", "value":"Assets" },
+    { "key":"nav.business", "value":"Business" },
+    { "key":"nav.path", "value":"Path" },
+    { "key":"settings.title", "value":"Settings" },
+    { "key":"settings.body", "value":"Configure your game." }
   ]
 }

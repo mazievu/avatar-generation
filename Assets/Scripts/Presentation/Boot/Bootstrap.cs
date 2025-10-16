@@ -4,30 +4,37 @@ using LifeSim.Core.Data;
 using LifeSim.Core.Engine;
 using LifeSim.Core.Domain.Game;
 using LifeSim.Core.Infra;
+using LifeSim.Presentation.UI;
 
 public class Bootstrap : MonoBehaviour
 {
-    private GameEngine _engine;
-    private ResourcesLocalization _loc;
+    [Header("Scene References")]
+    [SerializeField] GameUIController ui;
 
-    private void Start()
+    GameEngine _engine;
+    ResourcesLocalization _loc;
+
+    void Start()
     {
         _loc = new ResourcesLocalization();
-        _loc.SetLanguage("vi");
-
-        Database.LoadAll("vi");
+        _loc.SetLanguage("en");         // hoặc "vi" khi bạn có JSON vi
+        Database.LoadAll("en");         // nếu data phụ thuộc ngôn ngữ
 
         var save = new JsonFileStore();
         var rng  = new DefaultRandom();
         var clk  = new FixedClock(1);
 
         _engine  = new GameEngine(new GameState(), save, _loc, rng, clk);
-        _engine.Boot("vi");
-        _engine.OnStateChanged += s =>
-        {
-            Debug.Log($"[STATE] Year {s.currentDate.year}, Fund {s.familyFund}");
-        };
+        _engine.Boot("en");
 
-        // TODO: chạy Tick() bằng coroutine/time loop ở Presentation layer
+        if (ui) ui.Bind(_engine, _loc);
+
+        StartCoroutine(GameTick());
+    }
+
+    System.Collections.IEnumerator GameTick()
+    {
+        var wait = new WaitForSecondsRealtime(0.5f);
+        while (true){ _engine.Tick(); yield return wait; }
     }
 }
