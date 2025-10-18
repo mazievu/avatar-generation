@@ -1,0 +1,364 @@
+Hướng dẫn cập nhật file + Quy định màu sắc (theme tokens)
+Patch (diff) cập nhật SceneBuilder để sinh ra UI giống ảnh bạn gửi
+Checklist cần hoàn thành trước khi bấm Tools → LifeSim → Build Main Scene
+
+Làm xong 3 phần này, bạn chỉ việc chạy đúng menu là scene mới sẽ ra Start Menu, HUD (Date + Money pill), Story + Settings, icon bottom bar và modal như ảnh.
+
+1) Hướng dẫn cập nhật file + Quy định màu sắc
+1.1. Tạo/ cập nhật Theme (chuẩn hóa màu, cỡ chữ)
+
+Tạo file (hoặc cập nhật file đã có):
+
+Assets/Scripts/Presentation/UI/Theme/UiTheme.cs
+
+using UnityEngine;
+
+[CreateAssetMenu(menuName="LifeSim/UI Theme", fileName="UiTheme")]
+public class UiTheme : ScriptableObject
+{
+    // ==== Color tokens (không hardcode màu trong code UI) ====
+    [Header("Base")]
+    public Color bgApp        = new Color(0.10f, 0.11f, 0.12f, 1f);  // nền Start menu
+    public Color bgScreen     = new Color(0.97f, 0.98f, 0.96f, 1f);  // nền Family screen
+
+    [Header("Primary/Secondary")]
+    public Color primary      = new Color32(58, 124, 255, 255);      // nút Start
+    public Color primaryText  = Color.white;
+    public Color secondary    = new Color32(137, 173, 255, 255);     // How to Play
+    public Color secondaryText= Color.white;
+
+    [Header("HUD")]
+    public Color hudText      = new Color32(41, 44, 51, 255);        // Jan 2, 2024
+    public Color pillBg       = new Color32(236, 237, 241, 255);     // nền pill
+    public Color pillStroke   = new Color32(206, 207, 213, 255);
+    public Color moneyGreen   = new Color32(35, 168, 79, 255);       // ký hiệu $
+    public Color incomeGreen  = new Color32(61, 186, 93, 255);       // (+xxx/mo)
+
+    [Header("Story/Settings buttons")]
+    public Color storyBg      = new Color32(232, 93, 93, 255);       // nút Story (đỏ)
+    public Color settingsBg   = new Color32(66, 180, 171, 255);      // nút Settings (xanh teal)
+    public Color chipText     = Color.white;
+
+    [Header("Modal")]
+    public Color modalOverlay = new Color(0,0,0,0.55f);
+    public Color modalBg      = Color.white;
+    public Color modalBorder  = new Color32(255, 202, 54, 255);      // đường viền vàng
+    public Color ctaGreen     = new Color32(48, 194, 101, 255);      // nút Excellent
+    public Color ctaText      = Color.white;
+
+    [Header("Bottom Icon Bar")]
+    public Color bottomBarBg  = new Color32(163, 184, 246, 255);
+    public Color iconTint     = Color.white;
+
+    // ==== Typography ====
+    [Header("Typography")]
+    public int titleXL        = 44;  // Title modal
+    public int title          = 36;  // Header
+    public int label          = 28;  // nút
+    public int body           = 30;  // nội dung
+
+    [Header("Layout")]
+    public Vector2 referenceResolution = new Vector2(1080, 1920);
+    public float   headerHeight  = 120;
+    public float   bottomHeight  = 160;
+}
+
+
+Tạo asset: Right click Project → Create → LifeSim → UI Theme đặt tên UiTheme.asset.
+Bạn có thể điều chỉnh màu theo ý, nhưng không đổi tên token.
+
+1.2. Auto áp Theme khi build scene (không kéo tay)
+
+Assets/Scripts/Presentation/UI/Theme/UiThemeApplier.cs
+
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
+public class UiThemeApplier : MonoBehaviour
+{
+    public UiTheme theme;
+
+    // Main
+    public Image bgWholeScreen;
+    public Image bgBottomBar;
+    public TextMeshProUGUI txtHeaderLeft;   // Date
+    public TextMeshProUGUI txtPillMoney;
+    public TextMeshProUGUI txtPillIncome;
+    public Image pillBg;
+    public Image pillStroke;
+    public Image btnStoryBg;
+    public Image btnSettingsBg;
+
+    public void Apply()
+    {
+        if (!theme) return;
+        if (bgWholeScreen) bgWholeScreen.color = theme.bgScreen;
+        if (bgBottomBar)   bgBottomBar.color   = theme.bottomBarBg;
+
+        if (txtHeaderLeft) txtHeaderLeft.color = theme.hudText;
+        if (txtPillMoney)  txtPillMoney.color  = theme.hudText;
+        if (txtPillIncome) txtPillIncome.color = theme.incomeGreen;
+        if (pillBg)        pillBg.color        = theme.pillBg;
+        if (pillStroke)    pillStroke.color    = theme.pillStroke;
+        if (btnStoryBg)    btnStoryBg.color    = theme.storyBg;
+        if (btnSettingsBg) btnSettingsBg.color = theme.settingsBg;
+
+        // Font size
+        if (txtHeaderLeft) txtHeaderLeft.fontSize = theme.title;
+        if (txtPillMoney)  txtPillMoney.fontSize  = theme.title;
+        if (txtPillIncome) txtPillIncome.fontSize = theme.label;
+    }
+}
+
+
+SceneBuilder sẽ tự tạo UiThemeApplier, nạp UiTheme.asset, điền reference cơ bản và gọi Apply().
+
+2) Patch (diff) cập nhật SceneBuilder
+
+Mình cung cấp diff dạng patch để bạn dễ dùng với Gemini/VS Code: thêm Start Menu, HUD + money pill, Story/Settings chips, icon bottom bar, auto-gán UiTheme.
+
+File gốc: Assets/Editor/SceneBuilder.cs (bản bạn đã dùng).
+Làm theo: mở file và áp dụng các thay đổi dưới đây.
+
+2.1. Thêm using và hằng số
+@@
+ using TMPro;
+ using System.Linq;
+@@
+ public class SceneBuilder : EditorWindow
+ {
+-    const float HEADER_H = 120f;
+-    const float BOTTOM_H = 140f;
++    const float HEADER_H = 120f;
++    const float BOTTOM_H = 160f;
++    const string THEME_ASSET_PATH = "Assets/UiTheme.asset";
+
+2.2. Sau khi tạo MainCanvas, thêm nền màn hình để áp theme
+@@
+ var canvasGO = new GameObject("MainCanvas", typeof(Canvas), typeof(CanvasScaler), typeof(GraphicRaycaster));
+@@
+ scaler.referenceResolution = new Vector2(1080, 1920);
+ scaler.matchWidthOrHeight = 0.5f;
++
++// Background screen image (để theme đổi màu nền)
++var bgScreen = new GameObject("BgScreen", typeof(RectTransform), typeof(Image));
++bgScreen.transform.SetParent(canvasGO.transform, false);
++(bgScreen.transform as RectTransform).anchorMin = Vector2.zero;
++(bgScreen.transform as RectTransform).anchorMax = Vector2.one;
++(bgScreen.transform as RectTransform).offsetMin = Vector2.zero;
++(bgScreen.transform as RectTransform).offsetMax = Vector2.zero;
+
+2.3. StartMenu (giống ảnh)
+@@
+ // --- MainUI (GameUIController) ---
+ var mainUI = CreateEmpty("MainUI", canvasGO.transform);
+ var gui = mainUI.AddComponent<GameUIController>();
+ 
++// --- Start Menu ---
++var startMenu = CreatePanel("StartMenu", mainUI.transform, new Color(0,0,0,0)); // trong suốt, nền dùng bgScreen
++var smRT = startMenu.GetComponent<RectTransform>().MiddleBetween(0,0);
++var title = CreateTMP("Subtitle", startMenu.transform, "A Life Simulation VN", 36, TextAlignmentOptions.Center);
++((RectTransform)title.transform).anchoredPosition = new Vector2(0, 300);
++var btnStart = CreateButton("btnStart", startMenu.transform, "Start New Game", out var btnStartComp);
++((RectTransform)btnStart.transform).anchoredPosition = new Vector2(0, 120);
++var btnHowTo = CreateButton("btnHowTo", startMenu.transform, "How to Play", out var btnHowToComp);
++((RectTransform)btnHowTo.transform).anchoredPosition = new Vector2(0, -20);
++// EN/VI toggle
++var langGroup = CreatePanel("LangGroup", startMenu.transform, new Color(1,1,1,0));
++var lgRT = langGroup.GetComponent<RectTransform>();
++lgRT.anchorMin = lgRT.anchorMax = new Vector2(0.5f,0.5f); lgRT.sizeDelta = new Vector2(400,110); lgRT.anchoredPosition = new Vector2(0,-200);
++var btnEN = CreateButton("btnEN", langGroup.transform, "EN", out var btnENComp);
++var btnVI = CreateButton("btnVI", langGroup.transform, "VI", out var btnVIComp);
++((RectTransform)btnEN.transform).anchoredPosition = new Vector2(-90,0);
++((RectTransform)btnVI.transform).anchoredPosition = new Vector2( 90,0);
++// Controller
++var sm = startMenu.AddComponent<LifeSim.Presentation.UI.StartMenuController>();
++SetSerialized(sm, ("btnStart", btnStartComp), ("btnHowTo", btnHowToComp), ("btnEN", btnENComp), ("btnVI", btnVIComp), ("subtitle", title));
+
+2.4. HUD (Date + Money Pill + Story/Settings)
+@@
+ // Header
+ var header = CreatePanel("Header", mainUI.transform, new Color(0,0,0,0.0f)); // màu sẽ do theme
+ header.GetComponent<RectTransform>().TopStretch(HEADER_H);
+ var txtYear = CreateTMP("txtYear", header.transform, "Jan 2, 2024", 36, TextAlignmentOptions.Left);
+@@
+ var txtFund = CreateTMP("txtFund", header.transform, "0", 36, TextAlignmentOptions.Right);
+@@
+-var btnSettings = CreateButton("btnSettings", header.transform, "⚙", out var btnSettingsComp);
+-((RectTransform)btnSettings.transform).anchorMin = new Vector2(1, 0.5f);
+-((RectTransform)btnSettings.transform).anchorMax = new Vector2(1, 0.5f);
+-((RectTransform)btnSettings.transform).pivot = new Vector2(1, 0.5f);
+-((RectTransform)btnSettings.transform).anchoredPosition = new Vector2(-120, 0);
+-((RectTransform)btnSettings.transform).sizeDelta = new Vector2(80, 80);
++// Money Pill (bg + stroke + 2 text)
++var pill = CreatePanel("MoneyPill", header.transform, new Color(1,1,1,0));
++var pillRT = pill.GetComponent<RectTransform>();
++pillRT.anchorMin = new Vector2(0.65f, 0.5f); pillRT.anchorMax = new Vector2(0.98f, 0.5f);
++pillRT.pivot = new Vector2(1,0.5f); pillRT.sizeDelta = new Vector2(0, 80); pillRT.anchoredPosition = new Vector2(-20,0);
++var pillBg = pill.AddComponent<Image>(); // theme sẽ tô màu
++var pillStroke = new GameObject("Stroke", typeof(RectTransform), typeof(Image));
++pillStroke.transform.SetParent(pill.transform, false);
++(pillStroke.transform as RectTransform).FullStretch();
++// 2 text
++var txtMoney = CreateTMP("txtMoney", pill.transform, "$ 50.146", 36, TextAlignmentOptions.Left);
++((RectTransform)txtMoney.transform).anchoredPosition = new Vector2(-100,0);
++var txtIncome = CreateTMP("txtIncome", pill.transform, "(+146/mo)", 28, TextAlignmentOptions.Right);
++((RectTransform)txtIncome.transform).anchoredPosition = new Vector2(100,0);
++
++// Story & Settings chips (bên phải màn hình)
++var chips = CreatePanel("Chips", mainUI.transform, new Color(1,1,1,0));
++var chipsRT = chips.GetComponent<RectTransform>();
++chipsRT.anchorMin = chipsRT.anchorMax = new Vector2(1,0.8f); chipsRT.pivot = new Vector2(1,0.5f); chipsRT.anchoredPosition = new Vector2(-40,0);
++var btnStory = CreateButton("btnStory", chips.transform, "Story", out var btnStoryComp);
++((RectTransform)btnStory.transform).sizeDelta = new Vector2(220,80);
++var btnSettings = CreateButton("btnSettings", chips.transform, "Settings", out var btnSettingsComp);
++((RectTransform)btnSettings.transform).anchoredPosition = new Vector2(0,-110);
++((RectTransform)btnSettings.transform).sizeDelta = new Vector2(220,80);
++
++// HUD Controller
++var hudGO = new GameObject("HUD", typeof(RectTransform));
++hudGO.transform.SetParent(mainUI.transform, false);
++(hudGO.transform as RectTransform).FullStretch();
++var hud = hudGO.AddComponent<LifeSim.Presentation.UI.HudController>();
++SetSerialized(hud, ("txtDate", txtYear), ("txtMoney", txtMoney), ("txtIncome", txtIncome),
++                   ("btnStory", btnStoryComp), ("btnSettings", btnSettingsComp));
+
+2.5. Bottom icon bar (thay bottomNav chữ)
+@@
+-// BottomNav
+-var bottomNav = CreatePanel("BottomNav", mainUI.transform, new Color(0,0,0,0.08f));
+-bottomNav.GetComponent<RectTransform>().BottomStretch(BOTTOM_H);
+-
+-var btnTree = CreateButton("btnTree", bottomNav.transform, "Tree", out var _btnTree);
+-var btnLog  = CreateButton("btnLog", bottomNav.transform, "Log", out var _btnLog);
+-var btnAssets = CreateButton("btnAssets", bottomNav.transform, "Assets", out var _btnAssets);
+-var btnBusiness = CreateButton("btnBusiness", bottomNav.transform, "Business", out var _btnBusiness);
+-var btnPath = CreateButton("btnPath", bottomNav.transform, "Path", out var _btnPath);
++// Bottom Icon Bar
++var bottomNav = CreatePanel("BottomBar", mainUI.transform, new Color(1,1,1,0));
++bottomNav.GetComponent<RectTransform>().BottomStretch(BOTTOM_H);
++var bottomBg = bottomNav.GetComponent<Image>(); // theme tô màu
++// 6 nút icon (tạm là chữ, sau bạn thay sprite)
++var btnTree = CreateButton("btnTree", bottomNav.transform, "", out var _btnTree);
++var btnLog  = CreateButton("btnLog", bottomNav.transform, "", out var _btnLog);
++var btnAssets = CreateButton("btnAssets", bottomNav.transform, "", out var _btnAssets);
++var btnBusiness = CreateButton("btnBusiness", bottomNav.transform, "", out var _btnBusiness);
++var btnPath = CreateButton("btnPath", bottomNav.transform, "", out var _btnPath);
++var btnBook = CreateButton("btnBook", bottomNav.transform, "", out var _btnBook); // icon thư viện
+@@
+-float w = 180; float space = 20;
++float w = 140; float space = 24;
+ var navRt = bottomNav.GetComponent<RectTransform>();
+-float totalW = w*5 + space*4;
++float totalW = w*6 + space*5;
+ float startX = -totalW/2f + w/2f;
+-var navBtns = new[] { btnTree, btnLog, btnAssets, btnBusiness, btnPath };
++var navBtns = new[] { btnTree, btnLog, btnAssets, btnBusiness, btnPath, btnBook };
+
+
+GameUIController vẫn chỉ cần 5 nút chính (Tree/Log/Assets/Business/Path). Nút btnBook để bạn dùng làm icon extra (không bắt buộc gán vào controller).
+
+2.6. Gán thêm vào GameUIController (không đổi API cũ)
+@@
+ so.FindProperty("btnSettings").objectReferenceValue = btnSettings.GetComponent<Button>();
++// (optional) nếu GameUIController có thêm hook Story, bạn gán tương tự ở đây
+
+2.7. Theme Applier tự động
+@@
+ // --- Auto add PanelAutoBinder (đã có nếu bạn thêm) ---
+ var binderGO = new GameObject("PanelAutoBinder");
+ binderGO.AddComponent<LifeSim.Presentation.UI.PanelAutoBinder>();
+ 
+-// Optional: auto theme
+-var themeAsset = AssetDatabase.LoadAssetAtPath<UiTheme>("Assets/UiTheme.asset");
++// Auto theme
++var themeAsset = AssetDatabase.LoadAssetAtPath<UiTheme>(THEME_ASSET_PATH);
+ if (themeAsset != null)
+ {
+     var applier = mainUI.AddComponent<UiThemeApplier>();
+     applier.theme = themeAsset;
+-    // cố gắng map vài tham chiếu có trong SceneBuilder:
+-    applier.headerBg = header.GetComponent<Image>();
+-    applier.bottomNavBg = bottomNav.GetComponent<Image>();
+-    // modal overlay/content: lấy từ EventPanel làm mẫu
++    // Map tham chiếu:
++    applier.bgWholeScreen = GameObject.Find("BgScreen")?.GetComponent<Image>();
++    applier.bgBottomBar   = bottomNav.GetComponent<Image>();
++    applier.txtHeaderLeft = txtYear;
++    // Money pill
++    applier.txtPillMoney  = GameObject.Find("txtMoney")?.GetComponent<TextMeshProUGUI>();
++    applier.txtPillIncome = GameObject.Find("txtIncome")?.GetComponent<TextMeshProUGUI>();
++    applier.pillBg        = GameObject.Find("MoneyPill")?.GetComponent<Image>();
++    applier.pillStroke    = GameObject.Find("Stroke")?.GetComponent<Image>();
++    // Chips
++    applier.btnStoryBg    = GameObject.Find("btnStory")?.GetComponent<Image>();
++    applier.btnSettingsBg = GameObject.Find("btnSettings")?.GetComponent<Image>();
++
++    // modal overlay/content: lấy từ EventPanel làm mẫu (để sau bạn mở rộng)
+     var eventPanel = GameObject.Find("EventPanel");
+     if (eventPanel != null)
+     {
+         var overlay = eventPanel.transform.Find("Overlay")?.GetComponent<Image>();
+         var content = eventPanel.transform.Find("Content")?.GetComponent<Image>();
+-        applier.modalOverlay = overlay;
+-        applier.modalContentBg = content;
++        applier.modalOverlay   = overlay;
++        applier.modalContentBg = content;
+     }
+     applier.Apply();
+ }
+
+3) Checklist trước khi bấm Build
+
+A. Code & dữ liệu
+
+ Có các script: StartMenuController.cs, HudController.cs, UiTheme.cs, UiThemeApplier.cs, PanelAutoBinder.cs.
+
+ SceneBuilder.cs đã được cập nhật theo diff trên (lưu file).
+
+ UiTheme.asset tồn tại tại Assets/UiTheme.asset (đúng đường dẫn).
+
+ GameState có tối thiểu:
+
+currentDate{day,month,year} (hoặc bạn set text mock trong HudController).
+
+familyFund và familyIncomePerMonth.
+
+ Localization có month.1…month.12 cho EN/VI (nếu bạn muốn hiển thị theo ngôn ngữ).
+
+B. Unity
+
+ Đã Import TMP Essentials (Window → TextMeshPro → Import TMP Essential Resources).
+
+ Menu Tools → LifeSim đang có mục Build Main Scene (script Editor được biên dịch).
+
+ Không có Compile Error trong Console.
+
+C. Kết quả mong đợi sau khi Build
+
+ Scene mới tạo ra có:
+
+Start Menu (Title + Start New Game + How to Play + EN/VI).
+
+HUD trên cùng: Date trái, Money pill phải (2 dòng: tiền + (+/mo)).
+
+Hai chips Story/Settings bên phải.
+
+Bottom icon bar 6 ô (tạm chữ rỗng, bạn sẽ thay sprite).
+
+5 panels trung tâm (Tree/Log/Assets/Business/Path).
+
+ModalLayer đầy đủ (Event/Settings/School/University/Major/Career/Underqualified/Loan/Promotion).
+
+Theme đã áp: màu nền screen sáng (Family), bottom bar tím nhạt, money pill xám nhạt viền xám, Story đỏ, Settings teal, modal viền vàng.
+
+D. Test nhanh
+
+ Bấm Play → Start Menu xuất hiện → bấm Start New Game → StartMenu ẩn, HUD + GameUI hiện.
+
+ Header hiển thị đúng date/fund/income (mock hoặc từ state).
+
+ btnSettings mở Settings (ModalManager).
+
+ Modal event vẫn hoạt động khi engine phát sự kiện.

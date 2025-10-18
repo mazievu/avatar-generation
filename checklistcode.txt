@@ -1,0 +1,88 @@
+CHECKLIST TRƯỚC KHI MỞ UNITY (Code-Only)
+A. Biên dịch & cấu trúc
+
+ Dự án có các namespace/đường dẫn nhất quán (không trùng số ít/số nhiều):
+
+Assets/Scripts/Core/Domain/Businesses, .../Careers, .../Infra, .../Services
+
+Assets/Scripts/Presentation/UI/... (Panels, Modal, Avatar, Effects)
+
+ Không còn lỗi CS0101/CS0111/CS0579 (trùng class/attribute/method).
+
+ Tất cả file UI bạn đã dán:
+
+GameUIController.cs, ModalManager.cs, ComicPanel.cs, ModalBase.cs
+
+SchoolChoiceModal.cs, UniversityChoiceModal.cs, MajorChoiceModal.cs, CareerChoiceModal.cs, UnderqualifiedChoiceModal.cs, LoanModal.cs, PromotionModal.cs
+
+Panels: PathOfLifePanel.cs, BusinessPanel.cs, AssetsPanel.cs, GameLogPanel.cs, FamilyTreePanel.cs
+
+Avatar: AvatarPreview.cs, AvatarBuilder.cs, AvatarState.cs, AvatarLibrary.cs
+
+Effects: StarEffect.cs, SmokeEffect.cs, IncomeFloat.cs
+
+Services: SaveSystem.cs
+
+ Bootstrap.cs tồn tại và có:
+
+Tạo _loc = new ResourcesLocalization(); _loc.SetLanguage("en" hoặc "vi");
+
+Database.LoadAll(lang);
+
+Tạo GameEngine(new GameState(), save, _loc, rng, clk) + _engine.Boot(lang);
+
+Gọi ui.Bind(_engine, _loc); và coroutine GameTick().
+
+B. Kiểu dữ liệu GameState/Character
+
+ GameState có:
+
+[Dict] familyMembers (key “me” tồn tại ở Boot)
+
+familyFund : int
+
+businesses : List<BusinessInstance>
+
+assets : List<string>
+
+unlockedFeatures : List<string>
+
+ Character có:
+
+relation : string
+
+education.currentMajor : string
+
+career.currentTrack : string, career.level : int
+
+stats với iq/eq/health/happiness/skill + Clamp()
+
+ AvatarState có các sprite trường (hair/eye/outfit/body) – tạm null được.
+
+ AvatarLibrary có HairCount/EyeCount/OutfitCount và GetHair/GetEyes/GetOutfit (tạm trả null cũng compile được).
+
+C. Localization (JSON)
+
+ Assets/Resources/Localization/en/*.json (và/hoặc vi/*.json) tồn tại, không có .ts trong Assets.
+
+ ResourcesLocalization nạp được danh sách file (ui/common + events + career/education…).
+
+ Key UI căn bản đã có:
+
+ui.year, ui.fund, ui.assetsCount
+
+panel.path.title, panel.business.title, panel.family.title
+
+career.req, career.footerNote, career.underqualified
+
+settings.title, settings.body
+
+ Gọi thử _loc.T("ui.year") trong code (Debug) không trả về nguyên key.
+
+D. Database/Data
+
+ Database.* đã load thành công (Debug: số lượng list > 0 nếu có).
+
+ SchoolOptions, UniversityMajors, CareerTracks, UnlockableFeatures không null.
+
+ Nếu data theo ngôn ngữ, truyền đúng lang khi LoadAll.

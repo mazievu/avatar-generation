@@ -5,8 +5,9 @@ using System.Collections.Generic;
 using LifeSim.Core.Engine;
 using LifeSim.Core.Services;
 using LifeSim.Core.Data;
-using LifeSim.Core.Domain.Careers;
+using LifeSim.Core.Data.SO; // Changed
 using LifeSim.Core.Domain.Game;
+using LifeSim.Core.Domain.Characters;
 
 namespace LifeSim.Presentation.UI
 {
@@ -27,22 +28,22 @@ namespace LifeSim.Presentation.UI
         public void Refresh(GameState s)
         {
             Clear(listRoot);
-            var tracks = Database.CareerTracks ?? new List<CareerTrack>();
+            var tracks = Database.Careers.Values;
             foreach (var t in tracks)
             {
                 var btn = Object.Instantiate(optionButtonPrefab, listRoot);
                 var txt = btn.GetComponentInChildren<TMP_Text>();
-                if (txt) txt.text = $"{_loc.T(t.nameKey)} • {_loc.T("career.req")}: IQ≥{(t.ladder.Count > 0 ? t.ladder[0].requiredIQ : 0)}, EQ≥{(t.ladder.Count > 0 ? t.ladder[0].requiredEQ : 0)}";
+                if (txt) txt.text = $"{_loc.T(t.trackNameKey)} • {_loc.T("career.req")}: IQ≥{t.requiredIq}, EQ≥{t.requiredEq}";
                 var cap = t;
                 btn.onClick.AddListener(()=>Choose(cap));
             }
             if (footerNote) footerNote.text = _loc.T("career.footerNote");
         }
 
-        void Choose(CareerTrack t)
+        void Choose(CareerSO t)
         {
             if (!_engine.State.familyMembers.TryGetValue("me", out var me)) return;
-            if (me.stats.iq < (t.ladder.Count > 0 ? t.ladder[0].requiredIQ : 0) || me.stats.eq < (t.ladder.Count > 0 ? t.ladder[0].requiredEQ : 0))
+            if (me.stats.iq < t.requiredIq || me.stats.eq < t.requiredEq)
             {
                 if (underqualifiedModal)
                 {
@@ -53,8 +54,8 @@ namespace LifeSim.Presentation.UI
                 return;
             }
 
-            me.career.currentTrack = t.key;
-            me.career.level = 0;
+            me.careerTrackId = t.name;
+            me.careerLevel = 0;
             Close();
             _engine.Save();
         }

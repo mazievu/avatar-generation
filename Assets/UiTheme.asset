@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f10e8517c2ae574694bba76a01eefea, type: 3}
+  m_Name: UiTheme
+  m_EditorClassIdentifier: Assembly-CSharp::UiTheme
+  bgApp: {r: 0.1, g: 0.11, b: 0.12, a: 1}
+  bgScreen: {r: 0.97, g: 0.98, b: 0.96, a: 1}
+  primary: {r: 0.22745098, g: 0.4862745, b: 1, a: 1}
+  primaryText: {r: 1, g: 1, b: 1, a: 1}
+  secondary: {r: 0.5372549, g: 0.6784314, b: 1, a: 1}
+  secondaryText: {r: 1, g: 1, b: 1, a: 1}
+  hudText: {r: 0.16078432, g: 0.17254902, b: 0.2, a: 1}
+  pillBg: {r: 0.9254902, g: 0.92941177, b: 0.94509804, a: 1}
+  pillStroke: {r: 0.80784315, g: 0.8117647, b: 0.8352941, a: 1}
+  moneyGreen: {r: 0.13725491, g: 0.65882355, b: 0.30980393, a: 1}
+  incomeGreen: {r: 0.23921569, g: 0.7294118, b: 0.3647059, a: 1}
+  storyBg: {r: 0.9098039, g: 0.3647059, b: 0.3647059, a: 1}
+  settingsBg: {r: 0.25882354, g: 0.7058824, b: 0.67058825, a: 1}
+  chipText: {r: 1, g: 1, b: 1, a: 1}
+  modalOverlay: {r: 0, g: 0, b: 0, a: 0.55}
+  modalBg: {r: 1, g: 1, b: 1, a: 1}
+  modalBorder: {r: 1, g: 0.7921569, b: 0.21176471, a: 1}
+  ctaGreen: {r: 0.1882353, g: 0.7607843, b: 0.39607844, a: 1}
+  ctaText: {r: 1, g: 1, b: 1, a: 1}
+  bottomBarBg: {r: 0.6392157, g: 0.72156864, b: 0.9647059, a: 1}
+  iconTint: {r: 1, g: 1, b: 1, a: 1}
+  titleXL: 44
+  title: 36
+  label: 28
+  body: 30
+  referenceResolution: {x: 1080, y: 1920}
+  headerHeight: 120
+  bottomHeight: 160

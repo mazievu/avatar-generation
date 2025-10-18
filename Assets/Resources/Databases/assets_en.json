@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": "asset_library_1",
+      "name": "Small Bookshelf",
+      "cost": 5000,
+      "effects": {
+        "iq": 5
+      }
+    },
+    {
+      "id": "asset_gym_1",
+      "name": "Dumbbell Set",
+      "cost": 3000,
+      "effects": {
+        "health": 5
+      }
+    }
+  ]
+}

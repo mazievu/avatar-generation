@@ -1,36 +1,41 @@
-using System.IO;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
 
-namespace LifeSim.Core.Services
+using UnityEngine;
+using System.IO;
+using LifeSim.Core.Domain.Game;
+using LifeSim.Core.Services;
+
+// Note: This file was in the wrong directory. It belongs in Core/Infra.
+// Overwriting it here to fix compilation errors.
+namespace LifeSim.Core.Services.Impl
 {
     public class JsonFileStore : ISaveStore
     {
-        private string Root => Application.persistentDataPath;
+        private const string SaveFileName = "savegame.json";
 
-        public async Task SaveAsync<T>(string key, T data)
+        private string GetSavePath()
         {
-            var path = Path.Combine(Root, key + ".json");
-            var json = JsonUtility.ToJson(data, false);
-            using (var writer = new StreamWriter(path, false, Encoding.UTF8))
-                await writer.WriteAsync(json);
+            return Path.Combine(Application.persistentDataPath, SaveFileName);
         }
 
-        public async Task<T> LoadAsync<T>(string key, T fallback = default)
+        public void Save(GameState state)
         {
-            var path = Path.Combine(Root, key + ".json");
-            if (!File.Exists(path)) return fallback;
-            using (var reader = new StreamReader(path, Encoding.UTF8))
+            string json = JsonUtility.ToJson(state, true);
+            File.WriteAllText(GetSavePath(), json);
+            Debug.Log($"Game saved to {GetSavePath()}");
+        }
+
+        public GameState Load()
+        {
+            string path = GetSavePath();
+            if (File.Exists(path))
             {
-                var json = await reader.ReadToEndAsync();
-                return JsonUtility.FromJson<T>(json);
+                string json = File.ReadAllText(path);
+                Debug.Log("Loading saved game...");
+                return JsonUtility.FromJson<GameState>(json);
             }
+            
+            Debug.Log("No save file found.");
+            return null;
         }
-    }
-
-    public static class TaskExt
-    {
-        public static async void Forget(this Task t) { await t; }
     }
 }

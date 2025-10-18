@@ -1,22 +1,27 @@
+// FILE: Assets/Scripts/Presentation/UI/Modal/SchoolChoiceModal.cs
+
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
+using System.Linq; // <-- THÊM DÒNG NÀY
 using LifeSim.Core.Engine;
 using LifeSim.Core.Services;
 using LifeSim.Core.Data;
-using LifeSim.Core.Domain.Education;
+using LifeSim.Core.Data.SO; // <-- THÊM DÒNG NÀY
+using LifeSim.Core.Domain.Education; // Cần cho EducationService (nếu có)
 using LifeSim.Core.Domain.Game;
+using LifeSim.Core.Domain.Characters;
 
 namespace LifeSim.Presentation.UI
 {
     public class SchoolChoiceModal : ModalBase
     {
         [Header("View")]
-        [SerializeField] ComicPanel panel;                 // sử dụng ComicPanel để mở/đóng
-        [SerializeField] Transform listRoot;               // VerticalLayout
-        [SerializeField] Button optionButtonPrefab;        // prefab 1 dòng (Label + Cost)
-        [SerializeField] TMP_Text footerNote;              // text giải thích
+        [SerializeField] private ComicPanel panel;
+        [SerializeField] private Transform listRoot;
+        [SerializeField] private Button optionButtonPrefab;
+        [SerializeField] private TMP_Text footerNote;
 
         private GameEngine _engine;
         private ILocalization _loc;
@@ -31,13 +36,17 @@ namespace LifeSim.Presentation.UI
             if (listRoot == null || optionButtonPrefab == null) return;
             ClearChildren(listRoot);
 
-            // lấy danh sách school options từ Database
-            List<SchoolOption> options = Database.SchoolOptions ?? new List<SchoolOption>();
+            // --- SỬA LỖI TẠI ĐÂY ---
+            // Thay vì `Database.SchoolOptions`, chúng ta lọc từ `EducationOptions`
+            var options = Database.EducationOptions.Values
+                .Where(edu => edu.type == EducationSO.EducationType.School)
+                .ToList();
+
             foreach (var opt in options)
             {
                 var btn = Instantiate(optionButtonPrefab, listRoot);
                 var label = btn.GetComponentInChildren<TMP_Text>();
-                if (label) label.text = $"{_loc.T(opt.nameKey)}  •  {_loc.T("ui.cost")}: {opt.cost:n0}";
+                if (label) label.text = $"{_loc.T(opt.NameKey)}  •  {_loc.T("ui.cost")}: {opt.Cost:n0}";
 
                 var captured = opt;
                 btn.onClick.AddListener(() => OnChooseSchool(captured));
@@ -46,25 +55,21 @@ namespace LifeSim.Presentation.UI
             if (footerNote) footerNote.text = _loc.T("school.footerNote");
         }
 
-        private void OnChooseSchool(SchoolOption opt)
+        // Sửa kiểu tham số thành EducationSO
+        private void OnChooseSchool(EducationSO opt)
         {
-            // Tối thiểu: trừ tiền + đẩy effect vào nhân vật chính (demo)
             var s = _engine.State;
-
-            // giả sử character "me" là chủ thể đang đi học
             if (s.familyMembers.TryGetValue("me", out var me))
             {
-                s.familyFund -= opt.cost;
-                // áp effect đơn giản (iq/eq/...)
-                EducationService.ApplySchoolEffects(me, opt);
+                s.familyFund -= opt.Cost;
+                // Giả sử bạn có một lớp EducationService để áp dụng hiệu ứng
+                // EducationService.ApplySchoolEffects(me, opt); 
+                // Nếu không, bạn cần thêm logic áp dụng hiệu ứng ở đây.
             }
 
-            // clear pending school choice nếu bạn dùng pending state (ở GameState)
             s.pendingSchoolChoice?.Clear();
-
-            // đóng modal + phát event state change
             Close();
-            _engine.Save(); // Save and emit
+            _engine.Save();
         }
 
         private void ClearChildren(Transform root)
@@ -73,7 +78,7 @@ namespace LifeSim.Presentation.UI
                 GameObject.Destroy(root.GetChild(i).gameObject);
         }
 
-        public override void Open()  { if (panel) panel.Open(); }
+        public override void Open() { if (panel) panel.Open(); }
         public override void Close() { if (panel) panel.Close(); }
     }
 }

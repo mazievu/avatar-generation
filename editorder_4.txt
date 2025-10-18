@@ -1,0 +1,130 @@
+1) Đánh giá trung thực tình trạng code
+ĐÃ XONG (có thể build ngay sau khi gắn prefab):
+
+Core/Engine (GameEngine, Services, Loaders, Localization): ✅
+
+Modal nền tảng (ComicPanel, ModalManager, EventModal): ✅
+
+Modal quan trọng: School, University, Major, Career (+Underqualified), Loan, Promotion: ✅
+
+UI khung (GameUIController, scene bootstrap, tick loop): ✅
+
+5 Panels chính (Path, Business, Assets, Log, Family Tree): ✅ (khung hiển thị + bind cơ bản)
+
+Avatar Preview/Builder, Effects, Autosave: ✅ (khung + API)
+
+CÒN THIẾU/NÊN CHỐT (nhỏ nhưng bắt buộc để compile/hiển thị đúng):
+
+Một số trường trong GameState/Character được UI tham chiếu, bạn cần đảm bảo tồn tại:
+
+GameState.unlockedFeatures : List<string>
+
+GameState.businesses : List<BusinessInstance> (nếu panel Business hiển thị)
+
+GameState.assets : List<...> (AssetsPanel đếm)
+
+GameState.familyMembers : Dictionary<string, Character>
+
+Character.relation : string (FamilyTreePanel hiển thị)
+
+Character.education.currentMajor : string (University/Major modal)
+
+Character.career.currentTrack : string, Character.career.level : int (Career/Promotion)
+
+Class tĩnh AvatarLibrary (trả sprite theo index) và AvatarState có các trường sprite:
+
+AvatarLibrary.HairCount, EyeCount, OutfitCount, DefaultBody
+
+AvatarLibrary.GetHair(i), GetEyes(i), GetOutfit(i)
+
+AvatarState.hairSprite, eyeSprite, outfitSprite, bodySprite
+
+Localization keys cho UI (ví dụ ui.year, ui.fund, ui.assetsCount, panel.path.title, panel.business.title, panel.family.title, career.req, career.footerNote, career.underqualified, settings.*, v.v.) — bạn đã có JSON, chỉ cần bổ sung vài key nếu thiếu.
+
+Nếu các trường này chưa có, mình khuyến nghị thêm patch ngắn (dưới đây) — mất 5 phút.
+
+2) Patch nhanh (dán vào để đảm bảo compile mượt)
+2.1 Bổ sung vào GameState/Character (đặt đúng namespace bạn đang dùng)
+// Character.cs (bổ sung struct con đơn giản)
+[Serializable] public class EducationState { public string currentMajor = null; }
+[Serializable] public class CareerState { public string currentTrack = null; public int level = 0; }
+
+[Serializable]
+public class Character
+{
+    public string id;
+    public string name;
+    public string relation = "self";   // hiển thị FamilyTree
+    public bool isAlive = true;
+    public int ageDays = 0;
+    public int generation = 0;
+    public string lifeStage = "newborn";
+    public CharacterStats stats = new CharacterStats();
+    public AvatarState avatar = new AvatarState();
+
+    // thêm
+    public EducationState education = new EducationState();
+    public CareerState career = new CareerState();
+}
+
+// GameState.cs (bổ sung các collection tối thiểu)
+[Serializable]
+public class GameState
+{
+    public Dictionary<string, Character> familyMembers = new Dictionary<string, Character>();
+    public int familyFund = 0;
+
+    // NEW
+    [Serializable] public class BusinessInstance { public string id; public string name; public int income; }
+    public List<BusinessInstance> businesses = new List<BusinessInstance>();
+    public List<string> assets = new List<string>();
+    public List<string> unlockedFeatures = new List<string>();
+}
+
+2.2 AvatarState + AvatarLibrary (stub đủ dùng)
+// AvatarState.cs
+using UnityEngine;
+[System.Serializable]
+public class AvatarState
+{
+    public Sprite hairSprite;
+    public Sprite eyeSprite;
+    public Sprite outfitSprite;
+    public Sprite bodySprite;
+}
+
+// AvatarLibrary.cs (đặt trong Assets/Scripts/Presentation/UI/Avatar/)
+using UnityEngine;
+
+public static class AvatarLibrary
+{
+    public static int HairCount => 3;
+    public static int EyeCount => 3;
+    public static int OutfitCount => 3;
+
+    // TODO: trỏ sprite thực sau khi bạn import
+    public static Sprite DefaultBody => null;
+    public static Sprite GetHair(int i) => null;
+    public static Sprite GetEyes(int i) => null;
+    public static Sprite GetOutfit(int i) => null;
+}
+
+
+Các hàm trả null không gây compile error; khi bạn có sprite thật, thay null bằng sprite trong Resources/Addressables.
+
+2.3 Localization (ví dụ thêm vào en/common.json)
+{
+  "items": [
+    { "key": "ui.year", "value": "Year" },
+    { "key": "ui.fund", "value": "Fund" },
+    { "key": "ui.assetsCount", "value": "Assets" },
+    { "key": "panel.path.title", "value": "Path of Life" },
+    { "key": "panel.business.title", "value": "Businesses" },
+    { "key": "panel.family.title", "value": "Family" },
+    { "key": "career.req", "value": "Requirements" },
+    { "key": "career.footerNote", "value": "Pick a career path that fits your stats." },
+    { "key": "career.underqualified", "value": "You do not meet the requirements yet." },
+    { "key": "settings.title", "value": "Settings" },
+    { "key": "settings.body", "value": "Configure your game." }
+  ]
+}

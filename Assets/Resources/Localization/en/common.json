@@ -1711,6 +1711,106 @@
     {
       "key": "load_game_error_message",
       "value": "Could not load saved game. The file may be corrupt or from an older version. The saved data has been deleted."
+    },
+    {
+      "key": "ui.year",
+      "value": "Year"
+    },
+    {
+      "key": "ui.fund",
+      "value": "Fund"
+    },
+    {
+      "key": "ui.assetsCount",
+      "value": "Assets"
+    },
+    {
+      "key": "panel.path.title",
+      "value": "Path of Life"
+    },
+    {
+      "key": "panel.business.title",
+      "value": "Businesses"
+    },
+    {
+      "key": "panel.family.title",
+      "value": "Family"
+    },
+    {
+      "key": "career.req",
+      "value": "Requirements"
+    },
+    {
+      "key": "career.footerNote",
+      "value": "Pick a career path that fits your stats."
+    },
+    {
+      "key": "career.underqualified",
+      "value": "You do not meet the requirements yet."
+    },
+    {
+      "key": "settings.title",
+      "value": "Settings"
+    },
+    {
+      "key": "settings.body",
+      "value": "Configure your game."
+    },
+    {
+      "key": "month.1",
+      "value": "Jan"
+    },
+    {
+      "key": "month.2",
+      "value": "Feb"
+    },
+    {
+      "key": "month.3",
+      "value": "Mar"
+    },
+    {
+      "key": "month.4",
+      "value": "Apr"
+    },
+    {
+      "key": "month.5",
+      "value": "May"
+    },
+    {
+      "key": "month.6",
+      "value": "Jun"
+    },
+    {
+      "key": "month.7",
+      "value": "Jul"
+    },
+    {
+      "key": "month.8",
+      "value": "Aug"
+    },
+    {
+      "key": "month.9",
+      "value": "Sep"
+    },
+    {
+      "key": "month.10",
+      "value": "Oct"
+    },
+    {
+      "key": "month.11",
+      "value": "Nov"
+    },
+    {
+      "key": "month.12",
+      "value": "Dec"
+    },
+    {
+      "key": "child",
+      "value": "child"
+    },
+    {
+      "key": "children",
+      "value": "children"
     }
   ]
 }

@@ -34,4 +34,7 @@ namespace LifeSim.Core.Data.DTO
         public Dictionary<string,int> rewards;
     }
     [Serializable] public class EventsFile { public string version="1"; public List<GameEventDTO> items = new(); }
+
+    [Serializable] public class AssetDTO { public string id; public string name; public int cost; public Dictionary<string, int> effects; }
+    [Serializable] public class AssetsFile { public List<AssetDTO> items = new(); }
 }

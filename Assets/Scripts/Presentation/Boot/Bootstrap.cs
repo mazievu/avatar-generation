@@ -16,18 +16,35 @@ public class Bootstrap : MonoBehaviour
 
     void Start()
     {
-        _loc = new ResourcesLocalization();
-        _loc.SetLanguage("en");         // hoặc "vi" khi bạn có JSON vi
-        Database.LoadAll("en");         // nếu data phụ thuộc ngôn ngữ
-
         var save = new JsonFileStore();
+        var loadedState = save.Load();
+
+        _loc = new ResourcesLocalization();
+        _loc.SetLanguage(loadedState?.lang ?? "en");
+        Database.LoadAll(loadedState?.lang ?? "en");
+
         var rng  = new DefaultRandom();
         var clk  = new FixedClock(1);
 
-        _engine  = new GameEngine(new GameState(), save, _loc, rng, clk);
-        _engine.Boot("en");
+        _engine  = new GameEngine(loadedState ?? new GameState(), save, _loc, rng, clk);
+        _engine.Boot(_loc.CurrentLanguage);
 
         if (ui) ui.Bind(_engine, _loc);
+
+        var auto = FindAnyObjectByType<LifeSim.Presentation.UI.PanelAutoBinder>();
+        if (auto == null)
+        {
+            var go = new GameObject("PanelAutoBinder");
+            auto = go.AddComponent<LifeSim.Presentation.UI.PanelAutoBinder>();
+        }
+        auto.Init(_engine, _loc);
+
+        var avatarPreview = FindObjectOfType<LifeSim.Presentation.UI.AvatarPreview>(true);
+        if (avatarPreview != null)
+        {
+            // You can set the age from game state here, for now just redraw
+            avatarPreview.Redraw();
+        }
 
         StartCoroutine(GameTick());
     }
