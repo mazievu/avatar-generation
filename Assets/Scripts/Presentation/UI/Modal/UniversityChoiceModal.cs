@@ -12,6 +12,7 @@ using LifeSim.Core.Data.SO; // <-- THÊM DÒNG NÀY
 using LifeSim.Core.Domain.Education;
 using LifeSim.Core.Domain.Game;
 using LifeSim.Core.Domain.Characters;
+using LifeSim.Presentation.UI.Avatar;
 
 namespace LifeSim.Presentation.UI
 {
@@ -22,6 +23,7 @@ namespace LifeSim.Presentation.UI
     {
         [Header("View")]
         [SerializeField] private ComicPanel panel;
+        [SerializeField] private AgeAwareAvatarPreview avatarPreview;
         [SerializeField] private Transform listRoot;
         [SerializeField] private Button optionButtonPrefab;
         [SerializeField] private TMP_Text footerNote;
@@ -36,6 +38,11 @@ namespace LifeSim.Presentation.UI
 
         public void Refresh(GameState s)
         {
+            if (s.familyMembers.TryGetValue("me", out var me))
+            {
+                avatarPreview.Render(me.GetAvatarState());
+            }
+
             Clear(listRoot);
 
             // --- SỬA LỖI 1 TẠI ĐÂY ---

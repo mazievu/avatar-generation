@@ -8,12 +8,14 @@ using LifeSim.Core.Data;
 using LifeSim.Core.Data.SO; // Changed
 using LifeSim.Core.Domain.Game;
 using LifeSim.Core.Domain.Characters;
+using LifeSim.Presentation.UI.Avatar;
 
 namespace LifeSim.Presentation.UI
 {
     public class CareerChoiceModal : ModalBase
     {
         [SerializeField] ComicPanel panel;
+        [SerializeField] AgeAwareAvatarPreview avatarPreview;
         [SerializeField] Transform listRoot;
         [SerializeField] Button optionButtonPrefab;
         [SerializeField] TMP_Text footerNote;
@@ -27,6 +29,11 @@ namespace LifeSim.Presentation.UI
 
         public void Refresh(GameState s)
         {
+            if (s.familyMembers.TryGetValue("me", out var me))
+            {
+                avatarPreview.Render(me.GetAvatarState());
+            }
+
             Clear(listRoot);
             var tracks = Database.Careers.Values;
             foreach (var t in tracks)

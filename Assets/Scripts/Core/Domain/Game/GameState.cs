@@ -106,6 +106,9 @@ namespace LifeSim.Core.Domain.Game
         public GameDate currentDate = new GameDate();
 
         public string lang = "en";
+        public bool isManuallyPaused = false;
+        public float timeScale = 1.0f;
+
         public bool HasPendingChoices()
         {
             return pendingSchoolChoice.Count > 0 ||

@@ -1,0 +1,4 @@
+repository "avatar-generation/avatar-generation@18968337057199@cloud"
+  path "/"
+    br "/main"
+    co "/main"

@@ -6,6 +6,7 @@ using System.Linq;
 using LifeSim.Core.Engine;
 using LifeSim.Core.Domain.Characters;
 using LifeSim.Core.Data;
+using LifeSim.Core.Services;
 
 namespace LifeSim.Presentation.UI.Avatar
 {
@@ -21,6 +22,7 @@ namespace LifeSim.Presentation.UI.Avatar
         [SerializeField] private Button cancelButton;
 
         private GameEngine _engine;
+        private ILocalization _loc;
         private Character _character;
         private Dictionary<string, string> _tempAvatarState;
 
@@ -28,6 +30,11 @@ namespace LifeSim.Presentation.UI.Avatar
         {
             _engine = engine;
             _character = character;
+            
+            // Find the localization service as it's not passed in
+            var uiController = FindFirstObjectByType<GameUIController>();
+            if (uiController != null) { _loc = uiController.loc; }
+
             gameObject.SetActive(true);
 
             // Initialize temporary state from character data
@@ -51,8 +58,15 @@ namespace LifeSim.Presentation.UI.Avatar
             foreach (var layerName in Database.AvatarSprites.Keys)
             {
                 var btnInstance = Instantiate(layerButtonPrefab, layerContainer);
-                // TODO: Set button text from localization
-                btnInstance.GetComponentInChildren<TMPro.TMP_Text>().text = layerName;
+                var textComponent = btnInstance.GetComponentInChildren<TMPro.TMP_Text>();
+                if (_loc != null)
+                {
+                    textComponent.text = _loc.T($"avatar.layer.{layerName}", layerName);
+                }
+                else
+                {
+                    textComponent.text = layerName;
+                }
                 btnInstance.onClick.AddListener(() => PopulateOptionsForLayer(layerName));
             }
         }
@@ -66,8 +80,15 @@ namespace LifeSim.Presentation.UI.Avatar
                 foreach (var optionName in options)
                 {
                     var btnInstance = Instantiate(optionButtonPrefab, optionContainer);
-                    // TODO: Set button text/image from optionName
-                    btnInstance.GetComponentInChildren<TMPro.TMP_Text>().text = optionName;
+                    var textComponent = btnInstance.GetComponentInChildren<TMPro.TMP_Text>();
+                    if (_loc != null)
+                    {
+                        textComponent.text = _loc.T($"avatar.option.{optionName}", optionName);
+                    }
+                    else
+                    {
+                        textComponent.text = optionName;
+                    }
                     btnInstance.onClick.AddListener(() => OnSelectOption(layerName, optionName));
                 }
             }

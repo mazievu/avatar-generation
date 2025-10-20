@@ -52,7 +52,8 @@ namespace LifeSim.Core.Engine
             if (Domain.Gameplay.PausePolicy.IsPaused(State) || State.gameOverReason != null)
                 return;
 
-            int daysToSimulate = _clock.DaysPerTick;
+            // Respect the time scale
+            int daysToSimulate = Mathf.Max(1, (int)(_clock.DaysPerTick * State.timeScale));
             for (int i = 0; i < daysToSimulate; i++)
             {
                 SimulateOneDay();
@@ -72,6 +73,27 @@ namespace LifeSim.Core.Engine
                 State.gameOverReason = "debt";
             }
 
+            Emit();
+        }
+
+        // --- Settings Methods ---
+        public void SetTimeScale(float scale)
+        {
+            State.timeScale = Mathf.Max(0, scale);
+            Emit();
+        }
+
+        public void ToggleManualPause()
+        {
+            State.isManuallyPaused = !State.isManuallyPaused;
+            Emit();
+        }
+
+        public void SwitchLanguage()
+        {
+            string newLang = State.lang == "en" ? "vi" : "en";
+            _loc.SetLanguage(newLang);
+            State.lang = newLang;
             Emit();
         }
 
@@ -178,6 +200,13 @@ namespace LifeSim.Core.Engine
             float totalCosts = cogs + tier.fixedCosts + totalSalaryCost;
 
             return Mathf.RoundToInt(revenue - totalCosts);
+        }
+
+        public int GetBusinessIncome(string instanceId)
+        {
+            var instance = State.businesses.FirstOrDefault(b => b.instanceId == instanceId);
+            if (instance == null) return 0;
+            return CalculateBusinessIncome(instance);
         }
 
         private void UpdateYearly()

@@ -12,9 +12,7 @@ namespace LifeSim.Presentation.UI
 
         public void Setup(GameLogEntry logEntry, ILocalization loc)
         {
-            string message = loc.T(logEntry.messageKey, "(Log message not found)");
-            // TODO: Implement argument formatting if messageKey supports it
-
+            string message = loc.T(logEntry.messageKey, logEntry.messageArgs.ToArray());
             logText.text = $"[Year {logEntry.year}] {logEntry.characterName}: {message}";
         }
     }

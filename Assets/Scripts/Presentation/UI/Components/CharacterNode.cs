@@ -5,6 +5,7 @@ using TMPro;
 using LifeSim.Core.Domain.Characters;
 using LifeSim.Core.Services;
 using LifeSim.Core.Data;
+using LifeSim.Presentation.UI.Avatar;
 
 namespace LifeSim.Presentation.UI
 {
@@ -13,8 +14,18 @@ namespace LifeSim.Presentation.UI
         [Header("UI References")]
         [SerializeField] private TMP_Text nameText;
         [SerializeField] private TMP_Text ageText;
-        [SerializeField] private Image avatarImage; // TODO: Hook up to a real avatar system
+        [SerializeField] private TMP_Text incomeText;
+        [SerializeField] private AgeAwareAvatarPreview avatarPreview;
+        [SerializeField] private Image genderIcon;
         [SerializeField] private Image highlightBorder;
+
+        [Header("Asset References")]
+        public Sprite maleIcon;
+        public Sprite femaleIcon;
+
+        [Header("Animation References")]
+        [SerializeField] private Animator nodeAnimator;
+        [SerializeField] private TMP_Text floatingIncomeText;
 
         public Character CharacterData { get; private set; }
 
@@ -26,10 +37,33 @@ namespace LifeSim.Presentation.UI
             nameText.text = character.name;
             int age = character.ageDays / Constants.DaysPerYear;
             ageText.text = string.Format(loc.T("ui.age"), age);
+            incomeText.text = string.Format(loc.T("ui.income"), character.monthlyIncome);
 
-            // TODO: Set avatarImage based on character's appearance data
+            if (genderIcon != null)
+            {
+                genderIcon.sprite = (character.gender == "male") ? maleIcon : femaleIcon;
+            }
 
-            // TODO: Set highlightBorder.enabled based on whether this is the player character
+            // Render avatar
+            if (avatarPreview != null)
+            {
+                avatarPreview.Render(character.GetAvatarState());
+            }
+
+            // Set highlight for player character
+            if (highlightBorder != null)
+            {
+                highlightBorder.enabled = (character.relation == "self");
+            }
+        }
+
+        public void PlayIncomeAnimation(int amount)
+        {
+            if (nodeAnimator != null && floatingIncomeText != null)
+            {
+                floatingIncomeText.text = string.Format("+{0}", amount);
+                nodeAnimator.SetTrigger("ShowIncome");
+            }
         }
     }
 }

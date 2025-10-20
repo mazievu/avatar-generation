@@ -21,7 +21,10 @@ namespace LifeSim.Core.Domain.Characters
     public class Character
     {
         public string id;
+        public string parentId; // For tree structure
         public string name;
+        public string gender; // "male" or "female"
+        public int monthlyIncome;
         public string relation = "self";   // hiển thị FamilyTree
         public bool isAlive = true;
         public int ageDays = 0;
@@ -40,5 +43,18 @@ namespace LifeSim.Core.Domain.Characters
         // Serializable workaround for Dictionary
         public List<string> avatarState_keys = new List<string>();
         public List<string> avatarState_values = new List<string>();
+
+        public Dictionary<string, string> GetAvatarState()
+        {
+            var avatarState = new Dictionary<string, string>();
+            for (int i = 0; i < avatarState_keys.Count; i++)
+            {
+                if (i < avatarState_values.Count) // Safety check
+                {
+                    avatarState[avatarState_keys[i]] = avatarState_values[i];
+                }
+            }
+            return avatarState;
+        }
     }
 }

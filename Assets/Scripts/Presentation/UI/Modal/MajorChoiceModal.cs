@@ -11,12 +11,14 @@ using LifeSim.Core.Data;
 using LifeSim.Core.Data.SO; // <-- THÊM DÒNG NÀY để nhận diện EducationSO
 using LifeSim.Core.Domain.Game;
 using LifeSim.Core.Domain.Characters; // <-- THÊM DÒNG NÀY để nhận diện Character
+using LifeSim.Presentation.UI.Avatar;
 
 namespace LifeSim.Presentation.UI
 {
     public class MajorChoiceModal : ModalBase
     {
         [SerializeField] private ComicPanel panel;
+        [SerializeField] private AgeAwareAvatarPreview avatarPreview;
         [SerializeField] private Transform listRoot;
         [SerializeField] private Button optionButtonPrefab;
         [SerializeField] private TMP_Text footerNote;
@@ -28,6 +30,11 @@ namespace LifeSim.Presentation.UI
 
         public void Refresh(GameState s)
         {
+            if (s.familyMembers.TryGetValue("me", out var me))
+            {
+                avatarPreview.Render(me.GetAvatarState());
+            }
+
             Clear(listRoot);
 
             // --- SỬA LỖI 1: LẤY DỮ LIỆU TỪ DATABASE MỚI ---

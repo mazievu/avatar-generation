@@ -7,12 +7,14 @@ using LifeSim.Core.Engine;
 using LifeSim.Core.Services;
 using LifeSim.Core.Domain.Game;
 using LifeSim.Core.Domain.Characters; // THÊM DÒNG NÀY
+using LifeSim.Presentation.UI.Avatar;
 
 namespace LifeSim.Presentation.UI
 {
     public class PromotionModal : ModalBase
     {
         [SerializeField] private ComicPanel panel;
+        [SerializeField] private AgeAwareAvatarPreview avatarPreview;
         [SerializeField] private TMP_Text txtTitle;
         [SerializeField] private TMP_Text txtBody;
         [SerializeField] private Button btnAccept;
@@ -31,6 +33,11 @@ namespace LifeSim.Presentation.UI
 
         public void Setup(string titleKey, string bodyKey, params object[] args)
         {
+            if (_engine.State.familyMembers.TryGetValue("me", out var me))
+            {
+                avatarPreview.Render(me.GetAvatarState());
+            }
+
             if (_loc == null) return;
             if (txtTitle) txtTitle.text = _loc.T(titleKey);
             if (txtBody) txtBody.text = _loc.T(bodyKey, args); // Sửa để nhận tham số
