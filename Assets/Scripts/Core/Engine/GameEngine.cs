@@ -1,16 +1,14 @@
-// FILE: Assets/Scripts/Core/Engine/GameEngine.cs
-
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using UnityEngine;
+using LifeSim.Core.Data;
+using LifeSim.Core.Data.SO;
 using LifeSim.Core.Domain.Characters;
 using LifeSim.Core.Domain.Events;
 using LifeSim.Core.Domain.Game;
 using LifeSim.Core.Services;
-using LifeSim.Core.Data;
-using LifeSim.Core.Data.SO; // THÊM DÒNG NÀY
-using System.IO;            // THÊM DÒNG NÀY
+using UnityEngine;
 
 namespace LifeSim.Core.Engine
 {
@@ -52,7 +50,6 @@ namespace LifeSim.Core.Engine
             if (Domain.Gameplay.PausePolicy.IsPaused(State) || State.gameOverReason != null)
                 return;
 
-            // Respect the time scale
             int daysToSimulate = Mathf.Max(1, (int)(_clock.DaysPerTick * State.timeScale));
             for (int i = 0; i < daysToSimulate; i++)
             {
@@ -76,7 +73,7 @@ namespace LifeSim.Core.Engine
             Emit();
         }
 
-        // --- Settings Methods ---
+        #region Settings Methods
         public void SetTimeScale(float scale)
         {
             State.timeScale = Mathf.Max(0, scale);
@@ -96,20 +93,15 @@ namespace LifeSim.Core.Engine
             State.lang = newLang;
             Emit();
         }
+        #endregion
 
         private void SimulateOneDay()
         {
             State.currentDate.day++;
 
-            if (State.eventCooldown > 0)
-            {
-                State.eventCooldown--;
-            }
+            if (State.eventCooldown > 0) { State.eventCooldown--; }
 
-            if (State.currentDate.day % 30 == 0)
-            {
-                UpdateMonthly();
-            }
+            if (State.currentDate.day % 30 == 0) { UpdateMonthly(); }
 
             if (State.currentDate.day >= 365)
             {
@@ -128,6 +120,8 @@ namespace LifeSim.Core.Engine
 
         private void UpdateMonthly()
         {
+            MaybeGenerateJobOffer();
+
             int totalIncome = 0;
             int totalExpenses = 0;
 
@@ -141,7 +135,31 @@ namespace LifeSim.Core.Engine
                     {
                         if (character.careerLevel >= 0 && character.careerLevel < careerTrack.levels.Count)
                         {
-                            totalIncome += careerTrack.levels[character.careerLevel].salaryPerMonth;
+                            var levelInfo = careerTrack.levels[character.careerLevel];
+                            int baseSalary = levelInfo.salaryPerMonth;
+                            int finalSalary = baseSalary;
+
+                            if (!string.IsNullOrEmpty(character.companyId) && Database.Companies.TryGetValue(character.companyId, out var company))
+                            {
+                                finalSalary = (int)(baseSalary * company.salaryMultiplier);
+                                int requiredIQ = (int)(careerTrack.requiredIq * company.requiredStatMultiplier);
+                                int requiredEQ = (int)(careerTrack.requiredEq * company.requiredStatMultiplier);
+                                int statBonus = (character.stats.iq - requiredIQ) + (character.stats.eq - requiredEQ);
+                                finalSalary += statBonus * 10;
+                            }
+
+                            if (character.isIntern)
+                            {
+                                finalSalary = (int)(finalSalary * 0.25f);
+                                character.stats.skill += 5;
+
+                                int requiredSkill = (int)(levelInfo.requiredSkill * (Database.Companies.TryGetValue(character.companyId, out var c) ? c.requiredStatMultiplier : 1f));
+                                if (character.stats.skill >= requiredSkill)
+                                {
+                                    character.isIntern = false;
+                                }
+                            }
+                            totalIncome += finalSalary;
                         }
                     }
                 }
@@ -149,7 +167,6 @@ namespace LifeSim.Core.Engine
                 {
                     totalIncome += Constants.RETIREMENT_PENSION_PER_MONTH;
                 }
-
                 totalExpenses += Constants.GetCostOfLiving(character.lifePhase);
             }
 
@@ -163,11 +180,332 @@ namespace LifeSim.Core.Engine
             State.familyIncomePerMonth = netChange;
         }
 
+        private void UpdateYearly()
+        {
+            State.characterEventCount.Clear();
+            foreach (var character in State.familyMembers.Values)
+            {
+                if (!character.isAlive) continue;
+                int age = character.ageDays / Constants.DaysPerYear;
+                switch (age)
+                {
+                    case 6: State.pendingSchoolChoice.Add(new PendingSchoolChoice { characterId = character.id, newPhase = "ElementarySchool" }); break;
+                    case 12:
+                        State.pendingSchoolChoice.Add(new PendingSchoolChoice { characterId = character.id, newPhase = "MiddleSchool" });
+                        State.pendingClubChoice = new PendingClubChoice { characterId = character.id };
+                        break;
+                    case 16: State.pendingSchoolChoice.Add(new PendingSchoolChoice { characterId = character.id, newPhase = "HighSchool" }); break;
+                    case 19: State.pendingUniversityChoice.Add(new PendingUniversityChoice { characterId = character.id }); break;
+                    case 60:
+                        if (character.status != CharacterStatus.Retired) { character.status = CharacterStatus.Retired; }
+                        break;
+                }
+            }
+        }
+
+        private void UpdateLifeStage(Character character)
+        {
+            int age = character.ageDays / Constants.DaysPerYear;
+            LifePhase newPhase;
+            if (age >= 60) { newPhase = LifePhase.Retired; }
+            else if (age >= 23) { newPhase = LifePhase.WorkingLife; }
+            else if (age >= 19) { newPhase = LifePhase.University; }
+            else if (age >= 16) { newPhase = LifePhase.HighSchool; }
+            else if (age >= 12) { newPhase = LifePhase.MiddleSchool; }
+            else if (age >= 6) { newPhase = LifePhase.ElementarySchool; }
+            else { newPhase = LifePhase.Newborn; }
+            if (newPhase != character.lifePhase) { character.lifePhase = newPhase; }
+        }
+
+        private void MaybeTriggerAmbientEvent()
+        {
+            if (State.eventCooldown > 0) return;
+            if (State.activeEvent != null) return;
+            if (State.HasPendingChoices()) return;
+
+            var potentialSubjects = State.familyMembers.Values.Where(c => c.isAlive).ToList();
+            if (potentialSubjects.Count == 0) return;
+
+            var subject = potentialSubjects[_rng.NextInt(0, potentialSubjects.Count - 1)];
+            int eventsThisYear = State.characterEventCount.TryGetValue(subject.id, out var count) ? count : 0;
+            int subjectAge = subject.ageDays / Constants.DaysPerYear;
+            if (eventsThisYear >= 2 && subjectAge > 5) return;
+
+            var possibleEvents = Database.Events.Values.Where(e =>
+                e.eventType == EventSO.EventType.Random &&
+                e.lifePhase == subject.lifePhase &&
+                (string.IsNullOrEmpty(e.requiredClubId) || e.requiredClubId == subject.clubId) &&
+                !State.triggeredOneTimeEvents.Contains(e.name)
+            ).ToList();
+
+            if (possibleEvents.Count > 0)
+            {
+                var eventSO = possibleEvents[_rng.NextInt(0, possibleEvents.Count - 1)];
+                var gameEvent = new GameEvent
+                {
+                    id = eventSO.name,
+                    characterId = subject.id,
+                    titleKey = eventSO.titleKey,
+                    bodyKey = eventSO.descriptionKey,
+                    choices = eventSO.choices.Select(c => new Domain.Events.EventChoice { id = c.choiceId, labelKey = c.choiceKey }).ToList()
+                };
+                State.activeEvent = gameEvent;
+                State.eventCooldown = _rng.NextInt(15, 45);
+                State.characterEventCount[subject.id] = eventsThisYear + 1;
+            }
+        }
+
+        private void MaybeGenerateJobOffer()
+        {
+            if (State.HasPendingChoices() || State.activeEvent != null) return;
+
+            var character = State.familyMembers.Values.FirstOrDefault(c => c.isAlive && !string.IsNullOrEmpty(c.careerTrackId) && c.status == CharacterStatus.Idle);
+            if (character == null) return;
+
+            if (!Database.Careers.TryGetValue(character.careerTrackId, out var careerSO)) return;
+
+            var eligibleTiers = careerSO.companyTiers;
+            if (character.seekingLowerTier) { eligibleTiers = eligibleTiers.Where(t => t <= 2).ToList(); }
+            if (eligibleTiers.Count == 0) return;
+
+            var possibleCompanies = Database.Companies.Values.Where(c => eligibleTiers.Contains(c.prestigeTier)).ToList();
+            if (possibleCompanies.Count == 0) return;
+
+            var company = possibleCompanies[_rng.NextInt(0, possibleCompanies.Count - 1)];
+
+            State.pendingJobOffer = new JobOffer
+            {
+                characterId = character.id,
+                careerId = careerSO.name,
+                companyId = company.name,
+                successChance = CalculateSuccessChance(character, careerSO, company)
+            };
+        }
+
+        private int CalculateSuccessChance(Character character, CareerSO career, CompanySO company)
+        {
+            int requiredIQ = (int)(career.requiredIq * company.requiredStatMultiplier);
+            int requiredEQ = (int)(career.requiredEq * company.requiredStatMultiplier);
+            int requiredSkill = (int)(career.levels[0].requiredSkill * company.requiredStatMultiplier);
+            
+            int requiredEducationTier = 0;
+            if (!string.IsNullOrEmpty(company.requiredEducationId) && Database.EducationOptions.TryGetValue(company.requiredEducationId, out var eduSO)) { requiredEducationTier = eduSO.educationTier; }
+
+            int characterEducationTier = 0;
+            if (!string.IsNullOrEmpty(character.educationMajorId) && Database.EducationOptions.TryGetValue(character.educationMajorId, out var charEduSO)) { characterEducationTier = charEduSO.educationTier; }
+
+            if (character.stats.iq >= requiredIQ && character.stats.eq >= requiredEQ && character.stats.skill >= requiredSkill && characterEducationTier >= requiredEducationTier)
+            {
+                return 100;
+            }
+
+            int baseChance = 50;
+            int statBonus = (character.stats.iq - requiredIQ) + (character.stats.eq - requiredEQ) + (character.stats.skill - requiredSkill);
+            int educationBonus = (characterEducationTier - requiredEducationTier) * 10;
+
+            return Mathf.Clamp(baseChance + statBonus + educationBonus, 5, 95);
+        }
+
+        #region Player Choices
+        public void HandleEventChoice(string choiceId)
+        {
+            if (State.activeEvent == null) return;
+            if (!Database.Events.TryGetValue(State.activeEvent.id, out var eventSO)) { State.activeEvent = null; return; }
+            var choice = eventSO.choices.FirstOrDefault(c => c.choiceId == choiceId);
+            if (choice == null) { State.activeEvent = null; return; }
+
+            if (State.familyMembers.TryGetValue(State.activeEvent.characterId, out var character))
+            {
+                foreach (var effect in choice.effects)
+                {
+                    switch (effect.type)
+                    {
+                        case EventSO.EffectType.StatChange: ApplyStatChange(character, effect.targetStat, effect.value); break;
+                        case EventSO.EffectType.FundChange: State.familyFund += effect.value; break;
+                    }
+                    if (!string.IsNullOrEmpty(effect.logKey))
+                    {
+                        State.GameLog.Insert(0, new GameLogEntry { year = State.currentDate.year, characterName = character.name, messageKey = effect.logKey });
+                    }
+                }
+            }
+            if (eventSO.eventType != EventSO.EventType.Random) { State.triggeredOneTimeEvents.Add(eventSO.name); }
+            State.activeEvent = null;
+            Emit();
+        }
+
+        public void AcceptPromotion(string characterId)
+        {
+            if (State.familyMembers.TryGetValue(characterId, out var character))
+            {
+                character.careerLevel++;
+            }
+            State.pendingPromotion = null;
+            Emit();
+        }
+
+        public void DeclinePromotion(string characterId)
+        {
+            State.pendingPromotion = null;
+            Emit();
+        }
+
+        public void ChooseCareer(string characterId, string careerId)
+        {
+            if (State.familyMembers.TryGetValue(characterId, out var character) && Database.Careers.TryGetValue(careerId, out var career))
+            {
+                if (character.stats.iq < career.requiredIq || character.stats.eq < career.requiredEq)
+                {
+                    State.pendingUnderqualifiedChoice = new PendingUnderqualifiedChoice { characterId = characterId, careerTrackKey = careerId };
+                }
+                else
+                {
+                    character.careerTrackId = careerId;
+                    character.careerLevel = 0;
+                    character.status = CharacterStatus.Working;
+                }
+            }
+            State.pendingCareerChoice = null;
+            Emit();
+        }
+
+        public void ChooseSchool(string characterId, string schoolId)
+        {
+            State.pendingSchoolChoice.RemoveAll(c => c.characterId == characterId);
+            Emit();
+        }
+
+        public void ChooseUniversity(string characterId, string universityId)
+        {
+            State.pendingUniversityChoice.RemoveAll(c => c.characterId == characterId);
+            Emit();
+        }
+
+        public void ChooseMajor(string characterId, string majorId)
+        {
+            if (State.familyMembers.TryGetValue(characterId, out var character))
+            {
+                character.educationMajorId = majorId;
+            }
+            State.pendingMajorChoice = null;
+            Emit();
+        }
+
+        public void TakeLoan(int amount)
+        {
+            State.familyFund += amount;
+            State.pendingLoanChoice = null;
+            Emit();
+        }
+
+        public void DeclineLoan()
+        {
+            State.pendingLoanChoice = null;
+            Emit();
+        }
+
+        public void JoinClub(string characterId, string clubId)
+        {
+            if (State.familyMembers.TryGetValue(characterId, out var character))
+            {
+                character.clubId = clubId;
+            }
+            State.pendingClubChoice = null;
+            Emit();
+        }
+
+        public void DeclineClubs(string characterId)
+        {
+            State.pendingClubChoice = null;
+            Emit();
+        }
+        #endregion
+
+        #region Job Application
+        public void ApplyForJob()
+        {
+            var offer = State.pendingJobOffer;
+            if (offer == null) return;
+
+            bool success = _rng.NextInt(0, 100) < offer.successChance;
+
+            if (success)
+            {
+                if (State.familyMembers.TryGetValue(offer.characterId, out var character))
+                {
+                    character.careerTrackId = offer.careerId;
+                    character.companyId = offer.companyId;
+                    character.careerLevel = 0;
+                    character.status = CharacterStatus.Working;
+                    character.isIntern = false;
+                    character.seekingLowerTier = false;
+                }
+            }
+            else
+            {
+                State.pendingRejection = new LifeSim.Core.Domain.Game.RejectionData { characterId = offer.characterId, careerId = offer.careerId, companyId = offer.companyId };
+            }
+
+            State.pendingJobOffer = null;
+            Emit();
+        }
+
+        public void IgnoreJobOffer()
+        {
+            State.pendingJobOffer = null;
+            Emit();
+        }
+
+        public void HandleRejection_GiveUp()
+        {
+            State.pendingRejection = null;
+            Emit();
+        }
+
+        public void HandleRejection_Internship()
+        {
+            var rejection = State.pendingRejection;
+            if (rejection == null) return;
+
+            if (State.familyMembers.TryGetValue(rejection.characterId, out var character))
+            {
+                character.careerTrackId = rejection.careerId;
+                character.companyId = rejection.companyId;
+                character.careerLevel = 0;
+                character.status = CharacterStatus.Working;
+                character.isIntern = true;
+                character.seekingLowerTier = false;
+            }
+            State.pendingRejection = null;
+            Emit();
+        }
+
+        public void HandleRejection_SeekLower()
+        {
+            var rejection = State.pendingRejection;
+            if (rejection == null) return;
+
+            if (State.familyMembers.TryGetValue(rejection.characterId, out var character))
+            {
+                character.seekingLowerTier = true;
+            }
+            State.pendingRejection = null;
+            Emit();
+        }
+        #endregion
+
+        private void ApplyStatChange(Character character, string stat, int value)
+        {
+            if (stat == "happiness") character.stats.happiness = Mathf.Clamp(character.stats.happiness + value, Constants.MinStat, Constants.MaxStat);
+            else if (stat == "health") character.stats.health = Mathf.Clamp(character.stats.health + value, Constants.MinStat, Constants.MaxStat);
+            else if (stat == "iq") character.stats.iq = Mathf.Clamp(character.stats.iq + value, Constants.MinStat, Constants.MaxIQ);
+            else if (stat == "eq") character.stats.eq = Mathf.Clamp(character.stats.eq + value, Constants.MinStat, Constants.MaxStat);
+            else if (stat == "skill") character.stats.skill = Mathf.Clamp(character.stats.skill + value, Constants.MinStat, Constants.MaxStat);
+        }
+
         private int CalculateBusinessIncome(BusinessInstance instance)
         {
-            if (!Database.Businesses.TryGetValue(instance.businessId, out var businessSO))
-                return 0;
-
+            if (!Database.Businesses.TryGetValue(instance.businessId, out var businessSO)) return 0;
             var tier = businessSO.tiers.FirstOrDefault(t => t.tierLevel == instance.tier);
             if (tier == null) return 0;
 
@@ -177,9 +515,7 @@ namespace LifeSim.Core.Engine
 
             foreach (var employeeId in instance.employeeIds)
             {
-                if (string.IsNullOrEmpty(employeeId))
-                    continue;
-
+                if (string.IsNullOrEmpty(employeeId)) continue;
                 employeeCount++;
                 if (employeeId == "robot")
                 {
@@ -195,7 +531,6 @@ namespace LifeSim.Core.Engine
 
             float avgSkill = employeeCount > 0 ? totalSkill / employeeCount : 0;
             float revenue = tier.baseRevenue * (1 + avgSkill / 100f);
-
             float cogs = revenue * tier.costOfGoodsSoldPercent;
             float totalCosts = cogs + tier.fixedCosts + totalSalaryCost;
 
@@ -209,152 +544,9 @@ namespace LifeSim.Core.Engine
             return CalculateBusinessIncome(instance);
         }
 
-        private void UpdateYearly()
-        {
-            State.characterEventCount.Clear();
-
-            foreach (var character in State.familyMembers.Values)
-            {
-                if (!character.isAlive) continue;
-
-                int age = character.ageDays / Constants.DaysPerYear;
-
-                switch (age)
-                {
-                    case 6: State.pendingSchoolChoice.Add(new PendingSchoolChoice { characterId = character.id, newPhase = "ElementarySchool" }); break;
-                    case 12: State.pendingSchoolChoice.Add(new PendingSchoolChoice { characterId = character.id, newPhase = "MiddleSchool" }); break;
-                    case 16: State.pendingSchoolChoice.Add(new PendingSchoolChoice { characterId = character.id, newPhase = "HighSchool" }); break;
-                    case 19: State.pendingUniversityChoice.Add(new PendingUniversityChoice { characterId = character.id }); break;
-                    case 60:
-                        if (character.status != CharacterStatus.Retired) { character.status = CharacterStatus.Retired; }
-                        break;
-                }
-            }
-        }
-
-        private void UpdateLifeStage(Character character)
-        {
-            int age = character.ageDays / Constants.DaysPerYear;
-            LifePhase newPhase;
-
-            if (age >= 60) { newPhase = LifePhase.Retired; }
-            else if (age >= 23) { newPhase = LifePhase.WorkingLife; }
-            else if (age >= 19) { newPhase = LifePhase.University; }
-            else if (age >= 16) { newPhase = LifePhase.HighSchool; }
-            else if (age >= 12) { newPhase = LifePhase.MiddleSchool; }
-            else if (age >= 6) { newPhase = LifePhase.ElementarySchool; }
-            else { newPhase = LifePhase.Newborn; }
-
-            if (newPhase != character.lifePhase) { character.lifePhase = newPhase; }
-        }
-
-        private void MaybeTriggerAmbientEvent()
-        {
-            if (State.eventCooldown > 0) return;
-            if (State.activeEvent != null) return;
-            if (State.HasPendingChoices()) return;
-
-            var potentialSubjects = State.familyMembers.Values.Where(c => c.isAlive).ToList();
-            if (potentialSubjects.Count == 0) return;
-
-            var subject = potentialSubjects[_rng.NextInt(0, potentialSubjects.Count - 1)];
-
-            int eventsThisYear = State.characterEventCount.TryGetValue(subject.id, out var count) ? count : 0;
-            
-            // --- SỬA LỖI CS0019 TẠI ĐÂY ---
-            // Gọi phương thức hoặc thuộc tính đúng để lấy tuổi
-            int subjectAge = subject.ageDays / Constants.DaysPerYear;
-            if (eventsThisYear >= 2 && subjectAge > 5) return; // Ví dụ: kiểm tra tuổi thật
-            
-            var possibleEvents = Database.Events.Values.Where(e =>
-                e.eventType == EventSO.EventType.Random &&
-                e.lifePhase == subject.lifePhase &&
-                !State.triggeredOneTimeEvents.Contains(e.name)
-            ).ToList();
-
-            if (possibleEvents.Count > 0)
-            {
-                var eventSO = possibleEvents[_rng.NextInt(0, possibleEvents.Count - 1)];
-                var gameEvent = new GameEvent
-                {
-                    id = eventSO.name,
-                    characterId = subject.id,
-                    titleKey = eventSO.titleKey,
-                    bodyKey = eventSO.descriptionKey,
-                    choices = eventSO.choices.Select(c => new Domain.Events.EventChoice { id = c.choiceId, labelKey = c.choiceKey }).ToList()
-                };
-
-                State.activeEvent = gameEvent;
-                State.eventCooldown = _rng.NextInt(15, 45);
-                State.characterEventCount[subject.id] = eventsThisYear + 1;
-            }
-        }
-
-        public void HandleEventChoice(string choiceId)
-        {
-            if (State.activeEvent == null) return;
-
-            if (!Database.Events.TryGetValue(State.activeEvent.id, out var eventSO))
-            {
-                State.activeEvent = null;
-                return;
-            }
-
-            var choice = eventSO.choices.FirstOrDefault(c => c.choiceId == choiceId);
-            if (choice == null) 
-            {
-                State.activeEvent = null;
-                return;
-            }
-
-            if (State.familyMembers.TryGetValue(State.activeEvent.characterId, out var character))
-            {
-                foreach (var effect in choice.effects)
-                {
-                    switch (effect.type)
-                    {
-                        case Data.SO.EventSO.EffectType.StatChange:
-                            ApplyStatChange(character, effect.targetStat, effect.value);
-                            break;
-                        case Data.SO.EventSO.EffectType.FundChange:
-                            State.familyFund += effect.value;
-                            break;
-                    }
-                    if (!string.IsNullOrEmpty(effect.logKey))
-                    {
-                        // --- SỬA LỖI CS1061 `gameLog` TẠI ĐÂY ---
-                        // Giả sử GameState.cs đã được thêm `public List<GameLogEntry> GameLog`
-                        State.GameLog.Insert(0, new GameLogEntry 
-                        {
-                            year = State.currentDate.year,
-                            characterName = character.name,
-                            messageKey = effect.logKey
-                        });
-                    }
-                }
-            }
-
-            if (eventSO.eventType != Data.SO.EventSO.EventType.Random)
-            {
-                State.triggeredOneTimeEvents.Add(eventSO.name);
-            }
-
-            State.activeEvent = null;
-        }
-
-        private void ApplyStatChange(Character character, string stat, int value)
-        {
-            if (stat == "happiness") character.stats.happiness = Mathf.Clamp(character.stats.happiness + value, Constants.MinStat, Constants.MaxStat);
-            else if (stat == "health") character.stats.health = Mathf.Clamp(character.stats.health + value, Constants.MinStat, Constants.MaxStat);
-            else if (stat == "iq") character.stats.iq = Mathf.Clamp(character.stats.iq + value, Constants.MinStat, Constants.MaxIQ);
-            else if (stat == "eq") character.stats.eq = Mathf.Clamp(character.stats.eq + value, Constants.MinStat, Constants.MaxStat);
-            else if (stat == "skill") character.stats.skill = Mathf.Clamp(character.stats.skill + value, Constants.MinStat, Constants.MaxStat);
-        }
-
         public void PurchaseAsset(string assetId)
         {
             if (State.assets.Contains(assetId)) return;
-
             if (Database.Assets.TryGetValue(assetId, out var assetSO))
             {
                 if (State.familyFund >= assetSO.price)
@@ -367,8 +559,7 @@ namespace LifeSim.Core.Engine
 
         public void ClaimFeature(string featureId)
         {
-            if (!State.unlockedFeatures.Contains(featureId))
-                State.unlockedFeatures.Add(featureId);
+            if (!State.unlockedFeatures.Contains(featureId)) State.unlockedFeatures.Add(featureId);
             Emit();
         }
 
@@ -396,7 +587,6 @@ namespace LifeSim.Core.Engine
         {
             var instance = State.businesses.FirstOrDefault(b => b.instanceId == instanceId);
             if (instance == null) return;
-
             if (!Database.Businesses.TryGetValue(instance.businessId, out var businessSO)) return;
             var nextTier = businessSO.tiers.FirstOrDefault(t => t.tierLevel == instance.tier + 1);
             if (nextTier == null) return;
@@ -440,16 +630,10 @@ namespace LifeSim.Core.Engine
         }
 
         private void Emit() => OnStateChanged?.Invoke(State);
-
-        public void Log(string message)
-        {
-            OnLog?.Invoke(message);
-        }  
-        
+        public void Log(string message) { OnLog?.Invoke(message); }
         public void Save()
         {
             if (State == null) return;
-
             string json = JsonUtility.ToJson(State);
             string path = Path.Combine(Application.persistentDataPath, "savegame.json");
             File.WriteAllText(path, json);

@@ -16,6 +16,10 @@ namespace LifeSim.Core.Data.SO
         public int requiredEq;
         public string requiredMajorId; // e.g., "tech", "medicine"
 
+        [Header("Hiring Companies")]
+        [Tooltip("A list of prestige tiers (e.g., 1, 2, 3) of companies that can offer this career.")]
+        public List<int> companyTiers;
+
         [Header("Career Levels")]
         public List<CareerLevel> levels;
 

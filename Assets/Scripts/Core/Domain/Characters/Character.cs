@@ -32,6 +32,9 @@ namespace LifeSim.Core.Domain.Characters
 
         public LifePhase lifePhase = LifePhase.Newborn;
         public CharacterStatus status = CharacterStatus.Idle;
+        public bool isIntern = false;
+        public bool seekingLowerTier = false;
+        public string companyId = null;
 
         public CharacterStats stats = new CharacterStats();
 
@@ -39,6 +42,7 @@ namespace LifeSim.Core.Domain.Characters
         public string educationMajorId = null;
         public string careerTrackId = null;
         public int careerLevel = 0;
+        public string clubId = null;
 
         // Serializable workaround for Dictionary
         public List<string> avatarState_keys = new List<string>();

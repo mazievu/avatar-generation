@@ -21,5 +21,9 @@ namespace LifeSim.Core.Data.SO
         public int eqBoost;
         public int healthBoost;
         public int happinessBoost;
+
+        [Header("Path Suggestions")]
+        [Tooltip("The ID of the University Major this club recommends.")]
+        public string recommendedMajorId;
     }
 }

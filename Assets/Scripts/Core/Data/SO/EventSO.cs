@@ -12,6 +12,7 @@ namespace LifeSim.Core.Data.SO
         [Header("Event Metadata")]
         public EventType eventType;
         public LifePhase lifePhase;
+        public string requiredClubId; // If not empty, this event can only trigger for members of this club.
         public List<string> triggerConditions; // Could be complex conditions parsed at runtime
 
         [Header("Content")]

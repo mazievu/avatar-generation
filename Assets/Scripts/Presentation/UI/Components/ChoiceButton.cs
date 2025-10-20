@@ -34,5 +34,13 @@ namespace LifeSim.Presentation.UI
                 engine.HandleEventChoice(choice.id);
             });
         }
+
+        public void Setup(ChoiceOptionData optionData)
+        {
+            buttonText.text = optionData.Text;
+            _button.interactable = optionData.IsInteractable;
+            _button.onClick.RemoveAllListeners();
+            _button.onClick.AddListener(() => optionData.OnClick?.Invoke());
+        }
     }
 }

@@ -7,7 +7,7 @@ namespace LifeSim.Core.Domain.Game
     [Serializable]
     public class GameDate
     {
-        public int day = 0;   // absolute day from start
+        public int day = 0;
         public int year = 2000;
     }
 
@@ -24,7 +24,7 @@ namespace LifeSim.Core.Domain.Game
     public class PendingSchoolChoice
     {
         public string characterId;
-        public string newPhase; // e.g., "elementary", "highschool"
+        public string newPhase;
     }
 
     [Serializable]
@@ -37,14 +37,14 @@ namespace LifeSim.Core.Domain.Game
     public class PendingMajorChoice
     {
         public string characterId;
-        public List<string> options = new List<string>(); // major keys
+        public List<string> options = new List<string>();
     }
 
     [Serializable]
     public class PendingCareerChoice
     {
         public string characterId;
-        public List<string> options = new List<string>(); // career track keys
+        public List<string> options = new List<string>();
     }
 
     [Serializable]
@@ -65,7 +65,24 @@ namespace LifeSim.Core.Domain.Game
     public class PendingClubChoice
     {
         public string characterId;
-        public List<string> options = new List<string>(); // club ids
+        public List<string> options = new List<string>();
+    }
+
+    [Serializable]
+    public class JobOffer
+    {
+        public string characterId;
+        public string companyId;
+        public string careerId;
+        public int successChance;
+    }
+
+    [Serializable]
+    public class RejectionData
+    {
+        public string characterId;
+        public string companyId;
+        public string careerId;
     }
 
     [Serializable]
@@ -95,6 +112,8 @@ namespace LifeSim.Core.Domain.Game
         public PendingClubChoice pendingClubChoice = null;
         public (int amount, int termYears)? pendingLoanChoice = null;
         public PendingPromotion pendingPromotion = null;
+        public JobOffer pendingJobOffer = null;
+        public RejectionData pendingRejection = null;
 
         public LifeSim.Core.Domain.Events.GameEvent activeEvent = null;
         public Queue<LifeSim.Core.Domain.Events.GameEvent> eventQueue = new Queue<LifeSim.Core.Domain.Events.GameEvent>();
@@ -102,7 +121,7 @@ namespace LifeSim.Core.Domain.Game
         public Dictionary<string, int> characterEventCount = new Dictionary<string, int>();
         public List<string> triggeredOneTimeEvents = new List<string>();
 
-        public string gameOverReason = null; // null means playing
+        public string gameOverReason = null;
         public GameDate currentDate = new GameDate();
 
         public string lang = "en";
@@ -118,7 +137,9 @@ namespace LifeSim.Core.Domain.Game
                    pendingUnderqualifiedChoice != null ||
                    pendingClubChoice != null ||
                    pendingLoanChoice != null ||
-                   pendingPromotion != null;
+                   pendingPromotion != null ||
+                   pendingJobOffer != null ||
+                   pendingRejection != null;
         }
         public List<GameLogEntry> GameLog = new List<GameLogEntry>();
     }
